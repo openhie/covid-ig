@@ -1,0 +1,33 @@
+# ╭──────────────────────────────────────ImplementationGuide───────────────────────────────────────╮
+# │  The properties below are used to create the ImplementationGuide resource. For a list of       │
+# │  supported properties, see: https://fshschool.org/sushi/configuration/                         │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+id: who.cr.covid19
+canonical: http://who.int/fhir/cr/covid19
+name: WHO-CR-COVID19
+status: draft
+version: 0.1.0
+fhirVersion: 4.0.1
+copyrightYear: 2020+
+releaseLabel: ci-build
+title: "WHO Case Reporting for COVID-19 Surveillance"
+# description: 
+# license: CC0-1.0
+# publisher:
+#   name: HL7 International - US Realm Steering Committee
+#   url: http://www.hl7.org/Special/committees/usrealm/index.cfm
+#   email: usrsc@lists.HL7.org
+dependencies:
+     hl7.fhir.us.core: current
+
+# ╭─────────────────────────────────────────────ig.ini─────────────────────────────────────────────╮
+# │  To use a provided ig-data/ig.ini file, delete the "template" property below.                  │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+template: fhir.base.template#current
+
+# ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
+# │  To use a provided ig-data/input/includes/menu.xml file, delete the "menu" property below.     │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+menu:
+  Home: index.html
+  Artifacts: artifacts.html
