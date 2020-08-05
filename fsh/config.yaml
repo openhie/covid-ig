@@ -3,22 +3,26 @@
 # │  supported properties, see: https://fshschool.org/sushi/configuration/                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: who.cr.covid19
-canonical: http://who.int/fhir/cr/covid19
-name: WHO-CR-COVID19
+canonical: http://www.example.com/fhir/cr/covid19
+name: WhoCrCovid19
 status: draft
 version: 0.1.0
 fhirVersion: 4.0.1
+# copyright:
 copyrightYear: 2020+
 releaseLabel: ci-build
 title: "WHO Case Reporting for COVID-19 Surveillance"
 # description: 
 # license: CC0-1.0
-# publisher:
-#   name: HL7 International - US Realm Steering Committee
-#   url: http://www.hl7.org/Special/committees/usrealm/index.cfm
-#   email: usrsc@lists.HL7.org
+publisher:
+  name: World Health Organization
+  url: http://www.example.com
+#   email:
+# contact:
+# jurisdiction: http://unstats.un.org/unsd/methods/m49/m49.htm#001
+# experimental: true
 dependencies:
-     hl7.fhir.us.core: current
+  hl7.fhir.us.core: current
 
 # ╭─────────────────────────────────────────────ig.ini─────────────────────────────────────────────╮
 # │  To use a provided ig-data/ig.ini file, delete the "template" property below.                  │

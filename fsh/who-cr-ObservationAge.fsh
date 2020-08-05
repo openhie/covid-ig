@@ -1,4 +1,3 @@
-
 // Replicates age-1 invariant on Quantity data type from FHIR R4
 Invariant:      age-1
 Description:    "There SHALL be a code if there is a value and it SHALL be an expression of time.  
@@ -8,8 +7,9 @@ Severity:       #error
 XPath:          "(f:code or not(f:value)) and (not(exists(f:system)) or f:system/@value='http://unitsofmeasure.org') and (not(f:value/@value) or f:value/@value >=0)"
 
 
-Profile: WhoCrObservationAge
-Parent: Observation
+Profile:    WhoCrObservationAge
+Parent:     Observation
+Description:    "WHO Case Reporting Patient Age Observation"
 * subject only Reference(WhoCrPatient) 
 * subject 1..1
 * effectiveDateTime 1..1
