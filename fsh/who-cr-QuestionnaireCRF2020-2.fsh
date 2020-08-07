@@ -84,10 +84,10 @@ Description: "TODO"
 * item[4].item[1].linkId  = "patcourse_asymp"  //TODO: variable name/short label is opposite to meaning of question
 * item[4].item[1].text    = "Any symptoms* or signs at time of specimen collection that resulted in first laboratory confirmation?"
 * item[4].item[1].type    = #choice
-//* item[4].item[1].answerValueSet = Canonical(WhoCrValueSetYesNoUnk)
-* item[4].item[1].answerOption[0].valueCoding = http://terminology.hl7.org/CodeSystem/v2-0136#N "No (i.e., asymptomatic)"
-* item[4].item[1].answerOption[1].valueCoding = http://terminology.hl7.org/CodeSystem/v2-0136#Y "Yes"
-* item[4].item[1].answerOption[2].valueCoding = http://terminology.hl7.org/CodeSystem/data-absent-reason#unknown "Unknown"
+* item[4].item[1].answerValueSet = Canonical(WhoCrValueSetYesNoUnk)
+// * item[4].item[1].answerOption[0].valueCoding = http://terminology.hl7.org/CodeSystem/v2-0136#N // "No (i.e., asymptomatic)"
+// * item[4].item[1].answerOption[1].valueCoding = http://terminology.hl7.org/CodeSystem/v2-0136#Y // "Yes"
+// * item[4].item[1].answerOption[2].valueCoding = http://terminology.hl7.org/CodeSystem/data-absent-reason#unknown // "Unknown"
 
 * item[4].item[1].item[0].linkId  = "patcourse_dateonset"  
 * item[4].item[1].item[0].text    = "Date of onset of symptoms:"
@@ -321,9 +321,10 @@ Description: "TODO"
 * item[6].item[2].linkId    = "outcome_asymp"
 * item[6].item[2].text      = "If case was asymptomatic at time of specimen collection resulting in first laboratory confirmation, did the case develop any symptoms or signs at any time prior to discharge or death:"
 * item[6].item[2].type      = #choice
-* item[6].item[2].answerOption[0].valueCoding = http://terminology.hl7.org/CodeSystem/v2-0136#N "No (i.e., case remains asymptomatic)"
-* item[6].item[2].answerOption[1].valueCoding = http://terminology.hl7.org/CodeSystem/v2-0136#Y "Yes, asymptomatic case (as previously reported) developed symptoms and/or signs of illness"
-* item[6].item[2].answerOption[2].valueCoding = http://terminology.hl7.org/CodeSystem/data-absent-reason#unknown "Unknown"
+//* item[6].item[2].answerValueSet = Canonical(WhoCrValueSetYesNoUnk)
+* item[6].item[2].answerOption[0].valueCoding = http://terminology.hl7.org/CodeSystem/v2-0136#N // "No (i.e., case remains asymptomatic)"
+* item[6].item[2].answerOption[1].valueCoding = http://terminology.hl7.org/CodeSystem/v2-0136#Y // "Yes, asymptomatic case (as previously reported) developed symptoms and/or signs of illness"
+* item[6].item[2].answerOption[2].valueCoding = http://terminology.hl7.org/CodeSystem/data-absent-reason#unknown // "Unknown"
 
 * item[6].item[3].linkId    = "outcome_asymp_date"
 * item[6].item[3].text      = "Date of onset of symptoms/signs of illness:"
