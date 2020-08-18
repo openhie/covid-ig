@@ -35,3 +35,11 @@ template: fhir.base.template#current
 menu:
   Home: index.html
   Artifacts: artifacts.html
+
+#resources:
+#  StructureDefinition/CRSurveillance:
+#    name: CR Surveillance
+#    description: "TODO too"    
+  # StructureDefinition/oncology-AverageCEP17SignalsPerCell-model:
+  #   name: oncology-AverageCEP17SignalsPerCell-model
+  #   description: "TODO too"    

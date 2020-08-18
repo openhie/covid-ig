@@ -1,20 +1,24 @@
 Instance: WhoCrQuestionnaireCovid19Surveillance
 InstanceOf: Questionnaire
-Usage: #definition
 Description: "TODO"
+Title: "Revised case report form for Confirmed Novel Coronavirus COVID-19"
+Usage: #definition
+
+* insert PublisherContext
 * name = "WhoCrQuestionnaireCovid19Surveillance"
-* title = "Revised case report form for Confirmed Novel Coronavirus COVID-1"
 * version = "2020.2"
 * subjectType = #Patient
-* status = #draft
-* experimental = true
-* publisher = "World Health Organization"
 * url = "http://who.int/fhir/cr/Covid19SurveillanceCRF"
+//* language = "en"
+
+// TODO: review SDC supplemental profiles (http://build.fhir.org/ig/HL7/sdc/intro.html)
+
 
 * item[0].linkId    = "report_date"
 * item[0].text    = "Date of reporting to national health authority:"
-// * item[0].type    = #date
-* item[0].type    = #string
+* item[0].type    = #date
+// * item[0].definition    = Canonical(WhoCrDataDictionary)
+//* item[0].type    = #string
 
 * item[1].linkId  = "report_country"
 * item[1].text    = "Reporting country:"
