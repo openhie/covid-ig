@@ -8,3 +8,6 @@ RuleSet: PublisherContext
 * contact[0].telecom[0].use = #home
 * jurisdiction = http://unstats.un.org/unsd/methods/m49/m49.htm#001
 * copyright = "TODO"
+// * date
+
+Alias: $LNC = http://loinc.org

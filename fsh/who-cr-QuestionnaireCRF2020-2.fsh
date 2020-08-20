@@ -8,7 +8,6 @@ Usage: #definition
 * name = "WhoCrQuestionnaireCovid19Surveillance"
 * version = "2020.2"
 * subjectType = #Patient
-* url = "http://who.int/fhir/cr/Covid19SurveillanceCRF"
 //* language = "en"
 
 // TODO: review SDC supplemental profiles (http://build.fhir.org/ig/HL7/sdc/intro.html)
@@ -16,19 +15,20 @@ Usage: #definition
 
 * item[0].linkId    = "report_date"
 * item[0].text    = "Date of reporting to national health authority:"
+* item[0].definition    = "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.report.date"
 * item[0].type    = #date
-// * item[0].definition    = Canonical(WhoCrDataDictionary)
-//* item[0].type    = #string
 
 * item[1].linkId  = "report_country"
 * item[1].text    = "Reporting country:"
+// * item[0].definition    = "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.report.country"
 * item[1].type    = #string
 
 * item[2].linkId  = "report_test_reason"
 * item[2].text    = "Why tested for COVID-19:"
 * item[2].code    = http://loinc.org#67098-4 "Reason for test or procedure"
 * item[2].type    = #open-choice
-* item[2].answerValueSet = Canonical(WhoCrValueSetReasonForCovid19Testing)
+// * item[2].answerValueSet = Canonical(WhoCrValueSetReasonForCovid19Testing)
+* item[2].definition    = "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.report.testReason"
 
 * item[3].linkId  = "section_patient_info"
 * item[3].prefix  = "Section 1"
