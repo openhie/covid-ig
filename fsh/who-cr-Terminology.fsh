@@ -52,6 +52,14 @@ Description: "TODO"
     "Third" 
     "Third Trimester" 
 
+CodeSystem: WhoCrCodeSystemSubmissionCompletion
+Title: "TODO"
+Description: "TODO"
+* #partial 
+    "Partial" 
+    "Partially complete"
+
+
 ValueSet: WhoCrValueSetReasonForCovid19Testing
 Title: "Reason for Covid-19 Testing"
 Description: "TODO"
@@ -99,3 +107,15 @@ Description: "TODO"
 * include http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#POS "Positive"
 * include http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#NEG "Negative"
 * include http://terminology.hl7.org/CodeSystem/data-absent-reason#unknown "Unknown"
+
+ValueSet: WhoCrValueSetYesNoPartial
+Title: "Yes/No/Partial"
+Description: "TODO"
+* include http://terminology.hl7.org/CodeSystem/v2-0136#Y "Yes"
+* include http://terminology.hl7.org/CodeSystem/v2-0136#N "No"
+* codes from system WhoCrCodeSystemSubmissionCompletion
+
+ValueSet: WhoCrValueSetAdmin0
+Title: "List of Administrative Level 0 Names (Countries)"
+Description: "TODO"
+* codes from system http://hl7.org/fhir/ValueSet/iso3166-1-3
