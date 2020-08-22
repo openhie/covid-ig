@@ -19,7 +19,7 @@ publisher:
   url: http://www.example.com
 #   email:
 # contact:
-# jurisdiction: http://unstats.un.org/unsd/methods/m49/m49.htm#001
+jurisdiction: http://unstats.un.org/unsd/methods/m49/m49.htm#001
 # experimental: true
 dependencies:
   hl7.fhir.us.core: current
