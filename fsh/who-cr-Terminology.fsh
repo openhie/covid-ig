@@ -81,15 +81,13 @@ Description: "TODO"
 ValueSet: WhoCrValueSetYesNo
 Title: "Yes/No"
 Description: "TODO"
-* include http://terminology.hl7.org/CodeSystem/v2-0136#Y "Yes"
-* include http://terminology.hl7.org/CodeSystem/v2-0136#N "No"
+* codes from system http://terminology.hl7.org/CodeSystem/v2-0136 // yes/no
 
 ValueSet: WhoCrValueSetYesNoUnk
 Title: "Yes/No/Unknown"
-Description: "TODO"
-* codes from system http://terminology.hl7.org/CodeSystem/v2-0136
-//* include http://terminology.hl7.org/CodeSystem/v2-0136#N "No"
-* include http://terminology.hl7.org/CodeSystem/data-absent-reason#unknown "Unknown"
+Description: "Yes/No/Unknown Value Set"
+* codes from system http://terminology.hl7.org/CodeSystem/v2-0136 // yes/no
+* include http://terminology.hl7.org/CodeSystem/v2-0532#UNK // unknown
 
 ValueSet: WhoCrValueSetPregnancyTrimester
 Title: "Pregnancy Trimester"
@@ -106,16 +104,15 @@ Title:  "Test Result"
 Description: "TODO"
 * include http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#POS "Positive"
 * include http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#NEG "Negative"
-* include http://terminology.hl7.org/CodeSystem/data-absent-reason#unknown "Unknown"
+* include http://terminology.hl7.org/CodeSystem/v2-0532#UNK // unknown
 
 ValueSet: WhoCrValueSetYesNoPartial
 Title: "Yes/No/Partial"
 Description: "TODO"
-* include http://terminology.hl7.org/CodeSystem/v2-0136#Y "Yes"
-* include http://terminology.hl7.org/CodeSystem/v2-0136#N "No"
+* codes from system http://terminology.hl7.org/CodeSystem/v2-0136 // yes/no
 * codes from system WhoCrCodeSystemSubmissionCompletion
 
 ValueSet: WhoCrValueSetAdmin0
 Title: "List of Administrative Level 0 Names (Countries)"
 Description: "TODO"
-* codes from system http://hl7.org/fhir/ValueSet/iso3166-1-3
+* codes from valueset http://hl7.org/fhir/ValueSet/iso3166-1-3

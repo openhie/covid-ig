@@ -45,8 +45,8 @@ Usage: #definition
 * item[3].item[1].linkId  = "patinfo_ageonset"
 * item[3].item[1].text    = "Age (use days if <1 month, months if <1 year):"
 * item[3].item[1].type    = #quantity
-* item[3].item[1].extension[0].url = "http://hl7.org/fhir/StructureDefinition/questionnaire-unitValueSet"
 * item[3].item[1].code    = $LNC#30525-0
+* item[3].item[1].extension[0].url = "http://hl7.org/fhir/StructureDefinition/questionnaire-unitValueSet"
 * item[3].item[1].extension[0].valueCanonical = Canonical(WhoCrValueSetAgeUnits)
 * item[3].item[1].definition    = "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.patientInfo.onsetAge"
 // TODO: add min value enforcement via ElementDefinition

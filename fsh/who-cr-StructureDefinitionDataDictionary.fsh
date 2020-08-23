@@ -16,12 +16,12 @@ Usage: #definition
 
 * mapping[0].identity = "WhoCrDataDictionarySpreadsheet"
 * mapping[0].name = "WHO CR Data Dictionary Spreadsheet 2020.2"
-* mapping[1].identity = "CIEL"
-* mapping[1].uri = "https://www.openconceptlab.org/orgs/CIEL/sources/CIEL/concepts"
-* mapping[1].name = "Columbia International eHealth Laboratory"
-* mapping[2].identity = "LOINC"
-* mapping[2].uri = "http://loinc.org"
-* mapping[2].name = "LOINC"
+* mapping[1].identity = "LOINC"
+* mapping[1].uri = $LNC
+* mapping[1].name = "LOINC"
+* mapping[2].identity = "CIEL"
+* mapping[2].uri = $CIEL
+* mapping[2].name = "Columbia International eHealth Laboratory"
 
 * differential.element[0].id = "WhoCrSurveillanceDataDictionary"
 * differential.element[0].path = "WhoCrSurveillanceDataDictionary"
@@ -590,6 +590,8 @@ Usage: #definition
 * differential.element[46].short = "Healthcare worker country"
 * differential.element[46].definition = "If case is a healthcare worker, in which country do they work?"
 * differential.element[46].type.code = #CodeableConcept
+* differential.element[46].binding.valueSet = Canonical(WhoCrValueSetAdmin0)
+* differential.element[46].binding.strength = #extensible
 * differential.element[46].min = 0
 * differential.element[46].max = "1"
 * differential.element[46].mapping[0].identity = "WhoCrDataDictionarySpreadsheet"
