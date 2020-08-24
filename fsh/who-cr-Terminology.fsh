@@ -22,7 +22,7 @@ Description: "A code system of reasons to perform testing"
 
 CodeSystem: WhoCrCodeSystemPatientOutcome
 Title: "Patient Outcome"
-Description: "TODO"
+Description: "Patient Outcome"
 * #RECOVERED
     "Recovered/Healthy"
     "Recovered/Healthy"
@@ -40,8 +40,8 @@ Description: "TODO"
     "Other"
 
 CodeSystem: WhoCrCodeSystemPregnancyTrimester
-Title: "TODO"
-Description: "TODO"
+Title: "Pregnancy Trimester"
+Description: "Pregnancy Trimester"
 * #first 
     "First" 
     "First Trimester"
@@ -53,8 +53,8 @@ Description: "TODO"
     "Third Trimester" 
 
 CodeSystem: WhoCrCodeSystemSubmissionCompletion
-Title: "TODO"
-Description: "TODO"
+Title: "Submission Comletion Status"
+Description: "Submission Comletion Status"
 * #partial 
     "Partial" 
     "Partially complete"
@@ -74,13 +74,13 @@ Description: "Common units of patient age"
 
 ValueSet: WhoCrValueSetSexAtBirth
 Title: "Patient Sex at birth"
-Description: "TODO"
+Description: "Patient Sex at birth"
 * include http://hl7.org/fhir/administrative-gender#male "Male"
 * include http://hl7.org/fhir/administrative-gender#female "Female"
 
 ValueSet: WhoCrValueSetYesNo
 Title: "Yes/No"
-Description: "TODO"
+Description: "Yes/No"
 * codes from system http://terminology.hl7.org/CodeSystem/v2-0136 // yes/no
 
 ValueSet: WhoCrValueSetYesNoUnk
@@ -91,28 +91,28 @@ Description: "Yes/No/Unknown Value Set"
 
 ValueSet: WhoCrValueSetPregnancyTrimester
 Title: "Pregnancy Trimester"
-Description: "TODO"
+Description: "Pregnancy Trimester"
 * codes from system WhoCrCodeSystemPregnancyTrimester
 
 ValueSet: WhoCrValueSetPatientOutcome
 Title: "Patient Outcome"
-Description: "TODO"
+Description: "Patient Outcome"
 * codes from system WhoCrCodeSystemPatientOutcome
 
 ValueSet: WhoCrValueSetTestResult
 Title:  "Test Result"
-Description: "TODO"
+Description: "Test Result"
 * include http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#POS "Positive"
 * include http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#NEG "Negative"
 * include http://terminology.hl7.org/CodeSystem/v2-0532#UNK // unknown
 
 ValueSet: WhoCrValueSetYesNoPartial
 Title: "Yes/No/Partial"
-Description: "TODO"
+Description: "Yes/No/Partial"
 * codes from system http://terminology.hl7.org/CodeSystem/v2-0136 // yes/no
 * codes from system WhoCrCodeSystemSubmissionCompletion
 
 ValueSet: WhoCrValueSetAdmin0
 Title: "List of Administrative Level 0 Names (Countries)"
-Description: "TODO"
+Description: "List of Administrative Level 0 Names (Countries)"
 * codes from valueset http://hl7.org/fhir/ValueSet/iso3166-1-3

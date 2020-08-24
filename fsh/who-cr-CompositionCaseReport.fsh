@@ -52,9 +52,9 @@ Usage:      #example
 * section[0].title = "Patient Information"
 * section[0].text.status  = #additional
 * section[0].text.div = """
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<div xmlns="http://www.w3.org/1999/xhtml">Here is where we put content</div>"""
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<div xmlns="http://www.w3.org/1999/xhtml">Here is where we put content</div>
+"""
 
 //*outcome
 
