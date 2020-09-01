@@ -37,9 +37,15 @@ jobs:
         with:
           args: ./_genonce.sh
 
+      - name: Move to output to docs subdirectory
+        run: |
+          mkdir ./docs
+          mv ./output/* ./docs
+          mv ./docs ./output
+          
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./output
-          destination_dir : ./docs 
+
