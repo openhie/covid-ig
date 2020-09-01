@@ -27,7 +27,7 @@
   fhir:StructureDefinition.title [ fhir:value "WHO Case Reporting Patient"];
   fhir:StructureDefinition.status [ fhir:value "draft"];
   fhir:StructureDefinition.experimental [ fhir:value "true"^^xsd:boolean];
-  fhir:StructureDefinition.date [ fhir:value "2020-09-01T07:46:42+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2020-09-01T08:02:03+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "World Health Organization"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
