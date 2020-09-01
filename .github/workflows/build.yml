@@ -26,12 +26,17 @@ jobs:
       - uses: actions/checkout@v2
 
       # Runs a single command using the runners shell
-      - name: Use auto-ig-build docker image
+      - name: Update the image to the latest publisher
         uses: docker://hl7fhir/ig-publisher-base:latest
         with:
           args: ./_updatePublisher.sh --force
 
-      - name: 2
+      - name: Run sushi to generate the ig.ini file
+        uses: docker://hl7fhir/ig-publisher-base:latest
+        with:
+          args: sushi
+
+      - name: Generate the IG
         uses: docker://hl7fhir/ig-publisher-base:latest
         with:
           args: ./_genonce.sh
