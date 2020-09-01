@@ -27,7 +27,7 @@ jobs:
         id: build
         uses: docker://hl7fhir/ig-publisher-base:latest
         with:
-          args: ls; ./_updatePublisher.sh; ./_genonce.sh
+          args: ls\; ./_updatePublisher.sh\; ./_genonce.sh
           
       - name: Get the output time
         run: echo "Completed at ${{ steps.build.outputs.time }}"        
