@@ -1,0 +1,15 @@
+{
+  "package-id": "who.cr.covid19",
+  "canonical": "http://www.example.com/fhir/cr/covid19",
+  "title": "WHO Case Reporting for COVID-19 Surveillance",
+  "introduction": "TODO",
+  "list": [
+    {
+      "version": "current",
+      "desc": "Continuous Integration Build (latest in version control)",
+      "path": "http://www.example.com/fhir/cr/covid19",
+      "status": "ci-build",
+      "current": true
+    }
+  ]
+}

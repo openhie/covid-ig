@@ -1,8 +1,9 @@
 **/.DS_Store
-output
-input
-input-cache
-template
-temp
-SUSHI-GENERATED-FILES.md
+/output**
+/input**
+/input-cache**
+/template**
+/temp**
+/SUSHI-GENERATED-FILES.md
 .index.json
+/ig.ini

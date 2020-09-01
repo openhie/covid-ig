@@ -53,8 +53,8 @@ Description: "Pregnancy Trimester"
     "Third Trimester" 
 
 CodeSystem: WhoCrCodeSystemSubmissionCompletion
-Title: "Submission Comletion Status"
-Description: "Submission Comletion Status"
+Title: "Submission Completion Status"
+Description: "Submission Completion Status"
 * #partial 
     "Partial" 
     "Partially complete"
