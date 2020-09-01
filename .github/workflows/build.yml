@@ -27,7 +27,7 @@ jobs:
         id: build
         uses: docker://hl7fhir/ig-publisher-base:latest
         with:
-          args: ./_updatepublisher.sh; ./_genonce.sh $GITHUB_WORKSPACE
+          args: ./_updatePublisher.sh; ./_genonce.sh $GITHUB_WORKSPACE
           
       - name: Get the output time
         run: echo "Completed at ${{ steps.build.outputs.time }}"        
