@@ -1,0 +1,80 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://www.example.com/fhir/cr/covid19/CodeSystem/WhoCrCodeSystemReasonForTesting> a fhir:CodeSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "WhoCrCodeSystemReasonForTesting"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://www.example.com/fhir/cr/covid19/CodeSystem/WhoCrCodeSystemReasonForTesting defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">CASE_CONTACT<a name=\"WhoCrCodeSystemReasonForTesting-CASE_CONTACT\"> </a></td><td>Contact of a case</td><td>Contact of a case</td></tr><tr><td style=\"white-space:nowrap\">SEEKING_HC<a name=\"WhoCrCodeSystemReasonForTesting-SEEKING_HC\"> </a></td><td>Ill Seeking Healthcare due to suspicion of COVID-19</td><td>Ill Seeking Healthcare due to suspicion of COVID-19</td></tr><tr><td style=\"white-space:nowrap\">POE_DETECTION<a name=\"WhoCrCodeSystemReasonForTesting-POE_DETECTION\"> </a></td><td>Detected at point of entry</td><td>Detected at point of entry</td></tr><tr><td style=\"white-space:nowrap\">REPATRIATION<a name=\"WhoCrCodeSystemReasonForTesting-REPATRIATION\"> </a></td><td>Repatriation</td><td>Repatriation</td></tr><tr><td style=\"white-space:nowrap\">SURVEILLANCE<a name=\"WhoCrCodeSystemReasonForTesting-SURVEILLANCE\"> </a></td><td>Routine respiratory disease surveillance systems (e.g. influenza)</td><td>Routine respiratory disease surveillance systems (e.g. influenza)</td></tr><tr><td style=\"white-space:nowrap\">UNKNOWN<a name=\"WhoCrCodeSystemReasonForTesting-UNKNOWN\"> </a></td><td>Unknown</td><td>Unknown</td></tr></table></div>"
+  ];
+  fhir:CodeSystem.url [ fhir:value "http://www.example.com/fhir/cr/covid19/CodeSystem/WhoCrCodeSystemReasonForTesting"];
+  fhir:CodeSystem.version [ fhir:value "0.1.0"];
+  fhir:CodeSystem.name [ fhir:value "WhoCrCodeSystemReasonForTesting"];
+  fhir:CodeSystem.title [ fhir:value "Reason for Testing"];
+  fhir:CodeSystem.status [ fhir:value "active"];
+  fhir:CodeSystem.date [ fhir:value "2020-09-01T08:14:55+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.publisher [ fhir:value "World Health Organization"];
+  fhir:CodeSystem.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "World Health Organization" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "http://www.example.com" ]
+     ]
+  ];
+  fhir:CodeSystem.description [ fhir:value "A code system of reasons to perform testing"];
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://unstats.un.org/unsd/methods/m49/m49.htm" ];
+       fhir:Coding.code [ fhir:value "001" ]
+     ]
+  ];
+  fhir:CodeSystem.content [ fhir:value "complete"];
+  fhir:CodeSystem.count [ fhir:value "6"^^xsd:nonNegativeInteger];
+  fhir:CodeSystem.concept [
+     fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "CASE_CONTACT" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Contact of a case" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Contact of a case" ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.concept.code [ fhir:value "SEEKING_HC" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Ill Seeking Healthcare due to suspicion of COVID-19" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Ill Seeking Healthcare due to suspicion of COVID-19" ]
+  ], [
+     fhir:index 2;
+     fhir:CodeSystem.concept.code [ fhir:value "POE_DETECTION" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Detected at point of entry" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Detected at point of entry" ]
+  ], [
+     fhir:index 3;
+     fhir:CodeSystem.concept.code [ fhir:value "REPATRIATION" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Repatriation" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Repatriation" ]
+  ], [
+     fhir:index 4;
+     fhir:CodeSystem.concept.code [ fhir:value "SURVEILLANCE" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Routine respiratory disease surveillance systems (e.g. influenza)" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Routine respiratory disease surveillance systems (e.g. influenza)" ]
+  ], [
+     fhir:index 5;
+     fhir:CodeSystem.concept.code [ fhir:value "UNKNOWN" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Unknown" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Unknown" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://www.example.com/fhir/cr/covid19/CodeSystem/WhoCrCodeSystemReasonForTesting.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

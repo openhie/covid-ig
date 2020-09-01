@@ -1,0 +1,44 @@
+{
+  "resourceType": "ValueSet",
+  "id": "WhoCrValueSetPregnancyTrimester",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-WhoCrCodeSystemPregnancyTrimester.html\"><code>http://www.example.com/fhir/cr/covid19/CodeSystem/WhoCrCodeSystemPregnancyTrimester</code></a></li></ul></div>"
+  },
+  "url": "http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetPregnancyTrimester",
+  "version": "0.1.0",
+  "name": "WhoCrValueSetPregnancyTrimester",
+  "title": "Pregnancy Trimester",
+  "status": "active",
+  "date": "2020-09-01T08:14:55+00:00",
+  "publisher": "World Health Organization",
+  "contact": [
+    {
+      "name": "World Health Organization",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://www.example.com"
+        }
+      ]
+    }
+  ],
+  "description": "Pregnancy Trimester",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code": "001"
+        }
+      ]
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "http://www.example.com/fhir/cr/covid19/CodeSystem/WhoCrCodeSystemPregnancyTrimester"
+      }
+    ]
+  }
+}
