@@ -25,6 +25,11 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
+      - name: list
+        uses: docker://hl7fhir/ig-publisher-base:latest
+        with:
+          args: ls -l
+
       # Runs a single command using the runners shell
       - name: Update the image to the latest publisher
         uses: docker://hl7fhir/ig-publisher-base:latest
