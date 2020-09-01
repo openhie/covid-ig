@@ -27,13 +27,11 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Use auto-ig-build docker image
-        id: build
-        run: pwd
-        
-      - run: ls
-        
-      - run: ./_genonce.sh
-          
-      - name: Get the output time
-        run: echo "Completed at ${{ steps.build.outputs.time }}"        
+        uses: docker://hl7fhir/ig-publisher-base:latest
+        with:
+          args: ./_updatePublisher.sh
 
+      - name: Use auto-ig-build docker image
+        uses: docker://hl7fhir/ig-publisher-base:latest
+        with:
+          args: ./_genonce.sh
