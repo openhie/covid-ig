@@ -26,8 +26,11 @@ jobs:
       - name: Use auto-ig-build docker image
         id: build
         uses: docker://hl7fhir/ig-publisher-base:latest
-        with:
-          args: ./_updatePublisher.sh; ./_genonce.sh $GITHUB_WORKSPACE
+        run: |
+          pwd
+          ls
+          ./_updatePublisher.sh
+          ./_genonce.sh
           
       - name: Get the output time
         run: echo "Completed at ${{ steps.build.outputs.time }}"        
