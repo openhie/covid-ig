@@ -24,8 +24,11 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Use auto-ig-build docker image
+        id: build
         uses: docker://hl7fhir/ig-publisher-base:latest
         with:
-          args: $GITHUB_WORKSPACE 
-        
+          args: $GITHUB_WORKSPACE
+          
+      - name: Get the output time
+        run: echo "Completed at ${{ steps.build.outputs.time }}"        
 
