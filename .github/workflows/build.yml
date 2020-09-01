@@ -31,12 +31,12 @@ jobs:
         with:
           args: ./_updatePublisher.sh --force
 
-      - name: Run sushi to generate the ig.ini file
-        uses: docker://hl7fhir/ig-publisher-base:latest
-        with:
-          args: sushi
+#      - name: Run sushi to generate the ig.ini file
+#        uses: docker://hl7fhir/ig-publisher-base:latest
+#        with:
+#          args: sushi
 
-      - name: Generate the IG
+      - name: Run the publisher once
         uses: docker://hl7fhir/ig-publisher-base:latest
         with:
           args: ./_genonce.sh
