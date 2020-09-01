@@ -29,9 +29,9 @@ jobs:
       - name: Use auto-ig-build docker image
         uses: docker://hl7fhir/ig-publisher-base:latest
         with:
-          args: ./_updatePublisher.sh
+          args: ./_updatePublisher.sh --force
 
-      - name: Use auto-ig-build docker image
+      - name: 2
         uses: docker://hl7fhir/ig-publisher-base:latest
         with:
           args: ./_genonce.sh
