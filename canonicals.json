@@ -1,0 +1,156 @@
+[
+  {
+    "id": "WhoCrCodeSystemPatientOutcome",
+    "type": "CodeSystem",
+    "url": "http://www.example.com/fhir/cr/covid19/CodeSystem/WhoCrCodeSystemPatientOutcome",
+    "version": "0.1.0",
+    "name": "WhoCrCodeSystemPatientOutcome"
+  },
+  {
+    "id": "WhoCrCodeSystemPregnancyTrimester",
+    "type": "CodeSystem",
+    "url": "http://www.example.com/fhir/cr/covid19/CodeSystem/WhoCrCodeSystemPregnancyTrimester",
+    "version": "0.1.0",
+    "name": "WhoCrCodeSystemPregnancyTrimester"
+  },
+  {
+    "id": "WhoCrCodeSystemReasonForTesting",
+    "type": "CodeSystem",
+    "url": "http://www.example.com/fhir/cr/covid19/CodeSystem/WhoCrCodeSystemReasonForTesting",
+    "version": "0.1.0",
+    "name": "WhoCrCodeSystemReasonForTesting"
+  },
+  {
+    "id": "WhoCrCodeSystemSubmissionCompletion",
+    "type": "CodeSystem",
+    "url": "http://www.example.com/fhir/cr/covid19/CodeSystem/WhoCrCodeSystemSubmissionCompletion",
+    "version": "0.1.0",
+    "name": "WhoCrCodeSystemSubmissionCompletion"
+  },
+  {
+    "id": "WhoCrConceptMapPatientOutcomeToCiel",
+    "type": "ConceptMap",
+    "url": "http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapPatientOutcomeToCiel",
+    "version": "0.1.0",
+    "name": "WhoCrConceptMapPatientOutcomeToCiel"
+  },
+  {
+    "id": "WhoCrConceptMapPregnancyTrimesterToCiel",
+    "type": "ConceptMap",
+    "url": "http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapPregnancyTrimesterToCiel",
+    "version": "0.1.0",
+    "name": "WhoCrConceptMapPregnancyTrimesterToCiel"
+  },
+  {
+    "id": "WhoCrConceptMapReasonForTestingToCiel",
+    "type": "ConceptMap",
+    "url": "http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapReasonForTestingToCiel",
+    "version": "0.1.0",
+    "name": "WhoCrConceptMapReasonForTestingToCiel"
+  },
+  {
+    "id": "who.cr.covid19",
+    "type": "ImplementationGuide",
+    "url": "http://www.example.com/fhir/cr/covid19/ImplementationGuide/who.cr.covid19",
+    "version": "0.1.0",
+    "name": "WhoCrCovid19"
+  },
+  {
+    "id": "WhoCrQuestionnaireCovid19Surveillance",
+    "type": "Questionnaire",
+    "url": "http://www.example.com/fhir/cr/covid19/Questionnaire/WhoCrQuestionnaireCovid19Surveillance",
+    "version": "0.1.0",
+    "name": "WhoCrQuestionnaireCovid19Surveillance"
+  },
+  {
+    "id": "WhoCrComposition",
+    "type": "StructureDefinition",
+    "url": "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrComposition",
+    "version": "0.1.0",
+    "name": "WhoCrComposition"
+  },
+  {
+    "id": "WhoCrPatient",
+    "type": "StructureDefinition",
+    "url": "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrPatient",
+    "version": "0.1.0",
+    "name": "WhoCrPatient"
+  },
+  {
+    "id": "WhoCrSurveillanceDataDictionary",
+    "type": "StructureDefinition",
+    "url": "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrSurveillanceDataDictionary",
+    "version": "0.1.0",
+    "name": "WhoCrSurveillanceDataDictionary"
+  },
+  {
+    "id": "WhoCrValueSetAdmin0",
+    "type": "ValueSet",
+    "url": "http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetAdmin0",
+    "version": "0.1.0",
+    "name": "WhoCrValueSetAdmin0"
+  },
+  {
+    "id": "WhoCrValueSetAgeUnits",
+    "type": "ValueSet",
+    "url": "http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetAgeUnits",
+    "version": "0.1.0",
+    "name": "WhoCrValueSetAgeUnits"
+  },
+  {
+    "id": "WhoCrValueSetPatientOutcome",
+    "type": "ValueSet",
+    "url": "http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetPatientOutcome",
+    "version": "0.1.0",
+    "name": "WhoCrValueSetPatientOutcome"
+  },
+  {
+    "id": "WhoCrValueSetPregnancyTrimester",
+    "type": "ValueSet",
+    "url": "http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetPregnancyTrimester",
+    "version": "0.1.0",
+    "name": "WhoCrValueSetPregnancyTrimester"
+  },
+  {
+    "id": "WhoCrValueSetReasonForCovid19Testing",
+    "type": "ValueSet",
+    "url": "http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetReasonForCovid19Testing",
+    "version": "0.1.0",
+    "name": "WhoCrValueSetReasonForCovid19Testing"
+  },
+  {
+    "id": "WhoCrValueSetSexAtBirth",
+    "type": "ValueSet",
+    "url": "http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetSexAtBirth",
+    "version": "0.1.0",
+    "name": "WhoCrValueSetSexAtBirth"
+  },
+  {
+    "id": "WhoCrValueSetTestResult",
+    "type": "ValueSet",
+    "url": "http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetTestResult",
+    "version": "0.1.0",
+    "name": "WhoCrValueSetTestResult"
+  },
+  {
+    "id": "WhoCrValueSetYesNo",
+    "type": "ValueSet",
+    "url": "http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetYesNo",
+    "version": "0.1.0",
+    "name": "WhoCrValueSetYesNo"
+  },
+  {
+    "id": "WhoCrValueSetYesNoPartial",
+    "type": "ValueSet",
+    "url": "http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetYesNoPartial",
+    "version": "0.1.0",
+    "name": "WhoCrValueSetYesNoPartial"
+  },
+  {
+    "id": "WhoCrValueSetYesNoUnk",
+    "type": "ValueSet",
+    "url": "http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetYesNoUnk",
+    "version": "0.1.0",
+    "name": "WhoCrValueSetYesNoUnk"
+  }
+]

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="WhoCrValueSetYesNoUnk"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href="http://hl7.org/fhir/R4/v2/0136/index.html"><code>http://terminology.hl7.org/CodeSystem/v2-0136</code></a></li><li>Include these codes as defined in <a href="https://terminology.hl7.org/1.0.0//CodeSystem-v2-0532.html"><code>http://terminology.hl7.org/CodeSystem/v2-0532</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="https://terminology.hl7.org/1.0.0//CodeSystem-v2-0532.html#v2-0532-UNK">UNK</a></td><td>unknown</td><td>unknown</td></tr></table></li></ul></div>
+  </text>
+  <url value="http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetYesNoUnk"/>
+  <version value="0.1.0"/>
+  <name value="WhoCrValueSetYesNoUnk"/>
+  <title value="Yes/No/Unknown"/>
+  <status value="active"/>
+  <date value="2020-09-01T07:46:42+00:00"/>
+  <publisher value="World Health Organization"/>
+  <contact>
+    <name value="World Health Organization"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.example.com"/>
+    </telecom>
+  </contact>
+  <description value="Yes/No/Unknown Value Set"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://terminology.hl7.org/CodeSystem/v2-0136"/>
+    </include>
+    <include>
+      <system value="http://terminology.hl7.org/CodeSystem/v2-0532"/>
+      <concept>
+        <code value="UNK"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

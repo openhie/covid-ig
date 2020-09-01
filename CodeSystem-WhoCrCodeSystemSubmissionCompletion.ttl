@@ -1,0 +1,55 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://www.example.com/fhir/cr/covid19/CodeSystem/WhoCrCodeSystemSubmissionCompletion> a fhir:CodeSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "WhoCrCodeSystemSubmissionCompletion"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://www.example.com/fhir/cr/covid19/CodeSystem/WhoCrCodeSystemSubmissionCompletion defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">partial<a name=\"WhoCrCodeSystemSubmissionCompletion-partial\"> </a></td><td>Partial</td><td>Partially complete</td></tr></table></div>"
+  ];
+  fhir:CodeSystem.url [ fhir:value "http://www.example.com/fhir/cr/covid19/CodeSystem/WhoCrCodeSystemSubmissionCompletion"];
+  fhir:CodeSystem.version [ fhir:value "0.1.0"];
+  fhir:CodeSystem.name [ fhir:value "WhoCrCodeSystemSubmissionCompletion"];
+  fhir:CodeSystem.title [ fhir:value "Submission Completion Status"];
+  fhir:CodeSystem.status [ fhir:value "active"];
+  fhir:CodeSystem.date [ fhir:value "2020-09-01T07:46:42+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.publisher [ fhir:value "World Health Organization"];
+  fhir:CodeSystem.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "World Health Organization" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "http://www.example.com" ]
+     ]
+  ];
+  fhir:CodeSystem.description [ fhir:value "Submission Completion Status"];
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://unstats.un.org/unsd/methods/m49/m49.htm" ];
+       fhir:Coding.code [ fhir:value "001" ]
+     ]
+  ];
+  fhir:CodeSystem.content [ fhir:value "complete"];
+  fhir:CodeSystem.count [ fhir:value "1"^^xsd:nonNegativeInteger];
+  fhir:CodeSystem.concept [
+     fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "partial" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Partial" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Partially complete" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://www.example.com/fhir/cr/covid19/CodeSystem/WhoCrCodeSystemSubmissionCompletion.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

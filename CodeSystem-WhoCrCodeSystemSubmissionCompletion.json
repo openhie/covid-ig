@@ -1,0 +1,46 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "WhoCrCodeSystemSubmissionCompletion",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://www.example.com/fhir/cr/covid19/CodeSystem/WhoCrCodeSystemSubmissionCompletion defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">partial<a name=\"WhoCrCodeSystemSubmissionCompletion-partial\"> </a></td><td>Partial</td><td>Partially complete</td></tr></table></div>"
+  },
+  "url": "http://www.example.com/fhir/cr/covid19/CodeSystem/WhoCrCodeSystemSubmissionCompletion",
+  "version": "0.1.0",
+  "name": "WhoCrCodeSystemSubmissionCompletion",
+  "title": "Submission Completion Status",
+  "status": "active",
+  "date": "2020-09-01T07:46:42+00:00",
+  "publisher": "World Health Organization",
+  "contact": [
+    {
+      "name": "World Health Organization",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://www.example.com"
+        }
+      ]
+    }
+  ],
+  "description": "Submission Completion Status",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code": "001"
+        }
+      ]
+    }
+  ],
+  "content": "complete",
+  "count": 1,
+  "concept": [
+    {
+      "code": "partial",
+      "display": "Partial",
+      "definition": "Partially complete"
+    }
+  ]
+}

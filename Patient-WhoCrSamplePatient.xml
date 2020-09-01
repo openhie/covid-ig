@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patient xmlns="http://hl7.org/fhir">
+  <id value="WhoCrSamplePatient"/>
+  <meta>
+    <profile value="http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrPatient"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>id</b>: WhoCrSamplePatient</p><p><b>meta</b>: </p><p><b>address</b>: URY (HOME)</p></div>
+  </text>
+  <extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex">
+    <valueCode value="F"/>
+  </extension>
+  <address>
+    <use value="home"/>
+    <country value="URY"/>
+  </address>
+</Patient>
