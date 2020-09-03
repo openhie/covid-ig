@@ -3,89 +3,89 @@
 
 err = 6, warn = 0, info = 0
 IG Publisher Version: 1.1.17
-Generated Tue Sep 01 08:28:01 UTC 2020. FHIR version 4.0.1 for who.cr.covid19#0.1.0 (canonical = http://www.example.com/fhir/cr/covid19)
+Generated Thu Sep 03 20:58:29 UTC 2020. FHIR version 4.0.1 for who.cr.covid19#0.1.0 (canonical = http://www.example.com/fhir/cr/covid19)
 
  Build Errors : 3 / 0 / 0
- /github/workspace/input/ImplementationGuide-who.cr.covid19 : 0 / 0 / 1
- /github/workspace/input/examples/Composition-WhoCrSampleComposition : 0 / 0 / 1
- /github/workspace/input/examples/Patient-WhoCrSamplePatient : 0 / 0 / 1
- /github/workspace/input/models/StructureDefinition-WhoCrSurveillanceDataDictionary : 4 / 0 / 1
- /github/workspace/input/profiles/StructureDefinition-WhoCrComposition : 0 / 0 / 1
- /github/workspace/input/profiles/StructureDefinition-WhoCrPatient : 0 / 0 / 1
- /github/workspace/input/resources/Questionnaire-WhoCrQuestionnaireCovid19Surveillance : 2 / 0 / 1
- /github/workspace/input/vocabulary/CodeSystem-WhoCrCodeSystemPatientOutcome : 0 / 0 / 1
- /github/workspace/input/vocabulary/CodeSystem-WhoCrCodeSystemPregnancyTrimester : 0 / 0 / 1
- /github/workspace/input/vocabulary/CodeSystem-WhoCrCodeSystemReasonForTesting : 0 / 0 / 1
- /github/workspace/input/vocabulary/CodeSystem-WhoCrCodeSystemSubmissionCompletion : 0 / 0 / 1
- /github/workspace/input/vocabulary/ConceptMap-WhoCrConceptMapPatientOutcomeToCiel : 0 / 0 / 1
- /github/workspace/input/vocabulary/ConceptMap-WhoCrConceptMapPregnancyTrimesterToCiel : 0 / 0 / 1
- /github/workspace/input/vocabulary/ConceptMap-WhoCrConceptMapReasonForTestingToCiel : 0 / 0 / 1
- /github/workspace/input/vocabulary/ValueSet-WhoCrValueSetAdmin0 : 0 / 0 / 1
- /github/workspace/input/vocabulary/ValueSet-WhoCrValueSetAgeUnits : 0 / 0 / 1
- /github/workspace/input/vocabulary/ValueSet-WhoCrValueSetPatientOutcome : 0 / 0 / 1
- /github/workspace/input/vocabulary/ValueSet-WhoCrValueSetPregnancyTrimester : 0 / 0 / 1
- /github/workspace/input/vocabulary/ValueSet-WhoCrValueSetReasonForCovid19Testing : 0 / 0 / 1
- /github/workspace/input/vocabulary/ValueSet-WhoCrValueSetSexAtBirth : 0 / 0 / 1
- /github/workspace/input/vocabulary/ValueSet-WhoCrValueSetTestResult : 0 / 0 / 1
- /github/workspace/input/vocabulary/ValueSet-WhoCrValueSetYesNo : 0 / 0 / 1
- /github/workspace/input/vocabulary/ValueSet-WhoCrValueSetYesNoPartial : 0 / 0 / 1
- /github/workspace/input/vocabulary/ValueSet-WhoCrValueSetYesNoUnk : 0 / 0 / 1
+ /home/publisher/ig/input/ImplementationGuide-who.cr.covid19 : 0 / 0 / 1
+ /home/publisher/ig/input/examples/Composition-WhoCrSampleComposition : 0 / 0 / 1
+ /home/publisher/ig/input/examples/Patient-WhoCrSamplePatient : 0 / 0 / 1
+ /home/publisher/ig/input/models/StructureDefinition-WhoCrSurveillanceDataDictionary : 4 / 0 / 1
+ /home/publisher/ig/input/profiles/StructureDefinition-WhoCrComposition : 0 / 0 / 1
+ /home/publisher/ig/input/profiles/StructureDefinition-WhoCrPatient : 0 / 0 / 1
+ /home/publisher/ig/input/resources/Questionnaire-WhoCrQuestionnaireCovid19Surveillance : 2 / 0 / 1
+ /home/publisher/ig/input/vocabulary/CodeSystem-WhoCrCodeSystemPatientOutcome : 0 / 0 / 1
+ /home/publisher/ig/input/vocabulary/CodeSystem-WhoCrCodeSystemPregnancyTrimester : 0 / 0 / 1
+ /home/publisher/ig/input/vocabulary/CodeSystem-WhoCrCodeSystemReasonForTesting : 0 / 0 / 1
+ /home/publisher/ig/input/vocabulary/CodeSystem-WhoCrCodeSystemSubmissionCompletion : 0 / 0 / 1
+ /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapPatientOutcomeToCiel : 0 / 0 / 1
+ /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapPregnancyTrimesterToCiel : 0 / 0 / 1
+ /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapReasonForTestingToCiel : 0 / 0 / 1
+ /home/publisher/ig/input/vocabulary/ValueSet-WhoCrValueSetAdmin0 : 0 / 0 / 1
+ /home/publisher/ig/input/vocabulary/ValueSet-WhoCrValueSetAgeUnits : 0 / 0 / 1
+ /home/publisher/ig/input/vocabulary/ValueSet-WhoCrValueSetPatientOutcome : 0 / 0 / 1
+ /home/publisher/ig/input/vocabulary/ValueSet-WhoCrValueSetPregnancyTrimester : 0 / 0 / 1
+ /home/publisher/ig/input/vocabulary/ValueSet-WhoCrValueSetReasonForCovid19Testing : 0 / 0 / 1
+ /home/publisher/ig/input/vocabulary/ValueSet-WhoCrValueSetSexAtBirth : 0 / 0 / 1
+ /home/publisher/ig/input/vocabulary/ValueSet-WhoCrValueSetTestResult : 0 / 0 / 1
+ /home/publisher/ig/input/vocabulary/ValueSet-WhoCrValueSetYesNo : 0 / 0 / 1
+ /home/publisher/ig/input/vocabulary/ValueSet-WhoCrValueSetYesNoPartial : 0 / 0 / 1
+ /home/publisher/ig/input/vocabulary/ValueSet-WhoCrValueSetYesNoUnk : 0 / 0 / 1
 </table>
 == n/a ==
-ERROR: /github/workspace/output/Questionnaire-WhoCrQuestionnaireCovid19Surveillance.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 225, column 1790: The link 'null#item.outcome_asymp' for "3 options" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-WhoCrSurveillanceDataDictionary.html#/html/body/div/div/div/div/div/div/p/a at Line 901, column 41: The link 'StructureDefinition-WhoCrSurveillanceDataDictionary.sch' for "Schematron" cannot be resolved
-ERROR: /github/workspace/output/ValueSet-WhoCrValueSetAdmin0.html#/html/body/div/div/div/div/div/div/div/ul/li/a at Line 183, column 96: The link 'null' for "http://hl7.org/fhir/ValueSet/iso3166-1-3" cannot be resolved
-== /github/workspace/input/ImplementationGuide-who.cr.covid19.json ==
+ERROR: /home/publisher/ig/output/Questionnaire-WhoCrQuestionnaireCovid19Surveillance.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 225, column 1790: The link 'null#item.outcome_asymp' for "3 options" cannot be resolved
+ERROR: /home/publisher/ig/output/StructureDefinition-WhoCrSurveillanceDataDictionary.html#/html/body/div/div/div/div/div/div/p/a at Line 901, column 41: The link 'StructureDefinition-WhoCrSurveillanceDataDictionary.sch' for "Schematron" cannot be resolved
+ERROR: /home/publisher/ig/output/ValueSet-WhoCrValueSetAdmin0.html#/html/body/div/div/div/div/div/div/div/ul/li/a at Line 183, column 96: The link 'null' for "http://hl7.org/fhir/ValueSet/iso3166-1-3" cannot be resolved
+== /home/publisher/ig/input/ImplementationGuide-who.cr.covid19.json ==
 INFORMATION: ImplementationGuide/who.cr.covid19: ImplementationGuide: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ImplementationGuide
-== /github/workspace/input/examples/Composition-WhoCrSampleComposition.json ==
+== /home/publisher/ig/input/examples/Composition-WhoCrSampleComposition.json ==
 INFORMATION: Composition/WhoCrSampleComposition: Composition: Validate resource against profile http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrComposition
-== /github/workspace/input/examples/Patient-WhoCrSamplePatient.json ==
+== /home/publisher/ig/input/examples/Patient-WhoCrSamplePatient.json ==
 INFORMATION: Patient/WhoCrSamplePatient: Patient: Validate resource against profile http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrPatient
-== /github/workspace/input/models/StructureDefinition-WhoCrSurveillanceDataDictionary.json ==
+== /home/publisher/ig/input/models/StructureDefinition-WhoCrSurveillanceDataDictionary.json ==
 INFORMATION: StructureDefinition/WhoCrSurveillanceDataDictionary: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 ERROR: StructureDefinition/WhoCrSurveillanceDataDictionary: StructureDefinition.snapshot.element[25].code[0]: The code "95420-6" is not valid in the system http://loinc.org; The code provided (http://loinc.org#95420-6) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://loinc.org#95420-6'
 ERROR: StructureDefinition/WhoCrSurveillanceDataDictionary: StructureDefinition.snapshot.element[47].code[0]: The code "95418-0" is not valid in the system http://loinc.org; The code provided (http://loinc.org#95418-0) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://loinc.org#95418-0'
 ERROR: StructureDefinition/WhoCrSurveillanceDataDictionary: StructureDefinition.differential.element[23].code[0]: The code "95420-6" is not valid in the system http://loinc.org; The code provided (http://loinc.org#95420-6) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://loinc.org#95420-6'
 ERROR: StructureDefinition/WhoCrSurveillanceDataDictionary: StructureDefinition.differential.element[45].code[0]: The code "95418-0" is not valid in the system http://loinc.org; The code provided (http://loinc.org#95418-0) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://loinc.org#95418-0'
-== /github/workspace/input/profiles/StructureDefinition-WhoCrComposition.json ==
+== /home/publisher/ig/input/profiles/StructureDefinition-WhoCrComposition.json ==
 INFORMATION: StructureDefinition/WhoCrComposition: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
-== /github/workspace/input/profiles/StructureDefinition-WhoCrPatient.json ==
+== /home/publisher/ig/input/profiles/StructureDefinition-WhoCrPatient.json ==
 INFORMATION: StructureDefinition/WhoCrPatient: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
-== /github/workspace/input/resources/Questionnaire-WhoCrQuestionnaireCovid19Surveillance.json ==
+== /home/publisher/ig/input/resources/Questionnaire-WhoCrQuestionnaireCovid19Surveillance.json ==
 INFORMATION: Questionnaire/WhoCrQuestionnaireCovid19Surveillance: Questionnaire: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Questionnaire
 ERROR: Questionnaire/WhoCrQuestionnaireCovid19Surveillance: Questionnaire.item[4].item[2].item[2].item[2].item[0].code[0]: The code "95420-6" is not valid in the system http://loinc.org; The code provided (http://loinc.org#95420-6) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://loinc.org#95420-6'
 ERROR: Questionnaire/WhoCrQuestionnaireCovid19Surveillance: Questionnaire.item[5].item[0].code[0]: The code "95418-0" is not valid in the system http://loinc.org; The code provided (http://loinc.org#95418-0) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://loinc.org#95418-0'
-== /github/workspace/input/vocabulary/CodeSystem-WhoCrCodeSystemPatientOutcome.json ==
+== /home/publisher/ig/input/vocabulary/CodeSystem-WhoCrCodeSystemPatientOutcome.json ==
 INFORMATION: CodeSystem/WhoCrCodeSystemPatientOutcome: CodeSystem: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem
-== /github/workspace/input/vocabulary/CodeSystem-WhoCrCodeSystemPregnancyTrimester.json ==
+== /home/publisher/ig/input/vocabulary/CodeSystem-WhoCrCodeSystemPregnancyTrimester.json ==
 INFORMATION: CodeSystem/WhoCrCodeSystemPregnancyTrimester: CodeSystem: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem
-== /github/workspace/input/vocabulary/CodeSystem-WhoCrCodeSystemReasonForTesting.json ==
+== /home/publisher/ig/input/vocabulary/CodeSystem-WhoCrCodeSystemReasonForTesting.json ==
 INFORMATION: CodeSystem/WhoCrCodeSystemReasonForTesting: CodeSystem: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem
-== /github/workspace/input/vocabulary/CodeSystem-WhoCrCodeSystemSubmissionCompletion.json ==
+== /home/publisher/ig/input/vocabulary/CodeSystem-WhoCrCodeSystemSubmissionCompletion.json ==
 INFORMATION: CodeSystem/WhoCrCodeSystemSubmissionCompletion: CodeSystem: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem
-== /github/workspace/input/vocabulary/ConceptMap-WhoCrConceptMapPatientOutcomeToCiel.json ==
+== /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapPatientOutcomeToCiel.json ==
 INFORMATION: ConceptMap/WhoCrConceptMapPatientOutcomeToCiel: ConceptMap: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ConceptMap
-== /github/workspace/input/vocabulary/ConceptMap-WhoCrConceptMapPregnancyTrimesterToCiel.json ==
+== /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapPregnancyTrimesterToCiel.json ==
 INFORMATION: ConceptMap/WhoCrConceptMapPregnancyTrimesterToCiel: ConceptMap: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ConceptMap
-== /github/workspace/input/vocabulary/ConceptMap-WhoCrConceptMapReasonForTestingToCiel.json ==
+== /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapReasonForTestingToCiel.json ==
 INFORMATION: ConceptMap/WhoCrConceptMapReasonForTestingToCiel: ConceptMap: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ConceptMap
-== /github/workspace/input/vocabulary/ValueSet-WhoCrValueSetAdmin0.json ==
+== /home/publisher/ig/input/vocabulary/ValueSet-WhoCrValueSetAdmin0.json ==
 INFORMATION: ValueSet/WhoCrValueSetAdmin0: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
-== /github/workspace/input/vocabulary/ValueSet-WhoCrValueSetAgeUnits.json ==
+== /home/publisher/ig/input/vocabulary/ValueSet-WhoCrValueSetAgeUnits.json ==
 INFORMATION: ValueSet/WhoCrValueSetAgeUnits: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
-== /github/workspace/input/vocabulary/ValueSet-WhoCrValueSetPatientOutcome.json ==
+== /home/publisher/ig/input/vocabulary/ValueSet-WhoCrValueSetPatientOutcome.json ==
 INFORMATION: ValueSet/WhoCrValueSetPatientOutcome: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
-== /github/workspace/input/vocabulary/ValueSet-WhoCrValueSetPregnancyTrimester.json ==
+== /home/publisher/ig/input/vocabulary/ValueSet-WhoCrValueSetPregnancyTrimester.json ==
 INFORMATION: ValueSet/WhoCrValueSetPregnancyTrimester: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
-== /github/workspace/input/vocabulary/ValueSet-WhoCrValueSetReasonForCovid19Testing.json ==
+== /home/publisher/ig/input/vocabulary/ValueSet-WhoCrValueSetReasonForCovid19Testing.json ==
 INFORMATION: ValueSet/WhoCrValueSetReasonForCovid19Testing: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
-== /github/workspace/input/vocabulary/ValueSet-WhoCrValueSetSexAtBirth.json ==
+== /home/publisher/ig/input/vocabulary/ValueSet-WhoCrValueSetSexAtBirth.json ==
 INFORMATION: ValueSet/WhoCrValueSetSexAtBirth: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
-== /github/workspace/input/vocabulary/ValueSet-WhoCrValueSetTestResult.json ==
+== /home/publisher/ig/input/vocabulary/ValueSet-WhoCrValueSetTestResult.json ==
 INFORMATION: ValueSet/WhoCrValueSetTestResult: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
-== /github/workspace/input/vocabulary/ValueSet-WhoCrValueSetYesNo.json ==
+== /home/publisher/ig/input/vocabulary/ValueSet-WhoCrValueSetYesNo.json ==
 INFORMATION: ValueSet/WhoCrValueSetYesNo: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
-== /github/workspace/input/vocabulary/ValueSet-WhoCrValueSetYesNoPartial.json ==
+== /home/publisher/ig/input/vocabulary/ValueSet-WhoCrValueSetYesNoPartial.json ==
 INFORMATION: ValueSet/WhoCrValueSetYesNoPartial: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
-== /github/workspace/input/vocabulary/ValueSet-WhoCrValueSetYesNoUnk.json ==
+== /home/publisher/ig/input/vocabulary/ValueSet-WhoCrValueSetYesNoUnk.json ==
 INFORMATION: ValueSet/WhoCrValueSetYesNoUnk: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet

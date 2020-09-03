@@ -3,14 +3,14 @@
 <ConceptMap xmlns="http://hl7.org/fhir">
   <id value="WhoCrConceptMapPregnancyTrimesterToCiel"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>WhoCrConceptMapPregnancyTrimesterToCiel (http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapPregnancyTrimesterToCiel)</h2><p>Mapping from <a href="CodeSystem-WhoCrCodeSystemPregnancyTrimester.html">http://www.example.com/fhir/cr/covid19/CodeSystem/WhoCrCodeSystemPregnancyTrimester</a> to https://www.openconceptlab.org/orgs/CIEL/sources/CIEL/concepts/</p><p>DRAFT (not intended for production usage). Published on Sep 1, 2020, 8:27:36 AM by World Health Organization (World Health Organization: <a href="http://www.example.com">http://www.example.com</a>). TODO</p><br/><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Destination Code</b></td></tr><tr><td>first</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#relatedto">is related to</a></td><td>1721</td></tr><tr><td>second</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#relatedto">is related to</a></td><td>1722</td></tr><tr><td>third</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#relatedto">is related to</a></td><td>1723</td></tr></table></div>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>WhoCrConceptMapPregnancyTrimesterToCiel (http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapPregnancyTrimesterToCiel)</h2><p>Mapping from <a href="CodeSystem-WhoCrCodeSystemPregnancyTrimester.html">http://www.example.com/fhir/cr/covid19/CodeSystem/WhoCrCodeSystemPregnancyTrimester</a> to https://www.openconceptlab.org/orgs/CIEL/sources/CIEL/concepts/</p><p>DRAFT (not intended for production usage). Published on Sep 3, 2020, 8:58:03 PM by World Health Organization (World Health Organization: <a href="http://www.example.com">http://www.example.com</a>). TODO</p><br/><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Destination Code</b></td></tr><tr><td>first</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#relatedto">is related to</a></td><td>1721</td></tr><tr><td>second</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#relatedto">is related to</a></td><td>1722</td></tr><tr><td>third</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#relatedto">is related to</a></td><td>1723</td></tr></table></div>
   </text>
   <url value="http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapPregnancyTrimesterToCiel"/>
   <version value="0.1.0"/>
   <name value="WhoCrConceptMapPregnancyTrimesterToCiel"/>
   <status value="draft"/>
   <experimental value="true"/>
-  <date value="2020-09-01T08:27:36+00:00"/>
+  <date value="2020-09-03T20:58:03+00:00"/>
   <publisher value="World Health Organization"/>
   <contact>
     <name value="World Health Organization"/>
