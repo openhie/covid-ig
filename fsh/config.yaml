@@ -13,10 +13,10 @@ copyrightYear: 2020+
 releaseLabel: ci-build
 title: WHO Case Reporting for COVID-19 Surveillance
 description: TODO
-# license: CC0-1.0
+license: CC-BY-SA-4.0
 publisher:
-  name: World Health Organization
-  url: http://www.example.com
+  name: OpenHIE
+  url: http://www.ohie.org
 #   email:
 # contact:
 jurisdiction: http://unstats.un.org/unsd/methods/m49/m49.htm#001

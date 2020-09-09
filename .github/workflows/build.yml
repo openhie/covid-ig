@@ -32,12 +32,11 @@ jobs:
 
       - name: Move to output to docs subdirectory
         run: |
-          mkdir ./publish
-          mv ./output ./publish/docs
+          mkdir ./public
+          mv ./output ./public/docs
           
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./publish
 

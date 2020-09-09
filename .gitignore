@@ -1,11 +1,11 @@
 **/.DS_Store
+**/.index.json
 /output**
 /input**
 /input-cache**
 /template**
 /temp**
 /SUSHI-GENERATED-FILES.md
-.index.json
 /ig.ini
 /package-list.json
 /publish**
