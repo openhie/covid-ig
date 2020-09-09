@@ -28,13 +28,13 @@
   <title value="WHO Case Reporting Composition"/>
   <status value="draft"/>
   <experimental value="true"/>
-  <date value="2020-09-03T20:58:03+00:00"/>
-  <publisher value="World Health Organization"/>
+  <date value="2020-09-09T02:56:29+00:00"/>
+  <publisher value="OpenHIE"/>
   <contact>
-    <name value="World Health Organization"/>
+    <name value="OpenHIE"/>
     <telecom>
       <system value="url"/>
-      <value value="http://www.example.com"/>
+      <value value="http://www.ohie.org"/>
     </telecom>
   </contact>
   <description value="WHO Case Reporting Composition"/>
@@ -44,7 +44,7 @@
       <code value="001"/>
     </coding>
   </jurisdiction>
-  <copyright value="TODO"/>
+  <copyright value="2020"/>
   <fhirVersion value="4.0.1"/>
   <mapping>
     <identity value="workflow"/>

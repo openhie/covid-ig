@@ -16,8 +16,8 @@
      ]
   ];
   fhir:DomainResource.text [
-     fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>id</b>: WhoCrSamplePatient</p><p><b>meta</b>: </p><p><b>address</b>: URY (HOME)</p></div>"
+     fhir:Narrative.status [ fhir:value "extensions" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><h3>Ids</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><h3>Meta</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>US Core Birth Sex Extension</b>: </p><p><b>address</b>: URY (HOME)</p></div>"
   ];
   fhir:DomainResource.extension [
      fhir:index 0;

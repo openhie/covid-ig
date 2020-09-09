@@ -17,15 +17,15 @@
   fhir:ValueSet.name [ fhir:value "WhoCrValueSetReasonForCovid19Testing"];
   fhir:ValueSet.title [ fhir:value "Reason for Covid-19 Testing"];
   fhir:ValueSet.status [ fhir:value "active"];
-  fhir:ValueSet.date [ fhir:value "2020-09-03T20:58:03+00:00"^^xsd:dateTime];
-  fhir:ValueSet.publisher [ fhir:value "World Health Organization"];
+  fhir:ValueSet.date [ fhir:value "2020-09-09T02:56:29+00:00"^^xsd:dateTime];
+  fhir:ValueSet.publisher [ fhir:value "OpenHIE"];
   fhir:ValueSet.contact [
      fhir:index 0;
-     fhir:ContactDetail.name [ fhir:value "World Health Organization" ];
+     fhir:ContactDetail.name [ fhir:value "OpenHIE" ];
      fhir:ContactDetail.telecom [
        fhir:index 0;
        fhir:ContactPoint.system [ fhir:value "url" ];
-       fhir:ContactPoint.value [ fhir:value "http://www.example.com" ]
+       fhir:ContactPoint.value [ fhir:value "http://www.ohie.org" ]
      ]
   ];
   fhir:ValueSet.description [ fhir:value "TODO"];

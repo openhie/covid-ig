@@ -26,7 +26,7 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-WhoCrSurveillanceDataDictionary-definitions.html#WhoCrSurveillanceDataDictionary.clinicalStatus.patientCourse.onsetDate" title="Date of first appearance of the signs or symptoms of the illness/disease.">onsetDate</a><a name="WhoCrSurveillanceDataDictionary.clinicalStatus.patientCourse.onsetDate"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#date">date</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Date of onset of first symptoms</td></tr>
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: white; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-WhoCrSurveillanceDataDictionary-definitions.html#WhoCrSurveillanceDataDictionary.clinicalStatus.patientCourse.asymptomatic" title="Is the case asymptomatic?">asymptomatic</a><a name="WhoCrSurveillanceDataDictionary.clinicalStatus.patientCourse.asymptomatic"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#Coding">Coding</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Patient asymptomatic at time of specimen collection<br/><span style="font-weight:bold">Binding: </span><a href="ValueSet-WhoCrValueSetYesNoUnk.html">Yes/No/Unknown</a> (<a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set.">required</a>)</td></tr>
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-WhoCrSurveillanceDataDictionary-definitions.html#WhoCrSurveillanceDataDictionary.clinicalStatus.patientCourse.wasAdmitted" title="Was the case hospitalized, admitted to a hospital or other health facility as an inpatient?">wasAdmitted</a><a name="WhoCrSurveillanceDataDictionary.clinicalStatus.patientCourse.wasAdmitted"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#Coding">Coding</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">admission to hospital?<br/><span style="font-weight:bold">Binding: </span><a href="ValueSet-WhoCrValueSetYesNoUnk.html">Yes/No/Unknown</a> (<a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set.">required</a>)</td></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-WhoCrSurveillanceDataDictionary-definitions.html#WhoCrSurveillanceDataDictionary.clinicalStatus.patientCourse.presHCF" title="Date the case was first admitted to any health facility.">presHCF</a><a name="WhoCrSurveillanceDataDictionary.clinicalStatus.patientCourse.presHCF"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#date">date</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">For this episode, date first admitted in hospital</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-WhoCrSurveillanceDataDictionary-definitions.html#WhoCrSurveillanceDataDictionary.clinicalStatus.patientCourse.admitDate" title="Date the case was first admitted to any health facility.">admitDate</a><a name="WhoCrSurveillanceDataDictionary.clinicalStatus.patientCourse.admitDate"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#date">date</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">For this episode, date first admitted in hospital</td></tr>
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-WhoCrSurveillanceDataDictionary-definitions.html#WhoCrSurveillanceDataDictionary.clinicalStatus.patientCourse.receivedIcuCare" title="Did the patient receive care in an intensive care unit (ICU)?">receivedIcuCare</a><a name="WhoCrSurveillanceDataDictionary.clinicalStatus.patientCourse.receivedIcuCare"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#Coding">Coding</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Did the patient receive care in an ICU?<br/><span style="font-weight:bold">Binding: </span><a href="ValueSet-WhoCrValueSetYesNoUnk.html">Yes/No/Unknown</a> (<a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set.">required</a>)</td></tr>
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: white; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-WhoCrSurveillanceDataDictionary-definitions.html#WhoCrSurveillanceDataDictionary.clinicalStatus.patientCourse.ventilated" title="Was the patient ever ventilated for this episode at time of reporting?">ventilated</a><a name="WhoCrSurveillanceDataDictionary.clinicalStatus.patientCourse.ventilated"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#Coding">Coding</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Was the patient ventilated?<br/><span style="font-weight:bold">Binding: </span><a href="ValueSet-WhoCrValueSetYesNoUnk.html">Yes/No/Unknown</a> (<a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set.">required</a>)</td></tr>
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-WhoCrSurveillanceDataDictionary-definitions.html#WhoCrSurveillanceDataDictionary.clinicalStatus.patientCourse.receivedEcmo" title="Did the patient receive extracorporeal membrane oxygenation (ECMO)?">receivedEcmo</a><a name="WhoCrSurveillanceDataDictionary.clinicalStatus.patientCourse.receivedEcmo"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#Coding">Coding</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Did the patient receive ECMO?<br/><span style="font-weight:bold">Binding: </span><a href="ValueSet-WhoCrValueSetYesNoUnk.html">Yes/No/Unknown</a> (<a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set.">required</a>)</td></tr>
@@ -74,7 +74,7 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-WhoCrSurveillanceDataDictionary-definitions.html#WhoCrSurveillanceDataDictionary.outcome.symptomaticDate" title="If case was asymptomatic and developed symptoms, what is the date of onset for symptoms/signs of illness">symptomaticDate</a><a name="WhoCrSurveillanceDataDictionary.outcome.symptomaticDate"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#date">date</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Date case developed symptoms</td></tr>
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck011.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: white; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-WhoCrSurveillanceDataDictionary-definitions.html#WhoCrSurveillanceDataDictionary.outcome.patientCourse" title="Details of the outcome of the patient course of treatment">patientCourse</a><a name="WhoCrSurveillanceDataDictionary.outcome.patientCourse"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Details of the outcome of the patient course of treatment</td></tr>
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck0110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-WhoCrSurveillanceDataDictionary-definitions.html#WhoCrSurveillanceDataDictionary.outcome.patientCourse.wasAdmitted" title="Patient was first admitted to hospital (outcome)">wasAdmitted</a><a name="WhoCrSurveillanceDataDictionary.outcome.patientCourse.wasAdmitted"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#Coding">Coding</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Patient was admitted to hospital<br/><span style="font-weight:bold">Binding: </span><a href="ValueSet-WhoCrValueSetYesNoUnk.html">Yes/No/Unknown</a> (<a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set.">required</a>)</td></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck0110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-WhoCrSurveillanceDataDictionary-definitions.html#WhoCrSurveillanceDataDictionary.outcome.patientCourse.presHCF" title="Date patient was first admitted to hospital (outcome)">presHCF</a><a name="WhoCrSurveillanceDataDictionary.outcome.patientCourse.presHCF"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#date">date</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Date patient admitted to hospital</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck0110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-WhoCrSurveillanceDataDictionary-definitions.html#WhoCrSurveillanceDataDictionary.outcome.patientCourse.admitDate" title="Date patient was first admitted to hospital (outcome)">admitDate</a><a name="WhoCrSurveillanceDataDictionary.outcome.patientCourse.admitDate"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#date">date</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Date patient admitted to hospital</td></tr>
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck0110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-WhoCrSurveillanceDataDictionary-definitions.html#WhoCrSurveillanceDataDictionary.outcome.patientCourse.receivedIcuCare" title="Did the patient receive care in an intensive care unit (ICU)? (outcome)">receivedIcuCare</a><a name="WhoCrSurveillanceDataDictionary.outcome.patientCourse.receivedIcuCare"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#Coding">Coding</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Did the patient receive care in an ICU?<br/><span style="font-weight:bold">Binding: </span><a href="ValueSet-WhoCrValueSetYesNoUnk.html">Yes/No/Unknown</a> (<a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set.">required</a>)</td></tr>
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck0110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: white; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-WhoCrSurveillanceDataDictionary-definitions.html#WhoCrSurveillanceDataDictionary.outcome.patientCourse.ventilated" title="Was the patient ever ventilated for this episode? (outcome)">ventilated</a><a name="WhoCrSurveillanceDataDictionary.outcome.patientCourse.ventilated"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#Coding">Coding</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Was the patient ventilated?<br/><span style="font-weight:bold">Binding: </span><a href="ValueSet-WhoCrValueSetYesNoUnk.html">Yes/No/Unknown</a> (<a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set.">required</a>)</td></tr>
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck0110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-WhoCrSurveillanceDataDictionary-definitions.html#WhoCrSurveillanceDataDictionary.outcome.patientCourse.receivedEcmo" title="Did the patient receive extracorporeal membrane oxygenation (ECMO)? (outcome)">receivedEcmo</a><a name="WhoCrSurveillanceDataDictionary.outcome.patientCourse.receivedEcmo"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#Coding">Coding</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Did the patient receive ECMO?<br/><span style="font-weight:bold">Binding: </span><a href="ValueSet-WhoCrValueSetYesNoUnk.html">Yes/No/Unknown</a> (<a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set.">required</a>)</td></tr>
@@ -92,13 +92,13 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
   <name value="WhoCrSurveillanceDataDictionary"/>
   <status value="draft"/>
   <experimental value="true"/>
-  <date value="2020-09-03T20:58:03+00:00"/>
-  <publisher value="World Health Organization"/>
+  <date value="2020-09-09T02:56:29+00:00"/>
+  <publisher value="OpenHIE"/>
   <contact>
-    <name value="World Health Organization"/>
+    <name value="OpenHIE"/>
     <telecom>
       <system value="url"/>
-      <value value="http://www.example.com"/>
+      <value value="http://www.ohie.org"/>
     </telecom>
   </contact>
   <jurisdiction>
@@ -107,7 +107,7 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
       <code value="001"/>
     </coding>
   </jurisdiction>
-  <copyright value="TODO"/>
+  <copyright value="2020"/>
   <fhirVersion value="4.0.1"/>
   <mapping>
     <identity value="WhoCrDataDictionarySpreadsheet"/>
@@ -116,12 +116,32 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
   <mapping>
     <identity value="LOINC"/>
     <uri value="http://loinc.org"/>
-    <name value="LOINC"/>
+    <name value="Logical Observation Identifiers Names and Codes"/>
   </mapping>
   <mapping>
     <identity value="CIEL"/>
-    <uri value="https://www.openconceptlab.org/orgs/CIEL/sources/CIEL/concepts/"/>
+    <uri value="https://www.openconceptlab.org/orgs/CIEL/sources/CIEL/concepts"/>
     <name value="Columbia International eHealth Laboratory"/>
+  </mapping>
+  <mapping>
+    <identity value="ICD10"/>
+    <uri value="https://icd.who.int/browse10"/>
+    <name value="International Statistical Classification of Diseases and Releated Health Problems 10th Revision"/>
+  </mapping>
+  <mapping>
+    <identity value="ICD11"/>
+    <uri value="https://icd.who.int/browse11"/>
+    <name value="International Statistical Classification of Diseases and Releated Health Problems 11th Revision"/>
+  </mapping>
+  <mapping>
+    <identity value="RXNORM"/>
+    <uri value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+    <name value="RxNorm"/>
+  </mapping>
+  <mapping>
+    <identity value="SNOMED"/>
+    <uri value="http://snomed.info/sct"/>
+    <name value="Systematic Nomencature of Medicin"/>
   </mapping>
   <mapping>
     <identity value="rim"/>
@@ -162,6 +182,30 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
       <mapping>
         <identity value="WhoCrDataDictionarySpreadsheet"/>
         <map value="2020-02-27-data-dictionary-en.xlsx"/>
+      </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.id">
@@ -251,6 +295,34 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
       <type>
         <code value="BackboneElement"/>
       </type>
+      <mapping>
+        <identity value="WhoCrDataDictionarySpreadsheet"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
+      </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.report.date">
       <path value="WhoCrSurveillanceDataDictionary.report.date"/>
@@ -269,6 +341,30 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
       <mapping>
         <identity value="WhoCrDataDictionarySpreadsheet"/>
         <map value="report_date"/>
+      </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.report.country">
@@ -290,8 +386,33 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <valueSet value="http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetAdmin0"/>
       </binding>
       <mapping>
+        <identity value="WhoCrDataDictionarySpreadsheet"/>
+        <map value="report_country"/>
+      </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="77983-5"/>
+        <comment value="TODO: The definition appears almost the same as patientInfo.residence.admin0. Confirm with WHO."/>
+      </mapping>
+      <mapping>
         <identity value="CIEL"/>
         <map value="165847"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.report.testReason">
@@ -321,12 +442,28 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <map value="report_test_reason"/>
       </mapping>
       <mapping>
+        <identity value="LOINC"/>
+        <map value="67098-4"/>
+      </mapping>
+      <mapping>
         <identity value="CIEL"/>
         <map value="164126"/>
       </mapping>
       <mapping>
-        <identity value="LOINC"/>
-        <map value="67098-4"/>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.report.testReasonOther">
@@ -348,8 +485,24 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <map value="report_test_reason_other"/>
       </mapping>
       <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
         <identity value="CIEL"/>
         <map value="163761"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.patientInfo">
@@ -366,6 +519,34 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
       <type>
         <code value="BackboneElement"/>
       </type>
+      <mapping>
+        <identity value="WhoCrDataDictionarySpreadsheet"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
+      </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.patientInfo.caseId">
       <path value="WhoCrSurveillanceDataDictionary.patientInfo.caseId"/>
@@ -392,6 +573,26 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
       <mapping>
         <identity value="LOINC"/>
         <map value="94659-0"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.patientInfo.onsetAge">
@@ -423,6 +624,22 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
       <mapping>
         <identity value="LOINC"/>
         <map value="30525-0"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.patientInfo.birthSex">
@@ -459,6 +676,22 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <identity value="LOINC"/>
         <map value="76689-9"/>
       </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
+      </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.patientInfo.identified">
       <path value="WhoCrSurveillanceDataDictionary.patientInfo.identified"/>
@@ -474,6 +707,34 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
       <type>
         <code value="BackboneElement"/>
       </type>
+      <mapping>
+        <identity value="WhoCrDataDictionarySpreadsheet"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
+      </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.patientInfo.identified.admin0">
       <path value="WhoCrSurveillanceDataDictionary.patientInfo.identified.admin0"/>
@@ -498,8 +759,28 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <map value="patinfo_idadmin0"/>
       </mapping>
       <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
         <identity value="CIEL"/>
-        <map value="165794"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.patientInfo.identified.admin1">
@@ -521,8 +802,28 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <map value="patinfo_idadmin1"/>
       </mapping>
       <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
         <identity value="CIEL"/>
         <map value="165851"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.patientInfo.residence">
@@ -539,6 +840,34 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
       <type>
         <code value="BackboneElement"/>
       </type>
+      <mapping>
+        <identity value="WhoCrDataDictionarySpreadsheet"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
+      </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.patientInfo.residence.admin0">
       <path value="WhoCrSurveillanceDataDictionary.patientInfo.residence.admin0"/>
@@ -563,12 +892,28 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <map value="patinfo_resadmin0"/>
       </mapping>
       <mapping>
+        <identity value="LOINC"/>
+        <map value="77983-5"/>
+      </mapping>
+      <mapping>
         <identity value="CIEL"/>
         <map value="165915"/>
       </mapping>
       <mapping>
-        <identity value="LOINC"/>
-        <map value="77983-5"/>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.clinicalStatus">
@@ -585,6 +930,34 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
       <type>
         <code value="BackboneElement"/>
       </type>
+      <mapping>
+        <identity value="WhoCrDataDictionarySpreadsheet"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
+      </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.clinicalStatus.lab">
       <path value="WhoCrSurveillanceDataDictionary.clinicalStatus.lab"/>
@@ -600,6 +973,34 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
       <type>
         <code value="BackboneElement"/>
       </type>
+      <mapping>
+        <identity value="WhoCrDataDictionarySpreadsheet"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
+      </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.clinicalStatus.lab.confirmedDate">
       <path value="WhoCrSurveillanceDataDictionary.clinicalStatus.lab.confirmedDate"/>
@@ -619,6 +1020,30 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <identity value="WhoCrDataDictionarySpreadsheet"/>
         <map value="Lab_date1"/>
       </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
+      </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.clinicalStatus.patientCourse">
       <path value="WhoCrSurveillanceDataDictionary.clinicalStatus.patientCourse"/>
@@ -634,6 +1059,34 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
       <type>
         <code value="BackboneElement"/>
       </type>
+      <mapping>
+        <identity value="WhoCrDataDictionarySpreadsheet"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
+      </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.clinicalStatus.patientCourse.onsetDate">
       <path value="WhoCrSurveillanceDataDictionary.clinicalStatus.patientCourse.onsetDate"/>
@@ -661,6 +1114,26 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <identity value="LOINC"/>
         <map value="65222-2"/>
       </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
+      </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.clinicalStatus.patientCourse.asymptomatic">
       <path value="WhoCrSurveillanceDataDictionary.clinicalStatus.patientCourse.asymptomatic"/>
@@ -685,8 +1158,28 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <map value="patcourse_asymp"/>
       </mapping>
       <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
         <identity value="CIEL"/>
         <map value="5006"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.clinicalStatus.patientCourse.wasAdmitted">
@@ -716,16 +1209,32 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <map value="patcourse_admit"/>
       </mapping>
       <mapping>
+        <identity value="LOINC"/>
+        <map value="77974-4"/>
+      </mapping>
+      <mapping>
         <identity value="CIEL"/>
         <map value="163403"/>
       </mapping>
       <mapping>
-        <identity value="LOINC"/>
-        <map value="77974-4"/>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
-    <element id="WhoCrSurveillanceDataDictionary.clinicalStatus.patientCourse.presHCF">
-      <path value="WhoCrSurveillanceDataDictionary.clinicalStatus.patientCourse.presHCF"/>
+    <element id="WhoCrSurveillanceDataDictionary.clinicalStatus.patientCourse.admitDate">
+      <path value="WhoCrSurveillanceDataDictionary.clinicalStatus.patientCourse.admitDate"/>
       <code>
         <system value="http://loinc.org"/>
         <code value="8656-1"/>
@@ -735,7 +1244,7 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
       <min value="0"/>
       <max value="1"/>
       <base>
-        <path value="WhoCrSurveillanceDataDictionary.clinicalStatus.patientCourse.presHCF"/>
+        <path value="WhoCrSurveillanceDataDictionary.clinicalStatus.patientCourse.admitDate"/>
         <min value="0"/>
         <max value="1"/>
       </base>
@@ -747,12 +1256,28 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <map value="patcourse_presHCF"/>
       </mapping>
       <mapping>
+        <identity value="LOINC"/>
+        <map value="8656-1"/>
+      </mapping>
+      <mapping>
         <identity value="CIEL"/>
         <map value="1640"/>
       </mapping>
       <mapping>
-        <identity value="LOINC"/>
-        <map value="8656-1"/>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.clinicalStatus.patientCourse.receivedIcuCare">
@@ -782,13 +1307,25 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <map value="patcourse_icu"/>
       </mapping>
       <mapping>
+        <identity value="LOINC"/>
+        <map value="95420-6"/>
+        <comment value="This is a pre-release code."/>
+      </mapping>
+      <mapping>
         <identity value="CIEL"/>
         <map value="165644"/>
       </mapping>
       <mapping>
-        <identity value="LOINC"/>
-        <map value="95420-6"/>
-        <comment value="This is a pre-release code."/>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.clinicalStatus.patientCourse.ventilated">
@@ -814,8 +1351,28 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <map value="patcourse_vent"/>
       </mapping>
       <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
         <identity value="CIEL"/>
         <map value="165647"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.clinicalStatus.patientCourse.receivedEcmo">
@@ -841,8 +1398,28 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <map value="patcourse_ecmo"/>
       </mapping>
       <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
         <identity value="CIEL"/>
         <map value="165643"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.clinicalStatus.patientCourse.wasIsolated">
@@ -868,8 +1445,28 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <map value="patcourse_iso"/>
       </mapping>
       <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
         <identity value="CIEL"/>
         <map value="165795"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.clinicalStatus.patientCourse.isolatedDate">
@@ -891,8 +1488,28 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <map value="patcourse_dateiso"/>
       </mapping>
       <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
         <identity value="CIEL"/>
         <map value="165648"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.clinicalStatus.comorbidities">
@@ -909,6 +1526,34 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
       <type>
         <code value="BackboneElement"/>
       </type>
+      <mapping>
+        <identity value="WhoCrDataDictionarySpreadsheet"/>
+        <map value="patcourse_dateiso"/>
+      </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
+      </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.clinicalStatus.comorbidities.present">
       <path value="WhoCrSurveillanceDataDictionary.clinicalStatus.comorbidities.present"/>
@@ -937,12 +1582,28 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <map value="Comcond_present"/>
       </mapping>
       <mapping>
+        <identity value="LOINC"/>
+        <map value="75618-9"/>
+      </mapping>
+      <mapping>
         <identity value="CIEL"/>
         <map value="162747"/>
       </mapping>
       <mapping>
-        <identity value="LOINC"/>
-        <map value="75618-9"/>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.clinicalStatus.comorbidities.pregnant">
@@ -968,12 +1629,28 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <map value="Comcond_preg"/>
       </mapping>
       <mapping>
+        <identity value="LOINC"/>
+        <map value="82810-3"/>
+      </mapping>
+      <mapping>
         <identity value="CIEL"/>
         <map value="1434"/>
       </mapping>
       <mapping>
-        <identity value="LOINC"/>
-        <map value="82810-3"/>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.clinicalStatus.comorbidities.pregnantTrimester">
@@ -1003,12 +1680,28 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <map value="Comcond_pregt"/>
       </mapping>
       <mapping>
+        <identity value="LOINC"/>
+        <map value="32418-6"/>
+      </mapping>
+      <mapping>
         <identity value="CIEL"/>
         <map value="160665"/>
       </mapping>
       <mapping>
-        <identity value="LOINC"/>
-        <map value="32418-6"/>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.clinicalStatus.comorbidities.postpartum">
@@ -1030,8 +1723,28 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <map value="Comcond_partum"/>
       </mapping>
       <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
         <identity value="CIEL"/>
         <map value="129317"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.clinicalStatus.comorbidities.immunodeficiency">
@@ -1053,8 +1766,28 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <map value="Comcond_immuno"/>
       </mapping>
       <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
         <identity value="CIEL"/>
         <map value="117277"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.clinicalStatus.comorbidities.cardiovacsular">
@@ -1076,8 +1809,28 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <map value="Comcond_cardi"/>
       </mapping>
       <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
         <identity value="CIEL"/>
         <map value="119270"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.clinicalStatus.comorbidities.diabetes">
@@ -1099,8 +1852,28 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <map value="Comcond_diabetes"/>
       </mapping>
       <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
         <identity value="CIEL"/>
         <map value="119481"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.clinicalStatus.comorbidities.liver">
@@ -1122,8 +1895,28 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <map value="Comcond_liver"/>
       </mapping>
       <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
         <identity value="CIEL"/>
         <map value="6032"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.clinicalStatus.comorbidities.renal">
@@ -1145,8 +1938,28 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <map value="Comcond_renal"/>
       </mapping>
       <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
         <identity value="CIEL"/>
         <map value="6033"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.clinicalStatus.comorbidities.neuro">
@@ -1168,8 +1981,28 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <map value="Comcond_neuro"/>
       </mapping>
       <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
         <identity value="CIEL"/>
         <map value="165646"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.clinicalStatus.comorbidities.malignancy">
@@ -1191,8 +2024,28 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <map value="Comcond_malig"/>
       </mapping>
       <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
         <identity value="CIEL"/>
         <map value="116031"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.clinicalStatus.comorbidities.lung">
@@ -1214,8 +2067,28 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <map value="Comcond_lung"/>
       </mapping>
       <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
         <identity value="CIEL"/>
         <map value="155569"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.clinicalStatus.comorbidities.other">
@@ -1236,6 +2109,30 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <identity value="WhoCrDataDictionarySpreadsheet"/>
         <map value="Comcond_other"/>
       </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
+      </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.exposure">
       <path value="WhoCrSurveillanceDataDictionary.exposure"/>
@@ -1251,6 +2148,34 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
       <type>
         <code value="BackboneElement"/>
       </type>
+      <mapping>
+        <identity value="WhoCrDataDictionarySpreadsheet"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
+      </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.exposure.patientInfo">
       <path value="WhoCrSurveillanceDataDictionary.exposure.patientInfo"/>
@@ -1266,6 +2191,34 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
       <type>
         <code value="BackboneElement"/>
       </type>
+      <mapping>
+        <identity value="WhoCrDataDictionarySpreadsheet"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
+      </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.exposure.patientInfo.hcw">
       <path value="WhoCrSurveillanceDataDictionary.exposure.patientInfo.hcw"/>
@@ -1281,6 +2234,34 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
       <type>
         <code value="BackboneElement"/>
       </type>
+      <mapping>
+        <identity value="WhoCrDataDictionarySpreadsheet"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
+      </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.exposure.patientInfo.hcw.isHealthcareWorker">
       <path value="WhoCrSurveillanceDataDictionary.exposure.patientInfo.hcw.isHealthcareWorker"/>
@@ -1309,13 +2290,29 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <map value="patinfo_occuhcw"/>
       </mapping>
       <mapping>
+        <identity value="LOINC"/>
+        <map value="95418-0"/>
+        <comment value="This is a pre-release code."/>
+      </mapping>
+      <mapping>
         <identity value="CIEL"/>
         <map value="5619"/>
       </mapping>
       <mapping>
-        <identity value="LOINC"/>
-        <map value="95418-0"/>
-        <comment value="This is a pre-release code."/>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.exposure.patientInfo.hcw.workCountry">
@@ -1341,8 +2338,28 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <map value="patinfo_occuhcw_country"/>
       </mapping>
       <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
         <identity value="CIEL"/>
         <map value="165655"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.exposure.patientInfo.hcw.workCity">
@@ -1364,8 +2381,28 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <map value="patinfo_occuhcw_city"/>
       </mapping>
       <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
         <identity value="CIEL"/>
         <map value="165654"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.exposure.patientInfo.hcw.facilityName">
@@ -1387,8 +2424,28 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <map value="patinfo_occuhcw_name"/>
       </mapping>
       <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
         <identity value="CIEL"/>
         <map value="162724"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.exposure.travel">
@@ -1405,6 +2462,34 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
       <type>
         <code value="BackboneElement"/>
       </type>
+      <mapping>
+        <identity value="WhoCrDataDictionarySpreadsheet"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
+      </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.exposure.travel.hasTravelled">
       <path value="WhoCrSurveillanceDataDictionary.exposure.travel.hasTravelled"/>
@@ -1429,8 +2514,28 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <map value="expo_travel"/>
       </mapping>
       <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
         <identity value="CIEL"/>
         <map value="165656"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.exposure.travel.location">
@@ -1447,6 +2552,34 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
       <type>
         <code value="BackboneElement"/>
       </type>
+      <mapping>
+        <identity value="WhoCrDataDictionarySpreadsheet"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
+      </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.exposure.travel.location.country">
       <path value="WhoCrSurveillanceDataDictionary.exposure.travel.location.country"/>
@@ -1475,12 +2608,28 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <map value="expo_travel_countryX"/>
       </mapping>
       <mapping>
+        <identity value="LOINC"/>
+        <map value="94651-7"/>
+      </mapping>
+      <mapping>
         <identity value="CIEL"/>
         <map value="162604"/>
       </mapping>
       <mapping>
-        <identity value="LOINC"/>
-        <map value="94651-7"/>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.exposure.travel.location.city">
@@ -1506,12 +2655,28 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <map value="expo_travel_cityX"/>
       </mapping>
       <mapping>
+        <identity value="LOINC"/>
+        <map value="94653-3"/>
+      </mapping>
+      <mapping>
         <identity value="CIEL"/>
         <map value="165645"/>
       </mapping>
       <mapping>
-        <identity value="LOINC"/>
-        <map value="94653-3"/>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.exposure.travel.location.departureDate">
@@ -1537,12 +2702,28 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <map value="expo_travel_dateX"/>
       </mapping>
       <mapping>
+        <identity value="LOINC"/>
+        <map value="91560-3"/>
+      </mapping>
+      <mapping>
         <identity value="CIEL"/>
         <map value="162602"/>
       </mapping>
       <mapping>
-        <identity value="LOINC"/>
-        <map value="91560-3"/>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.exposure.visitedHealthcare">
@@ -1568,8 +2749,28 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <map value="expo_visit_healthcare"/>
       </mapping>
       <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
         <identity value="CIEL"/>
         <map value="165833"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.exposure.caseContact">
@@ -1591,8 +2792,32 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <valueSet value="http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetYesNoUnk"/>
       </binding>
       <mapping>
+        <identity value="WhoCrDataDictionarySpreadsheet"/>
+        <map value="expo_contact_case"/>
+      </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
         <identity value="CIEL"/>
         <map value="162633"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.exposure.contactSetting">
@@ -1613,6 +2838,30 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <identity value="WhoCrDataDictionarySpreadsheet"/>
         <map value="expo_case_setting_detail"/>
       </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
+      </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.exposure.contact">
       <path value="WhoCrSurveillanceDataDictionary.exposure.contact"/>
@@ -1628,6 +2877,34 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
       <type>
         <code value="BackboneElement"/>
       </type>
+      <mapping>
+        <identity value="WhoCrDataDictionarySpreadsheet"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
+      </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.exposure.contact.identifier">
       <path value="WhoCrSurveillanceDataDictionary.exposure.contact.identifier"/>
@@ -1655,6 +2932,26 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <identity value="LOINC"/>
         <map value="94657-4"/>
       </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
+      </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.exposure.contact.exposureFirstDate">
       <path value="WhoCrSurveillanceDataDictionary.exposure.contact.exposureFirstDate"/>
@@ -1674,6 +2971,30 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <identity value="WhoCrDataDictionarySpreadsheet"/>
         <map value="expo_case_date_firstX"/>
       </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
+      </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.exposure.contact.exposureLastDate">
       <path value="WhoCrSurveillanceDataDictionary.exposure.contact.exposureLastDate"/>
@@ -1692,6 +3013,30 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
       <mapping>
         <identity value="WhoCrDataDictionarySpreadsheet"/>
         <map value="expo_case_date_lastX"/>
+      </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="95386-9"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.exposure.contactCountry">
@@ -1716,6 +3061,30 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <identity value="WhoCrDataDictionarySpreadsheet"/>
         <map value="expo_case_location"/>
       </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="77984-3"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
+      </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.outcome">
       <path value="WhoCrSurveillanceDataDictionary.outcome"/>
@@ -1731,6 +3100,34 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
       <type>
         <code value="BackboneElement"/>
       </type>
+      <mapping>
+        <identity value="WhoCrDataDictionarySpreadsheet"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
+      </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.outcome.submitted">
       <path value="WhoCrSurveillanceDataDictionary.outcome.submitted"/>
@@ -1754,6 +3151,30 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <identity value="WhoCrDataDictionarySpreadsheet"/>
         <map value="outcome_submitted"/>
       </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
+      </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.outcome.submissionDate">
       <path value="WhoCrSurveillanceDataDictionary.outcome.submissionDate"/>
@@ -1772,6 +3193,30 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
       <mapping>
         <identity value="WhoCrDataDictionarySpreadsheet"/>
         <map value="outcome_submitted_date"/>
+      </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.outcome.symptomatic">
@@ -1796,6 +3241,30 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <identity value="WhoCrDataDictionarySpreadsheet"/>
         <map value="outcome_asymp"/>
       </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
+      </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.outcome.symptomaticDate">
       <path value="WhoCrSurveillanceDataDictionary.outcome.symptomaticDate"/>
@@ -1815,6 +3284,30 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <identity value="WhoCrDataDictionarySpreadsheet"/>
         <map value="outcome_asymp_date"/>
       </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="65222-2"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
+      </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.outcome.patientCourse">
       <path value="WhoCrSurveillanceDataDictionary.outcome.patientCourse"/>
@@ -1830,6 +3323,34 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
       <type>
         <code value="BackboneElement"/>
       </type>
+      <mapping>
+        <identity value="WhoCrDataDictionarySpreadsheet"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
+      </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.outcome.patientCourse.wasAdmitted">
       <path value="WhoCrSurveillanceDataDictionary.outcome.patientCourse.wasAdmitted"/>
@@ -1853,15 +3374,39 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <identity value="WhoCrDataDictionarySpreadsheet"/>
         <map value="outcome_patcourse_admit"/>
       </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
+      </mapping>
     </element>
-    <element id="WhoCrSurveillanceDataDictionary.outcome.patientCourse.presHCF">
-      <path value="WhoCrSurveillanceDataDictionary.outcome.patientCourse.presHCF"/>
+    <element id="WhoCrSurveillanceDataDictionary.outcome.patientCourse.admitDate">
+      <path value="WhoCrSurveillanceDataDictionary.outcome.patientCourse.admitDate"/>
       <short value="Date patient admitted to hospital"/>
       <definition value="Date patient was first admitted to hospital (outcome)"/>
       <min value="0"/>
       <max value="1"/>
       <base>
-        <path value="WhoCrSurveillanceDataDictionary.outcome.patientCourse.presHCF"/>
+        <path value="WhoCrSurveillanceDataDictionary.outcome.patientCourse.admitDate"/>
         <min value="0"/>
         <max value="1"/>
       </base>
@@ -1871,6 +3416,30 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
       <mapping>
         <identity value="WhoCrDataDictionarySpreadsheet"/>
         <map value="outcome_patcourse_presHCF"/>
+      </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.outcome.patientCourse.receivedIcuCare">
@@ -1895,6 +3464,30 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <identity value="WhoCrDataDictionarySpreadsheet"/>
         <map value="outcome_patcourse_icu"/>
       </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
+      </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.outcome.patientCourse.ventilated">
       <path value="WhoCrSurveillanceDataDictionary.outcome.patientCourse.ventilated"/>
@@ -1918,6 +3511,30 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <identity value="WhoCrDataDictionarySpreadsheet"/>
         <map value="outcome_patcourse_vent"/>
       </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
+      </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.outcome.patientCourse.receivedEcmo">
       <path value="WhoCrSurveillanceDataDictionary.outcome.patientCourse.receivedEcmo"/>
@@ -1940,6 +3557,30 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
       <mapping>
         <identity value="WhoCrDataDictionarySpreadsheet"/>
         <map value="outcome_patcourse_ecmo"/>
+      </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.outcome.patientCourse.status">
@@ -1965,8 +3606,28 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <map value="outcome_patcourse_status"/>
       </mapping>
       <mapping>
+        <identity value="LOINC"/>
+        <map value="91541-3"/>
+      </mapping>
+      <mapping>
         <identity value="CIEL"/>
         <map value="159640"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.outcome.patientCourse.statusOther">
@@ -1987,6 +3648,30 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <identity value="WhoCrDataDictionarySpreadsheet"/>
         <map value="outcome_patcourse_status_other"/>
       </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
+      </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.outcome.outcomeDate">
       <path value="WhoCrSurveillanceDataDictionary.outcome.outcomeDate"/>
@@ -2006,6 +3691,30 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <identity value="WhoCrDataDictionarySpreadsheet"/>
         <map value="outcome_date_of_outcome"/>
       </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
+      </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.outcome.labDate">
       <path value="WhoCrSurveillanceDataDictionary.outcome.labDate"/>
@@ -2024,6 +3733,30 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
       <mapping>
         <identity value="WhoCrDataDictionarySpreadsheet"/>
         <map value="outcome_lab_date"/>
+      </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.outcome.labResult">
@@ -2048,6 +3781,30 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <identity value="WhoCrDataDictionarySpreadsheet"/>
         <map value="outcome_lab_result"/>
       </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
+      </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.outcome.contactsFollowed">
       <path value="WhoCrSurveillanceDataDictionary.outcome.contactsFollowed"/>
@@ -2066,6 +3823,30 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
       <mapping>
         <identity value="WhoCrDataDictionarySpreadsheet"/>
         <map value="outcome_contacts_followed"/>
+      </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.outcome.contactsFollowedUnknown">
@@ -2090,6 +3871,30 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <identity value="WhoCrDataDictionarySpreadsheet"/>
         <map value="outcome_contacts_followed_unknown"/>
       </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
+      </mapping>
     </element>
   </snapshot>
   <differential>
@@ -2102,6 +3907,30 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <identity value="WhoCrDataDictionarySpreadsheet"/>
         <map value="2020-02-27-data-dictionary-en.xlsx"/>
       </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
+      </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.report">
       <path value="WhoCrSurveillanceDataDictionary.report"/>
@@ -2112,6 +3941,34 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
       <type>
         <code value="BackboneElement"/>
       </type>
+      <mapping>
+        <identity value="WhoCrDataDictionarySpreadsheet"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
+      </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.report.date">
       <path value="WhoCrSurveillanceDataDictionary.report.date"/>
@@ -2125,6 +3982,30 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
       <mapping>
         <identity value="WhoCrDataDictionarySpreadsheet"/>
         <map value="report_date"/>
+      </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.report.country">
@@ -2141,8 +4022,33 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <valueSet value="http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetAdmin0"/>
       </binding>
       <mapping>
+        <identity value="WhoCrDataDictionarySpreadsheet"/>
+        <map value="report_country"/>
+      </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="77983-5"/>
+        <comment value="TODO: The definition appears almost the same as patientInfo.residence.admin0. Confirm with WHO."/>
+      </mapping>
+      <mapping>
         <identity value="CIEL"/>
         <map value="165847"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.report.testReason">
@@ -2167,12 +4073,28 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <map value="report_test_reason"/>
       </mapping>
       <mapping>
+        <identity value="LOINC"/>
+        <map value="67098-4"/>
+      </mapping>
+      <mapping>
         <identity value="CIEL"/>
         <map value="164126"/>
       </mapping>
       <mapping>
-        <identity value="LOINC"/>
-        <map value="67098-4"/>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.report.testReasonOther">
@@ -2189,8 +4111,24 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <map value="report_test_reason_other"/>
       </mapping>
       <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
         <identity value="CIEL"/>
         <map value="163761"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.patientInfo">
@@ -2202,6 +4140,34 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
       <type>
         <code value="BackboneElement"/>
       </type>
+      <mapping>
+        <identity value="WhoCrDataDictionarySpreadsheet"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
+      </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.patientInfo.caseId">
       <path value="WhoCrSurveillanceDataDictionary.patientInfo.caseId"/>
@@ -2223,6 +4189,26 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
       <mapping>
         <identity value="LOINC"/>
         <map value="94659-0"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.patientInfo.onsetAge">
@@ -2249,6 +4235,22 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
       <mapping>
         <identity value="LOINC"/>
         <map value="30525-0"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.patientInfo.birthSex">
@@ -2280,6 +4282,22 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <identity value="LOINC"/>
         <map value="76689-9"/>
       </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
+      </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.patientInfo.identified">
       <path value="WhoCrSurveillanceDataDictionary.patientInfo.identified"/>
@@ -2290,6 +4308,34 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
       <type>
         <code value="BackboneElement"/>
       </type>
+      <mapping>
+        <identity value="WhoCrDataDictionarySpreadsheet"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
+      </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.patientInfo.identified.admin0">
       <path value="WhoCrSurveillanceDataDictionary.patientInfo.identified.admin0"/>
@@ -2309,8 +4355,28 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <map value="patinfo_idadmin0"/>
       </mapping>
       <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
         <identity value="CIEL"/>
-        <map value="165794"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.patientInfo.identified.admin1">
@@ -2327,8 +4393,28 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <map value="patinfo_idadmin1"/>
       </mapping>
       <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
         <identity value="CIEL"/>
         <map value="165851"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.patientInfo.residence">
@@ -2340,6 +4426,34 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
       <type>
         <code value="BackboneElement"/>
       </type>
+      <mapping>
+        <identity value="WhoCrDataDictionarySpreadsheet"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
+      </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.patientInfo.residence.admin0">
       <path value="WhoCrSurveillanceDataDictionary.patientInfo.residence.admin0"/>
@@ -2359,12 +4473,28 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <map value="patinfo_resadmin0"/>
       </mapping>
       <mapping>
+        <identity value="LOINC"/>
+        <map value="77983-5"/>
+      </mapping>
+      <mapping>
         <identity value="CIEL"/>
         <map value="165915"/>
       </mapping>
       <mapping>
-        <identity value="LOINC"/>
-        <map value="77983-5"/>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.clinicalStatus">
@@ -2376,6 +4506,34 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
       <type>
         <code value="BackboneElement"/>
       </type>
+      <mapping>
+        <identity value="WhoCrDataDictionarySpreadsheet"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
+      </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.clinicalStatus.lab">
       <path value="WhoCrSurveillanceDataDictionary.clinicalStatus.lab"/>
@@ -2386,6 +4544,34 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
       <type>
         <code value="BackboneElement"/>
       </type>
+      <mapping>
+        <identity value="WhoCrDataDictionarySpreadsheet"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
+      </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.clinicalStatus.lab.confirmedDate">
       <path value="WhoCrSurveillanceDataDictionary.clinicalStatus.lab.confirmedDate"/>
@@ -2400,6 +4586,30 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <identity value="WhoCrDataDictionarySpreadsheet"/>
         <map value="Lab_date1"/>
       </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
+      </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.clinicalStatus.patientCourse">
       <path value="WhoCrSurveillanceDataDictionary.clinicalStatus.patientCourse"/>
@@ -2410,6 +4620,34 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
       <type>
         <code value="BackboneElement"/>
       </type>
+      <mapping>
+        <identity value="WhoCrDataDictionarySpreadsheet"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
+      </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.clinicalStatus.patientCourse.onsetDate">
       <path value="WhoCrSurveillanceDataDictionary.clinicalStatus.patientCourse.onsetDate"/>
@@ -2432,6 +4670,26 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <identity value="LOINC"/>
         <map value="65222-2"/>
       </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
+      </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.clinicalStatus.patientCourse.asymptomatic">
       <path value="WhoCrSurveillanceDataDictionary.clinicalStatus.patientCourse.asymptomatic"/>
@@ -2451,8 +4709,28 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <map value="patcourse_asymp"/>
       </mapping>
       <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
         <identity value="CIEL"/>
         <map value="5006"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.clinicalStatus.patientCourse.wasAdmitted">
@@ -2477,16 +4755,32 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <map value="patcourse_admit"/>
       </mapping>
       <mapping>
+        <identity value="LOINC"/>
+        <map value="77974-4"/>
+      </mapping>
+      <mapping>
         <identity value="CIEL"/>
         <map value="163403"/>
       </mapping>
       <mapping>
-        <identity value="LOINC"/>
-        <map value="77974-4"/>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
-    <element id="WhoCrSurveillanceDataDictionary.clinicalStatus.patientCourse.presHCF">
-      <path value="WhoCrSurveillanceDataDictionary.clinicalStatus.patientCourse.presHCF"/>
+    <element id="WhoCrSurveillanceDataDictionary.clinicalStatus.patientCourse.admitDate">
+      <path value="WhoCrSurveillanceDataDictionary.clinicalStatus.patientCourse.admitDate"/>
       <code>
         <system value="http://loinc.org"/>
         <code value="8656-1"/>
@@ -2503,12 +4797,28 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <map value="patcourse_presHCF"/>
       </mapping>
       <mapping>
+        <identity value="LOINC"/>
+        <map value="8656-1"/>
+      </mapping>
+      <mapping>
         <identity value="CIEL"/>
         <map value="1640"/>
       </mapping>
       <mapping>
-        <identity value="LOINC"/>
-        <map value="8656-1"/>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.clinicalStatus.patientCourse.receivedIcuCare">
@@ -2533,13 +4843,25 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <map value="patcourse_icu"/>
       </mapping>
       <mapping>
+        <identity value="LOINC"/>
+        <map value="95420-6"/>
+        <comment value="This is a pre-release code."/>
+      </mapping>
+      <mapping>
         <identity value="CIEL"/>
         <map value="165644"/>
       </mapping>
       <mapping>
-        <identity value="LOINC"/>
-        <map value="95420-6"/>
-        <comment value="This is a pre-release code."/>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.clinicalStatus.patientCourse.ventilated">
@@ -2560,8 +4882,28 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <map value="patcourse_vent"/>
       </mapping>
       <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
         <identity value="CIEL"/>
         <map value="165647"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.clinicalStatus.patientCourse.receivedEcmo">
@@ -2582,8 +4924,28 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <map value="patcourse_ecmo"/>
       </mapping>
       <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
         <identity value="CIEL"/>
         <map value="165643"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.clinicalStatus.patientCourse.wasIsolated">
@@ -2604,8 +4966,28 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <map value="patcourse_iso"/>
       </mapping>
       <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
         <identity value="CIEL"/>
         <map value="165795"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.clinicalStatus.patientCourse.isolatedDate">
@@ -2622,8 +5004,28 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <map value="patcourse_dateiso"/>
       </mapping>
       <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
         <identity value="CIEL"/>
         <map value="165648"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.clinicalStatus.comorbidities">
@@ -2635,6 +5037,34 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
       <type>
         <code value="BackboneElement"/>
       </type>
+      <mapping>
+        <identity value="WhoCrDataDictionarySpreadsheet"/>
+        <map value="patcourse_dateiso"/>
+      </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
+      </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.clinicalStatus.comorbidities.present">
       <path value="WhoCrSurveillanceDataDictionary.clinicalStatus.comorbidities.present"/>
@@ -2658,12 +5088,28 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <map value="Comcond_present"/>
       </mapping>
       <mapping>
+        <identity value="LOINC"/>
+        <map value="75618-9"/>
+      </mapping>
+      <mapping>
         <identity value="CIEL"/>
         <map value="162747"/>
       </mapping>
       <mapping>
-        <identity value="LOINC"/>
-        <map value="75618-9"/>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.clinicalStatus.comorbidities.pregnant">
@@ -2684,12 +5130,28 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <map value="Comcond_preg"/>
       </mapping>
       <mapping>
+        <identity value="LOINC"/>
+        <map value="82810-3"/>
+      </mapping>
+      <mapping>
         <identity value="CIEL"/>
         <map value="1434"/>
       </mapping>
       <mapping>
-        <identity value="LOINC"/>
-        <map value="82810-3"/>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.clinicalStatus.comorbidities.pregnantTrimester">
@@ -2714,12 +5176,28 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <map value="Comcond_pregt"/>
       </mapping>
       <mapping>
+        <identity value="LOINC"/>
+        <map value="32418-6"/>
+      </mapping>
+      <mapping>
         <identity value="CIEL"/>
         <map value="160665"/>
       </mapping>
       <mapping>
-        <identity value="LOINC"/>
-        <map value="32418-6"/>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.clinicalStatus.comorbidities.postpartum">
@@ -2736,8 +5214,28 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <map value="Comcond_partum"/>
       </mapping>
       <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
         <identity value="CIEL"/>
         <map value="129317"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.clinicalStatus.comorbidities.immunodeficiency">
@@ -2754,8 +5252,28 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <map value="Comcond_immuno"/>
       </mapping>
       <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
         <identity value="CIEL"/>
         <map value="117277"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.clinicalStatus.comorbidities.cardiovacsular">
@@ -2772,8 +5290,28 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <map value="Comcond_cardi"/>
       </mapping>
       <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
         <identity value="CIEL"/>
         <map value="119270"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.clinicalStatus.comorbidities.diabetes">
@@ -2790,8 +5328,28 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <map value="Comcond_diabetes"/>
       </mapping>
       <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
         <identity value="CIEL"/>
         <map value="119481"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.clinicalStatus.comorbidities.liver">
@@ -2808,8 +5366,28 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <map value="Comcond_liver"/>
       </mapping>
       <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
         <identity value="CIEL"/>
         <map value="6032"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.clinicalStatus.comorbidities.renal">
@@ -2826,8 +5404,28 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <map value="Comcond_renal"/>
       </mapping>
       <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
         <identity value="CIEL"/>
         <map value="6033"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.clinicalStatus.comorbidities.neuro">
@@ -2844,8 +5442,28 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <map value="Comcond_neuro"/>
       </mapping>
       <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
         <identity value="CIEL"/>
         <map value="165646"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.clinicalStatus.comorbidities.malignancy">
@@ -2862,8 +5480,28 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <map value="Comcond_malig"/>
       </mapping>
       <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
         <identity value="CIEL"/>
         <map value="116031"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.clinicalStatus.comorbidities.lung">
@@ -2880,8 +5518,28 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <map value="Comcond_lung"/>
       </mapping>
       <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
         <identity value="CIEL"/>
         <map value="155569"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.clinicalStatus.comorbidities.other">
@@ -2897,6 +5555,30 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <identity value="WhoCrDataDictionarySpreadsheet"/>
         <map value="Comcond_other"/>
       </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
+      </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.exposure">
       <path value="WhoCrSurveillanceDataDictionary.exposure"/>
@@ -2907,6 +5589,34 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
       <type>
         <code value="BackboneElement"/>
       </type>
+      <mapping>
+        <identity value="WhoCrDataDictionarySpreadsheet"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
+      </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.exposure.patientInfo">
       <path value="WhoCrSurveillanceDataDictionary.exposure.patientInfo"/>
@@ -2917,6 +5627,34 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
       <type>
         <code value="BackboneElement"/>
       </type>
+      <mapping>
+        <identity value="WhoCrDataDictionarySpreadsheet"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
+      </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.exposure.patientInfo.hcw">
       <path value="WhoCrSurveillanceDataDictionary.exposure.patientInfo.hcw"/>
@@ -2927,6 +5665,34 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
       <type>
         <code value="BackboneElement"/>
       </type>
+      <mapping>
+        <identity value="WhoCrDataDictionarySpreadsheet"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
+      </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.exposure.patientInfo.hcw.isHealthcareWorker">
       <path value="WhoCrSurveillanceDataDictionary.exposure.patientInfo.hcw.isHealthcareWorker"/>
@@ -2950,13 +5716,29 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <map value="patinfo_occuhcw"/>
       </mapping>
       <mapping>
+        <identity value="LOINC"/>
+        <map value="95418-0"/>
+        <comment value="This is a pre-release code."/>
+      </mapping>
+      <mapping>
         <identity value="CIEL"/>
         <map value="5619"/>
       </mapping>
       <mapping>
-        <identity value="LOINC"/>
-        <map value="95418-0"/>
-        <comment value="This is a pre-release code."/>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.exposure.patientInfo.hcw.workCountry">
@@ -2977,8 +5759,28 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <map value="patinfo_occuhcw_country"/>
       </mapping>
       <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
         <identity value="CIEL"/>
         <map value="165655"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.exposure.patientInfo.hcw.workCity">
@@ -2995,8 +5797,28 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <map value="patinfo_occuhcw_city"/>
       </mapping>
       <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
         <identity value="CIEL"/>
         <map value="165654"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.exposure.patientInfo.hcw.facilityName">
@@ -3013,8 +5835,28 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <map value="patinfo_occuhcw_name"/>
       </mapping>
       <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
         <identity value="CIEL"/>
         <map value="162724"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.exposure.travel">
@@ -3026,6 +5868,34 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
       <type>
         <code value="BackboneElement"/>
       </type>
+      <mapping>
+        <identity value="WhoCrDataDictionarySpreadsheet"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
+      </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.exposure.travel.hasTravelled">
       <path value="WhoCrSurveillanceDataDictionary.exposure.travel.hasTravelled"/>
@@ -3045,8 +5915,28 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <map value="expo_travel"/>
       </mapping>
       <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
         <identity value="CIEL"/>
         <map value="165656"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.exposure.travel.location">
@@ -3058,6 +5948,34 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
       <type>
         <code value="BackboneElement"/>
       </type>
+      <mapping>
+        <identity value="WhoCrDataDictionarySpreadsheet"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
+      </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.exposure.travel.location.country">
       <path value="WhoCrSurveillanceDataDictionary.exposure.travel.location.country"/>
@@ -3081,12 +5999,28 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <map value="expo_travel_countryX"/>
       </mapping>
       <mapping>
+        <identity value="LOINC"/>
+        <map value="94651-7"/>
+      </mapping>
+      <mapping>
         <identity value="CIEL"/>
         <map value="162604"/>
       </mapping>
       <mapping>
-        <identity value="LOINC"/>
-        <map value="94651-7"/>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.exposure.travel.location.city">
@@ -3107,12 +6041,28 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <map value="expo_travel_cityX"/>
       </mapping>
       <mapping>
+        <identity value="LOINC"/>
+        <map value="94653-3"/>
+      </mapping>
+      <mapping>
         <identity value="CIEL"/>
         <map value="165645"/>
       </mapping>
       <mapping>
-        <identity value="LOINC"/>
-        <map value="94653-3"/>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.exposure.travel.location.departureDate">
@@ -3133,12 +6083,28 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <map value="expo_travel_dateX"/>
       </mapping>
       <mapping>
+        <identity value="LOINC"/>
+        <map value="91560-3"/>
+      </mapping>
+      <mapping>
         <identity value="CIEL"/>
         <map value="162602"/>
       </mapping>
       <mapping>
-        <identity value="LOINC"/>
-        <map value="91560-3"/>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.exposure.visitedHealthcare">
@@ -3159,8 +6125,28 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <map value="expo_visit_healthcare"/>
       </mapping>
       <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
         <identity value="CIEL"/>
         <map value="165833"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.exposure.caseContact">
@@ -3177,8 +6163,32 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <valueSet value="http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetYesNoUnk"/>
       </binding>
       <mapping>
+        <identity value="WhoCrDataDictionarySpreadsheet"/>
+        <map value="expo_contact_case"/>
+      </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
         <identity value="CIEL"/>
         <map value="162633"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.exposure.contactSetting">
@@ -3194,6 +6204,30 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <identity value="WhoCrDataDictionarySpreadsheet"/>
         <map value="expo_case_setting_detail"/>
       </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
+      </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.exposure.contact">
       <path value="WhoCrSurveillanceDataDictionary.exposure.contact"/>
@@ -3204,6 +6238,34 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
       <type>
         <code value="BackboneElement"/>
       </type>
+      <mapping>
+        <identity value="WhoCrDataDictionarySpreadsheet"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
+      </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.exposure.contact.identifier">
       <path value="WhoCrSurveillanceDataDictionary.exposure.contact.identifier"/>
@@ -3226,6 +6288,26 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <identity value="LOINC"/>
         <map value="94657-4"/>
       </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
+      </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.exposure.contact.exposureFirstDate">
       <path value="WhoCrSurveillanceDataDictionary.exposure.contact.exposureFirstDate"/>
@@ -3240,6 +6322,30 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <identity value="WhoCrDataDictionarySpreadsheet"/>
         <map value="expo_case_date_firstX"/>
       </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
+      </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.exposure.contact.exposureLastDate">
       <path value="WhoCrSurveillanceDataDictionary.exposure.contact.exposureLastDate"/>
@@ -3253,6 +6359,30 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
       <mapping>
         <identity value="WhoCrDataDictionarySpreadsheet"/>
         <map value="expo_case_date_lastX"/>
+      </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="95386-9"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.exposure.contactCountry">
@@ -3272,6 +6402,30 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <identity value="WhoCrDataDictionarySpreadsheet"/>
         <map value="expo_case_location"/>
       </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="77984-3"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
+      </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.outcome">
       <path value="WhoCrSurveillanceDataDictionary.outcome"/>
@@ -3282,6 +6436,34 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
       <type>
         <code value="BackboneElement"/>
       </type>
+      <mapping>
+        <identity value="WhoCrDataDictionarySpreadsheet"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
+      </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.outcome.submitted">
       <path value="WhoCrSurveillanceDataDictionary.outcome.submitted"/>
@@ -3300,6 +6482,30 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <identity value="WhoCrDataDictionarySpreadsheet"/>
         <map value="outcome_submitted"/>
       </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
+      </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.outcome.submissionDate">
       <path value="WhoCrSurveillanceDataDictionary.outcome.submissionDate"/>
@@ -3313,6 +6519,30 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
       <mapping>
         <identity value="WhoCrDataDictionarySpreadsheet"/>
         <map value="outcome_submitted_date"/>
+      </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.outcome.symptomatic">
@@ -3332,6 +6562,30 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <identity value="WhoCrDataDictionarySpreadsheet"/>
         <map value="outcome_asymp"/>
       </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
+      </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.outcome.symptomaticDate">
       <path value="WhoCrSurveillanceDataDictionary.outcome.symptomaticDate"/>
@@ -3346,6 +6600,30 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <identity value="WhoCrDataDictionarySpreadsheet"/>
         <map value="outcome_asymp_date"/>
       </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="65222-2"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
+      </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.outcome.patientCourse">
       <path value="WhoCrSurveillanceDataDictionary.outcome.patientCourse"/>
@@ -3356,6 +6634,34 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
       <type>
         <code value="BackboneElement"/>
       </type>
+      <mapping>
+        <identity value="WhoCrDataDictionarySpreadsheet"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
+      </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.outcome.patientCourse.wasAdmitted">
       <path value="WhoCrSurveillanceDataDictionary.outcome.patientCourse.wasAdmitted"/>
@@ -3374,9 +6680,33 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <identity value="WhoCrDataDictionarySpreadsheet"/>
         <map value="outcome_patcourse_admit"/>
       </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
+      </mapping>
     </element>
-    <element id="WhoCrSurveillanceDataDictionary.outcome.patientCourse.presHCF">
-      <path value="WhoCrSurveillanceDataDictionary.outcome.patientCourse.presHCF"/>
+    <element id="WhoCrSurveillanceDataDictionary.outcome.patientCourse.admitDate">
+      <path value="WhoCrSurveillanceDataDictionary.outcome.patientCourse.admitDate"/>
       <short value="Date patient admitted to hospital"/>
       <definition value="Date patient was first admitted to hospital (outcome)"/>
       <min value="0"/>
@@ -3387,6 +6717,30 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
       <mapping>
         <identity value="WhoCrDataDictionarySpreadsheet"/>
         <map value="outcome_patcourse_presHCF"/>
+      </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.outcome.patientCourse.receivedIcuCare">
@@ -3406,6 +6760,30 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <identity value="WhoCrDataDictionarySpreadsheet"/>
         <map value="outcome_patcourse_icu"/>
       </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
+      </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.outcome.patientCourse.ventilated">
       <path value="WhoCrSurveillanceDataDictionary.outcome.patientCourse.ventilated"/>
@@ -3424,6 +6802,30 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <identity value="WhoCrDataDictionarySpreadsheet"/>
         <map value="outcome_patcourse_vent"/>
       </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
+      </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.outcome.patientCourse.receivedEcmo">
       <path value="WhoCrSurveillanceDataDictionary.outcome.patientCourse.receivedEcmo"/>
@@ -3441,6 +6843,30 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
       <mapping>
         <identity value="WhoCrDataDictionarySpreadsheet"/>
         <map value="outcome_patcourse_ecmo"/>
+      </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.outcome.patientCourse.status">
@@ -3461,8 +6887,28 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <map value="outcome_patcourse_status"/>
       </mapping>
       <mapping>
+        <identity value="LOINC"/>
+        <map value="91541-3"/>
+      </mapping>
+      <mapping>
         <identity value="CIEL"/>
         <map value="159640"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.outcome.patientCourse.statusOther">
@@ -3478,6 +6924,30 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <identity value="WhoCrDataDictionarySpreadsheet"/>
         <map value="outcome_patcourse_status_other"/>
       </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
+      </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.outcome.outcomeDate">
       <path value="WhoCrSurveillanceDataDictionary.outcome.outcomeDate"/>
@@ -3492,6 +6962,30 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <identity value="WhoCrDataDictionarySpreadsheet"/>
         <map value="outcome_date_of_outcome"/>
       </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
+      </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.outcome.labDate">
       <path value="WhoCrSurveillanceDataDictionary.outcome.labDate"/>
@@ -3505,6 +6999,30 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
       <mapping>
         <identity value="WhoCrDataDictionarySpreadsheet"/>
         <map value="outcome_lab_date"/>
+      </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.outcome.labResult">
@@ -3524,6 +7042,30 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <identity value="WhoCrDataDictionarySpreadsheet"/>
         <map value="outcome_lab_result"/>
       </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
+      </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.outcome.contactsFollowed">
       <path value="WhoCrSurveillanceDataDictionary.outcome.contactsFollowed"/>
@@ -3537,6 +7079,30 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
       <mapping>
         <identity value="WhoCrDataDictionarySpreadsheet"/>
         <map value="outcome_contacts_followed"/>
+      </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
     <element id="WhoCrSurveillanceDataDictionary.outcome.contactsFollowedUnknown">
@@ -3555,6 +7121,30 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
       <mapping>
         <identity value="WhoCrDataDictionarySpreadsheet"/>
         <map value="outcome_contacts_followed_unknown"/>
+      </mapping>
+      <mapping>
+        <identity value="LOINC"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="CIEL"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD10"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="ICD11"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="RXNORM"/>
+        <map value="TODO"/>
+      </mapping>
+      <mapping>
+        <identity value="SNOMED"/>
+        <map value="TODO"/>
       </mapping>
     </element>
   </differential>

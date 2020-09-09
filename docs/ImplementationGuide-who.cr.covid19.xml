@@ -11,13 +11,13 @@
   <name value="WhoCrCovid19"/>
   <title value="WHO Case Reporting for COVID-19 Surveillance"/>
   <status value="draft"/>
-  <date value="2020-09-03T20:58:03+00:00"/>
-  <publisher value="World Health Organization"/>
+  <date value="2020-09-09T02:56:29+00:00"/>
+  <publisher value="OpenHIE"/>
   <contact>
-    <name value="World Health Organization"/>
+    <name value="OpenHIE"/>
     <telecom>
       <system value="url"/>
-      <value value="http://www.example.com"/>
+      <value value="http://www.ohie.org"/>
     </telecom>
   </contact>
   <description value="TODO"/>
@@ -28,7 +28,7 @@
     </coding>
   </jurisdiction>
   <packageId value="who.cr.covid19"/>
-  <license value="CC0-1.0"/>
+  <license value="CC-BY-SA-4.0"/>
   <fhirVersion value="4.0.1"/>
   <dependsOn id="hl7_fhir_us_core">
     <uri value="http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core"/>
@@ -417,6 +417,90 @@
         <valueString value="ConceptMap"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ConceptMap-WhoCrConceptMapPatientAgeUnitsToCiel.html"/>
+      </extension>
+      <reference>
+        <reference value="ConceptMap/WhoCrConceptMapPatientAgeUnitsToCiel"/>
+      </reference>
+      <name value="Patient Age Units Concept Map To CIEL"/>
+      <description value="Patient Age Units Concept Map To CIEL"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ConceptMap-WhoCrConceptMapPatientAgeUnitsToIcd10.html"/>
+      </extension>
+      <reference>
+        <reference value="ConceptMap/WhoCrConceptMapPatientAgeUnitsToIcd10"/>
+      </reference>
+      <name value="Patient Age Units Concept Map To ICD-10"/>
+      <description value="Patient Age Units Concept Map To ICD-10"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ConceptMap-WhoCrConceptMapPatientAgeUnitsToIcd11.html"/>
+      </extension>
+      <reference>
+        <reference value="ConceptMap/WhoCrConceptMapPatientAgeUnitsToIcd11"/>
+      </reference>
+      <name value="Patient Age Units Concept Map To ICD-11"/>
+      <description value="Patient Age Units Concept Map To ICD-11"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ConceptMap-WhoCrConceptMapPatientAgeUnitsToLoinc.html"/>
+      </extension>
+      <reference>
+        <reference value="ConceptMap/WhoCrConceptMapPatientAgeUnitsToLoinc"/>
+      </reference>
+      <name value="Patient Age Units Concept Map To LOINC"/>
+      <description value="Patient Age Units Concept Map To LOINC"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ConceptMap-WhoCrConceptMapPatientAgeUnitsToRxnorm.html"/>
+      </extension>
+      <reference>
+        <reference value="ConceptMap/WhoCrConceptMapPatientAgeUnitsToRxnorm"/>
+      </reference>
+      <name value="Patient Age Units Concept Map To RxNorm"/>
+      <description value="Patient Age Units Concept Map To RxNorm"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ConceptMap-WhoCrConceptMapPatientAgeUnitsToSnomed.html"/>
+      </extension>
+      <reference>
+        <reference value="ConceptMap/WhoCrConceptMapPatientAgeUnitsToSnomed"/>
+      </reference>
+      <name value="Patient Age Units Concept Map To SNOMED CT"/>
+      <description value="Patient Age Units Concept Map To SNOMED CT"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
         <valueUri value="ConceptMap-WhoCrConceptMapPatientOutcomeToCiel.html"/>
       </extension>
       <reference>
@@ -424,6 +508,160 @@
       </reference>
       <name value="Patient Outcome Concept Map To CIEL"/>
       <description value="Patient Outcome Concept Map To CIEL"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ConceptMap-WhoCrConceptMapPatientOutcomeToIcd10.html"/>
+      </extension>
+      <reference>
+        <reference value="ConceptMap/WhoCrConceptMapPatientOutcomeToIcd10"/>
+      </reference>
+      <name value="Patient Outcome Concept Map To ICD-10"/>
+      <description value="Patient Outcome Concept Map To ICD-10"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ConceptMap-WhoCrConceptMapPatientOutcomeToIcd11.html"/>
+      </extension>
+      <reference>
+        <reference value="ConceptMap/WhoCrConceptMapPatientOutcomeToIcd11"/>
+      </reference>
+      <name value="Patient Outcome Concept Map To ICD-11"/>
+      <description value="Patient Outcome Concept Map To ICD-11"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ConceptMap-WhoCrConceptMapPatientOutcomeToLoinc.html"/>
+      </extension>
+      <reference>
+        <reference value="ConceptMap/WhoCrConceptMapPatientOutcomeToLoinc"/>
+      </reference>
+      <name value="Patient Outcome Concept Map To LOINC"/>
+      <description value="Patient Outcome Concept Map To LOINC"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ConceptMap-WhoCrConceptMapPatientOutcomeToRxnorm.html"/>
+      </extension>
+      <reference>
+        <reference value="ConceptMap/WhoCrConceptMapPatientOutcomeToRxnorm"/>
+      </reference>
+      <name value="Patient Outcome Concept Map To RxNorm"/>
+      <description value="Patient Outcome Concept Map To RxNorm"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ConceptMap-WhoCrConceptMapPatientOutcomeToSnomed.html"/>
+      </extension>
+      <reference>
+        <reference value="ConceptMap/WhoCrConceptMapPatientOutcomeToSnomed"/>
+      </reference>
+      <name value="Patient Outcome Concept Map To SNOMED CT"/>
+      <description value="Patient Outcome Concept Map To SNOMED CT"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ConceptMap-WhoCrConceptMapPatientSexAtBirthToCiel.html"/>
+      </extension>
+      <reference>
+        <reference value="ConceptMap/WhoCrConceptMapPatientSexAtBirthToCiel"/>
+      </reference>
+      <name value="Patient Age Sex At Birth Concept Map To CIEL"/>
+      <description value="Patient Sex At Birth Concept Map To CIEL"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ConceptMap-WhoCrConceptMapPatientSexAtBirthToIcd10.html"/>
+      </extension>
+      <reference>
+        <reference value="ConceptMap/WhoCrConceptMapPatientSexAtBirthToIcd10"/>
+      </reference>
+      <name value="Patient Age Sex At Birth Concept Map To ICD-10"/>
+      <description value="Patient Sex At Birth Concept Map To ICD-10"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ConceptMap-WhoCrConceptMapPatientSexAtBirthToIcd11.html"/>
+      </extension>
+      <reference>
+        <reference value="ConceptMap/WhoCrConceptMapPatientSexAtBirthToIcd11"/>
+      </reference>
+      <name value="Patient Age Sex At Birth Concept Map To ICD-11"/>
+      <description value="Patient Sex At Birth Concept Map To ICD-11"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ConceptMap-WhoCrConceptMapPatientSexAtBirthToLoinc.html"/>
+      </extension>
+      <reference>
+        <reference value="ConceptMap/WhoCrConceptMapPatientSexAtBirthToLoinc"/>
+      </reference>
+      <name value="Patient Age Sex At Birth Concept Map To LOINC"/>
+      <description value="Patient Sex At Birth Concept Map To LOINC"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ConceptMap-WhoCrConceptMapPatientSexAtBirthToRxnorm.html"/>
+      </extension>
+      <reference>
+        <reference value="ConceptMap/WhoCrConceptMapPatientSexAtBirthToRxnorm"/>
+      </reference>
+      <name value="Patient Age Sex At Birth Concept Map To RxNorm"/>
+      <description value="Patient Sex At Birth Concept Map To RxNorm"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ConceptMap-WhoCrConceptMapPatientSexAtBirthToSnomed.html"/>
+      </extension>
+      <reference>
+        <reference value="ConceptMap/WhoCrConceptMapPatientSexAtBirthToSnomed"/>
+      </reference>
+      <name value="Patient Age Sex At Birth Concept Map To SNOMED CT"/>
+      <description value="Patient Sex At Birth Concept Map To SNOMED CT"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -445,6 +683,76 @@
         <valueString value="ConceptMap"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ConceptMap-WhoCrConceptMapPregnancyTrimesterToIcd10.html"/>
+      </extension>
+      <reference>
+        <reference value="ConceptMap/WhoCrConceptMapPregnancyTrimesterToIcd10"/>
+      </reference>
+      <name value="Pregnancy Trimester Concept Map To ICD-10"/>
+      <description value="Pregnancy Trimester Concept Map To ICD-10"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ConceptMap-WhoCrConceptMapPregnancyTrimesterToIcd11.html"/>
+      </extension>
+      <reference>
+        <reference value="ConceptMap/WhoCrConceptMapPregnancyTrimesterToIcd11"/>
+      </reference>
+      <name value="Pregnancy Trimester Concept Map To ICD-11"/>
+      <description value="Pregnancy Trimester Concept Map To ICD-11"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ConceptMap-WhoCrConceptMapPregnancyTrimesterToLoinc.html"/>
+      </extension>
+      <reference>
+        <reference value="ConceptMap/WhoCrConceptMapPregnancyTrimesterToLoinc"/>
+      </reference>
+      <name value="Pregnancy Trimester Concept Map To LOINC"/>
+      <description value="Pregnancy Trimester Concept Map To LOINC"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ConceptMap-WhoCrConceptMapPregnancyTrimesterToRxnorm.html"/>
+      </extension>
+      <reference>
+        <reference value="ConceptMap/WhoCrConceptMapPregnancyTrimesterToRxnorm"/>
+      </reference>
+      <name value="Pregnancy Trimester Concept Map To RxNorm"/>
+      <description value="Pregnancy Trimester Concept Map To RxNorm"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ConceptMap-WhoCrConceptMapPregnancyTrimesterToSnomed.html"/>
+      </extension>
+      <reference>
+        <reference value="ConceptMap/WhoCrConceptMapPregnancyTrimesterToSnomed"/>
+      </reference>
+      <name value="Pregnancy Trimester Concept Map To SNOMED CT"/>
+      <description value="Pregnancy Trimester Concept Map To SNOMED CT"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
         <valueUri value="ConceptMap-WhoCrConceptMapReasonForTestingToCiel.html"/>
       </extension>
       <reference>
@@ -452,6 +760,412 @@
       </reference>
       <name value="Reason for Testing Concept Map To CIEL"/>
       <description value="Reason for Testing Concept Map To CIEL"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ConceptMap-WhoCrConceptMapReasonForTestingToIcd10.html"/>
+      </extension>
+      <reference>
+        <reference value="ConceptMap/WhoCrConceptMapReasonForTestingToIcd10"/>
+      </reference>
+      <name value="Reason for Testing Concept Map To ICD-10"/>
+      <description value="Reason for Testing Concept Map To ICD-10"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ConceptMap-WhoCrConceptMapReasonForTestingToIcd11.html"/>
+      </extension>
+      <reference>
+        <reference value="ConceptMap/WhoCrConceptMapReasonForTestingToIcd11"/>
+      </reference>
+      <name value="Reason for Testing Concept Map To ICD-11"/>
+      <description value="Reason for Testing Concept Map To ICD-11"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ConceptMap-WhoCrConceptMapReasonForTestingToLoinc.html"/>
+      </extension>
+      <reference>
+        <reference value="ConceptMap/WhoCrConceptMapReasonForTestingToLoinc"/>
+      </reference>
+      <name value="Reason for Testing Concept Map To LOINC"/>
+      <description value="Reason for Testing Concept Map To LOINC"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ConceptMap-WhoCrConceptMapReasonForTestingToRxnorm.html"/>
+      </extension>
+      <reference>
+        <reference value="ConceptMap/WhoCrConceptMapReasonForTestingToRxnorm"/>
+      </reference>
+      <name value="Reason for Testing Concept Map To RxNorm"/>
+      <description value="Reason for Testing Concept Map To RxNorm"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ConceptMap-WhoCrConceptMapReasonForTestingToSnomed.html"/>
+      </extension>
+      <reference>
+        <reference value="ConceptMap/WhoCrConceptMapReasonForTestingToSnomed"/>
+      </reference>
+      <name value="Reason for Testing Concept Map To SNOMED CT"/>
+      <description value="Reason for Testing Concept Map To SNOMED CT"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ConceptMap-WhoCrConceptMapTestResultToCiel.html"/>
+      </extension>
+      <reference>
+        <reference value="ConceptMap/WhoCrConceptMapTestResultToCiel"/>
+      </reference>
+      <name value="Test Result Concept Map To CIEL"/>
+      <description value="Test Result Concept Map To CIEL"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ConceptMap-WhoCrConceptMapTestResultToIcd10.html"/>
+      </extension>
+      <reference>
+        <reference value="ConceptMap/WhoCrConceptMapTestResultToIcd10"/>
+      </reference>
+      <name value="Test Result Concept Map To ICD-10"/>
+      <description value="Test Result Concept Map To ICD-10"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ConceptMap-WhoCrConceptMapTestResultToIcd11.html"/>
+      </extension>
+      <reference>
+        <reference value="ConceptMap/WhoCrConceptMapTestResultToIcd11"/>
+      </reference>
+      <name value="Test Result Concept Map To ICD-11"/>
+      <description value="Test Result Concept Map To ICD-11"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ConceptMap-WhoCrConceptMapTestResultToLoinc.html"/>
+      </extension>
+      <reference>
+        <reference value="ConceptMap/WhoCrConceptMapTestResultToLoinc"/>
+      </reference>
+      <name value="Test Result Concept Map To LOINC"/>
+      <description value="Test Result Concept Map To LOINC"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ConceptMap-WhoCrConceptMapTestResultToRxnorm.html"/>
+      </extension>
+      <reference>
+        <reference value="ConceptMap/WhoCrConceptMapTestResultToRxnorm"/>
+      </reference>
+      <name value="Test Result Concept Map To RxNorm"/>
+      <description value="Test Result Concept Map To RxNorm"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ConceptMap-WhoCrConceptMapTestResultToSnomed.html"/>
+      </extension>
+      <reference>
+        <reference value="ConceptMap/WhoCrConceptMapTestResultToSnomed"/>
+      </reference>
+      <name value="Test Result Concept Map To SNOMED CT"/>
+      <description value="Test Result Concept Map To SNOMED CT"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ConceptMap-WhoCrConceptMapYesNoPartialToCiel.html"/>
+      </extension>
+      <reference>
+        <reference value="ConceptMap/WhoCrConceptMapYesNoPartialToCiel"/>
+      </reference>
+      <name value="Yes/No/Partial Concept Map To CIEL"/>
+      <description value="Yes/No/Partial Concept Map To CIEL"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ConceptMap-WhoCrConceptMapYesNoPartialToIcd10.html"/>
+      </extension>
+      <reference>
+        <reference value="ConceptMap/WhoCrConceptMapYesNoPartialToIcd10"/>
+      </reference>
+      <name value="Yes/No/Partial Concept Map To ICD-10"/>
+      <description value="Yes/No/Partial Concept Map To ICD-10"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ConceptMap-WhoCrConceptMapYesNoPartialToIcd11.html"/>
+      </extension>
+      <reference>
+        <reference value="ConceptMap/WhoCrConceptMapYesNoPartialToIcd11"/>
+      </reference>
+      <name value="Yes/No/Partial Concept Map To ICD-11"/>
+      <description value="Yes/No/Partial Concept Map To ICD-11"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ConceptMap-WhoCrConceptMapYesNoPartialToLoinc.html"/>
+      </extension>
+      <reference>
+        <reference value="ConceptMap/WhoCrConceptMapYesNoPartialToLoinc"/>
+      </reference>
+      <name value="Yes/No/Partial Concept Map To LOINC"/>
+      <description value="Yes/No/Partial Concept Map To LOINC"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ConceptMap-WhoCrConceptMapYesNoPartialToRxnorm.html"/>
+      </extension>
+      <reference>
+        <reference value="ConceptMap/WhoCrConceptMapYesNoPartialToRxnorm"/>
+      </reference>
+      <name value="Yes/No/Partial Concept Map To RxNorm"/>
+      <description value="Yes/No/Partial Concept Map To RxNorm"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ConceptMap-WhoCrConceptMapYesNoPartialToSnomed.html"/>
+      </extension>
+      <reference>
+        <reference value="ConceptMap/WhoCrConceptMapYesNoPartialToSnomed"/>
+      </reference>
+      <name value="Yes/No/Partial Concept Map To SNOMED CT"/>
+      <description value="Yes/No/Partial Concept Map To SNOMED CT"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ConceptMap-WhoCrConceptMapYesNoToCiel.html"/>
+      </extension>
+      <reference>
+        <reference value="ConceptMap/WhoCrConceptMapYesNoToCiel"/>
+      </reference>
+      <name value="Yes/No Concept Map To CIEL"/>
+      <description value="Yes/No Concept Map To CIEL"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ConceptMap-WhoCrConceptMapYesNoToIcd10.html"/>
+      </extension>
+      <reference>
+        <reference value="ConceptMap/WhoCrConceptMapYesNoToIcd10"/>
+      </reference>
+      <name value="Yes/No Concept Map To ICD-10"/>
+      <description value="Yes/No Concept Map To ICD-10"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ConceptMap-WhoCrConceptMapYesNoToIcd11.html"/>
+      </extension>
+      <reference>
+        <reference value="ConceptMap/WhoCrConceptMapYesNoToIcd11"/>
+      </reference>
+      <name value="Yes/No Concept Map To ICD-11"/>
+      <description value="Yes/No Concept Map To ICD-11"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ConceptMap-WhoCrConceptMapYesNoToLoinc.html"/>
+      </extension>
+      <reference>
+        <reference value="ConceptMap/WhoCrConceptMapYesNoToLoinc"/>
+      </reference>
+      <name value="Yes/No Concept Map To LOINC"/>
+      <description value="Yes/No Concept Map To LOINC"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ConceptMap-WhoCrConceptMapYesNoToRxnorm.html"/>
+      </extension>
+      <reference>
+        <reference value="ConceptMap/WhoCrConceptMapYesNoToRxnorm"/>
+      </reference>
+      <name value="Yes/No Concept Map To RxNorm"/>
+      <description value="Yes/No Concept Map To RxNorm"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ConceptMap-WhoCrConceptMapYesNoToSnomed.html"/>
+      </extension>
+      <reference>
+        <reference value="ConceptMap/WhoCrConceptMapYesNoToSnomed"/>
+      </reference>
+      <name value="Yes/No Concept Map To SNOMED CT"/>
+      <description value="Yes/No Concept Map To SNOMED CT"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ConceptMap-WhoCrConceptMapYesNoUnknownToCiel.html"/>
+      </extension>
+      <reference>
+        <reference value="ConceptMap/WhoCrConceptMapYesNoUnknownToCiel"/>
+      </reference>
+      <name value="Yes/No/Unknown Concept Map To CIEL"/>
+      <description value="Yes/No/Unknown Concept Map To CIEL"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ConceptMap-WhoCrConceptMapYesNoUnknownToIcd10.html"/>
+      </extension>
+      <reference>
+        <reference value="ConceptMap/WhoCrConceptMapYesNoUnknownToIcd10"/>
+      </reference>
+      <name value="Yes/No/Unknown Concept Map To ICD-10"/>
+      <description value="Yes/No/Unknown Concept Map To ICD-10"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ConceptMap-WhoCrConceptMapYesNoUnknownToIcd11.html"/>
+      </extension>
+      <reference>
+        <reference value="ConceptMap/WhoCrConceptMapYesNoUnknownToIcd11"/>
+      </reference>
+      <name value="Yes/No/Unknown Concept Map To ICD-11"/>
+      <description value="Yes/No/Unknown Concept Map To ICD-11"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ConceptMap-WhoCrConceptMapYesNoUnknownToLoinc.html"/>
+      </extension>
+      <reference>
+        <reference value="ConceptMap/WhoCrConceptMapYesNoUnknownToLoinc"/>
+      </reference>
+      <name value="Yes/No/Unknown Concept Map To LOINC"/>
+      <description value="Yes/No/Unknown Concept Map To LOINC"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ConceptMap-WhoCrConceptMapYesNoUnknownToRxnorm.html"/>
+      </extension>
+      <reference>
+        <reference value="ConceptMap/WhoCrConceptMapYesNoUnknownToRxnorm"/>
+      </reference>
+      <name value="Yes/No/Unknown Concept Map To RxNorm"/>
+      <description value="Yes/No/Unknown Concept Map To RxNorm"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ConceptMap-WhoCrConceptMapYesNoUnknownToSnomed.html"/>
+      </extension>
+      <reference>
+        <reference value="ConceptMap/WhoCrConceptMapYesNoUnknownToSnomed"/>
+      </reference>
+      <name value="Yes/No/Unknown Concept Map To SNOMED CT"/>
+      <description value="Yes/No/Unknown Concept Map To SNOMED CT"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

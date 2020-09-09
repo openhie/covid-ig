@@ -27,15 +27,15 @@
   fhir:StructureDefinition.title [ fhir:value "WHO Case Reporting Patient"];
   fhir:StructureDefinition.status [ fhir:value "draft"];
   fhir:StructureDefinition.experimental [ fhir:value "true"^^xsd:boolean];
-  fhir:StructureDefinition.date [ fhir:value "2020-09-03T20:58:03+00:00"^^xsd:dateTime];
-  fhir:StructureDefinition.publisher [ fhir:value "World Health Organization"];
+  fhir:StructureDefinition.date [ fhir:value "2020-09-09T02:56:29+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.publisher [ fhir:value "OpenHIE"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
-     fhir:ContactDetail.name [ fhir:value "World Health Organization" ];
+     fhir:ContactDetail.name [ fhir:value "OpenHIE" ];
      fhir:ContactDetail.telecom [
        fhir:index 0;
        fhir:ContactPoint.system [ fhir:value "url" ];
-       fhir:ContactPoint.value [ fhir:value "http://www.example.com" ]
+       fhir:ContactPoint.value [ fhir:value "http://www.ohie.org" ]
      ]
   ];
   fhir:StructureDefinition.description [ fhir:value "WHO Case Reporting Patient"];
@@ -47,7 +47,7 @@
        fhir:Coding.code [ fhir:value "001" ]
      ]
   ];
-  fhir:StructureDefinition.copyright [ fhir:value "TODO"];
+  fhir:StructureDefinition.copyright [ fhir:value "2020"];
   fhir:StructureDefinition.fhirVersion [ fhir:value "4.0.1"];
   fhir:StructureDefinition.mapping [
      fhir:index 0;

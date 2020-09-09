@@ -10,13 +10,13 @@
   <name value="WhoCrValueSetYesNoUnk"/>
   <title value="Yes/No/Unknown"/>
   <status value="active"/>
-  <date value="2020-09-03T20:58:03+00:00"/>
-  <publisher value="World Health Organization"/>
+  <date value="2020-09-09T02:56:29+00:00"/>
+  <publisher value="OpenHIE"/>
   <contact>
-    <name value="World Health Organization"/>
+    <name value="OpenHIE"/>
     <telecom>
       <system value="url"/>
-      <value value="http://www.example.com"/>
+      <value value="http://www.ohie.org"/>
     </telecom>
   </contact>
   <description value="Yes/No/Unknown Value Set"/>

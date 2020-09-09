@@ -2,8 +2,8 @@
 =========================================
 
 err = 6, warn = 0, info = 0
-IG Publisher Version: 1.1.17
-Generated Thu Sep 03 20:58:29 UTC 2020. FHIR version 4.0.1 for who.cr.covid19#0.1.0 (canonical = http://www.example.com/fhir/cr/covid19)
+IG Publisher Version: 1.1.19
+Generated Wed Sep 09 02:56:58 UTC 2020. FHIR version 4.0.1 for who.cr.covid19#0.1.0 (canonical = http://www.example.com/fhir/cr/covid19)
 
  Build Errors : 3 / 0 / 0
  /home/publisher/ig/input/ImplementationGuide-who.cr.covid19 : 0 / 0 / 1
@@ -17,9 +17,60 @@ Generated Thu Sep 03 20:58:29 UTC 2020. FHIR version 4.0.1 for who.cr.covid19#0.
  /home/publisher/ig/input/vocabulary/CodeSystem-WhoCrCodeSystemPregnancyTrimester : 0 / 0 / 1
  /home/publisher/ig/input/vocabulary/CodeSystem-WhoCrCodeSystemReasonForTesting : 0 / 0 / 1
  /home/publisher/ig/input/vocabulary/CodeSystem-WhoCrCodeSystemSubmissionCompletion : 0 / 0 / 1
+ /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapPatientAgeUnitsToCiel : 0 / 0 / 1
+ /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapPatientAgeUnitsToIcd10 : 0 / 0 / 1
+ /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapPatientAgeUnitsToIcd11 : 0 / 0 / 1
+ /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapPatientAgeUnitsToLoinc : 0 / 0 / 1
+ /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapPatientAgeUnitsToRxnorm : 0 / 0 / 1
+ /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapPatientAgeUnitsToSnomed : 0 / 0 / 1
  /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapPatientOutcomeToCiel : 0 / 0 / 1
+ /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapPatientOutcomeToIcd10 : 0 / 0 / 1
+ /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapPatientOutcomeToIcd11 : 0 / 0 / 1
+ /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapPatientOutcomeToLoinc : 0 / 0 / 1
+ /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapPatientOutcomeToRxnorm : 0 / 0 / 1
+ /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapPatientOutcomeToSnomed : 0 / 0 / 1
+ /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapPatientSexAtBirthToCiel : 0 / 0 / 1
+ /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapPatientSexAtBirthToIcd10 : 0 / 0 / 1
+ /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapPatientSexAtBirthToIcd11 : 0 / 0 / 1
+ /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapPatientSexAtBirthToLoinc : 0 / 0 / 1
+ /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapPatientSexAtBirthToRxnorm : 0 / 0 / 1
+ /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapPatientSexAtBirthToSnomed : 0 / 0 / 1
  /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapPregnancyTrimesterToCiel : 0 / 0 / 1
+ /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapPregnancyTrimesterToIcd10 : 0 / 0 / 1
+ /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapPregnancyTrimesterToIcd11 : 0 / 0 / 1
+ /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapPregnancyTrimesterToLoinc : 0 / 0 / 1
+ /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapPregnancyTrimesterToRxnorm : 0 / 0 / 1
+ /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapPregnancyTrimesterToSnomed : 0 / 0 / 1
  /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapReasonForTestingToCiel : 0 / 0 / 1
+ /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapReasonForTestingToIcd10 : 0 / 0 / 1
+ /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapReasonForTestingToIcd11 : 0 / 0 / 1
+ /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapReasonForTestingToLoinc : 0 / 0 / 1
+ /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapReasonForTestingToRxnorm : 0 / 0 / 1
+ /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapReasonForTestingToSnomed : 0 / 0 / 1
+ /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapTestResultToCiel : 0 / 0 / 1
+ /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapTestResultToIcd10 : 0 / 0 / 1
+ /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapTestResultToIcd11 : 0 / 0 / 1
+ /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapTestResultToLoinc : 0 / 0 / 1
+ /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapTestResultToRxnorm : 0 / 0 / 1
+ /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapTestResultToSnomed : 0 / 0 / 1
+ /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapYesNoPartialToCiel : 0 / 0 / 1
+ /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapYesNoPartialToIcd10 : 0 / 0 / 1
+ /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapYesNoPartialToIcd11 : 0 / 0 / 1
+ /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapYesNoPartialToLoinc : 0 / 0 / 1
+ /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapYesNoPartialToRxnorm : 0 / 0 / 1
+ /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapYesNoPartialToSnomed : 0 / 0 / 1
+ /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapYesNoToCiel : 0 / 0 / 1
+ /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapYesNoToIcd10 : 0 / 0 / 1
+ /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapYesNoToIcd11 : 0 / 0 / 1
+ /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapYesNoToLoinc : 0 / 0 / 1
+ /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapYesNoToRxnorm : 0 / 0 / 1
+ /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapYesNoToSnomed : 0 / 0 / 1
+ /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapYesNoUnknownToCiel : 0 / 0 / 1
+ /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapYesNoUnknownToIcd10 : 0 / 0 / 1
+ /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapYesNoUnknownToIcd11 : 0 / 0 / 1
+ /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapYesNoUnknownToLoinc : 0 / 0 / 1
+ /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapYesNoUnknownToRxnorm : 0 / 0 / 1
+ /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapYesNoUnknownToSnomed : 0 / 0 / 1
  /home/publisher/ig/input/vocabulary/ValueSet-WhoCrValueSetAdmin0 : 0 / 0 / 1
  /home/publisher/ig/input/vocabulary/ValueSet-WhoCrValueSetAgeUnits : 0 / 0 / 1
  /home/publisher/ig/input/vocabulary/ValueSet-WhoCrValueSetPatientOutcome : 0 / 0 / 1
@@ -32,7 +83,7 @@ Generated Thu Sep 03 20:58:29 UTC 2020. FHIR version 4.0.1 for who.cr.covid19#0.
  /home/publisher/ig/input/vocabulary/ValueSet-WhoCrValueSetYesNoUnk : 0 / 0 / 1
 </table>
 == n/a ==
-ERROR: /home/publisher/ig/output/Questionnaire-WhoCrQuestionnaireCovid19Surveillance.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 225, column 1790: The link 'null#item.outcome_asymp' for "3 options" cannot be resolved
+ERROR: /home/publisher/ig/output/Questionnaire-WhoCrQuestionnaireCovid19Surveillance.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 226, column 1776: The link 'null#item.outcome_asymp' for "3 options" cannot be resolved
 ERROR: /home/publisher/ig/output/StructureDefinition-WhoCrSurveillanceDataDictionary.html#/html/body/div/div/div/div/div/div/p/a at Line 901, column 41: The link 'StructureDefinition-WhoCrSurveillanceDataDictionary.sch' for "Schematron" cannot be resolved
 ERROR: /home/publisher/ig/output/ValueSet-WhoCrValueSetAdmin0.html#/html/body/div/div/div/div/div/div/div/ul/li/a at Line 183, column 96: The link 'null' for "http://hl7.org/fhir/ValueSet/iso3166-1-3" cannot be resolved
 == /home/publisher/ig/input/ImplementationGuide-who.cr.covid19.json ==
@@ -53,8 +104,8 @@ INFORMATION: StructureDefinition/WhoCrComposition: StructureDefinition: Validate
 INFORMATION: StructureDefinition/WhoCrPatient: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 == /home/publisher/ig/input/resources/Questionnaire-WhoCrQuestionnaireCovid19Surveillance.json ==
 INFORMATION: Questionnaire/WhoCrQuestionnaireCovid19Surveillance: Questionnaire: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Questionnaire
-ERROR: Questionnaire/WhoCrQuestionnaireCovid19Surveillance: Questionnaire.item[4].item[2].item[2].item[2].item[0].code[0]: The code "95420-6" is not valid in the system http://loinc.org; The code provided (http://loinc.org#95420-6) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://loinc.org#95420-6'
-ERROR: Questionnaire/WhoCrQuestionnaireCovid19Surveillance: Questionnaire.item[5].item[0].code[0]: The code "95418-0" is not valid in the system http://loinc.org; The code provided (http://loinc.org#95418-0) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://loinc.org#95418-0'
+ERROR: Questionnaire/WhoCrQuestionnaireCovid19Surveillance: Questionnaire.item[5].item[2].item[2].item[2].item[0].code[0]: The code "95420-6" is not valid in the system http://loinc.org; The code provided (http://loinc.org#95420-6) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://loinc.org#95420-6'
+ERROR: Questionnaire/WhoCrQuestionnaireCovid19Surveillance: Questionnaire.item[6].item[0].code[0]: The code "95418-0" is not valid in the system http://loinc.org; The code provided (http://loinc.org#95418-0) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://loinc.org#95418-0'
 == /home/publisher/ig/input/vocabulary/CodeSystem-WhoCrCodeSystemPatientOutcome.json ==
 INFORMATION: CodeSystem/WhoCrCodeSystemPatientOutcome: CodeSystem: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem
 == /home/publisher/ig/input/vocabulary/CodeSystem-WhoCrCodeSystemPregnancyTrimester.json ==
@@ -63,12 +114,114 @@ INFORMATION: CodeSystem/WhoCrCodeSystemPregnancyTrimester: CodeSystem: Validate 
 INFORMATION: CodeSystem/WhoCrCodeSystemReasonForTesting: CodeSystem: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem
 == /home/publisher/ig/input/vocabulary/CodeSystem-WhoCrCodeSystemSubmissionCompletion.json ==
 INFORMATION: CodeSystem/WhoCrCodeSystemSubmissionCompletion: CodeSystem: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem
+== /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapPatientAgeUnitsToCiel.json ==
+INFORMATION: ConceptMap/WhoCrConceptMapPatientAgeUnitsToCiel: ConceptMap: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ConceptMap
+== /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapPatientAgeUnitsToIcd10.json ==
+INFORMATION: ConceptMap/WhoCrConceptMapPatientAgeUnitsToIcd10: ConceptMap: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ConceptMap
+== /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapPatientAgeUnitsToIcd11.json ==
+INFORMATION: ConceptMap/WhoCrConceptMapPatientAgeUnitsToIcd11: ConceptMap: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ConceptMap
+== /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapPatientAgeUnitsToLoinc.json ==
+INFORMATION: ConceptMap/WhoCrConceptMapPatientAgeUnitsToLoinc: ConceptMap: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ConceptMap
+== /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapPatientAgeUnitsToRxnorm.json ==
+INFORMATION: ConceptMap/WhoCrConceptMapPatientAgeUnitsToRxnorm: ConceptMap: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ConceptMap
+== /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapPatientAgeUnitsToSnomed.json ==
+INFORMATION: ConceptMap/WhoCrConceptMapPatientAgeUnitsToSnomed: ConceptMap: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ConceptMap
 == /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapPatientOutcomeToCiel.json ==
 INFORMATION: ConceptMap/WhoCrConceptMapPatientOutcomeToCiel: ConceptMap: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ConceptMap
+== /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapPatientOutcomeToIcd10.json ==
+INFORMATION: ConceptMap/WhoCrConceptMapPatientOutcomeToIcd10: ConceptMap: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ConceptMap
+== /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapPatientOutcomeToIcd11.json ==
+INFORMATION: ConceptMap/WhoCrConceptMapPatientOutcomeToIcd11: ConceptMap: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ConceptMap
+== /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapPatientOutcomeToLoinc.json ==
+INFORMATION: ConceptMap/WhoCrConceptMapPatientOutcomeToLoinc: ConceptMap: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ConceptMap
+== /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapPatientOutcomeToRxnorm.json ==
+INFORMATION: ConceptMap/WhoCrConceptMapPatientOutcomeToRxnorm: ConceptMap: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ConceptMap
+== /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapPatientOutcomeToSnomed.json ==
+INFORMATION: ConceptMap/WhoCrConceptMapPatientOutcomeToSnomed: ConceptMap: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ConceptMap
+== /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapPatientSexAtBirthToCiel.json ==
+INFORMATION: ConceptMap/WhoCrConceptMapPatientSexAtBirthToCiel: ConceptMap: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ConceptMap
+== /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapPatientSexAtBirthToIcd10.json ==
+INFORMATION: ConceptMap/WhoCrConceptMapPatientSexAtBirthToIcd10: ConceptMap: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ConceptMap
+== /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapPatientSexAtBirthToIcd11.json ==
+INFORMATION: ConceptMap/WhoCrConceptMapPatientSexAtBirthToIcd11: ConceptMap: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ConceptMap
+== /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapPatientSexAtBirthToLoinc.json ==
+INFORMATION: ConceptMap/WhoCrConceptMapPatientSexAtBirthToLoinc: ConceptMap: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ConceptMap
+== /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapPatientSexAtBirthToRxnorm.json ==
+INFORMATION: ConceptMap/WhoCrConceptMapPatientSexAtBirthToRxnorm: ConceptMap: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ConceptMap
+== /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapPatientSexAtBirthToSnomed.json ==
+INFORMATION: ConceptMap/WhoCrConceptMapPatientSexAtBirthToSnomed: ConceptMap: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ConceptMap
 == /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapPregnancyTrimesterToCiel.json ==
 INFORMATION: ConceptMap/WhoCrConceptMapPregnancyTrimesterToCiel: ConceptMap: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ConceptMap
+== /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapPregnancyTrimesterToIcd10.json ==
+INFORMATION: ConceptMap/WhoCrConceptMapPregnancyTrimesterToIcd10: ConceptMap: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ConceptMap
+== /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapPregnancyTrimesterToIcd11.json ==
+INFORMATION: ConceptMap/WhoCrConceptMapPregnancyTrimesterToIcd11: ConceptMap: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ConceptMap
+== /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapPregnancyTrimesterToLoinc.json ==
+INFORMATION: ConceptMap/WhoCrConceptMapPregnancyTrimesterToLoinc: ConceptMap: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ConceptMap
+== /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapPregnancyTrimesterToRxnorm.json ==
+INFORMATION: ConceptMap/WhoCrConceptMapPregnancyTrimesterToRxnorm: ConceptMap: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ConceptMap
+== /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapPregnancyTrimesterToSnomed.json ==
+INFORMATION: ConceptMap/WhoCrConceptMapPregnancyTrimesterToSnomed: ConceptMap: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ConceptMap
 == /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapReasonForTestingToCiel.json ==
 INFORMATION: ConceptMap/WhoCrConceptMapReasonForTestingToCiel: ConceptMap: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ConceptMap
+== /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapReasonForTestingToIcd10.json ==
+INFORMATION: ConceptMap/WhoCrConceptMapReasonForTestingToIcd10: ConceptMap: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ConceptMap
+== /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapReasonForTestingToIcd11.json ==
+INFORMATION: ConceptMap/WhoCrConceptMapReasonForTestingToIcd11: ConceptMap: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ConceptMap
+== /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapReasonForTestingToLoinc.json ==
+INFORMATION: ConceptMap/WhoCrConceptMapReasonForTestingToLoinc: ConceptMap: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ConceptMap
+== /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapReasonForTestingToRxnorm.json ==
+INFORMATION: ConceptMap/WhoCrConceptMapReasonForTestingToRxnorm: ConceptMap: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ConceptMap
+== /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapReasonForTestingToSnomed.json ==
+INFORMATION: ConceptMap/WhoCrConceptMapReasonForTestingToSnomed: ConceptMap: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ConceptMap
+== /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapTestResultToCiel.json ==
+INFORMATION: ConceptMap/WhoCrConceptMapTestResultToCiel: ConceptMap: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ConceptMap
+== /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapTestResultToIcd10.json ==
+INFORMATION: ConceptMap/WhoCrConceptMapTestResultToIcd10: ConceptMap: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ConceptMap
+== /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapTestResultToIcd11.json ==
+INFORMATION: ConceptMap/WhoCrConceptMapTestResultToIcd11: ConceptMap: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ConceptMap
+== /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapTestResultToLoinc.json ==
+INFORMATION: ConceptMap/WhoCrConceptMapTestResultToLoinc: ConceptMap: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ConceptMap
+== /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapTestResultToRxnorm.json ==
+INFORMATION: ConceptMap/WhoCrConceptMapTestResultToRxnorm: ConceptMap: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ConceptMap
+== /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapTestResultToSnomed.json ==
+INFORMATION: ConceptMap/WhoCrConceptMapTestResultToSnomed: ConceptMap: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ConceptMap
+== /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapYesNoPartialToCiel.json ==
+INFORMATION: ConceptMap/WhoCrConceptMapYesNoPartialToCiel: ConceptMap: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ConceptMap
+== /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapYesNoPartialToIcd10.json ==
+INFORMATION: ConceptMap/WhoCrConceptMapYesNoPartialToIcd10: ConceptMap: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ConceptMap
+== /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapYesNoPartialToIcd11.json ==
+INFORMATION: ConceptMap/WhoCrConceptMapYesNoPartialToIcd11: ConceptMap: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ConceptMap
+== /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapYesNoPartialToLoinc.json ==
+INFORMATION: ConceptMap/WhoCrConceptMapYesNoPartialToLoinc: ConceptMap: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ConceptMap
+== /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapYesNoPartialToRxnorm.json ==
+INFORMATION: ConceptMap/WhoCrConceptMapYesNoPartialToRxnorm: ConceptMap: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ConceptMap
+== /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapYesNoPartialToSnomed.json ==
+INFORMATION: ConceptMap/WhoCrConceptMapYesNoPartialToSnomed: ConceptMap: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ConceptMap
+== /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapYesNoToCiel.json ==
+INFORMATION: ConceptMap/WhoCrConceptMapYesNoToCiel: ConceptMap: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ConceptMap
+== /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapYesNoToIcd10.json ==
+INFORMATION: ConceptMap/WhoCrConceptMapYesNoToIcd10: ConceptMap: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ConceptMap
+== /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapYesNoToIcd11.json ==
+INFORMATION: ConceptMap/WhoCrConceptMapYesNoToIcd11: ConceptMap: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ConceptMap
+== /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapYesNoToLoinc.json ==
+INFORMATION: ConceptMap/WhoCrConceptMapYesNoToLoinc: ConceptMap: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ConceptMap
+== /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapYesNoToRxnorm.json ==
+INFORMATION: ConceptMap/WhoCrConceptMapYesNoToRxnorm: ConceptMap: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ConceptMap
+== /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapYesNoToSnomed.json ==
+INFORMATION: ConceptMap/WhoCrConceptMapYesNoToSnomed: ConceptMap: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ConceptMap
+== /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapYesNoUnknownToCiel.json ==
+INFORMATION: ConceptMap/WhoCrConceptMapYesNoUnknownToCiel: ConceptMap: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ConceptMap
+== /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapYesNoUnknownToIcd10.json ==
+INFORMATION: ConceptMap/WhoCrConceptMapYesNoUnknownToIcd10: ConceptMap: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ConceptMap
+== /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapYesNoUnknownToIcd11.json ==
+INFORMATION: ConceptMap/WhoCrConceptMapYesNoUnknownToIcd11: ConceptMap: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ConceptMap
+== /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapYesNoUnknownToLoinc.json ==
+INFORMATION: ConceptMap/WhoCrConceptMapYesNoUnknownToLoinc: ConceptMap: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ConceptMap
+== /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapYesNoUnknownToRxnorm.json ==
+INFORMATION: ConceptMap/WhoCrConceptMapYesNoUnknownToRxnorm: ConceptMap: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ConceptMap
+== /home/publisher/ig/input/vocabulary/ConceptMap-WhoCrConceptMapYesNoUnknownToSnomed.json ==
+INFORMATION: ConceptMap/WhoCrConceptMapYesNoUnknownToSnomed: ConceptMap: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ConceptMap
 == /home/publisher/ig/input/vocabulary/ValueSet-WhoCrValueSetAdmin0.json ==
 INFORMATION: ValueSet/WhoCrValueSetAdmin0: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
 == /home/publisher/ig/input/vocabulary/ValueSet-WhoCrValueSetAgeUnits.json ==

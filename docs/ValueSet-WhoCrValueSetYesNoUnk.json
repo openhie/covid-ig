@@ -10,15 +10,15 @@
   "name": "WhoCrValueSetYesNoUnk",
   "title": "Yes/No/Unknown",
   "status": "active",
-  "date": "2020-09-03T20:58:03+00:00",
-  "publisher": "World Health Organization",
+  "date": "2020-09-09T02:56:29+00:00",
+  "publisher": "OpenHIE",
   "contact": [
     {
-      "name": "World Health Organization",
+      "name": "OpenHIE",
       "telecom": [
         {
           "system": "url",
-          "value": "http://www.example.com"
+          "value": "http://www.ohie.org"
         }
       ]
     }
