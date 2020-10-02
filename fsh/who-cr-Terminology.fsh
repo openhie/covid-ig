@@ -106,9 +106,9 @@ Description: "Test Result"
 * include http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#NEG "Negative"
 * include http://terminology.hl7.org/CodeSystem/v2-0532#UNK // unknown
 
-ValueSet: WhoCrValueSetYesNoPartial
-Title: "Yes/No/Partial"
-Description: "Yes/No/Partial"
+ValueSet: WhoCrValueSetSubmitted
+Title: "Report Submitted Yes/No/Partial"
+Description: "Report Submitted Yes/No/Partial"
 * codes from system http://terminology.hl7.org/CodeSystem/v2-0136 // yes/no
 * codes from system WhoCrCodeSystemSubmissionCompletion
 

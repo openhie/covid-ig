@@ -124,17 +124,17 @@ Usage: #definition
 * group[0].element[0].target[0].equivalence = #relatedto
 
 
-Instance: WhoCrConceptMapYesNoPartialToRxnorm
+Instance: WhoCrConceptMapSubmittedToRxnorm
 InstanceOf: ConceptMap
-Description: "Yes/No/Partial Concept Map To RxNorm"
-Title: "Yes/No/Partial Concept Map To RxNorm" // user-friendly name
+Description: "SubmittedYes/No/Partial Concept Map To RxNorm"
+Title: "SubmittedYes/No/Partial Concept Map To RxNorm" // user-friendly name
 Usage: #definition
 
 * insert PublisherContext
-* name = "WhoCrConceptMapYesNoPartialToRxnorm"
-* sourceCanonical = Canonical(WhoCrValueSetYesNoPartial)
+* name = "WhoCrConceptMapSubmittedToRxnorm"
+* sourceCanonical = Canonical(WhoCrValueSetSubmitted)
 * targetUri = $RXNORM
-* group[0].source = Canonical(WhoCrValueSetYesNoPartial)
+* group[0].source = Canonical(WhoCrValueSetSubmitted)
 * group[0].target = $RXNORM
 
 * group[0].element[0].code = #TODO

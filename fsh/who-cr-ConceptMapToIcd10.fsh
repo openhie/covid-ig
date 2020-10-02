@@ -124,17 +124,17 @@ Usage: #definition
 * group[0].element[0].target[0].equivalence = #relatedto
 
 
-Instance: WhoCrConceptMapYesNoPartialToIcd10
+Instance: WhoCrConceptMapSubmittedToIcd10
 InstanceOf: ConceptMap
 Description: "Yes/No/Partial Concept Map To ICD-10"
 Title: "Yes/No/Partial Concept Map To ICD-10" // user-friendly name
 Usage: #definition
 
 * insert PublisherContext
-* name = "WhoCrConceptMapYesNoPartialToIcd10"
-* sourceCanonical = Canonical(WhoCrValueSetYesNoPartial)
+* name = "WhoCrConceptMapSubmittedToIcd10"
+* sourceCanonical = Canonical(WhoCrValueSetSubmitted)
 * targetUri = $ICD10
-* group[0].source = Canonical(WhoCrValueSetYesNoPartial)
+* group[0].source = Canonical(WhoCrValueSetSubmitted)
 * group[0].target = $ICD10
 
 * group[0].element[0].code = #TODO

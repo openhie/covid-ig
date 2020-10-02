@@ -28,7 +28,7 @@ dependencies:
 # ╭─────────────────────────────────────────────ig.ini─────────────────────────────────────────────╮
 # │  To use a provided ig-data/ig.ini file, delete the "template" property below.                  │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-template: who-ig-template
+template: who.fhir.template
 
 # ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
 # │  To use a provided ig-data/input/includes/menu.xml file, delete the "menu" property below.     │
@@ -38,9 +38,9 @@ menu:
   Table of Contents: toc.html
   Artifacts: artifacts.html
 
-#resources:
-#  StructureDefinition/CRSurveillance:
-#    name: CR Surveillance
+# resources:
+#  StructureDefinition/my-us-covid-observation:
+#    name: My US Covid Observation
 #    description: "TODO too"    
   # StructureDefinition/oncology-AverageCEP17SignalsPerCell-model:
   #   name: oncology-AverageCEP17SignalsPerCell-model

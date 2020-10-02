@@ -137,9 +137,9 @@ Usage: #definition
 * differential.element[4].mapping[0].identity = "WhoCrDataDictionarySpreadsheet"
 * differential.element[4].mapping[0].map = "report_test_reason"
 * differential.element[4].mapping[1].identity = "LOINC"
-* differential.element[4].mapping[1].map = "67098-4"
+* differential.element[4].mapping[1].map = $LNC#67098-4 "Reason for test or procedure"
 * differential.element[4].mapping[2].identity = "CIEL"
-* differential.element[4].mapping[2].map = "164126"
+* differential.element[4].mapping[2].map = $CIEL#164126
 * differential.element[4].mapping[3].identity = "ICD10"
 * differential.element[4].mapping[3].map = "TODO"
 * differential.element[4].mapping[4].identity = "ICD11"
@@ -229,7 +229,7 @@ Usage: #definition
 * differential.element[8].mapping[2].identity = "LOINC"
 * differential.element[8].mapping[2].map = $LNC#30525-0
 * differential.element[8].mapping[3].identity = "CIEL"
-* differential.element[8].mapping[3].map = "TODO"
+* differential.element[8].mapping[3].map = $CIEL#1732 "Duration units"
 * differential.element[8].mapping[4].identity = "ICD10"
 * differential.element[8].mapping[4].map = "TODO"
 * differential.element[8].mapping[5].identity = "ICD11"
@@ -252,9 +252,9 @@ Usage: #definition
 * differential.element[9].mapping[0].identity = "WhoCrDataDictionarySpreadsheet"
 * differential.element[9].mapping[0].map = "patinfo_sex"
 * differential.element[9].mapping[1].identity = "CIEL"
-* differential.element[9].mapping[1].map = "166025"
+* differential.element[9].mapping[1].map = $CIEL#166025 "Sex at birth"
 * differential.element[9].mapping[2].identity = "LOINC"
-* differential.element[9].mapping[2].map = "76689-9"
+* differential.element[9].mapping[2].map = $LNC#76689-9
 * differential.element[9].mapping[3].identity = "ICD10"
 * differential.element[9].mapping[3].map = "TODO"
 * differential.element[9].mapping[4].identity = "ICD11"
@@ -764,7 +764,7 @@ Usage: #definition
 * differential.element[31].mapping[1].identity = "LOINC"
 * differential.element[31].mapping[1].map = $LNC#32418-6
 * differential.element[31].mapping[2].identity = "CIEL"
-* differential.element[31].mapping[2].map = "160665"
+* differential.element[31].mapping[2].map = $CIEL#160665 "Pregnancy Trimester"
 * differential.element[31].mapping[3].identity = "ICD10"
 * differential.element[31].mapping[3].map = "TODO"
 * differential.element[31].mapping[4].identity = "ICD11"
@@ -1503,7 +1503,7 @@ Usage: #definition
 * differential.element[64].short = "Has the outcome section been submitted?"
 * differential.element[64].definition = "Has the outcome section been submitted?"
 * differential.element[64].type.code = #CodeableConcept
-* differential.element[64].binding.valueSet = Canonical(WhoCrValueSetYesNoPartial)
+* differential.element[64].binding.valueSet = Canonical(WhoCrValueSetSubmitted)
 * differential.element[64].binding.strength = #required
 * differential.element[64].min = 0
 * differential.element[64].max = "1"
@@ -1520,7 +1520,7 @@ Usage: #definition
 * differential.element[64].mapping[5].identity = "RXNORM"
 * differential.element[64].mapping[5].map = "TODO"
 * differential.element[64].mapping[6].identity = "SNOMED"
-* differential.element[64].mapping[6].map = "TODO"
+* differential.element[64].mapping[6].map = $SCT#308552006
 
 * differential.element[65].id = "WhoCrSurveillanceDataDictionary.outcome.submissionDate"
 * differential.element[65].path = "WhoCrSurveillanceDataDictionary.outcome.submissionDate"
@@ -1744,7 +1744,7 @@ Usage: #definition
 * differential.element[74].mapping[1].identity = "LOINC"
 * differential.element[74].mapping[1].map = $LNC#91541-3
 * differential.element[74].mapping[2].identity = "CIEL"
-* differential.element[74].mapping[2].map = "159640"
+* differential.element[74].mapping[2].map = $CIEL#159640 "Patient health status"
 * differential.element[74].mapping[3].identity = "ICD10"
 * differential.element[74].mapping[3].map = "TODO"
 * differential.element[74].mapping[4].identity = "ICD11"
