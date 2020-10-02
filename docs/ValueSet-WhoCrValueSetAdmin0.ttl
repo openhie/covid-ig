@@ -10,14 +10,14 @@
   fhir:Resource.id [ fhir:value "WhoCrValueSetAdmin0"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Import all the codes that are contained in <a href=\"null\">http://hl7.org/fhir/ValueSet/iso3166-1-3</a></li></ul></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Import all the codes that are contained in <a href=\"http://hl7.org/fhir/R4/valueset-iso3166-1-3.html\">http://hl7.org/fhir/ValueSet/iso3166-1-3</a></li></ul></div>"
   ];
   fhir:ValueSet.url [ fhir:value "http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetAdmin0"];
   fhir:ValueSet.version [ fhir:value "0.1.0"];
   fhir:ValueSet.name [ fhir:value "WhoCrValueSetAdmin0"];
   fhir:ValueSet.title [ fhir:value "List of Administrative Level 0 Names (Countries)"];
   fhir:ValueSet.status [ fhir:value "active"];
-  fhir:ValueSet.date [ fhir:value "2020-09-09T02:56:29+00:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2020-10-02T18:25:07+00:00"^^xsd:dateTime];
   fhir:ValueSet.publisher [ fhir:value "OpenHIE"];
   fhir:ValueSet.contact [
      fhir:index 0;

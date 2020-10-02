@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "WhoCrCovid19"];
   fhir:ImplementationGuide.title [ fhir:value "WHO Case Reporting for COVID-19 Surveillance"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2020-09-09T02:56:29+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2020-10-02T18:25:07+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "OpenHIE"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -436,6 +436,24 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "ValueSet-WhoCrValueSetSubmitted.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetSubmitted>;
+         fhir:Reference.reference [ fhir:value "ValueSet/WhoCrValueSetSubmitted" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Report Submitted Yes/No/Partial" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Report Submitted Yes/No/Partial" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 9;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
          fhir:Extension.valueUri [ fhir:value "ValueSet-WhoCrValueSetTestResult.html" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
@@ -446,7 +464,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Test Result" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 9;
+       fhir:index 10;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -462,24 +480,6 @@
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Yes/No" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Yes/No" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 10;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "ValueSet" ]
-       ], [
-         fhir:index 1;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "ValueSet-WhoCrValueSetYesNoPartial.html" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetYesNoPartial>;
-         fhir:Reference.reference [ fhir:value "ValueSet/WhoCrValueSetYesNoPartial" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Yes/No/Partial" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Yes/No/Partial" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 11;
@@ -1120,6 +1120,114 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "ConceptMap-WhoCrConceptMapSubmittedToCiel.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapSubmittedToCiel>;
+         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapSubmittedToCiel" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Submitted Yes/No/Partial Concept Map To CIEL" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Submitted Yes/No/Partial Concept Map To CIEL" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 47;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ConceptMap" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "ConceptMap-WhoCrConceptMapSubmittedToIcd10.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapSubmittedToIcd10>;
+         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapSubmittedToIcd10" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Yes/No/Partial Concept Map To ICD-10" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Yes/No/Partial Concept Map To ICD-10" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 48;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ConceptMap" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "ConceptMap-WhoCrConceptMapSubmittedToIcd11.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapSubmittedToIcd11>;
+         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapSubmittedToIcd11" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Submitted Yes/No/Partial Concept Map To ICD-11" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Submitted Yes/No/Partial Concept Map To ICD-11" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 49;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ConceptMap" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "ConceptMap-WhoCrConceptMapSubmittedToLoinc.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapSubmittedToLoinc>;
+         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapSubmittedToLoinc" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Submitted Yes/No/Partial Concept Map To LOINC" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Submitted Yes/No/Partial Concept Map To LOINC" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 50;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ConceptMap" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "ConceptMap-WhoCrConceptMapSubmittedToRxnorm.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapSubmittedToRxnorm>;
+         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapSubmittedToRxnorm" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "SubmittedYes/No/Partial Concept Map To RxNorm" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "SubmittedYes/No/Partial Concept Map To RxNorm" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 51;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ConceptMap" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "ConceptMap-WhoCrConceptMapSubmittedToSnomed.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapSubmittedToSnomed>;
+         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapSubmittedToSnomed" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Submitted Yes/No/Partial Concept Map To SNOMED CT" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Submitted Yes/No/Partial Concept Map To SNOMED CT" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 52;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ConceptMap" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
          fhir:Extension.valueUri [ fhir:value "ConceptMap-WhoCrConceptMapTestResultToCiel.html" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
@@ -1130,7 +1238,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Test Result Concept Map To CIEL" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 47;
+       fhir:index 53;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1148,7 +1256,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Test Result Concept Map To ICD-10" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 48;
+       fhir:index 54;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1166,7 +1274,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Test Result Concept Map To ICD-11" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 49;
+       fhir:index 55;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1184,7 +1292,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Test Result Concept Map To LOINC" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 50;
+       fhir:index 56;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1202,7 +1310,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Test Result Concept Map To RxNorm" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 51;
+       fhir:index 57;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1218,114 +1326,6 @@
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Test Result Concept Map To SNOMED CT" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Test Result Concept Map To SNOMED CT" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 52;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "ConceptMap" ]
-       ], [
-         fhir:index 1;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "ConceptMap-WhoCrConceptMapYesNoPartialToCiel.html" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapYesNoPartialToCiel>;
-         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapYesNoPartialToCiel" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Yes/No/Partial Concept Map To CIEL" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Yes/No/Partial Concept Map To CIEL" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 53;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "ConceptMap" ]
-       ], [
-         fhir:index 1;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "ConceptMap-WhoCrConceptMapYesNoPartialToIcd10.html" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapYesNoPartialToIcd10>;
-         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapYesNoPartialToIcd10" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Yes/No/Partial Concept Map To ICD-10" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Yes/No/Partial Concept Map To ICD-10" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 54;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "ConceptMap" ]
-       ], [
-         fhir:index 1;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "ConceptMap-WhoCrConceptMapYesNoPartialToIcd11.html" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapYesNoPartialToIcd11>;
-         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapYesNoPartialToIcd11" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Yes/No/Partial Concept Map To ICD-11" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Yes/No/Partial Concept Map To ICD-11" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 55;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "ConceptMap" ]
-       ], [
-         fhir:index 1;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "ConceptMap-WhoCrConceptMapYesNoPartialToLoinc.html" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapYesNoPartialToLoinc>;
-         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapYesNoPartialToLoinc" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Yes/No/Partial Concept Map To LOINC" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Yes/No/Partial Concept Map To LOINC" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 56;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "ConceptMap" ]
-       ], [
-         fhir:index 1;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "ConceptMap-WhoCrConceptMapYesNoPartialToRxnorm.html" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapYesNoPartialToRxnorm>;
-         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapYesNoPartialToRxnorm" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Yes/No/Partial Concept Map To RxNorm" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Yes/No/Partial Concept Map To RxNorm" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 57;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "ConceptMap" ]
-       ], [
-         fhir:index 1;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "ConceptMap-WhoCrConceptMapYesNoPartialToSnomed.html" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapYesNoPartialToSnomed>;
-         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapYesNoPartialToSnomed" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Yes/No/Partial Concept Map To SNOMED CT" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Yes/No/Partial Concept Map To SNOMED CT" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 58;
@@ -1679,14 +1679,18 @@
        fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/history" ]
      ], [
        fhir:index 11;
-       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-pages" ];
-       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "template/config" ]
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "fsh-generated/resources" ]
      ], [
        fhir:index 12;
        fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-pages" ];
-       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/images" ]
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "template/config" ]
      ], [
        fhir:index 13;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-pages" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/images" ]
+     ], [
+       fhir:index 14;
        fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-tx-cache" ];
        fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input-cache/txcache" ]
      ]

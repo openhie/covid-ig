@@ -18,8 +18,11 @@
     <link href="assets/css/project.css" rel="stylesheet"/>
     <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
     <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
     <!-- Placeholder for child template CSS declarations -->
-<link href="assets/css/who-ig-template.css" rel="stylesheet"/>
+    <link href="assets/css/cqf.css" rel="stylesheet"/>
+
+    <link href="assets/css/who.css" rel="stylesheet"/>
 
     <script type="text/javascript" src="fhir-table-scripts.js"> </script>
 
@@ -38,16 +41,14 @@
   </head>
   <body onload="document.body.style.opacity='1'">
 
+	  <script src="assets/js/prism.js"></script>
+
     <style type="text/css">h2{--heading-prefix:"2"}
     h3,h4,h5,h6{--heading-prefix:"2.0"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
 
-<div id="hl7-nav"> 
-     <a id="hl7-logo" no-external="true" href="http://example.org/index.html">
-     <img height="50" alt="World Health Organization" src="assets/images/h-logo-blue.svg"/>
-     </a>
 
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">WHO Case Reporting for COVID-19 Surveillance</span><br/>0.1.0 - ci-build</p>
@@ -149,7 +150,9 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
    <p>This page provides a list of the FHIR artifacts defined as part of this implementation guide.</p>
    <a name="1"> </a>
    <h3>Structures: Logical Models </h3>
-   <p>These define data models that represent the domain covered by this implementation guide in more business-friendly terms than the underlying FHIR resources.</p>
+   <p>
+    <p>These define data models that represent the domain covered by this implementation guide in more business-friendly terms than the underlying FHIR resources.</p>
+</p>
    <p>
       <table class="grid">
          <col style="width:20%"/>
@@ -168,7 +171,9 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
    </p>
    <a name="2"> </a>
    <h3>Structures: Questionnaires </h3>
-   <p>These define forms used by systems conforming with this implementation guide to capture or expose data to end users</p>
+   <p>
+    <p>These define forms used by systems conforming with this implementation guide to capture or expose data to end users</p>
+</p>
    <p>
       <table class="grid">
          <col style="width:20%"/>
@@ -187,7 +192,9 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
    </p>
    <a name="3"> </a>
    <h3>Structures: Resource Profiles </h3>
-   <p>These define constraints on FHIR resources that need to be complied with by conformant implementations</p>
+   <p>
+    <p>These define constraints on FHIR resources that need to be complied with by conformant implementations</p>
+</p>
    <p>
       <table class="grid">
          <col style="width:20%"/>
@@ -215,7 +222,9 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
    </p>
    <a name="4"> </a>
    <h3>Terminology: Value Sets </h3>
-   <p>These define sets of codes used by systems conforming with this implementation guide</p>
+   <p>
+    <p>These define sets of codes used by systems conforming with this implementation guide</p>
+</p>
    <p>
       <table class="grid">
          <col style="width:20%"/>
@@ -276,6 +285,15 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </tr>
             <tr>
                <td style="column-width:30%">
+                  <a href="ValueSet-WhoCrValueSetSubmitted.html"
+                     title="ValueSet/WhoCrValueSetSubmitted">Report Submitted Yes/No/Partial</a>
+               </td>
+               <td>
+<p>Report Submitted Yes/No/Partial</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
                   <a href="ValueSet-WhoCrValueSetTestResult.html"
                      title="ValueSet/WhoCrValueSetTestResult">Test Result</a>
                </td>
@@ -294,15 +312,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="ValueSet-WhoCrValueSetYesNoPartial.html"
-                     title="ValueSet/WhoCrValueSetYesNoPartial">Yes/No/Partial</a>
-               </td>
-               <td>
-<p>Yes/No/Partial</p>
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
                   <a href="ValueSet-WhoCrValueSetYesNoUnk.html"
                      title="ValueSet/WhoCrValueSetYesNoUnk">Yes/No/Unknown</a>
                </td>
@@ -315,7 +324,9 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
    </p>
    <a name="5"> </a>
    <h3>Terminology: Code Systems </h3>
-   <p>These define new code systems used by systems conforming with this implementation guide</p>
+   <p>
+    <p>These define new code systems used by systems conforming with this implementation guide</p>
+</p>
    <p>
       <table class="grid">
          <col style="width:20%"/>
@@ -361,7 +372,9 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
    </p>
    <a name="6"> </a>
    <h3>Terminology: Concept Maps </h3>
-   <p>These define transformations to convert between codes by systems conforming with this implementation guide</p>
+   <p>
+    <p>These define transformations to convert between codes by systems conforming with this implementation guide</p>
+</p>
    <p>
       <table class="grid">
          <col style="width:20%"/>
@@ -638,6 +651,60 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </tr>
             <tr>
                <td style="column-width:30%">
+                  <a href="ConceptMap-WhoCrConceptMapSubmittedToCiel.html"
+                     title="ConceptMap/WhoCrConceptMapSubmittedToCiel">Submitted Yes/No/Partial Concept Map To CIEL</a>
+               </td>
+               <td>
+<p>Submitted Yes/No/Partial Concept Map To CIEL</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ConceptMap-WhoCrConceptMapSubmittedToIcd10.html"
+                     title="ConceptMap/WhoCrConceptMapSubmittedToIcd10">Yes/No/Partial Concept Map To ICD-10</a>
+               </td>
+               <td>
+<p>Yes/No/Partial Concept Map To ICD-10</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ConceptMap-WhoCrConceptMapSubmittedToIcd11.html"
+                     title="ConceptMap/WhoCrConceptMapSubmittedToIcd11">Submitted Yes/No/Partial Concept Map To ICD-11</a>
+               </td>
+               <td>
+<p>Submitted Yes/No/Partial Concept Map To ICD-11</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ConceptMap-WhoCrConceptMapSubmittedToLoinc.html"
+                     title="ConceptMap/WhoCrConceptMapSubmittedToLoinc">Submitted Yes/No/Partial Concept Map To LOINC</a>
+               </td>
+               <td>
+<p>Submitted Yes/No/Partial Concept Map To LOINC</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ConceptMap-WhoCrConceptMapSubmittedToRxnorm.html"
+                     title="ConceptMap/WhoCrConceptMapSubmittedToRxnorm">SubmittedYes/No/Partial Concept Map To RxNorm</a>
+               </td>
+               <td>
+<p>SubmittedYes/No/Partial Concept Map To RxNorm</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ConceptMap-WhoCrConceptMapSubmittedToSnomed.html"
+                     title="ConceptMap/WhoCrConceptMapSubmittedToSnomed">Submitted Yes/No/Partial Concept Map To SNOMED CT</a>
+               </td>
+               <td>
+<p>Submitted Yes/No/Partial Concept Map To SNOMED CT</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
                   <a href="ConceptMap-WhoCrConceptMapTestResultToCiel.html"
                      title="ConceptMap/WhoCrConceptMapTestResultToCiel">Test Result Concept Map To CIEL</a>
                </td>
@@ -688,60 +755,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                </td>
                <td>
 <p>Test Result Concept Map To SNOMED CT</p>
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="ConceptMap-WhoCrConceptMapYesNoPartialToCiel.html"
-                     title="ConceptMap/WhoCrConceptMapYesNoPartialToCiel">Yes/No/Partial Concept Map To CIEL</a>
-               </td>
-               <td>
-<p>Yes/No/Partial Concept Map To CIEL</p>
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="ConceptMap-WhoCrConceptMapYesNoPartialToIcd10.html"
-                     title="ConceptMap/WhoCrConceptMapYesNoPartialToIcd10">Yes/No/Partial Concept Map To ICD-10</a>
-               </td>
-               <td>
-<p>Yes/No/Partial Concept Map To ICD-10</p>
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="ConceptMap-WhoCrConceptMapYesNoPartialToIcd11.html"
-                     title="ConceptMap/WhoCrConceptMapYesNoPartialToIcd11">Yes/No/Partial Concept Map To ICD-11</a>
-               </td>
-               <td>
-<p>Yes/No/Partial Concept Map To ICD-11</p>
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="ConceptMap-WhoCrConceptMapYesNoPartialToLoinc.html"
-                     title="ConceptMap/WhoCrConceptMapYesNoPartialToLoinc">Yes/No/Partial Concept Map To LOINC</a>
-               </td>
-               <td>
-<p>Yes/No/Partial Concept Map To LOINC</p>
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="ConceptMap-WhoCrConceptMapYesNoPartialToRxnorm.html"
-                     title="ConceptMap/WhoCrConceptMapYesNoPartialToRxnorm">Yes/No/Partial Concept Map To RxNorm</a>
-               </td>
-               <td>
-<p>Yes/No/Partial Concept Map To RxNorm</p>
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="ConceptMap-WhoCrConceptMapYesNoPartialToSnomed.html"
-                     title="ConceptMap/WhoCrConceptMapYesNoPartialToSnomed">Yes/No/Partial Concept Map To SNOMED CT</a>
-               </td>
-               <td>
-<p>Yes/No/Partial Concept Map To SNOMED CT</p>
 </td>
             </tr>
             <tr>
@@ -857,7 +870,9 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
    </p>
    <a name="7"> </a>
    <h3>Example: Example Instances </h3>
-   <p>These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like</p>
+   <p>
+    <p>These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like</p>
+</p>
    <p>
       <table class="grid">
          <col style="width:20%"/>
@@ -905,12 +920,13 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <div class="container">  <!-- container -->
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2020+ <a style="color: #81BEF7" href="http://www.ohie.org">OpenHIE</a>.  Package who.cr.covid19#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Sep 9, 2020 02:56+0000">2020-09-09</span>
+          IG &#169; 2020+ <a style="color: #81BEF7" href="http://www.ohie.org">OpenHIE</a>.  Package who.cr.covid19#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Oct 2, 2020 18:25+0000">2020-10-02</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
                  <a style="color: #81BEF7" href="qa.html">QA Report</a>
-| <a style="color: #81BEF7" href="https://github.com/openhie/covid-ig/issues">Report an issue</a>
+                 | <a style="color: #81BEF7" target="_blank" href="http://www.example.com/fhir/cr/covid19/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> |
+                 <!--<a style="color: #81BEF7" href="todo.html">Search</a> | --> 
           </span>
         </p>
       </div>  <!-- /inner-wrapper -->

@@ -10,14 +10,14 @@
   fhir:Resource.id [ fhir:value "WhoCrConceptMapYesNoUnknownToCiel"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>WhoCrConceptMapYesNoUnknownToCiel (http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapYesNoUnknownToCiel)</h2><p>Mapping from <a href=\"ValueSet-WhoCrValueSetYesNoUnk.html\">http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetYesNoUnk</a> to https://www.openconceptlab.org/orgs/CIEL/sources/CIEL/concepts</p><p>DRAFT (not intended for production usage). Published on Sep 9, 2020, 2:56:29 AM by OpenHIE (OpenHIE: <a href=\"http://www.ohie.org\">http://www.ohie.org</a>). 2020</p><br/><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Destination Code</b></td></tr><tr><td>TODO</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#relatedto\">is related to</a></td><td>TODO</td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>WhoCrConceptMapYesNoUnknownToCiel (http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapYesNoUnknownToCiel)</h2><p>Mapping from <a href=\"ValueSet-WhoCrValueSetYesNoUnk.html\">http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetYesNoUnk</a> to https://www.openconceptlab.org/orgs/CIEL/sources/CIEL/concepts</p><p>DRAFT (not intended for production usage). Published on Oct 2, 2020, 6:25:07 PM by OpenHIE (OpenHIE: <a href=\"http://www.ohie.org\">http://www.ohie.org</a>). 2020</p><br/><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Destination Code</b></td></tr><tr><td>Y</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#relatedto\">is related to</a></td><td>1065</td></tr><tr><td>N</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#relatedto\">is related to</a></td><td>1066</td></tr><tr><td>UNK</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#relatedto\">is related to</a></td><td>1067</td></tr></table></div>"
   ];
   fhir:ConceptMap.url [ fhir:value "http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapYesNoUnknownToCiel"];
   fhir:ConceptMap.version [ fhir:value "0.1.0"];
   fhir:ConceptMap.name [ fhir:value "WhoCrConceptMapYesNoUnknownToCiel"];
   fhir:ConceptMap.status [ fhir:value "draft"];
   fhir:ConceptMap.experimental [ fhir:value "true"^^xsd:boolean];
-  fhir:ConceptMap.date [ fhir:value "2020-09-09T02:56:29+00:00"^^xsd:dateTime];
+  fhir:ConceptMap.date [ fhir:value "2020-10-02T18:25:07+00:00"^^xsd:dateTime];
   fhir:ConceptMap.publisher [ fhir:value "OpenHIE"];
   fhir:ConceptMap.contact [
      fhir:index 0;
@@ -48,10 +48,26 @@
      fhir:ConceptMap.group.target [ fhir:value "https://www.openconceptlab.org/orgs/CIEL/sources/CIEL/concepts" ];
      fhir:ConceptMap.group.element [
        fhir:index 0;
-       fhir:ConceptMap.group.element.code [ fhir:value "TODO" ];
+       fhir:ConceptMap.group.element.code [ fhir:value "Y" ];
        fhir:ConceptMap.group.element.target [
          fhir:index 0;
-         fhir:ConceptMap.group.element.target.code [ fhir:value "TODO" ];
+         fhir:ConceptMap.group.element.target.code [ fhir:value "1065" ];
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "relatedto" ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:ConceptMap.group.element.code [ fhir:value "N" ];
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "1066" ];
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "relatedto" ]
+       ]
+     ], [
+       fhir:index 2;
+       fhir:ConceptMap.group.element.code [ fhir:value "UNK" ];
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "1067" ];
          fhir:ConceptMap.group.element.target.equivalence [ fhir:value "relatedto" ]
        ]
      ]

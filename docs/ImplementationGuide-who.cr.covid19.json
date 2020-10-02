@@ -10,7 +10,7 @@
   "name": "WhoCrCovid19",
   "title": "WHO Case Reporting for COVID-19 Surveillance",
   "status": "draft",
-  "date": "2020-09-09T02:56:29+00:00",
+  "date": "2020-10-02T18:25:07+00:00",
   "publisher": "OpenHIE",
   "contact": [
     {
@@ -450,6 +450,24 @@
           },
           {
             "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-WhoCrValueSetSubmitted.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/WhoCrValueSetSubmitted"
+        },
+        "name": "Report Submitted Yes/No/Partial",
+        "description": "Report Submitted Yes/No/Partial",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
             "valueUri": "ValueSet-WhoCrValueSetTestResult.html"
           }
         ],
@@ -476,24 +494,6 @@
         },
         "name": "Yes/No",
         "description": "Yes/No",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ValueSet"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "ValueSet-WhoCrValueSetYesNoPartial.html"
-          }
-        ],
-        "reference": {
-          "reference": "ValueSet/WhoCrValueSetYesNoPartial"
-        },
-        "name": "Yes/No/Partial",
-        "description": "Yes/No/Partial",
         "exampleBoolean": false
       },
       {
@@ -1134,6 +1134,114 @@
           },
           {
             "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ConceptMap-WhoCrConceptMapSubmittedToCiel.html"
+          }
+        ],
+        "reference": {
+          "reference": "ConceptMap/WhoCrConceptMapSubmittedToCiel"
+        },
+        "name": "Submitted Yes/No/Partial Concept Map To CIEL",
+        "description": "Submitted Yes/No/Partial Concept Map To CIEL",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ConceptMap"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ConceptMap-WhoCrConceptMapSubmittedToIcd10.html"
+          }
+        ],
+        "reference": {
+          "reference": "ConceptMap/WhoCrConceptMapSubmittedToIcd10"
+        },
+        "name": "Yes/No/Partial Concept Map To ICD-10",
+        "description": "Yes/No/Partial Concept Map To ICD-10",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ConceptMap"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ConceptMap-WhoCrConceptMapSubmittedToIcd11.html"
+          }
+        ],
+        "reference": {
+          "reference": "ConceptMap/WhoCrConceptMapSubmittedToIcd11"
+        },
+        "name": "Submitted Yes/No/Partial Concept Map To ICD-11",
+        "description": "Submitted Yes/No/Partial Concept Map To ICD-11",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ConceptMap"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ConceptMap-WhoCrConceptMapSubmittedToLoinc.html"
+          }
+        ],
+        "reference": {
+          "reference": "ConceptMap/WhoCrConceptMapSubmittedToLoinc"
+        },
+        "name": "Submitted Yes/No/Partial Concept Map To LOINC",
+        "description": "Submitted Yes/No/Partial Concept Map To LOINC",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ConceptMap"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ConceptMap-WhoCrConceptMapSubmittedToRxnorm.html"
+          }
+        ],
+        "reference": {
+          "reference": "ConceptMap/WhoCrConceptMapSubmittedToRxnorm"
+        },
+        "name": "SubmittedYes/No/Partial Concept Map To RxNorm",
+        "description": "SubmittedYes/No/Partial Concept Map To RxNorm",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ConceptMap"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ConceptMap-WhoCrConceptMapSubmittedToSnomed.html"
+          }
+        ],
+        "reference": {
+          "reference": "ConceptMap/WhoCrConceptMapSubmittedToSnomed"
+        },
+        "name": "Submitted Yes/No/Partial Concept Map To SNOMED CT",
+        "description": "Submitted Yes/No/Partial Concept Map To SNOMED CT",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ConceptMap"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
             "valueUri": "ConceptMap-WhoCrConceptMapTestResultToCiel.html"
           }
         ],
@@ -1232,114 +1340,6 @@
         },
         "name": "Test Result Concept Map To SNOMED CT",
         "description": "Test Result Concept Map To SNOMED CT",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ConceptMap"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "ConceptMap-WhoCrConceptMapYesNoPartialToCiel.html"
-          }
-        ],
-        "reference": {
-          "reference": "ConceptMap/WhoCrConceptMapYesNoPartialToCiel"
-        },
-        "name": "Yes/No/Partial Concept Map To CIEL",
-        "description": "Yes/No/Partial Concept Map To CIEL",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ConceptMap"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "ConceptMap-WhoCrConceptMapYesNoPartialToIcd10.html"
-          }
-        ],
-        "reference": {
-          "reference": "ConceptMap/WhoCrConceptMapYesNoPartialToIcd10"
-        },
-        "name": "Yes/No/Partial Concept Map To ICD-10",
-        "description": "Yes/No/Partial Concept Map To ICD-10",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ConceptMap"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "ConceptMap-WhoCrConceptMapYesNoPartialToIcd11.html"
-          }
-        ],
-        "reference": {
-          "reference": "ConceptMap/WhoCrConceptMapYesNoPartialToIcd11"
-        },
-        "name": "Yes/No/Partial Concept Map To ICD-11",
-        "description": "Yes/No/Partial Concept Map To ICD-11",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ConceptMap"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "ConceptMap-WhoCrConceptMapYesNoPartialToLoinc.html"
-          }
-        ],
-        "reference": {
-          "reference": "ConceptMap/WhoCrConceptMapYesNoPartialToLoinc"
-        },
-        "name": "Yes/No/Partial Concept Map To LOINC",
-        "description": "Yes/No/Partial Concept Map To LOINC",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ConceptMap"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "ConceptMap-WhoCrConceptMapYesNoPartialToRxnorm.html"
-          }
-        ],
-        "reference": {
-          "reference": "ConceptMap/WhoCrConceptMapYesNoPartialToRxnorm"
-        },
-        "name": "Yes/No/Partial Concept Map To RxNorm",
-        "description": "Yes/No/Partial Concept Map To RxNorm",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ConceptMap"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "ConceptMap-WhoCrConceptMapYesNoPartialToSnomed.html"
-          }
-        ],
-        "reference": {
-          "reference": "ConceptMap/WhoCrConceptMapYesNoPartialToSnomed"
-        },
-        "name": "Yes/No/Partial Concept Map To SNOMED CT",
-        "description": "Yes/No/Partial Concept Map To SNOMED CT",
         "exampleBoolean": false
       },
       {
@@ -1687,6 +1687,10 @@
       {
         "code": "path-resource",
         "value": "input/history"
+      },
+      {
+        "code": "path-resource",
+        "value": "fsh-generated/resources"
       },
       {
         "code": "path-pages",

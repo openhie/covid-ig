@@ -238,6 +238,48 @@
     "name": "WhoCrConceptMapReasonForTestingToSnomed"
   },
   {
+    "id": "WhoCrConceptMapSubmittedToCiel",
+    "type": "ConceptMap",
+    "url": "http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapSubmittedToCiel",
+    "version": "0.1.0",
+    "name": "WhoCrConceptMapSubmittedToCiel"
+  },
+  {
+    "id": "WhoCrConceptMapSubmittedToIcd10",
+    "type": "ConceptMap",
+    "url": "http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapSubmittedToIcd10",
+    "version": "0.1.0",
+    "name": "WhoCrConceptMapSubmittedToIcd10"
+  },
+  {
+    "id": "WhoCrConceptMapSubmittedToIcd11",
+    "type": "ConceptMap",
+    "url": "http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapSubmittedToIcd11",
+    "version": "0.1.0",
+    "name": "WhoCrConceptMapSubmittedToIcd11"
+  },
+  {
+    "id": "WhoCrConceptMapSubmittedToLoinc",
+    "type": "ConceptMap",
+    "url": "http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapSubmittedToLoinc",
+    "version": "0.1.0",
+    "name": "WhoCrConceptMapSubmittedToLoinc"
+  },
+  {
+    "id": "WhoCrConceptMapSubmittedToRxnorm",
+    "type": "ConceptMap",
+    "url": "http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapSubmittedToRxnorm",
+    "version": "0.1.0",
+    "name": "WhoCrConceptMapSubmittedToRxnorm"
+  },
+  {
+    "id": "WhoCrConceptMapSubmittedToSnomed",
+    "type": "ConceptMap",
+    "url": "http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapSubmittedToSnomed",
+    "version": "0.1.0",
+    "name": "WhoCrConceptMapSubmittedToSnomed"
+  },
+  {
     "id": "WhoCrConceptMapTestResultToCiel",
     "type": "ConceptMap",
     "url": "http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapTestResultToCiel",
@@ -278,48 +320,6 @@
     "url": "http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapTestResultToSnomed",
     "version": "0.1.0",
     "name": "WhoCrConceptMapTestResultToSnomed"
-  },
-  {
-    "id": "WhoCrConceptMapYesNoPartialToCiel",
-    "type": "ConceptMap",
-    "url": "http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapYesNoPartialToCiel",
-    "version": "0.1.0",
-    "name": "WhoCrConceptMapYesNoPartialToCiel"
-  },
-  {
-    "id": "WhoCrConceptMapYesNoPartialToIcd10",
-    "type": "ConceptMap",
-    "url": "http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapYesNoPartialToIcd10",
-    "version": "0.1.0",
-    "name": "WhoCrConceptMapYesNoPartialToIcd10"
-  },
-  {
-    "id": "WhoCrConceptMapYesNoPartialToIcd11",
-    "type": "ConceptMap",
-    "url": "http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapYesNoPartialToIcd11",
-    "version": "0.1.0",
-    "name": "WhoCrConceptMapYesNoPartialToIcd11"
-  },
-  {
-    "id": "WhoCrConceptMapYesNoPartialToLoinc",
-    "type": "ConceptMap",
-    "url": "http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapYesNoPartialToLoinc",
-    "version": "0.1.0",
-    "name": "WhoCrConceptMapYesNoPartialToLoinc"
-  },
-  {
-    "id": "WhoCrConceptMapYesNoPartialToRxnorm",
-    "type": "ConceptMap",
-    "url": "http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapYesNoPartialToRxnorm",
-    "version": "0.1.0",
-    "name": "WhoCrConceptMapYesNoPartialToRxnorm"
-  },
-  {
-    "id": "WhoCrConceptMapYesNoPartialToSnomed",
-    "type": "ConceptMap",
-    "url": "http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapYesNoPartialToSnomed",
-    "version": "0.1.0",
-    "name": "WhoCrConceptMapYesNoPartialToSnomed"
   },
   {
     "id": "WhoCrConceptMapYesNoToCiel",
@@ -483,6 +483,13 @@
     "name": "WhoCrValueSetSexAtBirth"
   },
   {
+    "id": "WhoCrValueSetSubmitted",
+    "type": "ValueSet",
+    "url": "http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetSubmitted",
+    "version": "0.1.0",
+    "name": "WhoCrValueSetSubmitted"
+  },
+  {
     "id": "WhoCrValueSetTestResult",
     "type": "ValueSet",
     "url": "http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetTestResult",
@@ -495,13 +502,6 @@
     "url": "http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetYesNo",
     "version": "0.1.0",
     "name": "WhoCrValueSetYesNo"
-  },
-  {
-    "id": "WhoCrValueSetYesNoPartial",
-    "type": "ValueSet",
-    "url": "http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetYesNoPartial",
-    "version": "0.1.0",
-    "name": "WhoCrValueSetYesNoPartial"
   },
   {
     "id": "WhoCrValueSetYesNoUnk",

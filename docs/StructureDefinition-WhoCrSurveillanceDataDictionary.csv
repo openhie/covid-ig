@@ -28,7 +28,7 @@ If transborders or international spread of outbreak","","","","","","","","","",
 ",,,,"WhoCrSurveillanceDataDictionary.patientInfo.caseId",0,1,"","","patinfo_ID","94659-0","TODO","TODO","TODO","TODO","TODO"
 "WhoCrSurveillanceDataDictionary.patientInfo.onsetAge","","","",0,1,"","","","Age {[]} {[]}
 ","Age","Age on the date of illness onset","","","","","","","","","",,,,,"http://loinc.org#30525-0
-",,,,"WhoCrSurveillanceDataDictionary.patientInfo.onsetAge",0,1,"","","patinfo_ageonset","patinfo_ageonsetunits","30525-0","TODO","TODO","TODO","TODO"
+",,,,"WhoCrSurveillanceDataDictionary.patientInfo.onsetAge",0,1,"","","patinfo_ageonset","patinfo_ageonsetunits","30525-0","1732","TODO","TODO","TODO"
 "WhoCrSurveillanceDataDictionary.patientInfo.birthSex","","","",0,1,"","","","Coding {[]} {[]}
 ","Sex at birth","Biological sex. That is the biological differential characteristics (chromosomes, hormonal profiles, internal and external sex organs) that best describes the case.","","","","","","","","","",,"required","","http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetSexAtBirth","http://loinc.org#76689-9
 ",,,,"WhoCrSurveillanceDataDictionary.patientInfo.birthSex",0,1,"","","patinfo_sex","76689-9","166025","TODO","TODO","TODO","TODO"
@@ -153,7 +153,7 @@ If transborders or international spread of outbreak","","","","","","","","","",
 "WhoCrSurveillanceDataDictionary.outcome","","","",0,1,"","","","BackboneElement {[]} {[]}
 ","Patient outcome","Patient outcome","","","","","","","","","",,,,,"",,,,"WhoCrSurveillanceDataDictionary.outcome",0,1,"","","TODO","TODO","TODO","TODO","TODO","TODO","TODO"
 "WhoCrSurveillanceDataDictionary.outcome.submitted","","","",0,1,"","","","CodeableConcept {[]} {[]}
-","Has the outcome section been submitted?","Has the outcome section been submitted?","","","","","","","","","",,"required","","http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetYesNoPartial","",,,,"WhoCrSurveillanceDataDictionary.outcome.submitted",0,1,"","","outcome_submitted","TODO","TODO","TODO","TODO","TODO","TODO"
+","Has the outcome section been submitted?","Has the outcome section been submitted?","","","","","","","","","",,"required","","http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetSubmitted","",,,,"WhoCrSurveillanceDataDictionary.outcome.submitted",0,1,"","","outcome_submitted","TODO","TODO","TODO","TODO","TODO","308552006"
 "WhoCrSurveillanceDataDictionary.outcome.submissionDate","","","",0,1,"","","","date {[]} {[]}
 ","Date of outcome submission","Date of outcome submission","","","","","","","","","",,,,,"",,,,"WhoCrSurveillanceDataDictionary.outcome.submissionDate",0,1,"","","outcome_submitted_date","TODO","TODO","TODO","TODO","TODO","TODO"
 "WhoCrSurveillanceDataDictionary.outcome.symptomatic","","","",0,1,"","","","Coding {[]} {[]}

@@ -18,8 +18,11 @@
     <link href="assets/css/project.css" rel="stylesheet"/>
     <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
     <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
     <!-- Placeholder for child template CSS declarations -->
-<link href="assets/css/who-ig-template.css" rel="stylesheet"/>
+    <link href="assets/css/cqf.css" rel="stylesheet"/>
+
+    <link href="assets/css/who.css" rel="stylesheet"/>
 
     <script type="text/javascript" src="fhir-table-scripts.js"> </script>
 
@@ -38,16 +41,14 @@
   </head>
   <body onload="document.body.style.opacity='1'">
 
+	  <script src="assets/js/prism.js"></script>
+
     <style type="text/css">h2{--heading-prefix:"2.24"}
     h3,h4,h5,h6{--heading-prefix:"2.24"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
 
-<div id="hl7-nav"> 
-     <a id="hl7-logo" no-external="true" href="http://example.org/index.html">
-     <img height="50" alt="World Health Organization" src="assets/images/h-logo-blue.svg"/>
-     </a>
 
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">WHO Case Reporting for COVID-19 Surveillance</span><br/>0.1.0 - ci-build</p>
@@ -156,7 +157,7 @@
   Formats: <a href="ConceptMap-WhoCrConceptMapPatientAgeUnitsToSnomed.xml.html">XML</a>, <a href="ConceptMap-WhoCrConceptMapPatientAgeUnitsToSnomed.json.html">JSON</a>, <a href="ConceptMap-WhoCrConceptMapPatientAgeUnitsToSnomed.ttl.html">Turtle</a>
   </p>
 
-  <div xmlns="http://www.w3.org/1999/xhtml"><h2>WhoCrConceptMapPatientAgeUnitsToSnomed (http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapPatientAgeUnitsToSnomed)</h2><p>Mapping from <a href="ValueSet-WhoCrValueSetAgeUnits.html">http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetAgeUnits</a> to <a href="http://hl7.org/fhir/R4/codesystem-snomedct.html">http://snomed.info/sct</a></p><p>DRAFT (not intended for production usage). Published on Sep 9, 2020, 2:56:29 AM by OpenHIE (OpenHIE: <a href="http://www.ohie.org">http://www.ohie.org</a>). 2020</p><br/><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Destination Code</b></td></tr><tr><td>TODO</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#relatedto">is related to</a></td><td>TODO</td></tr></table></div>
+  <div xmlns="http://www.w3.org/1999/xhtml"><h2>WhoCrConceptMapPatientAgeUnitsToSnomed (http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapPatientAgeUnitsToSnomed)</h2><p>Mapping from <a href="ValueSet-WhoCrValueSetAgeUnits.html">http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetAgeUnits</a> to <a href="http://hl7.org/fhir/R4/codesystem-snomedct.html">http://snomed.info/sct</a></p><p>DRAFT (not intended for production usage). Published on Oct 2, 2020, 6:25:07 PM by OpenHIE (OpenHIE: <a href="http://www.ohie.org">http://www.ohie.org</a>). 2020</p><br/><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Destination Code</b></td></tr><tr><td>TODO</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#relatedto">is related to</a></td><td>TODO</td></tr></table></div>
 
   <!-- insert notes if present -->
   
@@ -185,12 +186,13 @@
     <div class="container">  <!-- container -->
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2020+ <a style="color: #81BEF7" href="http://www.ohie.org">OpenHIE</a>.  Package who.cr.covid19#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Sep 9, 2020 02:56+0000">2020-09-09</span>
+          IG &#169; 2020+ <a style="color: #81BEF7" href="http://www.ohie.org">OpenHIE</a>.  Package who.cr.covid19#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Oct 2, 2020 18:25+0000">2020-10-02</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
                  <a style="color: #81BEF7" href="qa.html">QA Report</a>
-| <a style="color: #81BEF7" href="https://github.com/openhie/covid-ig/issues">Report an issue</a>
+                 | <a style="color: #81BEF7" target="_blank" href="http://www.example.com/fhir/cr/covid19/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> |
+                 <!--<a style="color: #81BEF7" href="todo.html">Search</a> | --> 
           </span>
         </p>
       </div>  <!-- /inner-wrapper -->
