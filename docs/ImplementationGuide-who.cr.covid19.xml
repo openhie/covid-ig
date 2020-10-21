@@ -11,7 +11,7 @@
   <name value="WhoCrCovid19"/>
   <title value="WHO Case Reporting for COVID-19 Surveillance"/>
   <status value="draft"/>
-  <date value="2020-10-02T18:25:07+00:00"/>
+  <date value="2020-10-21T06:04:49+00:00"/>
   <publisher value="OpenHIE"/>
   <contact>
     <name value="OpenHIE"/>
@@ -192,9 +192,6 @@
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:resource"/>
       </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="StructureDefinition-WhoCrComposition.html"/>
-      </extension>
       <reference>
         <reference value="StructureDefinition/WhoCrComposition"/>
       </reference>
@@ -205,9 +202,6 @@
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="StructureDefinition-WhoCrPatient.html"/>
       </extension>
       <reference>
         <reference value="StructureDefinition/WhoCrPatient"/>
@@ -220,9 +214,6 @@
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ValueSet-WhoCrValueSetAdmin0.html"/>
-      </extension>
       <reference>
         <reference value="ValueSet/WhoCrValueSetAdmin0"/>
       </reference>
@@ -234,8 +225,16 @@
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ValueSet-WhoCrValueSetAgeUnits.html"/>
+      <reference>
+        <reference value="ValueSet/WhoCrValueSetAdmin1"/>
+      </reference>
+      <name value="List of Administrative Level 1 Names (Province/State/Canton)"/>
+      <description value="List of Administrative Level 1 Names (Province/State/Canton)"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
       </extension>
       <reference>
         <reference value="ValueSet/WhoCrValueSetAgeUnits"/>
@@ -248,9 +247,6 @@
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ValueSet-WhoCrValueSetPatientOutcome.html"/>
-      </extension>
       <reference>
         <reference value="ValueSet/WhoCrValueSetPatientOutcome"/>
       </reference>
@@ -261,9 +257,6 @@
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ValueSet-WhoCrValueSetPregnancyTrimester.html"/>
       </extension>
       <reference>
         <reference value="ValueSet/WhoCrValueSetPregnancyTrimester"/>
@@ -276,9 +269,6 @@
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ValueSet-WhoCrValueSetReasonForCovid19Testing.html"/>
-      </extension>
       <reference>
         <reference value="ValueSet/WhoCrValueSetReasonForCovid19Testing"/>
       </reference>
@@ -289,9 +279,6 @@
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ValueSet-WhoCrValueSetSexAtBirth.html"/>
       </extension>
       <reference>
         <reference value="ValueSet/WhoCrValueSetSexAtBirth"/>
@@ -304,9 +291,6 @@
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ValueSet-WhoCrValueSetSubmitted.html"/>
-      </extension>
       <reference>
         <reference value="ValueSet/WhoCrValueSetSubmitted"/>
       </reference>
@@ -317,9 +301,6 @@
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ValueSet-WhoCrValueSetTestResult.html"/>
       </extension>
       <reference>
         <reference value="ValueSet/WhoCrValueSetTestResult"/>
@@ -332,9 +313,6 @@
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ValueSet-WhoCrValueSetYesNo.html"/>
-      </extension>
       <reference>
         <reference value="ValueSet/WhoCrValueSetYesNo"/>
       </reference>
@@ -345,9 +323,6 @@
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ValueSet-WhoCrValueSetYesNoUnk.html"/>
       </extension>
       <reference>
         <reference value="ValueSet/WhoCrValueSetYesNoUnk"/>
@@ -360,9 +335,6 @@
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="CodeSystem"/>
       </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CodeSystem-WhoCrCodeSystemPatientOutcome.html"/>
-      </extension>
       <reference>
         <reference value="CodeSystem/WhoCrCodeSystemPatientOutcome"/>
       </reference>
@@ -373,9 +345,6 @@
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="CodeSystem"/>
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CodeSystem-WhoCrCodeSystemPregnancyTrimester.html"/>
       </extension>
       <reference>
         <reference value="CodeSystem/WhoCrCodeSystemPregnancyTrimester"/>
@@ -388,9 +357,6 @@
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="CodeSystem"/>
       </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CodeSystem-WhoCrCodeSystemReasonForTesting.html"/>
-      </extension>
       <reference>
         <reference value="CodeSystem/WhoCrCodeSystemReasonForTesting"/>
       </reference>
@@ -401,9 +367,6 @@
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="CodeSystem"/>
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CodeSystem-WhoCrCodeSystemSubmissionCompletion.html"/>
       </extension>
       <reference>
         <reference value="CodeSystem/WhoCrCodeSystemSubmissionCompletion"/>
@@ -416,9 +379,6 @@
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ConceptMap"/>
       </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ConceptMap-WhoCrConceptMapPatientAgeUnitsToCiel.html"/>
-      </extension>
       <reference>
         <reference value="ConceptMap/WhoCrConceptMapPatientAgeUnitsToCiel"/>
       </reference>
@@ -429,9 +389,6 @@
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ConceptMap"/>
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ConceptMap-WhoCrConceptMapPatientAgeUnitsToIcd10.html"/>
       </extension>
       <reference>
         <reference value="ConceptMap/WhoCrConceptMapPatientAgeUnitsToIcd10"/>
@@ -444,9 +401,6 @@
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ConceptMap"/>
       </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ConceptMap-WhoCrConceptMapPatientAgeUnitsToIcd11.html"/>
-      </extension>
       <reference>
         <reference value="ConceptMap/WhoCrConceptMapPatientAgeUnitsToIcd11"/>
       </reference>
@@ -457,9 +411,6 @@
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ConceptMap"/>
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ConceptMap-WhoCrConceptMapPatientAgeUnitsToLoinc.html"/>
       </extension>
       <reference>
         <reference value="ConceptMap/WhoCrConceptMapPatientAgeUnitsToLoinc"/>
@@ -472,9 +423,6 @@
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ConceptMap"/>
       </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ConceptMap-WhoCrConceptMapPatientAgeUnitsToRxnorm.html"/>
-      </extension>
       <reference>
         <reference value="ConceptMap/WhoCrConceptMapPatientAgeUnitsToRxnorm"/>
       </reference>
@@ -485,9 +433,6 @@
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ConceptMap"/>
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ConceptMap-WhoCrConceptMapPatientAgeUnitsToSnomed.html"/>
       </extension>
       <reference>
         <reference value="ConceptMap/WhoCrConceptMapPatientAgeUnitsToSnomed"/>
@@ -500,9 +445,6 @@
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ConceptMap"/>
       </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ConceptMap-WhoCrConceptMapPatientOutcomeToCiel.html"/>
-      </extension>
       <reference>
         <reference value="ConceptMap/WhoCrConceptMapPatientOutcomeToCiel"/>
       </reference>
@@ -513,9 +455,6 @@
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ConceptMap"/>
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ConceptMap-WhoCrConceptMapPatientOutcomeToIcd10.html"/>
       </extension>
       <reference>
         <reference value="ConceptMap/WhoCrConceptMapPatientOutcomeToIcd10"/>
@@ -528,9 +467,6 @@
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ConceptMap"/>
       </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ConceptMap-WhoCrConceptMapPatientOutcomeToIcd11.html"/>
-      </extension>
       <reference>
         <reference value="ConceptMap/WhoCrConceptMapPatientOutcomeToIcd11"/>
       </reference>
@@ -541,9 +477,6 @@
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ConceptMap"/>
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ConceptMap-WhoCrConceptMapPatientOutcomeToLoinc.html"/>
       </extension>
       <reference>
         <reference value="ConceptMap/WhoCrConceptMapPatientOutcomeToLoinc"/>
@@ -556,9 +489,6 @@
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ConceptMap"/>
       </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ConceptMap-WhoCrConceptMapPatientOutcomeToRxnorm.html"/>
-      </extension>
       <reference>
         <reference value="ConceptMap/WhoCrConceptMapPatientOutcomeToRxnorm"/>
       </reference>
@@ -569,9 +499,6 @@
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ConceptMap"/>
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ConceptMap-WhoCrConceptMapPatientOutcomeToSnomed.html"/>
       </extension>
       <reference>
         <reference value="ConceptMap/WhoCrConceptMapPatientOutcomeToSnomed"/>
@@ -584,9 +511,6 @@
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ConceptMap"/>
       </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ConceptMap-WhoCrConceptMapPatientSexAtBirthToCiel.html"/>
-      </extension>
       <reference>
         <reference value="ConceptMap/WhoCrConceptMapPatientSexAtBirthToCiel"/>
       </reference>
@@ -597,9 +521,6 @@
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ConceptMap"/>
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ConceptMap-WhoCrConceptMapPatientSexAtBirthToIcd10.html"/>
       </extension>
       <reference>
         <reference value="ConceptMap/WhoCrConceptMapPatientSexAtBirthToIcd10"/>
@@ -612,9 +533,6 @@
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ConceptMap"/>
       </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ConceptMap-WhoCrConceptMapPatientSexAtBirthToIcd11.html"/>
-      </extension>
       <reference>
         <reference value="ConceptMap/WhoCrConceptMapPatientSexAtBirthToIcd11"/>
       </reference>
@@ -625,9 +543,6 @@
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ConceptMap"/>
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ConceptMap-WhoCrConceptMapPatientSexAtBirthToLoinc.html"/>
       </extension>
       <reference>
         <reference value="ConceptMap/WhoCrConceptMapPatientSexAtBirthToLoinc"/>
@@ -640,9 +555,6 @@
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ConceptMap"/>
       </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ConceptMap-WhoCrConceptMapPatientSexAtBirthToRxnorm.html"/>
-      </extension>
       <reference>
         <reference value="ConceptMap/WhoCrConceptMapPatientSexAtBirthToRxnorm"/>
       </reference>
@@ -653,9 +565,6 @@
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ConceptMap"/>
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ConceptMap-WhoCrConceptMapPatientSexAtBirthToSnomed.html"/>
       </extension>
       <reference>
         <reference value="ConceptMap/WhoCrConceptMapPatientSexAtBirthToSnomed"/>
@@ -668,9 +577,6 @@
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ConceptMap"/>
       </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ConceptMap-WhoCrConceptMapPregnancyTrimesterToCiel.html"/>
-      </extension>
       <reference>
         <reference value="ConceptMap/WhoCrConceptMapPregnancyTrimesterToCiel"/>
       </reference>
@@ -681,9 +587,6 @@
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ConceptMap"/>
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ConceptMap-WhoCrConceptMapPregnancyTrimesterToIcd10.html"/>
       </extension>
       <reference>
         <reference value="ConceptMap/WhoCrConceptMapPregnancyTrimesterToIcd10"/>
@@ -696,9 +599,6 @@
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ConceptMap"/>
       </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ConceptMap-WhoCrConceptMapPregnancyTrimesterToIcd11.html"/>
-      </extension>
       <reference>
         <reference value="ConceptMap/WhoCrConceptMapPregnancyTrimesterToIcd11"/>
       </reference>
@@ -709,9 +609,6 @@
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ConceptMap"/>
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ConceptMap-WhoCrConceptMapPregnancyTrimesterToLoinc.html"/>
       </extension>
       <reference>
         <reference value="ConceptMap/WhoCrConceptMapPregnancyTrimesterToLoinc"/>
@@ -724,9 +621,6 @@
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ConceptMap"/>
       </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ConceptMap-WhoCrConceptMapPregnancyTrimesterToRxnorm.html"/>
-      </extension>
       <reference>
         <reference value="ConceptMap/WhoCrConceptMapPregnancyTrimesterToRxnorm"/>
       </reference>
@@ -737,9 +631,6 @@
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ConceptMap"/>
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ConceptMap-WhoCrConceptMapPregnancyTrimesterToSnomed.html"/>
       </extension>
       <reference>
         <reference value="ConceptMap/WhoCrConceptMapPregnancyTrimesterToSnomed"/>
@@ -752,9 +643,6 @@
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ConceptMap"/>
       </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ConceptMap-WhoCrConceptMapReasonForTestingToCiel.html"/>
-      </extension>
       <reference>
         <reference value="ConceptMap/WhoCrConceptMapReasonForTestingToCiel"/>
       </reference>
@@ -765,9 +653,6 @@
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ConceptMap"/>
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ConceptMap-WhoCrConceptMapReasonForTestingToIcd10.html"/>
       </extension>
       <reference>
         <reference value="ConceptMap/WhoCrConceptMapReasonForTestingToIcd10"/>
@@ -780,9 +665,6 @@
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ConceptMap"/>
       </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ConceptMap-WhoCrConceptMapReasonForTestingToIcd11.html"/>
-      </extension>
       <reference>
         <reference value="ConceptMap/WhoCrConceptMapReasonForTestingToIcd11"/>
       </reference>
@@ -793,9 +675,6 @@
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ConceptMap"/>
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ConceptMap-WhoCrConceptMapReasonForTestingToLoinc.html"/>
       </extension>
       <reference>
         <reference value="ConceptMap/WhoCrConceptMapReasonForTestingToLoinc"/>
@@ -808,9 +687,6 @@
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ConceptMap"/>
       </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ConceptMap-WhoCrConceptMapReasonForTestingToRxnorm.html"/>
-      </extension>
       <reference>
         <reference value="ConceptMap/WhoCrConceptMapReasonForTestingToRxnorm"/>
       </reference>
@@ -821,9 +697,6 @@
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ConceptMap"/>
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ConceptMap-WhoCrConceptMapReasonForTestingToSnomed.html"/>
       </extension>
       <reference>
         <reference value="ConceptMap/WhoCrConceptMapReasonForTestingToSnomed"/>
@@ -836,9 +709,6 @@
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ConceptMap"/>
       </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ConceptMap-WhoCrConceptMapSubmittedToCiel.html"/>
-      </extension>
       <reference>
         <reference value="ConceptMap/WhoCrConceptMapSubmittedToCiel"/>
       </reference>
@@ -849,9 +719,6 @@
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ConceptMap"/>
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ConceptMap-WhoCrConceptMapSubmittedToIcd10.html"/>
       </extension>
       <reference>
         <reference value="ConceptMap/WhoCrConceptMapSubmittedToIcd10"/>
@@ -864,9 +731,6 @@
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ConceptMap"/>
       </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ConceptMap-WhoCrConceptMapSubmittedToIcd11.html"/>
-      </extension>
       <reference>
         <reference value="ConceptMap/WhoCrConceptMapSubmittedToIcd11"/>
       </reference>
@@ -877,9 +741,6 @@
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ConceptMap"/>
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ConceptMap-WhoCrConceptMapSubmittedToLoinc.html"/>
       </extension>
       <reference>
         <reference value="ConceptMap/WhoCrConceptMapSubmittedToLoinc"/>
@@ -892,9 +753,6 @@
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ConceptMap"/>
       </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ConceptMap-WhoCrConceptMapSubmittedToRxnorm.html"/>
-      </extension>
       <reference>
         <reference value="ConceptMap/WhoCrConceptMapSubmittedToRxnorm"/>
       </reference>
@@ -905,9 +763,6 @@
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ConceptMap"/>
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ConceptMap-WhoCrConceptMapSubmittedToSnomed.html"/>
       </extension>
       <reference>
         <reference value="ConceptMap/WhoCrConceptMapSubmittedToSnomed"/>
@@ -920,9 +775,6 @@
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ConceptMap"/>
       </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ConceptMap-WhoCrConceptMapTestResultToCiel.html"/>
-      </extension>
       <reference>
         <reference value="ConceptMap/WhoCrConceptMapTestResultToCiel"/>
       </reference>
@@ -933,9 +785,6 @@
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ConceptMap"/>
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ConceptMap-WhoCrConceptMapTestResultToIcd10.html"/>
       </extension>
       <reference>
         <reference value="ConceptMap/WhoCrConceptMapTestResultToIcd10"/>
@@ -948,9 +797,6 @@
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ConceptMap"/>
       </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ConceptMap-WhoCrConceptMapTestResultToIcd11.html"/>
-      </extension>
       <reference>
         <reference value="ConceptMap/WhoCrConceptMapTestResultToIcd11"/>
       </reference>
@@ -961,9 +807,6 @@
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ConceptMap"/>
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ConceptMap-WhoCrConceptMapTestResultToLoinc.html"/>
       </extension>
       <reference>
         <reference value="ConceptMap/WhoCrConceptMapTestResultToLoinc"/>
@@ -976,9 +819,6 @@
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ConceptMap"/>
       </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ConceptMap-WhoCrConceptMapTestResultToRxnorm.html"/>
-      </extension>
       <reference>
         <reference value="ConceptMap/WhoCrConceptMapTestResultToRxnorm"/>
       </reference>
@@ -989,9 +829,6 @@
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ConceptMap"/>
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ConceptMap-WhoCrConceptMapTestResultToSnomed.html"/>
       </extension>
       <reference>
         <reference value="ConceptMap/WhoCrConceptMapTestResultToSnomed"/>
@@ -1004,9 +841,6 @@
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ConceptMap"/>
       </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ConceptMap-WhoCrConceptMapYesNoToCiel.html"/>
-      </extension>
       <reference>
         <reference value="ConceptMap/WhoCrConceptMapYesNoToCiel"/>
       </reference>
@@ -1017,9 +851,6 @@
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ConceptMap"/>
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ConceptMap-WhoCrConceptMapYesNoToIcd10.html"/>
       </extension>
       <reference>
         <reference value="ConceptMap/WhoCrConceptMapYesNoToIcd10"/>
@@ -1032,9 +863,6 @@
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ConceptMap"/>
       </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ConceptMap-WhoCrConceptMapYesNoToIcd11.html"/>
-      </extension>
       <reference>
         <reference value="ConceptMap/WhoCrConceptMapYesNoToIcd11"/>
       </reference>
@@ -1045,9 +873,6 @@
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ConceptMap"/>
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ConceptMap-WhoCrConceptMapYesNoToLoinc.html"/>
       </extension>
       <reference>
         <reference value="ConceptMap/WhoCrConceptMapYesNoToLoinc"/>
@@ -1060,9 +885,6 @@
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ConceptMap"/>
       </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ConceptMap-WhoCrConceptMapYesNoToRxnorm.html"/>
-      </extension>
       <reference>
         <reference value="ConceptMap/WhoCrConceptMapYesNoToRxnorm"/>
       </reference>
@@ -1073,9 +895,6 @@
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ConceptMap"/>
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ConceptMap-WhoCrConceptMapYesNoToSnomed.html"/>
       </extension>
       <reference>
         <reference value="ConceptMap/WhoCrConceptMapYesNoToSnomed"/>
@@ -1088,9 +907,6 @@
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ConceptMap"/>
       </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ConceptMap-WhoCrConceptMapYesNoUnknownToCiel.html"/>
-      </extension>
       <reference>
         <reference value="ConceptMap/WhoCrConceptMapYesNoUnknownToCiel"/>
       </reference>
@@ -1101,9 +917,6 @@
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ConceptMap"/>
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ConceptMap-WhoCrConceptMapYesNoUnknownToIcd10.html"/>
       </extension>
       <reference>
         <reference value="ConceptMap/WhoCrConceptMapYesNoUnknownToIcd10"/>
@@ -1116,9 +929,6 @@
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ConceptMap"/>
       </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ConceptMap-WhoCrConceptMapYesNoUnknownToIcd11.html"/>
-      </extension>
       <reference>
         <reference value="ConceptMap/WhoCrConceptMapYesNoUnknownToIcd11"/>
       </reference>
@@ -1129,9 +939,6 @@
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ConceptMap"/>
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ConceptMap-WhoCrConceptMapYesNoUnknownToLoinc.html"/>
       </extension>
       <reference>
         <reference value="ConceptMap/WhoCrConceptMapYesNoUnknownToLoinc"/>
@@ -1144,9 +951,6 @@
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ConceptMap"/>
       </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ConceptMap-WhoCrConceptMapYesNoUnknownToRxnorm.html"/>
-      </extension>
       <reference>
         <reference value="ConceptMap/WhoCrConceptMapYesNoUnknownToRxnorm"/>
       </reference>
@@ -1157,9 +961,6 @@
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ConceptMap"/>
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ConceptMap-WhoCrConceptMapYesNoUnknownToSnomed.html"/>
       </extension>
       <reference>
         <reference value="ConceptMap/WhoCrConceptMapYesNoUnknownToSnomed"/>
@@ -1172,9 +973,6 @@
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Questionnaire"/>
       </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="Questionnaire-WhoCrQuestionnaireCovid19Surveillance.html"/>
-      </extension>
       <reference>
         <reference value="Questionnaire/WhoCrQuestionnaireCovid19Surveillance"/>
       </reference>
@@ -1185,9 +983,6 @@
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Composition"/>
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="Composition-WhoCrSampleComposition.html"/>
       </extension>
       <reference>
         <reference value="Composition/WhoCrSampleComposition"/>
@@ -1200,9 +995,6 @@
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Patient"/>
       </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="Patient-WhoCrSamplePatient.html"/>
-      </extension>
       <reference>
         <reference value="Patient/WhoCrSamplePatient"/>
       </reference>
@@ -1213,9 +1005,6 @@
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:logical"/>
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="StructureDefinition-WhoCrSurveillanceDataDictionary.html"/>
       </extension>
       <reference>
         <reference value="StructureDefinition/WhoCrSurveillanceDataDictionary"/>

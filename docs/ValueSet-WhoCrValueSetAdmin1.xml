@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="WhoCrValueSetAdmin1"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="https://terminology.hl7.org/1.0.0//CodeSystem-v3-iso3166-2.html"><code>urn:iso:std:iso:3166:-2</code></a></li></ul></div>
+  </text>
+  <url value="http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetAdmin1"/>
+  <version value="0.1.0"/>
+  <name value="WhoCrValueSetAdmin1"/>
+  <title value="List of Administrative Level 1 Names (Province/State/Canton)"/>
+  <status value="active"/>
+  <date value="2020-10-21T06:04:49+00:00"/>
+  <publisher value="OpenHIE"/>
+  <contact>
+    <name value="OpenHIE"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.ohie.org"/>
+    </telecom>
+  </contact>
+  <description value="List of Administrative Level 1 Names (Province/State/Canton)"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="urn:iso:std:iso:3166:-2"/>
+    </include>
+  </compose>
+</ValueSet>

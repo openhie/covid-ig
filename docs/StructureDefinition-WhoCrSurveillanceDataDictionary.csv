@@ -37,7 +37,7 @@ If transborders or international spread of outbreak","","","","","","","","","",
 "WhoCrSurveillanceDataDictionary.patientInfo.identified.admin0","","","",0,1,"","","","CodeableConcept {[]} {[]}
 ","Where the case was diagnosed, admin level 0 (country)","Administrative level 0: Country where the case was diagnosed.","","","","","","","","","",,"extensible","","http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetAdmin0","",,,,"WhoCrSurveillanceDataDictionary.patientInfo.identified.admin0",0,1,"","","patinfo_idadmin0","TODO","TODO","TODO","TODO","TODO","TODO"
 "WhoCrSurveillanceDataDictionary.patientInfo.identified.admin1","","","",0,1,"","","","CodeableConcept {[]} {[]}
-","Where the case was diagnosed, admin level 1 (country)","Administrative level 1: First sub-national boundary (e.g. province, state, territory prefecture, region, etc.) where the case was diagnosed.","","","","","","","","","",,,,,"",,,,"WhoCrSurveillanceDataDictionary.patientInfo.identified.admin1",0,1,"","","patinfo_idadmin1","TODO","165851","TODO","TODO","TODO","TODO"
+","Where the case was diagnosed, admin level 1 (country)","Administrative level 1: First sub-national boundary (e.g. province, state, territory prefecture, region, etc.) where the case was diagnosed.","","","","","","","","","",,"extensible","","http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetAdmin1","",,,,"WhoCrSurveillanceDataDictionary.patientInfo.identified.admin1",0,1,"","","patinfo_idadmin1","TODO","165851","TODO","TODO","TODO","TODO"
 "WhoCrSurveillanceDataDictionary.patientInfo.residence","","","",0,1,"","","","BackboneElement {[]} {[]}
 ","Details of the residence of the case","Details of the residence of the case","","","","","","","","","",,,,,"",,,,"WhoCrSurveillanceDataDictionary.patientInfo.residence",0,1,"","","TODO","TODO","TODO","TODO","TODO","TODO","TODO"
 "WhoCrSurveillanceDataDictionary.patientInfo.residence.admin0","","","",0,1,"","","","CodeableConcept {[]} {[]}
@@ -135,21 +135,23 @@ If transborders or international spread of outbreak","","","","","","","","","",
 ",,,,"WhoCrSurveillanceDataDictionary.exposure.travel.location.departureDate",0,1,"","","expo_travel_dateX","91560-3","162602","TODO","TODO","TODO","TODO"
 "WhoCrSurveillanceDataDictionary.exposure.visitedHealthcare","","","",0,1,"","","","Coding {[]} {[]}
 ","Has the patient visited any health care facilities in the 14 days prior to symptom onset","Has the patient visited any health care facilities in the 14 days prior to symptom onset","","","","","","","","","",,"required","","http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetYesNoUnk","",,,,"WhoCrSurveillanceDataDictionary.exposure.visitedHealthcare",0,1,"","","expo_visit_healthcare","TODO","165833","TODO","TODO","TODO","TODO"
-"WhoCrSurveillanceDataDictionary.exposure.caseContact","","","",0,1,"","","","Coding {[]} {[]}
-","Has the patient had contact with a confirmed case?","Has the patient had contact with a confirmed case in the 14 days prior to disease onset?","","","","","","","","","",,"required","","http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetYesNoUnk","",,,,"WhoCrSurveillanceDataDictionary.exposure.caseContact",0,1,"","","expo_contact_case","TODO","162633","TODO","TODO","TODO","TODO"
-"WhoCrSurveillanceDataDictionary.exposure.contactSetting","","","",0,1,"","","","string {[]} {[]}
-","Explain contact setting","If the patient has had contact with a confirmed case in the 14 days prior to symptom onset, explain contact setting","","","","","","","","","",,,,,"",,,,"WhoCrSurveillanceDataDictionary.exposure.contactSetting",0,1,"","","expo_case_setting_detail","TODO","TODO","TODO","TODO","TODO","TODO"
-"WhoCrSurveillanceDataDictionary.exposure.contact","","","",0,*,"","","","BackboneElement {[]} {[]}
-","Confirmed case contact","Confirmed case contact","","","","","","","","","",,,,,"",,,,"WhoCrSurveillanceDataDictionary.exposure.contact",0,*,"","","TODO","TODO","TODO","TODO","TODO","TODO","TODO"
-"WhoCrSurveillanceDataDictionary.exposure.contact.identifier","","","",0,1,"","","","Identifier {[]} {[]}
+"WhoCrSurveillanceDataDictionary.exposure.contact","","","",0,1,"","","","BackboneElement {[]} {[]}
+","Patient exposure to confirmed cases","Patient exposure to confirmed cases","","","","","","","","","",,,,,"",,,,"WhoCrSurveillanceDataDictionary.exposure.contact",0,1,"","","TODO","TODO","TODO","TODO","TODO","TODO","TODO"
+"WhoCrSurveillanceDataDictionary.exposure.contact.hadContact","","","",0,1,"","","","Coding {[]} {[]}
+","Has the patient had contact with a confirmed case?","Has the patient had contact with a confirmed case in the 14 days prior to disease onset?","","","","","","","","","",,"required","","http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetYesNoUnk","",,,,"WhoCrSurveillanceDataDictionary.exposure.contact.hadContact",0,1,"","","expo_contact_case","TODO","162633","TODO","TODO","TODO","TODO"
+"WhoCrSurveillanceDataDictionary.exposure.contact.contact","","","",0,*,"","","","BackboneElement {[]} {[]}
+","Confirmed case contact","Confirmed case contact","","","","","","","","","",,,,,"",,,,"WhoCrSurveillanceDataDictionary.exposure.contact.contact",0,*,"","","TODO","TODO","TODO","TODO","TODO","TODO","TODO"
+"WhoCrSurveillanceDataDictionary.exposure.contact.contact.identifier","","","",0,1,"","","","Identifier {[]} {[]}
 ","ID number of confirmed case","Unique identifier of confirmed case with whom the patient had contact","","","","","","","","","",,,,,"http://loinc.org#94657-4
-",,,,"WhoCrSurveillanceDataDictionary.exposure.contact.identifier",0,1,"","","expo_IDx","94657-4","TODO","TODO","TODO","TODO","TODO"
-"WhoCrSurveillanceDataDictionary.exposure.contact.exposureFirstDate","","","",0,1,"","","","date {[]} {[]}
-","Date of first exposure to confirmed case","Date of first exposure to confirmed case","","","","","","","","","",,,,,"",,,,"WhoCrSurveillanceDataDictionary.exposure.contact.exposureFirstDate",0,1,"","","expo_case_date_firstX","TODO","TODO","TODO","TODO","TODO","TODO"
-"WhoCrSurveillanceDataDictionary.exposure.contact.exposureLastDate","","","",0,1,"","","","date {[]} {[]}
-","Date of last exposure to confirmed case","Date of last exposure to confirmed case","","","","","","","","","",,,,,"",,,,"WhoCrSurveillanceDataDictionary.exposure.contact.exposureLastDate",0,1,"","","expo_case_date_lastX","95386-9","TODO","TODO","TODO","TODO","TODO"
-"WhoCrSurveillanceDataDictionary.exposure.contactCountry","","","",0,1,"","","","CodeableConcept {[]} {[]}
-","Likely country for exposure to case?","Specify the location of possible exposure to a case","","","","","","","","","",,"extensible","","http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetAdmin0","",,,,"WhoCrSurveillanceDataDictionary.exposure.contactCountry",0,1,"","","expo_case_location","77984-3","TODO","TODO","TODO","TODO","TODO"
+",,,,"WhoCrSurveillanceDataDictionary.exposure.contact.contact.identifier",0,1,"","","expo_IDx","94657-4","TODO","TODO","TODO","TODO","TODO"
+"WhoCrSurveillanceDataDictionary.exposure.contact.contact.exposureFirstDate","","","",0,1,"","","","date {[]} {[]}
+","Date of first exposure to confirmed case","Date of first exposure to confirmed case","","","","","","","","","",,,,,"",,,,"WhoCrSurveillanceDataDictionary.exposure.contact.contact.exposureFirstDate",0,1,"","","expo_case_date_firstX","TODO","TODO","TODO","TODO","TODO","TODO"
+"WhoCrSurveillanceDataDictionary.exposure.contact.contact.exposureLastDate","","","",0,1,"","","","date {[]} {[]}
+","Date of last exposure to confirmed case","Date of last exposure to confirmed case","","","","","","","","","",,,,,"",,,,"WhoCrSurveillanceDataDictionary.exposure.contact.contact.exposureLastDate",0,1,"","","expo_case_date_lastX","95386-9","TODO","TODO","TODO","TODO","TODO"
+"WhoCrSurveillanceDataDictionary.exposure.contact.contact.setting","","","",0,1,"","","","string {[]} {[]}
+","Explain contact setting","If the patient has had contact with a confirmed case in the 14 days prior to symptom onset, explain contact setting","","","","","","","","","",,,,,"",,,,"WhoCrSurveillanceDataDictionary.exposure.contact.contact.setting",0,1,"","","expo_case_setting_detail","TODO","TODO","TODO","TODO","TODO","TODO"
+"WhoCrSurveillanceDataDictionary.exposure.contact.country","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","Likely country for exposure to case?","Specify the location of possible exposure to a case","","","","","","","","","",,"extensible","","http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetAdmin0","",,,,"WhoCrSurveillanceDataDictionary.exposure.contact.country",0,1,"","","expo_case_location","77984-3","TODO","TODO","TODO","TODO","TODO"
 "WhoCrSurveillanceDataDictionary.outcome","","","",0,1,"","","","BackboneElement {[]} {[]}
 ","Patient outcome","Patient outcome","","","","","","","","","",,,,,"",,,,"WhoCrSurveillanceDataDictionary.outcome",0,1,"","","TODO","TODO","TODO","TODO","TODO","TODO","TODO"
 "WhoCrSurveillanceDataDictionary.outcome.submitted","","","",0,1,"","","","CodeableConcept {[]} {[]}
@@ -176,8 +178,8 @@ If transborders or international spread of outbreak","","","","","","","","","",
 ","Patient status (outcome)","Patient status (outcome)","","","","","","","","","",,"required","","http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetPatientOutcome","",,,,"WhoCrSurveillanceDataDictionary.outcome.patientCourse.status",0,1,"","","outcome_patcourse_status","91541-3","159640","TODO","TODO","TODO","TODO"
 "WhoCrSurveillanceDataDictionary.outcome.patientCourse.statusOther","","","",0,1,"","","","string {[]} {[]}
 ","Other patient status (outcome)","Other patient status (outcome)","","","","","","","","","",,,,,"",,,,"WhoCrSurveillanceDataDictionary.outcome.patientCourse.statusOther",0,1,"","","outcome_patcourse_status_other","TODO","TODO","TODO","TODO","TODO","TODO"
-"WhoCrSurveillanceDataDictionary.outcome.outcomeDate","","","",0,1,"","","","date {[]} {[]}
-","Date of patient release or date of death","Date of Release from isolation/hospital or Date of Death","","","","","","","","","",,,,,"",,,,"WhoCrSurveillanceDataDictionary.outcome.outcomeDate",0,1,"","","outcome_date_of_outcome","TODO","TODO","TODO","TODO","TODO","TODO"
+"WhoCrSurveillanceDataDictionary.outcome.patientCourse.statusDate","","","",0,1,"","","","date {[]} {[]}
+","Date of patient release or date of death","Date of Release from isolation/hospital or Date of Death","","","","","","","","","",,,,,"",,,,"WhoCrSurveillanceDataDictionary.outcome.patientCourse.statusDate",0,1,"","","outcome_date_of_outcome","TODO","TODO","TODO","TODO","TODO","TODO"
 "WhoCrSurveillanceDataDictionary.outcome.labDate","","","",0,1,"","","","date {[]} {[]}
 ","If released, date of last laboratory test","If released from hospital /isolation, date of last laboratory test","","","","","","","","","",,,,,"",,,,"WhoCrSurveillanceDataDictionary.outcome.labDate",0,1,"","","outcome_lab_date","TODO","TODO","TODO","TODO","TODO","TODO"
 "WhoCrSurveillanceDataDictionary.outcome.labResult","","","",0,1,"","","","Coding {[]} {[]}

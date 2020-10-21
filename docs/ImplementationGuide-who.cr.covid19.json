@@ -10,7 +10,7 @@
   "name": "WhoCrCovid19",
   "title": "WHO Case Reporting for COVID-19 Surveillance",
   "status": "draft",
-  "date": "2020-10-02T18:25:07+00:00",
+  "date": "2020-10-21T06:04:49+00:00",
   "publisher": "OpenHIE",
   "contact": [
     {
@@ -303,10 +303,6 @@
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "StructureDefinition:resource"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "StructureDefinition-WhoCrComposition.html"
           }
         ],
         "reference": {
@@ -321,10 +317,6 @@
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "StructureDefinition:resource"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "StructureDefinition-WhoCrPatient.html"
           }
         ],
         "reference": {
@@ -339,10 +331,6 @@
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ValueSet"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "ValueSet-WhoCrValueSetAdmin0.html"
           }
         ],
         "reference": {
@@ -357,10 +345,20 @@
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ValueSet"
-          },
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/WhoCrValueSetAdmin1"
+        },
+        "name": "List of Administrative Level 1 Names (Province/State/Canton)",
+        "description": "List of Administrative Level 1 Names (Province/State/Canton)",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
           {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "ValueSet-WhoCrValueSetAgeUnits.html"
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
           }
         ],
         "reference": {
@@ -375,10 +373,6 @@
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ValueSet"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "ValueSet-WhoCrValueSetPatientOutcome.html"
           }
         ],
         "reference": {
@@ -393,10 +387,6 @@
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ValueSet"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "ValueSet-WhoCrValueSetPregnancyTrimester.html"
           }
         ],
         "reference": {
@@ -411,10 +401,6 @@
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ValueSet"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "ValueSet-WhoCrValueSetReasonForCovid19Testing.html"
           }
         ],
         "reference": {
@@ -429,10 +415,6 @@
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ValueSet"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "ValueSet-WhoCrValueSetSexAtBirth.html"
           }
         ],
         "reference": {
@@ -447,10 +429,6 @@
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ValueSet"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "ValueSet-WhoCrValueSetSubmitted.html"
           }
         ],
         "reference": {
@@ -465,10 +443,6 @@
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ValueSet"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "ValueSet-WhoCrValueSetTestResult.html"
           }
         ],
         "reference": {
@@ -483,10 +457,6 @@
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ValueSet"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "ValueSet-WhoCrValueSetYesNo.html"
           }
         ],
         "reference": {
@@ -501,10 +471,6 @@
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ValueSet"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "ValueSet-WhoCrValueSetYesNoUnk.html"
           }
         ],
         "reference": {
@@ -519,10 +485,6 @@
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "CodeSystem"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "CodeSystem-WhoCrCodeSystemPatientOutcome.html"
           }
         ],
         "reference": {
@@ -537,10 +499,6 @@
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "CodeSystem"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "CodeSystem-WhoCrCodeSystemPregnancyTrimester.html"
           }
         ],
         "reference": {
@@ -555,10 +513,6 @@
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "CodeSystem"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "CodeSystem-WhoCrCodeSystemReasonForTesting.html"
           }
         ],
         "reference": {
@@ -573,10 +527,6 @@
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "CodeSystem"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "CodeSystem-WhoCrCodeSystemSubmissionCompletion.html"
           }
         ],
         "reference": {
@@ -591,10 +541,6 @@
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ConceptMap"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "ConceptMap-WhoCrConceptMapPatientAgeUnitsToCiel.html"
           }
         ],
         "reference": {
@@ -609,10 +555,6 @@
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ConceptMap"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "ConceptMap-WhoCrConceptMapPatientAgeUnitsToIcd10.html"
           }
         ],
         "reference": {
@@ -627,10 +569,6 @@
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ConceptMap"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "ConceptMap-WhoCrConceptMapPatientAgeUnitsToIcd11.html"
           }
         ],
         "reference": {
@@ -645,10 +583,6 @@
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ConceptMap"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "ConceptMap-WhoCrConceptMapPatientAgeUnitsToLoinc.html"
           }
         ],
         "reference": {
@@ -663,10 +597,6 @@
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ConceptMap"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "ConceptMap-WhoCrConceptMapPatientAgeUnitsToRxnorm.html"
           }
         ],
         "reference": {
@@ -681,10 +611,6 @@
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ConceptMap"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "ConceptMap-WhoCrConceptMapPatientAgeUnitsToSnomed.html"
           }
         ],
         "reference": {
@@ -699,10 +625,6 @@
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ConceptMap"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "ConceptMap-WhoCrConceptMapPatientOutcomeToCiel.html"
           }
         ],
         "reference": {
@@ -717,10 +639,6 @@
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ConceptMap"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "ConceptMap-WhoCrConceptMapPatientOutcomeToIcd10.html"
           }
         ],
         "reference": {
@@ -735,10 +653,6 @@
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ConceptMap"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "ConceptMap-WhoCrConceptMapPatientOutcomeToIcd11.html"
           }
         ],
         "reference": {
@@ -753,10 +667,6 @@
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ConceptMap"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "ConceptMap-WhoCrConceptMapPatientOutcomeToLoinc.html"
           }
         ],
         "reference": {
@@ -771,10 +681,6 @@
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ConceptMap"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "ConceptMap-WhoCrConceptMapPatientOutcomeToRxnorm.html"
           }
         ],
         "reference": {
@@ -789,10 +695,6 @@
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ConceptMap"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "ConceptMap-WhoCrConceptMapPatientOutcomeToSnomed.html"
           }
         ],
         "reference": {
@@ -807,10 +709,6 @@
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ConceptMap"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "ConceptMap-WhoCrConceptMapPatientSexAtBirthToCiel.html"
           }
         ],
         "reference": {
@@ -825,10 +723,6 @@
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ConceptMap"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "ConceptMap-WhoCrConceptMapPatientSexAtBirthToIcd10.html"
           }
         ],
         "reference": {
@@ -843,10 +737,6 @@
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ConceptMap"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "ConceptMap-WhoCrConceptMapPatientSexAtBirthToIcd11.html"
           }
         ],
         "reference": {
@@ -861,10 +751,6 @@
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ConceptMap"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "ConceptMap-WhoCrConceptMapPatientSexAtBirthToLoinc.html"
           }
         ],
         "reference": {
@@ -879,10 +765,6 @@
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ConceptMap"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "ConceptMap-WhoCrConceptMapPatientSexAtBirthToRxnorm.html"
           }
         ],
         "reference": {
@@ -897,10 +779,6 @@
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ConceptMap"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "ConceptMap-WhoCrConceptMapPatientSexAtBirthToSnomed.html"
           }
         ],
         "reference": {
@@ -915,10 +793,6 @@
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ConceptMap"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "ConceptMap-WhoCrConceptMapPregnancyTrimesterToCiel.html"
           }
         ],
         "reference": {
@@ -933,10 +807,6 @@
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ConceptMap"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "ConceptMap-WhoCrConceptMapPregnancyTrimesterToIcd10.html"
           }
         ],
         "reference": {
@@ -951,10 +821,6 @@
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ConceptMap"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "ConceptMap-WhoCrConceptMapPregnancyTrimesterToIcd11.html"
           }
         ],
         "reference": {
@@ -969,10 +835,6 @@
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ConceptMap"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "ConceptMap-WhoCrConceptMapPregnancyTrimesterToLoinc.html"
           }
         ],
         "reference": {
@@ -987,10 +849,6 @@
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ConceptMap"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "ConceptMap-WhoCrConceptMapPregnancyTrimesterToRxnorm.html"
           }
         ],
         "reference": {
@@ -1005,10 +863,6 @@
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ConceptMap"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "ConceptMap-WhoCrConceptMapPregnancyTrimesterToSnomed.html"
           }
         ],
         "reference": {
@@ -1023,10 +877,6 @@
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ConceptMap"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "ConceptMap-WhoCrConceptMapReasonForTestingToCiel.html"
           }
         ],
         "reference": {
@@ -1041,10 +891,6 @@
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ConceptMap"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "ConceptMap-WhoCrConceptMapReasonForTestingToIcd10.html"
           }
         ],
         "reference": {
@@ -1059,10 +905,6 @@
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ConceptMap"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "ConceptMap-WhoCrConceptMapReasonForTestingToIcd11.html"
           }
         ],
         "reference": {
@@ -1077,10 +919,6 @@
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ConceptMap"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "ConceptMap-WhoCrConceptMapReasonForTestingToLoinc.html"
           }
         ],
         "reference": {
@@ -1095,10 +933,6 @@
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ConceptMap"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "ConceptMap-WhoCrConceptMapReasonForTestingToRxnorm.html"
           }
         ],
         "reference": {
@@ -1113,10 +947,6 @@
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ConceptMap"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "ConceptMap-WhoCrConceptMapReasonForTestingToSnomed.html"
           }
         ],
         "reference": {
@@ -1131,10 +961,6 @@
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ConceptMap"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "ConceptMap-WhoCrConceptMapSubmittedToCiel.html"
           }
         ],
         "reference": {
@@ -1149,10 +975,6 @@
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ConceptMap"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "ConceptMap-WhoCrConceptMapSubmittedToIcd10.html"
           }
         ],
         "reference": {
@@ -1167,10 +989,6 @@
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ConceptMap"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "ConceptMap-WhoCrConceptMapSubmittedToIcd11.html"
           }
         ],
         "reference": {
@@ -1185,10 +1003,6 @@
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ConceptMap"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "ConceptMap-WhoCrConceptMapSubmittedToLoinc.html"
           }
         ],
         "reference": {
@@ -1203,10 +1017,6 @@
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ConceptMap"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "ConceptMap-WhoCrConceptMapSubmittedToRxnorm.html"
           }
         ],
         "reference": {
@@ -1221,10 +1031,6 @@
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ConceptMap"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "ConceptMap-WhoCrConceptMapSubmittedToSnomed.html"
           }
         ],
         "reference": {
@@ -1239,10 +1045,6 @@
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ConceptMap"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "ConceptMap-WhoCrConceptMapTestResultToCiel.html"
           }
         ],
         "reference": {
@@ -1257,10 +1059,6 @@
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ConceptMap"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "ConceptMap-WhoCrConceptMapTestResultToIcd10.html"
           }
         ],
         "reference": {
@@ -1275,10 +1073,6 @@
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ConceptMap"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "ConceptMap-WhoCrConceptMapTestResultToIcd11.html"
           }
         ],
         "reference": {
@@ -1293,10 +1087,6 @@
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ConceptMap"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "ConceptMap-WhoCrConceptMapTestResultToLoinc.html"
           }
         ],
         "reference": {
@@ -1311,10 +1101,6 @@
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ConceptMap"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "ConceptMap-WhoCrConceptMapTestResultToRxnorm.html"
           }
         ],
         "reference": {
@@ -1329,10 +1115,6 @@
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ConceptMap"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "ConceptMap-WhoCrConceptMapTestResultToSnomed.html"
           }
         ],
         "reference": {
@@ -1347,10 +1129,6 @@
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ConceptMap"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "ConceptMap-WhoCrConceptMapYesNoToCiel.html"
           }
         ],
         "reference": {
@@ -1365,10 +1143,6 @@
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ConceptMap"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "ConceptMap-WhoCrConceptMapYesNoToIcd10.html"
           }
         ],
         "reference": {
@@ -1383,10 +1157,6 @@
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ConceptMap"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "ConceptMap-WhoCrConceptMapYesNoToIcd11.html"
           }
         ],
         "reference": {
@@ -1401,10 +1171,6 @@
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ConceptMap"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "ConceptMap-WhoCrConceptMapYesNoToLoinc.html"
           }
         ],
         "reference": {
@@ -1419,10 +1185,6 @@
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ConceptMap"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "ConceptMap-WhoCrConceptMapYesNoToRxnorm.html"
           }
         ],
         "reference": {
@@ -1437,10 +1199,6 @@
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ConceptMap"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "ConceptMap-WhoCrConceptMapYesNoToSnomed.html"
           }
         ],
         "reference": {
@@ -1455,10 +1213,6 @@
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ConceptMap"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "ConceptMap-WhoCrConceptMapYesNoUnknownToCiel.html"
           }
         ],
         "reference": {
@@ -1473,10 +1227,6 @@
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ConceptMap"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "ConceptMap-WhoCrConceptMapYesNoUnknownToIcd10.html"
           }
         ],
         "reference": {
@@ -1491,10 +1241,6 @@
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ConceptMap"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "ConceptMap-WhoCrConceptMapYesNoUnknownToIcd11.html"
           }
         ],
         "reference": {
@@ -1509,10 +1255,6 @@
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ConceptMap"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "ConceptMap-WhoCrConceptMapYesNoUnknownToLoinc.html"
           }
         ],
         "reference": {
@@ -1527,10 +1269,6 @@
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ConceptMap"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "ConceptMap-WhoCrConceptMapYesNoUnknownToRxnorm.html"
           }
         ],
         "reference": {
@@ -1545,10 +1283,6 @@
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ConceptMap"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "ConceptMap-WhoCrConceptMapYesNoUnknownToSnomed.html"
           }
         ],
         "reference": {
@@ -1563,10 +1297,6 @@
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "Questionnaire"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "Questionnaire-WhoCrQuestionnaireCovid19Surveillance.html"
           }
         ],
         "reference": {
@@ -1581,10 +1311,6 @@
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "Composition"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "Composition-WhoCrSampleComposition.html"
           }
         ],
         "reference": {
@@ -1599,10 +1325,6 @@
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "Patient"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "Patient-WhoCrSamplePatient.html"
           }
         ],
         "reference": {
@@ -1617,10 +1339,6 @@
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "StructureDefinition:logical"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "StructureDefinition-WhoCrSurveillanceDataDictionary.html"
           }
         ],
         "reference": {

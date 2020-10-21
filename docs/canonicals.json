@@ -448,6 +448,13 @@
     "name": "WhoCrValueSetAdmin0"
   },
   {
+    "id": "WhoCrValueSetAdmin1",
+    "type": "ValueSet",
+    "url": "http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetAdmin1",
+    "version": "0.1.0",
+    "name": "WhoCrValueSetAdmin1"
+  },
+  {
     "id": "WhoCrValueSetAgeUnits",
     "type": "ValueSet",
     "url": "http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetAgeUnits",
