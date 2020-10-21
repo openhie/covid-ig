@@ -115,4 +115,9 @@ Description: "Report Submitted Yes/No/Partial"
 ValueSet: WhoCrValueSetAdmin0
 Title: "List of Administrative Level 0 Names (Countries)"
 Description: "List of Administrative Level 0 Names (Countries)"
-* codes from valueset http://hl7.org/fhir/ValueSet/iso3166-1-3
+* codes from valueset http://hl7.org/fhir/ValueSet/iso3166-1-2
+
+ValueSet: WhoCrValueSetAdmin1
+Title: "List of Administrative Level 1 Names (Province/State/Canton)"
+Description: "List of Administrative Level 1 Names (Province/State/Canton)"
+* codes from system urn:iso:std:iso:3166:-2
