@@ -3,14 +3,14 @@
 <ConceptMap xmlns="http://hl7.org/fhir">
   <id value="WhoCrConceptMapPatientOutcomeToCiel"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>WhoCrConceptMapPatientOutcomeToCiel (http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapPatientOutcomeToCiel)</h2><p>Mapping from <a href="CodeSystem-WhoCrCodeSystemPatientOutcome.html">http://www.example.com/fhir/cr/covid19/CodeSystem/WhoCrCodeSystemPatientOutcome</a> to https://www.openconceptlab.org/orgs/CIEL/sources/CIEL/concepts</p><p>DRAFT (not intended for production usage). Published on Oct 21, 2020, 6:04:49 AM by OpenHIE (OpenHIE: <a href="http://www.ohie.org">http://www.ohie.org</a>). 2020</p><br/><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Destination Code</b></td></tr><tr><td>RECOVERED (Recovered/Healthy)</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#relatedto">is related to</a></td><td>165870</td></tr><tr><td>NOTRECOVERED</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#relatedto">is related to</a></td><td>165871</td></tr><tr><td>DEATH</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#relatedto">is related to</a></td><td>160432</td></tr><tr><td>UNKNOWN</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#relatedto">is related to</a></td><td>1067</td></tr><tr><td>OTHER</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#relatedto">is related to</a></td><td>5622</td></tr></table></div>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>WhoCrConceptMapPatientOutcomeToCiel (http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapPatientOutcomeToCiel)</h2><p>Mapping from <a href="CodeSystem-WhoCrCodeSystemPatientOutcome.html">http://www.example.com/fhir/cr/covid19/CodeSystem/WhoCrCodeSystemPatientOutcome</a> to https://openconceptlab.org/orgs/CIEL/sources/CIEL</p><p>DRAFT (not intended for production usage). Published on Nov 2, 2020, 2:40:30 AM by OpenHIE (OpenHIE: <a href="http://www.ohie.org">http://www.ohie.org</a>). 2020</p><br/><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Destination Code</b></td></tr><tr><td>RECOVERED (Recovered/Healthy)</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#relatedto">is related to</a></td><td>165870</td></tr><tr><td>NOTRECOVERED</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#relatedto">is related to</a></td><td>165871</td></tr><tr><td>DEATH</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#relatedto">is related to</a></td><td>160432</td></tr><tr><td>UNKNOWN</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#relatedto">is related to</a></td><td>1067</td></tr><tr><td>OTHER</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#relatedto">is related to</a></td><td>5622</td></tr></table></div>
   </text>
   <url value="http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapPatientOutcomeToCiel"/>
   <version value="0.1.0"/>
   <name value="WhoCrConceptMapPatientOutcomeToCiel"/>
   <status value="draft"/>
   <experimental value="true"/>
-  <date value="2020-10-21T06:04:49+00:00"/>
+  <date value="2020-11-02T02:40:30+00:00"/>
   <publisher value="OpenHIE"/>
   <contact>
     <name value="OpenHIE"/>
@@ -27,10 +27,10 @@
   </jurisdiction>
   <copyright value="2020"/>
   <sourceCanonical value="http://www.example.com/fhir/cr/covid19/CodeSystem/WhoCrCodeSystemPatientOutcome"/>
-  <targetUri value="https://www.openconceptlab.org/orgs/CIEL/sources/CIEL/concepts"/>
+  <targetUri value="https://openconceptlab.org/orgs/CIEL/sources/CIEL"/>
   <group>
     <source value="http://www.example.com/fhir/cr/covid19/CodeSystem/WhoCrCodeSystemPatientOutcome"/>
-    <target value="https://www.openconceptlab.org/orgs/CIEL/sources/CIEL/concepts"/>
+    <target value="https://openconceptlab.org/orgs/CIEL/sources/CIEL"/>
     <element>
       <code value="RECOVERED"/>
       <target>

@@ -3,7 +3,7 @@
 
 err = 6, warn = 0, info = 0
 IG Publisher Version: 1.1.35
-Generated Wed Oct 21 06:05:29 UTC 2020. FHIR version 4.0.1 for who.cr.covid19#0.1.0 (canonical = http://www.example.com/fhir/cr/covid19)
+Generated Mon Nov 02 02:41:08 UTC 2020. FHIR version 4.0.1 for who.cr.covid19#0.1.0 (canonical = http://www.example.com/fhir/cr/covid19)
 
  Build Errors : 4 / 0 / 0
  /home/publisher/ig/input/ImplementationGuide-who.cr.covid19 : 0 / 0 / 1

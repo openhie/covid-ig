@@ -18,7 +18,7 @@
   fhir:StructureDefinition.name [ fhir:value "WhoCrSurveillanceDataDictionary"];
   fhir:StructureDefinition.status [ fhir:value "draft"];
   fhir:StructureDefinition.experimental [ fhir:value "true"^^xsd:boolean];
-  fhir:StructureDefinition.date [ fhir:value "2020-10-21T06:04:49+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2020-11-02T02:40:30+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "OpenHIE"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
@@ -51,7 +51,7 @@
   ], [
      fhir:index 2;
      fhir:StructureDefinition.mapping.identity [ fhir:value "CIEL" ];
-     fhir:StructureDefinition.mapping.uri [ fhir:value "https://www.openconceptlab.org/orgs/CIEL/sources/CIEL/concepts" ];
+     fhir:StructureDefinition.mapping.uri [ fhir:value "https://openconceptlab.org/orgs/CIEL/sources/CIEL" ];
      fhir:StructureDefinition.mapping.name [ fhir:value "Columbia International eHealth Laboratory" ]
   ], [
      fhir:index 3;

@@ -3,14 +3,14 @@
   "id": "WhoCrConceptMapPregnancyTrimesterToSnomed",
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>WhoCrConceptMapPregnancyTrimesterToSnomed (http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapPregnancyTrimesterToSnomed)</h2><p>Mapping from <a href=\"CodeSystem-WhoCrCodeSystemPregnancyTrimester.html\">http://www.example.com/fhir/cr/covid19/CodeSystem/WhoCrCodeSystemPregnancyTrimester</a> to <a href=\"http://hl7.org/fhir/R4/codesystem-snomedct.html\">http://snomed.info/sct</a></p><p>DRAFT (not intended for production usage). Published on Oct 21, 2020, 6:04:49 AM by OpenHIE (OpenHIE: <a href=\"http://www.ohie.org\">http://www.ohie.org</a>). 2020</p><br/><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Destination Code</b></td></tr><tr><td>TODO</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#relatedto\">is related to</a></td><td>TODO</td></tr></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>WhoCrConceptMapPregnancyTrimesterToSnomed (http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapPregnancyTrimesterToSnomed)</h2><p>Mapping from <a href=\"CodeSystem-WhoCrCodeSystemPregnancyTrimester.html\">http://www.example.com/fhir/cr/covid19/CodeSystem/WhoCrCodeSystemPregnancyTrimester</a> to <a href=\"http://hl7.org/fhir/R4/codesystem-snomedct.html\">http://snomed.info/sct</a></p><p>DRAFT (not intended for production usage). Published on Nov 2, 2020, 2:40:30 AM by OpenHIE (OpenHIE: <a href=\"http://www.ohie.org\">http://www.ohie.org</a>). 2020</p><br/><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Destination Code</b></td></tr><tr><td>TODO</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#relatedto\">is related to</a></td><td>TODO</td></tr></table></div>"
   },
   "url": "http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapPregnancyTrimesterToSnomed",
   "version": "0.1.0",
   "name": "WhoCrConceptMapPregnancyTrimesterToSnomed",
   "status": "draft",
   "experimental": true,
-  "date": "2020-10-21T06:04:49+00:00",
+  "date": "2020-11-02T02:40:30+00:00",
   "publisher": "OpenHIE",
   "contact": [
     {

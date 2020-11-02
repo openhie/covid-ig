@@ -93,7 +93,7 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
   <name value="WhoCrSurveillanceDataDictionary"/>
   <status value="draft"/>
   <experimental value="true"/>
-  <date value="2020-10-21T06:04:49+00:00"/>
+  <date value="2020-11-02T02:40:30+00:00"/>
   <publisher value="OpenHIE"/>
   <contact>
     <name value="OpenHIE"/>
@@ -121,7 +121,7 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
   </mapping>
   <mapping>
     <identity value="CIEL"/>
-    <uri value="https://www.openconceptlab.org/orgs/CIEL/sources/CIEL/concepts"/>
+    <uri value="https://openconceptlab.org/orgs/CIEL/sources/CIEL"/>
     <name value="Columbia International eHealth Laboratory"/>
   </mapping>
   <mapping>
