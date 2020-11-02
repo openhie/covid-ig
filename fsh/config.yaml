@@ -23,6 +23,7 @@ jurisdiction: http://unstats.un.org/unsd/methods/m49/m49.htm#001
 # experimental: true
 dependencies:
   hl7.fhir.us.core: current
+  hl7.fhir.uv.sdc: current
 #  covid19 : current
 
 # ╭─────────────────────────────────────────────ig.ini─────────────────────────────────────────────╮
@@ -49,8 +50,8 @@ menu:
 # ╭───────────────────────────────────────package-list.json────────────────────────────────────────╮
 # │  To control the package-list.json using this config, uncomment and set the "history" property. │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-history:
-   current: http://www.example.com/fhir/cr/covid19
+# history:
+#    current: http://www.example.com/fhir/cr/covid19
 #   0.10.0:
 #     date: 2020-08-31
 #     desc: Official v0.10.0 release

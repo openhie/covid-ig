@@ -68,26 +68,26 @@ Description: "TODO"
 ValueSet: WhoCrValueSetAgeUnits
 Title: "Patient Age Units"
 Description: "Common units of patient age"
-* include http://unitsofmeasure.org#a "year"
-* include http://unitsofmeasure.org#mo "month"
-* include http://unitsofmeasure.org#d "day"
+* include $UCUM#a "year"
+* include $UCUM#mo "month"
+* include $UCUM#d "day"
 
 ValueSet: WhoCrValueSetSexAtBirth
 Title: "Patient Sex at birth"
 Description: "Patient Sex at birth"
-* include http://hl7.org/fhir/administrative-gender#male "Male"
-* include http://hl7.org/fhir/administrative-gender#female "Female"
+* include $cs-gender#male "Male"
+* include $cs-gender#female "Female"
 
 ValueSet: WhoCrValueSetYesNo
 Title: "Yes/No"
 Description: "Yes/No"
-* codes from system http://terminology.hl7.org/CodeSystem/v2-0136 // yes/no
+* codes from system $cs-v2-0136 // yes/no
 
 ValueSet: WhoCrValueSetYesNoUnk
 Title: "Yes/No/Unknown"
 Description: "Yes/No/Unknown Value Set"
-* codes from system http://terminology.hl7.org/CodeSystem/v2-0136 // yes/no
-* include http://terminology.hl7.org/CodeSystem/v2-0532#UNK // unknown
+* codes from system $cs-v2-0136 // yes/no
+* include $cs-v2-0532#UNK // unknown
 
 ValueSet: WhoCrValueSetPregnancyTrimester
 Title: "Pregnancy Trimester"
@@ -102,22 +102,22 @@ Description: "Patient Outcome"
 ValueSet: WhoCrValueSetTestResult
 Title:  "Test Result"
 Description: "Test Result"
-* include http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#POS "Positive"
-* include http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#NEG "Negative"
-* include http://terminology.hl7.org/CodeSystem/v2-0532#UNK // unknown
+* include $cs-v3-ObsInterpretation#POS "Positive"
+* include $cs-v3-ObsInterpretation#NEG "Negative"
+* include $cs-v2-0532#UNK // unknown
 
 ValueSet: WhoCrValueSetSubmitted
 Title: "Report Submitted Yes/No/Partial"
 Description: "Report Submitted Yes/No/Partial"
-* codes from system http://terminology.hl7.org/CodeSystem/v2-0136 // yes/no
+* codes from system $cs-v2-0136 // yes/no
 * codes from system WhoCrCodeSystemSubmissionCompletion
 
 ValueSet: WhoCrValueSetAdmin0
 Title: "List of Administrative Level 0 Names (Countries)"
 Description: "List of Administrative Level 0 Names (Countries)"
-* codes from valueset http://hl7.org/fhir/ValueSet/iso3166-1-2
+* codes from valueset $vs-iso3166-1-2
 
 ValueSet: WhoCrValueSetAdmin1
 Title: "List of Administrative Level 1 Names (Province/State/Canton)"
 Description: "List of Administrative Level 1 Names (Province/State/Canton)"
-* codes from system urn:iso:std:iso:3166:-2
+* codes from system $cs-iso3166-2

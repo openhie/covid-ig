@@ -11,15 +11,15 @@ Usage: #definition
 * group[0].source = Canonical(WhoCrValueSetAgeUnits)
 * group[0].target = $CIEL
 
-* group[0].element[0].code = http://unitsofmeasure.org#a
+* group[0].element[0].code = $UCUM#a
 * group[0].element[0].target[0].code = #1734 "Years"
 * group[0].element[0].target[0].equivalence = #relatedto
 
-* group[0].element[1].code = http://unitsofmeasure.org#mo
+* group[0].element[1].code = $UCUM#mo
 * group[0].element[1].target[0].code = #1074 "Months"
 * group[0].element[1].target[0].equivalence = #relatedto
 
-* group[0].element[2].code = http://unitsofmeasure.org#d
+* group[0].element[2].code = $UCUM#d
 * group[0].element[2].target[0].code = #1072 "Days"
 * group[0].element[2].target[0].equivalence = #relatedto
 
@@ -135,11 +135,11 @@ Usage: #definition
 * group[0].source = Canonical(WhoCrValueSetSexAtBirth)
 * group[0].target = $CIEL
 
-* group[0].element[0].code = http://hl7.org/fhir/administrative-gender#male
+* group[0].element[0].code = $cs-gender#male
 * group[0].element[0].target[0].code = #1534 "Male Gender"
 * group[0].element[0].target[0].equivalence = #relatedto
 
-* group[0].element[1].code = http://hl7.org/fhir/administrative-gender#female
+* group[0].element[1].code = $cs-gender#female
 * group[0].element[1].target[0].code = #1535 "Female gender"
 * group[0].element[1].target[0].equivalence = #relatedto
 
@@ -160,15 +160,15 @@ Usage: #definition
 * group[0].source = Canonical(WhoCrValueSetTestResult)
 * group[0].target = $CIEL
 
-* group[0].element[0].code = http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#POS "Positive"
+* group[0].element[0].code = $cs-v3-ObsInterpretation#POS "Positive"
 * group[0].element[0].target[0].code = $CIEL#703 "Positive"
 * group[0].element[0].target[0].equivalence = #relatedto
 
-* group[0].element[1].code = http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#NEG "Negative"
+* group[0].element[1].code = $cs-v3-ObsInterpretation#NEG "Negative"
 * group[0].element[1].target[0].code = $CIEL#664 "Negative"
 * group[0].element[1].target[0].equivalence = #relatedto
 
-* group[0].element[2].code = http://terminology.hl7.org/CodeSystem/v2-0532#UNK // unknown
+* group[0].element[2].code = $cs-v2-0532#UNK // unknown
 * group[0].element[2].target[0].code = $CIEL#1138 "Indeterminate"
 * group[0].element[2].target[0].equivalence = #narrower
 * group[0].element[2].target[0].comment = "Indeterminate only covers that we know a test was done, and that the test did not provide a conclusive result. Uunknown is more general."

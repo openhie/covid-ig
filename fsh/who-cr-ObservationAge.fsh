@@ -22,7 +22,7 @@
 // * hasMember 0..0
 // * component 0..0
 
-// * code = http://loinc.org#30525-0  // "Age"
+// * code = $LNC#30525-0  // "Age"
 
 // * valueQuantity obeys age-1
 // * valueQuantity.value 1..1
