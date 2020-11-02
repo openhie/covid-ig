@@ -112,12 +112,14 @@ If transborders or international spread of outbreak","","","","","","","","","",
 "WhoCrSurveillanceDataDictionary.exposure.patientInfo.hcw.isHealthcareWorker","","","",0,1,"","","","Coding {[]} {[]}
 ","Health care worker","Is the patient working in a health care setting?","","","","","","","","","",,"required","","http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetYesNoUnk","http://loinc.org#95418-0
 ",,,,"WhoCrSurveillanceDataDictionary.exposure.patientInfo.hcw.isHealthcareWorker",0,1,"","","patinfo_occuhcw","95418-0","5619","TODO","TODO","TODO","TODO"
-"WhoCrSurveillanceDataDictionary.exposure.patientInfo.hcw.workCountry","","","",0,1,"","","","CodeableConcept {[]} {[]}
-","Healthcare worker country","If case is a healthcare worker, in which country do they work?","","","","","","","","","",,"extensible","","http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetAdmin0","",,,,"WhoCrSurveillanceDataDictionary.exposure.patientInfo.hcw.workCountry",0,1,"","","patinfo_occuhcw_country","TODO","165655","TODO","TODO","TODO","TODO"
-"WhoCrSurveillanceDataDictionary.exposure.patientInfo.hcw.workCity","","","",0,1,"","","","string {[]} {[]}
-","Healthcare worker city","If case is a healthcare worker, in which city do they work?","","","","","","","","","",,,,,"",,,,"WhoCrSurveillanceDataDictionary.exposure.patientInfo.hcw.workCity",0,1,"","","patinfo_occuhcw_city","TODO","165654","TODO","TODO","TODO","TODO"
-"WhoCrSurveillanceDataDictionary.exposure.patientInfo.hcw.facilityName","","","",0,1,"","","","string {[]} {[]}
-","Healthcare worker facility name","If case is a healthcare worker, what is the name of the facility in which they work?","","","","","","","","","",,,,,"",,,,"WhoCrSurveillanceDataDictionary.exposure.patientInfo.hcw.facilityName",0,1,"","","patinfo_occuhcw_name","TODO","162724","TODO","TODO","TODO","TODO"
+"WhoCrSurveillanceDataDictionary.exposure.patientInfo.hcw.workFacility","","","",0,*,"","","","BackboneElement {[]} {[]}
+","Healthcare worker facility details","Healthcare worker facility details","","","","","","","","","",,,,,"",,,,"WhoCrSurveillanceDataDictionary.exposure.patientInfo.hcw.workFacility",0,*,"","","TODO","TODO","165655","TODO","TODO","TODO","TODO"
+"WhoCrSurveillanceDataDictionary.exposure.patientInfo.hcw.workFacility.country","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","Healthcare worker country","If case is a healthcare worker, in which country do they work?","","","","","","","","","",,"extensible","","http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetAdmin0","",,,,"WhoCrSurveillanceDataDictionary.exposure.patientInfo.hcw.workFacility.country",0,1,"","","patinfo_occuhcw_country","TODO","165655","TODO","TODO","TODO","TODO"
+"WhoCrSurveillanceDataDictionary.exposure.patientInfo.hcw.workFacility.city","","","",0,1,"","","","string {[]} {[]}
+","Healthcare worker city","If case is a healthcare worker, in which city do they work?","","","","","","","","","",,,,,"",,,,"WhoCrSurveillanceDataDictionary.exposure.patientInfo.hcw.workFacility.city",0,1,"","","patinfo_occuhcw_city","TODO","165654","TODO","TODO","TODO","TODO"
+"WhoCrSurveillanceDataDictionary.exposure.patientInfo.hcw.workFacility.facilityName","","","",0,1,"","","","string {[]} {[]}
+","Healthcare worker facility name","If case is a healthcare worker, what is the name of the facility in which they work?","","","","","","","","","",,,,,"",,,,"WhoCrSurveillanceDataDictionary.exposure.patientInfo.hcw.workFacility.facilityName",0,1,"","","patinfo_occuhcw_name","TODO","162724","TODO","TODO","TODO","TODO"
 "WhoCrSurveillanceDataDictionary.exposure.travel","","","",0,1,"","","","BackboneElement {[]} {[]}
 ","Exposure via patient travel details","Exposure via travel details","","","","","","","","","",,,,,"",,,,"WhoCrSurveillanceDataDictionary.exposure.travel",0,1,"","","TODO","TODO","TODO","TODO","TODO","TODO","TODO"
 "WhoCrSurveillanceDataDictionary.exposure.travel.hasTravelled","","","",0,1,"","","","Coding {[]} {[]}
@@ -174,17 +176,17 @@ If transborders or international spread of outbreak","","","","","","","","","",
 ","Was the patient ventilated?","Was the patient ever ventilated for this episode? (outcome)","","","","","","","","","",,"required","","http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetYesNoUnk","",,,,"WhoCrSurveillanceDataDictionary.outcome.patientCourse.ventilated",0,1,"","","outcome_patcourse_vent","TODO","TODO","TODO","TODO","TODO","TODO"
 "WhoCrSurveillanceDataDictionary.outcome.patientCourse.receivedEcmo","","","",0,1,"","","","Coding {[]} {[]}
 ","Did the patient receive ECMO?","Did the patient receive extracorporeal membrane oxygenation (ECMO)? (outcome)","","","","","","","","","",,"required","","http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetYesNoUnk","",,,,"WhoCrSurveillanceDataDictionary.outcome.patientCourse.receivedEcmo",0,1,"","","outcome_patcourse_ecmo","TODO","TODO","TODO","TODO","TODO","TODO"
-"WhoCrSurveillanceDataDictionary.outcome.patientCourse.status","","","",0,1,"","","","Coding {[]} {[]}
-","Patient status (outcome)","Patient status (outcome)","","","","","","","","","",,"required","","http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetPatientOutcome","",,,,"WhoCrSurveillanceDataDictionary.outcome.patientCourse.status",0,1,"","","outcome_patcourse_status","91541-3","159640","TODO","TODO","TODO","TODO"
-"WhoCrSurveillanceDataDictionary.outcome.patientCourse.statusOther","","","",0,1,"","","","string {[]} {[]}
-","Other patient status (outcome)","Other patient status (outcome)","","","","","","","","","",,,,,"",,,,"WhoCrSurveillanceDataDictionary.outcome.patientCourse.statusOther",0,1,"","","outcome_patcourse_status_other","TODO","TODO","TODO","TODO","TODO","TODO"
+"WhoCrSurveillanceDataDictionary.outcome.patientCourse.status","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","Patient status (outcome)","Patient status (outcome)","","","","","","","","","",,"extensible","","http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetPatientOutcome","",,,,"WhoCrSurveillanceDataDictionary.outcome.patientCourse.status",0,1,"","","outcome_patcourse_status","91541-3","159640","TODO","TODO","TODO","TODO"
 "WhoCrSurveillanceDataDictionary.outcome.patientCourse.statusDate","","","",0,1,"","","","date {[]} {[]}
 ","Date of patient release or date of death","Date of Release from isolation/hospital or Date of Death","","","","","","","","","",,,,,"",,,,"WhoCrSurveillanceDataDictionary.outcome.patientCourse.statusDate",0,1,"","","outcome_date_of_outcome","TODO","TODO","TODO","TODO","TODO","TODO"
-"WhoCrSurveillanceDataDictionary.outcome.labDate","","","",0,1,"","","","date {[]} {[]}
-","If released, date of last laboratory test","If released from hospital /isolation, date of last laboratory test","","","","","","","","","",,,,,"",,,,"WhoCrSurveillanceDataDictionary.outcome.labDate",0,1,"","","outcome_lab_date","TODO","TODO","TODO","TODO","TODO","TODO"
-"WhoCrSurveillanceDataDictionary.outcome.labResult","","","",0,1,"","","","Coding {[]} {[]}
-","laboratory result from last test","laboratory result from last test","","","","","","","","","",,"required","","http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetTestResult","",,,,"WhoCrSurveillanceDataDictionary.outcome.labResult",0,1,"","","outcome_lab_result","TODO","TODO","TODO","TODO","TODO","TODO"
-"WhoCrSurveillanceDataDictionary.outcome.contactsFollowed","","","",0,1,"","","","positiveInt {[]} {[]}
+"WhoCrSurveillanceDataDictionary.outcome.lab","","","",0,1,"","","","BackboneElement {[]} {[]}
+","If released, details of last laboratory test","If released from hospital /isolation, details of last laboratory test","","","","","","","","","",,,,,"",,,,"WhoCrSurveillanceDataDictionary.outcome.lab",0,1,"","","TODO","TODO","TODO","TODO","TODO","TODO","TODO"
+"WhoCrSurveillanceDataDictionary.outcome.lab.date","","","",0,1,"","","","date {[]} {[]}
+","Date of last laboratory test","Date of last laboratory test","","","","","","","","","",,,,,"",,,,"WhoCrSurveillanceDataDictionary.outcome.lab.date",0,1,"","","outcome_lab_date","TODO","TODO","TODO","TODO","TODO","TODO"
+"WhoCrSurveillanceDataDictionary.outcome.lab.result","","","",0,1,"","","","Coding {[]} {[]}
+","Result of last test","Result of last test","","","","","","","","","",,"required","","http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetTestResult","",,,,"WhoCrSurveillanceDataDictionary.outcome.lab.result",0,1,"","","outcome_lab_result","TODO","TODO","TODO","TODO","TODO","TODO"
+"WhoCrSurveillanceDataDictionary.outcome.contactsFollowed","","","",0,1,"","","","unsignedInt {[]} {[]}
 ","High risk contacts followed from case","Total number of high-risk contacts followed for this case","","","","","","","","","",,,,,"",,,,"WhoCrSurveillanceDataDictionary.outcome.contactsFollowed",0,1,"","","outcome_contacts_followed","TODO","TODO","TODO","TODO","TODO","TODO"
 "WhoCrSurveillanceDataDictionary.outcome.contactsFollowedUnknown","","","",0,1,"","","","Coding {[]} {[]}
 ","Number of high risk contacts followed unknown","Number of high risk contacts followed unknown","","","","","","","","","",,"required","","http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetYesNoUnk","",,,,"WhoCrSurveillanceDataDictionary.outcome.contactsFollowedUnknown",0,1,"","","outcome_contacts_followed_unknown","TODO","TODO","TODO","TODO","TODO","TODO"

@@ -3,9 +3,9 @@
 
 err = 6, warn = 0, info = 0
 IG Publisher Version: 1.1.35
-Generated Mon Nov 02 02:41:08 UTC 2020. FHIR version 4.0.1 for who.cr.covid19#0.1.0 (canonical = http://www.example.com/fhir/cr/covid19)
+Generated Mon Nov 02 02:43:52 UTC 2020. FHIR version 4.0.1 for who.cr.covid19#0.1.0 (canonical = http://www.example.com/fhir/cr/covid19)
 
- Build Errors : 4 / 0 / 0
+ Build Errors : 3 / 0 / 0
  /home/publisher/ig/input/ImplementationGuide-who.cr.covid19 : 0 / 0 / 1
  /home/publisher/ig/input/examples/Composition-WhoCrSampleComposition : 0 / 0 / 1
  /home/publisher/ig/input/examples/Patient-WhoCrSamplePatient : 0 / 0 / 1
@@ -84,8 +84,7 @@ Generated Mon Nov 02 02:41:08 UTC 2020. FHIR version 4.0.1 for who.cr.covid19#0.
  /home/publisher/ig/input/vocabulary/ValueSet-WhoCrValueSetYesNoUnk : 0 / 0 / 1
 </table>
 == n/a ==
-ERROR: /home/publisher/ig/output/Questionnaire-WhoCrQuestionnaireCovid19Surveillance.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 227, column 1776: The link 'null#item.outcome_asymp' for "3 options" cannot be resolved
-ERROR: /home/publisher/ig/output/StructureDefinition-WhoCrSurveillanceDataDictionary.html#/html/body/div/div/div/div/div/p/a at Line 922, column 41: The link 'StructureDefinition-WhoCrSurveillanceDataDictionary.sch' for "Schematron" cannot be resolved
+ERROR: /home/publisher/ig/output/StructureDefinition-WhoCrSurveillanceDataDictionary.html#/html/body/div/div/div/div/div/p/a at Line 932, column 41: The link 'StructureDefinition-WhoCrSurveillanceDataDictionary.sch' for "Schematron" cannot be resolved
 ERROR: /home/publisher/ig/output/ValueSet-WhoCrValueSetAdmin0.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 185, column 96: The link 'null' for "http://hl7.org/fhir/ValueSet/iso3166-1-2" cannot be resolved
 ERROR: /home/publisher/ig/output/searchform.html#/html/body/div/div/a/img/div/div/nav/div/div/ul/li/a at Line 64, column 21: The link 'history.html' for "History" cannot be resolved
 == /home/publisher/ig/input/ImplementationGuide-who.cr.covid19.json ==
@@ -106,7 +105,7 @@ INFORMATION: StructureDefinition/WhoCrComposition: StructureDefinition: Validate
 INFORMATION: StructureDefinition/WhoCrPatient: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 == /home/publisher/ig/input/resources/Questionnaire-WhoCrQuestionnaireCovid19Surveillance.json ==
 INFORMATION: Questionnaire/WhoCrQuestionnaireCovid19Surveillance: Questionnaire: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Questionnaire
-ERROR: Questionnaire/WhoCrQuestionnaireCovid19Surveillance: Questionnaire.item[5].item[2].item[2].item[2].item[0].code[0]: The code "95420-6" is not valid in the system http://loinc.org; The code provided (http://loinc.org#95420-6) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://loinc.org#95420-6'
+ERROR: Questionnaire/WhoCrQuestionnaireCovid19Surveillance: Questionnaire.item[5].item[2].item[2].item[1].item[1].code[0]: The code "95420-6" is not valid in the system http://loinc.org; The code provided (http://loinc.org#95420-6) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://loinc.org#95420-6'
 ERROR: Questionnaire/WhoCrQuestionnaireCovid19Surveillance: Questionnaire.item[6].item[0].code[0]: The code "95418-0" is not valid in the system http://loinc.org; The code provided (http://loinc.org#95418-0) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://loinc.org#95418-0'
 == /home/publisher/ig/input/vocabulary/CodeSystem-WhoCrCodeSystemPatientOutcome.json ==
 INFORMATION: CodeSystem/WhoCrCodeSystemPatientOutcome: CodeSystem: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem

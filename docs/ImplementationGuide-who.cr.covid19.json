@@ -10,7 +10,7 @@
   "name": "WhoCrCovid19",
   "title": "WHO Case Reporting for COVID-19 Surveillance",
   "status": "draft",
-  "date": "2020-11-02T02:40:30+00:00",
+  "date": "2020-11-02T02:43:13+00:00",
   "publisher": "OpenHIE",
   "contact": [
     {
@@ -44,6 +44,12 @@
       "id": "hl7_fhir_us_core",
       "uri": "http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core",
       "packageId": "hl7.fhir.us.core",
+      "version": "current"
+    },
+    {
+      "id": "hl7_fhir_uv_sdc",
+      "uri": "http://hl7.org/fhir/uv/sdc/ImplementationGuide/hl7.fhir.uv.sdc",
+      "packageId": "hl7.fhir.uv.sdc",
       "version": "current"
     }
   ],

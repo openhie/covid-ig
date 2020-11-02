@@ -34,6 +34,12 @@
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet": [
       "StructureDefinition.snapshot.element.binding"
     ],
+    "http://hl7.org/fhir/StructureDefinition/minValue": [
+      "Questionnaire.item.item"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl": [
+      "Questionnaire.item.item.item"
+    ],
     "http://hl7.org/fhir/StructureDefinition/questionnaire-unitValueSet": [
       "Questionnaire.item.item"
     ],
