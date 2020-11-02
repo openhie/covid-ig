@@ -17,7 +17,7 @@
   fhir:ValueSet.name [ fhir:value "WhoCrValueSetAdmin0"];
   fhir:ValueSet.title [ fhir:value "List of Administrative Level 0 Names (Countries)"];
   fhir:ValueSet.status [ fhir:value "active"];
-  fhir:ValueSet.date [ fhir:value "2020-11-02T02:43:13+00:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2020-11-02T02:46:27+00:00"^^xsd:dateTime];
   fhir:ValueSet.publisher [ fhir:value "OpenHIE"];
   fhir:ValueSet.contact [
      fhir:index 0;

@@ -10,14 +10,14 @@
   fhir:Resource.id [ fhir:value "WhoCrConceptMapPregnancyTrimesterToLoinc"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>WhoCrConceptMapPregnancyTrimesterToLoinc (http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapPregnancyTrimesterToLoinc)</h2><p>Mapping from <a href=\"CodeSystem-WhoCrCodeSystemPregnancyTrimester.html\">http://www.example.com/fhir/cr/covid19/CodeSystem/WhoCrCodeSystemPregnancyTrimester</a> to http://loinc.org</p><p>DRAFT (not intended for production usage). Published on Nov 2, 2020, 2:43:13 AM by OpenHIE (OpenHIE: <a href=\"http://www.ohie.org\">http://www.ohie.org</a>). 2020</p><br/><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Destination Code</b></td></tr><tr><td>TODO</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#relatedto\">is related to</a></td><td>TODO</td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>WhoCrConceptMapPregnancyTrimesterToLoinc (http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapPregnancyTrimesterToLoinc)</h2><p>Mapping from <a href=\"CodeSystem-WhoCrCodeSystemPregnancyTrimester.html\">http://www.example.com/fhir/cr/covid19/CodeSystem/WhoCrCodeSystemPregnancyTrimester</a> to http://loinc.org</p><p>DRAFT (not intended for production usage). Published on Nov 2, 2020, 2:46:27 AM by OpenHIE (OpenHIE: <a href=\"http://www.ohie.org\">http://www.ohie.org</a>). 2020</p><br/><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Destination Code</b></td></tr><tr><td>TODO</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#relatedto\">is related to</a></td><td>TODO</td></tr></table></div>"
   ];
   fhir:ConceptMap.url [ fhir:value "http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapPregnancyTrimesterToLoinc"];
   fhir:ConceptMap.version [ fhir:value "0.1.0"];
   fhir:ConceptMap.name [ fhir:value "WhoCrConceptMapPregnancyTrimesterToLoinc"];
   fhir:ConceptMap.status [ fhir:value "draft"];
   fhir:ConceptMap.experimental [ fhir:value "true"^^xsd:boolean];
-  fhir:ConceptMap.date [ fhir:value "2020-11-02T02:43:13+00:00"^^xsd:dateTime];
+  fhir:ConceptMap.date [ fhir:value "2020-11-02T02:46:27+00:00"^^xsd:dateTime];
   fhir:ConceptMap.publisher [ fhir:value "OpenHIE"];
   fhir:ConceptMap.contact [
      fhir:index 0;
