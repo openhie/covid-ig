@@ -59,15 +59,15 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1101.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: white; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-WhoCrSurveillanceDataDictionary-definitions.html#WhoCrSurveillanceDataDictionary.exposure.travel.location" title="Locations of travel in the 14 days prior to symptom onset">location</a><a name="WhoCrSurveillanceDataDictionary.exposure.travel.location"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Locations of travel<br/></td></tr>
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-WhoCrSurveillanceDataDictionary-definitions.html#WhoCrSurveillanceDataDictionary.exposure.travel.location.country" title="Specify country of travel for this location">country</a><a name="WhoCrSurveillanceDataDictionary.exposure.travel.location.country"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Country travelled to<br/><span style="font-weight:bold">Binding: </span><a href="ValueSet-WhoCrValueSetAdmin0.html">List of Administrative Level 0 Names (Countries)</a> (<a href="http://hl7.org/fhir/R4/terminologies.html#extensible" title="To be conformant, the concept in this element SHALL be from the specified value set if any of the codes within the value set can apply to the concept being communicated.  If the value set does not cover the concept (based on human review), alternate codings (or, data type allowing, text) may be included instead.">extensible</a>)</td></tr>
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-WhoCrSurveillanceDataDictionary-definitions.html#WhoCrSurveillanceDataDictionary.exposure.travel.location.city" title="Specify city travelled to for this location">city</a><a name="WhoCrSurveillanceDataDictionary.exposure.travel.location.city"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">City travelled to</td></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11000.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-WhoCrSurveillanceDataDictionary-definitions.html#WhoCrSurveillanceDataDictionary.exposure.travel.location.departureDate" title="Specify date of departure from this location">departureDate</a><a name="WhoCrSurveillanceDataDictionary.exposure.travel.location.departureDate"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#date">date</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Date of departure</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11000.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-WhoCrSurveillanceDataDictionary-definitions.html#WhoCrSurveillanceDataDictionary.exposure.travel.location.locationPeriod" title="Specify dates at this location">locationPeriod</a><a name="WhoCrSurveillanceDataDictionary.exposure.travel.location.locationPeriod"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#Period">Period</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Dates at location (including date of departure)</td></tr>
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: white; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-WhoCrSurveillanceDataDictionary-definitions.html#WhoCrSurveillanceDataDictionary.exposure.visitedHealthcare" title="Has the patient visited any health care facilities in the 14 days prior to symptom onset">visitedHealthcare</a><a name="WhoCrSurveillanceDataDictionary.exposure.visitedHealthcare"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#Coding">Coding</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Has the patient visited any health care facilities in the 14 days prior to symptom onset<br/><span style="font-weight:bold">Binding: </span><a href="ValueSet-WhoCrValueSetYesNoUnk.html">Yes/No/Unknown</a> (<a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set.">required</a>)</td></tr>
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck101.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-WhoCrSurveillanceDataDictionary-definitions.html#WhoCrSurveillanceDataDictionary.exposure.contact" title="Patient exposure to confirmed cases">contact</a><a name="WhoCrSurveillanceDataDictionary.exposure.contact"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Patient exposure to confirmed cases</td></tr>
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: white; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-WhoCrSurveillanceDataDictionary-definitions.html#WhoCrSurveillanceDataDictionary.exposure.contact.hadContact" title="Has the patient had contact with a confirmed case in the 14 days prior to disease onset?">hadContact</a><a name="WhoCrSurveillanceDataDictionary.exposure.contact.hadContact"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#Coding">Coding</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Has the patient had contact with a confirmed case?<br/><span style="font-weight:bold">Binding: </span><a href="ValueSet-WhoCrValueSetYesNoUnk.html">Yes/No/Unknown</a> (<a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set.">required</a>)</td></tr>
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1011.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-WhoCrSurveillanceDataDictionary-definitions.html#WhoCrSurveillanceDataDictionary.exposure.contact.contact" title="Confirmed case contact">contact</a><a name="WhoCrSurveillanceDataDictionary.exposure.contact.contact"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Confirmed case contact<br/></td></tr>
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: white; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-WhoCrSurveillanceDataDictionary-definitions.html#WhoCrSurveillanceDataDictionary.exposure.contact.contact.identifier" title="Unique identifier of confirmed case with whom the patient had contact">identifier</a><a name="WhoCrSurveillanceDataDictionary.exposure.contact.contact.identifier"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#Identifier">Identifier</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">ID number of confirmed case</td></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-WhoCrSurveillanceDataDictionary-definitions.html#WhoCrSurveillanceDataDictionary.exposure.contact.contact.exposureFirstDate" title="Date of first exposure to confirmed case">exposureFirstDate</a><a name="WhoCrSurveillanceDataDictionary.exposure.contact.contact.exposureFirstDate"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#date">date</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Date of first exposure to confirmed case</td></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-WhoCrSurveillanceDataDictionary-definitions.html#WhoCrSurveillanceDataDictionary.exposure.contact.contact.exposureLastDate" title="Date of last exposure to confirmed case">exposureLastDate</a><a name="WhoCrSurveillanceDataDictionary.exposure.contact.contact.exposureLastDate"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#date">date</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Date of last exposure to confirmed case</td></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10100.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-WhoCrSurveillanceDataDictionary-definitions.html#WhoCrSurveillanceDataDictionary.exposure.contact.contact.setting" title="If the patient has had contact with a confirmed case in the 14 days prior to symptom onset, explain contact setting">setting</a><a name="WhoCrSurveillanceDataDictionary.exposure.contact.contact.setting"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Explain contact setting</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-WhoCrSurveillanceDataDictionary-definitions.html#WhoCrSurveillanceDataDictionary.exposure.contact.contact.exposureFirstDate" title="Date of first exposure to confirmed case">exposureFirstDate</a><a name="WhoCrSurveillanceDataDictionary.exposure.contact.contact.exposureFirstDate"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">dateTime</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Date of first exposure to confirmed case</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-WhoCrSurveillanceDataDictionary-definitions.html#WhoCrSurveillanceDataDictionary.exposure.contact.contact.exposureLastDate" title="Date of last exposure to confirmed case">exposureLastDate</a><a name="WhoCrSurveillanceDataDictionary.exposure.contact.contact.exposureLastDate"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">dateTime</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Date of last exposure to confirmed case</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10100.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-WhoCrSurveillanceDataDictionary-definitions.html#WhoCrSurveillanceDataDictionary.exposure.contact.contact.setting" title="If the patient has had contact with a confirmed case in the 14 days prior to symptom onset, explain contact setting">setting</a><a name="WhoCrSurveillanceDataDictionary.exposure.contact.contact.setting"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Explain contact setting<br/><span style="font-weight:bold">Binding: </span><a href="ValueSet-WhoCrValueSetContactSetting.html">List of Contact Settings</a> (<a href="http://hl7.org/fhir/R4/terminologies.html#extensible" title="To be conformant, the concept in this element SHALL be from the specified value set if any of the codes within the value set can apply to the concept being communicated.  If the value set does not cover the concept (based on human review), alternate codings (or, data type allowing, text) may be included instead.">extensible</a>)</td></tr>
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1000.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: white; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-WhoCrSurveillanceDataDictionary-definitions.html#WhoCrSurveillanceDataDictionary.exposure.contact.country" title="Specify the location of possible exposure to a case">country</a><a name="WhoCrSurveillanceDataDictionary.exposure.contact.country"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Likely country for exposure to case?<br/><span style="font-weight:bold">Binding: </span><a href="ValueSet-WhoCrValueSetAdmin0.html">List of Administrative Level 0 Names (Countries)</a> (<a href="http://hl7.org/fhir/R4/terminologies.html#extensible" title="To be conformant, the concept in this element SHALL be from the specified value set if any of the codes within the value set can apply to the concept being communicated.  If the value set does not cover the concept (based on human review), alternate codings (or, data type allowing, text) may be included instead.">extensible</a>)</td></tr>
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck01.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-WhoCrSurveillanceDataDictionary-definitions.html#WhoCrSurveillanceDataDictionary.outcome" title="Patient outcome">outcome</a><a name="WhoCrSurveillanceDataDictionary.outcome"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Patient outcome</td></tr>
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: white; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-WhoCrSurveillanceDataDictionary-definitions.html#WhoCrSurveillanceDataDictionary.outcome.submitted" title="Has the outcome section been submitted?">submitted</a><a name="WhoCrSurveillanceDataDictionary.outcome.submitted"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Has the outcome section been submitted?<br/><span style="font-weight:bold">Binding: </span><a href="ValueSet-WhoCrValueSetSubmitted.html">Report Submitted Yes/No/Partial</a> (<a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set.">required</a>)</td></tr>
@@ -94,7 +94,7 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
   <name value="WhoCrSurveillanceDataDictionary"/>
   <status value="draft"/>
   <experimental value="true"/>
-  <date value="2020-11-02T02:46:27+00:00"/>
+  <date value="2020-11-08T23:13:10+00:00"/>
   <publisher value="OpenHIE"/>
   <contact>
     <name value="OpenHIE"/>
@@ -2728,23 +2728,23 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <map value="TODO"/>
       </mapping>
     </element>
-    <element id="WhoCrSurveillanceDataDictionary.exposure.travel.location.departureDate">
-      <path value="WhoCrSurveillanceDataDictionary.exposure.travel.location.departureDate"/>
+    <element id="WhoCrSurveillanceDataDictionary.exposure.travel.location.locationPeriod">
+      <path value="WhoCrSurveillanceDataDictionary.exposure.travel.location.locationPeriod"/>
       <code>
         <system value="http://loinc.org"/>
         <code value="91560-3"/>
       </code>
-      <short value="Date of departure"/>
-      <definition value="Specify date of departure from this location"/>
+      <short value="Dates at location (including date of departure)"/>
+      <definition value="Specify dates at this location"/>
       <min value="0"/>
       <max value="1"/>
       <base>
-        <path value="WhoCrSurveillanceDataDictionary.exposure.travel.location.departureDate"/>
+        <path value="WhoCrSurveillanceDataDictionary.exposure.travel.location.locationPeriod"/>
         <min value="0"/>
         <max value="1"/>
       </base>
       <type>
-        <code value="date"/>
+        <code value="Period"/>
       </type>
       <mapping>
         <identity value="WhoCrDataDictionarySpreadsheet"/>
@@ -3014,7 +3014,7 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <max value="1"/>
       </base>
       <type>
-        <code value="date"/>
+        <code value="dateTime"/>
       </type>
       <mapping>
         <identity value="WhoCrDataDictionarySpreadsheet"/>
@@ -3057,7 +3057,7 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <max value="1"/>
       </base>
       <type>
-        <code value="date"/>
+        <code value="dateTime"/>
       </type>
       <mapping>
         <identity value="WhoCrDataDictionarySpreadsheet"/>
@@ -3100,8 +3100,12 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <max value="1"/>
       </base>
       <type>
-        <code value="string"/>
+        <code value="CodeableConcept"/>
       </type>
+      <binding>
+        <strength value="extensible"/>
+        <valueSet value="http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetContactSetting"/>
+      </binding>
       <mapping>
         <identity value="WhoCrDataDictionarySpreadsheet"/>
         <map value="expo_case_setting_detail"/>
@@ -3446,6 +3450,10 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
     </element>
     <element id="WhoCrSurveillanceDataDictionary.outcome.patientCourse.wasAdmitted">
       <path value="WhoCrSurveillanceDataDictionary.outcome.patientCourse.wasAdmitted"/>
+      <code>
+        <system value="http://loinc.org"/>
+        <code value="77974-4"/>
+      </code>
       <short value="Patient was admitted to hospital"/>
       <definition value="Patient was first admitted to hospital (outcome)"/>
       <min value="0"/>
@@ -3468,7 +3476,7 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
       </mapping>
       <mapping>
         <identity value="LOINC"/>
-        <map value="TODO"/>
+        <map value="77974-4"/>
       </mapping>
       <mapping>
         <identity value="CIEL"/>
@@ -3493,6 +3501,10 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
     </element>
     <element id="WhoCrSurveillanceDataDictionary.outcome.patientCourse.admitDate">
       <path value="WhoCrSurveillanceDataDictionary.outcome.patientCourse.admitDate"/>
+      <code>
+        <system value="http://loinc.org"/>
+        <code value="8656-1"/>
+      </code>
       <short value="Date patient admitted to hospital"/>
       <definition value="Date patient was first admitted to hospital (outcome)"/>
       <min value="0"/>
@@ -3511,7 +3523,7 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
       </mapping>
       <mapping>
         <identity value="LOINC"/>
-        <map value="TODO"/>
+        <map value="8656-1"/>
       </mapping>
       <mapping>
         <identity value="CIEL"/>
@@ -3536,6 +3548,10 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
     </element>
     <element id="WhoCrSurveillanceDataDictionary.outcome.patientCourse.receivedIcuCare">
       <path value="WhoCrSurveillanceDataDictionary.outcome.patientCourse.receivedIcuCare"/>
+      <code>
+        <system value="http://loinc.org"/>
+        <code value="95420-6"/>
+      </code>
       <short value="Did the patient receive care in an ICU?"/>
       <definition value="Did the patient receive care in an intensive care unit (ICU)? (outcome)"/>
       <min value="0"/>
@@ -3558,7 +3574,7 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
       </mapping>
       <mapping>
         <identity value="LOINC"/>
-        <map value="TODO"/>
+        <map value="95420-6"/>
       </mapping>
       <mapping>
         <identity value="CIEL"/>
@@ -6199,18 +6215,18 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
         <map value="TODO"/>
       </mapping>
     </element>
-    <element id="WhoCrSurveillanceDataDictionary.exposure.travel.location.departureDate">
-      <path value="WhoCrSurveillanceDataDictionary.exposure.travel.location.departureDate"/>
+    <element id="WhoCrSurveillanceDataDictionary.exposure.travel.location.locationPeriod">
+      <path value="WhoCrSurveillanceDataDictionary.exposure.travel.location.locationPeriod"/>
       <code>
         <system value="http://loinc.org"/>
         <code value="91560-3"/>
       </code>
-      <short value="Date of departure"/>
-      <definition value="Specify date of departure from this location"/>
+      <short value="Dates at location (including date of departure)"/>
+      <definition value="Specify dates at this location"/>
       <min value="0"/>
       <max value="1"/>
       <type>
-        <code value="date"/>
+        <code value="Period"/>
       </type>
       <mapping>
         <identity value="WhoCrDataDictionarySpreadsheet"/>
@@ -6450,7 +6466,7 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
       <min value="0"/>
       <max value="1"/>
       <type>
-        <code value="date"/>
+        <code value="dateTime"/>
       </type>
       <mapping>
         <identity value="WhoCrDataDictionarySpreadsheet"/>
@@ -6488,7 +6504,7 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
       <min value="0"/>
       <max value="1"/>
       <type>
-        <code value="date"/>
+        <code value="dateTime"/>
       </type>
       <mapping>
         <identity value="WhoCrDataDictionarySpreadsheet"/>
@@ -6526,8 +6542,12 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
       <min value="0"/>
       <max value="1"/>
       <type>
-        <code value="string"/>
+        <code value="CodeableConcept"/>
       </type>
+      <binding>
+        <strength value="extensible"/>
+        <valueSet value="http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetContactSetting"/>
+      </binding>
       <mapping>
         <identity value="WhoCrDataDictionarySpreadsheet"/>
         <map value="expo_case_setting_detail"/>
@@ -6837,6 +6857,10 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
     </element>
     <element id="WhoCrSurveillanceDataDictionary.outcome.patientCourse.wasAdmitted">
       <path value="WhoCrSurveillanceDataDictionary.outcome.patientCourse.wasAdmitted"/>
+      <code>
+        <system value="http://loinc.org"/>
+        <code value="77974-4"/>
+      </code>
       <short value="Patient was admitted to hospital"/>
       <definition value="Patient was first admitted to hospital (outcome)"/>
       <min value="0"/>
@@ -6854,7 +6878,7 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
       </mapping>
       <mapping>
         <identity value="LOINC"/>
-        <map value="TODO"/>
+        <map value="77974-4"/>
       </mapping>
       <mapping>
         <identity value="CIEL"/>
@@ -6879,6 +6903,10 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
     </element>
     <element id="WhoCrSurveillanceDataDictionary.outcome.patientCourse.admitDate">
       <path value="WhoCrSurveillanceDataDictionary.outcome.patientCourse.admitDate"/>
+      <code>
+        <system value="http://loinc.org"/>
+        <code value="8656-1"/>
+      </code>
       <short value="Date patient admitted to hospital"/>
       <definition value="Date patient was first admitted to hospital (outcome)"/>
       <min value="0"/>
@@ -6892,7 +6920,7 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
       </mapping>
       <mapping>
         <identity value="LOINC"/>
-        <map value="TODO"/>
+        <map value="8656-1"/>
       </mapping>
       <mapping>
         <identity value="CIEL"/>
@@ -6917,6 +6945,10 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
     </element>
     <element id="WhoCrSurveillanceDataDictionary.outcome.patientCourse.receivedIcuCare">
       <path value="WhoCrSurveillanceDataDictionary.outcome.patientCourse.receivedIcuCare"/>
+      <code>
+        <system value="http://loinc.org"/>
+        <code value="95420-6"/>
+      </code>
       <short value="Did the patient receive care in an ICU?"/>
       <definition value="Did the patient receive care in an intensive care unit (ICU)? (outcome)"/>
       <min value="0"/>
@@ -6934,7 +6966,7 @@ If transborders or international spread of outbreak">country</a><a name="WhoCrSu
       </mapping>
       <mapping>
         <identity value="LOINC"/>
-        <map value="TODO"/>
+        <map value="95420-6"/>
       </mapping>
       <mapping>
         <identity value="CIEL"/>

@@ -1,15 +1,15 @@
 ﻿WhoCrCovid19 : Validation Results
 =========================================
 
-err = 6, warn = 0, info = 0
-IG Publisher Version: 1.1.35
-Generated Mon Nov 02 02:47:08 UTC 2020. FHIR version 4.0.1 for who.cr.covid19#0.1.0 (canonical = http://www.example.com/fhir/cr/covid19)
+err = 11, warn = 0, info = 0
+IG Publisher Version: 1.1.39
+Generated Sun Nov 08 23:13:43 UTC 2020. FHIR version 4.0.1 for who.cr.covid19#0.1.0 (canonical = http://www.example.com/fhir/cr/covid19)
 
- Build Errors : 3 / 0 / 0
+ Build Errors : 6 / 0 / 0
  /home/publisher/ig/input/ImplementationGuide-who.cr.covid19 : 0 / 0 / 1
  /home/publisher/ig/input/examples/Composition-WhoCrSampleComposition : 0 / 0 / 1
  /home/publisher/ig/input/examples/Patient-WhoCrSamplePatient : 0 / 0 / 1
- /home/publisher/ig/input/models/StructureDefinition-WhoCrSurveillanceDataDictionary : 4 / 0 / 1
+ /home/publisher/ig/input/models/StructureDefinition-WhoCrSurveillanceDataDictionary : 6 / 0 / 1
  /home/publisher/ig/input/profiles/StructureDefinition-WhoCrComposition : 0 / 0 / 1
  /home/publisher/ig/input/profiles/StructureDefinition-WhoCrPatient : 0 / 0 / 1
  /home/publisher/ig/input/resources/Questionnaire-WhoCrQuestionnaireCovid19Surveillance : 2 / 0 / 1
@@ -74,6 +74,7 @@ Generated Mon Nov 02 02:47:08 UTC 2020. FHIR version 4.0.1 for who.cr.covid19#0.
  /home/publisher/ig/input/vocabulary/ValueSet-WhoCrValueSetAdmin0 : 0 / 0 / 1
  /home/publisher/ig/input/vocabulary/ValueSet-WhoCrValueSetAdmin1 : 0 / 0 / 1
  /home/publisher/ig/input/vocabulary/ValueSet-WhoCrValueSetAgeUnits : 0 / 0 / 1
+ /home/publisher/ig/input/vocabulary/ValueSet-WhoCrValueSetContactSetting : 0 / 0 / 1
  /home/publisher/ig/input/vocabulary/ValueSet-WhoCrValueSetPatientOutcome : 0 / 0 / 1
  /home/publisher/ig/input/vocabulary/ValueSet-WhoCrValueSetPregnancyTrimester : 0 / 0 / 1
  /home/publisher/ig/input/vocabulary/ValueSet-WhoCrValueSetReasonForCovid19Testing : 0 / 0 / 1
@@ -84,6 +85,9 @@ Generated Mon Nov 02 02:47:08 UTC 2020. FHIR version 4.0.1 for who.cr.covid19#0.
  /home/publisher/ig/input/vocabulary/ValueSet-WhoCrValueSetYesNoUnk : 0 / 0 / 1
 </table>
 == n/a ==
+ERROR: /home/publisher/ig/output/Questionnaire-WhoCrQuestionnaireCovid19Surveillance.html#/html/body/div/div/div/div/div/div/table/tr/td/img at Line 217, column 743: The image source 'icon-q-dateTime.png' cannot be resolved
+ERROR: /home/publisher/ig/output/Questionnaire-WhoCrQuestionnaireCovid19Surveillance.html#/html/body/div/div/div/div/div/div/table/tr/td/img at Line 222, column 743: The image source 'icon-q-dateTime.png' cannot be resolved
+ERROR: /home/publisher/ig/output/Questionnaire-WhoCrQuestionnaireCovid19Surveillance.html#/html/body/div/div/div/div/div/div/table/tr/td/img at Line 223, column 739: The image source 'icon-q-dateTime.png' cannot be resolved
 ERROR: /home/publisher/ig/output/StructureDefinition-WhoCrSurveillanceDataDictionary.html#/html/body/div/div/div/div/div/p/a at Line 932, column 41: The link 'StructureDefinition-WhoCrSurveillanceDataDictionary.sch' for "Schematron" cannot be resolved
 ERROR: /home/publisher/ig/output/ValueSet-WhoCrValueSetAdmin0.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 185, column 96: The link 'null' for "http://hl7.org/fhir/ValueSet/iso3166-1-2" cannot be resolved
 ERROR: /home/publisher/ig/output/searchform.html#/html/body/div/div/a/img/div/div/nav/div/div/ul/li/a at Line 64, column 21: The link 'history.html' for "History" cannot be resolved
@@ -97,8 +101,10 @@ INFORMATION: Patient/WhoCrSamplePatient: Patient: Validate resource against prof
 INFORMATION: StructureDefinition/WhoCrSurveillanceDataDictionary: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 ERROR: StructureDefinition/WhoCrSurveillanceDataDictionary: StructureDefinition.snapshot.element[25].code[0]: The code "95420-6" is not valid in the system http://loinc.org; The code provided (http://loinc.org#95420-6) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://loinc.org#95420-6'
 ERROR: StructureDefinition/WhoCrSurveillanceDataDictionary: StructureDefinition.snapshot.element[47].code[0]: The code "95418-0" is not valid in the system http://loinc.org; The code provided (http://loinc.org#95418-0) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://loinc.org#95418-0'
+ERROR: StructureDefinition/WhoCrSurveillanceDataDictionary: StructureDefinition.snapshot.element[75].code[0]: The code "95420-6" is not valid in the system http://loinc.org; The code provided (http://loinc.org#95420-6) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://loinc.org#95420-6'
 ERROR: StructureDefinition/WhoCrSurveillanceDataDictionary: StructureDefinition.differential.element[23].code[0]: The code "95420-6" is not valid in the system http://loinc.org; The code provided (http://loinc.org#95420-6) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://loinc.org#95420-6'
 ERROR: StructureDefinition/WhoCrSurveillanceDataDictionary: StructureDefinition.differential.element[45].code[0]: The code "95418-0" is not valid in the system http://loinc.org; The code provided (http://loinc.org#95418-0) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://loinc.org#95418-0'
+ERROR: StructureDefinition/WhoCrSurveillanceDataDictionary: StructureDefinition.differential.element[73].code[0]: The code "95420-6" is not valid in the system http://loinc.org; The code provided (http://loinc.org#95420-6) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://loinc.org#95420-6'
 == /home/publisher/ig/input/profiles/StructureDefinition-WhoCrComposition.json ==
 INFORMATION: StructureDefinition/WhoCrComposition: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 == /home/publisher/ig/input/profiles/StructureDefinition-WhoCrPatient.json ==
@@ -229,6 +235,8 @@ INFORMATION: ValueSet/WhoCrValueSetAdmin0: ValueSet: Validate resource against p
 INFORMATION: ValueSet/WhoCrValueSetAdmin1: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
 == /home/publisher/ig/input/vocabulary/ValueSet-WhoCrValueSetAgeUnits.json ==
 INFORMATION: ValueSet/WhoCrValueSetAgeUnits: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
+== /home/publisher/ig/input/vocabulary/ValueSet-WhoCrValueSetContactSetting.json ==
+INFORMATION: ValueSet/WhoCrValueSetContactSetting: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
 == /home/publisher/ig/input/vocabulary/ValueSet-WhoCrValueSetPatientOutcome.json ==
 INFORMATION: ValueSet/WhoCrValueSetPatientOutcome: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
 == /home/publisher/ig/input/vocabulary/ValueSet-WhoCrValueSetPregnancyTrimester.json ==

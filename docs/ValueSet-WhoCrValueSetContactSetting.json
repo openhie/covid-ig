@@ -1,0 +1,37 @@
+{
+  "resourceType": "ValueSet",
+  "id": "WhoCrValueSetContactSetting",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul/></div>"
+  },
+  "url": "http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetContactSetting",
+  "version": "0.1.0",
+  "name": "WhoCrValueSetContactSetting",
+  "title": "List of Contact Settings",
+  "status": "active",
+  "date": "2020-11-08T23:13:10+00:00",
+  "publisher": "OpenHIE",
+  "contact": [
+    {
+      "name": "OpenHIE",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://www.ohie.org"
+        }
+      ]
+    }
+  ],
+  "description": "List of Contact Settings",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code": "001"
+        }
+      ]
+    }
+  ]
+}

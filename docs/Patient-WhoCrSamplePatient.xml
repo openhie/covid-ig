@@ -6,7 +6,7 @@
     <profile value="http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrPatient"/>
   </meta>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><h3>Ids</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><h3>Meta</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>US Core Birth Sex Extension</b>: </p><p><b>address</b>: URY (HOME)</p></div>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>US Core Birth Sex Extension</b>: F</p><p><b>address</b>: URY (HOME)</p></div>
   </text>
   <extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex">
     <valueCode value="F"/>

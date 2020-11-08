@@ -6,7 +6,7 @@
     <profile value="http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrComposition"/>
   </meta>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><h3>Ids</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><h3>Meta</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>status</b>: final</p><p><b>type</b>: <span title="Codes: {http://loinc.org 95412-3}">COVID-19 case report</span></p><p><b>category</b>: <span title="Codes: {http://loinc.org 55751-2}">Public health Case report</span></p><p><b>date</b>: 2020-08-21</p><p><b>author</b>: <a href="Patient-WhoCrSamplePatient.html">Generated Summary: </a></p><p><b>title</b>: Revised case report form for Confirmed Novel Coronavirus COVID-19</p></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>status</b>: final</p><p><b>type</b>: <span title="Codes: {http://loinc.org 95412-3}">COVID-19 case report</span></p><p><b>category</b>: <span title="Codes: {http://loinc.org 55751-2}">Public health Case report</span></p><p><b>date</b>: 2020-08-21</p><p><b>author</b>: <a href="Patient-WhoCrSamplePatient.html">Generated Summary: </a></p><p><b>title</b>: Revised case report form for Confirmed Novel Coronavirus COVID-19</p></div>
   </text>
   <status value="final"/>
   <type>

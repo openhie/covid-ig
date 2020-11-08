@@ -462,6 +462,13 @@
     "name": "WhoCrValueSetAgeUnits"
   },
   {
+    "id": "WhoCrValueSetContactSetting",
+    "type": "ValueSet",
+    "url": "http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetContactSetting",
+    "version": "0.1.0",
+    "name": "WhoCrValueSetContactSetting"
+  },
+  {
     "id": "WhoCrValueSetPatientOutcome",
     "type": "ValueSet",
     "url": "http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetPatientOutcome",

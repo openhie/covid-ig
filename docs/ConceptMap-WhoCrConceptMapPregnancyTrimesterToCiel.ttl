@@ -10,14 +10,14 @@
   fhir:Resource.id [ fhir:value "WhoCrConceptMapPregnancyTrimesterToCiel"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>WhoCrConceptMapPregnancyTrimesterToCiel (http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapPregnancyTrimesterToCiel)</h2><p>Mapping from <a href=\"CodeSystem-WhoCrCodeSystemPregnancyTrimester.html\">http://www.example.com/fhir/cr/covid19/CodeSystem/WhoCrCodeSystemPregnancyTrimester</a> to https://openconceptlab.org/orgs/CIEL/sources/CIEL</p><p>DRAFT (not intended for production usage). Published on Nov 2, 2020, 2:46:27 AM by OpenHIE (OpenHIE: <a href=\"http://www.ohie.org\">http://www.ohie.org</a>). 2020</p><br/><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Destination Code</b></td></tr><tr><td>first</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#relatedto\">is related to</a></td><td>1721</td></tr><tr><td>second</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#relatedto\">is related to</a></td><td>1722</td></tr><tr><td>third</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#relatedto\">is related to</a></td><td>1723</td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>WhoCrConceptMapPregnancyTrimesterToCiel (http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapPregnancyTrimesterToCiel)</h2><p>Mapping from <a href=\"CodeSystem-WhoCrCodeSystemPregnancyTrimester.html\">http://www.example.com/fhir/cr/covid19/CodeSystem/WhoCrCodeSystemPregnancyTrimester</a> to https://openconceptlab.org/orgs/CIEL/sources/CIEL</p><p>DRAFT (not intended for production usage). Published on Nov 8, 2020, 11:13:10 PM by OpenHIE (OpenHIE: <a href=\"http://www.ohie.org\">http://www.ohie.org</a>). 2020</p><br/><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Destination Code</b></td></tr><tr><td>first</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equivalent\">is equivalent to</a></td><td>1721</td></tr><tr><td>second</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equivalent\">is equivalent to</a></td><td>1722</td></tr><tr><td>third</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equivalent\">is equivalent to</a></td><td>1723</td></tr></table></div>"
   ];
   fhir:ConceptMap.url [ fhir:value "http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapPregnancyTrimesterToCiel"];
   fhir:ConceptMap.version [ fhir:value "0.1.0"];
   fhir:ConceptMap.name [ fhir:value "WhoCrConceptMapPregnancyTrimesterToCiel"];
   fhir:ConceptMap.status [ fhir:value "draft"];
   fhir:ConceptMap.experimental [ fhir:value "true"^^xsd:boolean];
-  fhir:ConceptMap.date [ fhir:value "2020-11-02T02:46:27+00:00"^^xsd:dateTime];
+  fhir:ConceptMap.date [ fhir:value "2020-11-08T23:13:10+00:00"^^xsd:dateTime];
   fhir:ConceptMap.publisher [ fhir:value "OpenHIE"];
   fhir:ConceptMap.contact [
      fhir:index 0;
@@ -52,7 +52,7 @@
        fhir:ConceptMap.group.element.target [
          fhir:index 0;
          fhir:ConceptMap.group.element.target.code [ fhir:value "1721" ];
-         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "relatedto" ]
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "equivalent" ]
        ]
      ], [
        fhir:index 1;
@@ -60,7 +60,7 @@
        fhir:ConceptMap.group.element.target [
          fhir:index 0;
          fhir:ConceptMap.group.element.target.code [ fhir:value "1722" ];
-         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "relatedto" ]
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "equivalent" ]
        ]
      ], [
        fhir:index 2;
@@ -68,7 +68,7 @@
        fhir:ConceptMap.group.element.target [
          fhir:index 0;
          fhir:ConceptMap.group.element.target.code [ fhir:value "1723" ];
-         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "relatedto" ]
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "equivalent" ]
        ]
      ]
   ] .

@@ -132,9 +132,9 @@ If transborders or international spread of outbreak","","","","","","","","","",
 "WhoCrSurveillanceDataDictionary.exposure.travel.location.city","","","",0,1,"","","","string {[]} {[]}
 ","City travelled to","Specify city travelled to for this location","","","","","","","","","",,,,,"http://loinc.org#94653-3
 ",,,,"WhoCrSurveillanceDataDictionary.exposure.travel.location.city",0,1,"","","expo_travel_cityX","94653-3","165645","TODO","TODO","TODO","TODO"
-"WhoCrSurveillanceDataDictionary.exposure.travel.location.departureDate","","","",0,1,"","","","date {[]} {[]}
-","Date of departure","Specify date of departure from this location","","","","","","","","","",,,,,"http://loinc.org#91560-3
-",,,,"WhoCrSurveillanceDataDictionary.exposure.travel.location.departureDate",0,1,"","","expo_travel_dateX","91560-3","162602","TODO","TODO","TODO","TODO"
+"WhoCrSurveillanceDataDictionary.exposure.travel.location.locationPeriod","","","",0,1,"","","","Period {[]} {[]}
+","Dates at location (including date of departure)","Specify dates at this location","","","","","","","","","",,,,,"http://loinc.org#91560-3
+",,,,"WhoCrSurveillanceDataDictionary.exposure.travel.location.locationPeriod",0,1,"","","expo_travel_dateX","91560-3","162602","TODO","TODO","TODO","TODO"
 "WhoCrSurveillanceDataDictionary.exposure.visitedHealthcare","","","",0,1,"","","","Coding {[]} {[]}
 ","Has the patient visited any health care facilities in the 14 days prior to symptom onset","Has the patient visited any health care facilities in the 14 days prior to symptom onset","","","","","","","","","",,"required","","http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetYesNoUnk","",,,,"WhoCrSurveillanceDataDictionary.exposure.visitedHealthcare",0,1,"","","expo_visit_healthcare","TODO","165833","TODO","TODO","TODO","TODO"
 "WhoCrSurveillanceDataDictionary.exposure.contact","","","",0,1,"","","","BackboneElement {[]} {[]}
@@ -146,12 +146,12 @@ If transborders or international spread of outbreak","","","","","","","","","",
 "WhoCrSurveillanceDataDictionary.exposure.contact.contact.identifier","","","",0,1,"","","","Identifier {[]} {[]}
 ","ID number of confirmed case","Unique identifier of confirmed case with whom the patient had contact","","","","","","","","","",,,,,"http://loinc.org#94657-4
 ",,,,"WhoCrSurveillanceDataDictionary.exposure.contact.contact.identifier",0,1,"","","expo_IDx","94657-4","TODO","TODO","TODO","TODO","TODO"
-"WhoCrSurveillanceDataDictionary.exposure.contact.contact.exposureFirstDate","","","",0,1,"","","","date {[]} {[]}
+"WhoCrSurveillanceDataDictionary.exposure.contact.contact.exposureFirstDate","","","",0,1,"","","","dateTime {[]} {[]}
 ","Date of first exposure to confirmed case","Date of first exposure to confirmed case","","","","","","","","","",,,,,"",,,,"WhoCrSurveillanceDataDictionary.exposure.contact.contact.exposureFirstDate",0,1,"","","expo_case_date_firstX","TODO","TODO","TODO","TODO","TODO","TODO"
-"WhoCrSurveillanceDataDictionary.exposure.contact.contact.exposureLastDate","","","",0,1,"","","","date {[]} {[]}
+"WhoCrSurveillanceDataDictionary.exposure.contact.contact.exposureLastDate","","","",0,1,"","","","dateTime {[]} {[]}
 ","Date of last exposure to confirmed case","Date of last exposure to confirmed case","","","","","","","","","",,,,,"",,,,"WhoCrSurveillanceDataDictionary.exposure.contact.contact.exposureLastDate",0,1,"","","expo_case_date_lastX","95386-9","TODO","TODO","TODO","TODO","TODO"
-"WhoCrSurveillanceDataDictionary.exposure.contact.contact.setting","","","",0,1,"","","","string {[]} {[]}
-","Explain contact setting","If the patient has had contact with a confirmed case in the 14 days prior to symptom onset, explain contact setting","","","","","","","","","",,,,,"",,,,"WhoCrSurveillanceDataDictionary.exposure.contact.contact.setting",0,1,"","","expo_case_setting_detail","TODO","TODO","TODO","TODO","TODO","TODO"
+"WhoCrSurveillanceDataDictionary.exposure.contact.contact.setting","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","Explain contact setting","If the patient has had contact with a confirmed case in the 14 days prior to symptom onset, explain contact setting","","","","","","","","","",,"extensible","","http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetContactSetting","",,,,"WhoCrSurveillanceDataDictionary.exposure.contact.contact.setting",0,1,"","","expo_case_setting_detail","TODO","TODO","TODO","TODO","TODO","TODO"
 "WhoCrSurveillanceDataDictionary.exposure.contact.country","","","",0,1,"","","","CodeableConcept {[]} {[]}
 ","Likely country for exposure to case?","Specify the location of possible exposure to a case","","","","","","","","","",,"extensible","","http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetAdmin0","",,,,"WhoCrSurveillanceDataDictionary.exposure.contact.country",0,1,"","","expo_case_location","77984-3","TODO","TODO","TODO","TODO","TODO"
 "WhoCrSurveillanceDataDictionary.outcome","","","",0,1,"","","","BackboneElement {[]} {[]}
@@ -167,11 +167,14 @@ If transborders or international spread of outbreak","","","","","","","","","",
 "WhoCrSurveillanceDataDictionary.outcome.patientCourse","","","",0,1,"","","","BackboneElement {[]} {[]}
 ","Details of the outcome of the patient course of treatment","Details of the outcome of the patient course of treatment","","","","","","","","","",,,,,"",,,,"WhoCrSurveillanceDataDictionary.outcome.patientCourse",0,1,"","","TODO","TODO","TODO","TODO","TODO","TODO","TODO"
 "WhoCrSurveillanceDataDictionary.outcome.patientCourse.wasAdmitted","","","",0,1,"","","","Coding {[]} {[]}
-","Patient was admitted to hospital","Patient was first admitted to hospital (outcome)","","","","","","","","","",,"required","","http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetYesNoUnk","",,,,"WhoCrSurveillanceDataDictionary.outcome.patientCourse.wasAdmitted",0,1,"","","outcome_patcourse_admit","TODO","TODO","TODO","TODO","TODO","TODO"
+","Patient was admitted to hospital","Patient was first admitted to hospital (outcome)","","","","","","","","","",,"required","","http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetYesNoUnk","http://loinc.org#77974-4
+",,,,"WhoCrSurveillanceDataDictionary.outcome.patientCourse.wasAdmitted",0,1,"","","outcome_patcourse_admit","77974-4","TODO","TODO","TODO","TODO","TODO"
 "WhoCrSurveillanceDataDictionary.outcome.patientCourse.admitDate","","","",0,1,"","","","date {[]} {[]}
-","Date patient admitted to hospital","Date patient was first admitted to hospital (outcome)","","","","","","","","","",,,,,"",,,,"WhoCrSurveillanceDataDictionary.outcome.patientCourse.admitDate",0,1,"","","outcome_patcourse_presHCF","TODO","TODO","TODO","TODO","TODO","TODO"
+","Date patient admitted to hospital","Date patient was first admitted to hospital (outcome)","","","","","","","","","",,,,,"http://loinc.org#8656-1
+",,,,"WhoCrSurveillanceDataDictionary.outcome.patientCourse.admitDate",0,1,"","","outcome_patcourse_presHCF","8656-1","TODO","TODO","TODO","TODO","TODO"
 "WhoCrSurveillanceDataDictionary.outcome.patientCourse.receivedIcuCare","","","",0,1,"","","","Coding {[]} {[]}
-","Did the patient receive care in an ICU?","Did the patient receive care in an intensive care unit (ICU)? (outcome)","","","","","","","","","",,"required","","http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetYesNoUnk","",,,,"WhoCrSurveillanceDataDictionary.outcome.patientCourse.receivedIcuCare",0,1,"","","outcome_patcourse_icu","TODO","TODO","TODO","TODO","TODO","TODO"
+","Did the patient receive care in an ICU?","Did the patient receive care in an intensive care unit (ICU)? (outcome)","","","","","","","","","",,"required","","http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetYesNoUnk","http://loinc.org#95420-6
+",,,,"WhoCrSurveillanceDataDictionary.outcome.patientCourse.receivedIcuCare",0,1,"","","outcome_patcourse_icu","95420-6","TODO","TODO","TODO","TODO","TODO"
 "WhoCrSurveillanceDataDictionary.outcome.patientCourse.ventilated","","","",0,1,"","","","Coding {[]} {[]}
 ","Was the patient ventilated?","Was the patient ever ventilated for this episode? (outcome)","","","","","","","","","",,"required","","http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetYesNoUnk","",,,,"WhoCrSurveillanceDataDictionary.outcome.patientCourse.ventilated",0,1,"","","outcome_patcourse_vent","TODO","TODO","TODO","TODO","TODO","TODO"
 "WhoCrSurveillanceDataDictionary.outcome.patientCourse.receivedEcmo","","","",0,1,"","","","Coding {[]} {[]}

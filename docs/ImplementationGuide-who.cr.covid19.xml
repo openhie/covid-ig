@@ -11,7 +11,7 @@
   <name value="WhoCrCovid19"/>
   <title value="WHO Case Reporting for COVID-19 Surveillance"/>
   <status value="draft"/>
-  <date value="2020-11-02T02:46:27+00:00"/>
+  <date value="2020-11-08T23:13:10+00:00"/>
   <publisher value="OpenHIE"/>
   <contact>
     <name value="OpenHIE"/>
@@ -246,6 +246,17 @@
       </reference>
       <name value="Patient Age Units"/>
       <description value="Common units of patient age"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/WhoCrValueSetContactSetting"/>
+      </reference>
+      <name value="List of Contact Settings"/>
+      <description value="List of Contact Settings"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
