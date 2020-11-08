@@ -3,14 +3,14 @@
 <ConceptMap xmlns="http://hl7.org/fhir">
   <id value="WhoCrConceptMapYesNoToIcd10"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>WhoCrConceptMapYesNoToIcd10 (http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapYesNoToIcd10)</h2><p>Mapping from <a href="ValueSet-WhoCrValueSetYesNo.html">http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetYesNo</a> to https://icd.who.int/browse10</p><p>DRAFT (not intended for production usage). Published on Nov 8, 2020, 11:13:10 PM by OpenHIE (OpenHIE: <a href="http://www.ohie.org">http://www.ohie.org</a>). 2020</p><br/><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Destination Code</b></td></tr><tr><td>TODO</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#relatedto">is related to</a></td><td>TODO</td></tr></table></div>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>WhoCrConceptMapYesNoToIcd10 (http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapYesNoToIcd10)</h2><p>Mapping from <a href="ValueSet-WhoCrValueSetYesNo.html">http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetYesNo</a> to https://icd.who.int/browse10</p><p>DRAFT (not intended for production usage). Published on Nov 8, 2020, 11:18:02 PM by OpenHIE (OpenHIE: <a href="http://www.ohie.org">http://www.ohie.org</a>). 2020</p><br/><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Destination Code</b></td></tr><tr><td>TODO</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#relatedto">is related to</a></td><td>TODO</td></tr></table></div>
   </text>
   <url value="http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapYesNoToIcd10"/>
   <version value="0.1.0"/>
   <name value="WhoCrConceptMapYesNoToIcd10"/>
   <status value="draft"/>
   <experimental value="true"/>
-  <date value="2020-11-08T23:13:10+00:00"/>
+  <date value="2020-11-08T23:18:02+00:00"/>
   <publisher value="OpenHIE"/>
   <contact>
     <name value="OpenHIE"/>
