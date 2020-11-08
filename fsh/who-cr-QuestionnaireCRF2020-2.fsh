@@ -340,9 +340,9 @@ Usage: #definition
 
 * item[6].item[1].item[0].item[2].linkId  = "expo_travel_date"
 * item[6].item[1].item[0].item[2].text    = "Date of Departure from the place:"
-* item[6].item[1].item[0].item[2].type    = #date
+* item[6].item[1].item[0].item[2].type    = #dateTime
 * item[6].item[1].item[0].item[2].code    = $LNC#91560-3
-* item[6].item[1].item[0].item[2].definition    = "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.exposure.visitedHealthcare"
+* item[6].item[1].item[0].item[2].definition    = "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.exposure.travel.location.locationPeriod"
 
 * item[6].item[2].linkId  = "expo_visit_healthcare"
 * item[6].item[2].text  = "Has case visited any health care facility in the 14 days prior to symptom onset?"
@@ -372,17 +372,18 @@ Usage: #definition
 
 * item[6].item[3].item[0].item[1].linkId  = "expo_case_date_first"
 * item[6].item[3].item[0].item[1].text    = "First Date of Contact"
-* item[6].item[3].item[0].item[1].type    = #date
+* item[6].item[3].item[0].item[1].type    = #dateTime
 * item[6].item[3].item[0].item[1].definition    = "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.exposure.contact.contact.exposureFirstDate"
 
 * item[6].item[3].item[0].item[2].linkId  = "expo_case_date_last"
 * item[6].item[3].item[0].item[2].text    = "Last Date of Contact"
-* item[6].item[3].item[0].item[2].type    = #date
+* item[6].item[3].item[0].item[2].type    = #dateTime
 * item[6].item[3].item[0].item[2].definition    = "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.exposure.contact.contact.exposureLastDate"
 
 * item[6].item[3].item[0].item[3].linkId  = "expo_case_setting_detail"
 * item[6].item[3].item[0].item[3].text    = "Contact setting:"
-* item[6].item[3].item[0].item[3].type    = #string
+* item[6].item[3].item[0].item[3].type    = #open-choice
+* item[6].item[3].item[0].item[3].answerValueSet = Canonical(WhoCrValueSetContactSetting)
 * item[6].item[3].item[0].item[3].definition    = "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.exposure.contact.contact.setting"
 
 * item[6].item[4].linkId  = "expo_case_location"

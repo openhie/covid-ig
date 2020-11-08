@@ -1294,11 +1294,11 @@ Usage: #definition
 * differential.element[54].mapping[6].identity = "SNOMED"
 * differential.element[54].mapping[6].map = "TODO"
 
-* differential.element[55].id = "WhoCrSurveillanceDataDictionary.exposure.travel.location.departureDate"
-* differential.element[55].path = "WhoCrSurveillanceDataDictionary.exposure.travel.location.departureDate"
-* differential.element[55].short = "Date of departure"
-* differential.element[55].definition = "Specify date of departure from this location"
-* differential.element[55].type.code = #date
+* differential.element[55].id = "WhoCrSurveillanceDataDictionary.exposure.travel.location.locationPeriod"
+* differential.element[55].path = "WhoCrSurveillanceDataDictionary.exposure.travel.location.locationPeriod"
+* differential.element[55].short = "Dates at location (including date of departure)"
+* differential.element[55].definition = "Specify dates at this location"
+* differential.element[55].type.code = #Period
 * differential.element[55].code = $LNC#91560-3
 * differential.element[55].min = 0
 * differential.element[55].max = "1"
@@ -1436,7 +1436,7 @@ Usage: #definition
 * differential.element[61].path = "WhoCrSurveillanceDataDictionary.exposure.contact.contact.exposureFirstDate"
 * differential.element[61].short = "Date of first exposure to confirmed case"
 * differential.element[61].definition = "Date of first exposure to confirmed case"
-* differential.element[61].type.code = #date
+* differential.element[61].type.code = #dateTime
 * differential.element[61].min = 0
 * differential.element[61].max = "1"
 * differential.element[61].mapping[0].identity = "WhoCrDataDictionarySpreadsheet"
@@ -1458,7 +1458,7 @@ Usage: #definition
 * differential.element[62].path = "WhoCrSurveillanceDataDictionary.exposure.contact.contact.exposureLastDate"
 * differential.element[62].short = "Date of last exposure to confirmed case"
 * differential.element[62].definition = "Date of last exposure to confirmed case"
-* differential.element[62].type.code = #date
+* differential.element[62].type.code = #dateTime
 * differential.element[62].min = 0
 * differential.element[62].max = "1"
 * differential.element[62].mapping[0].identity = "WhoCrDataDictionarySpreadsheet"
@@ -1480,7 +1480,9 @@ Usage: #definition
 * differential.element[63].path = "WhoCrSurveillanceDataDictionary.exposure.contact.contact.setting"
 * differential.element[63].short = "Explain contact setting"
 * differential.element[63].definition = "If the patient has had contact with a confirmed case in the 14 days prior to symptom onset, explain contact setting"
-* differential.element[63].type.code = #string
+* differential.element[63].type.code = #CodeableConcept
+* differential.element[63].binding.valueSet = Canonical(WhoCrValueSetContactSetting)
+* differential.element[63].binding.strength = #extensible
 * differential.element[63].min = 0
 * differential.element[63].max = "1"
 * differential.element[63].mapping[0].identity = "WhoCrDataDictionarySpreadsheet"
@@ -1663,6 +1665,7 @@ Usage: #definition
 * differential.element[71].short = "Patient was admitted to hospital"
 * differential.element[71].definition = "Patient was first admitted to hospital (outcome)"
 * differential.element[71].type.code = #Coding
+* differential.element[71].code = $LNC#77974-4
 * differential.element[71].min = 0
 * differential.element[71].max = "1"
 * differential.element[71].binding.valueSet = Canonical(WhoCrValueSetYesNoUnk)
@@ -1670,7 +1673,7 @@ Usage: #definition
 * differential.element[71].mapping[0].identity = "WhoCrDataDictionarySpreadsheet"
 * differential.element[71].mapping[0].map = "outcome_patcourse_admit"
 * differential.element[71].mapping[1].identity = "LOINC"
-* differential.element[71].mapping[1].map = "TODO"
+* differential.element[71].mapping[1].map = $LNC#77974-4
 * differential.element[71].mapping[2].identity = "CIEL"
 * differential.element[71].mapping[2].map = "TODO"
 * differential.element[71].mapping[3].identity = "ICD10"
@@ -1687,12 +1690,13 @@ Usage: #definition
 * differential.element[72].short = "Date patient admitted to hospital"
 * differential.element[72].definition = "Date patient was first admitted to hospital (outcome)"
 * differential.element[72].type.code = #date
+* differential.element[72].code = $LNC#8656-1
 * differential.element[72].min = 0
 * differential.element[72].max = "1"
 * differential.element[72].mapping[0].identity = "WhoCrDataDictionarySpreadsheet"
 * differential.element[72].mapping[0].map = "outcome_patcourse_presHCF"
 * differential.element[72].mapping[1].identity = "LOINC"
-* differential.element[72].mapping[1].map = "TODO"
+* differential.element[72].mapping[1].map = $LNC#8656-1
 * differential.element[72].mapping[2].identity = "CIEL"
 * differential.element[72].mapping[2].map = "TODO"
 * differential.element[72].mapping[3].identity = "ICD10"
@@ -1709,6 +1713,7 @@ Usage: #definition
 * differential.element[73].short = "Did the patient receive care in an ICU?"
 * differential.element[73].definition = "Did the patient receive care in an intensive care unit (ICU)? (outcome)"
 * differential.element[73].type.code = #Coding
+* differential.element[73].code = $LNC#95420-6
 * differential.element[73].min = 0
 * differential.element[73].max = "1"
 * differential.element[73].binding.valueSet = Canonical(WhoCrValueSetYesNoUnk)
@@ -1716,7 +1721,7 @@ Usage: #definition
 * differential.element[73].mapping[0].identity = "WhoCrDataDictionarySpreadsheet"
 * differential.element[73].mapping[0].map = "outcome_patcourse_icu"
 * differential.element[73].mapping[1].identity = "LOINC"
-* differential.element[73].mapping[1].map = "TODO"
+* differential.element[73].mapping[1].map = $LNC#95420-6
 * differential.element[73].mapping[2].identity = "CIEL"
 * differential.element[73].mapping[2].map = "TODO"
 * differential.element[73].mapping[3].identity = "ICD10"

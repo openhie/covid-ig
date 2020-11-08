@@ -121,3 +121,8 @@ ValueSet: WhoCrValueSetAdmin1
 Title: "List of Administrative Level 1 Names (Province/State/Canton)"
 Description: "List of Administrative Level 1 Names (Province/State/Canton)"
 * codes from system $cs-iso3166-2
+
+ValueSet: WhoCrValueSetContactSetting
+Title: "List of Contact Settings"
+Description: "List of Contact Settings"
+
