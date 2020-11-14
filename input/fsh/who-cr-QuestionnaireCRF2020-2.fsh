@@ -49,8 +49,7 @@ Usage: #definition
 * item[4].item[1].text    = "Age (use days if <1 month, months if <1 year):"
 * item[4].item[1].type    = #quantity
 * item[4].item[1].code    = $LNC#30525-0
-* item[4].item[1].extension[0].url = $ext-questionnaire-unitValueSet
-* item[4].item[1].extension[0].valueCanonical = Canonical(WhoCrValueSetAgeUnits)
+* item[4].item[1].extension[$ext-questionnaire-unitValueSet].valueCanonical = Canonical(WhoCrValueSetAgeUnits)
 * item[4].item[1].definition    = "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.patientInfo.onsetAge"
 // TODO: add min value enforcement via ElementDefinition
 
@@ -117,8 +116,7 @@ Usage: #definition
 * item[5].item[1].item[0].linkId  = "patcourse_asymp_help"  
 * item[5].item[1].item[0].text    = "No: Case was asymptomatic"
 * item[5].item[1].item[0].type    = #display
-* item[5].item[1].item[0].extension[0].url = $ext-questionnaire-itemControl
-* item[5].item[1].item[0].extension[0].valueCodeableConcept = $cs-itemControl#help
+* item[5].item[1].item[0].extension[$ext-questionnaire-itemControl].valueCodeableConcept = $cs-itemControl#help
 
 * item[5].item[1].item[1].linkId  = "patcourse_dateonset"  
 * item[5].item[1].item[1].text    = "Date of onset of symptoms:"
@@ -415,8 +413,7 @@ Usage: #definition
 * item[7].item[2].item[0].linkId    = "outcome_asymp_help"
 * item[7].item[2].item[0].text      = "No: the case remains asymptomatic; Yes: the previously asymptomatic case developed symptoms and/or signs of illness."
 * item[7].item[2].item[0].type      = #display
-* item[7].item[2].item[0].extension[0].url = $ext-questionnaire-itemControl
-* item[7].item[2].item[0].extension[0].valueCodeableConcept = $cs-itemControl#help
+* item[7].item[2].item[0].extension[$ext-questionnaire-itemControl].valueCodeableConcept = $cs-itemControl#help
 
 * item[7].item[3].linkId    = "outcome_asymp_date"
 * item[7].item[3].text      = "Date of onset of symptoms/signs of illness:"
@@ -514,8 +511,7 @@ Usage: #definition
 * item[7].item[8].text    = "Total number of contacts followed for this case:"
 * item[7].item[8].type    = #integer
 * item[7].item[8].definition    = "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.outcome.contactsFollowed"
-* item[7].item[8].extension[0].url = $ext-element-minValue
-* item[7].item[8].extension[0].valueInteger = 0
+* item[7].item[8].extension[$ext-element-minValue].valueInteger = 0
 
 * item[7].item[9].linkId  = "outcome_contacts_followed_unknown"
 * item[7].item[9].text    = "Unknown:"
