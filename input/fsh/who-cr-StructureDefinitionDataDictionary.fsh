@@ -1294,8 +1294,8 @@ Usage: #definition
 * differential.element[54].mapping[6].identity = "SNOMED"
 * differential.element[54].mapping[6].map = "TODO"
 
-* differential.element[55].id = "WhoCrSurveillanceDataDictionary.exposure.travel.location.locationPeriod"
-* differential.element[55].path = "WhoCrSurveillanceDataDictionary.exposure.travel.location.locationPeriod"
+* differential.element[55].id = "WhoCrSurveillanceDataDictionary.exposure.travel.location.locationPeriod.end"
+* differential.element[55].path = "WhoCrSurveillanceDataDictionary.exposure.travel.location.locationPeriod.end"
 * differential.element[55].short = "Dates at location (including date of departure)"
 * differential.element[55].definition = "Specify dates at this location"
 * differential.element[55].type.code = #Period

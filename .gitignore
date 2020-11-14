@@ -1,6 +1,5 @@
 .DS_Store
 .index.json
-/input
 /input-cache
 /output
 /publish
@@ -8,5 +7,4 @@
 /temp
 /.vscode
 /SUSHI-GENERATED-FILES.md
-/ig.ini
-/package-list.json
+/fsh-generated
