@@ -29,7 +29,7 @@ Usage: #definition
 
 * item[3].linkId  = "report_test_reason"
 * item[3].text    = "Why tested for COVID-19:"
-* item[3].code    = http://loinc.org#67098-4 "Reason for test or procedure"
+* item[3].code    = $LNC#67098-4 "Reason for test or procedure"
 * item[3].definition    = "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.report.testReason"
 * item[3].type    = #open-choice
 * item[3].answerValueSet = Canonical(WhoCrValueSetReasonForCovid19Testing)
@@ -49,8 +49,7 @@ Usage: #definition
 * item[4].item[1].text    = "Age (use days if <1 month, months if <1 year):"
 * item[4].item[1].type    = #quantity
 * item[4].item[1].code    = $LNC#30525-0
-* item[4].item[1].extension[0].url = "http://hl7.org/fhir/StructureDefinition/questionnaire-unitValueSet"
-* item[4].item[1].extension[0].valueCanonical = Canonical(WhoCrValueSetAgeUnits)
+* item[4].item[1].extension[$ext-questionnaire-unitValueSet].valueCanonical = Canonical(WhoCrValueSetAgeUnits)
 * item[4].item[1].definition    = "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.patientInfo.onsetAge"
 // TODO: add min value enforcement via ElementDefinition
 
@@ -70,14 +69,22 @@ Usage: #definition
 * item[4].item[3].item[0].type    = #open-choice
 * item[4].item[3].item[0].answerValueSet    = Canonical(WhoCrValueSetAdmin0)
 * item[4].item[3].item[0].definition    = "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.patientInfo.identified.admin0"
+// * item[4].item[3].item[0].item[0].extension[0].url = $struct-variable
+// * item[4].item[3].item[0].item[0].extension[0].valueExpression.name = "patinfo_idadmin0"
+// * item[4].item[3].item[0].item[0].extension[0].valueExpression.language = "text/fhirpath"
+// * item[4].item[3].item[0].item[0].extension[0].valueExpression.expression = "%resource.repeat(item).where(linkId='patinfo_idadmin0').item.answer"
 
 * item[4].item[3].item[0].item[0].linkId  = "patinfo_idadmin1"
 * item[4].item[3].item[0].item[0].text    = "Admin Level 1 (province):"
-* item[4].item[3].item[0].item[0].type    = #string
+* item[4].item[3].item[0].item[0].type    = #open-choice
+* item[4].item[3].item[0].item[0].answerValueSet    = Canonical(WhoCrValueSetAdmin1)
 * item[4].item[3].item[0].item[0].definition    = "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.patientInfo.identified.admin1"
 * item[4].item[3].item[0].item[0].enableWhen[0].question = "patinfo_idadmin0"
 * item[4].item[3].item[0].item[0].enableWhen[0].operator = #exists
 * item[4].item[3].item[0].item[0].enableWhen[0].answerBoolean = true
+// * item[4].item[3].item[0].item[0].extension[0].url = $ext-sdc-questionnaire-answerExpression
+// * item[4].item[3].item[0].item[0].extension[0].valueExpression.language = #text/cql
+// * item[4].item[3].item[0].item[0].extension[0].valueExpression.language = #text/cql
 
 * item[4].item[4].linkId  = "patinfo_placereside"
 * item[4].item[4].text    = "Case usual place of residency:"
@@ -101,19 +108,24 @@ Usage: #definition
 * item[5].item[0].definition    = "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.clinicalStatus.lab.confirmedDate"
 
 * item[5].item[1].linkId  = "patcourse_asymp"  //TODO: variable name/short label is opposite to meaning of question
-* item[5].item[1].text    = "Any symptoms* or signs at time of specimen collection that resulted in first laboratory confirmation?"
+* item[5].item[1].text    = "Any symptoms or signs at time of specimen collection that resulted in first laboratory confirmation?"
 * item[5].item[1].type    = #choice
 * item[5].item[1].answerValueSet = Canonical(WhoCrValueSetYesNoUnk)
 * item[5].item[1].definition    = "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.clinicalStatus.patientCourse.asymptomatic"
 
-* item[5].item[1].item[0].linkId  = "patcourse_dateonset"  
-* item[5].item[1].item[0].text    = "Date of onset of symptoms:"
-* item[5].item[1].item[0].type    = #date
-* item[5].item[1].item[0].code    = $LNC#65222-2
-* item[5].item[1].item[0].enableWhen[0].question = "patcourse_asymp"
-* item[5].item[1].item[0].enableWhen[0].operator = #=
-* item[5].item[1].item[0].enableWhen[0].answerCoding = http://terminology.hl7.org/CodeSystem/v2-0136#Y
-* item[5].item[1].item[0].definition    = "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.clinicalStatus.patientCourse.onsetDate"
+* item[5].item[1].item[0].linkId  = "patcourse_asymp_help"  
+* item[5].item[1].item[0].text    = "No: Case was asymptomatic"
+* item[5].item[1].item[0].type    = #display
+* item[5].item[1].item[0].extension[$ext-questionnaire-itemControl].valueCodeableConcept = $cs-itemControl#help
+
+* item[5].item[1].item[1].linkId  = "patcourse_dateonset"  
+* item[5].item[1].item[1].text    = "Date of onset of symptoms:"
+* item[5].item[1].item[1].type    = #date
+* item[5].item[1].item[1].code    = $LNC#65222-2
+* item[5].item[1].item[1].enableWhen[0].question = "patcourse_asymp"
+* item[5].item[1].item[1].enableWhen[0].operator = #=
+* item[5].item[1].item[1].enableWhen[0].answerCoding = $cs-v2-0136#Y
+* item[5].item[1].item[1].definition    = "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.clinicalStatus.patientCourse.onsetDate"
 
 * item[5].item[2].linkId  = "section_comorbidity"
 * item[5].item[2].text    = "Underlying conditions and comorbidity:"
@@ -131,7 +143,7 @@ Usage: #definition
 * item[5].item[2].item[1].type    = #group
 * item[5].item[2].item[1].enableWhen[0].question = "Comcond_present"
 * item[5].item[2].item[1].enableWhen[0].operator = #=
-* item[5].item[2].item[1].enableWhen[0].answerCoding = http://terminology.hl7.org/CodeSystem/v2-0136#Y
+* item[5].item[2].item[1].enableWhen[0].answerCoding = $cs-v2-0136#Y
 
 * item[5].item[2].item[1].item[0].linkId  = "Comcond_preg"
 * item[5].item[2].item[1].item[0].text    = "Pregnancy"
@@ -210,51 +222,52 @@ Usage: #definition
 * item[5].item[2].item[2].item[0].answerValueSet = Canonical(WhoCrValueSetYesNoUnk)
 * item[5].item[2].item[2].item[0].definition    = "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.clinicalStatus.patientCourse.wasAdmitted"
 
-* item[5].item[2].item[2].item[1].linkId  = "patcourse_presHCF"
-* item[5].item[2].item[2].item[1].text    = "First date of admission to hospital:"
-* item[5].item[2].item[2].item[1].type    = #date
-* item[5].item[2].item[2].item[1].code    = $LNC#8656-1
+* item[5].item[2].item[2].item[1].linkId  = "section_hospital_admission"
+* item[5].item[2].item[2].item[1].text    = "if yes:"
+* item[5].item[2].item[2].item[1].type    = #group
 * item[5].item[2].item[2].item[1].enableWhen[0].question  = "patcourse_admit"
 * item[5].item[2].item[2].item[1].enableWhen[0].operator  = #=
-* item[5].item[2].item[2].item[1].enableWhen[0].answerCoding  = http://terminology.hl7.org/CodeSystem/v2-0136#Y
+* item[5].item[2].item[2].item[1].enableWhen[0].answerCoding  = $cs-v2-0136#Y
+
+* item[5].item[2].item[2].item[1].item[0].linkId  = "patcourse_presHCF"
+* item[5].item[2].item[2].item[1].item[0].text    = "First date of admission to hospital:"
+* item[5].item[2].item[2].item[1].item[0].type    = #date
+* item[5].item[2].item[2].item[1].item[0].code    = $LNC#8656-1
 * item[5].item[2].item[2].item[1].definition    = "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.clinicalStatus.patientCourse.admitDate"
 
-* item[5].item[2].item[2].item[2].linkId  = "section_hospital_admission"
-* item[5].item[2].item[2].item[2].text    = "if yes:"
-* item[5].item[2].item[2].item[2].type    = #group
-* item[5].item[2].item[2].item[2].enableWhen[0].question  = "patcourse_admit"
-* item[5].item[2].item[2].item[2].enableWhen[0].operator  = #=
-* item[5].item[2].item[2].item[2].enableWhen[0].answerCoding  = http://terminology.hl7.org/CodeSystem/v2-0136#Y
+* item[5].item[2].item[2].item[1].item[1].linkId  = "patcourse_icu"
+* item[5].item[2].item[2].item[1].item[1].text    = "Did the case receive care in an intensive care unit (ICU)?"
+* item[5].item[2].item[2].item[1].item[1].type    = #choice
+* item[5].item[2].item[2].item[1].item[1].code    = $LNC#95420-6
+* item[5].item[2].item[2].item[1].item[1].answerValueSet = Canonical(WhoCrValueSetYesNoUnk)
+* item[5].item[2].item[2].item[1].item[1].definition    = "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.clinicalStatus.patientCourse.receivedIcuCare"
 
-* item[5].item[2].item[2].item[2].item[0].linkId  = "patcourse_icu"
-* item[5].item[2].item[2].item[2].item[0].text    = "Did the case receive care in an intensive care unit (ICU)?"
-* item[5].item[2].item[2].item[2].item[0].type    = #choice
-* item[5].item[2].item[2].item[2].item[0].code    = $LNC#95420-6
-* item[5].item[2].item[2].item[2].item[0].answerValueSet = Canonical(WhoCrValueSetYesNoUnk)
-* item[5].item[2].item[2].item[2].item[0].definition    = "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.clinicalStatus.patientCourse.receivedIcuCare"
+* item[5].item[2].item[2].item[1].item[2].linkId  = "patcourse_vent"
+* item[5].item[2].item[2].item[1].item[2].text    = "Did the case receive ventilation?"
+* item[5].item[2].item[2].item[1].item[2].type    = #choice
+* item[5].item[2].item[2].item[1].item[2].answerValueSet = Canonical(WhoCrValueSetYesNoUnk)
+* item[5].item[2].item[2].item[1].item[2].definition    = "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.clinicalStatus.patientCourse.ventilated"
 
-* item[5].item[2].item[2].item[2].item[1].linkId  = "patcourse_vent"
-* item[5].item[2].item[2].item[2].item[1].text    = "Did the case receive ventilation?"
-* item[5].item[2].item[2].item[2].item[1].type    = #choice
-* item[5].item[2].item[2].item[2].item[1].answerValueSet = Canonical(WhoCrValueSetYesNoUnk)
-* item[5].item[2].item[2].item[2].item[1].definition    = "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.clinicalStatus.patientCourse.ventilated"
+* item[5].item[2].item[2].item[1].item[3].linkId  = "patcourse_ecmo"
+* item[5].item[2].item[2].item[1].item[3].text    = "Did the case receive extracorporeal membrane oxygenation?"
+* item[5].item[2].item[2].item[1].item[3].type    = #choice
+* item[5].item[2].item[2].item[1].item[3].answerValueSet = Canonical(WhoCrValueSetYesNoUnk)
+* item[5].item[2].item[2].item[1].item[3].definition    = "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.clinicalStatus.patientCourse.receivedEcmo"
 
-* item[5].item[2].item[2].item[2].item[2].linkId  = "patcourse_ecmo"
-* item[5].item[2].item[2].item[2].item[2].text    = "Did the case receive extracorporeal membrane oxygenation?"
-* item[5].item[2].item[2].item[2].item[2].type    = #choice
-* item[5].item[2].item[2].item[2].item[2].answerValueSet = Canonical(WhoCrValueSetYesNoUnk)
-* item[5].item[2].item[2].item[2].item[2].definition    = "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.clinicalStatus.patientCourse.receivedEcmo"
+* item[5].item[2].item[2].item[2].linkId  = "patcourse_iso"
+* item[5].item[2].item[2].item[2].text  = "Is case in isolation with Infection Control Practice in place?"
+* item[5].item[2].item[2].item[2].type  = #choice
+* item[5].item[2].item[2].item[2].answerValueSet = Canonical(WhoCrValueSetYesNoUnk)
+* item[5].item[2].item[2].item[2].definition    = "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.clinicalStatus.patientCourse.wasIsolated"
 
-* item[5].item[2].item[2].item[3].linkId  = "patcourse_iso"
-* item[5].item[2].item[2].item[3].text  = "Is case in isolation with Infection Control Practice in place?"
-* item[5].item[2].item[2].item[3].type  = #choice
-* item[5].item[2].item[2].item[3].answerValueSet = Canonical(WhoCrValueSetYesNoUnk)
-* item[5].item[2].item[2].item[3].definition    = "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.clinicalStatus.patientCourse.wasIsolated"
+* item[5].item[2].item[2].item[2].item[0].linkId  = "patcourse_dateiso"
+* item[5].item[2].item[2].item[2].item[0].text  = "Date of isolation:"
+* item[5].item[2].item[2].item[2].item[0].type  = #date
+* item[5].item[2].item[2].item[2].item[0].enableWhen[0].question  = "patcourse_iso"
+* item[5].item[2].item[2].item[2].item[0].enableWhen[0].operator  = #=
+* item[5].item[2].item[2].item[2].item[0].enableWhen[0].answerCoding  = $cs-v2-0136#Y
 
-* item[5].item[2].item[2].item[3].item[0].linkId  = "patcourse_dateiso"
-* item[5].item[2].item[2].item[3].item[0].text  = "Date of isolation:"
-* item[5].item[2].item[2].item[3].item[0].type  = #date
-* item[5].item[2].item[2].item[3].item[0].definition    = "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.clinicalStatus.patientCourse.isolatedDate"
+* item[5].item[2].item[2].item[2].item[0].definition    = "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.clinicalStatus.patientCourse.isolatedDate"
 
 * item[6].linkId  = "section_exposure_risk"
 * item[6].prefix  = "Section 3"
@@ -273,23 +286,28 @@ Usage: #definition
 * item[6].item[0].item[0].type    = #group
 * item[6].item[0].item[0].enableWhen[0].question  = "patinfo_occuhcw"
 * item[6].item[0].item[0].enableWhen[0].operator  = #=
-* item[6].item[0].item[0].enableWhen[0].answerCoding  = http://terminology.hl7.org/CodeSystem/v2-0136#Y
+* item[6].item[0].item[0].enableWhen[0].answerCoding  = $cs-v2-0136#Y
 
-* item[6].item[0].item[0].item[0].linkId  = "patinfo_occuhcw_country"
-* item[6].item[0].item[0].item[0].text    = "Country:"
-* item[6].item[0].item[0].item[0].type    = #open-choice
-* item[6].item[0].item[0].item[0].answerValueSet    = Canonical(WhoCrValueSetAdmin0)
-* item[6].item[0].item[0].item[0].definition    = "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.exposure.patientInfo.hcw.workCountry"
+* item[6].item[0].item[0].item[0].linkId  = "patinfo_occuhcw_hcf_info"
+* item[6].item[0].item[0].item[0].type    = #group
+* item[6].item[0].item[0].item[0].repeats = true
+* item[6].item[0].item[0].item[0].definition    = "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.exposure.patientInfo.hcw.workFacility"
 
-* item[6].item[0].item[0].item[1].linkId  = "patinfo_occuhcw_city"
-* item[6].item[0].item[0].item[1].text    = "City:"
-* item[6].item[0].item[0].item[1].type    = #string
-* item[6].item[0].item[0].item[1].definition    = "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.exposure.patientInfo.hcw.workCity"
+* item[6].item[0].item[0].item[0].item[0].linkId  = "patinfo_occuhcw_country"
+* item[6].item[0].item[0].item[0].item[0].text    = "Country:"
+* item[6].item[0].item[0].item[0].item[0].type    = #open-choice
+* item[6].item[0].item[0].item[0].item[0].answerValueSet    = Canonical(WhoCrValueSetAdmin0)
+* item[6].item[0].item[0].item[0].item[0].definition    = "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.exposure.patientInfo.hcw.workFacility.country"
 
-* item[6].item[0].item[0].item[2].linkId  = "patinfo_occuhcw_name"
-* item[6].item[0].item[0].item[2].text    = "Name of Facility:"
-* item[6].item[0].item[0].item[2].type    = #string
-* item[6].item[0].item[0].item[2].definition    = "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.exposure.patientInfo.hcw.facilityName"
+* item[6].item[0].item[0].item[0].item[1].linkId  = "patinfo_occuhcw_city"
+* item[6].item[0].item[0].item[0].item[1].text    = "City:"
+* item[6].item[0].item[0].item[0].item[1].type    = #string
+* item[6].item[0].item[0].item[0].item[1].definition    = "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.exposure.patientInfo.hcw.workFacility.city"
+
+* item[6].item[0].item[0].item[0].item[2].linkId  = "patinfo_occuhcw_name"
+* item[6].item[0].item[0].item[0].item[2].text    = "Name of Facility:"
+* item[6].item[0].item[0].item[0].item[2].type    = #string
+* item[6].item[0].item[0].item[0].item[2].definition    = "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.exposure.patientInfo.hcw.workFacility.facilityName"
 
 * item[6].item[1].linkId  = "expo_travel"
 * item[6].item[1].text  = "Has the case travelled in the 14 days prior to symptom onset?"
@@ -303,7 +321,7 @@ Usage: #definition
 * item[6].item[1].item[0].type    = #group
 * item[6].item[1].item[0].enableWhen[0].question  = "expo_travel"
 * item[6].item[1].item[0].enableWhen[0].operator  = #=
-* item[6].item[1].item[0].enableWhen[0].answerCoding  = http://terminology.hl7.org/CodeSystem/v2-0136#Y
+* item[6].item[1].item[0].enableWhen[0].answerCoding  = $cs-v2-0136#Y
 
 * item[6].item[1].item[0].item[0].linkId  = "expo_travel_country"
 * item[6].item[1].item[0].item[0].text    = "Country:"
@@ -320,9 +338,9 @@ Usage: #definition
 
 * item[6].item[1].item[0].item[2].linkId  = "expo_travel_date"
 * item[6].item[1].item[0].item[2].text    = "Date of Departure from the place:"
-* item[6].item[1].item[0].item[2].type    = #date
+* item[6].item[1].item[0].item[2].type    = #dateTime
 * item[6].item[1].item[0].item[2].code    = $LNC#91560-3
-* item[6].item[1].item[0].item[2].definition    = "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.exposure.visitedHealthcare"
+* item[6].item[1].item[0].item[2].definition    = "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.exposure.travel.location.locationPeriod"
 
 * item[6].item[2].linkId  = "expo_visit_healthcare"
 * item[6].item[2].text  = "Has case visited any health care facility in the 14 days prior to symptom onset?"
@@ -334,7 +352,7 @@ Usage: #definition
 * item[6].item[3].text  = "Has case had contact with a confirmed case in the 14 days prior to symptom onset?"
 * item[6].item[3].type  = #choice
 * item[6].item[3].answerValueSet = Canonical(WhoCrValueSetYesNoUnk)
-* item[6].item[3].definition    = "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.exposure.caseContact"
+* item[6].item[3].definition    = "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.exposure.contact.hadContact"
 
 * item[6].item[3].item[0].linkId  = "expo_contacts"
 * item[6].item[3].item[0].text    = "If yes, please list unique case identifiers of all probable or confirmed cases:"
@@ -342,44 +360,43 @@ Usage: #definition
 * item[6].item[3].item[0].type    = #group
 * item[6].item[3].item[0].enableWhen[0].question  = "expo_contact_case"
 * item[6].item[3].item[0].enableWhen[0].operator  = #=
-* item[6].item[3].item[0].enableWhen[0].answerCoding  = http://terminology.hl7.org/CodeSystem/v2-0136#Y
+* item[6].item[3].item[0].enableWhen[0].answerCoding  = $cs-v2-0136#Y
 
 * item[6].item[3].item[0].item[0].linkId  = "expo_ID"
 * item[6].item[3].item[0].item[0].text    = "Contact ID"
 * item[6].item[3].item[0].item[0].type    = #string
 * item[6].item[3].item[0].item[0].code    = $LNC#94657-4
-* item[6].item[3].item[0].item[0].definition    = "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.exposure.contact.identifier"
+* item[6].item[3].item[0].item[0].definition    = "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.exposure.contact.contact.identifier"
 
 * item[6].item[3].item[0].item[1].linkId  = "expo_case_date_first"
 * item[6].item[3].item[0].item[1].text    = "First Date of Contact"
-* item[6].item[3].item[0].item[1].type    = #string
-* item[6].item[3].item[0].item[1].definition    = "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.exposure.contact.exposureFirstDate"
+* item[6].item[3].item[0].item[1].type    = #dateTime
+* item[6].item[3].item[0].item[1].definition    = "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.exposure.contact.contact.exposureFirstDate"
 
 * item[6].item[3].item[0].item[2].linkId  = "expo_case_date_last"
 * item[6].item[3].item[0].item[2].text    = "Last Date of Contact"
-* item[6].item[3].item[0].item[2].type    = #string
-* item[6].item[3].item[0].item[2].definition    = "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.exposure.contact.exposureLastDate"
+* item[6].item[3].item[0].item[2].type    = #dateTime
+* item[6].item[3].item[0].item[2].definition    = "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.exposure.contact.contact.exposureLastDate"
 
-* item[6].item[3].item[1].linkId  = "expo_case_setting_detail"
-* item[6].item[3].item[1].text    = "If yes, please explain contact setting:"
-* item[6].item[3].item[1].type    = #string
-* item[6].item[3].item[1].enableWhen[0].question  = "expo_contact_case"
-* item[6].item[3].item[1].enableWhen[0].operator  = #=
-* item[6].item[3].item[1].enableWhen[0].answerCoding  = http://terminology.hl7.org/CodeSystem/v2-0136#Y
-* item[6].item[3].item[1].definition    = "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.exposure.contactSetting"
+* item[6].item[3].item[0].item[3].linkId  = "expo_case_setting_detail"
+* item[6].item[3].item[0].item[3].text    = "Contact setting:"
+* item[6].item[3].item[0].item[3].type    = #open-choice
+* item[6].item[3].item[0].item[3].answerValueSet = Canonical(WhoCrValueSetContactSetting)
+* item[6].item[3].item[0].item[3].definition    = "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.exposure.contact.contact.setting"
 
 * item[6].item[4].linkId  = "expo_case_location"
 * item[6].item[4].text    = "Most likely country of exposure:"
 * item[6].item[4].type    = #open-choice
 * item[6].item[4].answerValueSet    = Canonical(WhoCrValueSetAdmin0)
-* item[6].item[4].definition    = "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.exposure.contactCountry"
+* item[6].item[4].definition    = "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.exposure.contact.country"
 
 * item[7].linkId    = "section_outcome"
+* item[7].prefix    = "Section 4"
 * item[7].text      = "Outcome"
 * item[7].type      = #group
 
 * item[7].item[0].linkId    = "outcome_instruct"
-* item[7].item[0].text      = "Complete and re-sent the full form as soon as outcome of disease is known or after 30 days after initial report."
+* item[7].item[0].text      = "Complete and re-send the full form as soon as outcome of disease is known or after 30 days after initial report."
 * item[7].item[0].type      = #display
 
 * item[7].item[1].linkId    = "outcome_submitted_date"
@@ -388,20 +405,22 @@ Usage: #definition
 * item[7].item[1].definition    = "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.outcome.submissionDate"
 
 * item[7].item[2].linkId    = "outcome_asymp"
-* item[7].item[2].text      = "If case was asymptomatic at time of specimen collection resulting in first laboratory confirmation, did the case develop any symptoms or signs at any time prior to discharge or death:"
+* item[7].item[2].text      = "If case was asymptomatic at time of specimen collection resulting in first laboratory confirmation, did the case develop any symptoms or signs at any time prior to discharge or death?"
 * item[7].item[2].type      = #choice
-//* item[7].item[2].answerValueSet = Canonical(WhoCrValueSetYesNoUnk)
-* item[7].item[2].answerOption[0].valueCoding = http://terminology.hl7.org/CodeSystem/v2-0136#N // "No (i.e., case remains asymptomatic)"
-* item[7].item[2].answerOption[1].valueCoding = http://terminology.hl7.org/CodeSystem/v2-0136#Y // "Yes, asymptomatic case (as previously reported) developed symptoms and/or signs of illness"
-* item[7].item[2].answerOption[2].valueCoding = http://terminology.hl7.org/CodeSystem/data-absent-reason#unknown // "Unknown"
+* item[7].item[2].answerValueSet = Canonical(WhoCrValueSetYesNoUnk)
 * item[7].item[2].definition    = "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.outcome.symptomatic"
+
+* item[7].item[2].item[0].linkId    = "outcome_asymp_help"
+* item[7].item[2].item[0].text      = "No: the case remains asymptomatic; Yes: the previously asymptomatic case developed symptoms and/or signs of illness."
+* item[7].item[2].item[0].type      = #display
+* item[7].item[2].item[0].extension[$ext-questionnaire-itemControl].valueCodeableConcept = $cs-itemControl#help
 
 * item[7].item[3].linkId    = "outcome_asymp_date"
 * item[7].item[3].text      = "Date of onset of symptoms/signs of illness:"
 * item[7].item[3].type      = #date
 * item[7].item[3].enableWhen[0].question  = "outcome_asymp"
 * item[7].item[3].enableWhen[0].operator  = #=
-* item[7].item[3].enableWhen[0].answerCoding  = http://terminology.hl7.org/CodeSystem/v2-0136#Y
+* item[7].item[3].enableWhen[0].answerCoding  = $cs-v2-0136#Y
 * item[7].item[3].definition    = "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.outcome.symptomaticDate"
 
 * item[7].item[4].linkId  = "section_clinical_course"
@@ -419,7 +438,7 @@ Usage: #definition
 * item[7].item[4].item[1].type    = #date
 * item[7].item[4].item[1].enableWhen[0].question  = "outcome_patcourse_admit"
 * item[7].item[4].item[1].enableWhen[0].operator  = #=
-* item[7].item[4].item[1].enableWhen[0].answerCoding  = http://terminology.hl7.org/CodeSystem/v2-0136#Y
+* item[7].item[4].item[1].enableWhen[0].answerCoding  = $cs-v2-0136#Y
 * item[7].item[4].item[1].definition    = "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.outcome.patientCourse.admitDate"
 
 * item[7].item[4].item[2].linkId  = "section_outcome_admission"
@@ -427,7 +446,7 @@ Usage: #definition
 * item[7].item[4].item[2].type    = #group
 * item[7].item[4].item[2].enableWhen[0].question  = "outcome_patcourse_admit"
 * item[7].item[4].item[2].enableWhen[0].operator  = #=
-* item[7].item[4].item[2].enableWhen[0].answerCoding  = http://terminology.hl7.org/CodeSystem/v2-0136#Y
+* item[7].item[4].item[2].enableWhen[0].answerCoding  = $cs-v2-0136#Y
 
 * item[7].item[4].item[2].item[0].linkId  = "outcome_patcourse_icu"
 * item[7].item[4].item[2].item[0].text    = "Did the case receive care in an intensive care unit (ICU)?"
@@ -449,41 +468,53 @@ Usage: #definition
 
 * item[7].item[5].linkId  = "outcome_patcourse_status"
 * item[7].item[5].text    = "Health Outcome:"
-* item[7].item[5].type    = #choice
+* item[7].item[5].type    = #open-choice
 * item[7].item[5].answerValueSet = Canonical(WhoCrValueSetPatientOutcome)
 * item[7].item[5].definition    = "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.outcome.patientCourse.status"
 
-* item[7].item[6].linkId  = "outcome_patcourse_status_other"
-* item[7].item[6].text    = "If other, please explain:"
-* item[7].item[6].type    = #string
-* item[7].item[6].enableWhen[0].question  = "outcome_patcourse_status"
-* item[7].item[6].enableWhen[0].operator  = #=
-* item[7].item[6].enableWhen[0].answerCoding = WhoCrCodeSystemPatientOutcome#OTHER
-* item[7].item[6].definition    = "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.outcome.patientCourse.statusOther"
+// * item[7].item[6].linkId  = "outcome_patcourse_status_other"
+// * item[7].item[6].text    = "If other, please explain:"
+// * item[7].item[6].type    = #string
+// * item[7].item[6].enableWhen[0].question  = "outcome_patcourse_status"
+// * item[7].item[6].enableWhen[0].operator  = #=
+// * item[7].item[6].enableWhen[0].answerCoding = WhoCrCodeSystemPatientOutcome#OTHER
+// * item[7].item[6].definition    = "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.outcome.patientCourse.statusOther"
 
-* item[7].item[7].linkId  = "outcome_date_of_outcome"
-* item[7].item[7].text    = "Date of Release from isolation/hospital or Date of Death:"
-* item[7].item[7].type    = #date
-* item[7].item[7].definition    = "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.outcome.outcomeDate"
+* item[7].item[6].linkId  = "outcome_date_of_outcome"
+* item[7].item[6].text    = "Date of Release from isolation/hospital or Date of Death:"
+* item[7].item[6].type    = #date
+* item[7].item[6].definition    = "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.outcome.patientCourse.statusDate"
 
-* item[7].item[8].linkId  = "outcome_lab_date"
-* item[7].item[8].text    = "Date of last test:"
-* item[7].item[8].type    = #date
-* item[7].item[8].definition    = "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.outcome.labDate"
+* item[7].item[7].linkId  = "outcome_lab"
+* item[7].item[7].text    = "If released from hospital/isolation, details of last laboratory test"
+* item[7].item[7].type    = #group
+* item[7].item[7].enableBehavior = #all
+* item[7].item[7].enableWhen[0].question = "outcome_patcourse_status"
+* item[7].item[7].enableWhen[0].operator  = #!=
+* item[7].item[7].enableWhen[0].answerCoding = WhoCrCodeSystemPatientOutcome#DEATH
+* item[7].item[7].enableWhen[1].question = "outcome_date_of_outcome"
+* item[7].item[7].enableWhen[1].operator  = #exists
+* item[7].item[7].enableWhen[1].answerBoolean = true
 
-* item[7].item[9].linkId  = "outcome_lab_result"
-* item[7].item[9].text    = "Results of last test:"
-* item[7].item[9].type    = #choice
-* item[7].item[9].answerValueSet = Canonical(WhoCrValueSetTestResult)
-* item[7].item[9].definition    = "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.outcome.labResult"
+* item[7].item[7].item[0].linkId  = "outcome_lab_date"
+* item[7].item[7].item[0].text    = "Date of last test:"
+* item[7].item[7].item[0].type    = #date
+* item[7].item[7].item[0].definition    = "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.outcome.lab.date"
 
-* item[7].item[10].linkId  = "outcome_contacts_followed"
-* item[7].item[10].text    = "Total number of contacts followed for this case:"
-* item[7].item[10].type    = #integer
-* item[7].item[10].definition    = "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.outcome.contactsFollowed"
+* item[7].item[7].item[1].linkId  = "outcome_lab_result"
+* item[7].item[7].item[1].text    = "Results of last test:"
+* item[7].item[7].item[1].type    = #choice
+* item[7].item[7].item[1].answerValueSet = Canonical(WhoCrValueSetTestResult)
+* item[7].item[7].item[1].definition    = "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.outcome.lab.result"
 
-* item[7].item[11].linkId  = "outcome_contacts_followed_unknown"
-* item[7].item[11].text    = "Unknown:"
-* item[7].item[11].type    = #boolean
-* item[7].item[11].definition    = "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.outcome.contactsFollowedUnknown"
+* item[7].item[8].linkId  = "outcome_contacts_followed"
+* item[7].item[8].text    = "Total number of contacts followed for this case:"
+* item[7].item[8].type    = #integer
+* item[7].item[8].definition    = "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.outcome.contactsFollowed"
+* item[7].item[8].extension[$ext-element-minValue].valueInteger = 0
+
+* item[7].item[9].linkId  = "outcome_contacts_followed_unknown"
+* item[7].item[9].text    = "Unknown:"
+* item[7].item[9].type    = #boolean 
+* item[7].item[9].definition    = "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.outcome.contactsFollowedUnknown"
 

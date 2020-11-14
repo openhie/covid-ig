@@ -23,12 +23,8 @@ jurisdiction: http://unstats.un.org/unsd/methods/m49/m49.htm#001
 # experimental: true
 dependencies:
   hl7.fhir.us.core: current
+  hl7.fhir.uv.sdc: current
 #  covid19 : current
-
-# ╭─────────────────────────────────────────────ig.ini─────────────────────────────────────────────╮
-# │  To use a provided ig-data/ig.ini file, delete the "template" property below.                  │
-# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-template: who.fhir.template
 
 # ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
 # │  To use a provided ig-data/input/includes/menu.xml file, delete the "menu" property below.     │
@@ -45,17 +41,3 @@ menu:
   # StructureDefinition/oncology-AverageCEP17SignalsPerCell-model:
   #   name: oncology-AverageCEP17SignalsPerCell-model
   #   description: "TODO too"    
-
-# ╭───────────────────────────────────────package-list.json────────────────────────────────────────╮
-# │  To control the package-list.json using this config, uncomment and set the "history" property. │
-# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-history:
-   current: http://www.example.com/fhir/cr/covid19
-#   0.10.0:
-#     date: 2020-08-31
-#     desc: Official v0.10.0 release
-#     path: http://www.example.com/fhir/cr/covid19
-#     status: draft
-#     sequence: Drafts
-#     fhirversion: 4.0.1
-#     current: true
