@@ -68,7 +68,7 @@ Usage: #definition
 * item[4].item[3].item[0].text    = "Country:"
 * item[4].item[3].item[0].type    = #open-choice
 * item[4].item[3].item[0].answerValueSet    = Canonical(WhoCrValueSetAdmin0)
-* item[4].item[3].item[0].definition    = "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.patientInfo.identified.admin0"
+* item[4].item[3].item[0].definition    = "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.patientInfo.identified.country"
 // * item[4].item[3].item[0].item[0].extension[0].url = $struct-variable
 // * item[4].item[3].item[0].item[0].extension[0].valueExpression.name = "patinfo_idadmin0"
 // * item[4].item[3].item[0].item[0].extension[0].valueExpression.language = "text/fhirpath"
@@ -78,7 +78,7 @@ Usage: #definition
 * item[4].item[3].item[0].item[0].text    = "Admin Level 1 (province):"
 * item[4].item[3].item[0].item[0].type    = #open-choice
 * item[4].item[3].item[0].item[0].answerValueSet    = Canonical(WhoCrValueSetAdmin1)
-* item[4].item[3].item[0].item[0].definition    = "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.patientInfo.identified.admin1"
+* item[4].item[3].item[0].item[0].definition    = "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.patientInfo.identified.subnational"
 * item[4].item[3].item[0].item[0].enableWhen[0].question = "patinfo_idadmin0"
 * item[4].item[3].item[0].item[0].enableWhen[0].operator = #exists
 * item[4].item[3].item[0].item[0].enableWhen[0].answerBoolean = true
@@ -95,7 +95,7 @@ Usage: #definition
 * item[4].item[4].item[0].type    = #open-choice
 * item[4].item[4].item[0].code    = $LNC#77983-5
 * item[4].item[4].item[0].answerValueSet    = Canonical(WhoCrValueSetAdmin0)
-* item[4].item[4].item[0].definition    = "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.patientInfo.residence.admin0"
+* item[4].item[4].item[0].definition    = "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.patientInfo.residence.country"
 
 * item[5].linkId  = "section_clinical_status"
 * item[5].prefix  = "Section 2"

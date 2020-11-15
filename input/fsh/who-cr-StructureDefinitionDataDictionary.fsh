@@ -101,8 +101,8 @@ Usage: #definition
 
 * differential.element[3].id = "WhoCrSurveillanceDataDictionary.report.country"
 * differential.element[3].path = "WhoCrSurveillanceDataDictionary.report.country"
-* differential.element[3].short = "Reporting country"
-* differential.element[3].definition = "Country/territory/national boundary within which the case currently/usually resides.\nIf transborders or international spread of outbreak"
+* differential.element[3].short = "Reporting country (admin level 0)"
+* differential.element[3].definition = "Country/territory/national boundary (admin level 0) within which the case currently/usually resides.\nIf transborders or international spread of outbreak"
 * differential.element[3].type.code = #CodeableConcept
 * differential.element[3].binding.valueSet = Canonical(WhoCrValueSetAdmin0)
 * differential.element[3].binding.strength = #extensible
@@ -286,10 +286,10 @@ Usage: #definition
 * differential.element[10].mapping[6].identity = "SNOMED"
 * differential.element[10].mapping[6].map = "TODO"
 
-* differential.element[11].id = "WhoCrSurveillanceDataDictionary.patientInfo.identified.admin0"
-* differential.element[11].path = "WhoCrSurveillanceDataDictionary.patientInfo.identified.admin0"
-* differential.element[11].short = "Where the case was diagnosed, admin level 0 (country)"
-* differential.element[11].definition = "Administrative level 0: Country where the case was diagnosed."
+* differential.element[11].id = "WhoCrSurveillanceDataDictionary.patientInfo.identified.country"
+* differential.element[11].path = "WhoCrSurveillanceDataDictionary.patientInfo.identified.country"
+* differential.element[11].short = "Country (admin level 0) where the case was diagnosed"
+* differential.element[11].definition = "Country (administrative level 0) where the case was diagnosed."
 * differential.element[11].type.code = #CodeableConcept
 * differential.element[11].binding.valueSet = Canonical(WhoCrValueSetAdmin0)
 * differential.element[11].binding.strength = #extensible
@@ -310,10 +310,10 @@ Usage: #definition
 * differential.element[11].mapping[6].identity = "SNOMED"
 * differential.element[11].mapping[6].map = "TODO"
 
-* differential.element[12].id = "WhoCrSurveillanceDataDictionary.patientInfo.identified.admin1"
-* differential.element[12].path = "WhoCrSurveillanceDataDictionary.patientInfo.identified.admin1"
-* differential.element[12].short = "Where the case was diagnosed, admin level 1 (country)"
-* differential.element[12].definition = "Administrative level 1: First sub-national boundary (e.g. province, state, territory prefecture, region, etc.) where the case was diagnosed."
+* differential.element[12].id = "WhoCrSurveillanceDataDictionary.patientInfo.identified.subnational"
+* differential.element[12].path = "WhoCrSurveillanceDataDictionary.patientInfo.identified.subnational"
+* differential.element[12].short = "Province, state, canton, etc. (admin level 1) where the case was diagnosed."
+* differential.element[12].definition = "First sub-national boundary (e.g. province, state, territory, prefecture, region, etc.) (administrative level 1) where the case was diagnosed."
 * differential.element[12].type.code = #CodeableConcept
 * differential.element[12].binding.valueSet = Canonical(WhoCrValueSetAdmin1)
 * differential.element[12].binding.strength = #extensible
@@ -356,10 +356,10 @@ Usage: #definition
 * differential.element[13].mapping[6].identity = "SNOMED"
 * differential.element[13].mapping[6].map = "TODO"
 
-* differential.element[14].id = "WhoCrSurveillanceDataDictionary.patientInfo.residence.admin0"
-* differential.element[14].path = "WhoCrSurveillanceDataDictionary.patientInfo.residence.admin0"
-* differential.element[14].short = "Place of residence admin level 0"
-* differential.element[14].definition = "Administrative level 0: Country within which the case's currently/usually resides."
+* differential.element[14].id = "WhoCrSurveillanceDataDictionary.patientInfo.residence.country"
+* differential.element[14].path = "WhoCrSurveillanceDataDictionary.patientInfo.residence.country"
+* differential.element[14].short = "Country (admin level 0) of residence"
+* differential.element[14].definition = "Country (administrative level 0) within which the case's currently/usually resides."
 * differential.element[14].type.code = #CodeableConcept
 * differential.element[14].binding.valueSet = Canonical(WhoCrValueSetAdmin0)
 * differential.element[14].binding.strength = #extensible
