@@ -59,7 +59,6 @@ Description: "Submission Completion Status"
     "Partial" 
     "Partially complete"
 
-
 ValueSet: WhoCrValueSetReasonForCovid19Testing
 Title: "Reason for Covid-19 Testing"
 Description: "TODO"
@@ -111,11 +110,6 @@ Title: "Report Submitted Yes/No/Partial"
 Description: "Report Submitted Yes/No/Partial"
 * codes from system $cs-v2-0136 // yes/no
 * codes from system WhoCrCodeSystemSubmissionCompletion
-
-ValueSet: WhoCrValueSetAdmin0
-Title: "List of Administrative Level 0 Names (Countries)"
-Description: "List of Administrative Level 0 Names (Countries)"
-* codes from valueset $vs-iso3166-1-2
 
 ValueSet: WhoCrValueSetAdmin1
 Title: "List of Administrative Level 1 Names (Province/State/Canton)"

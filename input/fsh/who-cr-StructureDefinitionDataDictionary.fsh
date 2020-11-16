@@ -6,7 +6,7 @@ Usage: #definition
 
 * insert PublisherContext
 * name = "WhoCrSurveillanceDataDictionary" // computer ready name
-* url = "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrSurveillanceDataDictionary"
+* url = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary"
 * version = "0.1.0"
 * kind = #logical
 * abstract = false
@@ -104,7 +104,7 @@ Usage: #definition
 * differential.element[3].short = "Reporting country (admin level 0)"
 * differential.element[3].definition = "Country/territory/national boundary (admin level 0) within which the case currently/usually resides.\nIf transborders or international spread of outbreak"
 * differential.element[3].type.code = #CodeableConcept
-* differential.element[3].binding.valueSet = Canonical(WhoCrValueSetAdmin0)
+* differential.element[3].binding.valueSet = Canonical($vs-iso3166-1-2)
 * differential.element[3].binding.strength = #extensible
 * differential.element[3].min = 0
 * differential.element[3].max = "1"
@@ -291,7 +291,7 @@ Usage: #definition
 * differential.element[11].short = "Country (admin level 0) where the case was diagnosed"
 * differential.element[11].definition = "Country (administrative level 0) where the case was diagnosed."
 * differential.element[11].type.code = #CodeableConcept
-* differential.element[11].binding.valueSet = Canonical(WhoCrValueSetAdmin0)
+* differential.element[11].binding.valueSet = Canonical($vs-iso3166-1-2)
 * differential.element[11].binding.strength = #extensible
 * differential.element[11].min = 0
 * differential.element[11].max = "1"
@@ -315,7 +315,7 @@ Usage: #definition
 * differential.element[12].short = "Province, state, canton, etc. (admin level 1) where the case was diagnosed."
 * differential.element[12].definition = "First sub-national boundary (e.g. province, state, territory, prefecture, region, etc.) (administrative level 1) where the case was diagnosed."
 * differential.element[12].type.code = #CodeableConcept
-* differential.element[12].binding.valueSet = Canonical(WhoCrValueSetAdmin1)
+* differential.element[12].binding.valueSet = Canonical($vs-iso3166-2)
 * differential.element[12].binding.strength = #extensible
 * differential.element[12].min = 0
 * differential.element[12].max = "1"
@@ -361,7 +361,7 @@ Usage: #definition
 * differential.element[14].short = "Country (admin level 0) of residence"
 * differential.element[14].definition = "Country (administrative level 0) within which the case's currently/usually resides."
 * differential.element[14].type.code = #CodeableConcept
-* differential.element[14].binding.valueSet = Canonical(WhoCrValueSetAdmin0)
+* differential.element[14].binding.valueSet = Canonical($vs-iso3166-1-2)
 * differential.element[14].binding.strength = #extensible
 * differential.element[14].min = 0
 * differential.element[14].max = "1"
@@ -1115,7 +1115,7 @@ Usage: #definition
 * differential.element[47].short = "Healthcare worker country"
 * differential.element[47].definition = "If case is a healthcare worker, in which country do they work?"
 * differential.element[47].type.code = #CodeableConcept
-* differential.element[47].binding.valueSet = Canonical(WhoCrValueSetAdmin0)
+* differential.element[47].binding.valueSet = Canonical($vs-iso3166-1-2)
 * differential.element[47].binding.strength = #extensible
 * differential.element[47].min = 0
 * differential.element[47].max = "1"
@@ -1252,7 +1252,7 @@ Usage: #definition
 * differential.element[53].definition = "Specify country of travel for this location"
 * differential.element[53].type.code = #CodeableConcept
 * differential.element[53].code = $LNC#94651-7
-* differential.element[53].binding.valueSet = Canonical(WhoCrValueSetAdmin0)
+* differential.element[53].binding.valueSet = Canonical($vs-iso3166-1-2)
 * differential.element[53].binding.strength = #extensible
 * differential.element[53].min = 0
 * differential.element[53].max = "1"
@@ -1505,7 +1505,7 @@ Usage: #definition
 * differential.element[64].short = "Likely country for exposure to case?"
 * differential.element[64].definition = "Specify the location of possible exposure to a case"
 * differential.element[64].type.code = #CodeableConcept
-* differential.element[64].binding.valueSet = Canonical(WhoCrValueSetAdmin0)
+* differential.element[64].binding.valueSet = Canonical($vs-iso3166-1-2)
 * differential.element[64].binding.strength = #extensible
 * differential.element[64].min = 0
 * differential.element[64].max = "1"
