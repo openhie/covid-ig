@@ -248,3 +248,46 @@ Usage: #definition
 * group[0].element[2].target[0].equivalence = #equal
 
 
+Instance: WhoCrConceptMapComorbidityToCiel
+InstanceOf: ConceptMap
+Description: "Patient Comorbidities Concept Map To CIEL"
+Title: "Patient Comorbidities Concept Map To CIEL" // user-friendly name
+Usage: #definition
+
+* insert PublisherContext
+* name = "WhoCrConceptMapComorbidityToCIEL"
+* sourceCanonical = Canonical(WhoCrCodeSystemComorbidity)
+* targetUri = $CIEL
+* group[0].source = Canonical(WhoCrCodeSystemComorbidity)
+* group[0].target = $CIEL
+
+* group[0].element[0].code = #PREGNANCY
+* group[0].element[0].target[0].code = $LNC#82810-3
+* group[0].element[0].target[0].equivalence = #relatedto
+* group[0].element[0].code = #POSTPARTUM
+* group[0].element[0].target[0].code = #TODO
+* group[0].element[0].target[0].equivalence = #relatedto
+* group[0].element[0].code = #IMMUNODEFICIENCY
+* group[0].element[0].target[0].code = #TODO
+* group[0].element[0].target[0].equivalence = #relatedto
+* group[0].element[0].code = #CARDIOVASCULAR
+* group[0].element[0].target[0].code = #TODO
+* group[0].element[0].target[0].equivalence = #relatedto
+* group[0].element[0].code = #DIABETES
+* group[0].element[0].target[0].code = #TODO
+* group[0].element[0].target[0].equivalence = #relatedto
+* group[0].element[0].code = #HEPATOPATHY
+* group[0].element[0].target[0].code = #TODO
+* group[0].element[0].target[0].equivalence = #relatedto
+* group[0].element[0].code = #RENOPATHY
+* group[0].element[0].target[0].code = #TODO
+* group[0].element[0].target[0].equivalence = #relatedto
+* group[0].element[0].code = #CHRONICNEUROPATHY
+* group[0].element[0].target[0].code = #TODO
+* group[0].element[0].target[0].equivalence = #relatedto
+* group[0].element[0].code = #MALIGNANCY
+* group[0].element[0].target[0].code = #TODO
+* group[0].element[0].target[0].equivalence = #relatedto
+* group[0].element[0].code = #CHRONICLUNG
+* group[0].element[0].target[0].code = #TODO
+* group[0].element[0].target[0].equivalence = #relatedto

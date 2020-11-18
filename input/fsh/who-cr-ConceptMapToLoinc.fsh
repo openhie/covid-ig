@@ -160,3 +160,47 @@ Usage: #definition
 * group[0].element[0].target[0].equivalence = #relatedto
 
 
+Instance: WhoCrConceptMapComorbidityToLoinc
+InstanceOf: ConceptMap
+Description: "Patient Comorbidities Concept Map To LOINC"
+Title: "Patient Comorbidities Concept Map To LOINC" // user-friendly name
+Usage: #definition
+
+* insert PublisherContext
+* name = "WhoCrConceptMapComorbidityToLoinc"
+* sourceCanonical = Canonical(WhoCrCodeSystemComorbidity)
+* targetUri = $LNC
+* group[0].source = Canonical(WhoCrCodeSystemComorbidity)
+* group[0].target = $LNC
+
+* group[0].element[0].code = #PREGNANCY
+* group[0].element[0].target[0].code = $CIEL#1434
+* group[0].element[0].target[0].equivalence = #relatedto
+* group[0].element[0].code = #POSTPARTUM
+* group[0].element[0].target[0].code = $CIEL#129317
+* group[0].element[0].target[0].equivalence = #relatedto
+* group[0].element[0].code = #IMMUNODEFICIENCY
+* group[0].element[0].target[0].code = #117277
+* group[0].element[0].target[0].equivalence = #relatedto
+* group[0].element[0].code = #CARDIOVASCULAR
+* group[0].element[0].target[0].code = #119270
+* group[0].element[0].target[0].equivalence = #relatedto
+* group[0].element[0].code = #DIABETES
+* group[0].element[0].target[0].code = #119481
+* group[0].element[0].target[0].equivalence = #relatedto
+* group[0].element[0].code = #HEPATOPATHY
+* group[0].element[0].target[0].code = #6032
+* group[0].element[0].target[0].equivalence = #relatedto
+* group[0].element[0].code = #RENOPATHY
+* group[0].element[0].target[0].code = #6033
+* group[0].element[0].target[0].equivalence = #relatedto
+* group[0].element[0].code = #CHRONICNEUROPATHY
+* group[0].element[0].target[0].code = #165646
+* group[0].element[0].target[0].equivalence = #relatedto
+* group[0].element[0].code = #MALIGNANCY
+* group[0].element[0].target[0].code = #116031
+* group[0].element[0].target[0].equivalence = #relatedto
+* group[0].element[0].code = #CHRONICLUNG
+* group[0].element[0].target[0].code = #155569
+* group[0].element[0].target[0].equivalence = #relatedto
+

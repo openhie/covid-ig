@@ -39,6 +39,40 @@ Description: "Patient Outcome"
     "Other"
     "Other"
 
+CodeSystem: WhoCrCodeSystemComorbidity
+Title: "Patient Comorbidity"
+Description: "Patient Comorbidity"
+* #PREGNANCY
+    "Pregnant"
+    "Patient is pregnant"
+* #POSTPARTUM
+    "Post-partum"
+    "Patient is in the post-partum period defined as less than 6 weeks after delivery date"
+* #IMMUNODEFICIENCY
+    "Immunodeficiency"
+    "Patient has an acquired immunodeficiency (HIV) or is treated with drugs that decrease immune response (corticoides, anti-cancer chemotherapy)"
+* #CARDIOVASCULAR
+    "Cardiovascular disease"
+    "Patient has any cardiovascular disease, including hypertension"
+* #DIABETES
+    "Diabetes"
+    "Patient is diabetic"
+* #HEPATOPATHY
+    "Liver Disease"
+    "Patient has any liver diseases"
+* #RENOPATHY
+    "Kidney Disease"
+    "Patient has any renal disease"
+* #CHRONICNEUROPATHY
+    "Chronic neurological or neuromuscular disease"
+    "Patient has chronic neurological or neuromuscular disease"
+* #MALIGNANCY
+    "Malignancy"
+    "Patient has any malignancy"
+* #CHRONICLUNG
+    "Chronic Lung Disease"
+    "Patient has a chronic lung disease"
+
 CodeSystem: WhoCrCodeSystemPregnancyTrimester
 Title: "Pregnancy Trimester"
 Description: "Pregnancy Trimester"
@@ -92,6 +126,11 @@ ValueSet: WhoCrValueSetPregnancyTrimester
 Title: "Pregnancy Trimester"
 Description: "Pregnancy Trimester"
 * codes from system WhoCrCodeSystemPregnancyTrimester
+
+ValueSet: WhoCrValueSetComorbidity
+Title: "Comorbidity"
+Description: "Comorbidity"
+* codes from system WhoCrCodeSystemComorbidity
 
 ValueSet: WhoCrValueSetPatientOutcome
 Title: "Patient Outcome"

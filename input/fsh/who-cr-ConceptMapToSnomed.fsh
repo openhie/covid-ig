@@ -160,3 +160,19 @@ Usage: #definition
 * group[0].element[0].target[0].equivalence = #relatedto
 
 
+Instance: WhoCrConceptMapComorbidityToSnomed
+InstanceOf: ConceptMap
+Description: "Patient Comorbidities Concept Map To SNOMED CT"
+Title: "Patient Comorbidities Concept Map To SNOMED CT" // user-friendly name
+Usage: #definition
+
+* insert PublisherContext
+* name = "WhoCrConceptMapComorbidityToSnomed"
+* sourceCanonical = Canonical(WhoCrCodeSystemComorbidity)
+* targetUri = $SCT
+* group[0].source = Canonical(WhoCrCodeSystemComorbidity)
+* group[0].target = $SCT
+
+* group[0].element[0].code = #TODO
+* group[0].element[0].target[0].code = #TODO
+* group[0].element[0].target[0].equivalence = #relatedto

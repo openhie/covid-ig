@@ -8,3 +8,4 @@
 /.vscode
 /SUSHI-GENERATED-FILES.md
 /fsh-generated
+*.code-workspace

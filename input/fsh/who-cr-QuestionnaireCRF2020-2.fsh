@@ -124,85 +124,39 @@ Usage: #definition
 * item[5].item[2].text    = "Underlying conditions and comorbidity:"
 * item[5].item[2].type    = #group
 
-* item[5].item[2].item[0].linkId  = "Comcond_present"
+* item[5].item[2].item[0].linkId  = "Comcond_any"
 * item[5].item[2].item[0].text    = "Any underlying conditions?"
 * item[5].item[2].item[0].type    = #choice
 * item[5].item[2].item[0].code    = $LNC#75618-9
 * item[5].item[2].item[0].answerValueSet = Canonical(WhoCrValueSetYesNoUnk)
-* item[5].item[2].item[0].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.clinicalStatus.comorbidities.present"
+* item[5].item[2].item[0].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.clinicalStatus.comorbidities.any"
 
 * item[5].item[2].item[1].linkId  = "section_comorb_list"
 * item[5].item[2].item[1].text    = "If yes, select all that apply:"
 * item[5].item[2].item[1].type    = #group
-* item[5].item[2].item[1].enableWhen[0].question = "Comcond_present"
+* item[5].item[2].item[1].enableWhen[0].question = "Comcond_any"
 * item[5].item[2].item[1].enableWhen[0].operator = #=
 * item[5].item[2].item[1].enableWhen[0].answerCoding = $cs-v2-0136#Y
+* item[5].item[2].item[1].extension[$ext-variable].valueExpression.name = "isPregnant"
+* item[5].item[2].item[1].extension[$ext-variable].valueExpression.language = #text/fhirpath
+* item[5].item[2].item[1].extension[$ext-variable].valueExpression.expression = "%context.children.exists(answer.code = http://openhie.github.io/covid-19/StructureDefinition/WhoCrCodeSystemComorbidity#PREGNANCY)"
 
-* item[5].item[2].item[1].item[0].linkId  = "Comcond_preg"
-* item[5].item[2].item[1].item[0].text    = "Pregnancy"
-* item[5].item[2].item[1].item[0].type    = #boolean
-* item[5].item[2].item[1].item[0].code    = $LNC#82810-3
-* item[5].item[2].item[1].item[0].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.clinicalStatus.comorbidities.pregnant"
+* item[5].item[2].item[1].item[0].linkId  = "comorbidity"
+* item[5].item[2].item[1].item[0].text    = "Comorbidity or condition present"
+* item[5].item[2].item[1].item[0].repeats = true
+* item[5].item[2].item[1].item[0].type    = #open-choice
+* item[5].item[2].item[1].item[0].answerValueSet = Canonical(WhoCrValueSetComorbidity)
+* item[5].item[2].item[1].item[0].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.clinicalStatus.comorbidities.present"
 
-* item[5].item[2].item[1].item[0].item[0].linkId  = "Comcond_pregt"
-* item[5].item[2].item[1].item[0].item[0].text    = "Trimester of pregnancy"
-* item[5].item[2].item[1].item[0].item[0].type    = #choice
-* item[5].item[2].item[1].item[0].item[0].code    = $LNC#32418-6
-* item[5].item[2].item[1].item[0].item[0].answerValueSet = Canonical(WhoCrValueSetPregnancyTrimester)
-* item[5].item[2].item[1].item[0].item[0].enableWhen[0].question = "Comcond_preg"
-* item[5].item[2].item[1].item[0].item[0].enableWhen[0].operator = #=
-* item[5].item[2].item[1].item[0].item[0].enableWhen[0].answerBoolean = true
-* item[5].item[2].item[1].item[0].item[0].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.clinicalStatus.comorbidities.pregnantTrimester"
-
-* item[5].item[2].item[1].item[1].linkId  = "Comcond_partum"
-* item[5].item[2].item[1].item[1].text    = "Post-partum (< 6 weeks)"
-* item[5].item[2].item[1].item[1].type    = #boolean
-* item[5].item[2].item[1].item[1].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.clinicalStatus.comorbidities.postpartum"
-
-* item[5].item[2].item[1].item[2].linkId  = "Comcond_immuno"
-* item[5].item[2].item[1].item[2].text    = "Immunodeficiency including HIV"
-* item[5].item[2].item[1].item[2].type    = #boolean
-* item[5].item[2].item[1].item[2].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.clinicalStatus.comorbidities.immunodeficiency"
-
-* item[5].item[2].item[1].item[3].linkId  = "Comcond_cardi"
-* item[5].item[2].item[1].item[3].text    = "Cardiovacsular disease including hypertension"
-* item[5].item[2].item[1].item[3].type    = #boolean
-* item[5].item[2].item[1].item[3].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.clinicalStatus.comorbidities.cardiovacsular"
-
-* item[5].item[2].item[1].item[4].linkId  = "Comcond_diabetes"
-* item[5].item[2].item[1].item[4].text    = "Diabetes"
-* item[5].item[2].item[1].item[4].type    = #boolean
-* item[5].item[2].item[1].item[4].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.clinicalStatus.comorbidities.diabetes"
-
-* item[5].item[2].item[1].item[5].linkId  = "Comcond_liver"
-* item[5].item[2].item[1].item[5].text    = "Liver disease"
-* item[5].item[2].item[1].item[5].type    = #boolean
-* item[5].item[2].item[1].item[5].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.clinicalStatus.comorbidities.liver"
-
-* item[5].item[2].item[1].item[6].linkId  = "Comcond_renal"
-* item[5].item[2].item[1].item[6].text    = "Renal disease"
-* item[5].item[2].item[1].item[6].type    = #boolean
-* item[5].item[2].item[1].item[6].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.clinicalStatus.comorbidities.renal"
-
-* item[5].item[2].item[1].item[7].linkId  = "Comcond_neuro"
-* item[5].item[2].item[1].item[7].text    = "Chronic neurological or neuromuscular disease"
-* item[5].item[2].item[1].item[7].type    = #boolean
-* item[5].item[2].item[1].item[7].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.clinicalStatus.comorbidities.neuro"
-
-* item[5].item[2].item[1].item[8].linkId  = "Comcond_malig"
-* item[5].item[2].item[1].item[8].text    = "Malignancy"
-* item[5].item[2].item[1].item[8].type    = #boolean
-* item[5].item[2].item[1].item[8].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.clinicalStatus.comorbidities.malignancy"
-
-* item[5].item[2].item[1].item[9].linkId  = "Comcond_lung"
-* item[5].item[2].item[1].item[9].text    = "Chronic lung disease"
-* item[5].item[2].item[1].item[9].type    = #boolean
-* item[5].item[2].item[1].item[9].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.clinicalStatus.comorbidities.lung"
-
-* item[5].item[2].item[1].item[10].linkId  = "Comcond_other"
-* item[5].item[2].item[1].item[10].text    = "Other, please specify:"
-* item[5].item[2].item[1].item[10].type    = #string
-* item[5].item[2].item[1].item[10].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.clinicalStatus.comorbidities.other"
+* item[5].item[2].item[1].item[1].linkId  = "Comcond_pregt"
+* item[5].item[2].item[1].item[1].text    = "Trimester of pregnancy"
+* item[5].item[2].item[1].item[1].type    = #choice
+* item[5].item[2].item[1].item[1].code    = $LNC#32418-6
+* item[5].item[2].item[1].item[1].answerValueSet = Canonical(WhoCrValueSetPregnancyTrimester)
+* item[5].item[2].item[1].item[1].enableWhen[0].question = "Comcond_any"
+* item[5].item[2].item[1].item[1].enableWhen[0].operator = #=
+* item[5].item[2].item[1].item[1].enableWhen[0].answerBoolean = true
+* item[5].item[2].item[1].item[1].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.clinicalStatus.comorbidities.pregnantTrimester"
 
 * item[5].item[2].item[2].linkId  = "section_health_status"
 * item[5].item[2].item[2].text    = "Health Status at time of Reporting:"
