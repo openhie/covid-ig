@@ -160,3 +160,19 @@ Usage: #definition
 * group[0].element[0].target[0].equivalence = #relatedto
 
 
+Instance: WhoCrConceptMapComorbidityToIcd11
+InstanceOf: ConceptMap
+Description: "Patient Comorbidities Concept Map To ICD-11"
+Title: "Patient Comorbidities Concept Map To ICD-11" // user-friendly name
+Usage: #definition
+
+* insert PublisherContext
+* name = "WhoCrConceptMapComorbidityToIcd11"
+* sourceCanonical = Canonical(WhoCrCodeSystemComorbidity)
+* targetUri = $ICD11
+* group[0].source = Canonical(WhoCrCodeSystemComorbidity)
+* group[0].target = $ICD11
+
+* group[0].element[0].code = #TODO
+* group[0].element[0].target[0].code = #TODO
+* group[0].element[0].target[0].equivalence = #relatedto

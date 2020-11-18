@@ -39,6 +39,40 @@ Description: "Patient Outcome"
     "Other"
     "Other"
 
+CodeSystem: WhoCrCodeSystemComorbidity
+Title: "Patient Comorbidity"
+Description: "Patient Comorbidity"
+* #PREGNANCY
+    "Pregnant"
+    "Patient is pregnant"
+* #POSTPARTUM
+    "Post-partum"
+    "Patient is in the post-partum period defined as less than 6 weeks after delivery date"
+* #IMMUNODEFICIENCY
+    "Immunodeficiency"
+    "Patient has an acquired immunodeficiency (HIV) or is treated with drugs that decrease immune response (corticoides, anti-cancer chemotherapy)"
+* #CARDIOVASCULAR
+    "Cardiovascular disease"
+    "Patient has any cardiovascular disease, including hypertension"
+* #DIABETES
+    "Diabetes"
+    "Patient is diabetic"
+* #HEPATOPATHY
+    "Liver Disease"
+    "Patient has any liver diseases"
+* #RENOPATHY
+    "Kidney Disease"
+    "Patient has any renal disease"
+* #CHRONICNEUROPATHY
+    "Chronic neurological or neuromuscular disease"
+    "Patient has chronic neurological or neuromuscular disease"
+* #MALIGNANCY
+    "Malignancy"
+    "Patient has any malignancy"
+* #CHRONICLUNG
+    "Chronic Lung Disease"
+    "Patient has a chronic lung disease"
+
 CodeSystem: WhoCrCodeSystemPregnancyTrimester
 Title: "Pregnancy Trimester"
 Description: "Pregnancy Trimester"
@@ -58,7 +92,6 @@ Description: "Submission Completion Status"
 * #partial 
     "Partial" 
     "Partially complete"
-
 
 ValueSet: WhoCrValueSetReasonForCovid19Testing
 Title: "Reason for Covid-19 Testing"
@@ -94,6 +127,11 @@ Title: "Pregnancy Trimester"
 Description: "Pregnancy Trimester"
 * codes from system WhoCrCodeSystemPregnancyTrimester
 
+ValueSet: WhoCrValueSetComorbidity
+Title: "Comorbidity"
+Description: "Comorbidity"
+* codes from system WhoCrCodeSystemComorbidity
+
 ValueSet: WhoCrValueSetPatientOutcome
 Title: "Patient Outcome"
 Description: "Patient Outcome"
@@ -111,11 +149,6 @@ Title: "Report Submitted Yes/No/Partial"
 Description: "Report Submitted Yes/No/Partial"
 * codes from system $cs-v2-0136 // yes/no
 * codes from system WhoCrCodeSystemSubmissionCompletion
-
-ValueSet: WhoCrValueSetAdmin0
-Title: "List of Administrative Level 0 Names (Countries)"
-Description: "List of Administrative Level 0 Names (Countries)"
-* codes from valueset $vs-iso3166-1-2
 
 ValueSet: WhoCrValueSetAdmin1
 Title: "List of Administrative Level 1 Names (Province/State/Canton)"
