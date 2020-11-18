@@ -28,7 +28,7 @@ jobs:
           docker run \
             -v $(pwd):/home/publisher/ig \
             hl7fhir/ig-publisher-base \
-            sh -c "sushi && yes | ./_updatePublisher.sh && ./_genonce.sh -no-sushi"
+            sh -c "sushi && yes | _updatePublisher.sh && _genonce.sh -no-sushi"
 
       - name: Move to output to docs subdirectory
         run: |
