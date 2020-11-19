@@ -28,7 +28,7 @@ jobs:
           docker run \
             -v $(pwd):/home/publisher/ig \
             hl7fhir/ig-publisher-base \
-            sh -c "ping tx.fhir.org -4 -c 1 -w 1000 && ./_updatePublisher.sh && _genonce.sh"
+            sh -c "ls && ping tx.fhir.org -4 -c 1 -w 1000 && ./_updatePublisher.sh && _genonce.sh"
 
       - name: Move to output to docs subdirectory
         run: |
