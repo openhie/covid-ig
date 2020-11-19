@@ -28,7 +28,7 @@ jobs:
           docker run --cap-add CAP_NET_RAW \
             -v $(pwd):/home/publisher/ig \
             hl7fhir/ig-publisher-base \
-            sh -c "curl --get -I https://www.cbc.ca && ./_updatePublisher.sh && _genonce.sh"
+            sh -c "whoami && ls -l `which ping` && ./_updatePublisher.sh && _genonce.sh"
 
       - name: Move to output to docs subdirectory
         run: |
