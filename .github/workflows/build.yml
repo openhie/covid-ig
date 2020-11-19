@@ -25,7 +25,7 @@ jobs:
 
       - name: Build Implementation Guide
         run: |
-          docker run --privileged \
+          docker run --cap-add CAP_NET_RAWIO \
             -v $(pwd):/home/publisher/ig \
             hl7fhir/ig-publisher-base \
             sh -c "ping -4 -c 1 www.cbc.ca && ./_updatePublisher.sh && _genonce.sh"
