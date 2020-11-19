@@ -28,7 +28,7 @@ jobs:
           docker run \
             -v $(pwd):/home/publisher/ig \
             hl7fhir/ig-publisher-base \
-            sh -c "sleep 10 && ./_updatePublisher.sh && _genonce.sh"
+            sh -c "sleep 60 && ./_updatePublisher.sh && _genonce.sh"
 
       - name: Move to output to docs subdirectory
         run: |
