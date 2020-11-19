@@ -25,10 +25,10 @@ jobs:
 
       - name: Build Implementation Guide
         run: |
-          docker run --cap-add CAP_NET_RAW \
+          docker run \
             -v $(pwd):/home/publisher/ig \
             hl7fhir/ig-publisher-base \
-            sh -c "./_updatePublisher.sh -y && _genonce.sh"
+            sh -c "pwd && ls . && ./_updatePublisher.sh -y && ./_genonce.sh"
 
       - name: Move to output to docs subdirectory
         run: |
