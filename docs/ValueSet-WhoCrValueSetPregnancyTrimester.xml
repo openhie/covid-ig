@@ -3,14 +3,14 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="WhoCrValueSetPregnancyTrimester"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-WhoCrCodeSystemPregnancyTrimester.html"><code>http://www.example.com/fhir/cr/covid19/CodeSystem/WhoCrCodeSystemPregnancyTrimester</code></a></li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-WhoCrCodeSystemPregnancyTrimester.html"><code>http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemPregnancyTrimester</code></a></li></ul></div>
   </text>
-  <url value="http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetPregnancyTrimester"/>
+  <url value="http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetPregnancyTrimester"/>
   <version value="0.1.0"/>
   <name value="WhoCrValueSetPregnancyTrimester"/>
   <title value="Pregnancy Trimester"/>
   <status value="active"/>
-  <date value="2020-11-08T23:18:02+00:00"/>
+  <date value="2020-11-19T22:47:13+00:00"/>
   <publisher value="OpenHIE"/>
   <contact>
     <name value="OpenHIE"/>
@@ -28,7 +28,7 @@
   </jurisdiction>
   <compose>
     <include>
-      <system value="http://www.example.com/fhir/cr/covid19/CodeSystem/WhoCrCodeSystemPregnancyTrimester"/>
+      <system value="http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemPregnancyTrimester"/>
     </include>
   </compose>
 </ValueSet>

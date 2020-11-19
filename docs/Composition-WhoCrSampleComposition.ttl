@@ -6,14 +6,14 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://www.example.com/fhir/cr/covid19/Composition/WhoCrSampleComposition> a fhir:Composition;
+<http://openhie.github.io/covid-19/Composition/WhoCrSampleComposition> a fhir:Composition;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "WhoCrSampleComposition"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrComposition";
+       fhir:value "http://openhie.github.io/covid-19/StructureDefinition/WhoCrComposition";
        fhir:index 0;
-       fhir:link <http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrComposition>
+       fhir:link <http://openhie.github.io/covid-19/StructureDefinition/WhoCrComposition>
      ]
   ];
   fhir:DomainResource.text [
@@ -39,13 +39,13 @@
      ]
   ];
   fhir:Composition.subject [
-     fhir:link <http://www.example.com/fhir/cr/covid19/Patient/WhoCrSamplePatient>;
+     fhir:link <http://openhie.github.io/covid-19/Patient/WhoCrSamplePatient>;
      fhir:Reference.reference [ fhir:value "Patient/WhoCrSamplePatient" ]
   ];
   fhir:Composition.date [ fhir:value "2020-08-21"^^xsd:date];
   fhir:Composition.author [
      fhir:index 0;
-     fhir:link <http://www.example.com/fhir/cr/covid19/Patient/WhoCrSamplePatient>;
+     fhir:link <http://openhie.github.io/covid-19/Patient/WhoCrSamplePatient>;
      fhir:Reference.reference [ fhir:value "Patient/WhoCrSamplePatient" ]
   ];
   fhir:Composition.title [ fhir:value "Revised case report form for Confirmed Novel Coronavirus COVID-19"];
@@ -60,7 +60,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://www.example.com/fhir/cr/covid19/Composition/WhoCrSampleComposition.ttl> a owl:Ontology;
+<http://openhie.github.io/covid-19/Composition/WhoCrSampleComposition.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

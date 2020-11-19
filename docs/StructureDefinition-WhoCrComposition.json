@@ -15,13 +15,13 @@
       "valueCode": "not-classified"
     }
   ],
-  "url": "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrComposition",
+  "url": "http://openhie.github.io/covid-19/StructureDefinition/WhoCrComposition",
   "version": "0.1.0",
   "name": "WhoCrComposition",
   "title": "WHO Case Reporting Composition",
   "status": "draft",
   "experimental": true,
-  "date": "2020-11-08T23:18:02+00:00",
+  "date": "2020-11-19T22:47:13+00:00",
   "publisher": "OpenHIE",
   "contact": [
     {
@@ -768,7 +768,7 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrPatient"
+              "http://openhie.github.io/covid-19/StructureDefinition/WhoCrPatient"
             ]
           }
         ],
@@ -2794,7 +2794,7 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrPatient"
+              "http://openhie.github.io/covid-19/StructureDefinition/WhoCrPatient"
             ]
           }
         ]

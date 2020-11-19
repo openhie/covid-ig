@@ -5,19 +5,19 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://www.example.com/fhir/cr/covid19/ImplementationGuide/who.cr.covid19> a fhir:ImplementationGuide;
+<http://openhie.github.io/covid-19/ImplementationGuide/who.cr.covid19> a fhir:ImplementationGuide;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "who.cr.covid19"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>WhoCrCovid19</h2><p>The official URL for this implementation guide is: </p><pre>http://www.example.com/fhir/cr/covid19/ImplementationGuide/who.cr.covid19</pre><div><p>TODO</p>\n</div></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>WhoCrCovid19</h2><p>The official URL for this implementation guide is: </p><pre>http://openhie.github.io/covid-19/ImplementationGuide/who.cr.covid19</pre><div><p>TODO</p>\n</div></div>"
   ];
-  fhir:ImplementationGuide.url [ fhir:value "http://www.example.com/fhir/cr/covid19/ImplementationGuide/who.cr.covid19"];
+  fhir:ImplementationGuide.url [ fhir:value "http://openhie.github.io/covid-19/ImplementationGuide/who.cr.covid19"];
   fhir:ImplementationGuide.version [ fhir:value "0.1.0"];
   fhir:ImplementationGuide.name [ fhir:value "WhoCrCovid19"];
   fhir:ImplementationGuide.title [ fhir:value "WHO Case Reporting for COVID-19 Surveillance"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2020-11-08T23:18:02+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2020-11-19T22:47:13+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "OpenHIE"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -168,7 +168,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "value" ];
-         fhir:Extension.valueString [ fhir:value "http://www.example.com/fhir/cr/covid19/history.html" ]
+         fhir:Extension.valueString [ fhir:value "http://openhie.github.io/covid-19/history.html" ]
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
@@ -300,7 +300,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrComposition>;
+         fhir:link <http://openhie.github.io/covid-19/StructureDefinition/WhoCrComposition>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/WhoCrComposition" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "WHO Case Reporting Composition" ];
@@ -314,7 +314,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrPatient>;
+         fhir:link <http://openhie.github.io/covid-19/StructureDefinition/WhoCrPatient>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/WhoCrPatient" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "WHO Case Reporting Patient" ];
@@ -328,11 +328,11 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetAdmin0>;
-         fhir:Reference.reference [ fhir:value "ValueSet/WhoCrValueSetAdmin0" ]
+         fhir:link <http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetAdmin1>;
+         fhir:Reference.reference [ fhir:value "ValueSet/WhoCrValueSetAdmin1" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "List of Administrative Level 0 Names (Countries)" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "List of Administrative Level 0 Names (Countries)" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "List of Administrative Level 1 Names (Province/State/Canton)" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "List of Administrative Level 1 Names (Province/State/Canton)" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 3;
@@ -342,11 +342,11 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetAdmin1>;
-         fhir:Reference.reference [ fhir:value "ValueSet/WhoCrValueSetAdmin1" ]
+         fhir:link <http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetAgeUnits>;
+         fhir:Reference.reference [ fhir:value "ValueSet/WhoCrValueSetAgeUnits" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "List of Administrative Level 1 Names (Province/State/Canton)" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "List of Administrative Level 1 Names (Province/State/Canton)" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient Age Units" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Common units of patient age" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 4;
@@ -356,11 +356,11 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetAgeUnits>;
-         fhir:Reference.reference [ fhir:value "ValueSet/WhoCrValueSetAgeUnits" ]
+         fhir:link <http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetComorbidity>;
+         fhir:Reference.reference [ fhir:value "ValueSet/WhoCrValueSetComorbidity" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient Age Units" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Common units of patient age" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Comorbidity" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Comorbidity" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 5;
@@ -370,7 +370,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetContactSetting>;
+         fhir:link <http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetContactSetting>;
          fhir:Reference.reference [ fhir:value "ValueSet/WhoCrValueSetContactSetting" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "List of Contact Settings" ];
@@ -384,7 +384,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetPatientOutcome>;
+         fhir:link <http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetPatientOutcome>;
          fhir:Reference.reference [ fhir:value "ValueSet/WhoCrValueSetPatientOutcome" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient Outcome" ];
@@ -398,7 +398,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetPregnancyTrimester>;
+         fhir:link <http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetPregnancyTrimester>;
          fhir:Reference.reference [ fhir:value "ValueSet/WhoCrValueSetPregnancyTrimester" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Pregnancy Trimester" ];
@@ -412,7 +412,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetReasonForCovid19Testing>;
+         fhir:link <http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetReasonForCovid19Testing>;
          fhir:Reference.reference [ fhir:value "ValueSet/WhoCrValueSetReasonForCovid19Testing" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Reason for Covid-19 Testing" ];
@@ -426,7 +426,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetSexAtBirth>;
+         fhir:link <http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetSexAtBirth>;
          fhir:Reference.reference [ fhir:value "ValueSet/WhoCrValueSetSexAtBirth" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient Sex at birth" ];
@@ -440,7 +440,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetSubmitted>;
+         fhir:link <http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetSubmitted>;
          fhir:Reference.reference [ fhir:value "ValueSet/WhoCrValueSetSubmitted" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Report Submitted Yes/No/Partial" ];
@@ -454,7 +454,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetTestResult>;
+         fhir:link <http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetTestResult>;
          fhir:Reference.reference [ fhir:value "ValueSet/WhoCrValueSetTestResult" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Test Result" ];
@@ -468,7 +468,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetYesNo>;
+         fhir:link <http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetYesNo>;
          fhir:Reference.reference [ fhir:value "ValueSet/WhoCrValueSetYesNo" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Yes/No" ];
@@ -482,7 +482,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetYesNoUnk>;
+         fhir:link <http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetYesNoUnk>;
          fhir:Reference.reference [ fhir:value "ValueSet/WhoCrValueSetYesNoUnk" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Yes/No/Unknown" ];
@@ -496,11 +496,11 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/CodeSystem/WhoCrCodeSystemPatientOutcome>;
-         fhir:Reference.reference [ fhir:value "CodeSystem/WhoCrCodeSystemPatientOutcome" ]
+         fhir:link <http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemComorbidity>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/WhoCrCodeSystemComorbidity" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient Outcome" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Patient Outcome" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient Comorbidity" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Patient Comorbidity" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 15;
@@ -510,11 +510,11 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/CodeSystem/WhoCrCodeSystemPregnancyTrimester>;
-         fhir:Reference.reference [ fhir:value "CodeSystem/WhoCrCodeSystemPregnancyTrimester" ]
+         fhir:link <http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemPatientOutcome>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/WhoCrCodeSystemPatientOutcome" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Pregnancy Trimester" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Pregnancy Trimester" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient Outcome" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Patient Outcome" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 16;
@@ -524,11 +524,11 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/CodeSystem/WhoCrCodeSystemReasonForTesting>;
-         fhir:Reference.reference [ fhir:value "CodeSystem/WhoCrCodeSystemReasonForTesting" ]
+         fhir:link <http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemPregnancyTrimester>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/WhoCrCodeSystemPregnancyTrimester" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Reason for Testing" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A code system of reasons to perform testing" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Pregnancy Trimester" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Pregnancy Trimester" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 17;
@@ -538,25 +538,25 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/CodeSystem/WhoCrCodeSystemSubmissionCompletion>;
-         fhir:Reference.reference [ fhir:value "CodeSystem/WhoCrCodeSystemSubmissionCompletion" ]
+         fhir:link <http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemReasonForTesting>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/WhoCrCodeSystemReasonForTesting" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Submission Completion Status" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Submission Completion Status" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Reason for Testing" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A code system of reasons to perform testing" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 18;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "ConceptMap" ]
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapPatientAgeUnitsToCiel>;
-         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapPatientAgeUnitsToCiel" ]
+         fhir:link <http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemSubmissionCompletion>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/WhoCrCodeSystemSubmissionCompletion" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient Age Units Concept Map To CIEL" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Patient Age Units Concept Map To CIEL" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Submission Completion Status" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Submission Completion Status" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 19;
@@ -566,11 +566,11 @@
          fhir:Extension.valueString [ fhir:value "ConceptMap" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapPatientAgeUnitsToIcd10>;
-         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapPatientAgeUnitsToIcd10" ]
+         fhir:link <http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapComorbidityToCiel>;
+         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapComorbidityToCiel" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient Age Units Concept Map To ICD-10" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Patient Age Units Concept Map To ICD-10" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient Comorbidities Concept Map To CIEL" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Patient Comorbidities Concept Map To CIEL" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 20;
@@ -580,11 +580,11 @@
          fhir:Extension.valueString [ fhir:value "ConceptMap" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapPatientAgeUnitsToIcd11>;
-         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapPatientAgeUnitsToIcd11" ]
+         fhir:link <http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapComorbidityToIcd10>;
+         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapComorbidityToIcd10" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient Age Units Concept Map To ICD-11" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Patient Age Units Concept Map To ICD-11" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient Comorbidities Concept Map To ICD-10" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Patient Comorbidities Concept Map To ICD-10" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 21;
@@ -594,11 +594,11 @@
          fhir:Extension.valueString [ fhir:value "ConceptMap" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapPatientAgeUnitsToLoinc>;
-         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapPatientAgeUnitsToLoinc" ]
+         fhir:link <http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapComorbidityToIcd11>;
+         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapComorbidityToIcd11" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient Age Units Concept Map To LOINC" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Patient Age Units Concept Map To LOINC" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient Comorbidities Concept Map To ICD-11" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Patient Comorbidities Concept Map To ICD-11" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 22;
@@ -608,11 +608,11 @@
          fhir:Extension.valueString [ fhir:value "ConceptMap" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapPatientAgeUnitsToRxnorm>;
-         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapPatientAgeUnitsToRxnorm" ]
+         fhir:link <http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapComorbidityToLoinc>;
+         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapComorbidityToLoinc" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient Age Units Concept Map To RxNorm" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Patient Age Units Concept Map To RxNorm" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient Comorbidities Concept Map To LOINC" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Patient Comorbidities Concept Map To LOINC" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 23;
@@ -622,11 +622,11 @@
          fhir:Extension.valueString [ fhir:value "ConceptMap" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapPatientAgeUnitsToSnomed>;
-         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapPatientAgeUnitsToSnomed" ]
+         fhir:link <http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapComorbidityToRxnorm>;
+         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapComorbidityToRxnorm" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient Age Units Concept Map To SNOMED CT" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Patient Age Units Concept Map To SNOMED CT" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient Comorbidities Concept Map To RxNorm" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Patient Comorbidities Concept Map To RxNorm" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 24;
@@ -636,11 +636,11 @@
          fhir:Extension.valueString [ fhir:value "ConceptMap" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapPatientOutcomeToCiel>;
-         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapPatientOutcomeToCiel" ]
+         fhir:link <http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapComorbidityToSnomed>;
+         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapComorbidityToSnomed" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient Outcome Concept Map To CIEL" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Patient Outcome Concept Map To CIEL" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient Comorbidities Concept Map To SNOMED CT" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Patient Comorbidities Concept Map To SNOMED CT" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 25;
@@ -650,11 +650,11 @@
          fhir:Extension.valueString [ fhir:value "ConceptMap" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapPatientOutcomeToIcd10>;
-         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapPatientOutcomeToIcd10" ]
+         fhir:link <http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapPatientAgeUnitsToCiel>;
+         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapPatientAgeUnitsToCiel" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient Outcome Concept Map To ICD-10" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Patient Outcome Concept Map To ICD-10" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient Age Units Concept Map To CIEL" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Patient Age Units Concept Map To CIEL" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 26;
@@ -664,11 +664,11 @@
          fhir:Extension.valueString [ fhir:value "ConceptMap" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapPatientOutcomeToIcd11>;
-         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapPatientOutcomeToIcd11" ]
+         fhir:link <http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapPatientAgeUnitsToIcd10>;
+         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapPatientAgeUnitsToIcd10" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient Outcome Concept Map To ICD-11" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Patient Outcome Concept Map To ICD-11" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient Age Units Concept Map To ICD-10" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Patient Age Units Concept Map To ICD-10" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 27;
@@ -678,11 +678,11 @@
          fhir:Extension.valueString [ fhir:value "ConceptMap" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapPatientOutcomeToLoinc>;
-         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapPatientOutcomeToLoinc" ]
+         fhir:link <http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapPatientAgeUnitsToIcd11>;
+         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapPatientAgeUnitsToIcd11" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient Outcome Concept Map To LOINC" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Patient Outcome Concept Map To LOINC" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient Age Units Concept Map To ICD-11" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Patient Age Units Concept Map To ICD-11" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 28;
@@ -692,11 +692,11 @@
          fhir:Extension.valueString [ fhir:value "ConceptMap" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapPatientOutcomeToRxnorm>;
-         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapPatientOutcomeToRxnorm" ]
+         fhir:link <http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapPatientAgeUnitsToLoinc>;
+         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapPatientAgeUnitsToLoinc" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient Outcome Concept Map To RxNorm" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Patient Outcome Concept Map To RxNorm" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient Age Units Concept Map To LOINC" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Patient Age Units Concept Map To LOINC" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 29;
@@ -706,11 +706,11 @@
          fhir:Extension.valueString [ fhir:value "ConceptMap" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapPatientOutcomeToSnomed>;
-         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapPatientOutcomeToSnomed" ]
+         fhir:link <http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapPatientAgeUnitsToRxnorm>;
+         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapPatientAgeUnitsToRxnorm" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient Outcome Concept Map To SNOMED CT" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Patient Outcome Concept Map To SNOMED CT" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient Age Units Concept Map To RxNorm" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Patient Age Units Concept Map To RxNorm" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 30;
@@ -720,11 +720,11 @@
          fhir:Extension.valueString [ fhir:value "ConceptMap" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapPatientSexAtBirthToCiel>;
-         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapPatientSexAtBirthToCiel" ]
+         fhir:link <http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapPatientAgeUnitsToSnomed>;
+         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapPatientAgeUnitsToSnomed" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient Age Sex At Birth Concept Map To CIEL" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Patient Sex At Birth Concept Map To CIEL" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient Age Units Concept Map To SNOMED CT" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Patient Age Units Concept Map To SNOMED CT" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 31;
@@ -734,11 +734,11 @@
          fhir:Extension.valueString [ fhir:value "ConceptMap" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapPatientSexAtBirthToIcd10>;
-         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapPatientSexAtBirthToIcd10" ]
+         fhir:link <http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapPatientOutcomeToCiel>;
+         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapPatientOutcomeToCiel" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient Age Sex At Birth Concept Map To ICD-10" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Patient Sex At Birth Concept Map To ICD-10" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient Outcome Concept Map To CIEL" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Patient Outcome Concept Map To CIEL" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 32;
@@ -748,11 +748,11 @@
          fhir:Extension.valueString [ fhir:value "ConceptMap" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapPatientSexAtBirthToIcd11>;
-         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapPatientSexAtBirthToIcd11" ]
+         fhir:link <http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapPatientOutcomeToIcd10>;
+         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapPatientOutcomeToIcd10" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient Age Sex At Birth Concept Map To ICD-11" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Patient Sex At Birth Concept Map To ICD-11" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient Outcome Concept Map To ICD-10" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Patient Outcome Concept Map To ICD-10" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 33;
@@ -762,11 +762,11 @@
          fhir:Extension.valueString [ fhir:value "ConceptMap" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapPatientSexAtBirthToLoinc>;
-         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapPatientSexAtBirthToLoinc" ]
+         fhir:link <http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapPatientOutcomeToIcd11>;
+         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapPatientOutcomeToIcd11" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient Age Sex At Birth Concept Map To LOINC" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Patient Sex At Birth Concept Map To LOINC" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient Outcome Concept Map To ICD-11" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Patient Outcome Concept Map To ICD-11" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 34;
@@ -776,11 +776,11 @@
          fhir:Extension.valueString [ fhir:value "ConceptMap" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapPatientSexAtBirthToRxnorm>;
-         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapPatientSexAtBirthToRxnorm" ]
+         fhir:link <http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapPatientOutcomeToLoinc>;
+         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapPatientOutcomeToLoinc" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient Age Sex At Birth Concept Map To RxNorm" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Patient Sex At Birth Concept Map To RxNorm" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient Outcome Concept Map To LOINC" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Patient Outcome Concept Map To LOINC" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 35;
@@ -790,11 +790,11 @@
          fhir:Extension.valueString [ fhir:value "ConceptMap" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapPatientSexAtBirthToSnomed>;
-         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapPatientSexAtBirthToSnomed" ]
+         fhir:link <http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapPatientOutcomeToRxnorm>;
+         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapPatientOutcomeToRxnorm" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient Age Sex At Birth Concept Map To SNOMED CT" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Patient Sex At Birth Concept Map To SNOMED CT" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient Outcome Concept Map To RxNorm" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Patient Outcome Concept Map To RxNorm" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 36;
@@ -804,11 +804,11 @@
          fhir:Extension.valueString [ fhir:value "ConceptMap" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapPregnancyTrimesterToCiel>;
-         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapPregnancyTrimesterToCiel" ]
+         fhir:link <http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapPatientOutcomeToSnomed>;
+         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapPatientOutcomeToSnomed" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Pregnancy Trimester Concept Map To CIEL" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Pregnancy Trimester Concept Map To CIEL" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient Outcome Concept Map To SNOMED CT" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Patient Outcome Concept Map To SNOMED CT" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 37;
@@ -818,11 +818,11 @@
          fhir:Extension.valueString [ fhir:value "ConceptMap" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapPregnancyTrimesterToIcd10>;
-         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapPregnancyTrimesterToIcd10" ]
+         fhir:link <http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapPatientSexAtBirthToCiel>;
+         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapPatientSexAtBirthToCiel" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Pregnancy Trimester Concept Map To ICD-10" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Pregnancy Trimester Concept Map To ICD-10" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient Age Sex At Birth Concept Map To CIEL" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Patient Sex At Birth Concept Map To CIEL" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 38;
@@ -832,11 +832,11 @@
          fhir:Extension.valueString [ fhir:value "ConceptMap" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapPregnancyTrimesterToIcd11>;
-         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapPregnancyTrimesterToIcd11" ]
+         fhir:link <http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapPatientSexAtBirthToIcd10>;
+         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapPatientSexAtBirthToIcd10" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Pregnancy Trimester Concept Map To ICD-11" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Pregnancy Trimester Concept Map To ICD-11" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient Age Sex At Birth Concept Map To ICD-10" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Patient Sex At Birth Concept Map To ICD-10" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 39;
@@ -846,11 +846,11 @@
          fhir:Extension.valueString [ fhir:value "ConceptMap" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapPregnancyTrimesterToLoinc>;
-         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapPregnancyTrimesterToLoinc" ]
+         fhir:link <http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapPatientSexAtBirthToIcd11>;
+         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapPatientSexAtBirthToIcd11" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Pregnancy Trimester Concept Map To LOINC" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Pregnancy Trimester Concept Map To LOINC" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient Age Sex At Birth Concept Map To ICD-11" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Patient Sex At Birth Concept Map To ICD-11" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 40;
@@ -860,11 +860,11 @@
          fhir:Extension.valueString [ fhir:value "ConceptMap" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapPregnancyTrimesterToRxnorm>;
-         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapPregnancyTrimesterToRxnorm" ]
+         fhir:link <http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapPatientSexAtBirthToLoinc>;
+         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapPatientSexAtBirthToLoinc" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Pregnancy Trimester Concept Map To RxNorm" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Pregnancy Trimester Concept Map To RxNorm" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient Age Sex At Birth Concept Map To LOINC" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Patient Sex At Birth Concept Map To LOINC" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 41;
@@ -874,11 +874,11 @@
          fhir:Extension.valueString [ fhir:value "ConceptMap" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapPregnancyTrimesterToSnomed>;
-         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapPregnancyTrimesterToSnomed" ]
+         fhir:link <http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapPatientSexAtBirthToRxnorm>;
+         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapPatientSexAtBirthToRxnorm" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Pregnancy Trimester Concept Map To SNOMED CT" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Pregnancy Trimester Concept Map To SNOMED CT" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient Age Sex At Birth Concept Map To RxNorm" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Patient Sex At Birth Concept Map To RxNorm" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 42;
@@ -888,11 +888,11 @@
          fhir:Extension.valueString [ fhir:value "ConceptMap" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapReasonForTestingToCiel>;
-         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapReasonForTestingToCiel" ]
+         fhir:link <http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapPatientSexAtBirthToSnomed>;
+         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapPatientSexAtBirthToSnomed" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Reason for Testing Concept Map To CIEL" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Reason for Testing Concept Map To CIEL" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient Age Sex At Birth Concept Map To SNOMED CT" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Patient Sex At Birth Concept Map To SNOMED CT" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 43;
@@ -902,11 +902,11 @@
          fhir:Extension.valueString [ fhir:value "ConceptMap" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapReasonForTestingToIcd10>;
-         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapReasonForTestingToIcd10" ]
+         fhir:link <http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapPregnancyTrimesterToCiel>;
+         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapPregnancyTrimesterToCiel" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Reason for Testing Concept Map To ICD-10" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Reason for Testing Concept Map To ICD-10" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Pregnancy Trimester Concept Map To CIEL" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Pregnancy Trimester Concept Map To CIEL" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 44;
@@ -916,11 +916,11 @@
          fhir:Extension.valueString [ fhir:value "ConceptMap" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapReasonForTestingToIcd11>;
-         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapReasonForTestingToIcd11" ]
+         fhir:link <http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapPregnancyTrimesterToIcd10>;
+         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapPregnancyTrimesterToIcd10" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Reason for Testing Concept Map To ICD-11" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Reason for Testing Concept Map To ICD-11" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Pregnancy Trimester Concept Map To ICD-10" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Pregnancy Trimester Concept Map To ICD-10" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 45;
@@ -930,11 +930,11 @@
          fhir:Extension.valueString [ fhir:value "ConceptMap" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapReasonForTestingToLoinc>;
-         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapReasonForTestingToLoinc" ]
+         fhir:link <http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapPregnancyTrimesterToIcd11>;
+         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapPregnancyTrimesterToIcd11" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Reason for Testing Concept Map To LOINC" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Reason for Testing Concept Map To LOINC" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Pregnancy Trimester Concept Map To ICD-11" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Pregnancy Trimester Concept Map To ICD-11" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 46;
@@ -944,11 +944,11 @@
          fhir:Extension.valueString [ fhir:value "ConceptMap" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapReasonForTestingToRxnorm>;
-         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapReasonForTestingToRxnorm" ]
+         fhir:link <http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapPregnancyTrimesterToLoinc>;
+         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapPregnancyTrimesterToLoinc" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Reason for Testing Concept Map To RxNorm" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Reason for Testing Concept Map To RxNorm" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Pregnancy Trimester Concept Map To LOINC" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Pregnancy Trimester Concept Map To LOINC" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 47;
@@ -958,11 +958,11 @@
          fhir:Extension.valueString [ fhir:value "ConceptMap" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapReasonForTestingToSnomed>;
-         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapReasonForTestingToSnomed" ]
+         fhir:link <http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapPregnancyTrimesterToRxnorm>;
+         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapPregnancyTrimesterToRxnorm" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Reason for Testing Concept Map To SNOMED CT" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Reason for Testing Concept Map To SNOMED CT" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Pregnancy Trimester Concept Map To RxNorm" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Pregnancy Trimester Concept Map To RxNorm" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 48;
@@ -972,11 +972,11 @@
          fhir:Extension.valueString [ fhir:value "ConceptMap" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapSubmittedToCiel>;
-         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapSubmittedToCiel" ]
+         fhir:link <http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapPregnancyTrimesterToSnomed>;
+         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapPregnancyTrimesterToSnomed" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Submitted Yes/No/Partial Concept Map To CIEL" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Submitted Yes/No/Partial Concept Map To CIEL" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Pregnancy Trimester Concept Map To SNOMED CT" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Pregnancy Trimester Concept Map To SNOMED CT" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 49;
@@ -986,11 +986,11 @@
          fhir:Extension.valueString [ fhir:value "ConceptMap" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapSubmittedToIcd10>;
-         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapSubmittedToIcd10" ]
+         fhir:link <http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapReasonForTestingToCiel>;
+         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapReasonForTestingToCiel" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Yes/No/Partial Concept Map To ICD-10" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Yes/No/Partial Concept Map To ICD-10" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Reason for Testing Concept Map To CIEL" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Reason for Testing Concept Map To CIEL" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 50;
@@ -1000,11 +1000,11 @@
          fhir:Extension.valueString [ fhir:value "ConceptMap" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapSubmittedToIcd11>;
-         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapSubmittedToIcd11" ]
+         fhir:link <http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapReasonForTestingToIcd10>;
+         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapReasonForTestingToIcd10" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Submitted Yes/No/Partial Concept Map To ICD-11" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Submitted Yes/No/Partial Concept Map To ICD-11" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Reason for Testing Concept Map To ICD-10" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Reason for Testing Concept Map To ICD-10" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 51;
@@ -1014,11 +1014,11 @@
          fhir:Extension.valueString [ fhir:value "ConceptMap" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapSubmittedToLoinc>;
-         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapSubmittedToLoinc" ]
+         fhir:link <http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapReasonForTestingToIcd11>;
+         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapReasonForTestingToIcd11" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Submitted Yes/No/Partial Concept Map To LOINC" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Submitted Yes/No/Partial Concept Map To LOINC" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Reason for Testing Concept Map To ICD-11" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Reason for Testing Concept Map To ICD-11" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 52;
@@ -1028,11 +1028,11 @@
          fhir:Extension.valueString [ fhir:value "ConceptMap" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapSubmittedToRxnorm>;
-         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapSubmittedToRxnorm" ]
+         fhir:link <http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapReasonForTestingToLoinc>;
+         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapReasonForTestingToLoinc" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "SubmittedYes/No/Partial Concept Map To RxNorm" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "SubmittedYes/No/Partial Concept Map To RxNorm" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Reason for Testing Concept Map To LOINC" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Reason for Testing Concept Map To LOINC" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 53;
@@ -1042,11 +1042,11 @@
          fhir:Extension.valueString [ fhir:value "ConceptMap" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapSubmittedToSnomed>;
-         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapSubmittedToSnomed" ]
+         fhir:link <http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapReasonForTestingToRxnorm>;
+         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapReasonForTestingToRxnorm" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Submitted Yes/No/Partial Concept Map To SNOMED CT" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Submitted Yes/No/Partial Concept Map To SNOMED CT" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Reason for Testing Concept Map To RxNorm" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Reason for Testing Concept Map To RxNorm" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 54;
@@ -1056,11 +1056,11 @@
          fhir:Extension.valueString [ fhir:value "ConceptMap" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapTestResultToCiel>;
-         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapTestResultToCiel" ]
+         fhir:link <http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapReasonForTestingToSnomed>;
+         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapReasonForTestingToSnomed" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Test Result Concept Map To CIEL" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Test Result Concept Map To CIEL" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Reason for Testing Concept Map To SNOMED CT" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Reason for Testing Concept Map To SNOMED CT" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 55;
@@ -1070,11 +1070,11 @@
          fhir:Extension.valueString [ fhir:value "ConceptMap" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapTestResultToIcd10>;
-         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapTestResultToIcd10" ]
+         fhir:link <http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapSubmittedToCiel>;
+         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapSubmittedToCiel" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Test Result Concept Map To ICD-10" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Test Result Concept Map To ICD-10" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Submitted Yes/No/Partial Concept Map To CIEL" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Submitted Yes/No/Partial Concept Map To CIEL" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 56;
@@ -1084,11 +1084,11 @@
          fhir:Extension.valueString [ fhir:value "ConceptMap" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapTestResultToIcd11>;
-         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapTestResultToIcd11" ]
+         fhir:link <http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapSubmittedToIcd10>;
+         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapSubmittedToIcd10" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Test Result Concept Map To ICD-11" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Test Result Concept Map To ICD-11" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Yes/No/Partial Concept Map To ICD-10" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Yes/No/Partial Concept Map To ICD-10" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 57;
@@ -1098,11 +1098,11 @@
          fhir:Extension.valueString [ fhir:value "ConceptMap" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapTestResultToLoinc>;
-         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapTestResultToLoinc" ]
+         fhir:link <http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapSubmittedToIcd11>;
+         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapSubmittedToIcd11" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Test Result Concept Map To LOINC" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Test Result Concept Map To LOINC" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Submitted Yes/No/Partial Concept Map To ICD-11" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Submitted Yes/No/Partial Concept Map To ICD-11" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 58;
@@ -1112,11 +1112,11 @@
          fhir:Extension.valueString [ fhir:value "ConceptMap" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapTestResultToRxnorm>;
-         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapTestResultToRxnorm" ]
+         fhir:link <http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapSubmittedToLoinc>;
+         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapSubmittedToLoinc" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Test Result Concept Map To RxNorm" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Test Result Concept Map To RxNorm" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Submitted Yes/No/Partial Concept Map To LOINC" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Submitted Yes/No/Partial Concept Map To LOINC" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 59;
@@ -1126,11 +1126,11 @@
          fhir:Extension.valueString [ fhir:value "ConceptMap" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapTestResultToSnomed>;
-         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapTestResultToSnomed" ]
+         fhir:link <http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapSubmittedToRxnorm>;
+         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapSubmittedToRxnorm" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Test Result Concept Map To SNOMED CT" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Test Result Concept Map To SNOMED CT" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "SubmittedYes/No/Partial Concept Map To RxNorm" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "SubmittedYes/No/Partial Concept Map To RxNorm" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 60;
@@ -1140,11 +1140,11 @@
          fhir:Extension.valueString [ fhir:value "ConceptMap" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapYesNoToCiel>;
-         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapYesNoToCiel" ]
+         fhir:link <http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapSubmittedToSnomed>;
+         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapSubmittedToSnomed" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Yes/No Concept Map To CIEL" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Yes/No Concept Map To CIEL" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Submitted Yes/No/Partial Concept Map To SNOMED CT" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Submitted Yes/No/Partial Concept Map To SNOMED CT" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 61;
@@ -1154,11 +1154,11 @@
          fhir:Extension.valueString [ fhir:value "ConceptMap" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapYesNoToIcd10>;
-         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapYesNoToIcd10" ]
+         fhir:link <http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapTestResultToCiel>;
+         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapTestResultToCiel" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Yes/No Concept Map To ICD-10" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Yes/No Concept Map To ICD-10" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Test Result Concept Map To CIEL" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Test Result Concept Map To CIEL" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 62;
@@ -1168,11 +1168,11 @@
          fhir:Extension.valueString [ fhir:value "ConceptMap" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapYesNoToIcd11>;
-         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapYesNoToIcd11" ]
+         fhir:link <http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapTestResultToIcd10>;
+         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapTestResultToIcd10" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Yes/No Concept Map To ICD-11" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Yes/No Concept Map To ICD-11" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Test Result Concept Map To ICD-10" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Test Result Concept Map To ICD-10" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 63;
@@ -1182,11 +1182,11 @@
          fhir:Extension.valueString [ fhir:value "ConceptMap" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapYesNoToLoinc>;
-         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapYesNoToLoinc" ]
+         fhir:link <http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapTestResultToIcd11>;
+         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapTestResultToIcd11" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Yes/No Concept Map To LOINC" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Yes/No Concept Map To LOINC" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Test Result Concept Map To ICD-11" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Test Result Concept Map To ICD-11" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 64;
@@ -1196,11 +1196,11 @@
          fhir:Extension.valueString [ fhir:value "ConceptMap" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapYesNoToRxnorm>;
-         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapYesNoToRxnorm" ]
+         fhir:link <http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapTestResultToLoinc>;
+         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapTestResultToLoinc" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Yes/No Concept Map To RxNorm" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Yes/No Concept Map To RxNorm" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Test Result Concept Map To LOINC" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Test Result Concept Map To LOINC" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 65;
@@ -1210,11 +1210,11 @@
          fhir:Extension.valueString [ fhir:value "ConceptMap" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapYesNoToSnomed>;
-         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapYesNoToSnomed" ]
+         fhir:link <http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapTestResultToRxnorm>;
+         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapTestResultToRxnorm" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Yes/No Concept Map To SNOMED CT" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Yes/No Concept Map To SNOMED CT" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Test Result Concept Map To RxNorm" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Test Result Concept Map To RxNorm" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 66;
@@ -1224,11 +1224,11 @@
          fhir:Extension.valueString [ fhir:value "ConceptMap" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapYesNoUnknownToCiel>;
-         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapYesNoUnknownToCiel" ]
+         fhir:link <http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapTestResultToSnomed>;
+         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapTestResultToSnomed" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Yes/No/Unknown Concept Map To CIEL" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Yes/No/Unknown Concept Map To CIEL" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Test Result Concept Map To SNOMED CT" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Test Result Concept Map To SNOMED CT" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 67;
@@ -1238,11 +1238,11 @@
          fhir:Extension.valueString [ fhir:value "ConceptMap" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapYesNoUnknownToIcd10>;
-         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapYesNoUnknownToIcd10" ]
+         fhir:link <http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapYesNoToCiel>;
+         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapYesNoToCiel" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Yes/No/Unknown Concept Map To ICD-10" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Yes/No/Unknown Concept Map To ICD-10" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Yes/No Concept Map To CIEL" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Yes/No Concept Map To CIEL" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 68;
@@ -1252,11 +1252,11 @@
          fhir:Extension.valueString [ fhir:value "ConceptMap" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapYesNoUnknownToIcd11>;
-         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapYesNoUnknownToIcd11" ]
+         fhir:link <http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapYesNoToIcd10>;
+         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapYesNoToIcd10" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Yes/No/Unknown Concept Map To ICD-11" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Yes/No/Unknown Concept Map To ICD-11" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Yes/No Concept Map To ICD-10" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Yes/No Concept Map To ICD-10" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 69;
@@ -1266,11 +1266,11 @@
          fhir:Extension.valueString [ fhir:value "ConceptMap" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapYesNoUnknownToLoinc>;
-         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapYesNoUnknownToLoinc" ]
+         fhir:link <http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapYesNoToIcd11>;
+         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapYesNoToIcd11" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Yes/No/Unknown Concept Map To LOINC" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Yes/No/Unknown Concept Map To LOINC" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Yes/No Concept Map To ICD-11" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Yes/No Concept Map To ICD-11" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 70;
@@ -1280,11 +1280,11 @@
          fhir:Extension.valueString [ fhir:value "ConceptMap" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapYesNoUnknownToRxnorm>;
-         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapYesNoUnknownToRxnorm" ]
+         fhir:link <http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapYesNoToLoinc>;
+         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapYesNoToLoinc" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Yes/No/Unknown Concept Map To RxNorm" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Yes/No/Unknown Concept Map To RxNorm" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Yes/No Concept Map To LOINC" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Yes/No Concept Map To LOINC" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 71;
@@ -1294,69 +1294,167 @@
          fhir:Extension.valueString [ fhir:value "ConceptMap" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapYesNoUnknownToSnomed>;
-         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapYesNoUnknownToSnomed" ]
+         fhir:link <http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapYesNoToRxnorm>;
+         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapYesNoToRxnorm" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Yes/No/Unknown Concept Map To SNOMED CT" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Yes/No/Unknown Concept Map To SNOMED CT" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Yes/No Concept Map To RxNorm" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Yes/No Concept Map To RxNorm" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 72;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "Questionnaire" ]
+         fhir:Extension.valueString [ fhir:value "ConceptMap" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/Questionnaire/WhoCrQuestionnaireCovid19Surveillance>;
-         fhir:Reference.reference [ fhir:value "Questionnaire/WhoCrQuestionnaireCovid19Surveillance" ]
+         fhir:link <http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapYesNoToSnomed>;
+         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapYesNoToSnomed" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Revised case report form for Confirmed Novel Coronavirus COVID-19" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "TODO" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Yes/No Concept Map To SNOMED CT" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Yes/No Concept Map To SNOMED CT" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 73;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ConceptMap" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapYesNoUnknownToCiel>;
+         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapYesNoUnknownToCiel" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Yes/No/Unknown Concept Map To CIEL" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Yes/No/Unknown Concept Map To CIEL" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 74;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ConceptMap" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapYesNoUnknownToIcd10>;
+         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapYesNoUnknownToIcd10" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Yes/No/Unknown Concept Map To ICD-10" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Yes/No/Unknown Concept Map To ICD-10" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 75;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ConceptMap" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapYesNoUnknownToIcd11>;
+         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapYesNoUnknownToIcd11" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Yes/No/Unknown Concept Map To ICD-11" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Yes/No/Unknown Concept Map To ICD-11" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 76;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ConceptMap" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapYesNoUnknownToLoinc>;
+         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapYesNoUnknownToLoinc" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Yes/No/Unknown Concept Map To LOINC" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Yes/No/Unknown Concept Map To LOINC" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 77;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ConceptMap" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapYesNoUnknownToRxnorm>;
+         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapYesNoUnknownToRxnorm" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Yes/No/Unknown Concept Map To RxNorm" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Yes/No/Unknown Concept Map To RxNorm" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 78;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ConceptMap" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapYesNoUnknownToSnomed>;
+         fhir:Reference.reference [ fhir:value "ConceptMap/WhoCrConceptMapYesNoUnknownToSnomed" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Yes/No/Unknown Concept Map To SNOMED CT" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Yes/No/Unknown Concept Map To SNOMED CT" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 79;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Questionnaire" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://openhie.github.io/covid-19/Questionnaire/WhoCrQuestionnaireCovid19Surveillance>;
+         fhir:Reference.reference [ fhir:value "Questionnaire/WhoCrQuestionnaireCovid19Surveillance" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Revised case report form for Confirmed Novel Coronavirus COVID-19" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "TODO" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 80;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
          fhir:Extension.valueString [ fhir:value "Composition" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/Composition/WhoCrSampleComposition>;
+         fhir:link <http://openhie.github.io/covid-19/Composition/WhoCrSampleComposition>;
          fhir:Reference.reference [ fhir:value "Composition/WhoCrSampleComposition" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "WHO Case Reporting Sample Composition" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "WHO Case Reporting Sample Composition" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrComposition";
-         fhir:link <http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrComposition>
+         fhir:value "http://openhie.github.io/covid-19/StructureDefinition/WhoCrComposition";
+         fhir:link <http://openhie.github.io/covid-19/StructureDefinition/WhoCrComposition>
        ]
      ], [
-       fhir:index 74;
+       fhir:index 81;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
          fhir:Extension.valueString [ fhir:value "Patient" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/Patient/WhoCrSamplePatient>;
+         fhir:link <http://openhie.github.io/covid-19/Patient/WhoCrSamplePatient>;
          fhir:Reference.reference [ fhir:value "Patient/WhoCrSamplePatient" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "WHO Case Reporting Sample Patient" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "WHO Case Reporting Sample Patient" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrPatient";
-         fhir:link <http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrPatient>
+         fhir:value "http://openhie.github.io/covid-19/StructureDefinition/WhoCrPatient";
+         fhir:link <http://openhie.github.io/covid-19/StructureDefinition/WhoCrPatient>
        ]
      ], [
-       fhir:index 75;
+       fhir:index 82;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
          fhir:Extension.valueString [ fhir:value "StructureDefinition:logical" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrSurveillanceDataDictionary>;
+         fhir:link <http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/WhoCrSurveillanceDataDictionary" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "2020-02-27 Data Dictionary" ];
@@ -1439,7 +1537,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://www.example.com/fhir/cr/covid19/ImplementationGuide/who.cr.covid19.ttl> a owl:Ontology;
+<http://openhie.github.io/covid-19/ImplementationGuide/who.cr.covid19.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

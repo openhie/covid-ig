@@ -3,14 +3,14 @@
   "id": "WhoCrConceptMapYesNoToCiel",
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>WhoCrConceptMapYesNoToCiel (http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapYesNoToCiel)</h2><p>Mapping from <a href=\"ValueSet-WhoCrValueSetYesNo.html\">http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetYesNo</a> to https://openconceptlab.org/orgs/CIEL/sources/CIEL</p><p>DRAFT (not intended for production usage). Published on Nov 8, 2020, 11:18:02 PM by OpenHIE (OpenHIE: <a href=\"http://www.ohie.org\">http://www.ohie.org</a>). 2020</p><br/><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Destination Code</b></td></tr><tr><td>Y</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equal\">is equal to</a></td><td>1065</td></tr><tr><td>N</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equal\">is equal to</a></td><td>1066</td></tr></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>WhoCrConceptMapYesNoToCiel (http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapYesNoToCiel)</h2><p>Mapping from <a href=\"ValueSet-WhoCrValueSetYesNo.html\">http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetYesNo</a> to https://openconceptlab.org/orgs/CIEL/sources/CIEL</p><p>DRAFT (not intended for production usage). Published on Nov 19, 2020, 10:47:13 PM by OpenHIE (OpenHIE: <a href=\"http://www.ohie.org\">http://www.ohie.org</a>). 2020</p><br/><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Destination Code</b></td></tr><tr><td>Y</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equal\">is equal to</a></td><td>1065</td></tr><tr><td>N</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equal\">is equal to</a></td><td>1066</td></tr></table></div>"
   },
-  "url": "http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapYesNoToCiel",
+  "url": "http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapYesNoToCiel",
   "version": "0.1.0",
   "name": "WhoCrConceptMapYesNoToCiel",
   "status": "draft",
   "experimental": true,
-  "date": "2020-11-08T23:18:02+00:00",
+  "date": "2020-11-19T22:47:13+00:00",
   "publisher": "OpenHIE",
   "contact": [
     {
@@ -34,11 +34,11 @@
     }
   ],
   "copyright": "2020",
-  "sourceCanonical": "http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetYesNo",
+  "sourceCanonical": "http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetYesNo",
   "targetUri": "https://openconceptlab.org/orgs/CIEL/sources/CIEL",
   "group": [
     {
-      "source": "http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetYesNo",
+      "source": "http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetYesNo",
       "target": "https://openconceptlab.org/orgs/CIEL/sources/CIEL",
       "element": [
         {

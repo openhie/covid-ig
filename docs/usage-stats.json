@@ -7,13 +7,13 @@
   "profiles": {
     "Composition": [
       {
-        "url": "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrComposition",
+        "url": "http://openhie.github.io/covid-19/StructureDefinition/WhoCrComposition",
         "title": "WHO Case Reporting Composition"
       }
     ],
     "Patient": [
       {
-        "url": "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrPatient",
+        "url": "http://openhie.github.io/covid-19/StructureDefinition/WhoCrPatient",
         "title": "WHO Case Reporting Patient"
       }
     ]
@@ -57,6 +57,9 @@
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category": [
       "StructureDefinition"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/variable": [
+      "Questionnaire.item.item.item"
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter": [
       "ImplementationGuide.definition"

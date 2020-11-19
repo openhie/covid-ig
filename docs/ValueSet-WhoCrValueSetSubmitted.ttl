@@ -5,19 +5,19 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetSubmitted> a fhir:ValueSet;
+<http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetSubmitted> a fhir:ValueSet;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "WhoCrValueSetSubmitted"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href=\"http://hl7.org/fhir/R4/v2/0136/index.html\"><code>http://terminology.hl7.org/CodeSystem/v2-0136</code></a></li><li>Include all codes defined in <a href=\"CodeSystem-WhoCrCodeSystemSubmissionCompletion.html\"><code>http://www.example.com/fhir/cr/covid19/CodeSystem/WhoCrCodeSystemSubmissionCompletion</code></a></li></ul></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href=\"http://hl7.org/fhir/R4/v2/0136/index.html\"><code>http://terminology.hl7.org/CodeSystem/v2-0136</code></a></li><li>Include all codes defined in <a href=\"CodeSystem-WhoCrCodeSystemSubmissionCompletion.html\"><code>http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemSubmissionCompletion</code></a></li></ul></div>"
   ];
-  fhir:ValueSet.url [ fhir:value "http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetSubmitted"];
+  fhir:ValueSet.url [ fhir:value "http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetSubmitted"];
   fhir:ValueSet.version [ fhir:value "0.1.0"];
   fhir:ValueSet.name [ fhir:value "WhoCrValueSetSubmitted"];
   fhir:ValueSet.title [ fhir:value "Report Submitted Yes/No/Partial"];
   fhir:ValueSet.status [ fhir:value "active"];
-  fhir:ValueSet.date [ fhir:value "2020-11-08T23:18:02+00:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2020-11-19T22:47:13+00:00"^^xsd:dateTime];
   fhir:ValueSet.publisher [ fhir:value "OpenHIE"];
   fhir:ValueSet.contact [
      fhir:index 0;
@@ -43,13 +43,13 @@
        fhir:ValueSet.compose.include.system [ fhir:value "http://terminology.hl7.org/CodeSystem/v2-0136" ]
      ], [
        fhir:index 1;
-       fhir:ValueSet.compose.include.system [ fhir:value "http://www.example.com/fhir/cr/covid19/CodeSystem/WhoCrCodeSystemSubmissionCompletion" ]
+       fhir:ValueSet.compose.include.system [ fhir:value "http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemSubmissionCompletion" ]
      ]
   ] .
 
 # - ontology header ------------------------------------------------------------
 
-<http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetSubmitted.ttl> a owl:Ontology;
+<http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetSubmitted.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

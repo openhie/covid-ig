@@ -3,14 +3,14 @@
   "id": "WhoCrValueSetReasonForCovid19Testing",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-WhoCrCodeSystemReasonForTesting.html\"><code>http://www.example.com/fhir/cr/covid19/CodeSystem/WhoCrCodeSystemReasonForTesting</code></a></li></ul></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-WhoCrCodeSystemReasonForTesting.html\"><code>http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemReasonForTesting</code></a></li></ul></div>"
   },
-  "url": "http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetReasonForCovid19Testing",
+  "url": "http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetReasonForCovid19Testing",
   "version": "0.1.0",
   "name": "WhoCrValueSetReasonForCovid19Testing",
   "title": "Reason for Covid-19 Testing",
   "status": "active",
-  "date": "2020-11-08T23:18:02+00:00",
+  "date": "2020-11-19T22:47:13+00:00",
   "publisher": "OpenHIE",
   "contact": [
     {
@@ -37,7 +37,7 @@
   "compose": {
     "include": [
       {
-        "system": "http://www.example.com/fhir/cr/covid19/CodeSystem/WhoCrCodeSystemReasonForTesting"
+        "system": "http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemReasonForTesting"
       }
     ]
   }

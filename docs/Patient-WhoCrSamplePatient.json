@@ -3,7 +3,7 @@
   "id": "WhoCrSamplePatient",
   "meta": {
     "profile": [
-      "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrPatient"
+      "http://openhie.github.io/covid-19/StructureDefinition/WhoCrPatient"
     ]
   },
   "text": {

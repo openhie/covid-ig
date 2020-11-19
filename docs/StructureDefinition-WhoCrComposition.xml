@@ -22,13 +22,13 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category">
     <valueCode value="not-classified"/>
   </extension>
-  <url value="http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrComposition"/>
+  <url value="http://openhie.github.io/covid-19/StructureDefinition/WhoCrComposition"/>
   <version value="0.1.0"/>
   <name value="WhoCrComposition"/>
   <title value="WHO Case Reporting Composition"/>
   <status value="draft"/>
   <experimental value="true"/>
-  <date value="2020-11-08T23:18:02+00:00"/>
+  <date value="2020-11-19T22:47:13+00:00"/>
   <publisher value="OpenHIE"/>
   <contact>
     <name value="OpenHIE"/>
@@ -651,7 +651,7 @@
       </base>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrPatient"/>
+        <targetProfile value="http://openhie.github.io/covid-19/StructureDefinition/WhoCrPatient"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -2298,7 +2298,7 @@
       <path value="Composition.subject"/>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrPatient"/>
+        <targetProfile value="http://openhie.github.io/covid-19/StructureDefinition/WhoCrPatient"/>
       </type>
     </element>
     <element id="Composition.section">

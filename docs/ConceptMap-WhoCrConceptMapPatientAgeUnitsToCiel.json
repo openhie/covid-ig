@@ -3,14 +3,14 @@
   "id": "WhoCrConceptMapPatientAgeUnitsToCiel",
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>WhoCrConceptMapPatientAgeUnitsToCiel (http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapPatientAgeUnitsToCiel)</h2><p>Mapping from <a href=\"ValueSet-WhoCrValueSetAgeUnits.html\">http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetAgeUnits</a> to https://openconceptlab.org/orgs/CIEL/sources/CIEL</p><p>DRAFT (not intended for production usage). Published on Nov 8, 2020, 11:18:02 PM by OpenHIE (OpenHIE: <a href=\"http://www.ohie.org\">http://www.ohie.org</a>). 2020</p><br/><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Destination Code</b></td></tr><tr><td>a</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equal\">is equal to</a></td><td>1734</td></tr><tr><td>mo</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equal\">is equal to</a></td><td>1074</td></tr><tr><td>d</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equal\">is equal to</a></td><td>1072</td></tr></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>WhoCrConceptMapPatientAgeUnitsToCiel (http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapPatientAgeUnitsToCiel)</h2><p>Mapping from <a href=\"ValueSet-WhoCrValueSetAgeUnits.html\">http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetAgeUnits</a> to https://openconceptlab.org/orgs/CIEL/sources/CIEL</p><p>DRAFT (not intended for production usage). Published on Nov 19, 2020, 10:47:13 PM by OpenHIE (OpenHIE: <a href=\"http://www.ohie.org\">http://www.ohie.org</a>). 2020</p><br/><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Destination Code</b></td></tr><tr><td>a</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equal\">is equal to</a></td><td>1734</td></tr><tr><td>mo</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equal\">is equal to</a></td><td>1074</td></tr><tr><td>d</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equal\">is equal to</a></td><td>1072</td></tr></table></div>"
   },
-  "url": "http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapPatientAgeUnitsToCiel",
+  "url": "http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapPatientAgeUnitsToCiel",
   "version": "0.1.0",
   "name": "WhoCrConceptMapPatientAgeUnitsToCiel",
   "status": "draft",
   "experimental": true,
-  "date": "2020-11-08T23:18:02+00:00",
+  "date": "2020-11-19T22:47:13+00:00",
   "publisher": "OpenHIE",
   "contact": [
     {
@@ -34,11 +34,11 @@
     }
   ],
   "copyright": "2020",
-  "sourceCanonical": "http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetAgeUnits",
+  "sourceCanonical": "http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetAgeUnits",
   "targetUri": "https://openconceptlab.org/orgs/CIEL/sources/CIEL",
   "group": [
     {
-      "source": "http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetAgeUnits",
+      "source": "http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetAgeUnits",
       "target": "https://openconceptlab.org/orgs/CIEL/sources/CIEL",
       "element": [
         {

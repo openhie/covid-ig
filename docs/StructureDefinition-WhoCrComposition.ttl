@@ -6,7 +6,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrComposition> a fhir:StructureDefinition;
+<http://openhie.github.io/covid-19/StructureDefinition/WhoCrComposition> a fhir:StructureDefinition;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "WhoCrComposition"];
   fhir:DomainResource.text [
@@ -22,13 +22,13 @@
      fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category" ];
      fhir:Extension.valueCode [ fhir:value "not-classified" ]
   ];
-  fhir:StructureDefinition.url [ fhir:value "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrComposition"];
+  fhir:StructureDefinition.url [ fhir:value "http://openhie.github.io/covid-19/StructureDefinition/WhoCrComposition"];
   fhir:StructureDefinition.version [ fhir:value "0.1.0"];
   fhir:StructureDefinition.name [ fhir:value "WhoCrComposition"];
   fhir:StructureDefinition.title [ fhir:value "WHO Case Reporting Composition"];
   fhir:StructureDefinition.status [ fhir:value "draft"];
   fhir:StructureDefinition.experimental [ fhir:value "true"^^xsd:boolean];
-  fhir:StructureDefinition.date [ fhir:value "2020-11-08T23:18:02+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2020-11-19T22:47:13+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "OpenHIE"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
@@ -819,9 +819,9 @@
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "Reference" ];
          fhir:ElementDefinition.type.targetProfile [
-           fhir:value "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrPatient";
+           fhir:value "http://openhie.github.io/covid-19/StructureDefinition/WhoCrPatient";
            fhir:index 0;
-           fhir:link <http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrPatient>
+           fhir:link <http://openhie.github.io/covid-19/StructureDefinition/WhoCrPatient>
          ]
        ];
        fhir:ElementDefinition.constraint [
@@ -2985,9 +2985,9 @@
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "Reference" ];
          fhir:ElementDefinition.type.targetProfile [
-           fhir:value "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrPatient";
+           fhir:value "http://openhie.github.io/covid-19/StructureDefinition/WhoCrPatient";
            fhir:index 0;
-           fhir:link <http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrPatient>
+           fhir:link <http://openhie.github.io/covid-19/StructureDefinition/WhoCrPatient>
          ]
        ]
      ], [
@@ -3000,7 +3000,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrComposition.ttl> a owl:Ontology;
+<http://openhie.github.io/covid-19/StructureDefinition/WhoCrComposition.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

@@ -1,0 +1,100 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemComorbidity> a fhir:CodeSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "WhoCrCodeSystemComorbidity"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemComorbidity defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">PREGNANCY<a name=\"WhoCrCodeSystemComorbidity-PREGNANCY\"> </a></td><td>Pregnant</td><td>Patient is pregnant</td></tr><tr><td style=\"white-space:nowrap\">POSTPARTUM<a name=\"WhoCrCodeSystemComorbidity-POSTPARTUM\"> </a></td><td>Post-partum</td><td>Patient is in the post-partum period defined as less than 6 weeks after delivery date</td></tr><tr><td style=\"white-space:nowrap\">IMMUNODEFICIENCY<a name=\"WhoCrCodeSystemComorbidity-IMMUNODEFICIENCY\"> </a></td><td>Immunodeficiency</td><td>Patient has an acquired immunodeficiency (HIV) or is treated with drugs that decrease immune response (corticoides, anti-cancer chemotherapy)</td></tr><tr><td style=\"white-space:nowrap\">CARDIOVASCULAR<a name=\"WhoCrCodeSystemComorbidity-CARDIOVASCULAR\"> </a></td><td>Cardiovascular disease</td><td>Patient has any cardiovascular disease, including hypertension</td></tr><tr><td style=\"white-space:nowrap\">DIABETES<a name=\"WhoCrCodeSystemComorbidity-DIABETES\"> </a></td><td>Diabetes</td><td>Patient is diabetic</td></tr><tr><td style=\"white-space:nowrap\">HEPATOPATHY<a name=\"WhoCrCodeSystemComorbidity-HEPATOPATHY\"> </a></td><td>Liver Disease</td><td>Patient has any liver diseases</td></tr><tr><td style=\"white-space:nowrap\">RENOPATHY<a name=\"WhoCrCodeSystemComorbidity-RENOPATHY\"> </a></td><td>Kidney Disease</td><td>Patient has any renal disease</td></tr><tr><td style=\"white-space:nowrap\">CHRONICNEUROPATHY<a name=\"WhoCrCodeSystemComorbidity-CHRONICNEUROPATHY\"> </a></td><td>Chronic neurological or neuromuscular disease</td><td>Patient has chronic neurological or neuromuscular disease</td></tr><tr><td style=\"white-space:nowrap\">MALIGNANCY<a name=\"WhoCrCodeSystemComorbidity-MALIGNANCY\"> </a></td><td>Malignancy</td><td>Patient has any malignancy</td></tr><tr><td style=\"white-space:nowrap\">CHRONICLUNG<a name=\"WhoCrCodeSystemComorbidity-CHRONICLUNG\"> </a></td><td>Chronic Lung Disease</td><td>Patient has a chronic lung disease</td></tr></table></div>"
+  ];
+  fhir:CodeSystem.url [ fhir:value "http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemComorbidity"];
+  fhir:CodeSystem.version [ fhir:value "0.1.0"];
+  fhir:CodeSystem.name [ fhir:value "WhoCrCodeSystemComorbidity"];
+  fhir:CodeSystem.title [ fhir:value "Patient Comorbidity"];
+  fhir:CodeSystem.status [ fhir:value "active"];
+  fhir:CodeSystem.date [ fhir:value "2020-11-19T22:47:13+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.publisher [ fhir:value "OpenHIE"];
+  fhir:CodeSystem.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "OpenHIE" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "http://www.ohie.org" ]
+     ]
+  ];
+  fhir:CodeSystem.description [ fhir:value "Patient Comorbidity"];
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://unstats.un.org/unsd/methods/m49/m49.htm" ];
+       fhir:Coding.code [ fhir:value "001" ]
+     ]
+  ];
+  fhir:CodeSystem.content [ fhir:value "complete"];
+  fhir:CodeSystem.count [ fhir:value "10"^^xsd:nonNegativeInteger];
+  fhir:CodeSystem.concept [
+     fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "PREGNANCY" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Pregnant" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Patient is pregnant" ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.concept.code [ fhir:value "POSTPARTUM" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Post-partum" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Patient is in the post-partum period defined as less than 6 weeks after delivery date" ]
+  ], [
+     fhir:index 2;
+     fhir:CodeSystem.concept.code [ fhir:value "IMMUNODEFICIENCY" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Immunodeficiency" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Patient has an acquired immunodeficiency (HIV) or is treated with drugs that decrease immune response (corticoides, anti-cancer chemotherapy)" ]
+  ], [
+     fhir:index 3;
+     fhir:CodeSystem.concept.code [ fhir:value "CARDIOVASCULAR" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Cardiovascular disease" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Patient has any cardiovascular disease, including hypertension" ]
+  ], [
+     fhir:index 4;
+     fhir:CodeSystem.concept.code [ fhir:value "DIABETES" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Diabetes" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Patient is diabetic" ]
+  ], [
+     fhir:index 5;
+     fhir:CodeSystem.concept.code [ fhir:value "HEPATOPATHY" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Liver Disease" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Patient has any liver diseases" ]
+  ], [
+     fhir:index 6;
+     fhir:CodeSystem.concept.code [ fhir:value "RENOPATHY" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Kidney Disease" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Patient has any renal disease" ]
+  ], [
+     fhir:index 7;
+     fhir:CodeSystem.concept.code [ fhir:value "CHRONICNEUROPATHY" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Chronic neurological or neuromuscular disease" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Patient has chronic neurological or neuromuscular disease" ]
+  ], [
+     fhir:index 8;
+     fhir:CodeSystem.concept.code [ fhir:value "MALIGNANCY" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Malignancy" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Patient has any malignancy" ]
+  ], [
+     fhir:index 9;
+     fhir:CodeSystem.concept.code [ fhir:value "CHRONICLUNG" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Chronic Lung Disease" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Patient has a chronic lung disease" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemComorbidity.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

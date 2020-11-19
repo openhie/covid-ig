@@ -5,19 +5,19 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapYesNoUnknownToIcd11> a fhir:ConceptMap;
+<http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapYesNoUnknownToIcd11> a fhir:ConceptMap;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "WhoCrConceptMapYesNoUnknownToIcd11"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>WhoCrConceptMapYesNoUnknownToIcd11 (http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapYesNoUnknownToIcd11)</h2><p>Mapping from <a href=\"ValueSet-WhoCrValueSetYesNoUnk.html\">http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetYesNoUnk</a> to https://icd.who.int/browse11</p><p>DRAFT (not intended for production usage). Published on Nov 8, 2020, 11:18:02 PM by OpenHIE (OpenHIE: <a href=\"http://www.ohie.org\">http://www.ohie.org</a>). 2020</p><br/><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Destination Code</b></td></tr><tr><td>TODO</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#relatedto\">is related to</a></td><td>TODO</td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>WhoCrConceptMapYesNoUnknownToIcd11 (http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapYesNoUnknownToIcd11)</h2><p>Mapping from <a href=\"ValueSet-WhoCrValueSetYesNoUnk.html\">http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetYesNoUnk</a> to https://icd.who.int/browse11</p><p>DRAFT (not intended for production usage). Published on Nov 19, 2020, 10:47:13 PM by OpenHIE (OpenHIE: <a href=\"http://www.ohie.org\">http://www.ohie.org</a>). 2020</p><br/><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Destination Code</b></td></tr><tr><td>TODO</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#relatedto\">is related to</a></td><td>TODO</td></tr></table></div>"
   ];
-  fhir:ConceptMap.url [ fhir:value "http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapYesNoUnknownToIcd11"];
+  fhir:ConceptMap.url [ fhir:value "http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapYesNoUnknownToIcd11"];
   fhir:ConceptMap.version [ fhir:value "0.1.0"];
   fhir:ConceptMap.name [ fhir:value "WhoCrConceptMapYesNoUnknownToIcd11"];
   fhir:ConceptMap.status [ fhir:value "draft"];
   fhir:ConceptMap.experimental [ fhir:value "true"^^xsd:boolean];
-  fhir:ConceptMap.date [ fhir:value "2020-11-08T23:18:02+00:00"^^xsd:dateTime];
+  fhir:ConceptMap.date [ fhir:value "2020-11-19T22:47:13+00:00"^^xsd:dateTime];
   fhir:ConceptMap.publisher [ fhir:value "OpenHIE"];
   fhir:ConceptMap.contact [
      fhir:index 0;
@@ -38,13 +38,13 @@
   ];
   fhir:ConceptMap.copyright [ fhir:value "2020"];
   fhir:ConceptMap.sourceCanonical [
-     fhir:value "http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetYesNoUnk";
-     fhir:link <http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetYesNoUnk>
+     fhir:value "http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetYesNoUnk";
+     fhir:link <http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetYesNoUnk>
   ];
   fhir:ConceptMap.targetUri [ fhir:value "https://icd.who.int/browse11"];
   fhir:ConceptMap.group [
      fhir:index 0;
-     fhir:ConceptMap.group.source [ fhir:value "http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetYesNoUnk" ];
+     fhir:ConceptMap.group.source [ fhir:value "http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetYesNoUnk" ];
      fhir:ConceptMap.group.target [ fhir:value "https://icd.who.int/browse11" ];
      fhir:ConceptMap.group.element [
        fhir:index 0;
@@ -59,7 +59,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapYesNoUnknownToIcd11.ttl> a owl:Ontology;
+<http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapYesNoUnknownToIcd11.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

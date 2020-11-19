@@ -1,0 +1,44 @@
+{
+  "resourceType": "ValueSet",
+  "id": "WhoCrValueSetComorbidity",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-WhoCrCodeSystemComorbidity.html\"><code>http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemComorbidity</code></a></li></ul></div>"
+  },
+  "url": "http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetComorbidity",
+  "version": "0.1.0",
+  "name": "WhoCrValueSetComorbidity",
+  "title": "Comorbidity",
+  "status": "active",
+  "date": "2020-11-19T22:47:13+00:00",
+  "publisher": "OpenHIE",
+  "contact": [
+    {
+      "name": "OpenHIE",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://www.ohie.org"
+        }
+      ]
+    }
+  ],
+  "description": "Comorbidity",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code": "001"
+        }
+      ]
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemComorbidity"
+      }
+    ]
+  }
+}

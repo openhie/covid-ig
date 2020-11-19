@@ -3,7 +3,7 @@
   "id": "WhoCrSampleComposition",
   "meta": {
     "profile": [
-      "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrComposition"
+      "http://openhie.github.io/covid-19/StructureDefinition/WhoCrComposition"
     ]
   },
   "text": {

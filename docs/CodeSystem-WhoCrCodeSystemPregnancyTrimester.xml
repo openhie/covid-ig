@@ -3,14 +3,14 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="WhoCrCodeSystemPregnancyTrimester"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://www.example.com/fhir/cr/covid19/CodeSystem/WhoCrCodeSystemPregnancyTrimester defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">first<a name="WhoCrCodeSystemPregnancyTrimester-first"> </a></td><td>First</td><td>First Trimester</td></tr><tr><td style="white-space:nowrap">second<a name="WhoCrCodeSystemPregnancyTrimester-second"> </a></td><td>Second</td><td>Second Trimester</td></tr><tr><td style="white-space:nowrap">third<a name="WhoCrCodeSystemPregnancyTrimester-third"> </a></td><td>Third</td><td>Third Trimester</td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemPregnancyTrimester defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">first<a name="WhoCrCodeSystemPregnancyTrimester-first"> </a></td><td>First</td><td>First Trimester</td></tr><tr><td style="white-space:nowrap">second<a name="WhoCrCodeSystemPregnancyTrimester-second"> </a></td><td>Second</td><td>Second Trimester</td></tr><tr><td style="white-space:nowrap">third<a name="WhoCrCodeSystemPregnancyTrimester-third"> </a></td><td>Third</td><td>Third Trimester</td></tr></table></div>
   </text>
-  <url value="http://www.example.com/fhir/cr/covid19/CodeSystem/WhoCrCodeSystemPregnancyTrimester"/>
+  <url value="http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemPregnancyTrimester"/>
   <version value="0.1.0"/>
   <name value="WhoCrCodeSystemPregnancyTrimester"/>
   <title value="Pregnancy Trimester"/>
   <status value="active"/>
-  <date value="2020-11-08T23:18:02+00:00"/>
+  <date value="2020-11-19T22:47:13+00:00"/>
   <publisher value="OpenHIE"/>
   <contact>
     <name value="OpenHIE"/>

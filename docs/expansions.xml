@@ -1,2818 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="19eabe09-f5c3-421e-93be-00e1931c533a"/>
+  <id value="79bc4bbf-2f31-402a-8c95-ba55f903ed0b"/>
   <meta>
-    <lastUpdated value="2020-11-08T23:18:02.391+00:00"/>
+    <lastUpdated value="2020-11-19T22:47:13.078+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
-    <fullUrl value="http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetAdmin0"/>
-    <resource>
-      <ValueSet>
-        <id value="WhoCrValueSetAdmin0"/>
-        <text>
-          <status value="generated"/>
-          <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 249 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on http://hl7.org/fhir/ValueSet/iso3166-1-2 v4.0.1 (ValueSet)</p>
-            <p>All codes from system 
-              <code>urn:iso:std:iso:3166</code>
-            </p>
-            <table class="codes">
-              <tr>
-                <td style="white-space:nowrap">
-                  <b>Code</b>
-                </td>
-                <td>
-                  <b>Display</b>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-AD"> </a>AD
-                </td>
-                <td>Andorra</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-AE"> </a>AE
-                </td>
-                <td>United Arab Emirates</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-AF"> </a>AF
-                </td>
-                <td>Afghanistan</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-AG"> </a>AG
-                </td>
-                <td>Antigua and Barbuda</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-AI"> </a>AI
-                </td>
-                <td>Anguilla</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-AL"> </a>AL
-                </td>
-                <td>Albania</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-AM"> </a>AM
-                </td>
-                <td>Armenia</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-AO"> </a>AO
-                </td>
-                <td>Angola</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-AQ"> </a>AQ
-                </td>
-                <td>Antarctica</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-AR"> </a>AR
-                </td>
-                <td>Argentina</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-AS"> </a>AS
-                </td>
-                <td>American Samoa</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-AT"> </a>AT
-                </td>
-                <td>Austria</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-AU"> </a>AU
-                </td>
-                <td>Australia</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-AW"> </a>AW
-                </td>
-                <td>Aruba</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-AX"> </a>AX
-                </td>
-                <td>Åland Islands</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-AZ"> </a>AZ
-                </td>
-                <td>Azerbaijan</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-BA"> </a>BA
-                </td>
-                <td>Bosnia and Herzegovina</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-BB"> </a>BB
-                </td>
-                <td>Barbados</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-BD"> </a>BD
-                </td>
-                <td>Bangladesh</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-BE"> </a>BE
-                </td>
-                <td>Belgium</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-BF"> </a>BF
-                </td>
-                <td>Burkina Faso</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-BG"> </a>BG
-                </td>
-                <td>Bulgaria</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-BH"> </a>BH
-                </td>
-                <td>Bahrain</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-BI"> </a>BI
-                </td>
-                <td>Burundi</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-BJ"> </a>BJ
-                </td>
-                <td>Benin</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-BL"> </a>BL
-                </td>
-                <td>Saint Barthélemy</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-BM"> </a>BM
-                </td>
-                <td>Bermuda</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-BN"> </a>BN
-                </td>
-                <td>Brunei Darussalam</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-BO"> </a>BO
-                </td>
-                <td>Bolivia, Plurinational State of</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-BQ"> </a>BQ
-                </td>
-                <td>Bonaire, Sint Eustatius and Saba</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-BR"> </a>BR
-                </td>
-                <td>Brazil</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-BS"> </a>BS
-                </td>
-                <td>Bahamas</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-BT"> </a>BT
-                </td>
-                <td>Bhutan</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-BV"> </a>BV
-                </td>
-                <td>Bouvet Island</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-BW"> </a>BW
-                </td>
-                <td>Botswana</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-BY"> </a>BY
-                </td>
-                <td>Belarus</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-BZ"> </a>BZ
-                </td>
-                <td>Belize</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-CA"> </a>CA
-                </td>
-                <td>Canada</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-CC"> </a>CC
-                </td>
-                <td>Cocos (Keeling) Islands</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-CD"> </a>CD
-                </td>
-                <td>Congo, the Democratic Republic of the</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-CF"> </a>CF
-                </td>
-                <td>Central African Republic</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-CG"> </a>CG
-                </td>
-                <td>Congo</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-CH"> </a>CH
-                </td>
-                <td>Switzerland</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-CI"> </a>CI
-                </td>
-                <td>Côte d&#39;&#39;Ivoire</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-CK"> </a>CK
-                </td>
-                <td>Cook Islands</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-CL"> </a>CL
-                </td>
-                <td>Chile</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-CM"> </a>CM
-                </td>
-                <td>Cameroon</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-CN"> </a>CN
-                </td>
-                <td>China</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-CO"> </a>CO
-                </td>
-                <td>Colombia</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-CR"> </a>CR
-                </td>
-                <td>Costa Rica</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-CU"> </a>CU
-                </td>
-                <td>Cuba</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-CV"> </a>CV
-                </td>
-                <td>Cabo Verde</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-CW"> </a>CW
-                </td>
-                <td>Curaçao</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-CX"> </a>CX
-                </td>
-                <td>Christmas Island</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-CY"> </a>CY
-                </td>
-                <td>Cyprus</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-CZ"> </a>CZ
-                </td>
-                <td>Czechia</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-DE"> </a>DE
-                </td>
-                <td>Germany</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-DJ"> </a>DJ
-                </td>
-                <td>Djibouti</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-DK"> </a>DK
-                </td>
-                <td>Denmark</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-DM"> </a>DM
-                </td>
-                <td>Dominica</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-DO"> </a>DO
-                </td>
-                <td>Dominican Republic</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-DZ"> </a>DZ
-                </td>
-                <td>Algeria</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-EC"> </a>EC
-                </td>
-                <td>Ecuador</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-EE"> </a>EE
-                </td>
-                <td>Estonia</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-EG"> </a>EG
-                </td>
-                <td>Egypt</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-EH"> </a>EH
-                </td>
-                <td>Western Sahara</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-ER"> </a>ER
-                </td>
-                <td>Eritrea</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-ES"> </a>ES
-                </td>
-                <td>Spain</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-ET"> </a>ET
-                </td>
-                <td>Ethiopia</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-FI"> </a>FI
-                </td>
-                <td>Finland</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-FJ"> </a>FJ
-                </td>
-                <td>Fiji</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-FK"> </a>FK
-                </td>
-                <td>Falkland Islands (Malvinas)</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-FM"> </a>FM
-                </td>
-                <td>Micronesia, Federated States of</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-FO"> </a>FO
-                </td>
-                <td>Faroe Islands</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-FR"> </a>FR
-                </td>
-                <td>France</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-GA"> </a>GA
-                </td>
-                <td>Gabon</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-GB"> </a>GB
-                </td>
-                <td>United Kingdom of Great Britain and Northern Ireland</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-GD"> </a>GD
-                </td>
-                <td>Grenada</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-GE"> </a>GE
-                </td>
-                <td>Georgia</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-GF"> </a>GF
-                </td>
-                <td>French Guiana</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-GG"> </a>GG
-                </td>
-                <td>Guernsey</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-GH"> </a>GH
-                </td>
-                <td>Ghana</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-GI"> </a>GI
-                </td>
-                <td>Gibraltar</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-GL"> </a>GL
-                </td>
-                <td>Greenland</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-GM"> </a>GM
-                </td>
-                <td>Gambia</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-GN"> </a>GN
-                </td>
-                <td>Guinea</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-GP"> </a>GP
-                </td>
-                <td>Guadeloupe</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-GQ"> </a>GQ
-                </td>
-                <td>Equatorial Guinea</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-GR"> </a>GR
-                </td>
-                <td>Greece</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-GS"> </a>GS
-                </td>
-                <td>South Georgia and the South Sandwich Islands</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-GT"> </a>GT
-                </td>
-                <td>Guatemala</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-GU"> </a>GU
-                </td>
-                <td>Guam</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-GW"> </a>GW
-                </td>
-                <td>Guinea-Bissau</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-GY"> </a>GY
-                </td>
-                <td>Guyana</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-HK"> </a>HK
-                </td>
-                <td>Hong Kong</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-HM"> </a>HM
-                </td>
-                <td>Heard Island and McDonald Islands</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-HN"> </a>HN
-                </td>
-                <td>Honduras</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-HR"> </a>HR
-                </td>
-                <td>Croatia</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-HT"> </a>HT
-                </td>
-                <td>Haiti</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-HU"> </a>HU
-                </td>
-                <td>Hungary</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-ID"> </a>ID
-                </td>
-                <td>Indonesia</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-IE"> </a>IE
-                </td>
-                <td>Ireland</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-IL"> </a>IL
-                </td>
-                <td>Israel</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-IM"> </a>IM
-                </td>
-                <td>Isle of Man</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-IN"> </a>IN
-                </td>
-                <td>India</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-IO"> </a>IO
-                </td>
-                <td>British Indian Ocean Territory</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-IQ"> </a>IQ
-                </td>
-                <td>Iraq</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-IR"> </a>IR
-                </td>
-                <td>Iran, Islamic Republic of</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-IS"> </a>IS
-                </td>
-                <td>Iceland</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-IT"> </a>IT
-                </td>
-                <td>Italy</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-JE"> </a>JE
-                </td>
-                <td>Jersey</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-JM"> </a>JM
-                </td>
-                <td>Jamaica</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-JO"> </a>JO
-                </td>
-                <td>Jordan</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-JP"> </a>JP
-                </td>
-                <td>Japan</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-KE"> </a>KE
-                </td>
-                <td>Kenya</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-KG"> </a>KG
-                </td>
-                <td>Kyrgyzstan</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-KH"> </a>KH
-                </td>
-                <td>Cambodia</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-KI"> </a>KI
-                </td>
-                <td>Kiribati</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-KM"> </a>KM
-                </td>
-                <td>Comoros</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-KN"> </a>KN
-                </td>
-                <td>Saint Kitts and Nevis</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-KP"> </a>KP
-                </td>
-                <td>Korea, Democratic People&#39;&#39;s Republic of</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-KR"> </a>KR
-                </td>
-                <td>Korea, Republic of</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-KW"> </a>KW
-                </td>
-                <td>Kuwait</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-KY"> </a>KY
-                </td>
-                <td>Cayman Islands</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-KZ"> </a>KZ
-                </td>
-                <td>Kazakhstan</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-LA"> </a>LA
-                </td>
-                <td>Lao People&#39;&#39;s Democratic Republic</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-LB"> </a>LB
-                </td>
-                <td>Lebanon</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-LC"> </a>LC
-                </td>
-                <td>Saint Lucia</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-LI"> </a>LI
-                </td>
-                <td>Liechtenstein</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-LK"> </a>LK
-                </td>
-                <td>Sri Lanka</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-LR"> </a>LR
-                </td>
-                <td>Liberia</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-LS"> </a>LS
-                </td>
-                <td>Lesotho</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-LT"> </a>LT
-                </td>
-                <td>Lithuania</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-LU"> </a>LU
-                </td>
-                <td>Luxembourg</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-LV"> </a>LV
-                </td>
-                <td>Latvia</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-LY"> </a>LY
-                </td>
-                <td>Libya</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-MA"> </a>MA
-                </td>
-                <td>Morocco</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-MC"> </a>MC
-                </td>
-                <td>Monaco</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-MD"> </a>MD
-                </td>
-                <td>Moldova, Republic of</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-ME"> </a>ME
-                </td>
-                <td>Montenegro</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-MF"> </a>MF
-                </td>
-                <td>Saint Martin (French part)</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-MG"> </a>MG
-                </td>
-                <td>Madagascar</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-MH"> </a>MH
-                </td>
-                <td>Marshall Islands</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-MK"> </a>MK
-                </td>
-                <td>Macedonia, the former Yugoslav Republic of</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-ML"> </a>ML
-                </td>
-                <td>Mali</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-MM"> </a>MM
-                </td>
-                <td>Myanmar</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-MN"> </a>MN
-                </td>
-                <td>Mongolia</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-MO"> </a>MO
-                </td>
-                <td>Macao</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-MP"> </a>MP
-                </td>
-                <td>Northern Mariana Islands</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-MQ"> </a>MQ
-                </td>
-                <td>Martinique</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-MR"> </a>MR
-                </td>
-                <td>Mauritania</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-MS"> </a>MS
-                </td>
-                <td>Montserrat</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-MT"> </a>MT
-                </td>
-                <td>Malta</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-MU"> </a>MU
-                </td>
-                <td>Mauritius</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-MV"> </a>MV
-                </td>
-                <td>Maldives</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-MW"> </a>MW
-                </td>
-                <td>Malawi</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-MX"> </a>MX
-                </td>
-                <td>Mexico</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-MY"> </a>MY
-                </td>
-                <td>Malaysia</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-MZ"> </a>MZ
-                </td>
-                <td>Mozambique</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-NA"> </a>NA
-                </td>
-                <td>Namibia</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-NC"> </a>NC
-                </td>
-                <td>New Caledonia</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-NE"> </a>NE
-                </td>
-                <td>Niger</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-NF"> </a>NF
-                </td>
-                <td>Norfolk Island</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-NG"> </a>NG
-                </td>
-                <td>Nigeria</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-NI"> </a>NI
-                </td>
-                <td>Nicaragua</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-NL"> </a>NL
-                </td>
-                <td>Netherlands</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-NO"> </a>NO
-                </td>
-                <td>Norway</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-NP"> </a>NP
-                </td>
-                <td>Nepal</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-NR"> </a>NR
-                </td>
-                <td>Nauru</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-NU"> </a>NU
-                </td>
-                <td>Niue</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-NZ"> </a>NZ
-                </td>
-                <td>New Zealand</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-OM"> </a>OM
-                </td>
-                <td>Oman</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-PA"> </a>PA
-                </td>
-                <td>Panama</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-PE"> </a>PE
-                </td>
-                <td>Peru</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-PF"> </a>PF
-                </td>
-                <td>French Polynesia</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-PG"> </a>PG
-                </td>
-                <td>Papua New Guinea</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-PH"> </a>PH
-                </td>
-                <td>Philippines</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-PK"> </a>PK
-                </td>
-                <td>Pakistan</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-PL"> </a>PL
-                </td>
-                <td>Poland</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-PM"> </a>PM
-                </td>
-                <td>Saint Pierre and Miquelon</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-PN"> </a>PN
-                </td>
-                <td>Pitcairn</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-PR"> </a>PR
-                </td>
-                <td>Puerto Rico</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-PS"> </a>PS
-                </td>
-                <td>Palestine, State of</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-PT"> </a>PT
-                </td>
-                <td>Portugal</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-PW"> </a>PW
-                </td>
-                <td>Palau</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-PY"> </a>PY
-                </td>
-                <td>Paraguay</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-QA"> </a>QA
-                </td>
-                <td>Qatar</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-RE"> </a>RE
-                </td>
-                <td>Réunion</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-RO"> </a>RO
-                </td>
-                <td>Romania</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-RS"> </a>RS
-                </td>
-                <td>Serbia</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-RU"> </a>RU
-                </td>
-                <td>Russian Federation</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-RW"> </a>RW
-                </td>
-                <td>Rwanda</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-SA"> </a>SA
-                </td>
-                <td>Saudi Arabia</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-SB"> </a>SB
-                </td>
-                <td>Solomon Islands</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-SC"> </a>SC
-                </td>
-                <td>Seychelles</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-SD"> </a>SD
-                </td>
-                <td>Sudan</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-SE"> </a>SE
-                </td>
-                <td>Sweden</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-SG"> </a>SG
-                </td>
-                <td>Singapore</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-SH"> </a>SH
-                </td>
-                <td>Saint Helena, Ascension and Tristan da Cunha</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-SI"> </a>SI
-                </td>
-                <td>Slovenia</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-SJ"> </a>SJ
-                </td>
-                <td>Svalbard and Jan Mayen</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-SK"> </a>SK
-                </td>
-                <td>Slovakia</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-SL"> </a>SL
-                </td>
-                <td>Sierra Leone</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-SM"> </a>SM
-                </td>
-                <td>San Marino</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-SN"> </a>SN
-                </td>
-                <td>Senegal</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-SO"> </a>SO
-                </td>
-                <td>Somalia</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-SR"> </a>SR
-                </td>
-                <td>Suriname</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-SS"> </a>SS
-                </td>
-                <td>South Sudan</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-ST"> </a>ST
-                </td>
-                <td>Sao Tome and Principe</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-SV"> </a>SV
-                </td>
-                <td>El Salvador</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-SX"> </a>SX
-                </td>
-                <td>Sint Maarten (Dutch part)</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-SY"> </a>SY
-                </td>
-                <td>Syrian Arab Republic</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-SZ"> </a>SZ
-                </td>
-                <td>Swaziland</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-TC"> </a>TC
-                </td>
-                <td>Turks and Caicos Islands</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-TD"> </a>TD
-                </td>
-                <td>Chad</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-TF"> </a>TF
-                </td>
-                <td>French Southern Territories</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-TG"> </a>TG
-                </td>
-                <td>Togo</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-TH"> </a>TH
-                </td>
-                <td>Thailand</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-TJ"> </a>TJ
-                </td>
-                <td>Tajikistan</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-TK"> </a>TK
-                </td>
-                <td>Tokelau</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-TL"> </a>TL
-                </td>
-                <td>Timor-Leste</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-TM"> </a>TM
-                </td>
-                <td>Turkmenistan</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-TN"> </a>TN
-                </td>
-                <td>Tunisia</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-TO"> </a>TO
-                </td>
-                <td>Tonga</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-TR"> </a>TR
-                </td>
-                <td>Turkey</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-TT"> </a>TT
-                </td>
-                <td>Trinidad and Tobago</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-TV"> </a>TV
-                </td>
-                <td>Tuvalu</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-TW"> </a>TW
-                </td>
-                <td>Taiwan, Province of China</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-TZ"> </a>TZ
-                </td>
-                <td>Tanzania, United Republic of</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-UA"> </a>UA
-                </td>
-                <td>Ukraine</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-UG"> </a>UG
-                </td>
-                <td>Uganda</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-UM"> </a>UM
-                </td>
-                <td>United States Minor Outlying Islands</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-US"> </a>US
-                </td>
-                <td>United States of America</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-UY"> </a>UY
-                </td>
-                <td>Uruguay</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-UZ"> </a>UZ
-                </td>
-                <td>Uzbekistan</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-VA"> </a>VA
-                </td>
-                <td>Holy See</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-VC"> </a>VC
-                </td>
-                <td>Saint Vincent and the Grenadines</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-VE"> </a>VE
-                </td>
-                <td>Venezuela, Bolivarian Republic of</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-VG"> </a>VG
-                </td>
-                <td>Virgin Islands, British</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-VI"> </a>VI
-                </td>
-                <td>Virgin Islands,</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-VN"> </a>VN
-                </td>
-                <td>Viet Nam</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-VU"> </a>VU
-                </td>
-                <td>Vanuatu</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-WF"> </a>WF
-                </td>
-                <td>Wallis and Futuna</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-WS"> </a>WS
-                </td>
-                <td>Samoa</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-YE"> </a>YE
-                </td>
-                <td>Yemen</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-YT"> </a>YT
-                </td>
-                <td>Mayotte</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-ZA"> </a>ZA
-                </td>
-                <td>South Africa</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-ZM"> </a>ZM
-                </td>
-                <td>Zambia</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-iso-std-iso-3166-ZW"> </a>ZW
-                </td>
-                <td>Zimbabwe</td>
-              </tr>
-            </table>
-          </div>
-        </text>
-        <url value="http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetAdmin0"/>
-        <version value="0.1.0"/>
-        <name value="WhoCrValueSetAdmin0"/>
-        <title value="List of Administrative Level 0 Names (Countries)"/>
-        <status value="active"/>
-        <date value="2020-11-08T23:18:02+00:00"/>
-        <publisher value="OpenHIE"/>
-        <contact>
-          <name value="OpenHIE"/>
-          <telecom>
-            <system value="url"/>
-            <value value="http://www.ohie.org"/>
-          </telecom>
-        </contact>
-        <description value="List of Administrative Level 0 Names (Countries)"/>
-        <jurisdiction>
-          <coding>
-            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
-            <code value="001"/>
-          </coding>
-        </jurisdiction>
-        <expansion>
-          <identifier value="urn:uuid:8d5d1802-3b87-48a0-b93a-0a40188ebe17"/>
-          <timestamp value="2020-11-08T23:18:22+00:00"/>
-          <total value="249"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
-          <parameter>
-            <name value="version"/>
-            <valueUri value="http://hl7.org/fhir/ValueSet/iso3166-1-2|4.0.1"/>
-          </parameter>
-          <parameter>
-            <name value="limitedExpansion"/>
-            <valueBoolean value="true"/>
-          </parameter>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="AD"/>
-            <display value="Andorra"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="AE"/>
-            <display value="United Arab Emirates"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="AF"/>
-            <display value="Afghanistan"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="AG"/>
-            <display value="Antigua and Barbuda"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="AI"/>
-            <display value="Anguilla"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="AL"/>
-            <display value="Albania"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="AM"/>
-            <display value="Armenia"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="AO"/>
-            <display value="Angola"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="AQ"/>
-            <display value="Antarctica"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="AR"/>
-            <display value="Argentina"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="AS"/>
-            <display value="American Samoa"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="AT"/>
-            <display value="Austria"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="AU"/>
-            <display value="Australia"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="AW"/>
-            <display value="Aruba"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="AX"/>
-            <display value="&#xC5;land Islands"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="AZ"/>
-            <display value="Azerbaijan"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="BA"/>
-            <display value="Bosnia and Herzegovina"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="BB"/>
-            <display value="Barbados"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="BD"/>
-            <display value="Bangladesh"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="BE"/>
-            <display value="Belgium"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="BF"/>
-            <display value="Burkina Faso"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="BG"/>
-            <display value="Bulgaria"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="BH"/>
-            <display value="Bahrain"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="BI"/>
-            <display value="Burundi"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="BJ"/>
-            <display value="Benin"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="BL"/>
-            <display value="Saint Barth&#xE9;lemy"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="BM"/>
-            <display value="Bermuda"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="BN"/>
-            <display value="Brunei Darussalam"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="BO"/>
-            <display value="Bolivia, Plurinational State of"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="BQ"/>
-            <display value="Bonaire, Sint Eustatius and Saba"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="BR"/>
-            <display value="Brazil"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="BS"/>
-            <display value="Bahamas"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="BT"/>
-            <display value="Bhutan"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="BV"/>
-            <display value="Bouvet Island"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="BW"/>
-            <display value="Botswana"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="BY"/>
-            <display value="Belarus"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="BZ"/>
-            <display value="Belize"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="CA"/>
-            <display value="Canada"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="CC"/>
-            <display value="Cocos (Keeling) Islands"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="CD"/>
-            <display value="Congo, the Democratic Republic of the"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="CF"/>
-            <display value="Central African Republic"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="CG"/>
-            <display value="Congo"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="CH"/>
-            <display value="Switzerland"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="CI"/>
-            <display value="C&#xF4;te d&#39;&#39;Ivoire"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="CK"/>
-            <display value="Cook Islands"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="CL"/>
-            <display value="Chile"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="CM"/>
-            <display value="Cameroon"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="CN"/>
-            <display value="China"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="CO"/>
-            <display value="Colombia"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="CR"/>
-            <display value="Costa Rica"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="CU"/>
-            <display value="Cuba"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="CV"/>
-            <display value="Cabo Verde"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="CW"/>
-            <display value="Cura&#xE7;ao"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="CX"/>
-            <display value="Christmas Island"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="CY"/>
-            <display value="Cyprus"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="CZ"/>
-            <display value="Czechia"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="DE"/>
-            <display value="Germany"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="DJ"/>
-            <display value="Djibouti"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="DK"/>
-            <display value="Denmark"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="DM"/>
-            <display value="Dominica"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="DO"/>
-            <display value="Dominican Republic"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="DZ"/>
-            <display value="Algeria"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="EC"/>
-            <display value="Ecuador"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="EE"/>
-            <display value="Estonia"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="EG"/>
-            <display value="Egypt"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="EH"/>
-            <display value="Western Sahara"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="ER"/>
-            <display value="Eritrea"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="ES"/>
-            <display value="Spain"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="ET"/>
-            <display value="Ethiopia"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="FI"/>
-            <display value="Finland"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="FJ"/>
-            <display value="Fiji"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="FK"/>
-            <display value="Falkland Islands (Malvinas)"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="FM"/>
-            <display value="Micronesia, Federated States of"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="FO"/>
-            <display value="Faroe Islands"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="FR"/>
-            <display value="France"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="GA"/>
-            <display value="Gabon"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="GB"/>
-            <display value="United Kingdom of Great Britain and Northern Ireland"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="GD"/>
-            <display value="Grenada"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="GE"/>
-            <display value="Georgia"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="GF"/>
-            <display value="French Guiana"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="GG"/>
-            <display value="Guernsey"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="GH"/>
-            <display value="Ghana"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="GI"/>
-            <display value="Gibraltar"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="GL"/>
-            <display value="Greenland"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="GM"/>
-            <display value="Gambia"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="GN"/>
-            <display value="Guinea"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="GP"/>
-            <display value="Guadeloupe"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="GQ"/>
-            <display value="Equatorial Guinea"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="GR"/>
-            <display value="Greece"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="GS"/>
-            <display value="South Georgia and the South Sandwich Islands"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="GT"/>
-            <display value="Guatemala"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="GU"/>
-            <display value="Guam"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="GW"/>
-            <display value="Guinea-Bissau"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="GY"/>
-            <display value="Guyana"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="HK"/>
-            <display value="Hong Kong"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="HM"/>
-            <display value="Heard Island and McDonald Islands"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="HN"/>
-            <display value="Honduras"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="HR"/>
-            <display value="Croatia"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="HT"/>
-            <display value="Haiti"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="HU"/>
-            <display value="Hungary"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="ID"/>
-            <display value="Indonesia"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="IE"/>
-            <display value="Ireland"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="IL"/>
-            <display value="Israel"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="IM"/>
-            <display value="Isle of Man"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="IN"/>
-            <display value="India"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="IO"/>
-            <display value="British Indian Ocean Territory"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="IQ"/>
-            <display value="Iraq"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="IR"/>
-            <display value="Iran, Islamic Republic of"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="IS"/>
-            <display value="Iceland"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="IT"/>
-            <display value="Italy"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="JE"/>
-            <display value="Jersey"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="JM"/>
-            <display value="Jamaica"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="JO"/>
-            <display value="Jordan"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="JP"/>
-            <display value="Japan"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="KE"/>
-            <display value="Kenya"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="KG"/>
-            <display value="Kyrgyzstan"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="KH"/>
-            <display value="Cambodia"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="KI"/>
-            <display value="Kiribati"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="KM"/>
-            <display value="Comoros"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="KN"/>
-            <display value="Saint Kitts and Nevis"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="KP"/>
-            <display value="Korea, Democratic People&#39;&#39;s Republic of"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="KR"/>
-            <display value="Korea, Republic of"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="KW"/>
-            <display value="Kuwait"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="KY"/>
-            <display value="Cayman Islands"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="KZ"/>
-            <display value="Kazakhstan"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="LA"/>
-            <display value="Lao People&#39;&#39;s Democratic Republic"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="LB"/>
-            <display value="Lebanon"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="LC"/>
-            <display value="Saint Lucia"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="LI"/>
-            <display value="Liechtenstein"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="LK"/>
-            <display value="Sri Lanka"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="LR"/>
-            <display value="Liberia"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="LS"/>
-            <display value="Lesotho"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="LT"/>
-            <display value="Lithuania"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="LU"/>
-            <display value="Luxembourg"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="LV"/>
-            <display value="Latvia"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="LY"/>
-            <display value="Libya"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="MA"/>
-            <display value="Morocco"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="MC"/>
-            <display value="Monaco"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="MD"/>
-            <display value="Moldova, Republic of"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="ME"/>
-            <display value="Montenegro"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="MF"/>
-            <display value="Saint Martin (French part)"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="MG"/>
-            <display value="Madagascar"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="MH"/>
-            <display value="Marshall Islands"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="MK"/>
-            <display value="Macedonia, the former Yugoslav Republic of"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="ML"/>
-            <display value="Mali"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="MM"/>
-            <display value="Myanmar"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="MN"/>
-            <display value="Mongolia"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="MO"/>
-            <display value="Macao"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="MP"/>
-            <display value="Northern Mariana Islands"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="MQ"/>
-            <display value="Martinique"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="MR"/>
-            <display value="Mauritania"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="MS"/>
-            <display value="Montserrat"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="MT"/>
-            <display value="Malta"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="MU"/>
-            <display value="Mauritius"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="MV"/>
-            <display value="Maldives"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="MW"/>
-            <display value="Malawi"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="MX"/>
-            <display value="Mexico"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="MY"/>
-            <display value="Malaysia"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="MZ"/>
-            <display value="Mozambique"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="NA"/>
-            <display value="Namibia"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="NC"/>
-            <display value="New Caledonia"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="NE"/>
-            <display value="Niger"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="NF"/>
-            <display value="Norfolk Island"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="NG"/>
-            <display value="Nigeria"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="NI"/>
-            <display value="Nicaragua"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="NL"/>
-            <display value="Netherlands"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="NO"/>
-            <display value="Norway"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="NP"/>
-            <display value="Nepal"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="NR"/>
-            <display value="Nauru"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="NU"/>
-            <display value="Niue"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="NZ"/>
-            <display value="New Zealand"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="OM"/>
-            <display value="Oman"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="PA"/>
-            <display value="Panama"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="PE"/>
-            <display value="Peru"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="PF"/>
-            <display value="French Polynesia"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="PG"/>
-            <display value="Papua New Guinea"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="PH"/>
-            <display value="Philippines"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="PK"/>
-            <display value="Pakistan"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="PL"/>
-            <display value="Poland"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="PM"/>
-            <display value="Saint Pierre and Miquelon"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="PN"/>
-            <display value="Pitcairn"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="PR"/>
-            <display value="Puerto Rico"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="PS"/>
-            <display value="Palestine, State of"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="PT"/>
-            <display value="Portugal"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="PW"/>
-            <display value="Palau"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="PY"/>
-            <display value="Paraguay"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="QA"/>
-            <display value="Qatar"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="RE"/>
-            <display value="R&#xE9;union"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="RO"/>
-            <display value="Romania"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="RS"/>
-            <display value="Serbia"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="RU"/>
-            <display value="Russian Federation"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="RW"/>
-            <display value="Rwanda"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="SA"/>
-            <display value="Saudi Arabia"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="SB"/>
-            <display value="Solomon Islands"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="SC"/>
-            <display value="Seychelles"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="SD"/>
-            <display value="Sudan"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="SE"/>
-            <display value="Sweden"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="SG"/>
-            <display value="Singapore"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="SH"/>
-            <display value="Saint Helena, Ascension and Tristan da Cunha"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="SI"/>
-            <display value="Slovenia"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="SJ"/>
-            <display value="Svalbard and Jan Mayen"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="SK"/>
-            <display value="Slovakia"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="SL"/>
-            <display value="Sierra Leone"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="SM"/>
-            <display value="San Marino"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="SN"/>
-            <display value="Senegal"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="SO"/>
-            <display value="Somalia"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="SR"/>
-            <display value="Suriname"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="SS"/>
-            <display value="South Sudan"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="ST"/>
-            <display value="Sao Tome and Principe"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="SV"/>
-            <display value="El Salvador"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="SX"/>
-            <display value="Sint Maarten (Dutch part)"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="SY"/>
-            <display value="Syrian Arab Republic"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="SZ"/>
-            <display value="Swaziland"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="TC"/>
-            <display value="Turks and Caicos Islands"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="TD"/>
-            <display value="Chad"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="TF"/>
-            <display value="French Southern Territories"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="TG"/>
-            <display value="Togo"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="TH"/>
-            <display value="Thailand"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="TJ"/>
-            <display value="Tajikistan"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="TK"/>
-            <display value="Tokelau"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="TL"/>
-            <display value="Timor-Leste"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="TM"/>
-            <display value="Turkmenistan"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="TN"/>
-            <display value="Tunisia"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="TO"/>
-            <display value="Tonga"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="TR"/>
-            <display value="Turkey"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="TT"/>
-            <display value="Trinidad and Tobago"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="TV"/>
-            <display value="Tuvalu"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="TW"/>
-            <display value="Taiwan, Province of China"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="TZ"/>
-            <display value="Tanzania, United Republic of"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="UA"/>
-            <display value="Ukraine"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="UG"/>
-            <display value="Uganda"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="UM"/>
-            <display value="United States Minor Outlying Islands"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="US"/>
-            <display value="United States of America"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="UY"/>
-            <display value="Uruguay"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="UZ"/>
-            <display value="Uzbekistan"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="VA"/>
-            <display value="Holy See"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="VC"/>
-            <display value="Saint Vincent and the Grenadines"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="VE"/>
-            <display value="Venezuela, Bolivarian Republic of"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="VG"/>
-            <display value="Virgin Islands, British"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="VI"/>
-            <display value="Virgin Islands,"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="VN"/>
-            <display value="Viet Nam"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="VU"/>
-            <display value="Vanuatu"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="WF"/>
-            <display value="Wallis and Futuna"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="WS"/>
-            <display value="Samoa"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="YE"/>
-            <display value="Yemen"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="YT"/>
-            <display value="Mayotte"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="ZA"/>
-            <display value="South Africa"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="ZM"/>
-            <display value="Zambia"/>
-          </contains>
-          <contains>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="ZW"/>
-            <display value="Zimbabwe"/>
-          </contains>
-        </expansion>
-      </ValueSet>
-    </resource>
-  </entry>
-  <entry>
-    <fullUrl value="http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetAdmin1"/>
+    <fullUrl value="http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetAdmin1"/>
     <resource>
       <ValueSet>
         <id value="WhoCrValueSetAdmin1"/>
@@ -9841,12 +7036,12 @@
             </table>
           </div>
         </text>
-        <url value="http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetAdmin1"/>
+        <url value="http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetAdmin1"/>
         <version value="0.1.0"/>
         <name value="WhoCrValueSetAdmin1"/>
         <title value="List of Administrative Level 1 Names (Province/State/Canton)"/>
         <status value="active"/>
-        <date value="2020-11-08T23:18:02+00:00"/>
+        <date value="2020-11-19T22:47:13+00:00"/>
         <publisher value="OpenHIE"/>
         <contact>
           <name value="OpenHIE"/>
@@ -9866,8 +7061,8 @@
           <extension url="http://hl7.org/fhir/StructureDefinition/valueset-toocostly">
             <valueBoolean value="true"/>
           </extension>
-          <identifier value="urn:uuid:b19edc18-4e3a-4418-912e-2f7ec1bf8022"/>
-          <timestamp value="2020-11-08T23:18:22+00:00"/>
+          <identifier value="urn:uuid:12b6d8f5-c27e-4641-a7c2-2a669819df85"/>
+          <timestamp value="2020-11-19T22:47:31+00:00"/>
           <total value="1000"/>
           <parameter>
             <name value="excludeNested"/>
@@ -14886,7 +12081,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetAgeUnits"/>
+    <fullUrl value="http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetAgeUnits"/>
     <resource>
       <ValueSet>
         <id value="WhoCrValueSetAgeUnits"/>
@@ -14936,12 +12131,12 @@
             </table>
           </div>
         </text>
-        <url value="http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetAgeUnits"/>
+        <url value="http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetAgeUnits"/>
         <version value="0.1.0"/>
         <name value="WhoCrValueSetAgeUnits"/>
         <title value="Patient Age Units"/>
         <status value="active"/>
-        <date value="2020-11-08T23:18:02+00:00"/>
+        <date value="2020-11-19T22:47:13+00:00"/>
         <publisher value="OpenHIE"/>
         <contact>
           <name value="OpenHIE"/>
@@ -14958,8 +12153,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:0176fff3-be93-4e01-8800-0e1107543a93"/>
-          <timestamp value="2020-11-08T23:18:22+00:00"/>
+          <identifier value="urn:uuid:30803844-9241-4759-8351-a911c49e539b"/>
+          <timestamp value="2020-11-19T22:47:32+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -14993,7 +12188,206 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetContactSetting"/>
+    <fullUrl value="http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetComorbidity"/>
+    <resource>
+      <ValueSet>
+        <id value="WhoCrValueSetComorbidity"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 10 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-WhoCrCodeSystemComorbidity.html">Patient Comorbidity v0.1.0 (CodeSystem)</a>
+            </p>
+            <p>All codes from system 
+              <a href="CodeSystem-WhoCrCodeSystemComorbidity.html">
+                <code>http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemComorbidity</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---openhie.github.io-covid-19-CodeSystem-WhoCrCodeSystemComorbidity-PREGNANCY"> </a>
+                  <a href="CodeSystem-WhoCrCodeSystemComorbidity.html#WhoCrCodeSystemComorbidity-PREGNANCY">PREGNANCY</a>
+                </td>
+                <td>Pregnant</td>
+                <td>Patient is pregnant</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---openhie.github.io-covid-19-CodeSystem-WhoCrCodeSystemComorbidity-POSTPARTUM"> </a>
+                  <a href="CodeSystem-WhoCrCodeSystemComorbidity.html#WhoCrCodeSystemComorbidity-POSTPARTUM">POSTPARTUM</a>
+                </td>
+                <td>Post-partum</td>
+                <td>Patient is in the post-partum period defined as less than 6 weeks after delivery date</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---openhie.github.io-covid-19-CodeSystem-WhoCrCodeSystemComorbidity-IMMUNODEFICIENCY"> </a>
+                  <a href="CodeSystem-WhoCrCodeSystemComorbidity.html#WhoCrCodeSystemComorbidity-IMMUNODEFICIENCY">IMMUNODEFICIENCY</a>
+                </td>
+                <td>Immunodeficiency</td>
+                <td>Patient has an acquired immunodeficiency (HIV) or is treated with drugs that decrease immune response (corticoides, anti-cancer chemotherapy)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---openhie.github.io-covid-19-CodeSystem-WhoCrCodeSystemComorbidity-CARDIOVASCULAR"> </a>
+                  <a href="CodeSystem-WhoCrCodeSystemComorbidity.html#WhoCrCodeSystemComorbidity-CARDIOVASCULAR">CARDIOVASCULAR</a>
+                </td>
+                <td>Cardiovascular disease</td>
+                <td>Patient has any cardiovascular disease, including hypertension</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---openhie.github.io-covid-19-CodeSystem-WhoCrCodeSystemComorbidity-DIABETES"> </a>
+                  <a href="CodeSystem-WhoCrCodeSystemComorbidity.html#WhoCrCodeSystemComorbidity-DIABETES">DIABETES</a>
+                </td>
+                <td>Diabetes</td>
+                <td>Patient is diabetic</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---openhie.github.io-covid-19-CodeSystem-WhoCrCodeSystemComorbidity-HEPATOPATHY"> </a>
+                  <a href="CodeSystem-WhoCrCodeSystemComorbidity.html#WhoCrCodeSystemComorbidity-HEPATOPATHY">HEPATOPATHY</a>
+                </td>
+                <td>Liver Disease</td>
+                <td>Patient has any liver diseases</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---openhie.github.io-covid-19-CodeSystem-WhoCrCodeSystemComorbidity-RENOPATHY"> </a>
+                  <a href="CodeSystem-WhoCrCodeSystemComorbidity.html#WhoCrCodeSystemComorbidity-RENOPATHY">RENOPATHY</a>
+                </td>
+                <td>Kidney Disease</td>
+                <td>Patient has any renal disease</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---openhie.github.io-covid-19-CodeSystem-WhoCrCodeSystemComorbidity-CHRONICNEUROPATHY"> </a>
+                  <a href="CodeSystem-WhoCrCodeSystemComorbidity.html#WhoCrCodeSystemComorbidity-CHRONICNEUROPATHY">CHRONICNEUROPATHY</a>
+                </td>
+                <td>Chronic neurological or neuromuscular disease</td>
+                <td>Patient has chronic neurological or neuromuscular disease</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---openhie.github.io-covid-19-CodeSystem-WhoCrCodeSystemComorbidity-MALIGNANCY"> </a>
+                  <a href="CodeSystem-WhoCrCodeSystemComorbidity.html#WhoCrCodeSystemComorbidity-MALIGNANCY">MALIGNANCY</a>
+                </td>
+                <td>Malignancy</td>
+                <td>Patient has any malignancy</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---openhie.github.io-covid-19-CodeSystem-WhoCrCodeSystemComorbidity-CHRONICLUNG"> </a>
+                  <a href="CodeSystem-WhoCrCodeSystemComorbidity.html#WhoCrCodeSystemComorbidity-CHRONICLUNG">CHRONICLUNG</a>
+                </td>
+                <td>Chronic Lung Disease</td>
+                <td>Patient has a chronic lung disease</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetComorbidity"/>
+        <version value="0.1.0"/>
+        <name value="WhoCrValueSetComorbidity"/>
+        <title value="Comorbidity"/>
+        <status value="active"/>
+        <date value="2020-11-19T22:47:13+00:00"/>
+        <publisher value="OpenHIE"/>
+        <contact>
+          <name value="OpenHIE"/>
+          <telecom>
+            <system value="url"/>
+            <value value="http://www.ohie.org"/>
+          </telecom>
+        </contact>
+        <description value="Comorbidity"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:e78c4cf7-06ed-4521-8458-5c479f5b5940"/>
+          <timestamp value="2020-11-19T22:47:32+00:00"/>
+          <total value="10"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemComorbidity|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemComorbidity"/>
+            <code value="PREGNANCY"/>
+            <display value="Pregnant"/>
+          </contains>
+          <contains>
+            <system value="http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemComorbidity"/>
+            <code value="POSTPARTUM"/>
+            <display value="Post-partum"/>
+          </contains>
+          <contains>
+            <system value="http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemComorbidity"/>
+            <code value="IMMUNODEFICIENCY"/>
+            <display value="Immunodeficiency"/>
+          </contains>
+          <contains>
+            <system value="http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemComorbidity"/>
+            <code value="CARDIOVASCULAR"/>
+            <display value="Cardiovascular disease"/>
+          </contains>
+          <contains>
+            <system value="http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemComorbidity"/>
+            <code value="DIABETES"/>
+            <display value="Diabetes"/>
+          </contains>
+          <contains>
+            <system value="http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemComorbidity"/>
+            <code value="HEPATOPATHY"/>
+            <display value="Liver Disease"/>
+          </contains>
+          <contains>
+            <system value="http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemComorbidity"/>
+            <code value="RENOPATHY"/>
+            <display value="Kidney Disease"/>
+          </contains>
+          <contains>
+            <system value="http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemComorbidity"/>
+            <code value="CHRONICNEUROPATHY"/>
+            <display value="Chronic neurological or neuromuscular disease"/>
+          </contains>
+          <contains>
+            <system value="http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemComorbidity"/>
+            <code value="MALIGNANCY"/>
+            <display value="Malignancy"/>
+          </contains>
+          <contains>
+            <system value="http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemComorbidity"/>
+            <code value="CHRONICLUNG"/>
+            <display value="Chronic Lung Disease"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetContactSetting"/>
     <resource>
       <ValueSet>
         <id value="WhoCrValueSetContactSetting"/>
@@ -15016,12 +12410,12 @@
             </table>
           </div>
         </text>
-        <url value="http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetContactSetting"/>
+        <url value="http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetContactSetting"/>
         <version value="0.1.0"/>
         <name value="WhoCrValueSetContactSetting"/>
         <title value="List of Contact Settings"/>
         <status value="active"/>
-        <date value="2020-11-08T23:18:02+00:00"/>
+        <date value="2020-11-19T22:47:13+00:00"/>
         <publisher value="OpenHIE"/>
         <contact>
           <name value="OpenHIE"/>
@@ -15038,8 +12432,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:0dca41b7-33f0-4bc8-a751-cf9319e48efe"/>
-          <timestamp value="2020-11-08T23:18:22+00:00"/>
+          <identifier value="urn:uuid:662fd6f7-6cd8-4468-82a6-340cd20779e3"/>
+          <timestamp value="2020-11-19T22:47:32+00:00"/>
           <parameter>
             <name value="excludeNested"/>
             <valueBoolean value="false"/>
@@ -15049,7 +12443,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetPatientOutcome"/>
+    <fullUrl value="http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetPatientOutcome"/>
     <resource>
       <ValueSet>
         <id value="WhoCrValueSetPatientOutcome"/>
@@ -15062,7 +12456,7 @@
             </p>
             <p>All codes from system 
               <a href="CodeSystem-WhoCrCodeSystemPatientOutcome.html">
-                <code>http://www.example.com/fhir/cr/covid19/CodeSystem/WhoCrCodeSystemPatientOutcome</code>
+                <code>http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemPatientOutcome</code>
               </a>
             </p>
             <table class="codes">
@@ -15079,7 +12473,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---www.example.com-fhir-cr-covid19-CodeSystem-WhoCrCodeSystemPatientOutcome-RECOVERED"> </a>
+                  <a name="http---openhie.github.io-covid-19-CodeSystem-WhoCrCodeSystemPatientOutcome-RECOVERED"> </a>
                   <a href="CodeSystem-WhoCrCodeSystemPatientOutcome.html#WhoCrCodeSystemPatientOutcome-RECOVERED">RECOVERED</a>
                 </td>
                 <td>Recovered/Healthy</td>
@@ -15087,7 +12481,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---www.example.com-fhir-cr-covid19-CodeSystem-WhoCrCodeSystemPatientOutcome-NOTRECOVERED"> </a>
+                  <a name="http---openhie.github.io-covid-19-CodeSystem-WhoCrCodeSystemPatientOutcome-NOTRECOVERED"> </a>
                   <a href="CodeSystem-WhoCrCodeSystemPatientOutcome.html#WhoCrCodeSystemPatientOutcome-NOTRECOVERED">NOTRECOVERED</a>
                 </td>
                 <td>Not recovered</td>
@@ -15095,7 +12489,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---www.example.com-fhir-cr-covid19-CodeSystem-WhoCrCodeSystemPatientOutcome-DEATH"> </a>
+                  <a name="http---openhie.github.io-covid-19-CodeSystem-WhoCrCodeSystemPatientOutcome-DEATH"> </a>
                   <a href="CodeSystem-WhoCrCodeSystemPatientOutcome.html#WhoCrCodeSystemPatientOutcome-DEATH">DEATH</a>
                 </td>
                 <td>Death</td>
@@ -15103,7 +12497,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---www.example.com-fhir-cr-covid19-CodeSystem-WhoCrCodeSystemPatientOutcome-UNKNOWN"> </a>
+                  <a name="http---openhie.github.io-covid-19-CodeSystem-WhoCrCodeSystemPatientOutcome-UNKNOWN"> </a>
                   <a href="CodeSystem-WhoCrCodeSystemPatientOutcome.html#WhoCrCodeSystemPatientOutcome-UNKNOWN">UNKNOWN</a>
                 </td>
                 <td>Unknown</td>
@@ -15111,7 +12505,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---www.example.com-fhir-cr-covid19-CodeSystem-WhoCrCodeSystemPatientOutcome-OTHER"> </a>
+                  <a name="http---openhie.github.io-covid-19-CodeSystem-WhoCrCodeSystemPatientOutcome-OTHER"> </a>
                   <a href="CodeSystem-WhoCrCodeSystemPatientOutcome.html#WhoCrCodeSystemPatientOutcome-OTHER">OTHER</a>
                 </td>
                 <td>Other</td>
@@ -15120,12 +12514,12 @@
             </table>
           </div>
         </text>
-        <url value="http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetPatientOutcome"/>
+        <url value="http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetPatientOutcome"/>
         <version value="0.1.0"/>
         <name value="WhoCrValueSetPatientOutcome"/>
         <title value="Patient Outcome"/>
         <status value="active"/>
-        <date value="2020-11-08T23:18:02+00:00"/>
+        <date value="2020-11-19T22:47:13+00:00"/>
         <publisher value="OpenHIE"/>
         <contact>
           <name value="OpenHIE"/>
@@ -15142,8 +12536,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:b81ae7d6-b94f-4c00-a7be-c909775e47ed"/>
-          <timestamp value="2020-11-08T23:18:22+00:00"/>
+          <identifier value="urn:uuid:020df356-92fb-4904-8e56-b3a2cd6387f3"/>
+          <timestamp value="2020-11-19T22:47:32+00:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -15151,30 +12545,30 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="http://www.example.com/fhir/cr/covid19/CodeSystem/WhoCrCodeSystemPatientOutcome|0.1.0"/>
+            <valueUri value="http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemPatientOutcome|0.1.0"/>
           </parameter>
           <contains>
-            <system value="http://www.example.com/fhir/cr/covid19/CodeSystem/WhoCrCodeSystemPatientOutcome"/>
+            <system value="http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemPatientOutcome"/>
             <code value="RECOVERED"/>
             <display value="Recovered/Healthy"/>
           </contains>
           <contains>
-            <system value="http://www.example.com/fhir/cr/covid19/CodeSystem/WhoCrCodeSystemPatientOutcome"/>
+            <system value="http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemPatientOutcome"/>
             <code value="NOTRECOVERED"/>
             <display value="Not recovered"/>
           </contains>
           <contains>
-            <system value="http://www.example.com/fhir/cr/covid19/CodeSystem/WhoCrCodeSystemPatientOutcome"/>
+            <system value="http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemPatientOutcome"/>
             <code value="DEATH"/>
             <display value="Death"/>
           </contains>
           <contains>
-            <system value="http://www.example.com/fhir/cr/covid19/CodeSystem/WhoCrCodeSystemPatientOutcome"/>
+            <system value="http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemPatientOutcome"/>
             <code value="UNKNOWN"/>
             <display value="Unknown"/>
           </contains>
           <contains>
-            <system value="http://www.example.com/fhir/cr/covid19/CodeSystem/WhoCrCodeSystemPatientOutcome"/>
+            <system value="http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemPatientOutcome"/>
             <code value="OTHER"/>
             <display value="Other"/>
           </contains>
@@ -15183,7 +12577,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetPregnancyTrimester"/>
+    <fullUrl value="http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetPregnancyTrimester"/>
     <resource>
       <ValueSet>
         <id value="WhoCrValueSetPregnancyTrimester"/>
@@ -15196,7 +12590,7 @@
             </p>
             <p>All codes from system 
               <a href="CodeSystem-WhoCrCodeSystemPregnancyTrimester.html">
-                <code>http://www.example.com/fhir/cr/covid19/CodeSystem/WhoCrCodeSystemPregnancyTrimester</code>
+                <code>http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemPregnancyTrimester</code>
               </a>
             </p>
             <table class="codes">
@@ -15213,7 +12607,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---www.example.com-fhir-cr-covid19-CodeSystem-WhoCrCodeSystemPregnancyTrimester-first"> </a>
+                  <a name="http---openhie.github.io-covid-19-CodeSystem-WhoCrCodeSystemPregnancyTrimester-first"> </a>
                   <a href="CodeSystem-WhoCrCodeSystemPregnancyTrimester.html#WhoCrCodeSystemPregnancyTrimester-first">first</a>
                 </td>
                 <td>First</td>
@@ -15221,7 +12615,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---www.example.com-fhir-cr-covid19-CodeSystem-WhoCrCodeSystemPregnancyTrimester-second"> </a>
+                  <a name="http---openhie.github.io-covid-19-CodeSystem-WhoCrCodeSystemPregnancyTrimester-second"> </a>
                   <a href="CodeSystem-WhoCrCodeSystemPregnancyTrimester.html#WhoCrCodeSystemPregnancyTrimester-second">second</a>
                 </td>
                 <td>Second</td>
@@ -15229,7 +12623,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---www.example.com-fhir-cr-covid19-CodeSystem-WhoCrCodeSystemPregnancyTrimester-third"> </a>
+                  <a name="http---openhie.github.io-covid-19-CodeSystem-WhoCrCodeSystemPregnancyTrimester-third"> </a>
                   <a href="CodeSystem-WhoCrCodeSystemPregnancyTrimester.html#WhoCrCodeSystemPregnancyTrimester-third">third</a>
                 </td>
                 <td>Third</td>
@@ -15238,12 +12632,12 @@
             </table>
           </div>
         </text>
-        <url value="http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetPregnancyTrimester"/>
+        <url value="http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetPregnancyTrimester"/>
         <version value="0.1.0"/>
         <name value="WhoCrValueSetPregnancyTrimester"/>
         <title value="Pregnancy Trimester"/>
         <status value="active"/>
-        <date value="2020-11-08T23:18:02+00:00"/>
+        <date value="2020-11-19T22:47:13+00:00"/>
         <publisher value="OpenHIE"/>
         <contact>
           <name value="OpenHIE"/>
@@ -15260,8 +12654,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:00c15c36-6269-48bd-b843-dd976871aea8"/>
-          <timestamp value="2020-11-08T23:18:23+00:00"/>
+          <identifier value="urn:uuid:1e07a39d-f2b1-4a0b-8d60-ecfb136b53da"/>
+          <timestamp value="2020-11-19T22:47:32+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -15269,20 +12663,20 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="http://www.example.com/fhir/cr/covid19/CodeSystem/WhoCrCodeSystemPregnancyTrimester|0.1.0"/>
+            <valueUri value="http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemPregnancyTrimester|0.1.0"/>
           </parameter>
           <contains>
-            <system value="http://www.example.com/fhir/cr/covid19/CodeSystem/WhoCrCodeSystemPregnancyTrimester"/>
+            <system value="http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemPregnancyTrimester"/>
             <code value="first"/>
             <display value="First"/>
           </contains>
           <contains>
-            <system value="http://www.example.com/fhir/cr/covid19/CodeSystem/WhoCrCodeSystemPregnancyTrimester"/>
+            <system value="http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemPregnancyTrimester"/>
             <code value="second"/>
             <display value="Second"/>
           </contains>
           <contains>
-            <system value="http://www.example.com/fhir/cr/covid19/CodeSystem/WhoCrCodeSystemPregnancyTrimester"/>
+            <system value="http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemPregnancyTrimester"/>
             <code value="third"/>
             <display value="Third"/>
           </contains>
@@ -15291,7 +12685,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetReasonForCovid19Testing"/>
+    <fullUrl value="http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetReasonForCovid19Testing"/>
     <resource>
       <ValueSet>
         <id value="WhoCrValueSetReasonForCovid19Testing"/>
@@ -15304,7 +12698,7 @@
             </p>
             <p>All codes from system 
               <a href="CodeSystem-WhoCrCodeSystemReasonForTesting.html">
-                <code>http://www.example.com/fhir/cr/covid19/CodeSystem/WhoCrCodeSystemReasonForTesting</code>
+                <code>http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemReasonForTesting</code>
               </a>
             </p>
             <table class="codes">
@@ -15321,7 +12715,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---www.example.com-fhir-cr-covid19-CodeSystem-WhoCrCodeSystemReasonForTesting-CASE-CONTACT"> </a>
+                  <a name="http---openhie.github.io-covid-19-CodeSystem-WhoCrCodeSystemReasonForTesting-CASE-CONTACT"> </a>
                   <a href="CodeSystem-WhoCrCodeSystemReasonForTesting.html#WhoCrCodeSystemReasonForTesting-CASE_CONTACT">CASE_CONTACT</a>
                 </td>
                 <td>Contact of a case</td>
@@ -15329,7 +12723,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---www.example.com-fhir-cr-covid19-CodeSystem-WhoCrCodeSystemReasonForTesting-SEEKING-HC"> </a>
+                  <a name="http---openhie.github.io-covid-19-CodeSystem-WhoCrCodeSystemReasonForTesting-SEEKING-HC"> </a>
                   <a href="CodeSystem-WhoCrCodeSystemReasonForTesting.html#WhoCrCodeSystemReasonForTesting-SEEKING_HC">SEEKING_HC</a>
                 </td>
                 <td>Ill Seeking Healthcare due to suspicion of COVID-19</td>
@@ -15337,7 +12731,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---www.example.com-fhir-cr-covid19-CodeSystem-WhoCrCodeSystemReasonForTesting-POE-DETECTION"> </a>
+                  <a name="http---openhie.github.io-covid-19-CodeSystem-WhoCrCodeSystemReasonForTesting-POE-DETECTION"> </a>
                   <a href="CodeSystem-WhoCrCodeSystemReasonForTesting.html#WhoCrCodeSystemReasonForTesting-POE_DETECTION">POE_DETECTION</a>
                 </td>
                 <td>Detected at point of entry</td>
@@ -15345,7 +12739,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---www.example.com-fhir-cr-covid19-CodeSystem-WhoCrCodeSystemReasonForTesting-REPATRIATION"> </a>
+                  <a name="http---openhie.github.io-covid-19-CodeSystem-WhoCrCodeSystemReasonForTesting-REPATRIATION"> </a>
                   <a href="CodeSystem-WhoCrCodeSystemReasonForTesting.html#WhoCrCodeSystemReasonForTesting-REPATRIATION">REPATRIATION</a>
                 </td>
                 <td>Repatriation</td>
@@ -15353,7 +12747,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---www.example.com-fhir-cr-covid19-CodeSystem-WhoCrCodeSystemReasonForTesting-SURVEILLANCE"> </a>
+                  <a name="http---openhie.github.io-covid-19-CodeSystem-WhoCrCodeSystemReasonForTesting-SURVEILLANCE"> </a>
                   <a href="CodeSystem-WhoCrCodeSystemReasonForTesting.html#WhoCrCodeSystemReasonForTesting-SURVEILLANCE">SURVEILLANCE</a>
                 </td>
                 <td>Routine respiratory disease surveillance systems (e.g. influenza)</td>
@@ -15361,7 +12755,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---www.example.com-fhir-cr-covid19-CodeSystem-WhoCrCodeSystemReasonForTesting-UNKNOWN"> </a>
+                  <a name="http---openhie.github.io-covid-19-CodeSystem-WhoCrCodeSystemReasonForTesting-UNKNOWN"> </a>
                   <a href="CodeSystem-WhoCrCodeSystemReasonForTesting.html#WhoCrCodeSystemReasonForTesting-UNKNOWN">UNKNOWN</a>
                 </td>
                 <td>Unknown</td>
@@ -15370,12 +12764,12 @@
             </table>
           </div>
         </text>
-        <url value="http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetReasonForCovid19Testing"/>
+        <url value="http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetReasonForCovid19Testing"/>
         <version value="0.1.0"/>
         <name value="WhoCrValueSetReasonForCovid19Testing"/>
         <title value="Reason for Covid-19 Testing"/>
         <status value="active"/>
-        <date value="2020-11-08T23:18:02+00:00"/>
+        <date value="2020-11-19T22:47:13+00:00"/>
         <publisher value="OpenHIE"/>
         <contact>
           <name value="OpenHIE"/>
@@ -15392,8 +12786,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:b46716c6-4298-4f27-b128-d0cee4b21951"/>
-          <timestamp value="2020-11-08T23:18:23+00:00"/>
+          <identifier value="urn:uuid:a079f6e5-02cd-4ce3-a376-834f508def03"/>
+          <timestamp value="2020-11-19T22:47:32+00:00"/>
           <total value="6"/>
           <parameter>
             <name value="excludeNested"/>
@@ -15401,35 +12795,35 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="http://www.example.com/fhir/cr/covid19/CodeSystem/WhoCrCodeSystemReasonForTesting|0.1.0"/>
+            <valueUri value="http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemReasonForTesting|0.1.0"/>
           </parameter>
           <contains>
-            <system value="http://www.example.com/fhir/cr/covid19/CodeSystem/WhoCrCodeSystemReasonForTesting"/>
+            <system value="http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemReasonForTesting"/>
             <code value="CASE_CONTACT"/>
             <display value="Contact of a case"/>
           </contains>
           <contains>
-            <system value="http://www.example.com/fhir/cr/covid19/CodeSystem/WhoCrCodeSystemReasonForTesting"/>
+            <system value="http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemReasonForTesting"/>
             <code value="SEEKING_HC"/>
             <display value="Ill Seeking Healthcare due to suspicion of COVID-19"/>
           </contains>
           <contains>
-            <system value="http://www.example.com/fhir/cr/covid19/CodeSystem/WhoCrCodeSystemReasonForTesting"/>
+            <system value="http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemReasonForTesting"/>
             <code value="POE_DETECTION"/>
             <display value="Detected at point of entry"/>
           </contains>
           <contains>
-            <system value="http://www.example.com/fhir/cr/covid19/CodeSystem/WhoCrCodeSystemReasonForTesting"/>
+            <system value="http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemReasonForTesting"/>
             <code value="REPATRIATION"/>
             <display value="Repatriation"/>
           </contains>
           <contains>
-            <system value="http://www.example.com/fhir/cr/covid19/CodeSystem/WhoCrCodeSystemReasonForTesting"/>
+            <system value="http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemReasonForTesting"/>
             <code value="SURVEILLANCE"/>
             <display value="Routine respiratory disease surveillance systems (e.g. influenza)"/>
           </contains>
           <contains>
-            <system value="http://www.example.com/fhir/cr/covid19/CodeSystem/WhoCrCodeSystemReasonForTesting"/>
+            <system value="http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemReasonForTesting"/>
             <code value="UNKNOWN"/>
             <display value="Unknown"/>
           </contains>
@@ -15438,7 +12832,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetSexAtBirth"/>
+    <fullUrl value="http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetSexAtBirth"/>
     <resource>
       <ValueSet>
         <id value="WhoCrValueSetSexAtBirth"/>
@@ -15485,12 +12879,12 @@
             </table>
           </div>
         </text>
-        <url value="http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetSexAtBirth"/>
+        <url value="http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetSexAtBirth"/>
         <version value="0.1.0"/>
         <name value="WhoCrValueSetSexAtBirth"/>
         <title value="Patient Sex at birth"/>
         <status value="active"/>
-        <date value="2020-11-08T23:18:02+00:00"/>
+        <date value="2020-11-19T22:47:13+00:00"/>
         <publisher value="OpenHIE"/>
         <contact>
           <name value="OpenHIE"/>
@@ -15507,8 +12901,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:621a2140-ad5f-4ea6-9b23-b9e0a9be2594"/>
-          <timestamp value="2020-11-08T23:18:23+00:00"/>
+          <identifier value="urn:uuid:6dd40362-5f12-47fd-82a3-fed02a34ebe4"/>
+          <timestamp value="2020-11-19T22:47:32+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -15533,7 +12927,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetSubmitted"/>
+    <fullUrl value="http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetSubmitted"/>
     <resource>
       <ValueSet>
         <id value="WhoCrValueSetSubmitted"/>
@@ -15545,10 +12939,10 @@
               <p>Expansion based on: </p>
               <ul>
                 <li>
-                  <a href="http://hl7.org/fhir/R4/v2/0136/index.html">v2 Y/N Indicator v2.9 (CodeSystem)</a>
+                  <a href="CodeSystem-WhoCrCodeSystemSubmissionCompletion.html">Submission Completion Status v0.1.0 (CodeSystem)</a>
                 </li>
                 <li>
-                  <a href="CodeSystem-WhoCrCodeSystemSubmissionCompletion.html">Submission Completion Status v0.1.0 (CodeSystem)</a>
+                  <a href="http://hl7.org/fhir/R4/v2/0136/index.html">v2 Y/N Indicator v2.9 (CodeSystem)</a>
                 </li>
               </ul>
             </div>
@@ -15587,22 +12981,22 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---www.example.com-fhir-cr-covid19-CodeSystem-WhoCrCodeSystemSubmissionCompletion-partial"> </a>
+                  <a name="http---openhie.github.io-covid-19-CodeSystem-WhoCrCodeSystemSubmissionCompletion-partial"> </a>
                   <a href="CodeSystem-WhoCrCodeSystemSubmissionCompletion.html#WhoCrCodeSystemSubmissionCompletion-partial">partial</a>
                 </td>
-                <td>http://www.example.com/fhir/cr/covid19/CodeSystem/WhoCrCodeSystemSubmissionCompletion</td>
+                <td>http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemSubmissionCompletion</td>
                 <td>Partial</td>
                 <td>Partially complete</td>
               </tr>
             </table>
           </div>
         </text>
-        <url value="http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetSubmitted"/>
+        <url value="http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetSubmitted"/>
         <version value="0.1.0"/>
         <name value="WhoCrValueSetSubmitted"/>
         <title value="Report Submitted Yes/No/Partial"/>
         <status value="active"/>
-        <date value="2020-11-08T23:18:02+00:00"/>
+        <date value="2020-11-19T22:47:13+00:00"/>
         <publisher value="OpenHIE"/>
         <contact>
           <name value="OpenHIE"/>
@@ -15619,8 +13013,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:bc0a5a5f-4e3e-4f83-8b94-4ca5f93386f8"/>
-          <timestamp value="2020-11-08T23:18:23+00:00"/>
+          <identifier value="urn:uuid:73c6fb3c-9430-4287-8cd4-6d5a0676a7e4"/>
+          <timestamp value="2020-11-19T22:47:32+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -15632,7 +13026,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="http://www.example.com/fhir/cr/covid19/CodeSystem/WhoCrCodeSystemSubmissionCompletion|0.1.0"/>
+            <valueUri value="http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemSubmissionCompletion|0.1.0"/>
           </parameter>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v2-0136"/>
@@ -15645,7 +13039,7 @@
             <display value="Yes"/>
           </contains>
           <contains>
-            <system value="http://www.example.com/fhir/cr/covid19/CodeSystem/WhoCrCodeSystemSubmissionCompletion"/>
+            <system value="http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemSubmissionCompletion"/>
             <code value="partial"/>
             <display value="Partial"/>
           </contains>
@@ -15654,7 +13048,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetTestResult"/>
+    <fullUrl value="http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetTestResult"/>
     <resource>
       <ValueSet>
         <id value="WhoCrValueSetTestResult"/>
@@ -15720,12 +13114,12 @@
             </table>
           </div>
         </text>
-        <url value="http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetTestResult"/>
+        <url value="http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetTestResult"/>
         <version value="0.1.0"/>
         <name value="WhoCrValueSetTestResult"/>
         <title value="Test Result"/>
         <status value="active"/>
-        <date value="2020-11-08T23:18:02+00:00"/>
+        <date value="2020-11-19T22:47:13+00:00"/>
         <publisher value="OpenHIE"/>
         <contact>
           <name value="OpenHIE"/>
@@ -15742,8 +13136,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:b90b5db7-6fb0-477e-9a0f-c19b603e70af"/>
-          <timestamp value="2020-11-08T23:18:23+00:00"/>
+          <identifier value="urn:uuid:1e3d80d5-8f3e-47dd-a872-c8bbe1f4b396"/>
+          <timestamp value="2020-11-19T22:47:32+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -15777,7 +13171,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetYesNo"/>
+    <fullUrl value="http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetYesNo"/>
     <resource>
       <ValueSet>
         <id value="WhoCrValueSetYesNo"/>
@@ -15824,12 +13218,12 @@
             </table>
           </div>
         </text>
-        <url value="http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetYesNo"/>
+        <url value="http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetYesNo"/>
         <version value="0.1.0"/>
         <name value="WhoCrValueSetYesNo"/>
         <title value="Yes/No"/>
         <status value="active"/>
-        <date value="2020-11-08T23:18:02+00:00"/>
+        <date value="2020-11-19T22:47:13+00:00"/>
         <publisher value="OpenHIE"/>
         <contact>
           <name value="OpenHIE"/>
@@ -15846,8 +13240,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:fedb0c61-696f-449a-bfca-c66c8437391c"/>
-          <timestamp value="2020-11-08T23:18:23+00:00"/>
+          <identifier value="urn:uuid:83128c27-0227-46d2-9330-75adc073811c"/>
+          <timestamp value="2020-11-19T22:47:32+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -15872,7 +13266,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetYesNoUnk"/>
+    <fullUrl value="http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetYesNoUnk"/>
     <resource>
       <ValueSet>
         <id value="WhoCrValueSetYesNoUnk"/>
@@ -15936,12 +13330,12 @@
             </table>
           </div>
         </text>
-        <url value="http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetYesNoUnk"/>
+        <url value="http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetYesNoUnk"/>
         <version value="0.1.0"/>
         <name value="WhoCrValueSetYesNoUnk"/>
         <title value="Yes/No/Unknown"/>
         <status value="active"/>
-        <date value="2020-11-08T23:18:02+00:00"/>
+        <date value="2020-11-19T22:47:13+00:00"/>
         <publisher value="OpenHIE"/>
         <contact>
           <name value="OpenHIE"/>
@@ -15958,8 +13352,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:c19df91d-bbfd-464e-ad07-9abf6d63241a"/>
-          <timestamp value="2020-11-08T23:18:23+00:00"/>
+          <identifier value="urn:uuid:173f42d3-fd33-48cc-a4b7-6c5f61befc29"/>
+          <timestamp value="2020-11-19T22:47:32+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>

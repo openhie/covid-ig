@@ -3,14 +3,14 @@
 <ConceptMap xmlns="http://hl7.org/fhir">
   <id value="WhoCrConceptMapReasonForTestingToCiel"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>WhoCrConceptMapReasonForTestingToCiel (http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapReasonForTestingToCiel)</h2><p>Mapping from <a href="CodeSystem-WhoCrCodeSystemReasonForTesting.html">http://www.example.com/fhir/cr/covid19/CodeSystem/WhoCrCodeSystemReasonForTesting</a> to https://openconceptlab.org/orgs/CIEL/sources/CIEL</p><p>DRAFT (not intended for production usage). Published on Nov 8, 2020, 11:18:02 PM by OpenHIE (OpenHIE: <a href="http://www.ohie.org">http://www.ohie.org</a>). 2020</p><br/><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Destination Code</b></td></tr><tr><td>CASE_CONTACT (Contact of a case)</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equal">is equal to</a></td><td>162633</td></tr><tr><td>SEEKING_HC (Ill Seeking Healthcare due to suspicion of COVID-19)</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equal">is equal to</a></td><td>165650</td></tr><tr><td>POE_DETECTION (Detected at point of entry)</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equal">is equal to</a></td><td>165651</td></tr><tr><td>REPATRIATION</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equal">is equal to</a></td><td>165652</td></tr><tr><td>SURVEILLANCE (Routine respiratory disease surveillance systems (e.g. influenza))</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equal">is equal to</a></td><td>165653</td></tr><tr><td>UNKNOWN</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equal">is equal to</a></td><td>1067</td></tr></table></div>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>WhoCrConceptMapReasonForTestingToCiel (http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapReasonForTestingToCiel)</h2><p>Mapping from <a href="CodeSystem-WhoCrCodeSystemReasonForTesting.html">http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemReasonForTesting</a> to https://openconceptlab.org/orgs/CIEL/sources/CIEL</p><p>DRAFT (not intended for production usage). Published on Nov 19, 2020, 10:47:13 PM by OpenHIE (OpenHIE: <a href="http://www.ohie.org">http://www.ohie.org</a>). 2020</p><br/><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Destination Code</b></td></tr><tr><td>CASE_CONTACT (Contact of a case)</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equal">is equal to</a></td><td>162633</td></tr><tr><td>SEEKING_HC (Ill Seeking Healthcare due to suspicion of COVID-19)</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equal">is equal to</a></td><td>165650</td></tr><tr><td>POE_DETECTION (Detected at point of entry)</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equal">is equal to</a></td><td>165651</td></tr><tr><td>REPATRIATION</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equal">is equal to</a></td><td>165652</td></tr><tr><td>SURVEILLANCE (Routine respiratory disease surveillance systems (e.g. influenza))</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equal">is equal to</a></td><td>165653</td></tr><tr><td>UNKNOWN</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equal">is equal to</a></td><td>1067</td></tr></table></div>
   </text>
-  <url value="http://www.example.com/fhir/cr/covid19/ConceptMap/WhoCrConceptMapReasonForTestingToCiel"/>
+  <url value="http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapReasonForTestingToCiel"/>
   <version value="0.1.0"/>
   <name value="WhoCrConceptMapReasonForTestingToCiel"/>
   <status value="draft"/>
   <experimental value="true"/>
-  <date value="2020-11-08T23:18:02+00:00"/>
+  <date value="2020-11-19T22:47:13+00:00"/>
   <publisher value="OpenHIE"/>
   <contact>
     <name value="OpenHIE"/>
@@ -26,10 +26,10 @@
     </coding>
   </jurisdiction>
   <copyright value="2020"/>
-  <sourceCanonical value="http://www.example.com/fhir/cr/covid19/CodeSystem/WhoCrCodeSystemReasonForTesting"/>
+  <sourceCanonical value="http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemReasonForTesting"/>
   <targetUri value="https://openconceptlab.org/orgs/CIEL/sources/CIEL"/>
   <group>
-    <source value="http://www.example.com/fhir/cr/covid19/CodeSystem/WhoCrCodeSystemReasonForTesting"/>
+    <source value="http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemReasonForTesting"/>
     <target value="https://openconceptlab.org/orgs/CIEL/sources/CIEL"/>
     <element>
       <code value="CASE_CONTACT"/>

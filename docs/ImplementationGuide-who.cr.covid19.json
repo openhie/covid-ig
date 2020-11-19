@@ -3,14 +3,14 @@
   "id": "who.cr.covid19",
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>WhoCrCovid19</h2><p>The official URL for this implementation guide is: </p><pre>http://www.example.com/fhir/cr/covid19/ImplementationGuide/who.cr.covid19</pre><div><p>TODO</p>\n</div></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>WhoCrCovid19</h2><p>The official URL for this implementation guide is: </p><pre>http://openhie.github.io/covid-19/ImplementationGuide/who.cr.covid19</pre><div><p>TODO</p>\n</div></div>"
   },
-  "url": "http://www.example.com/fhir/cr/covid19/ImplementationGuide/who.cr.covid19",
+  "url": "http://openhie.github.io/covid-19/ImplementationGuide/who.cr.covid19",
   "version": "0.1.0",
   "name": "WhoCrCovid19",
   "title": "WHO Case Reporting for COVID-19 Surveillance",
   "status": "draft",
-  "date": "2020-11-08T23:18:02+00:00",
+  "date": "2020-11-19T22:47:13+00:00",
   "publisher": "OpenHIE",
   "contact": [
     {
@@ -167,7 +167,7 @@
           },
           {
             "url": "value",
-            "valueString": "http://www.example.com/fhir/cr/covid19/history.html"
+            "valueString": "http://openhie.github.io/covid-19/history.html"
           }
         ],
         "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
@@ -340,20 +340,6 @@
           }
         ],
         "reference": {
-          "reference": "ValueSet/WhoCrValueSetAdmin0"
-        },
-        "name": "List of Administrative Level 0 Names (Countries)",
-        "description": "List of Administrative Level 0 Names (Countries)",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ValueSet"
-          }
-        ],
-        "reference": {
           "reference": "ValueSet/WhoCrValueSetAdmin1"
         },
         "name": "List of Administrative Level 1 Names (Province/State/Canton)",
@@ -372,6 +358,20 @@
         },
         "name": "Patient Age Units",
         "description": "Common units of patient age",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/WhoCrValueSetComorbidity"
+        },
+        "name": "Comorbidity",
+        "description": "Comorbidity",
         "exampleBoolean": false
       },
       {
@@ -508,6 +508,20 @@
           }
         ],
         "reference": {
+          "reference": "CodeSystem/WhoCrCodeSystemComorbidity"
+        },
+        "name": "Patient Comorbidity",
+        "description": "Patient Comorbidity",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
           "reference": "CodeSystem/WhoCrCodeSystemPatientOutcome"
         },
         "name": "Patient Outcome",
@@ -554,6 +568,90 @@
         },
         "name": "Submission Completion Status",
         "description": "Submission Completion Status",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ConceptMap"
+          }
+        ],
+        "reference": {
+          "reference": "ConceptMap/WhoCrConceptMapComorbidityToCiel"
+        },
+        "name": "Patient Comorbidities Concept Map To CIEL",
+        "description": "Patient Comorbidities Concept Map To CIEL",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ConceptMap"
+          }
+        ],
+        "reference": {
+          "reference": "ConceptMap/WhoCrConceptMapComorbidityToIcd10"
+        },
+        "name": "Patient Comorbidities Concept Map To ICD-10",
+        "description": "Patient Comorbidities Concept Map To ICD-10",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ConceptMap"
+          }
+        ],
+        "reference": {
+          "reference": "ConceptMap/WhoCrConceptMapComorbidityToIcd11"
+        },
+        "name": "Patient Comorbidities Concept Map To ICD-11",
+        "description": "Patient Comorbidities Concept Map To ICD-11",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ConceptMap"
+          }
+        ],
+        "reference": {
+          "reference": "ConceptMap/WhoCrConceptMapComorbidityToLoinc"
+        },
+        "name": "Patient Comorbidities Concept Map To LOINC",
+        "description": "Patient Comorbidities Concept Map To LOINC",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ConceptMap"
+          }
+        ],
+        "reference": {
+          "reference": "ConceptMap/WhoCrConceptMapComorbidityToRxnorm"
+        },
+        "name": "Patient Comorbidities Concept Map To RxNorm",
+        "description": "Patient Comorbidities Concept Map To RxNorm",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ConceptMap"
+          }
+        ],
+        "reference": {
+          "reference": "ConceptMap/WhoCrConceptMapComorbidityToSnomed"
+        },
+        "name": "Patient Comorbidities Concept Map To SNOMED CT",
+        "description": "Patient Comorbidities Concept Map To SNOMED CT",
         "exampleBoolean": false
       },
       {
@@ -1338,7 +1436,7 @@
         },
         "name": "WHO Case Reporting Sample Composition",
         "description": "WHO Case Reporting Sample Composition",
-        "exampleCanonical": "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrComposition"
+        "exampleCanonical": "http://openhie.github.io/covid-19/StructureDefinition/WhoCrComposition"
       },
       {
         "extension": [
@@ -1352,7 +1450,7 @@
         },
         "name": "WHO Case Reporting Sample Patient",
         "description": "WHO Case Reporting Sample Patient",
-        "exampleCanonical": "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrPatient"
+        "exampleCanonical": "http://openhie.github.io/covid-19/StructureDefinition/WhoCrPatient"
       },
       {
         "extension": [

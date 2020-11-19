@@ -5,14 +5,14 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://www.example.com/fhir/cr/covid19/Patient/WhoCrSamplePatient> a fhir:Patient;
+<http://openhie.github.io/covid-19/Patient/WhoCrSamplePatient> a fhir:Patient;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "WhoCrSamplePatient"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrPatient";
+       fhir:value "http://openhie.github.io/covid-19/StructureDefinition/WhoCrPatient";
        fhir:index 0;
-       fhir:link <http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrPatient>
+       fhir:link <http://openhie.github.io/covid-19/StructureDefinition/WhoCrPatient>
      ]
   ];
   fhir:DomainResource.text [
@@ -32,7 +32,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://www.example.com/fhir/cr/covid19/Patient/WhoCrSamplePatient.ttl> a owl:Ontology;
+<http://openhie.github.io/covid-19/Patient/WhoCrSamplePatient.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

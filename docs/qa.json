@@ -1,10 +1,10 @@
 {
-  "url": "http://www.example.com/fhir/cr/covid19/ImplementationGuide/who.cr.covid19",
+  "url": "http://openhie.github.io/covid-19/ImplementationGuide/who.cr.covid19",
   "name": "WhoCrCovid19",
   "package-id": "who.cr.covid19",
   "ig-ver": "0.1.0",
-  "date": "Sun, 08 Nov, 2020 23:18:02 +0000",
-  "errs": 11,
+  "date": "Thu, 19 Nov, 2020 22:47:13 +0000",
+  "errs": 8,
   "warnings": 0,
   "hints": 0,
   "version": "4.0.1",

@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrPatient> a fhir:StructureDefinition;
+<http://openhie.github.io/covid-19/StructureDefinition/WhoCrPatient> a fhir:StructureDefinition;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "WhoCrPatient"];
   fhir:DomainResource.text [
@@ -21,13 +21,13 @@
      fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category" ];
      fhir:Extension.valueCode [ fhir:value "patient" ]
   ];
-  fhir:StructureDefinition.url [ fhir:value "http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrPatient"];
+  fhir:StructureDefinition.url [ fhir:value "http://openhie.github.io/covid-19/StructureDefinition/WhoCrPatient"];
   fhir:StructureDefinition.version [ fhir:value "0.1.0"];
   fhir:StructureDefinition.name [ fhir:value "WhoCrPatient"];
   fhir:StructureDefinition.title [ fhir:value "WHO Case Reporting Patient"];
   fhir:StructureDefinition.status [ fhir:value "draft"];
   fhir:StructureDefinition.experimental [ fhir:value "true"^^xsd:boolean];
-  fhir:StructureDefinition.date [ fhir:value "2020-11-08T23:18:02+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2020-11-19T22:47:13+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "OpenHIE"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
@@ -3185,7 +3185,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://www.example.com/fhir/cr/covid19/StructureDefinition/WhoCrPatient.ttl> a owl:Ontology;
+<http://openhie.github.io/covid-19/StructureDefinition/WhoCrPatient.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

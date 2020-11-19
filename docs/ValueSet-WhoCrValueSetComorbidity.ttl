@@ -5,19 +5,19 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetAdmin0> a fhir:ValueSet;
+<http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetComorbidity> a fhir:ValueSet;
   fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "WhoCrValueSetAdmin0"];
+  fhir:Resource.id [ fhir:value "WhoCrValueSetComorbidity"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Import all the codes that are contained in <a href=\"null\">http://hl7.org/fhir/ValueSet/iso3166-1-2</a></li></ul></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-WhoCrCodeSystemComorbidity.html\"><code>http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemComorbidity</code></a></li></ul></div>"
   ];
-  fhir:ValueSet.url [ fhir:value "http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetAdmin0"];
+  fhir:ValueSet.url [ fhir:value "http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetComorbidity"];
   fhir:ValueSet.version [ fhir:value "0.1.0"];
-  fhir:ValueSet.name [ fhir:value "WhoCrValueSetAdmin0"];
-  fhir:ValueSet.title [ fhir:value "List of Administrative Level 0 Names (Countries)"];
+  fhir:ValueSet.name [ fhir:value "WhoCrValueSetComorbidity"];
+  fhir:ValueSet.title [ fhir:value "Comorbidity"];
   fhir:ValueSet.status [ fhir:value "active"];
-  fhir:ValueSet.date [ fhir:value "2020-11-08T23:18:02+00:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2020-11-19T22:47:13+00:00"^^xsd:dateTime];
   fhir:ValueSet.publisher [ fhir:value "OpenHIE"];
   fhir:ValueSet.contact [
      fhir:index 0;
@@ -28,7 +28,7 @@
        fhir:ContactPoint.value [ fhir:value "http://www.ohie.org" ]
      ]
   ];
-  fhir:ValueSet.description [ fhir:value "List of Administrative Level 0 Names (Countries)"];
+  fhir:ValueSet.description [ fhir:value "Comorbidity"];
   fhir:ValueSet.jurisdiction [
      fhir:index 0;
      fhir:CodeableConcept.coding [
@@ -40,17 +40,13 @@
   fhir:ValueSet.compose [
      fhir:ValueSet.compose.include [
        fhir:index 0;
-       fhir:ValueSet.compose.include.valueSet [
-         fhir:value "http://hl7.org/fhir/ValueSet/iso3166-1-2";
-         fhir:index 0;
-         fhir:link <http://hl7.org/fhir/ValueSet/iso3166-1-2>
-       ]
+       fhir:ValueSet.compose.include.system [ fhir:value "http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemComorbidity" ]
      ]
   ] .
 
 # - ontology header ------------------------------------------------------------
 
-<http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetAdmin0.ttl> a owl:Ontology;
+<http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetComorbidity.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

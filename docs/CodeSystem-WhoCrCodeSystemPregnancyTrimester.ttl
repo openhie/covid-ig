@@ -5,19 +5,19 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://www.example.com/fhir/cr/covid19/CodeSystem/WhoCrCodeSystemPregnancyTrimester> a fhir:CodeSystem;
+<http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemPregnancyTrimester> a fhir:CodeSystem;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "WhoCrCodeSystemPregnancyTrimester"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://www.example.com/fhir/cr/covid19/CodeSystem/WhoCrCodeSystemPregnancyTrimester defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">first<a name=\"WhoCrCodeSystemPregnancyTrimester-first\"> </a></td><td>First</td><td>First Trimester</td></tr><tr><td style=\"white-space:nowrap\">second<a name=\"WhoCrCodeSystemPregnancyTrimester-second\"> </a></td><td>Second</td><td>Second Trimester</td></tr><tr><td style=\"white-space:nowrap\">third<a name=\"WhoCrCodeSystemPregnancyTrimester-third\"> </a></td><td>Third</td><td>Third Trimester</td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemPregnancyTrimester defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">first<a name=\"WhoCrCodeSystemPregnancyTrimester-first\"> </a></td><td>First</td><td>First Trimester</td></tr><tr><td style=\"white-space:nowrap\">second<a name=\"WhoCrCodeSystemPregnancyTrimester-second\"> </a></td><td>Second</td><td>Second Trimester</td></tr><tr><td style=\"white-space:nowrap\">third<a name=\"WhoCrCodeSystemPregnancyTrimester-third\"> </a></td><td>Third</td><td>Third Trimester</td></tr></table></div>"
   ];
-  fhir:CodeSystem.url [ fhir:value "http://www.example.com/fhir/cr/covid19/CodeSystem/WhoCrCodeSystemPregnancyTrimester"];
+  fhir:CodeSystem.url [ fhir:value "http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemPregnancyTrimester"];
   fhir:CodeSystem.version [ fhir:value "0.1.0"];
   fhir:CodeSystem.name [ fhir:value "WhoCrCodeSystemPregnancyTrimester"];
   fhir:CodeSystem.title [ fhir:value "Pregnancy Trimester"];
   fhir:CodeSystem.status [ fhir:value "active"];
-  fhir:CodeSystem.date [ fhir:value "2020-11-08T23:18:02+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2020-11-19T22:47:13+00:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "OpenHIE"];
   fhir:CodeSystem.contact [
      fhir:index 0;
@@ -58,7 +58,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://www.example.com/fhir/cr/covid19/CodeSystem/WhoCrCodeSystemPregnancyTrimester.ttl> a owl:Ontology;
+<http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemPregnancyTrimester.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

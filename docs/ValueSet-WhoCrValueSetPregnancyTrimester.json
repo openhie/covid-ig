@@ -3,14 +3,14 @@
   "id": "WhoCrValueSetPregnancyTrimester",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-WhoCrCodeSystemPregnancyTrimester.html\"><code>http://www.example.com/fhir/cr/covid19/CodeSystem/WhoCrCodeSystemPregnancyTrimester</code></a></li></ul></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-WhoCrCodeSystemPregnancyTrimester.html\"><code>http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemPregnancyTrimester</code></a></li></ul></div>"
   },
-  "url": "http://www.example.com/fhir/cr/covid19/ValueSet/WhoCrValueSetPregnancyTrimester",
+  "url": "http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetPregnancyTrimester",
   "version": "0.1.0",
   "name": "WhoCrValueSetPregnancyTrimester",
   "title": "Pregnancy Trimester",
   "status": "active",
-  "date": "2020-11-08T23:18:02+00:00",
+  "date": "2020-11-19T22:47:13+00:00",
   "publisher": "OpenHIE",
   "contact": [
     {
@@ -37,7 +37,7 @@
   "compose": {
     "include": [
       {
-        "system": "http://www.example.com/fhir/cr/covid19/CodeSystem/WhoCrCodeSystemPregnancyTrimester"
+        "system": "http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemPregnancyTrimester"
       }
     ]
   }
