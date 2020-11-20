@@ -315,21 +315,26 @@ Usage: #definition
 * item[6].item[3].item[0].item[0].code    = $LNC#94657-4
 * item[6].item[3].item[0].item[0].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.exposure.contact.contact.identifier"
 
-* item[6].item[3].item[0].item[1].linkId  = "expo_case_date_first"
-* item[6].item[3].item[0].item[1].text    = "First Date of Contact"
-* item[6].item[3].item[0].item[1].type    = #dateTime
-* item[6].item[3].item[0].item[1].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.exposure.contact.contact.exposureFirstDate"
+* item[6].item[3].item[0].item[1].linkId = "exposure_contact_exposure_details"
+* item[6].item[3].item[0].item[1].text    = "Exposure details"
+* item[6].item[3].item[0].item[1].repeats = true
+* item[6].item[3].item[0].item[1].type    = #group
 
-* item[6].item[3].item[0].item[2].linkId  = "expo_case_date_last"
-* item[6].item[3].item[0].item[2].text    = "Last Date of Contact"
-* item[6].item[3].item[0].item[2].type    = #dateTime
-* item[6].item[3].item[0].item[2].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.exposure.contact.contact.exposureLastDate"
+* item[6].item[3].item[0].item[1].item[0].linkId  = "sectionexpo_case_date_first"
+* item[6].item[3].item[0].item[1].item[0].text    = "First Date of Contact"
+* item[6].item[3].item[0].item[1].item[0].type    = #dateTime
+* item[6].item[3].item[0].item[1].item[0].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.exposure.contact.contact.exposure.period.begin"
 
-* item[6].item[3].item[0].item[3].linkId  = "expo_case_setting_detail"
-* item[6].item[3].item[0].item[3].text    = "Contact setting:"
-* item[6].item[3].item[0].item[3].type    = #open-choice
-* item[6].item[3].item[0].item[3].answerValueSet = Canonical(WhoCrValueSetContactSetting)
-* item[6].item[3].item[0].item[3].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.exposure.contact.contact.setting"
+* item[6].item[3].item[0].item[1].item[1].linkId  = "expo_case_date_last"
+* item[6].item[3].item[0].item[1].item[1].text    = "Last Date of Contact"
+* item[6].item[3].item[0].item[1].item[1].type    = #dateTime
+* item[6].item[3].item[0].item[1].item[1].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.exposure.contact.contact.exposure.period.end"
+
+* item[6].item[3].item[0].item[1].item[2].linkId  = "expo_case_setting_detail"
+* item[6].item[3].item[0].item[1].item[2].text    = "Contact setting:"
+* item[6].item[3].item[0].item[1].item[2].type    = #open-choice
+* item[6].item[3].item[0].item[1].item[2].answerValueSet = Canonical(WhoCrValueSetContactSetting)
+* item[6].item[3].item[0].item[1].item[2].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.exposure.contact.contact.exposure.setting"
 
 * item[6].item[4].linkId  = "expo_case_location"
 * item[6].item[4].text    = "Most likely country of exposure:"
