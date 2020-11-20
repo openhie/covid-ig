@@ -17,7 +17,7 @@
   fhir:ValueSet.name [ fhir:value "WhoCrValueSetYesNoUnk"];
   fhir:ValueSet.title [ fhir:value "Yes/No/Unknown"];
   fhir:ValueSet.status [ fhir:value "active"];
-  fhir:ValueSet.date [ fhir:value "2020-11-19T22:47:13+00:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2020-11-20T02:58:44+00:00"^^xsd:dateTime];
   fhir:ValueSet.publisher [ fhir:value "OpenHIE"];
   fhir:ValueSet.contact [
      fhir:index 0;

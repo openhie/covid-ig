@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="79bc4bbf-2f31-402a-8c95-ba55f903ed0b"/>
+  <id value="68c4f1b4-13c5-493b-b590-3fa842f89704"/>
   <meta>
-    <lastUpdated value="2020-11-19T22:47:13.078+00:00"/>
+    <lastUpdated value="2020-11-20T02:58:44.941+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -7041,7 +7041,7 @@
         <name value="WhoCrValueSetAdmin1"/>
         <title value="List of Administrative Level 1 Names (Province/State/Canton)"/>
         <status value="active"/>
-        <date value="2020-11-19T22:47:13+00:00"/>
+        <date value="2020-11-20T02:58:44+00:00"/>
         <publisher value="OpenHIE"/>
         <contact>
           <name value="OpenHIE"/>
@@ -7061,8 +7061,8 @@
           <extension url="http://hl7.org/fhir/StructureDefinition/valueset-toocostly">
             <valueBoolean value="true"/>
           </extension>
-          <identifier value="urn:uuid:12b6d8f5-c27e-4641-a7c2-2a669819df85"/>
-          <timestamp value="2020-11-19T22:47:31+00:00"/>
+          <identifier value="urn:uuid:060755ef-a8ee-4d98-8876-f8ce5a989d83"/>
+          <timestamp value="2020-11-20T02:59:05+00:00"/>
           <total value="1000"/>
           <parameter>
             <name value="excludeNested"/>
@@ -12136,7 +12136,7 @@
         <name value="WhoCrValueSetAgeUnits"/>
         <title value="Patient Age Units"/>
         <status value="active"/>
-        <date value="2020-11-19T22:47:13+00:00"/>
+        <date value="2020-11-20T02:58:44+00:00"/>
         <publisher value="OpenHIE"/>
         <contact>
           <name value="OpenHIE"/>
@@ -12153,8 +12153,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:30803844-9241-4759-8351-a911c49e539b"/>
-          <timestamp value="2020-11-19T22:47:32+00:00"/>
+          <identifier value="urn:uuid:cdb30abe-786c-4cec-a486-6c9ff5755691"/>
+          <timestamp value="2020-11-20T02:59:05+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -12304,7 +12304,7 @@
         <name value="WhoCrValueSetComorbidity"/>
         <title value="Comorbidity"/>
         <status value="active"/>
-        <date value="2020-11-19T22:47:13+00:00"/>
+        <date value="2020-11-20T02:58:44+00:00"/>
         <publisher value="OpenHIE"/>
         <contact>
           <name value="OpenHIE"/>
@@ -12321,8 +12321,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:e78c4cf7-06ed-4521-8458-5c479f5b5940"/>
-          <timestamp value="2020-11-19T22:47:32+00:00"/>
+          <identifier value="urn:uuid:0eea5575-b01a-4244-b47a-d10ba7d60958"/>
+          <timestamp value="2020-11-20T02:59:05+00:00"/>
           <total value="10"/>
           <parameter>
             <name value="excludeNested"/>
@@ -12415,7 +12415,7 @@
         <name value="WhoCrValueSetContactSetting"/>
         <title value="List of Contact Settings"/>
         <status value="active"/>
-        <date value="2020-11-19T22:47:13+00:00"/>
+        <date value="2020-11-20T02:58:44+00:00"/>
         <publisher value="OpenHIE"/>
         <contact>
           <name value="OpenHIE"/>
@@ -12432,8 +12432,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:662fd6f7-6cd8-4468-82a6-340cd20779e3"/>
-          <timestamp value="2020-11-19T22:47:32+00:00"/>
+          <identifier value="urn:uuid:75dd834a-8348-4e4f-97c6-6ff0e7b250f9"/>
+          <timestamp value="2020-11-20T02:59:05+00:00"/>
           <parameter>
             <name value="excludeNested"/>
             <valueBoolean value="false"/>
@@ -12519,7 +12519,7 @@
         <name value="WhoCrValueSetPatientOutcome"/>
         <title value="Patient Outcome"/>
         <status value="active"/>
-        <date value="2020-11-19T22:47:13+00:00"/>
+        <date value="2020-11-20T02:58:44+00:00"/>
         <publisher value="OpenHIE"/>
         <contact>
           <name value="OpenHIE"/>
@@ -12536,8 +12536,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:020df356-92fb-4904-8e56-b3a2cd6387f3"/>
-          <timestamp value="2020-11-19T22:47:32+00:00"/>
+          <identifier value="urn:uuid:fd5c7534-18bb-40d6-8b08-b5d3deb12acb"/>
+          <timestamp value="2020-11-20T02:59:05+00:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -12637,7 +12637,7 @@
         <name value="WhoCrValueSetPregnancyTrimester"/>
         <title value="Pregnancy Trimester"/>
         <status value="active"/>
-        <date value="2020-11-19T22:47:13+00:00"/>
+        <date value="2020-11-20T02:58:44+00:00"/>
         <publisher value="OpenHIE"/>
         <contact>
           <name value="OpenHIE"/>
@@ -12654,8 +12654,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:1e07a39d-f2b1-4a0b-8d60-ecfb136b53da"/>
-          <timestamp value="2020-11-19T22:47:32+00:00"/>
+          <identifier value="urn:uuid:3620eaf9-53c8-4f57-bb29-1fb16257d81b"/>
+          <timestamp value="2020-11-20T02:59:05+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -12769,7 +12769,7 @@
         <name value="WhoCrValueSetReasonForCovid19Testing"/>
         <title value="Reason for Covid-19 Testing"/>
         <status value="active"/>
-        <date value="2020-11-19T22:47:13+00:00"/>
+        <date value="2020-11-20T02:58:44+00:00"/>
         <publisher value="OpenHIE"/>
         <contact>
           <name value="OpenHIE"/>
@@ -12786,8 +12786,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:a079f6e5-02cd-4ce3-a376-834f508def03"/>
-          <timestamp value="2020-11-19T22:47:32+00:00"/>
+          <identifier value="urn:uuid:dca432d5-4386-4a7f-af27-3389165e3e47"/>
+          <timestamp value="2020-11-20T02:59:05+00:00"/>
           <total value="6"/>
           <parameter>
             <name value="excludeNested"/>
@@ -12884,7 +12884,7 @@
         <name value="WhoCrValueSetSexAtBirth"/>
         <title value="Patient Sex at birth"/>
         <status value="active"/>
-        <date value="2020-11-19T22:47:13+00:00"/>
+        <date value="2020-11-20T02:58:44+00:00"/>
         <publisher value="OpenHIE"/>
         <contact>
           <name value="OpenHIE"/>
@@ -12901,8 +12901,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:6dd40362-5f12-47fd-82a3-fed02a34ebe4"/>
-          <timestamp value="2020-11-19T22:47:32+00:00"/>
+          <identifier value="urn:uuid:1a2e0919-3f47-4244-9623-85ddbf13987a"/>
+          <timestamp value="2020-11-20T02:59:06+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -12996,7 +12996,7 @@
         <name value="WhoCrValueSetSubmitted"/>
         <title value="Report Submitted Yes/No/Partial"/>
         <status value="active"/>
-        <date value="2020-11-19T22:47:13+00:00"/>
+        <date value="2020-11-20T02:58:44+00:00"/>
         <publisher value="OpenHIE"/>
         <contact>
           <name value="OpenHIE"/>
@@ -13013,8 +13013,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:73c6fb3c-9430-4287-8cd4-6d5a0676a7e4"/>
-          <timestamp value="2020-11-19T22:47:32+00:00"/>
+          <identifier value="urn:uuid:95a7878f-c200-4266-a891-6f0bb3bdf515"/>
+          <timestamp value="2020-11-20T02:59:06+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -13119,7 +13119,7 @@
         <name value="WhoCrValueSetTestResult"/>
         <title value="Test Result"/>
         <status value="active"/>
-        <date value="2020-11-19T22:47:13+00:00"/>
+        <date value="2020-11-20T02:58:44+00:00"/>
         <publisher value="OpenHIE"/>
         <contact>
           <name value="OpenHIE"/>
@@ -13136,8 +13136,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:1e3d80d5-8f3e-47dd-a872-c8bbe1f4b396"/>
-          <timestamp value="2020-11-19T22:47:32+00:00"/>
+          <identifier value="urn:uuid:b2a94722-fa30-4401-906d-be63ba3aa90d"/>
+          <timestamp value="2020-11-20T02:59:06+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -13223,7 +13223,7 @@
         <name value="WhoCrValueSetYesNo"/>
         <title value="Yes/No"/>
         <status value="active"/>
-        <date value="2020-11-19T22:47:13+00:00"/>
+        <date value="2020-11-20T02:58:44+00:00"/>
         <publisher value="OpenHIE"/>
         <contact>
           <name value="OpenHIE"/>
@@ -13240,8 +13240,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:83128c27-0227-46d2-9330-75adc073811c"/>
-          <timestamp value="2020-11-19T22:47:32+00:00"/>
+          <identifier value="urn:uuid:4d061734-9518-4b7d-9648-7ec7e75d148f"/>
+          <timestamp value="2020-11-20T02:59:06+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -13335,7 +13335,7 @@
         <name value="WhoCrValueSetYesNoUnk"/>
         <title value="Yes/No/Unknown"/>
         <status value="active"/>
-        <date value="2020-11-19T22:47:13+00:00"/>
+        <date value="2020-11-20T02:58:44+00:00"/>
         <publisher value="OpenHIE"/>
         <contact>
           <name value="OpenHIE"/>
@@ -13352,8 +13352,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:173f42d3-fd33-48cc-a4b7-6c5f61befc29"/>
-          <timestamp value="2020-11-19T22:47:32+00:00"/>
+          <identifier value="urn:uuid:514e750d-171f-4712-8993-3b1bbdc2c046"/>
+          <timestamp value="2020-11-20T02:59:06+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
