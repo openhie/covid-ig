@@ -320,7 +320,7 @@ Usage: #definition
 * item[6].item[3].item[0].item[1].repeats = true
 * item[6].item[3].item[0].item[1].type    = #group
 
-* item[6].item[3].item[0].item[1].item[0].linkId  = "sectionexpo_case_date_first"
+* item[6].item[3].item[0].item[1].item[0].linkId  = "expo_case_date_first"
 * item[6].item[3].item[0].item[1].item[0].text    = "First Date of Contact"
 * item[6].item[3].item[0].item[1].item[0].type    = #dateTime
 * item[6].item[3].item[0].item[1].item[0].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.exposure.contact.contact.exposure.period.begin"
