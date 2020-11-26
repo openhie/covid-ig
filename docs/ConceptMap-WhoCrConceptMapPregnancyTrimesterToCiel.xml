@@ -3,14 +3,14 @@
 <ConceptMap xmlns="http://hl7.org/fhir">
   <id value="WhoCrConceptMapPregnancyTrimesterToCiel"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>WhoCrConceptMapPregnancyTrimesterToCiel (http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapPregnancyTrimesterToCiel)</h2><p>Mapping from <a href="CodeSystem-WhoCrCodeSystemPregnancyTrimester.html">http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemPregnancyTrimester</a> to https://openconceptlab.org/orgs/CIEL/sources/CIEL</p><p>DRAFT (not intended for production usage). Published on Nov 20, 2020, 3:02:46 AM by OpenHIE (OpenHIE: <a href="http://www.ohie.org">http://www.ohie.org</a>). 2020</p><br/><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Destination Code</b></td></tr><tr><td>first</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equivalent">is equivalent to</a></td><td>1721</td></tr><tr><td>second</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equivalent">is equivalent to</a></td><td>1722</td></tr><tr><td>third</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equivalent">is equivalent to</a></td><td>1723</td></tr></table></div>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>WhoCrConceptMapPregnancyTrimesterToCiel (http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapPregnancyTrimesterToCiel)</h2><p>Mapping from <a href="CodeSystem-WhoCrCodeSystemPregnancyTrimester.html">http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemPregnancyTrimester</a> to https://openconceptlab.org/orgs/CIEL/sources/CIEL</p><p>DRAFT (not intended for production usage). Published on Nov 26, 2020, 11:25:50 PM by OpenHIE (OpenHIE: <a href="http://www.ohie.org">http://www.ohie.org</a>). 2020</p><br/><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Destination Code</b></td></tr><tr><td>first</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equivalent">is equivalent to</a></td><td>1721</td></tr><tr><td>second</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equivalent">is equivalent to</a></td><td>1722</td></tr><tr><td>third</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equivalent">is equivalent to</a></td><td>1723</td></tr></table></div>
   </text>
   <url value="http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapPregnancyTrimesterToCiel"/>
   <version value="0.1.0"/>
   <name value="WhoCrConceptMapPregnancyTrimesterToCiel"/>
   <status value="draft"/>
   <experimental value="true"/>
-  <date value="2020-11-20T03:02:46+00:00"/>
+  <date value="2020-11-26T23:25:50+00:00"/>
   <publisher value="OpenHIE"/>
   <contact>
     <name value="OpenHIE"/>

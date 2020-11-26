@@ -3,9 +3,9 @@
 
 err = 8, warn = 0, info = 0
 IG Publisher Version: 1.1.42
-Generated Fri Nov 20 03:03:21 UTC 2020. FHIR version 4.0.1 for who.cr.covid19#0.1.0 (canonical = http://openhie.github.io/covid-19)
+Generated Thu Nov 26 23:26:24 UTC 2020. FHIR version 4.0.1 for who.cr.covid19#0.1.0 (canonical = http://openhie.github.io/covid-19)
 
- Build Errors : 14 / 0 / 0
+ Build Errors : 16 / 0 / 0
  /home/publisher/ig/fsh-generated/resources/CodeSystem-WhoCrCodeSystemComorbidity : 0 / 0 / 1
  /home/publisher/ig/fsh-generated/resources/CodeSystem-WhoCrCodeSystemPatientOutcome : 0 / 0 / 1
  /home/publisher/ig/fsh-generated/resources/CodeSystem-WhoCrCodeSystemPregnancyTrimester : 0 / 0 / 1
@@ -92,20 +92,22 @@ Generated Fri Nov 20 03:03:21 UTC 2020. FHIR version 4.0.1 for who.cr.covid19#0.
  /home/publisher/ig/fsh-generated/resources/ValueSet-WhoCrValueSetYesNoUnk : 0 / 0 / 1
 </table>
 == n/a ==
-ERROR: /home/publisher/ig/output/Questionnaire-WhoCrQuestionnaireCovid19Surveillance.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 207, column 1628: The link 'StructureDefinition-WhoCrSurveillanceDataDictionary.html#WhoCrSurveillanceDataDictionary.exposure.travel.location.locationPeriod.end' for "WhoCrSurveillanceDataDictionary.exposure.travel.location.locationPeriod.end" cannot be resolved (valid targets: 232 targets)
+ERROR: /home/publisher/ig/output/Questionnaire-WhoCrQuestionnaireCovid19Surveillance.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 207, column 1628: The link 'StructureDefinition-WhoCrSurveillanceDataDictionary.html#WhoCrSurveillanceDataDictionary.exposure.travel.location.locationPeriod.end' for "WhoCrSurveillanceDataDictionary.exposure.travel.location.locationPeriod.end" cannot be resolved (valid targets: 235 targets)
+ERROR: /home/publisher/ig/output/Questionnaire-WhoCrQuestionnaireCovid19Surveillance.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 213, column 1703: The link 'StructureDefinition-WhoCrSurveillanceDataDictionary.html#WhoCrSurveillanceDataDictionary.exposure.contact.contact.exposure.period.begin' for "WhoCrSurveillanceDataDictionary.exposure.contact.contact.exposure.period.begin" cannot be resolved (valid targets: 235 targets)
+ERROR: /home/publisher/ig/output/Questionnaire-WhoCrQuestionnaireCovid19Surveillance.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 214, column 1715: The link 'StructureDefinition-WhoCrSurveillanceDataDictionary.html#WhoCrSurveillanceDataDictionary.exposure.contact.contact.exposure.period.end' for "WhoCrSurveillanceDataDictionary.exposure.contact.contact.exposure.period.end" cannot be resolved (valid targets: 235 targets)
 ERROR: /home/publisher/ig/output/StructureDefinition-WhoCrSurveillanceDataDictionary-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 224, column 115: The link '' for "Iso3166-1-2" cannot be resolved
 ERROR: /home/publisher/ig/output/StructureDefinition-WhoCrSurveillanceDataDictionary-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 275, column 115: The link '' for "Iso3166-1-2" cannot be resolved
 ERROR: /home/publisher/ig/output/StructureDefinition-WhoCrSurveillanceDataDictionary-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 295, column 115: The link '' for "Iso3166-1-2" cannot be resolved
 ERROR: /home/publisher/ig/output/StructureDefinition-WhoCrSurveillanceDataDictionary-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 444, column 115: The link '' for "Iso3166-1-2" cannot be resolved
 ERROR: /home/publisher/ig/output/StructureDefinition-WhoCrSurveillanceDataDictionary-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 482, column 115: The link '' for "Iso3166-1-2" cannot be resolved
 ERROR: /home/publisher/ig/output/StructureDefinition-WhoCrSurveillanceDataDictionary-definitions.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 553, column 115: The link '' for "Iso3166-1-2" cannot be resolved
-ERROR: /home/publisher/ig/output/StructureDefinition-WhoCrSurveillanceDataDictionary.html#/html/body/div/div/div/div/div/p/a at Line 872, column 41: The link 'StructureDefinition-WhoCrSurveillanceDataDictionary.sch' for "Schematron" cannot be resolved
-ERROR: /home/publisher/ig/output/StructureDefinition-WhoCrSurveillanceDataDictionary.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 879, column 173: The link '??' for "Iso3166-1-2 (missing link)" cannot be resolved
-ERROR: /home/publisher/ig/output/StructureDefinition-WhoCrSurveillanceDataDictionary.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 882, column 189: The link '??' for "Iso3166-1-2 (missing link)" cannot be resolved
-ERROR: /home/publisher/ig/output/StructureDefinition-WhoCrSurveillanceDataDictionary.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 884, column 188: The link '??' for "Iso3166-1-2 (missing link)" cannot be resolved
-ERROR: /home/publisher/ig/output/StructureDefinition-WhoCrSurveillanceDataDictionary.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 895, column 204: The link '??' for "Iso3166-1-2 (missing link)" cannot be resolved
-ERROR: /home/publisher/ig/output/StructureDefinition-WhoCrSurveillanceDataDictionary.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 897, column 191: The link '??' for "Iso3166-1-2 (missing link)" cannot be resolved
-ERROR: /home/publisher/ig/output/StructureDefinition-WhoCrSurveillanceDataDictionary.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 901, column 183: The link '??' for "Iso3166-1-2 (missing link)" cannot be resolved
+ERROR: /home/publisher/ig/output/StructureDefinition-WhoCrSurveillanceDataDictionary.html#/html/body/div/div/div/div/div/p/a at Line 882, column 41: The link 'StructureDefinition-WhoCrSurveillanceDataDictionary.sch' for "Schematron" cannot be resolved
+ERROR: /home/publisher/ig/output/StructureDefinition-WhoCrSurveillanceDataDictionary.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 889, column 173: The link '??' for "Iso3166-1-2 (missing link)" cannot be resolved
+ERROR: /home/publisher/ig/output/StructureDefinition-WhoCrSurveillanceDataDictionary.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 892, column 189: The link '??' for "Iso3166-1-2 (missing link)" cannot be resolved
+ERROR: /home/publisher/ig/output/StructureDefinition-WhoCrSurveillanceDataDictionary.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 894, column 188: The link '??' for "Iso3166-1-2 (missing link)" cannot be resolved
+ERROR: /home/publisher/ig/output/StructureDefinition-WhoCrSurveillanceDataDictionary.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 905, column 204: The link '??' for "Iso3166-1-2 (missing link)" cannot be resolved
+ERROR: /home/publisher/ig/output/StructureDefinition-WhoCrSurveillanceDataDictionary.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 907, column 191: The link '??' for "Iso3166-1-2 (missing link)" cannot be resolved
+ERROR: /home/publisher/ig/output/StructureDefinition-WhoCrSurveillanceDataDictionary.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 911, column 183: The link '??' for "Iso3166-1-2 (missing link)" cannot be resolved
 == /home/publisher/ig/fsh-generated/resources/CodeSystem-WhoCrCodeSystemComorbidity.json ==
 INFORMATION: CodeSystem/WhoCrCodeSystemComorbidity: CodeSystem: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem
 == /home/publisher/ig/fsh-generated/resources/CodeSystem-WhoCrCodeSystemPatientOutcome.json ==

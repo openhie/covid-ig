@@ -125,12 +125,12 @@ If transborders or international spread of outbreak","","","","","","","","","",
 "WhoCrSurveillanceDataDictionary.exposure.contact.contact.identifier","","","",0,1,"","","","Identifier {[]} {[]}
 ","ID number of confirmed case","Unique identifier of confirmed case with whom the patient had contact","","","","","","","","","",,,,,"http://loinc.org#94657-4
 ",,,,"WhoCrSurveillanceDataDictionary.exposure.contact.contact.identifier",0,1,"","","expo_IDx","94657-4","TODO","TODO","TODO","TODO","TODO"
-"WhoCrSurveillanceDataDictionary.exposure.contact.contact.exposureFirstDate","","","",0,1,"","","","dateTime {[]} {[]}
-","Date of first exposure to confirmed case","Date of first exposure to confirmed case","","","","","","","","","",,,,,"",,,,"WhoCrSurveillanceDataDictionary.exposure.contact.contact.exposureFirstDate",0,1,"","","expo_case_date_firstX","TODO","TODO","TODO","TODO","TODO","TODO"
-"WhoCrSurveillanceDataDictionary.exposure.contact.contact.exposureLastDate","","","",0,1,"","","","dateTime {[]} {[]}
-","Date of last exposure to confirmed case","Date of last exposure to confirmed case","","","","","","","","","",,,,,"",,,,"WhoCrSurveillanceDataDictionary.exposure.contact.contact.exposureLastDate",0,1,"","","expo_case_date_lastX","95386-9","TODO","TODO","TODO","TODO","TODO"
-"WhoCrSurveillanceDataDictionary.exposure.contact.contact.setting","","","",0,1,"","","","CodeableConcept {[]} {[]}
-","Explain contact setting","If the patient has had contact with a confirmed case in the 14 days prior to symptom onset, explain contact setting","","","","","","","","","",,"extensible","","http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetContactSetting","",,,,"WhoCrSurveillanceDataDictionary.exposure.contact.contact.setting",0,1,"","","expo_case_setting_detail","TODO","TODO","TODO","TODO","TODO","TODO"
+"WhoCrSurveillanceDataDictionary.exposure.contact.contact.exposure","","","",0,*,"","","","BackboneElement {[]} {[]}
+","Details of exposure to confirmed case","Details of exposure to confirmed case","","","","","","","","","",,,,,"",,,,"WhoCrSurveillanceDataDictionary.exposure.contact.contact.exposure",0,*,"","","expo_case_date_firstX","TODO","TODO","TODO","TODO","TODO","TODO"
+"WhoCrSurveillanceDataDictionary.exposure.contact.contact.exposure.period","","","",0,1,"","","","Period {[]} {[]}
+","Dates of exposure to confirmed case","Dates of exposure to confirmed case","","","","","","","","","",,,,,"",,,,"WhoCrSurveillanceDataDictionary.exposure.contact.contact.exposure.period",0,1,"","","expo_case_date_firstX","expo_case_date_lastX","95386-9","TODO","TODO","TODO","TODO","TODO"
+"WhoCrSurveillanceDataDictionary.exposure.contact.contact.exposure.setting","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","Explain contact setting","If the patient has had contact with a confirmed case in the 14 days prior to symptom onset, explain contact setting","","","","","","","","","",,"extensible","","http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetContactSetting","",,,,"WhoCrSurveillanceDataDictionary.exposure.contact.contact.exposure.setting",0,1,"","","expo_case_setting_detail","TODO","TODO","TODO","TODO","TODO","TODO"
 "WhoCrSurveillanceDataDictionary.exposure.contact.country","","","",0,1,"","","","CodeableConcept {[]} {[]}
 ","Likely country for exposure to case?","Specify the location of possible exposure to a case","","","","","","","","","",,"extensible","","http://hl7.org/fhir/ValueSet/iso3166-1-2","",,,,"WhoCrSurveillanceDataDictionary.exposure.contact.country",0,1,"","","expo_case_location","77984-3","TODO","TODO","TODO","TODO","TODO"
 "WhoCrSurveillanceDataDictionary.outcome","","","",0,1,"","","","BackboneElement {[]} {[]}
@@ -168,7 +168,9 @@ If transborders or international spread of outbreak","","","","","","","","","",
 ","Date of last laboratory test","Date of last laboratory test","","","","","","","","","",,,,,"",,,,"WhoCrSurveillanceDataDictionary.outcome.lab.date",0,1,"","","outcome_lab_date","TODO","TODO","TODO","TODO","TODO","TODO"
 "WhoCrSurveillanceDataDictionary.outcome.lab.result","","","",0,1,"","","","Coding {[]} {[]}
 ","Result of last test","Result of last test","","","","","","","","","",,"required","","http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetTestResult","",,,,"WhoCrSurveillanceDataDictionary.outcome.lab.result",0,1,"","","outcome_lab_result","TODO","TODO","TODO","TODO","TODO","TODO"
-"WhoCrSurveillanceDataDictionary.outcome.contactsFollowed","","","",0,1,"","","","unsignedInt {[]} {[]}
-","High risk contacts followed from case","Total number of high-risk contacts followed for this case","","","","","","","","","",,,,,"",,,,"WhoCrSurveillanceDataDictionary.outcome.contactsFollowed",0,1,"","","outcome_contacts_followed","TODO","TODO","TODO","TODO","TODO","TODO"
-"WhoCrSurveillanceDataDictionary.outcome.contactsFollowedUnknown","","","",0,1,"","","","Coding {[]} {[]}
-","Number of high risk contacts followed unknown","Number of high risk contacts followed unknown","","","","","","","","","",,"required","","http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetYesNoUnk","",,,,"WhoCrSurveillanceDataDictionary.outcome.contactsFollowedUnknown",0,1,"","","outcome_contacts_followed_unknown","TODO","TODO","TODO","TODO","TODO","TODO"
+"WhoCrSurveillanceDataDictionary.outcome.contacts","","","",0,1,"","","","BackboneElement {[]} {[]}
+","High risk contacts followed from case","High risk contacts followed from this case","","","","","","","","","",,,,,"",,,,"WhoCrSurveillanceDataDictionary.outcome.contacts",0,1,"","","TODO","TODO","TODO","TODO","TODO","TODO","TODO"
+"WhoCrSurveillanceDataDictionary.outcome.contacts.count","","","",0,1,"","","","unsignedInt {[]} {[]}
+","High risk contacts followed from case","Total number of high-risk contacts followed for this case","","","","","","","","","",,,,,"",,,,"WhoCrSurveillanceDataDictionary.outcome.contacts.count",0,1,"","","outcome_contacts_followed","TODO","TODO","TODO","TODO","TODO","TODO"
+"WhoCrSurveillanceDataDictionary.outcome.contacts.countUnknown","","","",0,1,"","","","Coding {[]} {[]}
+","Number of high risk contacts followed unknown","Number of high risk contacts followed unknown","","","","","","","","","",,"required","","http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetYesNoUnk","",,,,"WhoCrSurveillanceDataDictionary.outcome.contacts.countUnknown",0,1,"","","outcome_contacts_followed_unknown","TODO","TODO","TODO","TODO","TODO","TODO"
