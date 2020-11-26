@@ -3,14 +3,14 @@
   "id": "WhoCrConceptMapPatientOutcomeToCiel",
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>WhoCrConceptMapPatientOutcomeToCiel (http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapPatientOutcomeToCiel)</h2><p>Mapping from <a href=\"CodeSystem-WhoCrCodeSystemPatientOutcome.html\">http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemPatientOutcome</a> to https://openconceptlab.org/orgs/CIEL/sources/CIEL</p><p>DRAFT (not intended for production usage). Published on Nov 26, 2020, 11:25:50 PM by OpenHIE (OpenHIE: <a href=\"http://www.ohie.org\">http://www.ohie.org</a>). 2020</p><br/><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Destination Code</b></td></tr><tr><td>RECOVERED (Recovered/Healthy)</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equal\">is equal to</a></td><td>165870</td></tr><tr><td>NOTRECOVERED</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equal\">is equal to</a></td><td>165871</td></tr><tr><td>DEATH</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equal\">is equal to</a></td><td>160432</td></tr><tr><td>UNKNOWN</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equal\">is equal to</a></td><td>1067</td></tr><tr><td>OTHER</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equal\">is equal to</a></td><td>5622</td></tr></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>WhoCrConceptMapPatientOutcomeToCiel (http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapPatientOutcomeToCiel)</h2><p>Mapping from <a href=\"CodeSystem-WhoCrCodeSystemPatientOutcome.html\">http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemPatientOutcome</a> to https://openconceptlab.org/orgs/CIEL/sources/CIEL</p><p>DRAFT (not intended for production usage). Published on Nov 26, 2020, 11:29:24 PM by OpenHIE (OpenHIE: <a href=\"http://www.ohie.org\">http://www.ohie.org</a>). 2020</p><br/><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Destination Code</b></td></tr><tr><td>RECOVERED (Recovered/Healthy)</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equal\">is equal to</a></td><td>165870</td></tr><tr><td>NOTRECOVERED</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equal\">is equal to</a></td><td>165871</td></tr><tr><td>DEATH</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equal\">is equal to</a></td><td>160432</td></tr><tr><td>UNKNOWN</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equal\">is equal to</a></td><td>1067</td></tr><tr><td>OTHER</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equal\">is equal to</a></td><td>5622</td></tr></table></div>"
   },
   "url": "http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapPatientOutcomeToCiel",
   "version": "0.1.0",
   "name": "WhoCrConceptMapPatientOutcomeToCiel",
   "status": "draft",
   "experimental": true,
-  "date": "2020-11-26T23:25:50+00:00",
+  "date": "2020-11-26T23:29:24+00:00",
   "publisher": "OpenHIE",
   "contact": [
     {
