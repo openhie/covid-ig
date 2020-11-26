@@ -462,11 +462,11 @@ Usage: #definition
 * item[7].item[8].linkId  = "outcome_contacts_followed"
 * item[7].item[8].text    = "Total number of contacts followed for this case:"
 * item[7].item[8].type    = #integer
-* item[7].item[8].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.outcome.contactsFollowed"
+* item[7].item[8].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.outcome.contacts.count"
 * item[7].item[8].extension[$ext-element-minValue].valueInteger = 0
 
 * item[7].item[9].linkId  = "outcome_contacts_followed_unknown"
 * item[7].item[9].text    = "Unknown:"
 * item[7].item[9].type    = #boolean 
-* item[7].item[9].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.outcome.contactsFollowedUnknown"
+* item[7].item[9].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.outcome.contacts.countUnknown"
 

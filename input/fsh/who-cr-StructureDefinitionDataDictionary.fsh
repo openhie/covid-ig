@@ -1722,15 +1722,15 @@ Usage: #definition
 * differential.element[70].mapping[6].identity = "SNOMED"
 * differential.element[70].mapping[6].map = "TODO"
 
-* differential.element[71].id = "WhoCrSurveillanceDataDictionary.outcome.contactsFollowed"
-* differential.element[71].path = "WhoCrSurveillanceDataDictionary.outcome.contactsFollowed"
+* differential.element[71].id = "WhoCrSurveillanceDataDictionary.outcome.contacts"
+* differential.element[71].path = "WhoCrSurveillanceDataDictionary.outcome.contacts"
 * differential.element[71].short = "High risk contacts followed from case"
-* differential.element[71].definition = "Total number of high-risk contacts followed for this case"
-* differential.element[71].type.code = #unsignedInt
+* differential.element[71].definition = "High risk contacts followed from this case"
+* differential.element[71].type.code = #BackboneElement
 * differential.element[71].min = 0
 * differential.element[71].max = "1"
 * differential.element[71].mapping[0].identity = "WhoCrDataDictionarySpreadsheet"
-* differential.element[71].mapping[0].map = "outcome_contacts_followed"
+* differential.element[71].mapping[0].map = "TODO"
 * differential.element[71].mapping[1].identity = "LOINC"
 * differential.element[71].mapping[1].map = "TODO"
 * differential.element[71].mapping[2].identity = "CIEL"
@@ -1744,17 +1744,16 @@ Usage: #definition
 * differential.element[71].mapping[6].identity = "SNOMED"
 * differential.element[71].mapping[6].map = "TODO"
 
-* differential.element[72].id = "WhoCrSurveillanceDataDictionary.outcome.contactsFollowedUnknown"
-* differential.element[72].path = "WhoCrSurveillanceDataDictionary.outcome.contactsFollowedUnknown"
-* differential.element[72].short = "Number of high risk contacts followed unknown"
-* differential.element[72].definition = "Number of high risk contacts followed unknown"
-* differential.element[72].type.code = #Coding
+
+* differential.element[72].id = "WhoCrSurveillanceDataDictionary.outcome.contacts.count"
+* differential.element[72].path = "WhoCrSurveillanceDataDictionary.outcome.contacts.count"
+* differential.element[72].short = "High risk contacts followed from case"
+* differential.element[72].definition = "Total number of high-risk contacts followed for this case"
+* differential.element[72].type.code = #unsignedInt
 * differential.element[72].min = 0
 * differential.element[72].max = "1"
-* differential.element[72].binding.valueSet = Canonical(WhoCrValueSetYesNoUnk)
-* differential.element[72].binding.strength = #required
 * differential.element[72].mapping[0].identity = "WhoCrDataDictionarySpreadsheet"
-* differential.element[72].mapping[0].map = "outcome_contacts_followed_unknown"
+* differential.element[72].mapping[0].map = "outcome_contacts_followed"
 * differential.element[72].mapping[1].identity = "LOINC"
 * differential.element[72].mapping[1].map = "TODO"
 * differential.element[72].mapping[2].identity = "CIEL"
@@ -1767,3 +1766,27 @@ Usage: #definition
 * differential.element[72].mapping[5].map = "TODO"
 * differential.element[72].mapping[6].identity = "SNOMED"
 * differential.element[72].mapping[6].map = "TODO"
+
+* differential.element[73].id = "WhoCrSurveillanceDataDictionary.outcome.contacts.countUnknown"
+* differential.element[73].path = "WhoCrSurveillanceDataDictionary.outcome.contacts.countUnknown"
+* differential.element[73].short = "Number of high risk contacts followed unknown"
+* differential.element[73].definition = "Number of high risk contacts followed unknown"
+* differential.element[73].type.code = #Coding
+* differential.element[73].min = 0
+* differential.element[73].max = "1"
+* differential.element[73].binding.valueSet = Canonical(WhoCrValueSetYesNoUnk)
+* differential.element[73].binding.strength = #required
+* differential.element[73].mapping[0].identity = "WhoCrDataDictionarySpreadsheet"
+* differential.element[73].mapping[0].map = "outcome_contacts_followed_unknown"
+* differential.element[73].mapping[1].identity = "LOINC"
+* differential.element[73].mapping[1].map = "TODO"
+* differential.element[73].mapping[2].identity = "CIEL"
+* differential.element[73].mapping[2].map = "TODO"
+* differential.element[73].mapping[3].identity = "ICD10"
+* differential.element[73].mapping[3].map = "TODO"
+* differential.element[73].mapping[4].identity = "ICD11"
+* differential.element[73].mapping[4].map = "TODO"
+* differential.element[73].mapping[5].identity = "RXNORM"
+* differential.element[73].mapping[5].map = "TODO"
+* differential.element[73].mapping[6].identity = "SNOMED"
+* differential.element[73].mapping[6].map = "TODO"
