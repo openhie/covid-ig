@@ -3,14 +3,14 @@
   "id": "WhoCrConceptMapPregnancyTrimesterToRxnorm",
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>WhoCrConceptMapPregnancyTrimesterToRxnorm (http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapPregnancyTrimesterToRxnorm)</h2><p>Mapping from <a href=\"CodeSystem-WhoCrCodeSystemPregnancyTrimester.html\">http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemPregnancyTrimester</a> to <a href=\"http://terminology.hl7.org/2.0.0/CodeSystem-v3-rxNorm.html\">http://www.nlm.nih.gov/research/umls/rxnorm</a></p><p>DRAFT (not intended for production usage). Published on Nov 28, 2020, 8:58:49 PM by OpenHIE (OpenHIE: <a href=\"http://www.ohie.org\">http://www.ohie.org</a>). 2020</p><br/><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Destination Code</b></td></tr><tr><td>TODO</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#relatedto\">is related to</a></td><td>TODO</td></tr></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>WhoCrConceptMapPregnancyTrimesterToRxnorm (http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapPregnancyTrimesterToRxnorm)</h2><p>Mapping from <a href=\"CodeSystem-WhoCrCodeSystemPregnancyTrimester.html\">http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemPregnancyTrimester</a> to <a href=\"http://terminology.hl7.org/2.0.0/CodeSystem-v3-rxNorm.html\">http://www.nlm.nih.gov/research/umls/rxnorm</a></p><p>DRAFT (not intended for production usage). Published on Nov 28, 2020, 9:19:48 PM by OpenHIE (OpenHIE: <a href=\"http://www.ohie.org\">http://www.ohie.org</a>). 2020</p><br/><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Destination Code</b></td></tr><tr><td>TODO</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#relatedto\">is related to</a></td><td>TODO</td></tr></table></div>"
   },
   "url": "http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapPregnancyTrimesterToRxnorm",
   "version": "0.1.0",
   "name": "WhoCrConceptMapPregnancyTrimesterToRxnorm",
   "status": "draft",
   "experimental": true,
-  "date": "2020-11-28T20:58:49+00:00",
+  "date": "2020-11-28T21:19:48+00:00",
   "publisher": "OpenHIE",
   "contact": [
     {
