@@ -20,12 +20,19 @@ Usage: #definition
 * item[1].text    = "Date of reporting to national health authority:"
 * item[1].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.report.date"
 * item[1].type    = #date
+* item[1].code = $LNC#77995-9
 
 * item[2].linkId  = "report_country"
 * item[2].text    = "Reporting country:"
+* item[2].code    = $LNC#77983-5
 * item[2].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.report.country"
-* item[2].type    = #open-choice
+* item[2].type    = #choice
 * item[2].answerValueSet    = Canonical($vs-iso3166-1-2)
+
+* item[2].item[0].linkId = "report_country_other"
+* item[2].item[0].text = "If Other, please specify:"
+* item[2].item[0].definition = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.report.country"
+* item[2].item[0].type = #text
 
 * item[3].linkId  = "report_test_reason"
 * item[3].text    = "Why tested for COVID-19:"
@@ -67,12 +74,14 @@ Usage: #definition
 * item[4].item[3].item[0].linkId  = "patinfo_idadmin0"
 * item[4].item[3].item[0].text    = "Country:"
 * item[4].item[3].item[0].type    = #open-choice
+* item[4].item[3].item[0].code    = $LNC#96546-7
 * item[4].item[3].item[0].answerValueSet    = Canonical($vs-iso3166-1-2)
 * item[4].item[3].item[0].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.patientInfo.identified.country"
 
 * item[4].item[3].item[0].item[0].linkId  = "patinfo_idadmin1"
 * item[4].item[3].item[0].item[0].text    = "Admin Level 1 (province):"
 * item[4].item[3].item[0].item[0].type    = #open-choice
+* item[4].item[3].item[0].item[0].code    = $LNC#96547-5
 * item[4].item[3].item[0].item[0].answerValueSet    = Canonical($vs-iso3166-2)
 * item[4].item[3].item[0].item[0].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.patientInfo.identified.subnational"
 * item[4].item[3].item[0].item[0].enableWhen[0].question = "patinfo_idadmin0"
@@ -137,26 +146,30 @@ Usage: #definition
 * item[5].item[2].item[1].enableWhen[0].question = "Comcond_any"
 * item[5].item[2].item[1].enableWhen[0].operator = #=
 * item[5].item[2].item[1].enableWhen[0].answerCoding = $cs-v2-0136#Y
-* item[5].item[2].item[1].extension[$ext-variable].valueExpression.name = "isPregnant"
-* item[5].item[2].item[1].extension[$ext-variable].valueExpression.language = #text/fhirpath
-* item[5].item[2].item[1].extension[$ext-variable].valueExpression.expression = "%context.children.exists(answer.code = http://openhie.github.io/covid-19/StructureDefinition/WhoCrCodeSystemComorbidity#PREGNANCY)"
 
 * item[5].item[2].item[1].item[0].linkId  = "comorbidity"
 * item[5].item[2].item[1].item[0].text    = "Comorbidity or condition present"
 * item[5].item[2].item[1].item[0].repeats = true
 * item[5].item[2].item[1].item[0].type    = #open-choice
+* item[5].item[2].item[1].item[0].code    = $LNC#75618-9
 * item[5].item[2].item[1].item[0].answerValueSet = Canonical(WhoCrValueSetComorbidity)
 * item[5].item[2].item[1].item[0].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.clinicalStatus.comorbidities.present"
 
-* item[5].item[2].item[1].item[1].linkId  = "Comcond_pregt"
-* item[5].item[2].item[1].item[1].text    = "Trimester of pregnancy"
-* item[5].item[2].item[1].item[1].type    = #choice
-* item[5].item[2].item[1].item[1].code    = $LNC#32418-6
-* item[5].item[2].item[1].item[1].answerValueSet = Canonical(WhoCrValueSetPregnancyTrimester)
-* item[5].item[2].item[1].item[1].enableWhen[0].question = "Comcond_any"
-* item[5].item[2].item[1].item[1].enableWhen[0].operator = #=
-* item[5].item[2].item[1].item[1].enableWhen[0].answerBoolean = true
-* item[5].item[2].item[1].item[1].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.clinicalStatus.comorbidities.pregnantTrimester"
+* item[5].item[2].item[1].item[1].linkId  = "Comcond_preg"
+* item[5].item[2].item[1].item[1].text    = "Is the patient pregnant?"
+* item[5].item[2].item[1].item[1].type    = #boolean
+* item[5].item[2].item[1].item[1].code    = $LNC#82810-3 
+* item[5].item[2].item[1].item[1].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.clinicalStatus.comorbidities.present"
+
+* item[5].item[2].item[1].item[1].item[0].linkId  = "Comcond_pregt"
+* item[5].item[2].item[1].item[1].item[0].text    = "Trimester of pregnancy"
+* item[5].item[2].item[1].item[1].item[0].type    = #choice
+* item[5].item[2].item[1].item[1].item[0].code    = $LNC#32418-6
+* item[5].item[2].item[1].item[1].item[0].answerValueSet = Canonical(WhoCrValueSetPregnancyTrimester)
+* item[5].item[2].item[1].item[1].item[0].enableWhen[0].question = "Comcond_preg"
+* item[5].item[2].item[1].item[1].item[0].enableWhen[0].operator = #=
+* item[5].item[2].item[1].item[1].item[0].enableWhen[0].answerBoolean = true
+* item[5].item[2].item[1].item[1].item[0].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.clinicalStatus.comorbidities.pregnantTrimester"
 
 * item[5].item[2].item[2].linkId  = "section_health_status"
 * item[5].item[2].item[2].text    = "Health Status at time of Reporting:"
@@ -192,28 +205,31 @@ Usage: #definition
 * item[5].item[2].item[2].item[1].item[2].linkId  = "patcourse_vent"
 * item[5].item[2].item[2].item[1].item[2].text    = "Did the case receive ventilation?"
 * item[5].item[2].item[2].item[1].item[2].type    = #choice
+* item[5].item[2].item[2].item[1].item[2].code    = $LNC#96539-2
 * item[5].item[2].item[2].item[1].item[2].answerValueSet = Canonical(WhoCrValueSetYesNoUnk)
 * item[5].item[2].item[2].item[1].item[2].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.clinicalStatus.patientCourse.ventilated"
 
 * item[5].item[2].item[2].item[1].item[3].linkId  = "patcourse_ecmo"
 * item[5].item[2].item[2].item[1].item[3].text    = "Did the case receive extracorporeal membrane oxygenation?"
 * item[5].item[2].item[2].item[1].item[3].type    = #choice
+* item[5].item[2].item[2].item[1].item[3].code    = $LNC#96540-0
 * item[5].item[2].item[2].item[1].item[3].answerValueSet = Canonical(WhoCrValueSetYesNoUnk)
 * item[5].item[2].item[2].item[1].item[3].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.clinicalStatus.patientCourse.receivedEcmo"
 
 * item[5].item[2].item[2].item[2].linkId  = "patcourse_iso"
 * item[5].item[2].item[2].item[2].text  = "Is case in isolation with Infection Control Practice in place?"
 * item[5].item[2].item[2].item[2].type  = #choice
+* item[5].item[2].item[2].item[2].code  = $LNC#96548-3
 * item[5].item[2].item[2].item[2].answerValueSet = Canonical(WhoCrValueSetYesNoUnk)
 * item[5].item[2].item[2].item[2].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.clinicalStatus.patientCourse.wasIsolated"
 
 * item[5].item[2].item[2].item[2].item[0].linkId  = "patcourse_dateiso"
 * item[5].item[2].item[2].item[2].item[0].text  = "Date of isolation:"
 * item[5].item[2].item[2].item[2].item[0].type  = #date
+* item[5].item[2].item[2].item[2].item[0].code  = $LNC#96549-1
 * item[5].item[2].item[2].item[2].item[0].enableWhen[0].question  = "patcourse_iso"
 * item[5].item[2].item[2].item[2].item[0].enableWhen[0].operator  = #=
 * item[5].item[2].item[2].item[2].item[0].enableWhen[0].answerCoding  = $cs-v2-0136#Y
-
 * item[5].item[2].item[2].item[2].item[0].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.clinicalStatus.patientCourse.isolatedDate"
 
 * item[6].linkId  = "section_exposure_risk"
@@ -243,22 +259,26 @@ Usage: #definition
 * item[6].item[0].item[0].item[0].item[0].linkId  = "patinfo_occuhcw_country"
 * item[6].item[0].item[0].item[0].item[0].text    = "Country:"
 * item[6].item[0].item[0].item[0].item[0].type    = #open-choice
+* item[6].item[0].item[0].item[0].item[0].code    = $LNC#80437-7
 * item[6].item[0].item[0].item[0].item[0].answerValueSet    = Canonical($vs-iso3166-1-2)
 * item[6].item[0].item[0].item[0].item[0].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.exposure.patientInfo.hcw.workFacility.country"
 
 * item[6].item[0].item[0].item[0].item[1].linkId  = "patinfo_occuhcw_city"
 * item[6].item[0].item[0].item[0].item[1].text    = "City:"
 * item[6].item[0].item[0].item[0].item[1].type    = #string
+* item[6].item[0].item[0].item[0].item[1].code    = $LNC#80431-0 
 * item[6].item[0].item[0].item[0].item[1].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.exposure.patientInfo.hcw.workFacility.city"
 
 * item[6].item[0].item[0].item[0].item[2].linkId  = "patinfo_occuhcw_name"
 * item[6].item[0].item[0].item[0].item[2].text    = "Name of Facility:"
 * item[6].item[0].item[0].item[0].item[2].type    = #string
+* item[6].item[0].item[0].item[0].item[2].code    = $LNC#76696-4
 * item[6].item[0].item[0].item[0].item[2].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.exposure.patientInfo.hcw.workFacility.facilityName"
 
 * item[6].item[1].linkId  = "expo_travel"
 * item[6].item[1].text  = "Has the case travelled in the 14 days prior to symptom onset?"
 * item[6].item[1].type  = #choice
+* item[6].item[1].code  = $LNC#96542-6
 * item[6].item[1].answerValueSet = Canonical(WhoCrValueSetYesNoUnk)
 * item[6].item[1].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.exposure.travel.hasTravelled"
 
@@ -292,12 +312,14 @@ Usage: #definition
 * item[6].item[2].linkId  = "expo_visit_healthcare"
 * item[6].item[2].text  = "Has case visited any health care facility in the 14 days prior to symptom onset?"
 * item[6].item[2].type  = #choice
+* item[6].item[2].code  = $LNC#96543-4
 * item[6].item[2].answerValueSet = Canonical(WhoCrValueSetYesNoUnk)
 * item[6].item[2].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.exposure.visitedHealthcare"
 
 * item[6].item[3].linkId  = "expo_contact_case"
 * item[6].item[3].text  = "Has case had contact with a confirmed case in the 14 days prior to symptom onset?"
 * item[6].item[3].type  = #choice
+* item[6].item[3].code  = $LNC#96544-2
 * item[6].item[3].answerValueSet = Canonical(WhoCrValueSetYesNoUnk)
 * item[6].item[3].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.exposure.contact.hadContact"
 
@@ -323,22 +345,26 @@ Usage: #definition
 * item[6].item[3].item[0].item[1].item[0].linkId  = "expo_case_date_first"
 * item[6].item[3].item[0].item[1].item[0].text    = "First Date of Contact"
 * item[6].item[3].item[0].item[1].item[0].type    = #dateTime
+* item[6].item[3].item[0].item[1].item[0].code    = $LNC#96545-9
 * item[6].item[3].item[0].item[1].item[0].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.exposure.contact.contact.exposure.period.begin"
 
 * item[6].item[3].item[0].item[1].item[1].linkId  = "expo_case_date_last"
 * item[6].item[3].item[0].item[1].item[1].text    = "Last Date of Contact"
 * item[6].item[3].item[0].item[1].item[1].type    = #dateTime
+* item[6].item[3].item[0].item[1].item[1].code    = $LNC#96545-9
 * item[6].item[3].item[0].item[1].item[1].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.exposure.contact.contact.exposure.period.end"
 
 * item[6].item[3].item[0].item[1].item[2].linkId  = "expo_case_setting_detail"
 * item[6].item[3].item[0].item[1].item[2].text    = "Contact setting:"
 * item[6].item[3].item[0].item[1].item[2].type    = #open-choice
+* item[6].item[3].item[0].item[1].item[2].code    = $LNC#81267-7
 * item[6].item[3].item[0].item[1].item[2].answerValueSet = Canonical(WhoCrValueSetContactSetting)
 * item[6].item[3].item[0].item[1].item[2].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.exposure.contact.contact.exposure.setting"
 
 * item[6].item[4].linkId  = "expo_case_location"
 * item[6].item[4].text    = "Most likely country of exposure:"
 * item[6].item[4].type    = #open-choice
+* item[6].item[4].code    = $LNC#77984-3
 * item[6].item[4].answerValueSet    = Canonical($vs-iso3166-1-2)
 * item[6].item[4].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.exposure.contact.country"
 
@@ -354,6 +380,7 @@ Usage: #definition
 * item[7].item[1].linkId    = "outcome_submitted_date"
 * item[7].item[1].text      = "Date of re-submission of this report:"
 * item[7].item[1].type      = #date
+* item[7].item[1].code      = $LNC#96553-3
 * item[7].item[1].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.outcome.submissionDate"
 
 * item[7].item[2].linkId    = "outcome_asymp"
@@ -370,6 +397,7 @@ Usage: #definition
 * item[7].item[3].linkId    = "outcome_asymp_date"
 * item[7].item[3].text      = "Date of onset of symptoms/signs of illness:"
 * item[7].item[3].type      = #date
+* item[7].item[3].code      = $LNC#65222-2
 * item[7].item[3].enableWhen[0].question  = "outcome_asymp"
 * item[7].item[3].enableWhen[0].operator  = #=
 * item[7].item[3].enableWhen[0].answerCoding  = $cs-v2-0136#Y
@@ -382,12 +410,14 @@ Usage: #definition
 * item[7].item[4].item[0].linkId  = "outcome_patcourse_admit"
 * item[7].item[4].item[0].text    = "Admission to hospital (may have been previously reported):"
 * item[7].item[4].item[0].type    = #choice
+* item[7].item[4].item[0].code    = $LNC#77974-4
 * item[7].item[4].item[0].answerValueSet = Canonical(WhoCrValueSetYesNoUnk)
 * item[7].item[4].item[0].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.outcome.patientCourse.wasAdmitted"
 
 * item[7].item[4].item[1].linkId  = "outcome_patcourse_presHCF"
 * item[7].item[4].item[1].text    = "First date of admission to hospital:"
 * item[7].item[4].item[1].type    = #date
+* item[7].item[4].item[1].code    = $LNC#8656-1
 * item[7].item[4].item[1].enableWhen[0].question  = "outcome_patcourse_admit"
 * item[7].item[4].item[1].enableWhen[0].operator  = #=
 * item[7].item[4].item[1].enableWhen[0].answerCoding  = $cs-v2-0136#Y
@@ -403,24 +433,28 @@ Usage: #definition
 * item[7].item[4].item[2].item[0].linkId  = "outcome_patcourse_icu"
 * item[7].item[4].item[2].item[0].text    = "Did the case receive care in an intensive care unit (ICU)?"
 * item[7].item[4].item[2].item[0].type    = #choice
+* item[7].item[4].item[2].item[0].code    = $LNC#95420-6
 * item[7].item[4].item[2].item[0].answerValueSet = Canonical(WhoCrValueSetYesNoUnk)
 * item[7].item[4].item[2].item[0].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.outcome.patientCourse.receivedIcuCare"
 
 * item[7].item[4].item[2].item[1].linkId  = "outcome_patcourse_vent"
 * item[7].item[4].item[2].item[1].text    = "Did the case receive ventilation?"
 * item[7].item[4].item[2].item[1].type    = #choice
+* item[7].item[4].item[2].item[1].code    = $LNC#96539-2
 * item[7].item[4].item[2].item[1].answerValueSet = Canonical(WhoCrValueSetYesNoUnk)
 * item[7].item[4].item[2].item[1].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.outcome.patientCourse.ventilated"
 
 * item[7].item[4].item[2].item[2].linkId  = "outcome_patcourse_ecmo"
 * item[7].item[4].item[2].item[2].text    = "Did the case receive extracorporeal membrane oxygenation?"
 * item[7].item[4].item[2].item[2].type    = #choice
+* item[7].item[4].item[2].item[2].code    = $LNC#96540-0
 * item[7].item[4].item[2].item[2].answerValueSet = Canonical(WhoCrValueSetYesNoUnk)
 * item[7].item[4].item[2].item[2].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.outcome.patientCourse.receivedEcmo"
 
 * item[7].item[5].linkId  = "outcome_patcourse_status"
 * item[7].item[5].text    = "Health Outcome:"
 * item[7].item[5].type    = #open-choice
+* item[7].item[5].code    = $LNC#91541-3
 * item[7].item[5].answerValueSet = Canonical(WhoCrValueSetPatientOutcome)
 * item[7].item[5].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.outcome.patientCourse.status"
 
@@ -451,22 +485,26 @@ Usage: #definition
 * item[7].item[7].item[0].linkId  = "outcome_lab_date"
 * item[7].item[7].item[0].text    = "Date of last test:"
 * item[7].item[7].item[0].type    = #date
+* item[7].item[7].item[0].code    = $LNC#96550-9
 * item[7].item[7].item[0].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.outcome.lab.date"
 
 * item[7].item[7].item[1].linkId  = "outcome_lab_result"
 * item[7].item[7].item[1].text    = "Results of last test:"
 * item[7].item[7].item[1].type    = #choice
+* item[7].item[7].item[1].code    = $LNC#96552-5
 * item[7].item[7].item[1].answerValueSet = Canonical(WhoCrValueSetTestResult)
 * item[7].item[7].item[1].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.outcome.lab.result"
 
 * item[7].item[8].linkId  = "outcome_contacts_followed"
 * item[7].item[8].text    = "Total number of contacts followed for this case:"
 * item[7].item[8].type    = #integer
+* item[7].item[8].code    = $LNC#96551-7
 * item[7].item[8].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.outcome.contacts.count"
 * item[7].item[8].extension[$ext-element-minValue].valueInteger = 0
 
 * item[7].item[9].linkId  = "outcome_contacts_followed_unknown"
 * item[7].item[9].text    = "Unknown:"
+* item[7].item[9].code    = $LNC#96551-7
 * item[7].item[9].type    = #boolean 
 * item[7].item[9].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.outcome.contacts.countUnknown"
 
