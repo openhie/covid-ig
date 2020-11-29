@@ -356,9 +356,8 @@ Usage: #definition
 
 * item[6].item[3].item[0].item[1].item[2].linkId  = "expo_case_setting_detail"
 * item[6].item[3].item[0].item[1].item[2].text    = "Contact setting:"
-* item[6].item[3].item[0].item[1].item[2].type    = #open-choice
+* item[6].item[3].item[0].item[1].item[2].type    = #string
 * item[6].item[3].item[0].item[1].item[2].code    = $LNC#81267-7
-* item[6].item[3].item[0].item[1].item[2].answerValueSet = Canonical(WhoCrValueSetContactSetting)
 * item[6].item[3].item[0].item[1].item[2].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.exposure.contact.contact.exposure.setting"
 
 * item[6].item[4].linkId  = "expo_case_location"

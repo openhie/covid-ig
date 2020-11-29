@@ -1288,10 +1288,8 @@ Usage: #definition
 * differential.element[52].path = "WhoCrSurveillanceDataDictionary.exposure.contact.contact.exposure.setting"
 * differential.element[52].short = "Explain contact setting"
 * differential.element[52].definition = "If the patient has had contact with a confirmed case in the 14 days prior to symptom onset, explain contact setting"
-* differential.element[52].type.code = #CodeableConcept
+* differential.element[52].type.code = #string
 * differential.element[52].code = $LNC#81267-7
-* differential.element[52].binding.valueSet = Canonical(WhoCrValueSetContactSetting)
-* differential.element[52].binding.strength = #extensible
 * differential.element[52].min = 0
 * differential.element[52].max = "1"
 * differential.element[52].mapping[0].identity = "WhoCrDataDictionarySpreadsheet"
