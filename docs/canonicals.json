@@ -511,13 +511,6 @@
     "name": "WhoCrValueSetComorbidity"
   },
   {
-    "id": "WhoCrValueSetContactSetting",
-    "type": "ValueSet",
-    "url": "http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetContactSetting",
-    "version": "0.1.0",
-    "name": "WhoCrValueSetContactSetting"
-  },
-  {
     "id": "WhoCrValueSetPatientOutcome",
     "type": "ValueSet",
     "url": "http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetPatientOutcome",

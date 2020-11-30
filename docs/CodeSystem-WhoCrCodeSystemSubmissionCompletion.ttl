@@ -17,7 +17,7 @@
   fhir:CodeSystem.name [ fhir:value "WhoCrCodeSystemSubmissionCompletion"];
   fhir:CodeSystem.title [ fhir:value "Submission Completion Status"];
   fhir:CodeSystem.status [ fhir:value "active"];
-  fhir:CodeSystem.date [ fhir:value "2020-11-28T21:19:48+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2020-11-30T00:05:05+00:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "OpenHIE"];
   fhir:CodeSystem.contact [
      fhir:index 0;

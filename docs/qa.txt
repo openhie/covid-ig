@@ -3,7 +3,7 @@
 
 err = 61, warn = 0, info = 0
 IG Publisher Version: 1.1.44
-Generated Sat Nov 28 21:20:41 UTC 2020. FHIR version 4.0.1 for who.cr.covid19#0.1.0 (canonical = http://openhie.github.io/covid-19)
+Generated Mon Nov 30 00:05:47 UTC 2020. FHIR version 4.0.1 for who.cr.covid19#0.1.0 (canonical = http://openhie.github.io/covid-19)
 
  Build Errors : 4 / 0 / 0
  /home/publisher/ig/fsh-generated/resources/CodeSystem-WhoCrCodeSystemComorbidity : 0 / 0 / 1
@@ -81,7 +81,6 @@ Generated Sat Nov 28 21:20:41 UTC 2020. FHIR version 4.0.1 for who.cr.covid19#0.
  /home/publisher/ig/fsh-generated/resources/ValueSet-WhoCrValueSetAdmin1 : 0 / 0 / 1
  /home/publisher/ig/fsh-generated/resources/ValueSet-WhoCrValueSetAgeUnits : 0 / 0 / 1
  /home/publisher/ig/fsh-generated/resources/ValueSet-WhoCrValueSetComorbidity : 0 / 0 / 1
- /home/publisher/ig/fsh-generated/resources/ValueSet-WhoCrValueSetContactSetting : 0 / 0 / 1
  /home/publisher/ig/fsh-generated/resources/ValueSet-WhoCrValueSetPatientOutcome : 0 / 0 / 1
  /home/publisher/ig/fsh-generated/resources/ValueSet-WhoCrValueSetPregnancyTrimester : 0 / 0 / 1
  /home/publisher/ig/fsh-generated/resources/ValueSet-WhoCrValueSetReasonForCovid19Testing : 0 / 0 / 1
@@ -307,8 +306,6 @@ INFORMATION: ValueSet/WhoCrValueSetAdmin1: ValueSet: Validate resource against p
 INFORMATION: ValueSet/WhoCrValueSetAgeUnits: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
 == /home/publisher/ig/fsh-generated/resources/ValueSet-WhoCrValueSetComorbidity.json ==
 INFORMATION: ValueSet/WhoCrValueSetComorbidity: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
-== /home/publisher/ig/fsh-generated/resources/ValueSet-WhoCrValueSetContactSetting.json ==
-INFORMATION: ValueSet/WhoCrValueSetContactSetting: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
 == /home/publisher/ig/fsh-generated/resources/ValueSet-WhoCrValueSetPatientOutcome.json ==
 INFORMATION: ValueSet/WhoCrValueSetPatientOutcome: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
 == /home/publisher/ig/fsh-generated/resources/ValueSet-WhoCrValueSetPregnancyTrimester.json ==

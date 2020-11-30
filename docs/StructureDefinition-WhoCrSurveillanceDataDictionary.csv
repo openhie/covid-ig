@@ -100,7 +100,7 @@ If transborders or international spread of outbreak","","","","","","","","","",
 ","Health care worker","Is the patient working in a health care setting?","","","","","","","","","",,"required","","http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetYesNoUnk","http://loinc.org#95418-0
 ",,,,"WhoCrSurveillanceDataDictionary.exposure.patientInfo.hcw.isHealthcareWorker",0,1,"","","patinfo_occuhcw","95418-0","5619","TODO","TODO","TODO","TODO"
 "WhoCrSurveillanceDataDictionary.exposure.patientInfo.hcw.workFacility","","","",0,*,"","","","BackboneElement {[]} {[]}
-","Healthcare worker facility details","Healthcare worker facility details","","","","","","","","","",,,,,"",,,,"WhoCrSurveillanceDataDictionary.exposure.patientInfo.hcw.workFacility",0,*,"","","TODO","TODO","165655","TODO","TODO","TODO","TODO"
+","Healthcare worker facility details","Healthcare worker facility details","","","","","","","","","",,,,,"",,,,"WhoCrSurveillanceDataDictionary.exposure.patientInfo.hcw.workFacility",0,*,"","","TODO","TODO","TODO","TODO","TODO","TODO","TODO"
 "WhoCrSurveillanceDataDictionary.exposure.patientInfo.hcw.workFacility.country","","","",0,1,"","","","CodeableConcept {[]} {[]}
 ","Healthcare worker country","If case is a healthcare worker, in which country do they work?","","","","","","","","","",,"extensible","","http://hl7.org/fhir/ValueSet/iso3166-1-2","http://loinc.org#80437-7
 ",,,,"WhoCrSurveillanceDataDictionary.exposure.patientInfo.hcw.workFacility.country",0,1,"","","patinfo_occuhcw_country","80437-7","165655","TODO","TODO","TODO","TODO"
@@ -144,8 +144,8 @@ If transborders or international spread of outbreak","","","","","","","","","",
 "WhoCrSurveillanceDataDictionary.exposure.contact.contact.exposure.period","","","",0,1,"","","","Period {[]} {[]}
 ","Dates of exposure to confirmed case","Dates of exposure to confirmed case","","","","","","","","","",,,,,"http://loinc.org#96545-9
 ",,,,"WhoCrSurveillanceDataDictionary.exposure.contact.contact.exposure.period",0,1,"","","expo_case_date_firstX","expo_case_date_lastX","96545-9","TODO","TODO","TODO","TODO","TODO"
-"WhoCrSurveillanceDataDictionary.exposure.contact.contact.exposure.setting","","","",0,1,"","","","CodeableConcept {[]} {[]}
-","Explain contact setting","If the patient has had contact with a confirmed case in the 14 days prior to symptom onset, explain contact setting","","","","","","","","","",,"extensible","","http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetContactSetting","http://loinc.org#81267-7
+"WhoCrSurveillanceDataDictionary.exposure.contact.contact.exposure.setting","","","",0,1,"","","","string {[]} {[]}
+","Explain contact setting","If the patient has had contact with a confirmed case in the 14 days prior to symptom onset, explain contact setting","","","","","","","","","",,,,,"http://loinc.org#81267-7
 ",,,,"WhoCrSurveillanceDataDictionary.exposure.contact.contact.exposure.setting",0,1,"","","expo_case_setting_detail","81267-7","TODO","TODO","TODO","TODO","TODO"
 "WhoCrSurveillanceDataDictionary.exposure.contact.country","","","",0,1,"","","","CodeableConcept {[]} {[]}
 ","Likely country for exposure to case?","Specify the location of possible exposure to a case","","","","","","","","","",,"extensible","","http://hl7.org/fhir/ValueSet/iso3166-1-2","http://loinc.org#77984-3
