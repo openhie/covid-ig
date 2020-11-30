@@ -116,7 +116,7 @@ Usage: #definition
 * differential.element[3].mapping[1].map = $LNC#77983-5
 * differential.element[3].mapping[1].comment = "TODO: The definition appears almost the same as patientInfo.residence.admin0. Confirm with WHO."
 * differential.element[3].mapping[2].identity = "CIEL"
-* differential.element[3].mapping[2].map = "165847"
+* differential.element[3].mapping[2].map = $CIEL#165847
 * differential.element[3].mapping[3].identity = "ICD10"
 * differential.element[3].mapping[3].map = "TODO"
 * differential.element[3].mapping[4].identity = "ICD11"
@@ -312,7 +312,7 @@ Usage: #definition
 * differential.element[11].mapping[1].identity = "LOINC"
 * differential.element[11].mapping[1].map = $LNC#96547-5
 * differential.element[11].mapping[2].identity = "CIEL"
-* differential.element[11].mapping[2].map = "165851"
+* differential.element[11].mapping[2].map = $CIEL#165851
 * differential.element[11].mapping[3].identity = "ICD10"
 * differential.element[11].mapping[3].map = "TODO"
 * differential.element[11].mapping[4].identity = "ICD11"
@@ -359,7 +359,7 @@ Usage: #definition
 * differential.element[13].mapping[1].identity = "LOINC"
 * differential.element[13].mapping[1].map = $LNC#77983-5
 * differential.element[13].mapping[2].identity = "CIEL"
-* differential.element[13].mapping[2].map = "165915"
+* differential.element[13].mapping[2].map = $CIEL#165915
 * differential.element[13].mapping[3].identity = "ICD10"
 * differential.element[13].mapping[3].map = "TODO"
 * differential.element[13].mapping[4].identity = "ICD11"
@@ -494,7 +494,7 @@ Usage: #definition
 * differential.element[19].mapping[1].identity = "LOINC"
 * differential.element[19].mapping[1].map = "TODO"
 * differential.element[19].mapping[2].identity = "CIEL"
-* differential.element[19].mapping[2].map = "5006"
+* differential.element[19].mapping[2].map = $CIEL#5006
 * differential.element[19].mapping[3].identity = "ICD10"
 * differential.element[19].mapping[3].map = "TODO"
 * differential.element[19].mapping[4].identity = "ICD11"
@@ -519,7 +519,7 @@ Usage: #definition
 * differential.element[20].mapping[1].identity = "LOINC"
 * differential.element[20].mapping[1].map = $LNC#77974-4
 * differential.element[20].mapping[2].identity = "CIEL"
-* differential.element[20].mapping[2].map = "163403"
+* differential.element[20].mapping[2].map = $CIEL#163403
 * differential.element[20].mapping[3].identity = "ICD10"
 * differential.element[20].mapping[3].map = "TODO"
 * differential.element[20].mapping[4].identity = "ICD11"
@@ -542,7 +542,7 @@ Usage: #definition
 * differential.element[21].mapping[1].identity = "LOINC"
 * differential.element[21].mapping[1].map = $LNC#8656-1
 * differential.element[21].mapping[2].identity = "CIEL"
-* differential.element[21].mapping[2].map = "1640"
+* differential.element[21].mapping[2].map = $CIEL#1640
 * differential.element[21].mapping[3].identity = "ICD10"
 * differential.element[21].mapping[3].map = "TODO"
 * differential.element[21].mapping[4].identity = "ICD11"
@@ -568,7 +568,7 @@ Usage: #definition
 * differential.element[22].mapping[1].map = $LNC#95420-6
 * differential.element[22].mapping[1].comment = "This is a pre-release code."
 * differential.element[22].mapping[2].identity = "CIEL"
-* differential.element[22].mapping[2].map = "165644"
+* differential.element[22].mapping[2].map = $CIEL#165644
 * differential.element[22].mapping[3].identity = "ICD10"
 * differential.element[22].mapping[3].map = "TODO"
 * differential.element[22].mapping[4].identity = "ICD11"
@@ -593,7 +593,7 @@ Usage: #definition
 * differential.element[23].mapping[1].identity = "LOINC"
 * differential.element[23].mapping[1].map = $LNC#96539-2
 * differential.element[23].mapping[2].identity = "CIEL"
-* differential.element[23].mapping[2].map = "165647"
+* differential.element[23].mapping[2].map = $CIEL#165647
 * differential.element[23].mapping[3].identity = "ICD10"
 * differential.element[23].mapping[3].map = "TODO"
 * differential.element[23].mapping[4].identity = "ICD11"
@@ -616,7 +616,7 @@ Usage: #definition
 * differential.element[24].mapping[1].identity = "LOINC"
 * differential.element[24].mapping[1].map = $LNC#96540-0
 * differential.element[24].mapping[2].identity = "CIEL"
-* differential.element[24].mapping[2].map = "165643"
+* differential.element[24].mapping[2].map = $CIEL#165643
 * differential.element[24].mapping[3].identity = "ICD10"
 * differential.element[24].mapping[3].map = "TODO"
 * differential.element[24].mapping[4].identity = "ICD11"
@@ -641,7 +641,7 @@ Usage: #definition
 * differential.element[25].mapping[1].identity = "LOINC"
 * differential.element[25].mapping[1].map = $LNC#96548-3
 * differential.element[25].mapping[2].identity = "CIEL"
-* differential.element[25].mapping[2].map = "165795"
+* differential.element[25].mapping[2].map = $CIEL#165795
 * differential.element[25].mapping[3].identity = "ICD10"
 * differential.element[25].mapping[3].map = "TODO"
 * differential.element[25].mapping[4].identity = "ICD11"
@@ -664,7 +664,7 @@ Usage: #definition
 * differential.element[26].mapping[1].identity = "LOINC"
 * differential.element[26].mapping[1].map = $LNC#96549-1
 * differential.element[26].mapping[2].identity = "CIEL"
-* differential.element[26].mapping[2].map = "165648"
+* differential.element[26].mapping[2].map = $CIEL#165648
 * differential.element[26].mapping[3].identity = "ICD10"
 * differential.element[26].mapping[3].map = "TODO"
 * differential.element[26].mapping[4].identity = "ICD11"
@@ -711,7 +711,7 @@ Usage: #definition
 * differential.element[28].mapping[1].identity = "LOINC"
 * differential.element[28].mapping[1].map = $LNC#75618-9
 * differential.element[28].mapping[2].identity = "CIEL"
-* differential.element[28].mapping[2].map = "162747"
+* differential.element[28].mapping[2].map = $CIEL#162747
 * differential.element[28].mapping[3].identity = "ICD10"
 * differential.element[28].mapping[3].map = "TODO"
 * differential.element[28].mapping[4].identity = "ICD11"
@@ -875,7 +875,7 @@ Usage: #definition
 * differential.element[34].mapping[1].map = $LNC#95418-0
 * differential.element[34].mapping[1].comment = "This is a pre-release code."
 * differential.element[34].mapping[2].identity = "CIEL"
-* differential.element[34].mapping[2].map = "5619"
+* differential.element[34].mapping[2].map = $CIEL#5619
 * differential.element[34].mapping[3].identity = "ICD10"
 * differential.element[34].mapping[3].map = "TODO"
 * differential.element[34].mapping[4].identity = "ICD11"
@@ -897,7 +897,7 @@ Usage: #definition
 * differential.element[35].mapping[1].identity = "LOINC"
 * differential.element[35].mapping[1].map = "TODO"
 * differential.element[35].mapping[2].identity = "CIEL"
-* differential.element[35].mapping[2].map = "165655"
+* differential.element[35].mapping[2].map = "TODO"
 * differential.element[35].mapping[3].identity = "ICD10"
 * differential.element[35].mapping[3].map = "TODO"
 * differential.element[35].mapping[4].identity = "ICD11"
@@ -922,7 +922,7 @@ Usage: #definition
 * differential.element[36].mapping[1].identity = "LOINC"
 * differential.element[36].mapping[1].map = $LNC#80437-7
 * differential.element[36].mapping[2].identity = "CIEL"
-* differential.element[36].mapping[2].map = "165655"
+* differential.element[36].mapping[2].map = $CIEL#165655
 * differential.element[36].mapping[3].identity = "ICD10"
 * differential.element[36].mapping[3].map = "TODO"
 * differential.element[36].mapping[4].identity = "ICD11"
@@ -945,7 +945,7 @@ Usage: #definition
 * differential.element[37].mapping[1].identity = "LOINC"
 * differential.element[37].mapping[1].map = $LNC#80431-0 
 * differential.element[37].mapping[2].identity = "CIEL"
-* differential.element[37].mapping[2].map = "165654"
+* differential.element[37].mapping[2].map = $CIEL#165654
 * differential.element[37].mapping[3].identity = "ICD10"
 * differential.element[37].mapping[3].map = "TODO"
 * differential.element[37].mapping[4].identity = "ICD11"
@@ -968,7 +968,7 @@ Usage: #definition
 * differential.element[38].mapping[1].identity = "LOINC"
 * differential.element[38].mapping[1].map = $LNC#76696-4
 * differential.element[38].mapping[2].identity = "CIEL"
-* differential.element[38].mapping[2].map = "162724"
+* differential.element[38].mapping[2].map = $CIEL#162724
 * differential.element[38].mapping[3].identity = "ICD10"
 * differential.element[38].mapping[3].map = "TODO"
 * differential.element[38].mapping[4].identity = "ICD11"
@@ -1015,7 +1015,7 @@ Usage: #definition
 * differential.element[40].mapping[1].identity = "LOINC"
 * differential.element[40].mapping[1].map = $LNC#96542-6
 * differential.element[40].mapping[2].identity = "CIEL"
-* differential.element[40].mapping[2].map = "165656"
+* differential.element[40].mapping[2].map = $CIEL#165656
 * differential.element[40].mapping[3].identity = "ICD10"
 * differential.element[40].mapping[3].map = "TODO"
 * differential.element[40].mapping[4].identity = "ICD11"
@@ -1062,7 +1062,7 @@ Usage: #definition
 * differential.element[42].mapping[1].identity = "LOINC"
 * differential.element[42].mapping[1].map = $LNC#94651-7
 * differential.element[42].mapping[2].identity = "CIEL"
-* differential.element[42].mapping[2].map = "162604"
+* differential.element[42].mapping[2].map = $CIEL#162604
 * differential.element[42].mapping[3].identity = "ICD10"
 * differential.element[42].mapping[3].map = "TODO"
 * differential.element[42].mapping[4].identity = "ICD11"
@@ -1085,7 +1085,7 @@ Usage: #definition
 * differential.element[43].mapping[1].identity = "LOINC"
 * differential.element[43].mapping[1].map = $LNC#94653-3
 * differential.element[43].mapping[2].identity = "CIEL"
-* differential.element[43].mapping[2].map = "165645"
+* differential.element[43].mapping[2].map = $CIEL#165645
 * differential.element[43].mapping[3].identity = "ICD10"
 * differential.element[43].mapping[3].map = "TODO"
 * differential.element[43].mapping[4].identity = "ICD11"
@@ -1108,9 +1108,9 @@ Usage: #definition
 * differential.element[44].mapping[1].identity = "LOINC"
 * differential.element[44].mapping[1].map = $LNC#91560-3
 * differential.element[44].mapping[2].identity = "CIEL"
-* differential.element[44].mapping[2].map = "162601"
+* differential.element[44].mapping[2].map = $CIEL#162601
 * differential.element[44].mapping[3].identity = "CIEL"
-* differential.element[44].mapping[3].map = "162602"
+* differential.element[44].mapping[3].map = $CIEL#162602
 * differential.element[44].mapping[4].identity = "ICD10"
 * differential.element[44].mapping[4].map = "TODO"
 * differential.element[44].mapping[5].identity = "ICD11"
@@ -1135,7 +1135,7 @@ Usage: #definition
 * differential.element[45].mapping[1].identity = "LOINC"
 * differential.element[45].mapping[1].map = $LNC#96543-4
 * differential.element[45].mapping[2].identity = "CIEL"
-* differential.element[45].mapping[2].map = "165833"
+* differential.element[45].mapping[2].map = $CIEL#165833
 * differential.element[45].mapping[3].identity = "ICD10"
 * differential.element[45].mapping[3].map = "TODO"
 * differential.element[45].mapping[4].identity = "ICD11"
@@ -1182,7 +1182,7 @@ Usage: #definition
 * differential.element[47].mapping[1].identity = "LOINC"
 * differential.element[47].mapping[1].map = $LNC#96544-2
 * differential.element[47].mapping[2].identity = "CIEL"
-* differential.element[47].mapping[2].map = "162633"
+* differential.element[47].mapping[2].map = $CIEL#162633
 * differential.element[47].mapping[3].identity = "ICD10"
 * differential.element[47].mapping[3].map = "TODO"
 * differential.element[47].mapping[4].identity = "ICD11"
@@ -1288,10 +1288,8 @@ Usage: #definition
 * differential.element[52].path = "WhoCrSurveillanceDataDictionary.exposure.contact.contact.exposure.setting"
 * differential.element[52].short = "Explain contact setting"
 * differential.element[52].definition = "If the patient has had contact with a confirmed case in the 14 days prior to symptom onset, explain contact setting"
-* differential.element[52].type.code = #CodeableConcept
+* differential.element[52].type.code = #string
 * differential.element[52].code = $LNC#81267-7
-* differential.element[52].binding.valueSet = Canonical(WhoCrValueSetContactSetting)
-* differential.element[52].binding.strength = #extensible
 * differential.element[52].min = 0
 * differential.element[52].max = "1"
 * differential.element[52].mapping[0].identity = "WhoCrDataDictionarySpreadsheet"
