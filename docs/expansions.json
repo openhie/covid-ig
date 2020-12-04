@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "1dbacb31-b9bb-4f69-97bc-9082c62f4940",
+  "id" : "ea9dd439-79ab-4b84-b44a-f59e9e519248",
   "meta" : {
-    "lastUpdated" : "2020-12-04T23:03:16.481+00:00"
+    "lastUpdated" : "2020-12-04T23:08:29.456+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -19,7 +19,7 @@
       "name" : "WhoCrValueSetAdmin1",
       "title" : "List of Administrative Level 1 Names (Province/State/Canton)",
       "status" : "active",
-      "date" : "2020-12-04T23:03:16+00:00",
+      "date" : "2020-12-04T23:08:29+00:00",
       "publisher" : "OpenHIE",
       "contact" : [{
         "name" : "OpenHIE",
@@ -40,8 +40,8 @@
           "url" : "http://hl7.org/fhir/StructureDefinition/valueset-toocostly",
           "valueBoolean" : true
         }],
-        "identifier" : "urn:uuid:bab7f820-9278-4e98-9744-68358a0bd445",
-        "timestamp" : "2020-12-04T23:03:44+00:00",
+        "identifier" : "urn:uuid:e838e830-a859-4a14-9ced-56cb52e68189",
+        "timestamp" : "2020-12-04T23:08:50+00:00",
         "total" : 1000,
         "parameter" : [{
           "name" : "excludeNested",
@@ -5072,7 +5072,7 @@
       "name" : "WhoCrValueSetAgeUnits",
       "title" : "Patient Age Units",
       "status" : "active",
-      "date" : "2020-12-04T23:03:16+00:00",
+      "date" : "2020-12-04T23:08:29+00:00",
       "publisher" : "OpenHIE",
       "contact" : [{
         "name" : "OpenHIE",
@@ -5089,8 +5089,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:51312c22-a9ca-42c8-9b28-61e5aedc8f45",
-        "timestamp" : "2020-12-04T23:03:45+00:00",
+        "identifier" : "urn:uuid:c162a495-7e2b-4109-a3cb-657e62d925cf",
+        "timestamp" : "2020-12-04T23:08:50+00:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -5136,7 +5136,7 @@
       "name" : "WhoCrValueSetComorbidity",
       "title" : "Comorbidity",
       "status" : "active",
-      "date" : "2020-12-04T23:03:16+00:00",
+      "date" : "2020-12-04T23:08:29+00:00",
       "publisher" : "OpenHIE",
       "contact" : [{
         "name" : "OpenHIE",
@@ -5153,8 +5153,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:90c6c0e9-f1bc-4151-95a5-765be3cd8c6a",
-        "timestamp" : "2020-12-04T23:03:45+00:00",
+        "identifier" : "urn:uuid:e8332a07-52c3-4612-a244-bb1ee3e40587",
+        "timestamp" : "2020-12-04T23:08:50+00:00",
         "total" : 10,
         "parameter" : [{
           "name" : "excludeNested",
@@ -5231,7 +5231,7 @@
       "name" : "WhoCrValueSetPatientOutcome",
       "title" : "Patient Outcome",
       "status" : "active",
-      "date" : "2020-12-04T23:03:16+00:00",
+      "date" : "2020-12-04T23:08:29+00:00",
       "publisher" : "OpenHIE",
       "contact" : [{
         "name" : "OpenHIE",
@@ -5248,8 +5248,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:a8a02b88-32cc-4dd2-899b-e8068097cde8",
-        "timestamp" : "2020-12-04T23:03:45+00:00",
+        "identifier" : "urn:uuid:d3843c2a-3f22-437d-a677-6ff9020294a8",
+        "timestamp" : "2020-12-04T23:08:50+00:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",
@@ -5296,7 +5296,7 @@
       "name" : "WhoCrValueSetPregnancyTrimester",
       "title" : "Pregnancy Trimester",
       "status" : "active",
-      "date" : "2020-12-04T23:03:16+00:00",
+      "date" : "2020-12-04T23:08:29+00:00",
       "publisher" : "OpenHIE",
       "contact" : [{
         "name" : "OpenHIE",
@@ -5313,8 +5313,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:c7b03ffe-3864-43c1-823a-f2c97e701796",
-        "timestamp" : "2020-12-04T23:03:45+00:00",
+        "identifier" : "urn:uuid:7a9dad40-f8cc-49e1-902a-905fbf8e8219",
+        "timestamp" : "2020-12-04T23:08:50+00:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -5356,7 +5356,7 @@
       "name" : "WhoCrValueSetReasonForCovid19Testing",
       "title" : "Reason for Covid-19 Testing",
       "status" : "active",
-      "date" : "2020-12-04T23:03:16+00:00",
+      "date" : "2020-12-04T23:08:29+00:00",
       "publisher" : "OpenHIE",
       "contact" : [{
         "name" : "OpenHIE",
@@ -5373,8 +5373,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:6134d8ef-5c0e-404f-a8b1-0301d948c734",
-        "timestamp" : "2020-12-04T23:03:45+00:00",
+        "identifier" : "urn:uuid:63db2cba-26f8-4c65-b2ce-4a6f68d1dd83",
+        "timestamp" : "2020-12-04T23:08:50+00:00",
         "total" : 6,
         "parameter" : [{
           "name" : "excludeNested",
@@ -5431,7 +5431,7 @@
       "name" : "WhoCrValueSetSexAtBirth",
       "title" : "Patient Sex at birth",
       "status" : "active",
-      "date" : "2020-12-04T23:03:16+00:00",
+      "date" : "2020-12-04T23:08:29+00:00",
       "publisher" : "OpenHIE",
       "contact" : [{
         "name" : "OpenHIE",
@@ -5448,8 +5448,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:260e9f63-d5cf-4f19-8a2e-5a944e2cc593",
-        "timestamp" : "2020-12-04T23:03:45+00:00",
+        "identifier" : "urn:uuid:ca39c0a4-87ce-4b36-a713-a85ce55013cc",
+        "timestamp" : "2020-12-04T23:08:50+00:00",
         "total" : 2,
         "parameter" : [{
           "name" : "excludeNested",
@@ -5486,7 +5486,7 @@
       "name" : "WhoCrValueSetSubmitted",
       "title" : "Report Submitted Yes/No/Partial",
       "status" : "active",
-      "date" : "2020-12-04T23:03:16+00:00",
+      "date" : "2020-12-04T23:08:29+00:00",
       "publisher" : "OpenHIE",
       "contact" : [{
         "name" : "OpenHIE",
@@ -5503,8 +5503,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:3fd3a072-d72b-4ea0-8570-2568bc47f58c",
-        "timestamp" : "2020-12-04T23:03:45+00:00",
+        "identifier" : "urn:uuid:4e5b154b-9185-4974-939a-b77747e18d74",
+        "timestamp" : "2020-12-04T23:08:50+00:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -5550,7 +5550,7 @@
       "name" : "WhoCrValueSetTestResult",
       "title" : "Test Result",
       "status" : "active",
-      "date" : "2020-12-04T23:03:16+00:00",
+      "date" : "2020-12-04T23:08:29+00:00",
       "publisher" : "OpenHIE",
       "contact" : [{
         "name" : "OpenHIE",
@@ -5567,8 +5567,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:c686fe39-c720-4ebc-b330-5c91e92c52b6",
-        "timestamp" : "2020-12-04T23:03:45+00:00",
+        "identifier" : "urn:uuid:0740b158-8032-4301-a809-6d51000cf3e7",
+        "timestamp" : "2020-12-04T23:08:50+00:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -5614,7 +5614,7 @@
       "name" : "WhoCrValueSetYesNo",
       "title" : "Yes/No",
       "status" : "active",
-      "date" : "2020-12-04T23:03:16+00:00",
+      "date" : "2020-12-04T23:08:29+00:00",
       "publisher" : "OpenHIE",
       "contact" : [{
         "name" : "OpenHIE",
@@ -5631,8 +5631,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:33f5a61e-3db7-41fe-90d5-f4cf86f86f0c",
-        "timestamp" : "2020-12-04T23:03:45+00:00",
+        "identifier" : "urn:uuid:c3e6bce6-b7ad-4591-81cf-416177d942a4",
+        "timestamp" : "2020-12-04T23:08:50+00:00",
         "total" : 2,
         "parameter" : [{
           "name" : "excludeNested",
@@ -5669,7 +5669,7 @@
       "name" : "WhoCrValueSetYesNoUnk",
       "title" : "Yes/No/Unknown",
       "status" : "active",
-      "date" : "2020-12-04T23:03:16+00:00",
+      "date" : "2020-12-04T23:08:29+00:00",
       "publisher" : "OpenHIE",
       "contact" : [{
         "name" : "OpenHIE",
@@ -5686,8 +5686,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:0bac9ea0-29c0-46d0-a757-8a8cfce752aa",
-        "timestamp" : "2020-12-04T23:03:45+00:00",
+        "identifier" : "urn:uuid:220c3f7e-6bc8-4605-87e7-691ff4cf9691",
+        "timestamp" : "2020-12-04T23:08:50+00:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -5750,8 +5750,8 @@
       }],
       "copyright" : "{{{year}}}",
       "expansion" : {
-        "identifier" : "urn:uuid:58e90b4d-9ab4-42c9-9e2e-d00c856b8a9b",
-        "timestamp" : "2020-12-04T23:03:46+00:00",
+        "identifier" : "urn:uuid:731db1a3-f4fa-4b68-8352-18d8d1be96b5",
+        "timestamp" : "2020-12-04T23:08:51+00:00",
         "total" : 250,
         "parameter" : [{
           "name" : "excludeNested",
@@ -7053,8 +7053,8 @@
       }],
       "copyright" : "{{{year}}}",
       "expansion" : {
-        "identifier" : "urn:uuid:3d69ba24-0d1d-468f-b2a5-c180961e5149",
-        "timestamp" : "2020-12-04T23:03:46+00:00",
+        "identifier" : "urn:uuid:27291dd2-d059-463c-a5ef-c54ee800bd72",
+        "timestamp" : "2020-12-04T23:08:51+00:00",
         "total" : 7,
         "parameter" : [{
           "name" : "excludeNested",
@@ -7137,8 +7137,8 @@
       }],
       "copyright" : "{{{year}}}",
       "expansion" : {
-        "identifier" : "urn:uuid:d8b54797-2e06-4ef8-811e-9f4be29dc488",
-        "timestamp" : "2020-12-04T23:03:46+00:00",
+        "identifier" : "urn:uuid:06c55da1-74de-4a4c-a165-d7189230f203",
+        "timestamp" : "2020-12-04T23:08:51+00:00",
         "total" : 11,
         "parameter" : [{
           "name" : "excludeNested",
@@ -7245,8 +7245,8 @@
           "url" : "http://hl7.org/fhir/StructureDefinition/valueset-toocostly",
           "valueUri" : "http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetAdmin1"
         }],
-        "identifier" : "urn:uuid:d05095a8-b9ad-4d10-9514-212fc3641ecc",
-        "timestamp" : "2020-12-04T23:03:46+00:00",
+        "identifier" : "urn:uuid:26c75181-7477-4ff0-8279-7ab91ba5546f",
+        "timestamp" : "2020-12-04T23:08:51+00:00",
         "total" : 1001,
         "parameter" : [{
           "name" : "excludeNested",

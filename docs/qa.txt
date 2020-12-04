@@ -3,7 +3,7 @@
 
 err = 63, warn = 0, info = 0
 IG Publisher Version: 1.1.48
-Generated Fri Dec 04 23:03:59 UTC 2020. FHIR version 4.0.1 for who.cr.covid19#0.1.0 (canonical = http://openhie.github.io/covid-19)
+Generated Fri Dec 04 23:09:02 UTC 2020. FHIR version 4.0.1 for who.cr.covid19#0.1.0 (canonical = http://openhie.github.io/covid-19)
 
  Build Errors : 28 / 0 / 0
  /home/publisher/ig/fsh-generated/resources/CodeSystem-WhoCrCodeSystemComorbidity : 0 / 0 / 1

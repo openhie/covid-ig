@@ -3,14 +3,14 @@
 <ConceptMap xmlns="http://hl7.org/fhir">
   <id value="WhoCrConceptMapSubmittedToCiel"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>WhoCrConceptMapSubmittedToCiel (http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapSubmittedToCiel)</h2><p>Mapping from <a href="ValueSet-WhoCrValueSetSubmitted.html">http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetSubmitted</a> to https://openconceptlab.org/orgs/CIEL/sources/CIEL</p><p>DRAFT (not intended for production usage). Published on Dec 4, 2020, 11:03:16 PM by OpenHIE (OpenHIE: <a href="http://www.ohie.org">http://www.ohie.org</a>). 2020</p><br/><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Destination Code</b></td></tr><tr><td>Y</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equal">is equal to</a></td><td>1065</td></tr><tr><td>N</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equal">is equal to</a></td><td>1066</td></tr><tr><td>partial</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equal">is equal to</a></td><td>162979</td></tr></table></div>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>WhoCrConceptMapSubmittedToCiel (http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapSubmittedToCiel)</h2><p>Mapping from <a href="ValueSet-WhoCrValueSetSubmitted.html">http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetSubmitted</a> to https://openconceptlab.org/orgs/CIEL/sources/CIEL</p><p>DRAFT (not intended for production usage). Published on Dec 4, 2020, 11:08:29 PM by OpenHIE (OpenHIE: <a href="http://www.ohie.org">http://www.ohie.org</a>). 2020</p><br/><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Destination Code</b></td></tr><tr><td>Y</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equal">is equal to</a></td><td>1065</td></tr><tr><td>N</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equal">is equal to</a></td><td>1066</td></tr><tr><td>partial</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equal">is equal to</a></td><td>162979</td></tr></table></div>
   </text>
   <url value="http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapSubmittedToCiel"/>
   <version value="0.1.0"/>
   <name value="WhoCrConceptMapSubmittedToCiel"/>
   <status value="draft"/>
   <experimental value="true"/>
-  <date value="2020-12-04T23:03:16+00:00"/>
+  <date value="2020-12-04T23:08:29+00:00"/>
   <publisher value="OpenHIE"/>
   <contact>
     <name value="OpenHIE"/>
