@@ -1,5 +1,3 @@
-<!-- get modelType -->
-
 
 
 <?xml version="1.0" encoding="UTF-8"?>
@@ -7,7 +5,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>WHO.CR.COVID19\WHO Case Reporting Patient - Examples - FHIR v4.0.1</title>
+    <title>WHO.CR.COVID19\TODO - JSON Representation - FHIR v4.0.1</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -47,8 +45,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"2.4"}
-    h3,h4,h5,h6{--heading-prefix:"2.4"}</style>
+    <style type="text/css">h2{--heading-prefix:"2.18"}
+    h3,h4,h5,h6{--heading-prefix:"2.18"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -98,7 +96,7 @@
     <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
       <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>WHO Case Reporting Patient</b></li>
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>TODO</b></li>
         </ul>
       </div>  <!-- /container -->
     </div>  <!-- /segment-breadcrumb -->
@@ -108,13 +106,8 @@
         <div class="row">
           <div class="inner-wrapper">
 
-<div style="counter-reset: section 6" class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">WHO Case Reporting for COVID-19 Surveillance - Local Development build (v0.1.0). See the <a href="http://openhie.github.io/covid-19/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
-  
-
-
-
-
+<div style="counter-reset: section 8" class="col-12">
+<!--ReleaseHeader--><p id="publish-box">WHO Case Reporting for COVID-19 Surveillance - Local Development build (v0.1.0). See the <a href="http://openhie.github.io/covid-19/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
 
 
 
@@ -125,92 +118,102 @@
 <ul class="nav nav-tabs">
 
   <li>
-    <a href="StructureDefinition-WhoCrPatient.html">Content</a>
+    <a href="CodeSystem-WhoCrCodeSystemQuestionnaireChoice.html">Narrative Content</a>
   </li>
 
 
-
-  <li>
-    <a href="StructureDefinition-WhoCrPatient-definitions.html">Detailed Descriptions</a>
-  </li>
-
-
-
   
     <li>
-      <a href="StructureDefinition-WhoCrPatient-mappings.html">Mappings</a>
+      <a href="CodeSystem-WhoCrCodeSystemQuestionnaireChoice.xml.html">XML</a>
     </li>
   
 
 
-
-
   
-    
-      <li class="active">
-        <a href="#">Examples</a>
-      </li>
-    
-  
-
-
-
-
-  
-    <li>
-      <a href="StructureDefinition-WhoCrPatient.profile.xml.html">XML</a>
+    <li class="active">
+      <a href="#">JSON</a>
     </li>
   
 
 
   
     <li>
-      <a href="StructureDefinition-WhoCrPatient.profile.json.html">JSON</a>
+      <a href="CodeSystem-WhoCrCodeSystemQuestionnaireChoice.ttl.html">TTL</a>
     </li>
   
 
-
-  
-    <li>
-      <a href="StructureDefinition-WhoCrPatient.profile.ttl.html">TTL</a>
-    </li>
-  
 
 
 </ul>
 
 
-  <a name="root"> </a>
-  <h2 id="root">Resource Profile: WhoCrPatient - Examples</h2>
-
-   <!-- insert intro if present -->
-    
+<a name="root"> </a>
 
 
+<h2 id="root">: TODO - JSON Representation</h2>
+
+<p><a href="CodeSystem-WhoCrCodeSystemQuestionnaireChoice.json" no-download="true">Raw json</a> | <a href="CodeSystem-WhoCrCodeSystemQuestionnaireChoice.json" download>Download</a></p>
+
+  <!-- insert intro if present -->
+  
 
 
 
-  <p>Examples for the WhoCrPatient Profile.</p>
-  <table style="grid">
-    <tbody>
-      
-        <tr>
-          <td>
-            <a href="Patient-WhoCrSamplePatient.html">WHO Case Reporting Sample Patient</a>
-          </td>
-        </tr>
-      
-    </tbody>
-  </table>
+  <pre class="json"><code class="language-json">
+{
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem">resourceType</a>" : "CodeSystem",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.id">id</a>" : "WhoCrCodeSystemQuestionnaireChoice",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.text">text</a>" : {
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;This code system http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemQuestionnaireChoice defines the following codes:&lt;/p&gt;&lt;table class=\&quot;codes\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Definition&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;other&lt;a name=\&quot;WhoCrCodeSystemQuestionnaireChoice-other\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Other&lt;/td&gt;&lt;td&gt;Not a listed value&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+  },
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.url">url</a>" : "http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemQuestionnaireChoice",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.version">version</a>" : "0.1.0",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.name">name</a>" : "WhoCrCodeSystemQuestionnaireChoice",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.title">title</a>" : "TODO",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.status">status</a>" : "active",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.date">date</a>" : "2020-12-04T23:03:16+00:00",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.publisher">publisher</a>" : "OpenHIE",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.contact">contact</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.name">name</a>" : "OpenHIE",
+      "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.telecom">telecom</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">system</a>" : "url",
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">value</a>" : "http://www.ohie.org"
+        }
+      ]
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.description">description</a>" : "TODO",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.jurisdiction">jurisdiction</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "001"
+        }
+      ]
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.content">content</a>" : "complete",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.count">count</a>" : 1,
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "other",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Other",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>" : "Not a listed value"
+    }
+  ]
+}</code></pre>
 
 
-<!-- insert notes if present -->
-
+  <!-- insert notes if present -->
+  
 
 
 
 </div>
-
         </div>  <!-- /inner-wrapper -->
       </div>  <!-- /row -->
     </div>  <!-- /container -->
@@ -218,29 +221,6 @@
 
   <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
   <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
-
-  <script type="text/javascript">
-    try {
-      var currentTabIndex = sessionStorage.getItem('fhir-resource-tab-index');
-    } catch(exception) {
-    }
-
-    if (!currentTabIndex)
-      currentTabIndex = '0';
-
-    $( '#tabs' ).tabs({
-      active: currentTabIndex,
-      activate: function( event, ui ) {
-        var active = $('.selector').tabs('option', 'active');
-        currentTabIndex = ui.newTab.index();
-        document.activeElement.blur();
-        try {
-          sessionStorage.setItem('fhir-resource-tab-index', currentTabIndex);
-        } catch(exception) {
-        }
-      }
-    });
-  </script>
 
   <script type="text/javascript">
     $(document).ready(function(){
@@ -253,7 +233,7 @@
     <div class="container">  <!-- container -->
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2020+ <a style="color: #81BEF7" href="http://www.ohie.org">OpenHIE</a>.  Package who.cr.covid19#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Nov 30, 2020 00:05+0000">2020-11-30</span>
+          IG &#169; 2020+ <a style="color: #81BEF7" href="http://www.ohie.org">OpenHIE</a>.  Package who.cr.covid19#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Dec 4, 2020 23:03+0000">2020-12-04</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |

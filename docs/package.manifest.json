@@ -1,6 +1,6 @@
 {
   "version": "0.1.0",
   "fhirVersion": "[4.0.1]",
-  "date": "20201130000413",
+  "date": "20201204230221",
   "name": "who.cr.covid19"
 }

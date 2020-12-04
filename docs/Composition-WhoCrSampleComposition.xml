@@ -21,9 +21,6 @@
       <code value="55751-2"/>
     </coding>
   </category>
-  <subject>
-    <reference value="Patient/WhoCrSamplePatient"/>
-  </subject>
   <date value="2020-08-21"/>
   <author>
     <reference value="Patient/WhoCrSamplePatient"/>

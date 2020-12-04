@@ -3,14 +3,14 @@
   "id": "WhoCrCodeSystemPatientOutcome",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemPatientOutcome defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">RECOVERED<a name=\"WhoCrCodeSystemPatientOutcome-RECOVERED\"> </a></td><td>Recovered/Healthy</td><td>Recovered/Healthy</td></tr><tr><td style=\"white-space:nowrap\">NOTRECOVERED<a name=\"WhoCrCodeSystemPatientOutcome-NOTRECOVERED\"> </a></td><td>Not recovered</td><td>Not recovered</td></tr><tr><td style=\"white-space:nowrap\">DEATH<a name=\"WhoCrCodeSystemPatientOutcome-DEATH\"> </a></td><td>Death</td><td>Death</td></tr><tr><td style=\"white-space:nowrap\">UNKNOWN<a name=\"WhoCrCodeSystemPatientOutcome-UNKNOWN\"> </a></td><td>Unknown</td><td>Unknown</td></tr><tr><td style=\"white-space:nowrap\">OTHER<a name=\"WhoCrCodeSystemPatientOutcome-OTHER\"> </a></td><td>Other</td><td>Other</td></tr></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemPatientOutcome defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">RECOVERED<a name=\"WhoCrCodeSystemPatientOutcome-RECOVERED\"> </a></td><td>Recovered/Healthy</td><td>Recovered/Healthy</td></tr><tr><td style=\"white-space:nowrap\">NOTRECOVERED<a name=\"WhoCrCodeSystemPatientOutcome-NOTRECOVERED\"> </a></td><td>Not recovered</td><td>Not recovered</td></tr><tr><td style=\"white-space:nowrap\">DEATH<a name=\"WhoCrCodeSystemPatientOutcome-DEATH\"> </a></td><td>Death</td><td>Death</td></tr><tr><td style=\"white-space:nowrap\">UNKNOWN<a name=\"WhoCrCodeSystemPatientOutcome-UNKNOWN\"> </a></td><td>Unknown</td><td>Unknown</td></tr></table></div>"
   },
   "url": "http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemPatientOutcome",
   "version": "0.1.0",
   "name": "WhoCrCodeSystemPatientOutcome",
   "title": "Patient Outcome",
   "status": "active",
-  "date": "2020-11-30T00:05:05+00:00",
+  "date": "2020-12-04T23:03:16+00:00",
   "publisher": "OpenHIE",
   "contact": [
     {
@@ -35,7 +35,7 @@
     }
   ],
   "content": "complete",
-  "count": 5,
+  "count": 4,
   "concept": [
     {
       "code": "RECOVERED",
@@ -56,11 +56,6 @@
       "code": "UNKNOWN",
       "display": "Unknown",
       "definition": "Unknown"
-    },
-    {
-      "code": "OTHER",
-      "display": "Other",
-      "definition": "Other"
     }
   ]
 }

@@ -18,7 +18,7 @@
   fhir:StructureDefinition.name [ fhir:value "WhoCrSurveillanceDataDictionary"];
   fhir:StructureDefinition.status [ fhir:value "draft"];
   fhir:StructureDefinition.experimental [ fhir:value "true"^^xsd:boolean];
-  fhir:StructureDefinition.date [ fhir:value "2020-11-30T00:05:05+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2020-12-04T23:03:16+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "OpenHIE"];
   fhir:StructureDefinition.contact [
      fhir:index 0;

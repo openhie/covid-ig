@@ -3,14 +3,14 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="WhoCrCodeSystemPatientOutcome"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemPatientOutcome defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">RECOVERED<a name="WhoCrCodeSystemPatientOutcome-RECOVERED"> </a></td><td>Recovered/Healthy</td><td>Recovered/Healthy</td></tr><tr><td style="white-space:nowrap">NOTRECOVERED<a name="WhoCrCodeSystemPatientOutcome-NOTRECOVERED"> </a></td><td>Not recovered</td><td>Not recovered</td></tr><tr><td style="white-space:nowrap">DEATH<a name="WhoCrCodeSystemPatientOutcome-DEATH"> </a></td><td>Death</td><td>Death</td></tr><tr><td style="white-space:nowrap">UNKNOWN<a name="WhoCrCodeSystemPatientOutcome-UNKNOWN"> </a></td><td>Unknown</td><td>Unknown</td></tr><tr><td style="white-space:nowrap">OTHER<a name="WhoCrCodeSystemPatientOutcome-OTHER"> </a></td><td>Other</td><td>Other</td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemPatientOutcome defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">RECOVERED<a name="WhoCrCodeSystemPatientOutcome-RECOVERED"> </a></td><td>Recovered/Healthy</td><td>Recovered/Healthy</td></tr><tr><td style="white-space:nowrap">NOTRECOVERED<a name="WhoCrCodeSystemPatientOutcome-NOTRECOVERED"> </a></td><td>Not recovered</td><td>Not recovered</td></tr><tr><td style="white-space:nowrap">DEATH<a name="WhoCrCodeSystemPatientOutcome-DEATH"> </a></td><td>Death</td><td>Death</td></tr><tr><td style="white-space:nowrap">UNKNOWN<a name="WhoCrCodeSystemPatientOutcome-UNKNOWN"> </a></td><td>Unknown</td><td>Unknown</td></tr></table></div>
   </text>
   <url value="http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemPatientOutcome"/>
   <version value="0.1.0"/>
   <name value="WhoCrCodeSystemPatientOutcome"/>
   <title value="Patient Outcome"/>
   <status value="active"/>
-  <date value="2020-11-30T00:05:05+00:00"/>
+  <date value="2020-12-04T23:03:16+00:00"/>
   <publisher value="OpenHIE"/>
   <contact>
     <name value="OpenHIE"/>
@@ -27,7 +27,7 @@
     </coding>
   </jurisdiction>
   <content value="complete"/>
-  <count value="5"/>
+  <count value="4"/>
   <concept>
     <code value="RECOVERED"/>
     <display value="Recovered/Healthy"/>
@@ -47,10 +47,5 @@
     <code value="UNKNOWN"/>
     <display value="Unknown"/>
     <definition value="Unknown"/>
-  </concept>
-  <concept>
-    <code value="OTHER"/>
-    <display value="Other"/>
-    <definition value="Other"/>
   </concept>
 </CodeSystem>

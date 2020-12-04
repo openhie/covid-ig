@@ -21,6 +21,13 @@
     "name": "WhoCrCodeSystemPregnancyTrimester"
   },
   {
+    "id": "WhoCrCodeSystemQuestionnaireChoice",
+    "type": "CodeSystem",
+    "url": "http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemQuestionnaireChoice",
+    "version": "0.1.0",
+    "name": "WhoCrCodeSystemQuestionnaireChoice"
+  },
+  {
     "id": "WhoCrCodeSystemReasonForTesting",
     "type": "CodeSystem",
     "url": "http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemReasonForTesting",
@@ -474,13 +481,6 @@
     "url": "http://openhie.github.io/covid-19/StructureDefinition/WhoCrComposition",
     "version": "0.1.0",
     "name": "WhoCrComposition"
-  },
-  {
-    "id": "WhoCrPatient",
-    "type": "StructureDefinition",
-    "url": "http://openhie.github.io/covid-19/StructureDefinition/WhoCrPatient",
-    "version": "0.1.0",
-    "name": "WhoCrPatient"
   },
   {
     "id": "WhoCrSurveillanceDataDictionary",

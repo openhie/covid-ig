@@ -10,12 +10,6 @@
         "url": "http://openhie.github.io/covid-19/StructureDefinition/WhoCrComposition",
         "title": "WHO Case Reporting Composition"
       }
-    ],
-    "Patient": [
-      {
-        "url": "http://openhie.github.io/covid-19/StructureDefinition/WhoCrPatient",
-        "title": "WHO Case Reporting Patient"
-      }
     ]
   },
   "usage": {
@@ -52,9 +46,6 @@
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type": [
       "StructureDefinition.snapshot.element.type"
     ],
-    "http://hl7.org/fhir/StructureDefinition/structuredefinition-hierarchy": [
-      "StructureDefinition.snapshot.element.type"
-    ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category": [
       "StructureDefinition"
     ],
@@ -63,9 +54,6 @@
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
-    ],
-    "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex": [
-      "Patient"
     ]
   }
 }

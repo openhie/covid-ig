@@ -1,21 +1,10 @@
 {
   "resourceType": "Patient",
   "id": "WhoCrSamplePatient",
-  "meta": {
-    "profile": [
-      "http://openhie.github.io/covid-19/StructureDefinition/WhoCrPatient"
-    ]
-  },
   "text": {
-    "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>US Core Birth Sex Extension</b>: F</p><p><b>address</b>: URY (HOME)</p></div>"
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>address</b>: URY (HOME)</p></div>"
   },
-  "extension": [
-    {
-      "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex",
-      "valueCode": "F"
-    }
-  ],
   "address": [
     {
       "use": "home",

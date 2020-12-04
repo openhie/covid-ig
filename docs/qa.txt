@@ -1,14 +1,15 @@
 ﻿WhoCrCovid19 : Validation Results
 =========================================
 
-err = 61, warn = 0, info = 0
-IG Publisher Version: 1.1.44
-Generated Mon Nov 30 00:05:47 UTC 2020. FHIR version 4.0.1 for who.cr.covid19#0.1.0 (canonical = http://openhie.github.io/covid-19)
+err = 63, warn = 0, info = 0
+IG Publisher Version: 1.1.48
+Generated Fri Dec 04 23:03:59 UTC 2020. FHIR version 4.0.1 for who.cr.covid19#0.1.0 (canonical = http://openhie.github.io/covid-19)
 
- Build Errors : 4 / 0 / 0
+ Build Errors : 28 / 0 / 0
  /home/publisher/ig/fsh-generated/resources/CodeSystem-WhoCrCodeSystemComorbidity : 0 / 0 / 1
  /home/publisher/ig/fsh-generated/resources/CodeSystem-WhoCrCodeSystemPatientOutcome : 0 / 0 / 1
  /home/publisher/ig/fsh-generated/resources/CodeSystem-WhoCrCodeSystemPregnancyTrimester : 0 / 0 / 1
+ /home/publisher/ig/fsh-generated/resources/CodeSystem-WhoCrCodeSystemQuestionnaireChoice : 0 / 0 / 1
  /home/publisher/ig/fsh-generated/resources/CodeSystem-WhoCrCodeSystemReasonForTesting : 0 / 0 / 1
  /home/publisher/ig/fsh-generated/resources/CodeSystem-WhoCrCodeSystemSubmissionCompletion : 0 / 0 / 1
  /home/publisher/ig/fsh-generated/resources/Composition-WhoCrSampleComposition : 0 / 0 / 1
@@ -74,9 +75,8 @@ Generated Mon Nov 30 00:05:47 UTC 2020. FHIR version 4.0.1 for who.cr.covid19#0.
  /home/publisher/ig/fsh-generated/resources/ConceptMap-WhoCrConceptMapYesNoUnknownToSnomed : 0 / 0 / 1
  /home/publisher/ig/fsh-generated/resources/ImplementationGuide-who.cr.covid19 : 0 / 0 / 1
  /home/publisher/ig/fsh-generated/resources/Patient-WhoCrSamplePatient : 0 / 0 / 1
- /home/publisher/ig/fsh-generated/resources/Questionnaire-WhoCrQuestionnaireCovid19Surveillance : 21 / 0 / 1
+ /home/publisher/ig/fsh-generated/resources/Questionnaire-WhoCrQuestionnaireCovid19Surveillance : 23 / 0 / 5
  /home/publisher/ig/fsh-generated/resources/StructureDefinition-WhoCrComposition : 0 / 0 / 1
- /home/publisher/ig/fsh-generated/resources/StructureDefinition-WhoCrPatient : 0 / 0 / 1
  /home/publisher/ig/fsh-generated/resources/StructureDefinition-WhoCrSurveillanceDataDictionary : 40 / 0 / 1
  /home/publisher/ig/fsh-generated/resources/ValueSet-WhoCrValueSetAdmin1 : 0 / 0 / 1
  /home/publisher/ig/fsh-generated/resources/ValueSet-WhoCrValueSetAgeUnits : 0 / 0 / 1
@@ -91,16 +91,42 @@ Generated Mon Nov 30 00:05:47 UTC 2020. FHIR version 4.0.1 for who.cr.covid19#0.
  /home/publisher/ig/fsh-generated/resources/ValueSet-WhoCrValueSetYesNoUnk : 0 / 0 / 1
 </table>
 == n/a ==
-ERROR: /home/publisher/ig/output/Questionnaire-WhoCrQuestionnaireCovid19Surveillance.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 209, column 1628: The link 'StructureDefinition-WhoCrSurveillanceDataDictionary.html#WhoCrSurveillanceDataDictionary.exposure.travel.location.locationPeriod.end' for "WhoCrSurveillanceDataDictionary.exposure.travel.location.locationPeriod.end" cannot be resolved (valid targets: 233 targets)
-ERROR: /home/publisher/ig/output/Questionnaire-WhoCrQuestionnaireCovid19Surveillance.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 215, column 1703: The link 'StructureDefinition-WhoCrSurveillanceDataDictionary.html#WhoCrSurveillanceDataDictionary.exposure.contact.contact.exposure.period.begin' for "WhoCrSurveillanceDataDictionary.exposure.contact.contact.exposure.period.begin" cannot be resolved (valid targets: 233 targets)
-ERROR: /home/publisher/ig/output/Questionnaire-WhoCrQuestionnaireCovid19Surveillance.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 216, column 1715: The link 'StructureDefinition-WhoCrSurveillanceDataDictionary.html#WhoCrSurveillanceDataDictionary.exposure.contact.contact.exposure.period.end' for "WhoCrSurveillanceDataDictionary.exposure.contact.contact.exposure.period.end" cannot be resolved (valid targets: 233 targets)
+ERROR: /home/publisher/ig/output/Questionnaire-WhoCrQuestionnaireCovid19Surveillance.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 216, column 1642: The link 'StructureDefinition-WhoCrSurveillanceDataDictionary.html#WhoCrSurveillanceDataDictionary.exposure.travel.location.locationPeriod.end' for "WhoCrSurveillanceDataDictionary.exposure.travel.location.locationPeriod.end" cannot be resolved (valid targets: 233 targets)
+ERROR: /home/publisher/ig/output/Questionnaire-WhoCrQuestionnaireCovid19Surveillance.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 222, column 1717: The link 'StructureDefinition-WhoCrSurveillanceDataDictionary.html#WhoCrSurveillanceDataDictionary.exposure.contact.contact.exposure.period.begin' for "WhoCrSurveillanceDataDictionary.exposure.contact.contact.exposure.period.begin" cannot be resolved (valid targets: 233 targets)
+ERROR: /home/publisher/ig/output/Questionnaire-WhoCrQuestionnaireCovid19Surveillance.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 223, column 1701: The link 'StructureDefinition-WhoCrSurveillanceDataDictionary.html#WhoCrSurveillanceDataDictionary.exposure.contact.contact.exposure.period.end' for "WhoCrSurveillanceDataDictionary.exposure.contact.contact.exposure.period.end" cannot be resolved (valid targets: 233 targets)
 ERROR: /home/publisher/ig/output/StructureDefinition-WhoCrSurveillanceDataDictionary.html#/html/body/div/div/div/div/div/p/a at Line 876, column 41: The link 'StructureDefinition-WhoCrSurveillanceDataDictionary.sch' for "Schematron" cannot be resolved
+ERROR: /home/publisher/ig/output/ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireAdmin1.change.history.html#/html/body/div/div/div/div/div/ul/li/a at Line 130, column 8: The link 'ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireAdmin1.xml.html' for "XML" cannot be resolved
+ERROR: /home/publisher/ig/output/ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireAdmin1.change.history.html#/html/body/div/div/div/div/div/ul/li/a at Line 137, column 8: The link 'ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireAdmin1.json.html' for "JSON" cannot be resolved
+ERROR: /home/publisher/ig/output/ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireAdmin1.change.history.html#/html/body/div/div/div/div/div/ul/li/a at Line 144, column 8: The link 'ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireAdmin1.ttl.html' for "TTL" cannot be resolved
+ERROR: /home/publisher/ig/output/ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireAdmin1.html#/html/body/div/div/div/div/div/ul/li/a at Line 125, column 8: The link 'ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireAdmin1.xml.html' for "XML" cannot be resolved
+ERROR: /home/publisher/ig/output/ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireAdmin1.html#/html/body/div/div/div/div/div/ul/li/a at Line 132, column 8: The link 'ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireAdmin1.json.html' for "JSON" cannot be resolved
+ERROR: /home/publisher/ig/output/ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireAdmin1.html#/html/body/div/div/div/div/div/ul/li/a at Line 139, column 8: The link 'ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireAdmin1.ttl.html' for "TTL" cannot be resolved
+ERROR: /home/publisher/ig/output/ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireComorbidity.change.history.html#/html/body/div/div/div/div/div/ul/li/a at Line 130, column 8: The link 'ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireComorbidity.xml.html' for "XML" cannot be resolved
+ERROR: /home/publisher/ig/output/ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireComorbidity.change.history.html#/html/body/div/div/div/div/div/ul/li/a at Line 137, column 8: The link 'ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireComorbidity.json.html' for "JSON" cannot be resolved
+ERROR: /home/publisher/ig/output/ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireComorbidity.change.history.html#/html/body/div/div/div/div/div/ul/li/a at Line 144, column 8: The link 'ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireComorbidity.ttl.html' for "TTL" cannot be resolved
+ERROR: /home/publisher/ig/output/ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireComorbidity.html#/html/body/div/div/div/div/div/ul/li/a at Line 125, column 8: The link 'ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireComorbidity.xml.html' for "XML" cannot be resolved
+ERROR: /home/publisher/ig/output/ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireComorbidity.html#/html/body/div/div/div/div/div/ul/li/a at Line 132, column 8: The link 'ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireComorbidity.json.html' for "JSON" cannot be resolved
+ERROR: /home/publisher/ig/output/ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireComorbidity.html#/html/body/div/div/div/div/div/ul/li/a at Line 139, column 8: The link 'ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireComorbidity.ttl.html' for "TTL" cannot be resolved
+ERROR: /home/publisher/ig/output/ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireCountry.change.history.html#/html/body/div/div/div/div/div/ul/li/a at Line 130, column 8: The link 'ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireCountry.xml.html' for "XML" cannot be resolved
+ERROR: /home/publisher/ig/output/ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireCountry.change.history.html#/html/body/div/div/div/div/div/ul/li/a at Line 137, column 8: The link 'ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireCountry.json.html' for "JSON" cannot be resolved
+ERROR: /home/publisher/ig/output/ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireCountry.change.history.html#/html/body/div/div/div/div/div/ul/li/a at Line 144, column 8: The link 'ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireCountry.ttl.html' for "TTL" cannot be resolved
+ERROR: /home/publisher/ig/output/ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireCountry.html#/html/body/div/div/div/div/div/ul/li/a at Line 125, column 8: The link 'ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireCountry.xml.html' for "XML" cannot be resolved
+ERROR: /home/publisher/ig/output/ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireCountry.html#/html/body/div/div/div/div/div/ul/li/a at Line 132, column 8: The link 'ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireCountry.json.html' for "JSON" cannot be resolved
+ERROR: /home/publisher/ig/output/ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireCountry.html#/html/body/div/div/div/div/div/ul/li/a at Line 139, column 8: The link 'ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireCountry.ttl.html' for "TTL" cannot be resolved
+ERROR: /home/publisher/ig/output/ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireReasonForTesting.change.history.html#/html/body/div/div/div/div/div/ul/li/a at Line 130, column 8: The link 'ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireReasonForTesting.xml.html' for "XML" cannot be resolved
+ERROR: /home/publisher/ig/output/ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireReasonForTesting.change.history.html#/html/body/div/div/div/div/div/ul/li/a at Line 137, column 8: The link 'ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireReasonForTesting.json.html' for "JSON" cannot be resolved
+ERROR: /home/publisher/ig/output/ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireReasonForTesting.change.history.html#/html/body/div/div/div/div/div/ul/li/a at Line 144, column 8: The link 'ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireReasonForTesting.ttl.html' for "TTL" cannot be resolved
+ERROR: /home/publisher/ig/output/ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireReasonForTesting.html#/html/body/div/div/div/div/div/ul/li/a at Line 125, column 8: The link 'ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireReasonForTesting.xml.html' for "XML" cannot be resolved
+ERROR: /home/publisher/ig/output/ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireReasonForTesting.html#/html/body/div/div/div/div/div/ul/li/a at Line 132, column 8: The link 'ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireReasonForTesting.json.html' for "JSON" cannot be resolved
+ERROR: /home/publisher/ig/output/ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireReasonForTesting.html#/html/body/div/div/div/div/div/ul/li/a at Line 139, column 8: The link 'ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireReasonForTesting.ttl.html' for "TTL" cannot be resolved
 == /home/publisher/ig/fsh-generated/resources/CodeSystem-WhoCrCodeSystemComorbidity.json ==
 INFORMATION: CodeSystem/WhoCrCodeSystemComorbidity: CodeSystem: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem
 == /home/publisher/ig/fsh-generated/resources/CodeSystem-WhoCrCodeSystemPatientOutcome.json ==
 INFORMATION: CodeSystem/WhoCrCodeSystemPatientOutcome: CodeSystem: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem
 == /home/publisher/ig/fsh-generated/resources/CodeSystem-WhoCrCodeSystemPregnancyTrimester.json ==
 INFORMATION: CodeSystem/WhoCrCodeSystemPregnancyTrimester: CodeSystem: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem
+== /home/publisher/ig/fsh-generated/resources/CodeSystem-WhoCrCodeSystemQuestionnaireChoice.json ==
+INFORMATION: CodeSystem/WhoCrCodeSystemQuestionnaireChoice: CodeSystem: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem
 == /home/publisher/ig/fsh-generated/resources/CodeSystem-WhoCrCodeSystemReasonForTesting.json ==
 INFORMATION: CodeSystem/WhoCrCodeSystemReasonForTesting: CodeSystem: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem
 == /home/publisher/ig/fsh-generated/resources/CodeSystem-WhoCrCodeSystemSubmissionCompletion.json ==
@@ -230,11 +256,17 @@ INFORMATION: ConceptMap/WhoCrConceptMapYesNoUnknownToSnomed: ConceptMap: Validat
 == /home/publisher/ig/fsh-generated/resources/ImplementationGuide-who.cr.covid19.json ==
 INFORMATION: ImplementationGuide/who.cr.covid19: ImplementationGuide: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ImplementationGuide
 == /home/publisher/ig/fsh-generated/resources/Patient-WhoCrSamplePatient.json ==
-INFORMATION: Patient/WhoCrSamplePatient: Patient: Validate resource against profile http://openhie.github.io/covid-19/StructureDefinition/WhoCrPatient
+INFORMATION: Patient/WhoCrSamplePatient: Patient: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Patient
 == /home/publisher/ig/fsh-generated/resources/Questionnaire-WhoCrQuestionnaireCovid19Surveillance.json ==
 INFORMATION: Questionnaire/WhoCrQuestionnaireCovid19Surveillance: Questionnaire: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Questionnaire
+INFORMATION: Questionnaire/WhoCrQuestionnaireCovid19Surveillance: Questionnaire.contained[0].ofType(ValueSet): Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
+INFORMATION: Questionnaire/WhoCrQuestionnaireCovid19Surveillance: Questionnaire.contained[1].ofType(ValueSet): Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
+INFORMATION: Questionnaire/WhoCrQuestionnaireCovid19Surveillance: Questionnaire.contained[2].ofType(ValueSet): Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
+INFORMATION: Questionnaire/WhoCrQuestionnaireCovid19Surveillance: Questionnaire.contained[3].ofType(ValueSet): Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
 ERROR: Questionnaire/WhoCrQuestionnaireCovid19Surveillance: Questionnaire.item[4].item[3].item[0].code[0]: The code "96546-7" is not valid in the system http://loinc.org; The code provided (http://loinc.org#96546-7) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://loinc.org#96546-7'
-ERROR: Questionnaire/WhoCrQuestionnaireCovid19Surveillance: Questionnaire.item[4].item[3].item[0].item[0].code[0]: The code "96547-5" is not valid in the system http://loinc.org; The code provided (http://loinc.org#96547-5) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://loinc.org#96547-5'
+ERROR: Questionnaire/WhoCrQuestionnaireCovid19Surveillance: Questionnaire.item[4].item[3].item[0].item[0].code[0]: The code "96546-7" is not valid in the system http://loinc.org; The code provided (http://loinc.org#96546-7) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://loinc.org#96546-7'
+ERROR: Questionnaire/WhoCrQuestionnaireCovid19Surveillance: Questionnaire.item[4].item[3].item[0].item[1].code[0]: The code "96547-5" is not valid in the system http://loinc.org; The code provided (http://loinc.org#96547-5) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://loinc.org#96547-5'
+ERROR: Questionnaire/WhoCrQuestionnaireCovid19Surveillance: Questionnaire.item[4].item[3].item[0].item[1].item[0].code[0]: The code "96547-5" is not valid in the system http://loinc.org; The code provided (http://loinc.org#96547-5) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://loinc.org#96547-5'
 ERROR: Questionnaire/WhoCrQuestionnaireCovid19Surveillance: Questionnaire.item[5].item[2].item[2].item[1].item[1].code[0]: The code "95420-6" is not valid in the system http://loinc.org; The code provided (http://loinc.org#95420-6) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://loinc.org#95420-6'
 ERROR: Questionnaire/WhoCrQuestionnaireCovid19Surveillance: Questionnaire.item[5].item[2].item[2].item[1].item[2].code[0]: The code "96539-2" is not valid in the system http://loinc.org; The code provided (http://loinc.org#96539-2) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://loinc.org#96539-2'
 ERROR: Questionnaire/WhoCrQuestionnaireCovid19Surveillance: Questionnaire.item[5].item[2].item[2].item[1].item[3].code[0]: The code "96540-0" is not valid in the system http://loinc.org; The code provided (http://loinc.org#96540-0) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://loinc.org#96540-0'
@@ -256,8 +288,6 @@ ERROR: Questionnaire/WhoCrQuestionnaireCovid19Surveillance: Questionnaire.item[7
 ERROR: Questionnaire/WhoCrQuestionnaireCovid19Surveillance: Questionnaire.item[7].item[9].code[0]: The code "96551-7" is not valid in the system http://loinc.org; The code provided (http://loinc.org#96551-7) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://loinc.org#96551-7'
 == /home/publisher/ig/fsh-generated/resources/StructureDefinition-WhoCrComposition.json ==
 INFORMATION: StructureDefinition/WhoCrComposition: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
-== /home/publisher/ig/fsh-generated/resources/StructureDefinition-WhoCrPatient.json ==
-INFORMATION: StructureDefinition/WhoCrPatient: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 == /home/publisher/ig/fsh-generated/resources/StructureDefinition-WhoCrSurveillanceDataDictionary.json ==
 INFORMATION: StructureDefinition/WhoCrSurveillanceDataDictionary: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 ERROR: StructureDefinition/WhoCrSurveillanceDataDictionary: StructureDefinition.snapshot.element[12].code[0]: The code "96546-7" is not valid in the system http://loinc.org; The code provided (http://loinc.org#96546-7) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://loinc.org#96546-7'

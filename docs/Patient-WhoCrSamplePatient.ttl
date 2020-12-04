@@ -8,21 +8,9 @@
 <http://openhie.github.io/covid-19/Patient/WhoCrSamplePatient> a fhir:Patient;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "WhoCrSamplePatient"];
-  fhir:Resource.meta [
-     fhir:Meta.profile [
-       fhir:value "http://openhie.github.io/covid-19/StructureDefinition/WhoCrPatient";
-       fhir:index 0;
-       fhir:link <http://openhie.github.io/covid-19/StructureDefinition/WhoCrPatient>
-     ]
-  ];
   fhir:DomainResource.text [
-     fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>US Core Birth Sex Extension</b>: F</p><p><b>address</b>: URY (HOME)</p></div>"
-  ];
-  fhir:DomainResource.extension [
-     fhir:index 0;
-     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex" ];
-     fhir:Extension.valueCode [ fhir:value "F" ]
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>address</b>: URY (HOME)</p></div>"
   ];
   fhir:Patient.address [
      fhir:index 0;

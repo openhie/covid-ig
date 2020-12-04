@@ -11,7 +11,7 @@
   <name value="WhoCrCovid19"/>
   <title value="WHO Case Reporting for COVID-19 Surveillance"/>
   <status value="draft"/>
-  <date value="2020-11-30T00:05:05+00:00"/>
+  <date value="2020-12-04T23:03:16+00:00"/>
   <publisher value="OpenHIE"/>
   <contact>
     <name value="OpenHIE"/>
@@ -30,11 +30,6 @@
   <packageId value="who.cr.covid19"/>
   <license value="CC-BY-SA-4.0"/>
   <fhirVersion value="4.0.1"/>
-  <dependsOn id="hl7_fhir_us_core">
-    <uri value="http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core"/>
-    <packageId value="hl7.fhir.us.core"/>
-    <version value="current"/>
-  </dependsOn>
   <dependsOn id="hl7_fhir_uv_sdc">
     <uri value="http://hl7.org/fhir/uv/sdc/ImplementationGuide/hl7.fhir.uv.sdc"/>
     <packageId value="hl7.fhir.uv.sdc"/>
@@ -206,17 +201,6 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/WhoCrPatient"/>
-      </reference>
-      <name value="WHO Case Reporting Patient"/>
-      <description value="WHO Case Reporting Patient"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
@@ -367,6 +351,17 @@
       </reference>
       <name value="Pregnancy Trimester"/>
       <description value="Pregnancy Trimester"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/WhoCrCodeSystemQuestionnaireChoice"/>
+      </reference>
+      <name value="TODO"/>
+      <description value="TODO"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1082,7 +1077,7 @@
       </reference>
       <name value="WHO Case Reporting Sample Patient"/>
       <description value="WHO Case Reporting Sample Patient"/>
-      <exampleCanonical value="http://openhie.github.io/covid-19/StructureDefinition/WhoCrPatient"/>
+      <exampleBoolean value="true"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

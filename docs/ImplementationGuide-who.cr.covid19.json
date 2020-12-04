@@ -10,7 +10,7 @@
   "name": "WhoCrCovid19",
   "title": "WHO Case Reporting for COVID-19 Surveillance",
   "status": "draft",
-  "date": "2020-11-30T00:05:05+00:00",
+  "date": "2020-12-04T23:03:16+00:00",
   "publisher": "OpenHIE",
   "contact": [
     {
@@ -40,12 +40,6 @@
     "4.0.1"
   ],
   "dependsOn": [
-    {
-      "id": "hl7_fhir_us_core",
-      "uri": "http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core",
-      "packageId": "hl7.fhir.us.core",
-      "version": "current"
-    },
     {
       "id": "hl7_fhir_uv_sdc",
       "uri": "http://hl7.org/fhir/uv/sdc/ImplementationGuide/hl7.fhir.uv.sdc",
@@ -322,20 +316,6 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:resource"
-          }
-        ],
-        "reference": {
-          "reference": "StructureDefinition/WhoCrPatient"
-        },
-        "name": "WHO Case Reporting Patient",
-        "description": "WHO Case Reporting Patient",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ValueSet"
           }
         ],
@@ -526,6 +506,20 @@
         },
         "name": "Pregnancy Trimester",
         "description": "Pregnancy Trimester",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/WhoCrCodeSystemQuestionnaireChoice"
+        },
+        "name": "TODO",
+        "description": "TODO",
         "exampleBoolean": false
       },
       {
@@ -1436,7 +1430,7 @@
         },
         "name": "WHO Case Reporting Sample Patient",
         "description": "WHO Case Reporting Sample Patient",
-        "exampleCanonical": "http://openhie.github.io/covid-19/StructureDefinition/WhoCrPatient"
+        "exampleBoolean": true
       },
       {
         "extension": [

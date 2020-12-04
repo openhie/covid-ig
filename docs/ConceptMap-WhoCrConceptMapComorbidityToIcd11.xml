@@ -3,14 +3,14 @@
 <ConceptMap xmlns="http://hl7.org/fhir">
   <id value="WhoCrConceptMapComorbidityToIcd11"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>WhoCrConceptMapComorbidityToIcd11 (http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapComorbidityToIcd11)</h2><p>Mapping from <a href="CodeSystem-WhoCrCodeSystemComorbidity.html">http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemComorbidity</a> to https://icd.who.int/browse11</p><p>DRAFT (not intended for production usage). Published on Nov 30, 2020, 12:05:05 AM by OpenHIE (OpenHIE: <a href="http://www.ohie.org">http://www.ohie.org</a>). 2020</p><br/><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Destination Code</b></td></tr><tr><td>TODO</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#relatedto">is related to</a></td><td>TODO</td></tr></table></div>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>WhoCrConceptMapComorbidityToIcd11 (http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapComorbidityToIcd11)</h2><p>Mapping from <a href="CodeSystem-WhoCrCodeSystemComorbidity.html">http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemComorbidity</a> to https://icd.who.int/browse11</p><p>DRAFT (not intended for production usage). Published on Dec 4, 2020, 11:03:16 PM by OpenHIE (OpenHIE: <a href="http://www.ohie.org">http://www.ohie.org</a>). 2020</p><br/><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Destination Code</b></td></tr><tr><td>TODO</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#relatedto">is related to</a></td><td>TODO</td></tr></table></div>
   </text>
   <url value="http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapComorbidityToIcd11"/>
   <version value="0.1.0"/>
   <name value="WhoCrConceptMapComorbidityToIcd11"/>
   <status value="draft"/>
   <experimental value="true"/>
-  <date value="2020-11-30T00:05:05+00:00"/>
+  <date value="2020-12-04T23:03:16+00:00"/>
   <publisher value="OpenHIE"/>
   <contact>
     <name value="OpenHIE"/>

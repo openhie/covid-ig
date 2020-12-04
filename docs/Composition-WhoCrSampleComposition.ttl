@@ -38,10 +38,6 @@
        fhir:Coding.code [ fhir:value "55751-2" ]
      ]
   ];
-  fhir:Composition.subject [
-     fhir:link <http://openhie.github.io/covid-19/Patient/WhoCrSamplePatient>;
-     fhir:Reference.reference [ fhir:value "Patient/WhoCrSamplePatient" ]
-  ];
   fhir:Composition.date [ fhir:value "2020-08-21"^^xsd:date];
   fhir:Composition.author [
      fhir:index 0;

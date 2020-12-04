@@ -10,14 +10,14 @@
   fhir:Resource.id [ fhir:value "WhoCrCodeSystemPatientOutcome"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemPatientOutcome defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">RECOVERED<a name=\"WhoCrCodeSystemPatientOutcome-RECOVERED\"> </a></td><td>Recovered/Healthy</td><td>Recovered/Healthy</td></tr><tr><td style=\"white-space:nowrap\">NOTRECOVERED<a name=\"WhoCrCodeSystemPatientOutcome-NOTRECOVERED\"> </a></td><td>Not recovered</td><td>Not recovered</td></tr><tr><td style=\"white-space:nowrap\">DEATH<a name=\"WhoCrCodeSystemPatientOutcome-DEATH\"> </a></td><td>Death</td><td>Death</td></tr><tr><td style=\"white-space:nowrap\">UNKNOWN<a name=\"WhoCrCodeSystemPatientOutcome-UNKNOWN\"> </a></td><td>Unknown</td><td>Unknown</td></tr><tr><td style=\"white-space:nowrap\">OTHER<a name=\"WhoCrCodeSystemPatientOutcome-OTHER\"> </a></td><td>Other</td><td>Other</td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemPatientOutcome defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">RECOVERED<a name=\"WhoCrCodeSystemPatientOutcome-RECOVERED\"> </a></td><td>Recovered/Healthy</td><td>Recovered/Healthy</td></tr><tr><td style=\"white-space:nowrap\">NOTRECOVERED<a name=\"WhoCrCodeSystemPatientOutcome-NOTRECOVERED\"> </a></td><td>Not recovered</td><td>Not recovered</td></tr><tr><td style=\"white-space:nowrap\">DEATH<a name=\"WhoCrCodeSystemPatientOutcome-DEATH\"> </a></td><td>Death</td><td>Death</td></tr><tr><td style=\"white-space:nowrap\">UNKNOWN<a name=\"WhoCrCodeSystemPatientOutcome-UNKNOWN\"> </a></td><td>Unknown</td><td>Unknown</td></tr></table></div>"
   ];
   fhir:CodeSystem.url [ fhir:value "http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemPatientOutcome"];
   fhir:CodeSystem.version [ fhir:value "0.1.0"];
   fhir:CodeSystem.name [ fhir:value "WhoCrCodeSystemPatientOutcome"];
   fhir:CodeSystem.title [ fhir:value "Patient Outcome"];
   fhir:CodeSystem.status [ fhir:value "active"];
-  fhir:CodeSystem.date [ fhir:value "2020-11-30T00:05:05+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2020-12-04T23:03:16+00:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "OpenHIE"];
   fhir:CodeSystem.contact [
      fhir:index 0;
@@ -38,7 +38,7 @@
      ]
   ];
   fhir:CodeSystem.content [ fhir:value "complete"];
-  fhir:CodeSystem.count [ fhir:value "5"^^xsd:nonNegativeInteger];
+  fhir:CodeSystem.count [ fhir:value "4"^^xsd:nonNegativeInteger];
   fhir:CodeSystem.concept [
      fhir:index 0;
      fhir:CodeSystem.concept.code [ fhir:value "RECOVERED" ];
@@ -59,11 +59,6 @@
      fhir:CodeSystem.concept.code [ fhir:value "UNKNOWN" ];
      fhir:CodeSystem.concept.display [ fhir:value "Unknown" ];
      fhir:CodeSystem.concept.definition [ fhir:value "Unknown" ]
-  ], [
-     fhir:index 4;
-     fhir:CodeSystem.concept.code [ fhir:value "OTHER" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Other" ];
-     fhir:CodeSystem.concept.definition [ fhir:value "Other" ]
   ] .
 
 # - ontology header ------------------------------------------------------------
