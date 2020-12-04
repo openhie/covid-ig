@@ -6,7 +6,7 @@ Title:      "WHO Case Reporting Composition"
 * insert PublisherContextProfile
 * type = $LNC#95412-3
 * category = $LNC#55751-2
-* subject only Reference(WhoCrPatient)
+// * subject only Reference(WhoCrPatient)
 // * encounter
 // * author
 // * title
@@ -38,7 +38,7 @@ Usage:      #example
 * status = #final
 * type = $LNC#95412-3
 * category = $LNC#55751-2
-* subject = Reference(WhoCrSamplePatient)
+// * subject = Reference(WhoCrSamplePatient)
 * date = 2020-08-21
 * author = Reference(WhoCrSamplePatient) // TODO: create actual author
 * title = "Revised case report form for Confirmed Novel Coronavirus COVID-19"

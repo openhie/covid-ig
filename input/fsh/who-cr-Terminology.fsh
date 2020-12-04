@@ -35,9 +35,6 @@ Description: "Patient Outcome"
 * #UNKNOWN
     "Unknown"
     "Unknown"
-* #OTHER
-    "Other"
-    "Other"
 
 CodeSystem: WhoCrCodeSystemComorbidity
 Title: "Patient Comorbidity"
@@ -92,6 +89,14 @@ Description: "Submission Completion Status"
 * #partial 
     "Partial" 
     "Partially complete"
+
+CodeSystem: WhoCrCodeSystemQuestionnaireChoice
+Title: "TODO"
+Description: "TODO"
+* #other 
+    "Other" 
+    "Not a listed value"
+
 
 ValueSet: WhoCrValueSetReasonForCovid19Testing
 Title: "Reason for Covid-19 Testing"

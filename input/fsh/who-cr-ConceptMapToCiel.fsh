@@ -53,9 +53,9 @@ Usage: #definition
 * group[0].element[3].target[0].code = $CIEL#1067 "Unknown"
 * group[0].element[3].target[0].equivalence = #equal
 
-* group[0].element[4].code = #OTHER
-* group[0].element[4].target[0].code = $CIEL#5622 "Other"
-* group[0].element[4].target[0].equivalence = #equal
+// * group[0].element[4].code = #OTHER
+// * group[0].element[4].target[0].code = $CIEL#5622 "Other"
+// * group[0].element[4].target[0].equivalence = #equal
 
 
 Instance: WhoCrConceptMapPregnancyTrimesterToCiel
