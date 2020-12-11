@@ -4,7 +4,7 @@ Description: "Patient Age Units Concept Map To CIEL"
 Title: "Patient Age Units Concept Map To CIEL" // user-friendly name
 Usage: #definition
 
-* insert PublisherContext
+* insert PublisherContextInstance
 * name = "WhoCrConceptMapPatientAgeUnitsToCiel"
 * sourceCanonical = Canonical(WhoCrValueSetAgeUnits)
 * targetUri = $CIEL
@@ -30,7 +30,7 @@ Description: "Patient Outcome Concept Map To CIEL"
 Title: "Patient Outcome Concept Map To CIEL" // user-friendly name
 Usage: #definition
 
-* insert PublisherContext
+* insert PublisherContextInstance
 * name = "WhoCrConceptMapPatientOutcomeToCiel"
 * sourceCanonical = Canonical(WhoCrCodeSystemPatientOutcome)
 * targetUri = $CIEL
@@ -64,7 +64,7 @@ Description: "Pregnancy Trimester Concept Map To CIEL"
 Title: "Pregnancy Trimester Concept Map To CIEL" // user-friendly name
 Usage: #definition
 
-* insert PublisherContext
+* insert PublisherContextInstance
 * name = "WhoCrConceptMapPregnancyTrimesterToCiel"
 * sourceCanonical = Canonical(WhoCrCodeSystemPregnancyTrimester)
 * targetUri = $CIEL
@@ -90,7 +90,7 @@ Description: "Reason for Testing Concept Map To CIEL"
 Title: "Reason for Testing Concept Map To CIEL" // user-friendly name
 Usage: #definition
 
-* insert PublisherContext
+* insert PublisherContextInstance
 * name = "WhoCrConceptMapReasonForTestingToCiel"
 * sourceCanonical = Canonical(WhoCrCodeSystemReasonForTesting)
 * targetUri = $CIEL
@@ -128,7 +128,7 @@ Description: "Patient Sex At Birth Concept Map To CIEL"
 Title: "Patient Age Sex At Birth Concept Map To CIEL" // user-friendly name
 Usage: #definition
 
-* insert PublisherContext
+* insert PublisherContextInstance
 * name = "WhoCrConceptMapPatientSexAtBirthToCiel"
 * sourceCanonical = Canonical(WhoCrValueSetSexAtBirth)
 * targetUri = $CIEL
@@ -153,7 +153,7 @@ Description: "Test Result Concept Map To CIEL"
 Title: "Test Result Concept Map To CIEL" // user-friendly name
 Usage: #definition
 
-* insert PublisherContext
+* insert PublisherContextInstance
 * name = "WhoCrConceptMapTestResultToCiel"
 * sourceCanonical = Canonical(WhoCrValueSetTestResult)
 * targetUri = $CIEL
@@ -180,7 +180,7 @@ Description: "Yes/No Concept Map To CIEL"
 Title: "Yes/No Concept Map To CIEL" // user-friendly name
 Usage: #definition
 
-* insert PublisherContext
+* insert PublisherContextInstance
 * name = "WhoCrConceptMapYesNoToCiel"
 * sourceCanonical = Canonical(WhoCrValueSetYesNo)
 * targetUri = $CIEL
@@ -202,7 +202,7 @@ Description: "Submitted Yes/No/Partial Concept Map To CIEL"
 Title: "Submitted Yes/No/Partial Concept Map To CIEL" // user-friendly name
 Usage: #definition
 
-* insert PublisherContext
+* insert PublisherContextInstance
 * name = "WhoCrConceptMapSubmittedToCiel"
 * sourceCanonical = Canonical(WhoCrValueSetSubmitted)
 * targetUri = $CIEL
@@ -228,7 +228,7 @@ Description: "Yes/No/Unknown Concept Map To CIEL"
 Title: "Yes/No/Unknown Concept Map To CIEL" // user-friendly name
 Usage: #definition
 
-* insert PublisherContext
+* insert PublisherContextInstance
 * name = "WhoCrConceptMapYesNoUnknownToCiel"
 * sourceCanonical = Canonical(WhoCrValueSetYesNoUnk)
 * targetUri = $CIEL
@@ -254,7 +254,7 @@ Description: "Patient Comorbidities Concept Map To CIEL"
 Title: "Patient Comorbidities Concept Map To CIEL" // user-friendly name
 Usage: #definition
 
-* insert PublisherContext
+* insert PublisherContextInstance
 * name = "WhoCrConceptMapComorbidityToCIEL"
 * sourceCanonical = Canonical(WhoCrCodeSystemComorbidity)
 * targetUri = $CIEL

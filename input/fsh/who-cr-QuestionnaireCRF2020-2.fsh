@@ -4,7 +4,7 @@ InstanceOf: ValueSet
 Description: "TODO"
 Title: "TODO"
 Usage: #inline
-* insert PublisherContext
+* insert PublisherContextInstance
 * name = "WhoCrValueSetQuestionnaireCountry"
 
 * compose.include[0].valueSet = Canonical($vs-iso3166-1-2)
@@ -15,7 +15,7 @@ InstanceOf: ValueSet
 Description: "TODO"
 Title: "TODO"
 Usage: #inline
-* insert PublisherContext
+* insert PublisherContextInstance
 * name = "WhoCrValueSetQuestionnaireReasonForTesting"
 
 * compose.include[0].system = Canonical(WhoCrCodeSystemReasonForTesting)
@@ -26,21 +26,10 @@ InstanceOf: ValueSet
 Description: "TODO"
 Title: "TODO"
 Usage: #inline
-* insert PublisherContext
+* insert PublisherContextInstance
 * name = "WhoCrValueSetQuestionnaireComorbidity"
 
 * compose.include[0].system = Canonical(WhoCrCodeSystemComorbidity)
-* compose.include[1].system = Canonical(WhoCrCodeSystemQuestionnaireChoice)
-
-Instance: WhoCrValueSetQuestionnaireAdmin1
-InstanceOf: ValueSet
-Description: "TODO"
-Title: "TODO"
-Usage: #inline
-* insert PublisherContext
-* name = "WhoCrValueSetQuestionnaireAdmin"
-
-* compose.include[0].valueSet = Canonical($vs-iso3166-2)
 * compose.include[1].system = Canonical(WhoCrCodeSystemQuestionnaireChoice)
 
 Instance: WhoCrValueSetQuestionnairePatientOutcome
@@ -48,12 +37,22 @@ InstanceOf: ValueSet
 Description: "TODO"
 Title: "TODO"
 Usage: #inline
-* insert PublisherContext
+* insert PublisherContextInstance
 * name = "WhoCrValueSetQuestionnairePatientOutcome"
 
 * compose.include[0].valueSet = Canonical(WhoCrValueSetPatientOutcome)
 * compose.include[1].system = Canonical(WhoCrCodeSystemQuestionnaireChoice)
 
+Instance: WhoCrValueSetQuestionnaireAdmin1
+InstanceOf: ValueSet
+Description: "TODO"
+Title: "TODO"
+Usage: #inline
+* insert PublisherContextInstance
+* name = "WhoCrValueSetQuestionnaireAdmin1"
+
+* compose.include[0].valueSet = Canonical($vs-iso3166-2)
+* compose.include[1].system = Canonical(WhoCrCodeSystemQuestionnaireChoice)
 
 
 Instance: WhoCrQuestionnaireCovid19Surveillance
@@ -62,7 +61,7 @@ Description: "TODO"
 Title: "Revised case report form for Confirmed Novel Coronavirus COVID-19"
 Usage: #definition
 
-* insert PublisherContext
+* insert PublisherContextInstance
 * name = "WhoCrQuestionnaireCovid19Surveillance"
 * version = "2020.2"
 * subjectType = #Patient
@@ -74,7 +73,7 @@ Usage: #definition
 * contained[1] = WhoCrValueSetQuestionnaireReasonForTesting
 * contained[2] = WhoCrValueSetQuestionnaireComorbidity
 * contained[3] = WhoCrValueSetQuestionnairePatientOutcome
-* contained[3] = WhoCrValueSetQuestionnaireAdmin1
+* contained[4] = WhoCrValueSetQuestionnaireAdmin1
 
 * item[0].linkId    = "instruction"
 * item[0].text    = "Report to WHO within 48 hours of case identification"

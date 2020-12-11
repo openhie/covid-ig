@@ -4,7 +4,7 @@ Description: "Patient Age Units Concept Map To LOINC"
 Title: "Patient Age Units Concept Map To LOINC" // user-friendly name
 Usage: #definition
 
-* insert PublisherContext
+* insert PublisherContextInstance
 * name = "WhoCrConceptMapPatientAgeUnitsToLoinc"
 * sourceCanonical = Canonical(WhoCrValueSetAgeUnits)
 * targetUri = $LNC
@@ -22,7 +22,7 @@ Description: "Patient Outcome Concept Map To LOINC"
 Title: "Patient Outcome Concept Map To LOINC" // user-friendly name
 Usage: #definition
 
-* insert PublisherContext
+* insert PublisherContextInstance
 * name = "WhoCrConceptMapPatientOutcomeToLoinc"
 * sourceCanonical = Canonical(WhoCrCodeSystemPatientOutcome)
 * targetUri = $LNC
@@ -40,7 +40,7 @@ Description: "Pregnancy Trimester Concept Map To LOINC"
 Title: "Pregnancy Trimester Concept Map To LOINC" // user-friendly name
 Usage: #definition
 
-* insert PublisherContext
+* insert PublisherContextInstance
 * name = "WhoCrConceptMapPregnancyTrimesterToLoinc"
 * sourceCanonical = Canonical(WhoCrCodeSystemPregnancyTrimester)
 * targetUri = $LNC
@@ -58,7 +58,7 @@ Description: "Reason for Testing Concept Map To LOINC"
 Title: "Reason for Testing Concept Map To LOINC" // user-friendly name
 Usage: #definition
 
-* insert PublisherContext
+* insert PublisherContextInstance
 * name = "WhoCrConceptMapReasonForTestingToLoinc"
 * sourceCanonical = Canonical(WhoCrCodeSystemReasonForTesting)
 * targetUri = $LNC
@@ -76,7 +76,7 @@ Description: "Patient Sex At Birth Concept Map To LOINC"
 Title: "Patient Age Sex At Birth Concept Map To LOINC" // user-friendly name
 Usage: #definition
 
-* insert PublisherContext
+* insert PublisherContextInstance
 * name = "WhoCrConceptMapPatientSexAtBirthToLoinc"
 * sourceCanonical = Canonical(WhoCrValueSetSexAtBirth)
 * targetUri = $LNC
@@ -94,7 +94,7 @@ Description: "Test Result Concept Map To LOINC"
 Title: "Test Result Concept Map To LOINC" // user-friendly name
 Usage: #definition
 
-* insert PublisherContext
+* insert PublisherContextInstance
 * name = "WhoCrConceptMapTestResultToLoinc"
 * sourceCanonical = Canonical(WhoCrValueSetTestResult)
 * targetUri = $LNC
@@ -112,7 +112,7 @@ Description: "Yes/No Concept Map To LOINC"
 Title: "Yes/No Concept Map To LOINC" // user-friendly name
 Usage: #definition
 
-* insert PublisherContext
+* insert PublisherContextInstance
 * name = "WhoCrConceptMapYesNoToLoinc"
 * sourceCanonical = Canonical(WhoCrValueSetYesNo)
 * targetUri = $LNC
@@ -130,7 +130,7 @@ Description: "Submitted Yes/No/Partial Concept Map To LOINC"
 Title: "Submitted Yes/No/Partial Concept Map To LOINC" // user-friendly name
 Usage: #definition
 
-* insert PublisherContext
+* insert PublisherContextInstance
 * name = "WhoCrConceptMapSubmittedToLoinc"
 * sourceCanonical = Canonical(WhoCrValueSetSubmitted)
 * targetUri = $LNC
@@ -148,7 +148,7 @@ Description: "Yes/No/Unknown Concept Map To LOINC"
 Title: "Yes/No/Unknown Concept Map To LOINC" // user-friendly name
 Usage: #definition
 
-* insert PublisherContext
+* insert PublisherContextInstance
 * name = "WhoCrConceptMapYesNoUnknownToLoinc"
 * sourceCanonical = Canonical(WhoCrValueSetYesNoUnk)
 * targetUri = $LNC
@@ -166,7 +166,7 @@ Description: "Patient Comorbidities Concept Map To LOINC"
 Title: "Patient Comorbidities Concept Map To LOINC" // user-friendly name
 Usage: #definition
 
-* insert PublisherContext
+* insert PublisherContextInstance
 * name = "WhoCrConceptMapComorbidityToLoinc"
 * sourceCanonical = Canonical(WhoCrCodeSystemComorbidity)
 * targetUri = $LNC

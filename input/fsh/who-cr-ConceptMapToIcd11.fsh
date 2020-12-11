@@ -4,7 +4,7 @@ Description: "Patient Age Units Concept Map To ICD-11"
 Title: "Patient Age Units Concept Map To ICD-11" // user-friendly name
 Usage: #definition
 
-* insert PublisherContext
+* insert PublisherContextInstance
 * name = "WhoCrConceptMapPatientAgeUnitsToIcd11"
 * sourceCanonical = Canonical(WhoCrValueSetAgeUnits)
 * targetUri = $ICD11
@@ -22,7 +22,7 @@ Description: "Patient Outcome Concept Map To ICD-11"
 Title: "Patient Outcome Concept Map To ICD-11" // user-friendly name
 Usage: #definition
 
-* insert PublisherContext
+* insert PublisherContextInstance
 * name = "WhoCrConceptMapPatientOutcomeToIcd11"
 * sourceCanonical = Canonical(WhoCrCodeSystemPatientOutcome)
 * targetUri = $ICD11
@@ -40,7 +40,7 @@ Description: "Pregnancy Trimester Concept Map To ICD-11"
 Title: "Pregnancy Trimester Concept Map To ICD-11" // user-friendly name
 Usage: #definition
 
-* insert PublisherContext
+* insert PublisherContextInstance
 * name = "WhoCrConceptMapPregnancyTrimesterToIcd11"
 * sourceCanonical = Canonical(WhoCrCodeSystemPregnancyTrimester)
 * targetUri = $ICD11
@@ -58,7 +58,7 @@ Description: "Reason for Testing Concept Map To ICD-11"
 Title: "Reason for Testing Concept Map To ICD-11" // user-friendly name
 Usage: #definition
 
-* insert PublisherContext
+* insert PublisherContextInstance
 * name = "WhoCrConceptMapReasonForTestingToIcd11"
 * sourceCanonical = Canonical(WhoCrCodeSystemReasonForTesting)
 * targetUri = $ICD11
@@ -76,7 +76,7 @@ Description: "Patient Sex At Birth Concept Map To ICD-11"
 Title: "Patient Age Sex At Birth Concept Map To ICD-11" // user-friendly name
 Usage: #definition
 
-* insert PublisherContext
+* insert PublisherContextInstance
 * name = "WhoCrConceptMapPatientSexAtBirthToIcd11"
 * sourceCanonical = Canonical(WhoCrValueSetSexAtBirth)
 * targetUri = $ICD11
@@ -94,7 +94,7 @@ Description: "Test Result Concept Map To ICD-11"
 Title: "Test Result Concept Map To ICD-11" // user-friendly name
 Usage: #definition
 
-* insert PublisherContext
+* insert PublisherContextInstance
 * name = "WhoCrConceptMapTestResultToIcd11"
 * sourceCanonical = Canonical(WhoCrValueSetTestResult)
 * targetUri = $ICD11
@@ -112,7 +112,7 @@ Description: "Yes/No Concept Map To ICD-11"
 Title: "Yes/No Concept Map To ICD-11" // user-friendly name
 Usage: #definition
 
-* insert PublisherContext
+* insert PublisherContextInstance
 * name = "WhoCrConceptMapYesNoToIcd11"
 * sourceCanonical = Canonical(WhoCrValueSetYesNo)
 * targetUri = $ICD11
@@ -130,7 +130,7 @@ Description: "Submitted Yes/No/Partial Concept Map To ICD-11"
 Title: "Submitted Yes/No/Partial Concept Map To ICD-11" // user-friendly name
 Usage: #definition
 
-* insert PublisherContext
+* insert PublisherContextInstance
 * name = "WhoCrConceptMapSubmittedToIcd11"
 * sourceCanonical = Canonical(WhoCrValueSetSubmitted)
 * targetUri = $ICD11
@@ -148,7 +148,7 @@ Description: "Yes/No/Unknown Concept Map To ICD-11"
 Title: "Yes/No/Unknown Concept Map To ICD-11" // user-friendly name
 Usage: #definition
 
-* insert PublisherContext
+* insert PublisherContextInstance
 * name = "WhoCrConceptMapYesNoUnknownToIcd11"
 * sourceCanonical = Canonical(WhoCrValueSetYesNoUnk)
 * targetUri = $ICD11
@@ -166,7 +166,7 @@ Description: "Patient Comorbidities Concept Map To ICD-11"
 Title: "Patient Comorbidities Concept Map To ICD-11" // user-friendly name
 Usage: #definition
 
-* insert PublisherContext
+* insert PublisherContextInstance
 * name = "WhoCrConceptMapComorbidityToIcd11"
 * sourceCanonical = Canonical(WhoCrCodeSystemComorbidity)
 * targetUri = $ICD11

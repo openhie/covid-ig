@@ -85,7 +85,7 @@ Alias: $ext-us-birthsex = http://hl7.org/fhir/us/core/StructureDefinition/us-cor
 // Alias: $sdc-questionnaire-width = http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-width
 // Alias: $sdc-questionnaireresponse-isSubject = http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaireresponse-isSubject
 
-RuleSet: PublisherContext
+RuleSet: PublisherContextInstance
 * status = #draft
 * experimental = true
 * publisher = "OpenHIE"
@@ -97,7 +97,7 @@ RuleSet: PublisherContext
 * copyright = "{{{year}}}"
 // * date
 
-RuleSet: PublisherContextProfile
+RuleSet: PublisherContextDefinitional
 * ^status = #draft
 * ^experimental = true
 * ^publisher = "OpenHIE"

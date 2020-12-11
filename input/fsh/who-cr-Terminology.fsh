@@ -1,6 +1,8 @@
 CodeSystem: WhoCrCodeSystemReasonForTesting
 Title: "Reason for Testing"
 Description: "A code system of reasons to perform testing"
+* insert PublisherContextDefinitional
+
 * #CASE_CONTACT     
     "Contact of a case" 
     "Contact of a case"
@@ -23,6 +25,8 @@ Description: "A code system of reasons to perform testing"
 CodeSystem: WhoCrCodeSystemPatientOutcome
 Title: "Patient Outcome"
 Description: "Patient Outcome"
+* insert PublisherContextDefinitional
+
 * #RECOVERED
     "Recovered/Healthy"
     "Recovered/Healthy"
@@ -39,6 +43,8 @@ Description: "Patient Outcome"
 CodeSystem: WhoCrCodeSystemComorbidity
 Title: "Patient Comorbidity"
 Description: "Patient Comorbidity"
+* insert PublisherContextDefinitional
+
 * #PREGNANCY
     "Pregnant"
     "Patient is pregnant"
@@ -73,6 +79,8 @@ Description: "Patient Comorbidity"
 CodeSystem: WhoCrCodeSystemPregnancyTrimester
 Title: "Pregnancy Trimester"
 Description: "Pregnancy Trimester"
+* insert PublisherContextDefinitional
+
 * #first 
     "First" 
     "First Trimester"
@@ -86,6 +94,8 @@ Description: "Pregnancy Trimester"
 CodeSystem: WhoCrCodeSystemSubmissionCompletion
 Title: "Submission Completion Status"
 Description: "Submission Completion Status"
+* insert PublisherContextDefinitional
+
 * #partial 
     "Partial" 
     "Partially complete"
@@ -93,6 +103,8 @@ Description: "Submission Completion Status"
 CodeSystem: WhoCrCodeSystemQuestionnaireChoice
 Title: "TODO"
 Description: "TODO"
+* insert PublisherContextDefinitional
+
 * #other 
     "Other" 
     "Not a listed value"
@@ -101,11 +113,15 @@ Description: "TODO"
 ValueSet: WhoCrValueSetReasonForCovid19Testing
 Title: "Reason for Covid-19 Testing"
 Description: "TODO"
+* insert PublisherContextDefinitional
+
 * codes from system WhoCrCodeSystemReasonForTesting
 
 ValueSet: WhoCrValueSetAgeUnits
 Title: "Patient Age Units"
 Description: "Common units of patient age"
+* insert PublisherContextDefinitional
+
 * include $UCUM#a "year"
 * include $UCUM#mo "month"
 * include $UCUM#d "day"
@@ -113,38 +129,52 @@ Description: "Common units of patient age"
 ValueSet: WhoCrValueSetSexAtBirth
 Title: "Patient Sex at birth"
 Description: "Patient Sex at birth"
+* insert PublisherContextDefinitional
+
 * include $cs-gender#male "Male"
 * include $cs-gender#female "Female"
 
 ValueSet: WhoCrValueSetYesNo
 Title: "Yes/No"
 Description: "Yes/No"
+* insert PublisherContextDefinitional
+
 * codes from system $cs-v2-0136 // yes/no
 
 ValueSet: WhoCrValueSetYesNoUnk
 Title: "Yes/No/Unknown"
 Description: "Yes/No/Unknown Value Set"
+* insert PublisherContextDefinitional
+
 * codes from system $cs-v2-0136 // yes/no
 * include $cs-v2-0532#UNK // unknown
 
 ValueSet: WhoCrValueSetPregnancyTrimester
 Title: "Pregnancy Trimester"
 Description: "Pregnancy Trimester"
+* insert PublisherContextDefinitional
+
 * codes from system WhoCrCodeSystemPregnancyTrimester
 
 ValueSet: WhoCrValueSetComorbidity
 Title: "Comorbidity"
 Description: "Comorbidity"
+* insert PublisherContextDefinitional
+
 * codes from system WhoCrCodeSystemComorbidity
 
 ValueSet: WhoCrValueSetPatientOutcome
 Title: "Patient Outcome"
 Description: "Patient Outcome"
+* insert PublisherContextDefinitional
+
 * codes from system WhoCrCodeSystemPatientOutcome
 
 ValueSet: WhoCrValueSetTestResult
 Title:  "Test Result"
 Description: "Test Result"
+* insert PublisherContextDefinitional
+
 * include $cs-v3-ObsInterpretation#POS "Positive"
 * include $cs-v3-ObsInterpretation#NEG "Negative"
 * include $cs-v2-0532#UNK // unknown
@@ -152,10 +182,14 @@ Description: "Test Result"
 ValueSet: WhoCrValueSetSubmitted
 Title: "Report Submitted Yes/No/Partial"
 Description: "Report Submitted Yes/No/Partial"
+* insert PublisherContextDefinitional
+
 * codes from system $cs-v2-0136 // yes/no
 * codes from system WhoCrCodeSystemSubmissionCompletion
 
 ValueSet: WhoCrValueSetAdmin1
 Title: "List of Administrative Level 1 Names (Province/State/Canton)"
 Description: "List of Administrative Level 1 Names (Province/State/Canton)"
+* insert PublisherContextDefinitional
+
 * codes from system $cs-iso3166-2

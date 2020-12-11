@@ -4,7 +4,7 @@ Description: "Patient Age Units Concept Map To RxNorm"
 Title: "Patient Age Units Concept Map To RxNorm" // user-friendly name
 Usage: #definition
 
-* insert PublisherContext
+* insert PublisherContextInstance
 * name = "WhoCrConceptMapPatientAgeUnitsToRxnorm"
 * sourceCanonical = Canonical(WhoCrValueSetAgeUnits)
 * targetUri = $RXNORM
@@ -22,7 +22,7 @@ Description: "Patient Outcome Concept Map To RxNorm"
 Title: "Patient Outcome Concept Map To RxNorm" // user-friendly name
 Usage: #definition
 
-* insert PublisherContext
+* insert PublisherContextInstance
 * name = "WhoCrConceptMapPatientOutcomeToRxnorm"
 * sourceCanonical = Canonical(WhoCrCodeSystemPatientOutcome)
 * targetUri = $RXNORM
@@ -40,7 +40,7 @@ Description: "Pregnancy Trimester Concept Map To RxNorm"
 Title: "Pregnancy Trimester Concept Map To RxNorm" // user-friendly name
 Usage: #definition
 
-* insert PublisherContext
+* insert PublisherContextInstance
 * name = "WhoCrConceptMapPregnancyTrimesterToRxnorm"
 * sourceCanonical = Canonical(WhoCrCodeSystemPregnancyTrimester)
 * targetUri = $RXNORM
@@ -58,7 +58,7 @@ Description: "Reason for Testing Concept Map To RxNorm"
 Title: "Reason for Testing Concept Map To RxNorm" // user-friendly name
 Usage: #definition
 
-* insert PublisherContext
+* insert PublisherContextInstance
 * name = "WhoCrConceptMapReasonForTestingToRxnorm"
 * sourceCanonical = Canonical(WhoCrCodeSystemReasonForTesting)
 * targetUri = $RXNORM
@@ -76,7 +76,7 @@ Description: "Patient Sex At Birth Concept Map To RxNorm"
 Title: "Patient Age Sex At Birth Concept Map To RxNorm" // user-friendly name
 Usage: #definition
 
-* insert PublisherContext
+* insert PublisherContextInstance
 * name = "WhoCrConceptMapPatientSexAtBirthToRxnorm"
 * sourceCanonical = Canonical(WhoCrValueSetSexAtBirth)
 * targetUri = $RXNORM
@@ -94,7 +94,7 @@ Description: "Test Result Concept Map To RxNorm"
 Title: "Test Result Concept Map To RxNorm" // user-friendly name
 Usage: #definition
 
-* insert PublisherContext
+* insert PublisherContextInstance
 * name = "WhoCrConceptMapTestResultToRxnorm"
 * sourceCanonical = Canonical(WhoCrValueSetTestResult)
 * targetUri = $RXNORM
@@ -112,7 +112,7 @@ Description: "Yes/No Concept Map To RxNorm"
 Title: "Yes/No Concept Map To RxNorm" // user-friendly name
 Usage: #definition
 
-* insert PublisherContext
+* insert PublisherContextInstance
 * name = "WhoCrConceptMapYesNoToRxnorm"
 * sourceCanonical = Canonical(WhoCrValueSetYesNo)
 * targetUri = $RXNORM
@@ -130,7 +130,7 @@ Description: "SubmittedYes/No/Partial Concept Map To RxNorm"
 Title: "SubmittedYes/No/Partial Concept Map To RxNorm" // user-friendly name
 Usage: #definition
 
-* insert PublisherContext
+* insert PublisherContextInstance
 * name = "WhoCrConceptMapSubmittedToRxnorm"
 * sourceCanonical = Canonical(WhoCrValueSetSubmitted)
 * targetUri = $RXNORM
@@ -148,7 +148,7 @@ Description: "Yes/No/Unknown Concept Map To RxNorm"
 Title: "Yes/No/Unknown Concept Map To RxNorm" // user-friendly name
 Usage: #definition
 
-* insert PublisherContext
+* insert PublisherContextInstance
 * name = "WhoCrConceptMapYesNoUnknownToRxnorm"
 * sourceCanonical = Canonical(WhoCrValueSetYesNoUnk)
 * targetUri = $RXNORM
@@ -166,7 +166,7 @@ Description: "Patient Comorbidities Concept Map To RxNorm"
 Title: "Patient Comorbidities Concept Map To RxNorm" // user-friendly name
 Usage: #definition
 
-* insert PublisherContext
+* insert PublisherContextInstance
 * name = "WhoCrConceptMapComorbidityToRxnorm"
 * sourceCanonical = Canonical(WhoCrCodeSystemComorbidity)
 * targetUri = $RXNORM

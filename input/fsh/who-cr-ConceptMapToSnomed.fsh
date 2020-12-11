@@ -4,7 +4,7 @@ Description: "Patient Age Units Concept Map To SNOMED CT"
 Title: "Patient Age Units Concept Map To SNOMED CT" // user-friendly name
 Usage: #definition
 
-* insert PublisherContext
+* insert PublisherContextInstance
 * name = "WhoCrConceptMapPatientAgeUnitsToSnomed"
 * sourceCanonical = Canonical(WhoCrValueSetAgeUnits)
 * targetUri = $SCT
@@ -22,7 +22,7 @@ Description: "Patient Outcome Concept Map To SNOMED CT"
 Title: "Patient Outcome Concept Map To SNOMED CT" // user-friendly name
 Usage: #definition
 
-* insert PublisherContext
+* insert PublisherContextInstance
 * name = "WhoCrConceptMapPatientOutcomeToSnomed"
 * sourceCanonical = Canonical(WhoCrCodeSystemPatientOutcome)
 * targetUri = $SCT
@@ -40,7 +40,7 @@ Description: "Pregnancy Trimester Concept Map To SNOMED CT"
 Title: "Pregnancy Trimester Concept Map To SNOMED CT" // user-friendly name
 Usage: #definition
 
-* insert PublisherContext
+* insert PublisherContextInstance
 * name = "WhoCrConceptMapPregnancyTrimesterToSnomed"
 * sourceCanonical = Canonical(WhoCrCodeSystemPregnancyTrimester)
 * targetUri = $SCT
@@ -58,7 +58,7 @@ Description: "Reason for Testing Concept Map To SNOMED CT"
 Title: "Reason for Testing Concept Map To SNOMED CT" // user-friendly name
 Usage: #definition
 
-* insert PublisherContext
+* insert PublisherContextInstance
 * name = "WhoCrConceptMapReasonForTestingToSnomed"
 * sourceCanonical = Canonical(WhoCrCodeSystemReasonForTesting)
 * targetUri = $SCT
@@ -76,7 +76,7 @@ Description: "Patient Sex At Birth Concept Map To SNOMED CT"
 Title: "Patient Age Sex At Birth Concept Map To SNOMED CT" // user-friendly name
 Usage: #definition
 
-* insert PublisherContext
+* insert PublisherContextInstance
 * name = "WhoCrConceptMapPatientSexAtBirthToSnomed"
 * sourceCanonical = Canonical(WhoCrValueSetSexAtBirth)
 * targetUri = $SCT
@@ -94,7 +94,7 @@ Description: "Test Result Concept Map To SNOMED CT"
 Title: "Test Result Concept Map To SNOMED CT" // user-friendly name
 Usage: #definition
 
-* insert PublisherContext
+* insert PublisherContextInstance
 * name = "WhoCrConceptMapTestResultToSnomed"
 * sourceCanonical = Canonical(WhoCrValueSetTestResult)
 * targetUri = $SCT
@@ -112,7 +112,7 @@ Description: "Yes/No Concept Map To SNOMED CT"
 Title: "Yes/No Concept Map To SNOMED CT" // user-friendly name
 Usage: #definition
 
-* insert PublisherContext
+* insert PublisherContextInstance
 * name = "WhoCrConceptMapYesNoToSnomed"
 * sourceCanonical = Canonical(WhoCrValueSetYesNo)
 * targetUri = $SCT
@@ -130,7 +130,7 @@ Description: "Submitted Yes/No/Partial Concept Map To SNOMED CT"
 Title: "Submitted Yes/No/Partial Concept Map To SNOMED CT" // user-friendly name
 Usage: #definition
 
-* insert PublisherContext
+* insert PublisherContextInstance
 * name = "WhoCrConceptMapSubmittedToSnomed"
 * sourceCanonical = Canonical(WhoCrValueSetSubmitted)
 * targetUri = $SCT
@@ -148,7 +148,7 @@ Description: "Yes/No/Unknown Concept Map To SNOMED CT"
 Title: "Yes/No/Unknown Concept Map To SNOMED CT" // user-friendly name
 Usage: #definition
 
-* insert PublisherContext
+* insert PublisherContextInstance
 * name = "WhoCrConceptMapYesNoUnknownToSnomed"
 * sourceCanonical = Canonical(WhoCrValueSetYesNoUnk)
 * targetUri = $SCT
@@ -166,7 +166,7 @@ Description: "Patient Comorbidities Concept Map To SNOMED CT"
 Title: "Patient Comorbidities Concept Map To SNOMED CT" // user-friendly name
 Usage: #definition
 
-* insert PublisherContext
+* insert PublisherContextInstance
 * name = "WhoCrConceptMapComorbidityToSnomed"
 * sourceCanonical = Canonical(WhoCrCodeSystemComorbidity)
 * targetUri = $SCT
