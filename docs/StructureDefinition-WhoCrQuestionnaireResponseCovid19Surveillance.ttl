@@ -26,7 +26,7 @@
   fhir:StructureDefinition.name [ fhir:value "WhoCrQuestionnaireResponseCovid19Surveillance"];
   fhir:StructureDefinition.title [ fhir:value "Who Case Reporting QuestionnaireResponse"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2021-01-31T04:47:57+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2021-01-31T04:54:41+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "OpenHIE"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
