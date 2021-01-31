@@ -2,6 +2,9 @@
 
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="WhoCrValueSetYesNo"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-valueset"/>
+  </meta>
   <text>
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="http://hl7.org/fhir/R4/v2/0136/index.html"><code>http://terminology.hl7.org/CodeSystem/v2-0136</code></a></li></ul></div>
   </text>
@@ -9,8 +12,9 @@
   <version value="0.1.0"/>
   <name value="WhoCrValueSetYesNo"/>
   <title value="Yes/No"/>
-  <status value="active"/>
-  <date value="2020-12-04T23:08:29+00:00"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2021-01-31T04:47:57+00:00"/>
   <publisher value="OpenHIE"/>
   <contact>
     <name value="OpenHIE"/>
@@ -26,6 +30,8 @@
       <code value="001"/>
     </coding>
   </jurisdiction>
+  <immutable value="false"/>
+  <copyright value="2021"/>
   <compose>
     <include>
       <system value="http://terminology.hl7.org/CodeSystem/v2-0136"/>

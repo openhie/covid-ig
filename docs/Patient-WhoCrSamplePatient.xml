@@ -2,6 +2,9 @@
 
 <Patient xmlns="http://hl7.org/fhir">
   <id value="WhoCrSamplePatient"/>
+  <meta>
+    <profile value="http://openhie.github.io/covid-19/StructureDefinition/WhoCrPatient"/>
+  </meta>
   <text>
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>address</b>: URY (HOME)</p></div>
   </text>

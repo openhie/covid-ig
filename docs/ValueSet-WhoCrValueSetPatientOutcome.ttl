@@ -8,6 +8,13 @@
 <http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetPatientOutcome> a fhir:ValueSet;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "WhoCrValueSetPatientOutcome"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-valueset";
+       fhir:index 0;
+       fhir:link <http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-valueset>
+     ]
+  ];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
      fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-WhoCrCodeSystemPatientOutcome.html\"><code>http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemPatientOutcome</code></a></li></ul></div>"
@@ -16,8 +23,9 @@
   fhir:ValueSet.version [ fhir:value "0.1.0"];
   fhir:ValueSet.name [ fhir:value "WhoCrValueSetPatientOutcome"];
   fhir:ValueSet.title [ fhir:value "Patient Outcome"];
-  fhir:ValueSet.status [ fhir:value "active"];
-  fhir:ValueSet.date [ fhir:value "2020-12-04T23:08:29+00:00"^^xsd:dateTime];
+  fhir:ValueSet.status [ fhir:value "draft"];
+  fhir:ValueSet.experimental [ fhir:value "true"^^xsd:boolean];
+  fhir:ValueSet.date [ fhir:value "2021-01-31T04:47:57+00:00"^^xsd:dateTime];
   fhir:ValueSet.publisher [ fhir:value "OpenHIE"];
   fhir:ValueSet.contact [
      fhir:index 0;
@@ -37,6 +45,8 @@
        fhir:Coding.code [ fhir:value "001" ]
      ]
   ];
+  fhir:ValueSet.immutable [ fhir:value "false"^^xsd:boolean];
+  fhir:ValueSet.copyright [ fhir:value "2021"];
   fhir:ValueSet.compose [
      fhir:ValueSet.compose.include [
        fhir:index 0;

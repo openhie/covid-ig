@@ -1,6 +1,11 @@
 {
   "resourceType": "Patient",
   "id": "WhoCrSamplePatient",
+  "meta": {
+    "profile": [
+      "http://openhie.github.io/covid-19/StructureDefinition/WhoCrPatient"
+    ]
+  },
   "text": {
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>address</b>: URY (HOME)</p></div>"

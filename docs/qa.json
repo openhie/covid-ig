@@ -3,9 +3,9 @@
   "name": "WhoCrCovid19",
   "package-id": "who.cr.covid19",
   "ig-ver": "0.1.0",
-  "date": "Fri, 04 Dec, 2020 23:08:29 +0000",
-  "errs": 63,
-  "warnings": 0,
+  "date": "Sun, 31 Jan, 2021 04:47:57 +0000",
+  "errs": 65,
+  "warnings": 9,
   "hints": 0,
   "version": "4.0.1",
   "tool": "4.5.0 (3)"

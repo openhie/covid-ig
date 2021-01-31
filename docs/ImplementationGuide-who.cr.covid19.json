@@ -10,7 +10,7 @@
   "name": "WhoCrCovid19",
   "title": "WHO Case Reporting for COVID-19 Surveillance",
   "status": "draft",
-  "date": "2020-12-04T23:08:29+00:00",
+  "date": "2021-01-31T04:47:57+00:00",
   "publisher": "OpenHIE",
   "contact": [
     {
@@ -306,10 +306,66 @@
           }
         ],
         "reference": {
+          "reference": "StructureDefinition/WhoCompositionProvenance"
+        },
+        "name": "WhoCompositionProvenance",
+        "description": "TODO",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
           "reference": "StructureDefinition/WhoCrComposition"
         },
         "name": "WHO Case Reporting Composition",
         "description": "WHO Case Reporting Composition",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/WhoCrHcwFacility"
+        },
+        "name": "WHO Case Reporting Facility",
+        "description": "WHO Case Reporting Facility",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/WhoCrPatient"
+        },
+        "name": "WHO Case Reporting Patient",
+        "description": "WHO Case Reporting Patient",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/WhoCrQuestionnaireResponseCovid19Surveillance"
+        },
+        "name": "Who Case Reporting QuestionnaireResponse",
+        "description": "Who Case Reporting QuestionnaireResponse",
         "exampleBoolean": false
       },
       {
@@ -380,6 +436,20 @@
         },
         "name": "Pregnancy Trimester",
         "description": "Pregnancy Trimester",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/WhoCrValueSetQuestionnaireResponseAcceptedStatus"
+        },
+        "name": "Who Case Reporting Acceptable QuestionnaireResponse Statuses",
+        "description": "TODO",
         "exampleBoolean": false
       },
       {
@@ -572,66 +642,10 @@
           }
         ],
         "reference": {
-          "reference": "ConceptMap/WhoCrConceptMapComorbidityToIcd10"
-        },
-        "name": "Patient Comorbidities Concept Map To ICD-10",
-        "description": "Patient Comorbidities Concept Map To ICD-10",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ConceptMap"
-          }
-        ],
-        "reference": {
-          "reference": "ConceptMap/WhoCrConceptMapComorbidityToIcd11"
-        },
-        "name": "Patient Comorbidities Concept Map To ICD-11",
-        "description": "Patient Comorbidities Concept Map To ICD-11",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ConceptMap"
-          }
-        ],
-        "reference": {
           "reference": "ConceptMap/WhoCrConceptMapComorbidityToLoinc"
         },
         "name": "Patient Comorbidities Concept Map To LOINC",
         "description": "Patient Comorbidities Concept Map To LOINC",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ConceptMap"
-          }
-        ],
-        "reference": {
-          "reference": "ConceptMap/WhoCrConceptMapComorbidityToRxnorm"
-        },
-        "name": "Patient Comorbidities Concept Map To RxNorm",
-        "description": "Patient Comorbidities Concept Map To RxNorm",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ConceptMap"
-          }
-        ],
-        "reference": {
-          "reference": "ConceptMap/WhoCrConceptMapComorbidityToSnomed"
-        },
-        "name": "Patient Comorbidities Concept Map To SNOMED CT",
-        "description": "Patient Comorbidities Concept Map To SNOMED CT",
         "exampleBoolean": false
       },
       {
@@ -656,150 +670,10 @@
           }
         ],
         "reference": {
-          "reference": "ConceptMap/WhoCrConceptMapPatientAgeUnitsToIcd10"
-        },
-        "name": "Patient Age Units Concept Map To ICD-10",
-        "description": "Patient Age Units Concept Map To ICD-10",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ConceptMap"
-          }
-        ],
-        "reference": {
-          "reference": "ConceptMap/WhoCrConceptMapPatientAgeUnitsToIcd11"
-        },
-        "name": "Patient Age Units Concept Map To ICD-11",
-        "description": "Patient Age Units Concept Map To ICD-11",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ConceptMap"
-          }
-        ],
-        "reference": {
-          "reference": "ConceptMap/WhoCrConceptMapPatientAgeUnitsToLoinc"
-        },
-        "name": "Patient Age Units Concept Map To LOINC",
-        "description": "Patient Age Units Concept Map To LOINC",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ConceptMap"
-          }
-        ],
-        "reference": {
-          "reference": "ConceptMap/WhoCrConceptMapPatientAgeUnitsToRxnorm"
-        },
-        "name": "Patient Age Units Concept Map To RxNorm",
-        "description": "Patient Age Units Concept Map To RxNorm",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ConceptMap"
-          }
-        ],
-        "reference": {
-          "reference": "ConceptMap/WhoCrConceptMapPatientAgeUnitsToSnomed"
-        },
-        "name": "Patient Age Units Concept Map To SNOMED CT",
-        "description": "Patient Age Units Concept Map To SNOMED CT",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ConceptMap"
-          }
-        ],
-        "reference": {
           "reference": "ConceptMap/WhoCrConceptMapPatientOutcomeToCiel"
         },
         "name": "Patient Outcome Concept Map To CIEL",
         "description": "Patient Outcome Concept Map To CIEL",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ConceptMap"
-          }
-        ],
-        "reference": {
-          "reference": "ConceptMap/WhoCrConceptMapPatientOutcomeToIcd10"
-        },
-        "name": "Patient Outcome Concept Map To ICD-10",
-        "description": "Patient Outcome Concept Map To ICD-10",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ConceptMap"
-          }
-        ],
-        "reference": {
-          "reference": "ConceptMap/WhoCrConceptMapPatientOutcomeToIcd11"
-        },
-        "name": "Patient Outcome Concept Map To ICD-11",
-        "description": "Patient Outcome Concept Map To ICD-11",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ConceptMap"
-          }
-        ],
-        "reference": {
-          "reference": "ConceptMap/WhoCrConceptMapPatientOutcomeToLoinc"
-        },
-        "name": "Patient Outcome Concept Map To LOINC",
-        "description": "Patient Outcome Concept Map To LOINC",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ConceptMap"
-          }
-        ],
-        "reference": {
-          "reference": "ConceptMap/WhoCrConceptMapPatientOutcomeToRxnorm"
-        },
-        "name": "Patient Outcome Concept Map To RxNorm",
-        "description": "Patient Outcome Concept Map To RxNorm",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ConceptMap"
-          }
-        ],
-        "reference": {
-          "reference": "ConceptMap/WhoCrConceptMapPatientOutcomeToSnomed"
-        },
-        "name": "Patient Outcome Concept Map To SNOMED CT",
-        "description": "Patient Outcome Concept Map To SNOMED CT",
         "exampleBoolean": false
       },
       {
@@ -824,150 +698,10 @@
           }
         ],
         "reference": {
-          "reference": "ConceptMap/WhoCrConceptMapPatientSexAtBirthToIcd10"
-        },
-        "name": "Patient Age Sex At Birth Concept Map To ICD-10",
-        "description": "Patient Sex At Birth Concept Map To ICD-10",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ConceptMap"
-          }
-        ],
-        "reference": {
-          "reference": "ConceptMap/WhoCrConceptMapPatientSexAtBirthToIcd11"
-        },
-        "name": "Patient Age Sex At Birth Concept Map To ICD-11",
-        "description": "Patient Sex At Birth Concept Map To ICD-11",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ConceptMap"
-          }
-        ],
-        "reference": {
-          "reference": "ConceptMap/WhoCrConceptMapPatientSexAtBirthToLoinc"
-        },
-        "name": "Patient Age Sex At Birth Concept Map To LOINC",
-        "description": "Patient Sex At Birth Concept Map To LOINC",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ConceptMap"
-          }
-        ],
-        "reference": {
-          "reference": "ConceptMap/WhoCrConceptMapPatientSexAtBirthToRxnorm"
-        },
-        "name": "Patient Age Sex At Birth Concept Map To RxNorm",
-        "description": "Patient Sex At Birth Concept Map To RxNorm",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ConceptMap"
-          }
-        ],
-        "reference": {
-          "reference": "ConceptMap/WhoCrConceptMapPatientSexAtBirthToSnomed"
-        },
-        "name": "Patient Age Sex At Birth Concept Map To SNOMED CT",
-        "description": "Patient Sex At Birth Concept Map To SNOMED CT",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ConceptMap"
-          }
-        ],
-        "reference": {
           "reference": "ConceptMap/WhoCrConceptMapPregnancyTrimesterToCiel"
         },
         "name": "Pregnancy Trimester Concept Map To CIEL",
         "description": "Pregnancy Trimester Concept Map To CIEL",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ConceptMap"
-          }
-        ],
-        "reference": {
-          "reference": "ConceptMap/WhoCrConceptMapPregnancyTrimesterToIcd10"
-        },
-        "name": "Pregnancy Trimester Concept Map To ICD-10",
-        "description": "Pregnancy Trimester Concept Map To ICD-10",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ConceptMap"
-          }
-        ],
-        "reference": {
-          "reference": "ConceptMap/WhoCrConceptMapPregnancyTrimesterToIcd11"
-        },
-        "name": "Pregnancy Trimester Concept Map To ICD-11",
-        "description": "Pregnancy Trimester Concept Map To ICD-11",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ConceptMap"
-          }
-        ],
-        "reference": {
-          "reference": "ConceptMap/WhoCrConceptMapPregnancyTrimesterToLoinc"
-        },
-        "name": "Pregnancy Trimester Concept Map To LOINC",
-        "description": "Pregnancy Trimester Concept Map To LOINC",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ConceptMap"
-          }
-        ],
-        "reference": {
-          "reference": "ConceptMap/WhoCrConceptMapPregnancyTrimesterToRxnorm"
-        },
-        "name": "Pregnancy Trimester Concept Map To RxNorm",
-        "description": "Pregnancy Trimester Concept Map To RxNorm",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ConceptMap"
-          }
-        ],
-        "reference": {
-          "reference": "ConceptMap/WhoCrConceptMapPregnancyTrimesterToSnomed"
-        },
-        "name": "Pregnancy Trimester Concept Map To SNOMED CT",
-        "description": "Pregnancy Trimester Concept Map To SNOMED CT",
         "exampleBoolean": false
       },
       {
@@ -992,150 +726,10 @@
           }
         ],
         "reference": {
-          "reference": "ConceptMap/WhoCrConceptMapReasonForTestingToIcd10"
-        },
-        "name": "Reason for Testing Concept Map To ICD-10",
-        "description": "Reason for Testing Concept Map To ICD-10",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ConceptMap"
-          }
-        ],
-        "reference": {
-          "reference": "ConceptMap/WhoCrConceptMapReasonForTestingToIcd11"
-        },
-        "name": "Reason for Testing Concept Map To ICD-11",
-        "description": "Reason for Testing Concept Map To ICD-11",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ConceptMap"
-          }
-        ],
-        "reference": {
-          "reference": "ConceptMap/WhoCrConceptMapReasonForTestingToLoinc"
-        },
-        "name": "Reason for Testing Concept Map To LOINC",
-        "description": "Reason for Testing Concept Map To LOINC",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ConceptMap"
-          }
-        ],
-        "reference": {
-          "reference": "ConceptMap/WhoCrConceptMapReasonForTestingToRxnorm"
-        },
-        "name": "Reason for Testing Concept Map To RxNorm",
-        "description": "Reason for Testing Concept Map To RxNorm",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ConceptMap"
-          }
-        ],
-        "reference": {
-          "reference": "ConceptMap/WhoCrConceptMapReasonForTestingToSnomed"
-        },
-        "name": "Reason for Testing Concept Map To SNOMED CT",
-        "description": "Reason for Testing Concept Map To SNOMED CT",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ConceptMap"
-          }
-        ],
-        "reference": {
           "reference": "ConceptMap/WhoCrConceptMapSubmittedToCiel"
         },
         "name": "Submitted Yes/No/Partial Concept Map To CIEL",
         "description": "Submitted Yes/No/Partial Concept Map To CIEL",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ConceptMap"
-          }
-        ],
-        "reference": {
-          "reference": "ConceptMap/WhoCrConceptMapSubmittedToIcd10"
-        },
-        "name": "Yes/No/Partial Concept Map To ICD-10",
-        "description": "Yes/No/Partial Concept Map To ICD-10",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ConceptMap"
-          }
-        ],
-        "reference": {
-          "reference": "ConceptMap/WhoCrConceptMapSubmittedToIcd11"
-        },
-        "name": "Submitted Yes/No/Partial Concept Map To ICD-11",
-        "description": "Submitted Yes/No/Partial Concept Map To ICD-11",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ConceptMap"
-          }
-        ],
-        "reference": {
-          "reference": "ConceptMap/WhoCrConceptMapSubmittedToLoinc"
-        },
-        "name": "Submitted Yes/No/Partial Concept Map To LOINC",
-        "description": "Submitted Yes/No/Partial Concept Map To LOINC",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ConceptMap"
-          }
-        ],
-        "reference": {
-          "reference": "ConceptMap/WhoCrConceptMapSubmittedToRxnorm"
-        },
-        "name": "SubmittedYes/No/Partial Concept Map To RxNorm",
-        "description": "SubmittedYes/No/Partial Concept Map To RxNorm",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ConceptMap"
-          }
-        ],
-        "reference": {
-          "reference": "ConceptMap/WhoCrConceptMapSubmittedToSnomed"
-        },
-        "name": "Submitted Yes/No/Partial Concept Map To SNOMED CT",
-        "description": "Submitted Yes/No/Partial Concept Map To SNOMED CT",
         "exampleBoolean": false
       },
       {
@@ -1160,76 +754,6 @@
           }
         ],
         "reference": {
-          "reference": "ConceptMap/WhoCrConceptMapTestResultToIcd10"
-        },
-        "name": "Test Result Concept Map To ICD-10",
-        "description": "Test Result Concept Map To ICD-10",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ConceptMap"
-          }
-        ],
-        "reference": {
-          "reference": "ConceptMap/WhoCrConceptMapTestResultToIcd11"
-        },
-        "name": "Test Result Concept Map To ICD-11",
-        "description": "Test Result Concept Map To ICD-11",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ConceptMap"
-          }
-        ],
-        "reference": {
-          "reference": "ConceptMap/WhoCrConceptMapTestResultToLoinc"
-        },
-        "name": "Test Result Concept Map To LOINC",
-        "description": "Test Result Concept Map To LOINC",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ConceptMap"
-          }
-        ],
-        "reference": {
-          "reference": "ConceptMap/WhoCrConceptMapTestResultToRxnorm"
-        },
-        "name": "Test Result Concept Map To RxNorm",
-        "description": "Test Result Concept Map To RxNorm",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ConceptMap"
-          }
-        ],
-        "reference": {
-          "reference": "ConceptMap/WhoCrConceptMapTestResultToSnomed"
-        },
-        "name": "Test Result Concept Map To SNOMED CT",
-        "description": "Test Result Concept Map To SNOMED CT",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ConceptMap"
-          }
-        ],
-        "reference": {
           "reference": "ConceptMap/WhoCrConceptMapYesNoToCiel"
         },
         "name": "Yes/No Concept Map To CIEL",
@@ -1244,150 +768,10 @@
           }
         ],
         "reference": {
-          "reference": "ConceptMap/WhoCrConceptMapYesNoToIcd10"
-        },
-        "name": "Yes/No Concept Map To ICD-10",
-        "description": "Yes/No Concept Map To ICD-10",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ConceptMap"
-          }
-        ],
-        "reference": {
-          "reference": "ConceptMap/WhoCrConceptMapYesNoToIcd11"
-        },
-        "name": "Yes/No Concept Map To ICD-11",
-        "description": "Yes/No Concept Map To ICD-11",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ConceptMap"
-          }
-        ],
-        "reference": {
-          "reference": "ConceptMap/WhoCrConceptMapYesNoToLoinc"
-        },
-        "name": "Yes/No Concept Map To LOINC",
-        "description": "Yes/No Concept Map To LOINC",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ConceptMap"
-          }
-        ],
-        "reference": {
-          "reference": "ConceptMap/WhoCrConceptMapYesNoToRxnorm"
-        },
-        "name": "Yes/No Concept Map To RxNorm",
-        "description": "Yes/No Concept Map To RxNorm",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ConceptMap"
-          }
-        ],
-        "reference": {
-          "reference": "ConceptMap/WhoCrConceptMapYesNoToSnomed"
-        },
-        "name": "Yes/No Concept Map To SNOMED CT",
-        "description": "Yes/No Concept Map To SNOMED CT",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ConceptMap"
-          }
-        ],
-        "reference": {
           "reference": "ConceptMap/WhoCrConceptMapYesNoUnknownToCiel"
         },
         "name": "Yes/No/Unknown Concept Map To CIEL",
         "description": "Yes/No/Unknown Concept Map To CIEL",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ConceptMap"
-          }
-        ],
-        "reference": {
-          "reference": "ConceptMap/WhoCrConceptMapYesNoUnknownToIcd10"
-        },
-        "name": "Yes/No/Unknown Concept Map To ICD-10",
-        "description": "Yes/No/Unknown Concept Map To ICD-10",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ConceptMap"
-          }
-        ],
-        "reference": {
-          "reference": "ConceptMap/WhoCrConceptMapYesNoUnknownToIcd11"
-        },
-        "name": "Yes/No/Unknown Concept Map To ICD-11",
-        "description": "Yes/No/Unknown Concept Map To ICD-11",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ConceptMap"
-          }
-        ],
-        "reference": {
-          "reference": "ConceptMap/WhoCrConceptMapYesNoUnknownToLoinc"
-        },
-        "name": "Yes/No/Unknown Concept Map To LOINC",
-        "description": "Yes/No/Unknown Concept Map To LOINC",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ConceptMap"
-          }
-        ],
-        "reference": {
-          "reference": "ConceptMap/WhoCrConceptMapYesNoUnknownToRxnorm"
-        },
-        "name": "Yes/No/Unknown Concept Map To RxNorm",
-        "description": "Yes/No/Unknown Concept Map To RxNorm",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ConceptMap"
-          }
-        ],
-        "reference": {
-          "reference": "ConceptMap/WhoCrConceptMapYesNoUnknownToSnomed"
-        },
-        "name": "Yes/No/Unknown Concept Map To SNOMED CT",
-        "description": "Yes/No/Unknown Concept Map To SNOMED CT",
         "exampleBoolean": false
       },
       {
@@ -1430,7 +814,7 @@
         },
         "name": "WHO Case Reporting Sample Patient",
         "description": "WHO Case Reporting Sample Patient",
-        "exampleBoolean": true
+        "exampleCanonical": "http://openhie.github.io/covid-19/StructureDefinition/WhoCrPatient"
       },
       {
         "extension": [

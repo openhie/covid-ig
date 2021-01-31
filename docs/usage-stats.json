@@ -5,10 +5,34 @@
   "jurisdiction": "001",
   "extensions": [],
   "profiles": {
+    "Provenance": [
+      {
+        "url": "http://openhie.github.io/covid-19/StructureDefinition/WhoCompositionProvenance",
+        "title": "WhoCompositionProvenance"
+      }
+    ],
     "Composition": [
       {
         "url": "http://openhie.github.io/covid-19/StructureDefinition/WhoCrComposition",
         "title": "WHO Case Reporting Composition"
+      }
+    ],
+    "Location": [
+      {
+        "url": "http://openhie.github.io/covid-19/StructureDefinition/WhoCrHcwFacility",
+        "title": "WHO Case Reporting Facility"
+      }
+    ],
+    "Patient": [
+      {
+        "url": "http://openhie.github.io/covid-19/StructureDefinition/WhoCrPatient",
+        "title": "WHO Case Reporting Patient"
+      }
+    ],
+    "QuestionnaireResponse": [
+      {
+        "url": "http://openhie.github.io/covid-19/StructureDefinition/WhoCrQuestionnaireResponseCovid19Surveillance",
+        "title": "Who Case Reporting QuestionnaireResponse"
       }
     ]
   },
@@ -28,6 +52,12 @@
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet": [
       "StructureDefinition.snapshot.element.binding"
     ],
+    "http://hl7.org/fhir/StructureDefinition/maxDecimalPlaces": [
+      "Questionnaire.item.item"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/maxValue": [
+      "Questionnaire.item.item"
+    ],
     "http://hl7.org/fhir/StructureDefinition/minValue": [
       "Questionnaire.item.item"
     ],
@@ -46,6 +76,9 @@
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type": [
       "StructureDefinition.snapshot.element.type"
     ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-hierarchy": [
+      "StructureDefinition.snapshot.element.type"
+    ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category": [
       "StructureDefinition"
     ],
@@ -54,6 +87,9 @@
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
+    ],
+    "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-maxQuantity": [
+      "Questionnaire.item.item"
     ]
   }
 }

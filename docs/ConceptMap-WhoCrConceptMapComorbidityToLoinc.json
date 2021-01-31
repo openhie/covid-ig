@@ -3,14 +3,14 @@
   "id": "WhoCrConceptMapComorbidityToLoinc",
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>WhoCrConceptMapComorbidityToLoinc (http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapComorbidityToLoinc)</h2><p>Mapping from <a href=\"CodeSystem-WhoCrCodeSystemComorbidity.html\">http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemComorbidity</a> to <a href=\"http://terminology.hl7.org/2.0.0/CodeSystem-v3-loinc.html\">http://loinc.org</a></p><p>DRAFT (not intended for production usage). Published on Dec 4, 2020, 11:08:29 PM by OpenHIE (OpenHIE: <a href=\"http://www.ohie.org\">http://www.ohie.org</a>). 2020</p><br/><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Destination Code</b></td></tr><tr><td>CHRONICLUNG (Chronic Lung Disease)</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#relatedto\">is related to</a></td><td>TODO</td></tr></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>WhoCrConceptMapComorbidityToLoinc (http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapComorbidityToLoinc)</h2><p>Mapping from <a href=\"CodeSystem-WhoCrCodeSystemComorbidity.html\">http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemComorbidity</a> to <a href=\"http://terminology.hl7.org/2.0.0/CodeSystem-v3-loinc.html\">http://loinc.org</a></p><p>DRAFT (not intended for production usage). Published on Jan 31, 2021, 4:47:57 AM by OpenHIE (OpenHIE: <a href=\"http://www.ohie.org\">http://www.ohie.org</a>). 2021</p><br/><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Destination Code</b></td></tr><tr><td>IMMUNODEFICIENCY</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#relatedto\">is related to</a></td><td>96381-9</td></tr></table></div>"
   },
   "url": "http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapComorbidityToLoinc",
   "version": "0.1.0",
   "name": "WhoCrConceptMapComorbidityToLoinc",
   "status": "draft",
   "experimental": true,
-  "date": "2020-12-04T23:08:29+00:00",
+  "date": "2021-01-31T04:47:57+00:00",
   "publisher": "OpenHIE",
   "contact": [
     {
@@ -33,7 +33,7 @@
       ]
     }
   ],
-  "copyright": "2020",
+  "copyright": "2021",
   "sourceCanonical": "http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemComorbidity",
   "targetUri": "http://loinc.org",
   "group": [
@@ -42,10 +42,10 @@
       "target": "http://loinc.org",
       "element": [
         {
-          "code": "CHRONICLUNG",
+          "code": "IMMUNODEFICIENCY",
           "target": [
             {
-              "code": "TODO",
+              "code": "96381-9",
               "equivalence": "relatedto"
             }
           ]

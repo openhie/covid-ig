@@ -49,39 +49,11 @@
     "name": "WhoCrConceptMapComorbidityToCIEL"
   },
   {
-    "id": "WhoCrConceptMapComorbidityToIcd10",
-    "type": "ConceptMap",
-    "url": "http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapComorbidityToIcd10",
-    "version": "0.1.0",
-    "name": "WhoCrConceptMapComorbidityToIcd10"
-  },
-  {
-    "id": "WhoCrConceptMapComorbidityToIcd11",
-    "type": "ConceptMap",
-    "url": "http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapComorbidityToIcd11",
-    "version": "0.1.0",
-    "name": "WhoCrConceptMapComorbidityToIcd11"
-  },
-  {
     "id": "WhoCrConceptMapComorbidityToLoinc",
     "type": "ConceptMap",
     "url": "http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapComorbidityToLoinc",
     "version": "0.1.0",
     "name": "WhoCrConceptMapComorbidityToLoinc"
-  },
-  {
-    "id": "WhoCrConceptMapComorbidityToRxnorm",
-    "type": "ConceptMap",
-    "url": "http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapComorbidityToRxnorm",
-    "version": "0.1.0",
-    "name": "WhoCrConceptMapComorbidityToRxnorm"
-  },
-  {
-    "id": "WhoCrConceptMapComorbidityToSnomed",
-    "type": "ConceptMap",
-    "url": "http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapComorbidityToSnomed",
-    "version": "0.1.0",
-    "name": "WhoCrConceptMapComorbidityToSnomed"
   },
   {
     "id": "WhoCrConceptMapPatientAgeUnitsToCiel",
@@ -91,81 +63,11 @@
     "name": "WhoCrConceptMapPatientAgeUnitsToCiel"
   },
   {
-    "id": "WhoCrConceptMapPatientAgeUnitsToIcd10",
-    "type": "ConceptMap",
-    "url": "http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapPatientAgeUnitsToIcd10",
-    "version": "0.1.0",
-    "name": "WhoCrConceptMapPatientAgeUnitsToIcd10"
-  },
-  {
-    "id": "WhoCrConceptMapPatientAgeUnitsToIcd11",
-    "type": "ConceptMap",
-    "url": "http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapPatientAgeUnitsToIcd11",
-    "version": "0.1.0",
-    "name": "WhoCrConceptMapPatientAgeUnitsToIcd11"
-  },
-  {
-    "id": "WhoCrConceptMapPatientAgeUnitsToLoinc",
-    "type": "ConceptMap",
-    "url": "http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapPatientAgeUnitsToLoinc",
-    "version": "0.1.0",
-    "name": "WhoCrConceptMapPatientAgeUnitsToLoinc"
-  },
-  {
-    "id": "WhoCrConceptMapPatientAgeUnitsToRxnorm",
-    "type": "ConceptMap",
-    "url": "http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapPatientAgeUnitsToRxnorm",
-    "version": "0.1.0",
-    "name": "WhoCrConceptMapPatientAgeUnitsToRxnorm"
-  },
-  {
-    "id": "WhoCrConceptMapPatientAgeUnitsToSnomed",
-    "type": "ConceptMap",
-    "url": "http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapPatientAgeUnitsToSnomed",
-    "version": "0.1.0",
-    "name": "WhoCrConceptMapPatientAgeUnitsToSnomed"
-  },
-  {
     "id": "WhoCrConceptMapPatientOutcomeToCiel",
     "type": "ConceptMap",
     "url": "http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapPatientOutcomeToCiel",
     "version": "0.1.0",
     "name": "WhoCrConceptMapPatientOutcomeToCiel"
-  },
-  {
-    "id": "WhoCrConceptMapPatientOutcomeToIcd10",
-    "type": "ConceptMap",
-    "url": "http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapPatientOutcomeToIcd10",
-    "version": "0.1.0",
-    "name": "WhoCrConceptMapPatientOutcomeToIcd10"
-  },
-  {
-    "id": "WhoCrConceptMapPatientOutcomeToIcd11",
-    "type": "ConceptMap",
-    "url": "http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapPatientOutcomeToIcd11",
-    "version": "0.1.0",
-    "name": "WhoCrConceptMapPatientOutcomeToIcd11"
-  },
-  {
-    "id": "WhoCrConceptMapPatientOutcomeToLoinc",
-    "type": "ConceptMap",
-    "url": "http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapPatientOutcomeToLoinc",
-    "version": "0.1.0",
-    "name": "WhoCrConceptMapPatientOutcomeToLoinc"
-  },
-  {
-    "id": "WhoCrConceptMapPatientOutcomeToRxnorm",
-    "type": "ConceptMap",
-    "url": "http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapPatientOutcomeToRxnorm",
-    "version": "0.1.0",
-    "name": "WhoCrConceptMapPatientOutcomeToRxnorm"
-  },
-  {
-    "id": "WhoCrConceptMapPatientOutcomeToSnomed",
-    "type": "ConceptMap",
-    "url": "http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapPatientOutcomeToSnomed",
-    "version": "0.1.0",
-    "name": "WhoCrConceptMapPatientOutcomeToSnomed"
   },
   {
     "id": "WhoCrConceptMapPatientSexAtBirthToCiel",
@@ -175,81 +77,11 @@
     "name": "WhoCrConceptMapPatientSexAtBirthToCiel"
   },
   {
-    "id": "WhoCrConceptMapPatientSexAtBirthToIcd10",
-    "type": "ConceptMap",
-    "url": "http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapPatientSexAtBirthToIcd10",
-    "version": "0.1.0",
-    "name": "WhoCrConceptMapPatientSexAtBirthToIcd10"
-  },
-  {
-    "id": "WhoCrConceptMapPatientSexAtBirthToIcd11",
-    "type": "ConceptMap",
-    "url": "http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapPatientSexAtBirthToIcd11",
-    "version": "0.1.0",
-    "name": "WhoCrConceptMapPatientSexAtBirthToIcd11"
-  },
-  {
-    "id": "WhoCrConceptMapPatientSexAtBirthToLoinc",
-    "type": "ConceptMap",
-    "url": "http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapPatientSexAtBirthToLoinc",
-    "version": "0.1.0",
-    "name": "WhoCrConceptMapPatientSexAtBirthToLoinc"
-  },
-  {
-    "id": "WhoCrConceptMapPatientSexAtBirthToRxnorm",
-    "type": "ConceptMap",
-    "url": "http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapPatientSexAtBirthToRxnorm",
-    "version": "0.1.0",
-    "name": "WhoCrConceptMapPatientSexAtBirthToRxnorm"
-  },
-  {
-    "id": "WhoCrConceptMapPatientSexAtBirthToSnomed",
-    "type": "ConceptMap",
-    "url": "http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapPatientSexAtBirthToSnomed",
-    "version": "0.1.0",
-    "name": "WhoCrConceptMapPatientSexAtBirthToSnomed"
-  },
-  {
     "id": "WhoCrConceptMapPregnancyTrimesterToCiel",
     "type": "ConceptMap",
     "url": "http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapPregnancyTrimesterToCiel",
     "version": "0.1.0",
     "name": "WhoCrConceptMapPregnancyTrimesterToCiel"
-  },
-  {
-    "id": "WhoCrConceptMapPregnancyTrimesterToIcd10",
-    "type": "ConceptMap",
-    "url": "http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapPregnancyTrimesterToIcd10",
-    "version": "0.1.0",
-    "name": "WhoCrConceptMapPregnancyTrimesterToIcd10"
-  },
-  {
-    "id": "WhoCrConceptMapPregnancyTrimesterToIcd11",
-    "type": "ConceptMap",
-    "url": "http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapPregnancyTrimesterToIcd11",
-    "version": "0.1.0",
-    "name": "WhoCrConceptMapPregnancyTrimesterToIcd11"
-  },
-  {
-    "id": "WhoCrConceptMapPregnancyTrimesterToLoinc",
-    "type": "ConceptMap",
-    "url": "http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapPregnancyTrimesterToLoinc",
-    "version": "0.1.0",
-    "name": "WhoCrConceptMapPregnancyTrimesterToLoinc"
-  },
-  {
-    "id": "WhoCrConceptMapPregnancyTrimesterToRxnorm",
-    "type": "ConceptMap",
-    "url": "http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapPregnancyTrimesterToRxnorm",
-    "version": "0.1.0",
-    "name": "WhoCrConceptMapPregnancyTrimesterToRxnorm"
-  },
-  {
-    "id": "WhoCrConceptMapPregnancyTrimesterToSnomed",
-    "type": "ConceptMap",
-    "url": "http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapPregnancyTrimesterToSnomed",
-    "version": "0.1.0",
-    "name": "WhoCrConceptMapPregnancyTrimesterToSnomed"
   },
   {
     "id": "WhoCrConceptMapReasonForTestingToCiel",
@@ -259,81 +91,11 @@
     "name": "WhoCrConceptMapReasonForTestingToCiel"
   },
   {
-    "id": "WhoCrConceptMapReasonForTestingToIcd10",
-    "type": "ConceptMap",
-    "url": "http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapReasonForTestingToIcd10",
-    "version": "0.1.0",
-    "name": "WhoCrConceptMapReasonForTestingToIcd10"
-  },
-  {
-    "id": "WhoCrConceptMapReasonForTestingToIcd11",
-    "type": "ConceptMap",
-    "url": "http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapReasonForTestingToIcd11",
-    "version": "0.1.0",
-    "name": "WhoCrConceptMapReasonForTestingToIcd11"
-  },
-  {
-    "id": "WhoCrConceptMapReasonForTestingToLoinc",
-    "type": "ConceptMap",
-    "url": "http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapReasonForTestingToLoinc",
-    "version": "0.1.0",
-    "name": "WhoCrConceptMapReasonForTestingToLoinc"
-  },
-  {
-    "id": "WhoCrConceptMapReasonForTestingToRxnorm",
-    "type": "ConceptMap",
-    "url": "http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapReasonForTestingToRxnorm",
-    "version": "0.1.0",
-    "name": "WhoCrConceptMapReasonForTestingToRxnorm"
-  },
-  {
-    "id": "WhoCrConceptMapReasonForTestingToSnomed",
-    "type": "ConceptMap",
-    "url": "http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapReasonForTestingToSnomed",
-    "version": "0.1.0",
-    "name": "WhoCrConceptMapReasonForTestingToSnomed"
-  },
-  {
     "id": "WhoCrConceptMapSubmittedToCiel",
     "type": "ConceptMap",
     "url": "http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapSubmittedToCiel",
     "version": "0.1.0",
     "name": "WhoCrConceptMapSubmittedToCiel"
-  },
-  {
-    "id": "WhoCrConceptMapSubmittedToIcd10",
-    "type": "ConceptMap",
-    "url": "http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapSubmittedToIcd10",
-    "version": "0.1.0",
-    "name": "WhoCrConceptMapSubmittedToIcd10"
-  },
-  {
-    "id": "WhoCrConceptMapSubmittedToIcd11",
-    "type": "ConceptMap",
-    "url": "http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapSubmittedToIcd11",
-    "version": "0.1.0",
-    "name": "WhoCrConceptMapSubmittedToIcd11"
-  },
-  {
-    "id": "WhoCrConceptMapSubmittedToLoinc",
-    "type": "ConceptMap",
-    "url": "http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapSubmittedToLoinc",
-    "version": "0.1.0",
-    "name": "WhoCrConceptMapSubmittedToLoinc"
-  },
-  {
-    "id": "WhoCrConceptMapSubmittedToRxnorm",
-    "type": "ConceptMap",
-    "url": "http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapSubmittedToRxnorm",
-    "version": "0.1.0",
-    "name": "WhoCrConceptMapSubmittedToRxnorm"
-  },
-  {
-    "id": "WhoCrConceptMapSubmittedToSnomed",
-    "type": "ConceptMap",
-    "url": "http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapSubmittedToSnomed",
-    "version": "0.1.0",
-    "name": "WhoCrConceptMapSubmittedToSnomed"
   },
   {
     "id": "WhoCrConceptMapTestResultToCiel",
@@ -343,41 +105,6 @@
     "name": "WhoCrConceptMapTestResultToCiel"
   },
   {
-    "id": "WhoCrConceptMapTestResultToIcd10",
-    "type": "ConceptMap",
-    "url": "http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapTestResultToIcd10",
-    "version": "0.1.0",
-    "name": "WhoCrConceptMapTestResultToIcd10"
-  },
-  {
-    "id": "WhoCrConceptMapTestResultToIcd11",
-    "type": "ConceptMap",
-    "url": "http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapTestResultToIcd11",
-    "version": "0.1.0",
-    "name": "WhoCrConceptMapTestResultToIcd11"
-  },
-  {
-    "id": "WhoCrConceptMapTestResultToLoinc",
-    "type": "ConceptMap",
-    "url": "http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapTestResultToLoinc",
-    "version": "0.1.0",
-    "name": "WhoCrConceptMapTestResultToLoinc"
-  },
-  {
-    "id": "WhoCrConceptMapTestResultToRxnorm",
-    "type": "ConceptMap",
-    "url": "http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapTestResultToRxnorm",
-    "version": "0.1.0",
-    "name": "WhoCrConceptMapTestResultToRxnorm"
-  },
-  {
-    "id": "WhoCrConceptMapTestResultToSnomed",
-    "type": "ConceptMap",
-    "url": "http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapTestResultToSnomed",
-    "version": "0.1.0",
-    "name": "WhoCrConceptMapTestResultToSnomed"
-  },
-  {
     "id": "WhoCrConceptMapYesNoToCiel",
     "type": "ConceptMap",
     "url": "http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapYesNoToCiel",
@@ -385,81 +112,11 @@
     "name": "WhoCrConceptMapYesNoToCiel"
   },
   {
-    "id": "WhoCrConceptMapYesNoToIcd10",
-    "type": "ConceptMap",
-    "url": "http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapYesNoToIcd10",
-    "version": "0.1.0",
-    "name": "WhoCrConceptMapYesNoToIcd10"
-  },
-  {
-    "id": "WhoCrConceptMapYesNoToIcd11",
-    "type": "ConceptMap",
-    "url": "http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapYesNoToIcd11",
-    "version": "0.1.0",
-    "name": "WhoCrConceptMapYesNoToIcd11"
-  },
-  {
-    "id": "WhoCrConceptMapYesNoToLoinc",
-    "type": "ConceptMap",
-    "url": "http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapYesNoToLoinc",
-    "version": "0.1.0",
-    "name": "WhoCrConceptMapYesNoToLoinc"
-  },
-  {
-    "id": "WhoCrConceptMapYesNoToRxnorm",
-    "type": "ConceptMap",
-    "url": "http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapYesNoToRxnorm",
-    "version": "0.1.0",
-    "name": "WhoCrConceptMapYesNoToRxnorm"
-  },
-  {
-    "id": "WhoCrConceptMapYesNoToSnomed",
-    "type": "ConceptMap",
-    "url": "http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapYesNoToSnomed",
-    "version": "0.1.0",
-    "name": "WhoCrConceptMapYesNoToSnomed"
-  },
-  {
     "id": "WhoCrConceptMapYesNoUnknownToCiel",
     "type": "ConceptMap",
     "url": "http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapYesNoUnknownToCiel",
     "version": "0.1.0",
     "name": "WhoCrConceptMapYesNoUnknownToCiel"
-  },
-  {
-    "id": "WhoCrConceptMapYesNoUnknownToIcd10",
-    "type": "ConceptMap",
-    "url": "http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapYesNoUnknownToIcd10",
-    "version": "0.1.0",
-    "name": "WhoCrConceptMapYesNoUnknownToIcd10"
-  },
-  {
-    "id": "WhoCrConceptMapYesNoUnknownToIcd11",
-    "type": "ConceptMap",
-    "url": "http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapYesNoUnknownToIcd11",
-    "version": "0.1.0",
-    "name": "WhoCrConceptMapYesNoUnknownToIcd11"
-  },
-  {
-    "id": "WhoCrConceptMapYesNoUnknownToLoinc",
-    "type": "ConceptMap",
-    "url": "http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapYesNoUnknownToLoinc",
-    "version": "0.1.0",
-    "name": "WhoCrConceptMapYesNoUnknownToLoinc"
-  },
-  {
-    "id": "WhoCrConceptMapYesNoUnknownToRxnorm",
-    "type": "ConceptMap",
-    "url": "http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapYesNoUnknownToRxnorm",
-    "version": "0.1.0",
-    "name": "WhoCrConceptMapYesNoUnknownToRxnorm"
-  },
-  {
-    "id": "WhoCrConceptMapYesNoUnknownToSnomed",
-    "type": "ConceptMap",
-    "url": "http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapYesNoUnknownToSnomed",
-    "version": "0.1.0",
-    "name": "WhoCrConceptMapYesNoUnknownToSnomed"
   },
   {
     "id": "who.cr.covid19",
@@ -476,11 +133,39 @@
     "name": "WhoCrQuestionnaireCovid19Surveillance"
   },
   {
+    "id": "WhoCompositionProvenance",
+    "type": "StructureDefinition",
+    "url": "http://openhie.github.io/covid-19/StructureDefinition/WhoCompositionProvenance",
+    "version": "0.1.0",
+    "name": "WhoCompositionProvenance"
+  },
+  {
     "id": "WhoCrComposition",
     "type": "StructureDefinition",
     "url": "http://openhie.github.io/covid-19/StructureDefinition/WhoCrComposition",
     "version": "0.1.0",
     "name": "WhoCrComposition"
+  },
+  {
+    "id": "WhoCrHcwFacility",
+    "type": "StructureDefinition",
+    "url": "http://openhie.github.io/covid-19/StructureDefinition/WhoCrHcwFacility",
+    "version": "0.1.0",
+    "name": "WhoCrHcwFacility"
+  },
+  {
+    "id": "WhoCrPatient",
+    "type": "StructureDefinition",
+    "url": "http://openhie.github.io/covid-19/StructureDefinition/WhoCrPatient",
+    "version": "0.1.0",
+    "name": "WhoCrPatient"
+  },
+  {
+    "id": "WhoCrQuestionnaireResponseCovid19Surveillance",
+    "type": "StructureDefinition",
+    "url": "http://openhie.github.io/covid-19/StructureDefinition/WhoCrQuestionnaireResponseCovid19Surveillance",
+    "version": "0.1.0",
+    "name": "WhoCrQuestionnaireResponseCovid19Surveillance"
   },
   {
     "id": "WhoCrSurveillanceDataDictionary",
@@ -523,6 +208,13 @@
     "url": "http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetPregnancyTrimester",
     "version": "0.1.0",
     "name": "WhoCrValueSetPregnancyTrimester"
+  },
+  {
+    "id": "WhoCrValueSetQuestionnaireResponseAcceptedStatus",
+    "type": "ValueSet",
+    "url": "http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetQuestionnaireResponseAcceptedStatus",
+    "version": "0.1.0",
+    "name": "WhoCrValueSetQuestionnaireResponseAcceptedStatus"
   },
   {
     "id": "WhoCrValueSetReasonForCovid19Testing",

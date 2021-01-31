@@ -16,8 +16,9 @@
   fhir:CodeSystem.version [ fhir:value "0.1.0"];
   fhir:CodeSystem.name [ fhir:value "WhoCrCodeSystemSubmissionCompletion"];
   fhir:CodeSystem.title [ fhir:value "Submission Completion Status"];
-  fhir:CodeSystem.status [ fhir:value "active"];
-  fhir:CodeSystem.date [ fhir:value "2020-12-04T23:08:29+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.status [ fhir:value "draft"];
+  fhir:CodeSystem.experimental [ fhir:value "true"^^xsd:boolean];
+  fhir:CodeSystem.date [ fhir:value "2021-01-31T04:47:57+00:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "OpenHIE"];
   fhir:CodeSystem.contact [
      fhir:index 0;
@@ -37,6 +38,7 @@
        fhir:Coding.code [ fhir:value "001" ]
      ]
   ];
+  fhir:CodeSystem.copyright [ fhir:value "2021"];
   fhir:CodeSystem.content [ fhir:value "complete"];
   fhir:CodeSystem.count [ fhir:value "1"^^xsd:nonNegativeInteger];
   fhir:CodeSystem.concept [

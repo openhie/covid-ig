@@ -21,7 +21,7 @@
   "title": "WHO Case Reporting Composition",
   "status": "draft",
   "experimental": true,
-  "date": "2020-12-04T23:08:29+00:00",
+  "date": "2021-01-31T04:47:57+00:00",
   "publisher": "OpenHIE",
   "contact": [
     {
@@ -45,7 +45,7 @@
       ]
     }
   ],
-  "copyright": "2020",
+  "copyright": "2021",
   "fhirVersion": "4.0.1",
   "mapping": [
     {

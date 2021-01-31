@@ -1,6 +1,11 @@
 {
   "resourceType": "ValueSet",
   "id": "WhoCrValueSetPregnancyTrimester",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-valueset"
+    ]
+  },
   "text": {
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-WhoCrCodeSystemPregnancyTrimester.html\"><code>http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemPregnancyTrimester</code></a></li></ul></div>"
@@ -9,8 +14,9 @@
   "version": "0.1.0",
   "name": "WhoCrValueSetPregnancyTrimester",
   "title": "Pregnancy Trimester",
-  "status": "active",
-  "date": "2020-12-04T23:08:29+00:00",
+  "status": "draft",
+  "experimental": true,
+  "date": "2021-01-31T04:47:57+00:00",
   "publisher": "OpenHIE",
   "contact": [
     {
@@ -34,6 +40,8 @@
       ]
     }
   ],
+  "immutable": false,
+  "copyright": "2021",
   "compose": {
     "include": [
       {

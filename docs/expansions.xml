@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="ea9dd439-79ab-4b84-b44a-f59e9e519248"/>
+  <id value="c6d5bc69-095d-4f1b-aeb4-8d8215fae9f5"/>
   <meta>
-    <lastUpdated value="2020-12-04T23:08:29.456+00:00"/>
+    <lastUpdated value="2021-01-31T04:47:57.446+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -11,6 +11,9 @@
     <resource>
       <ValueSet>
         <id value="WhoCrValueSetAdmin1"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-valueset"/>
+        </meta>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -7040,8 +7043,9 @@
         <version value="0.1.0"/>
         <name value="WhoCrValueSetAdmin1"/>
         <title value="List of Administrative Level 1 Names (Province/State/Canton)"/>
-        <status value="active"/>
-        <date value="2020-12-04T23:08:29+00:00"/>
+        <status value="draft"/>
+        <experimental value="true"/>
+        <date value="2021-01-31T04:47:57+00:00"/>
         <publisher value="OpenHIE"/>
         <contact>
           <name value="OpenHIE"/>
@@ -7057,12 +7061,14 @@
             <code value="001"/>
           </coding>
         </jurisdiction>
+        <immutable value="false"/>
+        <copyright value="2021"/>
         <expansion>
           <extension url="http://hl7.org/fhir/StructureDefinition/valueset-toocostly">
             <valueBoolean value="true"/>
           </extension>
-          <identifier value="urn:uuid:e838e830-a859-4a14-9ced-56cb52e68189"/>
-          <timestamp value="2020-12-04T23:08:50+00:00"/>
+          <identifier value="urn:uuid:64959386-e972-4d00-97cf-f1dd958bbe5b"/>
+          <timestamp value="2021-01-31T04:48:44+00:00"/>
           <total value="1000"/>
           <parameter>
             <name value="excludeNested"/>
@@ -12085,6 +12091,9 @@
     <resource>
       <ValueSet>
         <id value="WhoCrValueSetAgeUnits"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-valueset"/>
+        </meta>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -12135,8 +12144,9 @@
         <version value="0.1.0"/>
         <name value="WhoCrValueSetAgeUnits"/>
         <title value="Patient Age Units"/>
-        <status value="active"/>
-        <date value="2020-12-04T23:08:29+00:00"/>
+        <status value="draft"/>
+        <experimental value="true"/>
+        <date value="2021-01-31T04:47:57+00:00"/>
         <publisher value="OpenHIE"/>
         <contact>
           <name value="OpenHIE"/>
@@ -12152,9 +12162,11 @@
             <code value="001"/>
           </coding>
         </jurisdiction>
+        <immutable value="false"/>
+        <copyright value="2021"/>
         <expansion>
-          <identifier value="urn:uuid:c162a495-7e2b-4109-a3cb-657e62d925cf"/>
-          <timestamp value="2020-12-04T23:08:50+00:00"/>
+          <identifier value="urn:uuid:b510a151-a866-44ea-a8ff-e0515842cb55"/>
+          <timestamp value="2021-01-31T04:48:45+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -12192,6 +12204,9 @@
     <resource>
       <ValueSet>
         <id value="WhoCrValueSetComorbidity"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-valueset"/>
+        </meta>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -12303,8 +12318,9 @@
         <version value="0.1.0"/>
         <name value="WhoCrValueSetComorbidity"/>
         <title value="Comorbidity"/>
-        <status value="active"/>
-        <date value="2020-12-04T23:08:29+00:00"/>
+        <status value="draft"/>
+        <experimental value="true"/>
+        <date value="2021-01-31T04:47:57+00:00"/>
         <publisher value="OpenHIE"/>
         <contact>
           <name value="OpenHIE"/>
@@ -12320,9 +12336,11 @@
             <code value="001"/>
           </coding>
         </jurisdiction>
+        <immutable value="false"/>
+        <copyright value="2021"/>
         <expansion>
-          <identifier value="urn:uuid:e8332a07-52c3-4612-a244-bb1ee3e40587"/>
-          <timestamp value="2020-12-04T23:08:50+00:00"/>
+          <identifier value="urn:uuid:8430c13c-22a6-4a26-ac52-c7f8d723a0bb"/>
+          <timestamp value="2021-01-31T04:48:45+00:00"/>
           <total value="10"/>
           <parameter>
             <name value="excludeNested"/>
@@ -12391,6 +12409,9 @@
     <resource>
       <ValueSet>
         <id value="WhoCrValueSetPatientOutcome"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-valueset"/>
+        </meta>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -12454,8 +12475,9 @@
         <version value="0.1.0"/>
         <name value="WhoCrValueSetPatientOutcome"/>
         <title value="Patient Outcome"/>
-        <status value="active"/>
-        <date value="2020-12-04T23:08:29+00:00"/>
+        <status value="draft"/>
+        <experimental value="true"/>
+        <date value="2021-01-31T04:47:57+00:00"/>
         <publisher value="OpenHIE"/>
         <contact>
           <name value="OpenHIE"/>
@@ -12471,9 +12493,11 @@
             <code value="001"/>
           </coding>
         </jurisdiction>
+        <immutable value="false"/>
+        <copyright value="2021"/>
         <expansion>
-          <identifier value="urn:uuid:d3843c2a-3f22-437d-a677-6ff9020294a8"/>
-          <timestamp value="2020-12-04T23:08:50+00:00"/>
+          <identifier value="urn:uuid:f6e7aea1-64a0-49c0-a2db-059cd86d3271"/>
+          <timestamp value="2021-01-31T04:48:45+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -12512,6 +12536,9 @@
     <resource>
       <ValueSet>
         <id value="WhoCrValueSetPregnancyTrimester"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-valueset"/>
+        </meta>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -12567,8 +12594,9 @@
         <version value="0.1.0"/>
         <name value="WhoCrValueSetPregnancyTrimester"/>
         <title value="Pregnancy Trimester"/>
-        <status value="active"/>
-        <date value="2020-12-04T23:08:29+00:00"/>
+        <status value="draft"/>
+        <experimental value="true"/>
+        <date value="2021-01-31T04:47:57+00:00"/>
         <publisher value="OpenHIE"/>
         <contact>
           <name value="OpenHIE"/>
@@ -12584,9 +12612,11 @@
             <code value="001"/>
           </coding>
         </jurisdiction>
+        <immutable value="false"/>
+        <copyright value="2021"/>
         <expansion>
-          <identifier value="urn:uuid:7a9dad40-f8cc-49e1-902a-905fbf8e8219"/>
-          <timestamp value="2020-12-04T23:08:50+00:00"/>
+          <identifier value="urn:uuid:fc7a8034-ff01-426b-97c9-8a83d4f202eb"/>
+          <timestamp value="2021-01-31T04:48:45+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -12620,6 +12650,9 @@
     <resource>
       <ValueSet>
         <id value="WhoCrValueSetReasonForCovid19Testing"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-valueset"/>
+        </meta>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -12699,8 +12732,9 @@
         <version value="0.1.0"/>
         <name value="WhoCrValueSetReasonForCovid19Testing"/>
         <title value="Reason for Covid-19 Testing"/>
-        <status value="active"/>
-        <date value="2020-12-04T23:08:29+00:00"/>
+        <status value="draft"/>
+        <experimental value="true"/>
+        <date value="2021-01-31T04:47:57+00:00"/>
         <publisher value="OpenHIE"/>
         <contact>
           <name value="OpenHIE"/>
@@ -12716,9 +12750,11 @@
             <code value="001"/>
           </coding>
         </jurisdiction>
+        <immutable value="false"/>
+        <copyright value="2021"/>
         <expansion>
-          <identifier value="urn:uuid:63db2cba-26f8-4c65-b2ce-4a6f68d1dd83"/>
-          <timestamp value="2020-12-04T23:08:50+00:00"/>
+          <identifier value="urn:uuid:403989f0-e97a-4d0d-9ecf-2c6888f3b72a"/>
+          <timestamp value="2021-01-31T04:48:47+00:00"/>
           <total value="6"/>
           <parameter>
             <name value="excludeNested"/>
@@ -12767,6 +12803,9 @@
     <resource>
       <ValueSet>
         <id value="WhoCrValueSetSexAtBirth"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-valueset"/>
+        </meta>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -12814,8 +12853,9 @@
         <version value="0.1.0"/>
         <name value="WhoCrValueSetSexAtBirth"/>
         <title value="Patient Sex at birth"/>
-        <status value="active"/>
-        <date value="2020-12-04T23:08:29+00:00"/>
+        <status value="draft"/>
+        <experimental value="true"/>
+        <date value="2021-01-31T04:47:57+00:00"/>
         <publisher value="OpenHIE"/>
         <contact>
           <name value="OpenHIE"/>
@@ -12831,9 +12871,11 @@
             <code value="001"/>
           </coding>
         </jurisdiction>
+        <immutable value="false"/>
+        <copyright value="2021"/>
         <expansion>
-          <identifier value="urn:uuid:ca39c0a4-87ce-4b36-a713-a85ce55013cc"/>
-          <timestamp value="2020-12-04T23:08:50+00:00"/>
+          <identifier value="urn:uuid:41b2edcc-da9e-4890-b510-344fc67f373c"/>
+          <timestamp value="2021-01-31T04:48:47+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -12862,6 +12904,9 @@
     <resource>
       <ValueSet>
         <id value="WhoCrValueSetSubmitted"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-valueset"/>
+        </meta>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -12926,8 +12971,9 @@
         <version value="0.1.0"/>
         <name value="WhoCrValueSetSubmitted"/>
         <title value="Report Submitted Yes/No/Partial"/>
-        <status value="active"/>
-        <date value="2020-12-04T23:08:29+00:00"/>
+        <status value="draft"/>
+        <experimental value="true"/>
+        <date value="2021-01-31T04:47:57+00:00"/>
         <publisher value="OpenHIE"/>
         <contact>
           <name value="OpenHIE"/>
@@ -12943,9 +12989,11 @@
             <code value="001"/>
           </coding>
         </jurisdiction>
+        <immutable value="false"/>
+        <copyright value="2021"/>
         <expansion>
-          <identifier value="urn:uuid:4e5b154b-9185-4974-939a-b77747e18d74"/>
-          <timestamp value="2020-12-04T23:08:50+00:00"/>
+          <identifier value="urn:uuid:0251e0ae-9985-4cc1-bda0-4b981de824d2"/>
+          <timestamp value="2021-01-31T04:48:47+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -12983,6 +13031,9 @@
     <resource>
       <ValueSet>
         <id value="WhoCrValueSetTestResult"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-valueset"/>
+        </meta>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -13049,8 +13100,9 @@
         <version value="0.1.0"/>
         <name value="WhoCrValueSetTestResult"/>
         <title value="Test Result"/>
-        <status value="active"/>
-        <date value="2020-12-04T23:08:29+00:00"/>
+        <status value="draft"/>
+        <experimental value="true"/>
+        <date value="2021-01-31T04:47:57+00:00"/>
         <publisher value="OpenHIE"/>
         <contact>
           <name value="OpenHIE"/>
@@ -13066,9 +13118,11 @@
             <code value="001"/>
           </coding>
         </jurisdiction>
+        <immutable value="false"/>
+        <copyright value="2021"/>
         <expansion>
-          <identifier value="urn:uuid:0740b158-8032-4301-a809-6d51000cf3e7"/>
-          <timestamp value="2020-12-04T23:08:50+00:00"/>
+          <identifier value="urn:uuid:a4cb0705-0017-4264-8099-653f65e27129"/>
+          <timestamp value="2021-01-31T04:48:47+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -13106,6 +13160,9 @@
     <resource>
       <ValueSet>
         <id value="WhoCrValueSetYesNo"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-valueset"/>
+        </meta>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -13153,8 +13210,9 @@
         <version value="0.1.0"/>
         <name value="WhoCrValueSetYesNo"/>
         <title value="Yes/No"/>
-        <status value="active"/>
-        <date value="2020-12-04T23:08:29+00:00"/>
+        <status value="draft"/>
+        <experimental value="true"/>
+        <date value="2021-01-31T04:47:57+00:00"/>
         <publisher value="OpenHIE"/>
         <contact>
           <name value="OpenHIE"/>
@@ -13170,9 +13228,11 @@
             <code value="001"/>
           </coding>
         </jurisdiction>
+        <immutable value="false"/>
+        <copyright value="2021"/>
         <expansion>
-          <identifier value="urn:uuid:c3e6bce6-b7ad-4591-81cf-416177d942a4"/>
-          <timestamp value="2020-12-04T23:08:50+00:00"/>
+          <identifier value="urn:uuid:b136dec7-2691-4615-9714-a79955c8d589"/>
+          <timestamp value="2021-01-31T04:48:47+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -13201,6 +13261,9 @@
     <resource>
       <ValueSet>
         <id value="WhoCrValueSetYesNoUnk"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-valueset"/>
+        </meta>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -13265,8 +13328,9 @@
         <version value="0.1.0"/>
         <name value="WhoCrValueSetYesNoUnk"/>
         <title value="Yes/No/Unknown"/>
-        <status value="active"/>
-        <date value="2020-12-04T23:08:29+00:00"/>
+        <status value="draft"/>
+        <experimental value="true"/>
+        <date value="2021-01-31T04:47:57+00:00"/>
         <publisher value="OpenHIE"/>
         <contact>
           <name value="OpenHIE"/>
@@ -13282,9 +13346,11 @@
             <code value="001"/>
           </coding>
         </jurisdiction>
+        <immutable value="false"/>
+        <copyright value="2021"/>
         <expansion>
-          <identifier value="urn:uuid:220c3f7e-6bc8-4605-87e7-691ff4cf9691"/>
-          <timestamp value="2020-12-04T23:08:50+00:00"/>
+          <identifier value="urn:uuid:67f42ffd-9aef-4dba-8c54-24d0c8cae49c"/>
+          <timestamp value="2021-01-31T04:48:47+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -13322,6 +13388,9 @@
     <resource>
       <ValueSet>
         <id value="WhoCrValueSetQuestionnaireCountry"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-valueset"/>
+        </meta>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -15376,10 +15445,11 @@
             <code value="001"/>
           </coding>
         </jurisdiction>
+        <immutable value="false"/>
         <copyright value="{{{year}}}"/>
         <expansion>
-          <identifier value="urn:uuid:731db1a3-f4fa-4b68-8352-18d8d1be96b5"/>
-          <timestamp value="2020-12-04T23:08:51+00:00"/>
+          <identifier value="urn:uuid:e7ec13d9-0dd8-496a-8716-6c4fd5949f24"/>
+          <timestamp value="2021-01-31T04:49:03+00:00"/>
           <total value="250"/>
           <parameter>
             <name value="excludeNested"/>
@@ -16656,6 +16726,9 @@
     <resource>
       <ValueSet>
         <id value="WhoCrValueSetQuestionnaireReasonForTesting"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-valueset"/>
+        </meta>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -16772,10 +16845,11 @@
             <code value="001"/>
           </coding>
         </jurisdiction>
+        <immutable value="false"/>
         <copyright value="{{{year}}}"/>
         <expansion>
-          <identifier value="urn:uuid:27291dd2-d059-463c-a5ef-c54ee800bd72"/>
-          <timestamp value="2020-12-04T23:08:51+00:00"/>
+          <identifier value="urn:uuid:72998d72-2df1-4ccf-894b-54b6d5af2781"/>
+          <timestamp value="2021-01-31T04:49:03+00:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
@@ -16833,6 +16907,9 @@
     <resource>
       <ValueSet>
         <id value="WhoCrValueSetQuestionnaireComorbidity"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-valueset"/>
+        </meta>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -16985,10 +17062,11 @@
             <code value="001"/>
           </coding>
         </jurisdiction>
+        <immutable value="false"/>
         <copyright value="{{{year}}}"/>
         <expansion>
-          <identifier value="urn:uuid:06c55da1-74de-4a4c-a165-d7189230f203"/>
-          <timestamp value="2020-12-04T23:08:51+00:00"/>
+          <identifier value="urn:uuid:fe0271f1-7919-4f83-bde6-453df650dde7"/>
+          <timestamp value="2021-01-31T04:49:03+00:00"/>
           <total value="11"/>
           <parameter>
             <name value="excludeNested"/>
@@ -17062,10 +17140,173 @@
     </resource>
   </entry>
   <entry>
+    <fullUrl value="http://openhie.github.io/covid-19/Questionnaire/WhoCrQuestionnaireCovid19Surveillance#WhoCrValueSetQuestionnairePatientOutcome"/>
+    <resource>
+      <ValueSet>
+        <id value="WhoCrValueSetQuestionnairePatientOutcome"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-valueset"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 5 concepts</p>
+            <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
+              <p>Expansion based on: </p>
+              <ul>
+                <li>
+                  <a href="CodeSystem-WhoCrCodeSystemPatientOutcome.html">Patient Outcome v0.1.0 (CodeSystem)</a>
+                </li>
+                <li>
+                  <a href="ValueSet-WhoCrValueSetPatientOutcome.html">Patient Outcome v0.1.0 (ValueSet)</a>
+                </li>
+                <li>
+                  <a href="CodeSystem-WhoCrCodeSystemQuestionnaireChoice.html">TODO v0.1.0 (CodeSystem)</a>
+                </li>
+              </ul>
+            </div>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---openhie.github.io-covid-19-CodeSystem-WhoCrCodeSystemPatientOutcome-RECOVERED"> </a>
+                  <a href="CodeSystem-WhoCrCodeSystemPatientOutcome.html#WhoCrCodeSystemPatientOutcome-RECOVERED">RECOVERED</a>
+                </td>
+                <td>http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemPatientOutcome</td>
+                <td>Recovered/Healthy</td>
+                <td>Recovered/Healthy</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---openhie.github.io-covid-19-CodeSystem-WhoCrCodeSystemPatientOutcome-NOTRECOVERED"> </a>
+                  <a href="CodeSystem-WhoCrCodeSystemPatientOutcome.html#WhoCrCodeSystemPatientOutcome-NOTRECOVERED">NOTRECOVERED</a>
+                </td>
+                <td>http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemPatientOutcome</td>
+                <td>Not recovered</td>
+                <td>Not recovered</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---openhie.github.io-covid-19-CodeSystem-WhoCrCodeSystemPatientOutcome-DEATH"> </a>
+                  <a href="CodeSystem-WhoCrCodeSystemPatientOutcome.html#WhoCrCodeSystemPatientOutcome-DEATH">DEATH</a>
+                </td>
+                <td>http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemPatientOutcome</td>
+                <td>Death</td>
+                <td>Death</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---openhie.github.io-covid-19-CodeSystem-WhoCrCodeSystemPatientOutcome-UNKNOWN"> </a>
+                  <a href="CodeSystem-WhoCrCodeSystemPatientOutcome.html#WhoCrCodeSystemPatientOutcome-UNKNOWN">UNKNOWN</a>
+                </td>
+                <td>http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemPatientOutcome</td>
+                <td>Unknown</td>
+                <td>Unknown</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---openhie.github.io-covid-19-CodeSystem-WhoCrCodeSystemQuestionnaireChoice-other"> </a>
+                  <a href="CodeSystem-WhoCrCodeSystemQuestionnaireChoice.html#WhoCrCodeSystemQuestionnaireChoice-other">other</a>
+                </td>
+                <td>http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemQuestionnaireChoice</td>
+                <td>Other</td>
+                <td>Not a listed value</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://openhie.github.io/covid-19/Questionnaire/WhoCrQuestionnaireCovid19Surveillance#WhoCrValueSetQuestionnairePatientOutcome"/>
+        <version value="0.1.0"/>
+        <name value="WhoCrValueSetQuestionnairePatientOutcome"/>
+        <status value="draft"/>
+        <experimental value="true"/>
+        <publisher value="OpenHIE"/>
+        <contact>
+          <name value="Elliot Silver"/>
+          <telecom>
+            <system value="email"/>
+            <value value="elliot@argentixinfo.com"/>
+            <use value="work"/>
+          </telecom>
+        </contact>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+          </coding>
+        </jurisdiction>
+        <immutable value="false"/>
+        <copyright value="{{{year}}}"/>
+        <expansion>
+          <identifier value="urn:uuid:ab5c8d7a-c9b9-40b8-9493-08bf78ba0b59"/>
+          <timestamp value="2021-01-31T04:49:03+00:00"/>
+          <total value="5"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetPatientOutcome|0.1.0"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemPatientOutcome|0.1.0"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemQuestionnaireChoice|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemPatientOutcome"/>
+            <code value="RECOVERED"/>
+            <display value="Recovered/Healthy"/>
+          </contains>
+          <contains>
+            <system value="http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemPatientOutcome"/>
+            <code value="NOTRECOVERED"/>
+            <display value="Not recovered"/>
+          </contains>
+          <contains>
+            <system value="http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemPatientOutcome"/>
+            <code value="DEATH"/>
+            <display value="Death"/>
+          </contains>
+          <contains>
+            <system value="http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemPatientOutcome"/>
+            <code value="UNKNOWN"/>
+            <display value="Unknown"/>
+          </contains>
+          <contains>
+            <system value="http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemQuestionnaireChoice"/>
+            <code value="other"/>
+            <display value="Other"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
     <fullUrl value="http://openhie.github.io/covid-19/Questionnaire/WhoCrQuestionnaireCovid19Surveillance#WhoCrValueSetQuestionnaireAdmin1"/>
     <resource>
       <ValueSet>
         <id value="WhoCrValueSetQuestionnaireAdmin1"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-valueset"/>
+        </meta>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -25111,7 +25352,7 @@
         </text>
         <url value="http://openhie.github.io/covid-19/Questionnaire/WhoCrQuestionnaireCovid19Surveillance#WhoCrValueSetQuestionnaireAdmin1"/>
         <version value="0.1.0"/>
-        <name value="WhoCrValueSetQuestionnaireAdmin"/>
+        <name value="WhoCrValueSetQuestionnaireAdmin1"/>
         <status value="draft"/>
         <experimental value="true"/>
         <publisher value="OpenHIE"/>
@@ -25129,13 +25370,14 @@
             <code value="001"/>
           </coding>
         </jurisdiction>
+        <immutable value="false"/>
         <copyright value="{{{year}}}"/>
         <expansion>
           <extension url="http://hl7.org/fhir/StructureDefinition/valueset-toocostly">
             <valueUri value="http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetAdmin1"/>
           </extension>
-          <identifier value="urn:uuid:26c75181-7477-4ff0-8279-7ab91ba5546f"/>
-          <timestamp value="2020-12-04T23:08:51+00:00"/>
+          <identifier value="urn:uuid:d1410710-84d9-48a7-869e-8f4d7fada47b"/>
+          <timestamp value="2021-01-31T04:49:04+00:00"/>
           <total value="1001"/>
           <parameter>
             <name value="excludeNested"/>

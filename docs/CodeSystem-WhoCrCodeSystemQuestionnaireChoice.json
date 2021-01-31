@@ -9,8 +9,9 @@
   "version": "0.1.0",
   "name": "WhoCrCodeSystemQuestionnaireChoice",
   "title": "TODO",
-  "status": "active",
-  "date": "2020-12-04T23:08:29+00:00",
+  "status": "draft",
+  "experimental": true,
+  "date": "2021-01-31T04:47:57+00:00",
   "publisher": "OpenHIE",
   "contact": [
     {
@@ -34,6 +35,7 @@
       ]
     }
   ],
+  "copyright": "2021",
   "content": "complete",
   "count": 1,
   "concept": [
