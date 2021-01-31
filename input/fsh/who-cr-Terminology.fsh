@@ -115,12 +115,18 @@ Title: "Reason for Covid-19 Testing"
 Description: "TODO"
 * insert PublisherContextDefinitional
 
+* ^meta.profile[0] = Canonical(http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-valueset)
+* ^immutable = false
+
 * codes from system WhoCrCodeSystemReasonForTesting
 
 ValueSet: WhoCrValueSetAgeUnits
 Title: "Patient Age Units"
 Description: "Common units of patient age"
 * insert PublisherContextDefinitional
+
+* ^meta.profile[0] = Canonical(http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-valueset)
+* ^immutable = false
 
 * include $UCUM#a "year"
 * include $UCUM#mo "month"
@@ -131,6 +137,9 @@ Title: "Patient Sex at birth"
 Description: "Patient Sex at birth"
 * insert PublisherContextDefinitional
 
+* ^meta.profile[0] = Canonical(http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-valueset)
+* ^immutable = false
+
 * include $cs-gender#male "Male"
 * include $cs-gender#female "Female"
 
@@ -139,12 +148,18 @@ Title: "Yes/No"
 Description: "Yes/No"
 * insert PublisherContextDefinitional
 
+* ^meta.profile[0] = Canonical(http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-valueset)
+* ^immutable = false
+
 * codes from system $cs-v2-0136 // yes/no
 
 ValueSet: WhoCrValueSetYesNoUnk
 Title: "Yes/No/Unknown"
 Description: "Yes/No/Unknown Value Set"
 * insert PublisherContextDefinitional
+
+* ^meta.profile[0] = Canonical(http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-valueset)
+* ^immutable = false
 
 * codes from system $cs-v2-0136 // yes/no
 * include $cs-v2-0532#UNK // unknown
@@ -154,12 +169,18 @@ Title: "Pregnancy Trimester"
 Description: "Pregnancy Trimester"
 * insert PublisherContextDefinitional
 
+* ^meta.profile[0] = Canonical(http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-valueset)
+* ^immutable = false
+
 * codes from system WhoCrCodeSystemPregnancyTrimester
 
 ValueSet: WhoCrValueSetComorbidity
 Title: "Comorbidity"
 Description: "Comorbidity"
 * insert PublisherContextDefinitional
+
+* ^meta.profile[0] = Canonical(http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-valueset)
+* ^immutable = false
 
 * codes from system WhoCrCodeSystemComorbidity
 
@@ -168,12 +189,18 @@ Title: "Patient Outcome"
 Description: "Patient Outcome"
 * insert PublisherContextDefinitional
 
+* ^meta.profile[0] = Canonical(http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-valueset)
+* ^immutable = false
+
 * codes from system WhoCrCodeSystemPatientOutcome
 
 ValueSet: WhoCrValueSetTestResult
 Title:  "Test Result"
 Description: "Test Result"
 * insert PublisherContextDefinitional
+
+* ^meta.profile[0] = Canonical(http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-valueset)
+* ^immutable = false
 
 * include $cs-v3-ObsInterpretation#POS "Positive"
 * include $cs-v3-ObsInterpretation#NEG "Negative"
@@ -184,6 +211,9 @@ Title: "Report Submitted Yes/No/Partial"
 Description: "Report Submitted Yes/No/Partial"
 * insert PublisherContextDefinitional
 
+* ^meta.profile[0] = Canonical(http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-valueset)
+* ^immutable = false
+
 * codes from system $cs-v2-0136 // yes/no
 * codes from system WhoCrCodeSystemSubmissionCompletion
 
@@ -191,5 +221,8 @@ ValueSet: WhoCrValueSetAdmin1
 Title: "List of Administrative Level 1 Names (Province/State/Canton)"
 Description: "List of Administrative Level 1 Names (Province/State/Canton)"
 * insert PublisherContextDefinitional
+
+* ^meta.profile[0] = Canonical(http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-valueset)
+* ^immutable = false
 
 * codes from system $cs-iso3166-2
