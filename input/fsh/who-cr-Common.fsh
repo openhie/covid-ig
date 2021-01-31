@@ -20,10 +20,14 @@ Alias: $vs-iso3166-1-2 = http://hl7.org/fhir/ValueSet/iso3166-1-2 // 2-letter co
 Alias: $vs-iso3166-2 = WhoCrValueSetAdmin1 // http://hl7.org/fhir/ValueSet/iso3166-2 // subnational codes
 
 Alias: $ext-variable            = http://hl7.org/fhir/StructureDefinition/variable
-Alias: $ext-element-minValue    = http://hl7.org/fhir/StructureDefinition/minValue
+Alias: $ext-minValue    = http://hl7.org/fhir/StructureDefinition/minValue
+Alias: $ext-maxValue    = http://hl7.org/fhir/StructureDefinition/maxValue
+Alias: $ext-maxDecimalPlaces = http://hl7.org/fhir/StructureDefinition/maxDecimalPlaces
 Alias: $ext-questionnaire-displayCategory   = http://hl7.org/fhir/StructureDefinition/questionnaire-displayCategory
 Alias: $ext-questionnaire-itemControl   = http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl
 Alias: $ext-questionnaire-unitValueSet  = http://hl7.org/fhir/StructureDefinition/questionnaire-unitValueSet
+Alias: $ext-sdc-questionnaire-maxQuantity = http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-maxQuantity
+Alias: $ext-sdc-questionnaire-minQuantity = http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-minQuantity
 
 // Alias: $ext-sdc-questionnaire-answerExpression  = http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-answerExpression
 
@@ -37,7 +41,6 @@ Alias: $ext-us-birthsex = http://hl7.org/fhir/us/core/StructureDefinition/us-cor
 // Alias: $element-regex       = http://hl7.org/fhir/StructureDefinition/regex
 // Alias: $element-entryFormat = http://hl7.org/fhir/StructureDefinition/entryFormat
 // Alias: $element-maxValue    = http://hl7.org/fhir/StructureDefinition/maxValue
-// Alias: $element-maxDecimalPlaces = http://hl7.org/fhir/StructureDefinition/maxDecimalPlaces
 // Alias: $element-mimeType    = http://hl7.org/fhir/StructureDefinition/mimeType
 // Alias: $element-maxSize     = http://hl7.org/fhir/StructureDefinition/maxSize
 
@@ -85,7 +88,7 @@ Alias: $ext-us-birthsex = http://hl7.org/fhir/us/core/StructureDefinition/us-cor
 // Alias: $sdc-questionnaire-width = http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-width
 // Alias: $sdc-questionnaireresponse-isSubject = http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaireresponse-isSubject
 
-RuleSet: PublisherContext
+RuleSet: PublisherContextInstance
 * status = #draft
 * experimental = true
 * publisher = "OpenHIE"
@@ -97,7 +100,7 @@ RuleSet: PublisherContext
 * copyright = "{{{year}}}"
 // * date
 
-RuleSet: PublisherContextProfile
+RuleSet: PublisherContextDefinitional
 * ^status = #draft
 * ^experimental = true
 * ^publisher = "OpenHIE"

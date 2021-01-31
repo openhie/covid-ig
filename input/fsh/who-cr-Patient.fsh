@@ -1,9 +1,9 @@
-// Profile:    WhoCrPatient
-// Parent:     Patient
-// Description: "WHO Case Reporting Patient"
-// Title:      "WHO Case Reporting Patient"
+Profile:    WhoCrPatient
+Parent:     Patient
+Description: "WHO Case Reporting Patient"
+Title:      "WHO Case Reporting Patient"
 
-// * insert PublisherContextProfile
+* insert PublisherContextDefinitional
 // * extension contains $ext-us-birthsex named birthSex 1..1
 // * address ^slicing.discriminator.type = #value
 // * address ^slicing.discriminator.path = "use"
@@ -15,8 +15,8 @@
 
 
 Instance:       WhoCrSamplePatient
-// InstanceOf:     WhoCrPatient
-InstanceOf:     Patient
+InstanceOf:     WhoCrPatient
+// InstanceOf:     Patient
 Description:    "WHO Case Reporting Sample Patient"
 Title:          "WHO Case Reporting Sample Patient"
 Usage:          #example

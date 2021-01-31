@@ -22,11 +22,8 @@ publisher:
 jurisdiction: http://unstats.un.org/unsd/methods/m49/m49.htm#001
 # experimental: true
 dependencies:
-  # us.nlm.vsac: 0.3.0
-  # hl7.fhir.us.core: current
   hl7.fhir.uv.sdc: current
-  #  covid19 : current
-
+ 
 # ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
 # │  To use a provided ig-data/input/includes/menu.xml file, delete the "menu" property below.     │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯

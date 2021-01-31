@@ -3,7 +3,7 @@ Parent:     Composition
 Description:    "WHO Case Reporting Composition"
 Title:      "WHO Case Reporting Composition"
 
-* insert PublisherContextProfile
+* insert PublisherContextDefinitional
 * type = $LNC#95412-3
 * category = $LNC#55751-2
 // * subject only Reference(WhoCrPatient)

@@ -4,7 +4,7 @@ Description: "Data Dictionary Logical Model"
 Title: "2020-02-27 Data Dictionary" // user-friendly name
 Usage: #definition
 
-* insert PublisherContext
+* insert PublisherContextInstance
 * name = "WhoCrSurveillanceDataDictionary" // computer ready name
 * url = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary"
 * version = "0.1.0"
