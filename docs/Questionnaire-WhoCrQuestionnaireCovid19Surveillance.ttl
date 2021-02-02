@@ -15,8 +15,16 @@
        fhir:index 0;
        fhir:link <http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire>
      ], [
-       fhir:value "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-extr-defn";
+       fhir:value "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-render";
        fhir:index 1;
+       fhir:link <http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-render>
+     ], [
+       fhir:value "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-behave";
+       fhir:index 2;
+       fhir:link <http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-behave>
+     ], [
+       fhir:value "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-extr-defn";
+       fhir:index 3;
        fhir:link <http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-extr-defn>
      ]
   ];
@@ -266,7 +274,7 @@
      fhir:value "Patient";
      fhir:index 0
   ];
-  fhir:Questionnaire.date [ fhir:value "2021-01-31T04:54:41+00:00"^^xsd:dateTime];
+  fhir:Questionnaire.date [ fhir:value "2021-02-02T04:35:51+00:00"^^xsd:dateTime];
   fhir:Questionnaire.publisher [ fhir:value "OpenHIE"];
   fhir:Questionnaire.contact [
      fhir:index 0;

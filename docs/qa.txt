@@ -1,9 +1,9 @@
 ﻿WhoCrCovid19 : Validation Results
 =========================================
 
-err = 65, warn = 9, info = 0
+err = 67, warn = 5, info = 2
 IG Publisher Version: 1.1.59
-Generated Sun Jan 31 04:55:45 UTC 2021. FHIR version 4.0.1 for who.cr.covid19#0.1.0 (canonical = http://openhie.github.io/covid-19)
+Generated Tue Feb 02 04:36:53 UTC 2021. FHIR version 4.0.1 for who.cr.covid19#0.1.0 (canonical = http://openhie.github.io/covid-19)
 
  Build Errors : 30 / 0 / 0
  /home/publisher/ig/fsh-generated/resources/CodeSystem-WhoCrCodeSystemComorbidity : 0 / 0 / 1
@@ -26,19 +26,19 @@ Generated Sun Jan 31 04:55:45 UTC 2021. FHIR version 4.0.1 for who.cr.covid19#0.
  /home/publisher/ig/fsh-generated/resources/ConceptMap-WhoCrConceptMapYesNoUnknownToCiel : 0 / 0 / 1
  /home/publisher/ig/fsh-generated/resources/ImplementationGuide-who.cr.covid19 : 0 / 0 / 1
  /home/publisher/ig/fsh-generated/resources/Patient-WhoCrSamplePatient : 0 / 0 / 1
- /home/publisher/ig/fsh-generated/resources/Questionnaire-WhoCrQuestionnaireCovid19Surveillance : 23 / 2 / 13
- /home/publisher/ig/fsh-generated/resources/StructureDefinition-WhoCompositionProvenance : 0 / 1 / 1
+ /home/publisher/ig/fsh-generated/resources/Questionnaire-WhoCrQuestionnaireCovid19Surveillance : 23 / 2 / 15
+ /home/publisher/ig/fsh-generated/resources/StructureDefinition-WhoCompositionProvenance : 4 / 1 / 3
  /home/publisher/ig/fsh-generated/resources/StructureDefinition-WhoCrComposition : 0 / 0 / 1
  /home/publisher/ig/fsh-generated/resources/StructureDefinition-WhoCrHcwFacility : 0 / 1 / 1
  /home/publisher/ig/fsh-generated/resources/StructureDefinition-WhoCrPatient : 0 / 0 / 1
- /home/publisher/ig/fsh-generated/resources/StructureDefinition-WhoCrQuestionnaireResponseCovid19Surveillance : 2 / 3 / 1
+ /home/publisher/ig/fsh-generated/resources/StructureDefinition-WhoCrQuestionnaireResponseCovid19Surveillance : 0 / 1 / 1
  /home/publisher/ig/fsh-generated/resources/StructureDefinition-WhoCrSurveillanceDataDictionary : 40 / 0 / 1
  /home/publisher/ig/fsh-generated/resources/ValueSet-WhoCrValueSetAdmin1 : 0 / 0 / 2
  /home/publisher/ig/fsh-generated/resources/ValueSet-WhoCrValueSetAgeUnits : 0 / 0 / 2
  /home/publisher/ig/fsh-generated/resources/ValueSet-WhoCrValueSetComorbidity : 0 / 0 / 2
  /home/publisher/ig/fsh-generated/resources/ValueSet-WhoCrValueSetPatientOutcome : 0 / 0 / 2
  /home/publisher/ig/fsh-generated/resources/ValueSet-WhoCrValueSetPregnancyTrimester : 0 / 0 / 2
- /home/publisher/ig/fsh-generated/resources/ValueSet-WhoCrValueSetQuestionnaireResponseAcceptedStatus : 0 / 2 / 1
+ /home/publisher/ig/fsh-generated/resources/ValueSet-WhoCrValueSetQuestionnaireResponseAcceptedStatus : 0 / 0 / 1
  /home/publisher/ig/fsh-generated/resources/ValueSet-WhoCrValueSetReasonForCovid19Testing : 0 / 0 / 2
  /home/publisher/ig/fsh-generated/resources/ValueSet-WhoCrValueSetSexAtBirth : 0 / 0 / 2
  /home/publisher/ig/fsh-generated/resources/ValueSet-WhoCrValueSetSubmitted : 0 / 0 / 2
@@ -155,9 +155,17 @@ ERROR: Questionnaire/WhoCrQuestionnaireCovid19Surveillance: Questionnaire.item[7
 INFORMATION: Questionnaire/WhoCrQuestionnaireCovid19Surveillance: Questionnaire: Validate resource against profile http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire - listed in meta
 WARNING: Questionnaire/WhoCrQuestionnaireCovid19Surveillance: Questionnaire.item[2]: sdc-1: An item cannot have an answerExpression if answerOption or answerValueSet is already present. [extension('http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-answerExpression').empty().not implies (answerOption.empty() and answerValueSet.empty())]
 WARNING: Questionnaire/WhoCrQuestionnaireCovid19Surveillance: Questionnaire.item[3]: sdc-1: An item cannot have an answerExpression if answerOption or answerValueSet is already present. [extension('http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-answerExpression').empty().not implies (answerOption.empty() and answerValueSet.empty())]
+INFORMATION: Questionnaire/WhoCrQuestionnaireCovid19Surveillance: Questionnaire: Validate resource against profile http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-render - listed in meta
+INFORMATION: Questionnaire/WhoCrQuestionnaireCovid19Surveillance: Questionnaire: Validate resource against profile http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-behave - listed in meta
 INFORMATION: Questionnaire/WhoCrQuestionnaireCovid19Surveillance: Questionnaire: Validate resource against profile http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-extr-defn - listed in meta
 == /home/publisher/ig/fsh-generated/resources/StructureDefinition-WhoCompositionProvenance.json ==
 INFORMATION: StructureDefinition/WhoCompositionProvenance: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+ERROR: StructureDefinition/WhoCompositionProvenance: StructureDefinition.snapshot.element[15].pattern.ofType(CodeableConcept).coding[0]: The Coding references a value set, not a code system ('http://terminology.hl7.org/ValueSet/v3-PurposeOfUse')
+ERROR: StructureDefinition/WhoCompositionProvenance: StructureDefinition.snapshot.element[15].pattern.ofType(CodeableConcept).coding[0]: Invalid System URI: http://terminology.hl7.org/ValueSet/v3-PurposeOfUse - cannot use a value set URI as a system
+INFORMATION: StructureDefinition/WhoCompositionProvenance: StructureDefinition.snapshot.element[15].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'http://terminology.hl7.org/ValueSet/v3-PurposeOfUse' is unknown so the code cannot be validated
+ERROR: StructureDefinition/WhoCompositionProvenance: StructureDefinition.differential.element[2].pattern.ofType(CodeableConcept).coding[0]: The Coding references a value set, not a code system ('http://terminology.hl7.org/ValueSet/v3-PurposeOfUse')
+ERROR: StructureDefinition/WhoCompositionProvenance: StructureDefinition.differential.element[2].pattern.ofType(CodeableConcept).coding[0]: Invalid System URI: http://terminology.hl7.org/ValueSet/v3-PurposeOfUse - cannot use a value set URI as a system
+INFORMATION: StructureDefinition/WhoCompositionProvenance: StructureDefinition.differential.element[2].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'http://terminology.hl7.org/ValueSet/v3-PurposeOfUse' is unknown so the code cannot be validated
 WARNING: StructureDefinition.where(url = 'http://openhie.github.io/covid-19/StructureDefinition/WhoCompositionProvenance'): The Implementation Guide contains no examples for this profile
 == /home/publisher/ig/fsh-generated/resources/StructureDefinition-WhoCrComposition.json ==
 INFORMATION: StructureDefinition/WhoCrComposition: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
@@ -167,11 +175,7 @@ WARNING: StructureDefinition.where(url = 'http://openhie.github.io/covid-19/Stru
 == /home/publisher/ig/fsh-generated/resources/StructureDefinition-WhoCrPatient.json ==
 INFORMATION: StructureDefinition/WhoCrPatient: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 == /home/publisher/ig/fsh-generated/resources/StructureDefinition-WhoCrQuestionnaireResponseCovid19Surveillance.json ==
-WARNING: Who Case Reporting QuestionnaireResponse.QuestionnaireResponse.status: Binding http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetQuestionnaireResponseAcceptedStatus could not be expanded
 INFORMATION: StructureDefinition/WhoCrQuestionnaireResponseCovid19Surveillance: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
-ERROR: StructureDefinition/WhoCrQuestionnaireResponseCovid19Surveillance: StructureDefinition.snapshot.element[14].pattern.ofType(Reference): Unable to resolve resource 'WhoCrPatient'
-ERROR: StructureDefinition/WhoCrQuestionnaireResponseCovid19Surveillance: StructureDefinition.differential.element[3].pattern.ofType(Reference): Unable to resolve resource 'WhoCrPatient'
-WARNING: StructureDefinition/WhoCrQuestionnaireResponseCovid19Surveillance: StructureDefinition: Binding http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetQuestionnaireResponseAcceptedStatus could not be expanded
 WARNING: StructureDefinition.where(url = 'http://openhie.github.io/covid-19/StructureDefinition/WhoCrQuestionnaireResponseCovid19Surveillance'): The Implementation Guide contains no examples for this profile
 == /home/publisher/ig/fsh-generated/resources/StructureDefinition-WhoCrSurveillanceDataDictionary.json ==
 INFORMATION: StructureDefinition/WhoCrSurveillanceDataDictionary: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
@@ -232,8 +236,6 @@ INFORMATION: ValueSet/WhoCrValueSetPregnancyTrimester: ValueSet: Validate resour
 INFORMATION: ValueSet/WhoCrValueSetPregnancyTrimester: ValueSet: Validate resource against profile http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-valueset - listed in meta
 == /home/publisher/ig/fsh-generated/resources/ValueSet-WhoCrValueSetQuestionnaireResponseAcceptedStatus.json ==
 INFORMATION: ValueSet/WhoCrValueSetQuestionnaireResponseAcceptedStatus: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
-WARNING: ValueSet/WhoCrValueSetQuestionnaireResponseAcceptedStatus: ValueSet.compose[0].include[0]: Unknown System specified, so Concepts and Filters can''t be checked
-WARNING: ValueSet.where(id = 'WhoCrValueSetQuestionnaireResponseAcceptedStatus'): Error from server: Unable to provide support for code system http://hl7.org/fhir/ValueSet/questionnaire-answers-status
 == /home/publisher/ig/fsh-generated/resources/ValueSet-WhoCrValueSetReasonForCovid19Testing.json ==
 INFORMATION: ValueSet/WhoCrValueSetReasonForCovid19Testing: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
 INFORMATION: ValueSet/WhoCrValueSetReasonForCovid19Testing: ValueSet: Validate resource against profile http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-valueset - listed in meta

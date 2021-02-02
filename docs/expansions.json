@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "d4aedc79-52fd-49e7-95df-3dbb03b049d8",
+  "id" : "2c8c169b-2ca6-4485-9e96-e0883250e4e6",
   "meta" : {
-    "lastUpdated" : "2021-01-31T04:54:41.270+00:00"
+    "lastUpdated" : "2021-02-02T04:35:51.874+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -23,7 +23,7 @@
       "title" : "List of Administrative Level 1 Names (Province/State/Canton)",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2021-01-31T04:54:41+00:00",
+      "date" : "2021-02-02T04:35:51+00:00",
       "publisher" : "OpenHIE",
       "contact" : [{
         "name" : "OpenHIE",
@@ -46,8 +46,8 @@
           "url" : "http://hl7.org/fhir/StructureDefinition/valueset-toocostly",
           "valueBoolean" : true
         }],
-        "identifier" : "urn:uuid:fc46856c-74f4-4b13-82f2-03acd477bd81",
-        "timestamp" : "2021-01-31T04:55:19+00:00",
+        "identifier" : "urn:uuid:b5e6ae4c-6b41-4199-9774-6568fb1dab2e",
+        "timestamp" : "2021-02-02T04:36:28+00:00",
         "total" : 1000,
         "parameter" : [{
           "name" : "excludeNested",
@@ -5082,7 +5082,7 @@
       "title" : "Patient Age Units",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2021-01-31T04:54:41+00:00",
+      "date" : "2021-02-02T04:35:51+00:00",
       "publisher" : "OpenHIE",
       "contact" : [{
         "name" : "OpenHIE",
@@ -5101,8 +5101,8 @@
       "immutable" : false,
       "copyright" : "2021",
       "expansion" : {
-        "identifier" : "urn:uuid:e5aa4353-cd41-4291-8b75-3ec7762cddee",
-        "timestamp" : "2021-01-31T04:55:20+00:00",
+        "identifier" : "urn:uuid:96ea5cd0-3fd8-4923-8fcf-7b051d1b395e",
+        "timestamp" : "2021-02-02T04:36:28+00:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -5152,7 +5152,7 @@
       "title" : "Comorbidity",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2021-01-31T04:54:41+00:00",
+      "date" : "2021-02-02T04:35:51+00:00",
       "publisher" : "OpenHIE",
       "contact" : [{
         "name" : "OpenHIE",
@@ -5171,8 +5171,8 @@
       "immutable" : false,
       "copyright" : "2021",
       "expansion" : {
-        "identifier" : "urn:uuid:1493a79d-8256-4e28-bd83-fadf24331d6d",
-        "timestamp" : "2021-01-31T04:55:20+00:00",
+        "identifier" : "urn:uuid:7104e9d8-f131-4570-91d4-1562bc339745",
+        "timestamp" : "2021-02-02T04:36:28+00:00",
         "total" : 10,
         "parameter" : [{
           "name" : "excludeNested",
@@ -5253,7 +5253,7 @@
       "title" : "Patient Outcome",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2021-01-31T04:54:41+00:00",
+      "date" : "2021-02-02T04:35:51+00:00",
       "publisher" : "OpenHIE",
       "contact" : [{
         "name" : "OpenHIE",
@@ -5272,8 +5272,8 @@
       "immutable" : false,
       "copyright" : "2021",
       "expansion" : {
-        "identifier" : "urn:uuid:1c3ac93e-1a6e-40e0-a67c-f5bb41d1312d",
-        "timestamp" : "2021-01-31T04:55:20+00:00",
+        "identifier" : "urn:uuid:6d8ebc92-a901-4907-a969-ac14c808b1b3",
+        "timestamp" : "2021-02-02T04:36:28+00:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",
@@ -5324,7 +5324,7 @@
       "title" : "Pregnancy Trimester",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2021-01-31T04:54:41+00:00",
+      "date" : "2021-02-02T04:35:51+00:00",
       "publisher" : "OpenHIE",
       "contact" : [{
         "name" : "OpenHIE",
@@ -5343,8 +5343,8 @@
       "immutable" : false,
       "copyright" : "2021",
       "expansion" : {
-        "identifier" : "urn:uuid:c75ac896-e403-4088-afe1-a0b96fa0d173",
-        "timestamp" : "2021-01-31T04:55:20+00:00",
+        "identifier" : "urn:uuid:040d59bc-3c70-4ea9-a1ec-a08599bada05",
+        "timestamp" : "2021-02-02T04:36:29+00:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -5373,6 +5373,68 @@
     }
   },
   {
+    "fullUrl" : "http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetQuestionnaireResponseAcceptedStatus",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "WhoCrValueSetQuestionnaireResponseAcceptedStatus",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"http://hl7.org/fhir/R4/codesystem-questionnaire-answers-status.html\">QuestionnaireResponseStatus v4.0.1 (CodeSystem)</a></p><p>All codes from system <a href=\"http://hl7.org/fhir/R4/codesystem-questionnaire-answers-status.html\"><code>http://hl7.org/fhir/questionnaire-answers-status</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-questionnaire-answers-status-completed\"> </a><a href=\"http://hl7.org/fhir/R4/codesystem-questionnaire-answers-status.html#questionnaire-answers-status-completed\">completed</a></td><td>Completed</td><td>This QuestionnaireResponse has been filled out with answers and the current content is regarded as definitive.</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-questionnaire-answers-status-amended\"> </a><a href=\"http://hl7.org/fhir/R4/codesystem-questionnaire-answers-status.html#questionnaire-answers-status-amended\">amended</a></td><td>Amended</td><td>This QuestionnaireResponse has been filled out with answers, then marked as complete, yet changes or additions have been made to it afterwards.</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-questionnaire-answers-status-stopped\"> </a><a href=\"http://hl7.org/fhir/R4/codesystem-questionnaire-answers-status.html#questionnaire-answers-status-stopped\">stopped</a></td><td>Stopped</td><td>This QuestionnaireResponse has been partially filled out with answers but has been abandoned. It is unknown whether changes or additions are expected to be made to it.</td></tr></table></div>"
+      },
+      "url" : "http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetQuestionnaireResponseAcceptedStatus",
+      "version" : "0.1.0",
+      "name" : "WhoCrValueSetQuestionnaireResponseAcceptedStatus",
+      "title" : "Who Case Reporting Acceptable QuestionnaireResponse Statuses",
+      "status" : "draft",
+      "experimental" : true,
+      "date" : "2021-02-02T04:35:51+00:00",
+      "publisher" : "OpenHIE",
+      "contact" : [{
+        "name" : "OpenHIE",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "http://www.ohie.org"
+        }]
+      }],
+      "description" : "TODO",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001"
+        }]
+      }],
+      "copyright" : "2021",
+      "expansion" : {
+        "identifier" : "urn:uuid:276559fb-52e0-41c6-ab6c-21717ddbd12e",
+        "timestamp" : "2021-02-02T04:36:29+00:00",
+        "total" : 3,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://hl7.org/fhir/questionnaire-answers-status|4.0.1"
+        }],
+        "contains" : [{
+          "system" : "http://hl7.org/fhir/questionnaire-answers-status",
+          "code" : "completed",
+          "display" : "Completed"
+        },
+        {
+          "system" : "http://hl7.org/fhir/questionnaire-answers-status",
+          "code" : "amended",
+          "display" : "Amended"
+        },
+        {
+          "system" : "http://hl7.org/fhir/questionnaire-answers-status",
+          "code" : "stopped",
+          "display" : "Stopped"
+        }]
+      }
+    }
+  },
+  {
     "fullUrl" : "http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetReasonForCovid19Testing",
     "resource" : {
       "resourceType" : "ValueSet",
@@ -5390,7 +5452,7 @@
       "title" : "Reason for Covid-19 Testing",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2021-01-31T04:54:41+00:00",
+      "date" : "2021-02-02T04:35:51+00:00",
       "publisher" : "OpenHIE",
       "contact" : [{
         "name" : "OpenHIE",
@@ -5409,8 +5471,8 @@
       "immutable" : false,
       "copyright" : "2021",
       "expansion" : {
-        "identifier" : "urn:uuid:0d90455a-d8fc-4390-ae06-da2f3216be4d",
-        "timestamp" : "2021-01-31T04:55:22+00:00",
+        "identifier" : "urn:uuid:7dcf6a06-a200-4871-8cce-4bcad4939f13",
+        "timestamp" : "2021-02-02T04:36:29+00:00",
         "total" : 6,
         "parameter" : [{
           "name" : "excludeNested",
@@ -5471,7 +5533,7 @@
       "title" : "Patient Sex at birth",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2021-01-31T04:54:41+00:00",
+      "date" : "2021-02-02T04:35:51+00:00",
       "publisher" : "OpenHIE",
       "contact" : [{
         "name" : "OpenHIE",
@@ -5490,8 +5552,8 @@
       "immutable" : false,
       "copyright" : "2021",
       "expansion" : {
-        "identifier" : "urn:uuid:2cf54177-96cc-4030-8227-b3a1c1e678d7",
-        "timestamp" : "2021-01-31T04:55:22+00:00",
+        "identifier" : "urn:uuid:66c1f20e-8479-407e-b95e-e88e88b04195",
+        "timestamp" : "2021-02-02T04:36:29+00:00",
         "total" : 2,
         "parameter" : [{
           "name" : "excludeNested",
@@ -5532,7 +5594,7 @@
       "title" : "Report Submitted Yes/No/Partial",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2021-01-31T04:54:41+00:00",
+      "date" : "2021-02-02T04:35:51+00:00",
       "publisher" : "OpenHIE",
       "contact" : [{
         "name" : "OpenHIE",
@@ -5551,8 +5613,8 @@
       "immutable" : false,
       "copyright" : "2021",
       "expansion" : {
-        "identifier" : "urn:uuid:f6faefe5-f192-4e46-8048-785a36aeb111",
-        "timestamp" : "2021-01-31T04:55:22+00:00",
+        "identifier" : "urn:uuid:1c664374-5f07-4c4a-9618-02c4c97d63df",
+        "timestamp" : "2021-02-02T04:36:29+00:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -5602,7 +5664,7 @@
       "title" : "Test Result",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2021-01-31T04:54:41+00:00",
+      "date" : "2021-02-02T04:35:51+00:00",
       "publisher" : "OpenHIE",
       "contact" : [{
         "name" : "OpenHIE",
@@ -5621,8 +5683,8 @@
       "immutable" : false,
       "copyright" : "2021",
       "expansion" : {
-        "identifier" : "urn:uuid:c67d49a2-890a-490a-85bb-97e16142d228",
-        "timestamp" : "2021-01-31T04:55:22+00:00",
+        "identifier" : "urn:uuid:e7dbb1c9-2442-4b81-b812-b3f2413efdbe",
+        "timestamp" : "2021-02-02T04:36:29+00:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -5672,7 +5734,7 @@
       "title" : "Yes/No",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2021-01-31T04:54:41+00:00",
+      "date" : "2021-02-02T04:35:51+00:00",
       "publisher" : "OpenHIE",
       "contact" : [{
         "name" : "OpenHIE",
@@ -5691,8 +5753,8 @@
       "immutable" : false,
       "copyright" : "2021",
       "expansion" : {
-        "identifier" : "urn:uuid:18f93129-83fc-4631-a9a4-cee428e9ce8a",
-        "timestamp" : "2021-01-31T04:55:22+00:00",
+        "identifier" : "urn:uuid:27a33656-a48c-4f18-929e-aa28def49be4",
+        "timestamp" : "2021-02-02T04:36:29+00:00",
         "total" : 2,
         "parameter" : [{
           "name" : "excludeNested",
@@ -5733,7 +5795,7 @@
       "title" : "Yes/No/Unknown",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2021-01-31T04:54:41+00:00",
+      "date" : "2021-02-02T04:35:51+00:00",
       "publisher" : "OpenHIE",
       "contact" : [{
         "name" : "OpenHIE",
@@ -5752,8 +5814,8 @@
       "immutable" : false,
       "copyright" : "2021",
       "expansion" : {
-        "identifier" : "urn:uuid:511d1e77-4e3d-4d3c-ab21-6e981bb47f66",
-        "timestamp" : "2021-01-31T04:55:22+00:00",
+        "identifier" : "urn:uuid:bf174e5c-eb34-4436-9507-769a1fa388de",
+        "timestamp" : "2021-02-02T04:36:29+00:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -5820,8 +5882,8 @@
       "immutable" : false,
       "copyright" : "{{{year}}}",
       "expansion" : {
-        "identifier" : "urn:uuid:13e4c981-0b8e-429e-85a1-4ee12bf2da0b",
-        "timestamp" : "2021-01-31T04:55:35+00:00",
+        "identifier" : "urn:uuid:25e21546-8a39-422c-a1fc-4fb132e74e79",
+        "timestamp" : "2021-02-02T04:36:40+00:00",
         "total" : 250,
         "parameter" : [{
           "name" : "excludeNested",
@@ -7127,8 +7189,8 @@
       "immutable" : false,
       "copyright" : "{{{year}}}",
       "expansion" : {
-        "identifier" : "urn:uuid:92bb4485-a117-4507-b971-16d776ee2f50",
-        "timestamp" : "2021-01-31T04:55:35+00:00",
+        "identifier" : "urn:uuid:3cfc0383-563d-4c89-a36c-9448d37f68ec",
+        "timestamp" : "2021-02-02T04:36:40+00:00",
         "total" : 7,
         "parameter" : [{
           "name" : "excludeNested",
@@ -7215,8 +7277,8 @@
       "immutable" : false,
       "copyright" : "{{{year}}}",
       "expansion" : {
-        "identifier" : "urn:uuid:f0714cfb-7322-4145-99bf-d315c51aeae7",
-        "timestamp" : "2021-01-31T04:55:35+00:00",
+        "identifier" : "urn:uuid:df984a3d-d758-4a56-8296-3dde00b6e9a3",
+        "timestamp" : "2021-02-02T04:36:40+00:00",
         "total" : 11,
         "parameter" : [{
           "name" : "excludeNested",
@@ -7323,8 +7385,8 @@
       "immutable" : false,
       "copyright" : "{{{year}}}",
       "expansion" : {
-        "identifier" : "urn:uuid:b3c9b780-b188-4c5a-8438-fb0ab51100f6",
-        "timestamp" : "2021-01-31T04:55:35+00:00",
+        "identifier" : "urn:uuid:c75c5459-c154-473c-90cc-84e978ec89b8",
+        "timestamp" : "2021-02-02T04:36:40+00:00",
         "total" : 5,
         "parameter" : [{
           "name" : "excludeNested",
@@ -7409,8 +7471,8 @@
           "url" : "http://hl7.org/fhir/StructureDefinition/valueset-toocostly",
           "valueUri" : "http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetAdmin1"
         }],
-        "identifier" : "urn:uuid:6a3077a2-b492-4cb3-9bba-358d10d1472f",
-        "timestamp" : "2021-01-31T04:55:35+00:00",
+        "identifier" : "urn:uuid:75298f09-b878-4851-965a-b1ba6aa38e11",
+        "timestamp" : "2021-02-02T04:36:40+00:00",
         "total" : 1001,
         "parameter" : [{
           "name" : "excludeNested",

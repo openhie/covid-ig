@@ -186,6 +186,7 @@
  <tr><td>&nbsp;&nbsp;&nbsp;occurred[x]</td><td>Event.occurred[x]</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;location</td><td>Event.location</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;reason</td><td>Event.reasonCode</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;reason (reasonPubHealth)</td><td>Event.reasonCode</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;activity</td><td>Event.code</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;agent</td><td>Event.performer</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;type</td><td>Event.performer.function</td> </tr>
@@ -204,6 +205,7 @@
  <tr><td>&nbsp;&nbsp;&nbsp;policy</td><td>./inboundRelationship[isNormalActRelationship() and typeCode=&quot;SUBJ&quot;]/source[isNormalAct and subsumes(POLICY, classCode) and moodCode=EVN]/text[typeCode='ED'/tel</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;location</td><td>unique(./participation[isNormalParticipation() and typeCode=LOC]/role[isNormalRole() and subsumes(SDLOC, classCode)]/player[isNormalEntity and classCode=&quot;LOC&quot; and determinerCode=&quot;INST&quot;]</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;reason</td><td>unique(./reasonCode)</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;reason (reasonPubHealth)</td><td>unique(./reasonCode)</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;activity</td><td>Act.code</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;agent</td><td>./participation[isNormalParticipation()]  OR  ./outboundRelationship[isNormalActRelationship() and typeCode='DRIV']</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id</td><td>n/a</td> </tr>
@@ -237,6 +239,7 @@
  <tr><td>&nbsp;&nbsp;&nbsp;recorded</td><td>Activity.when</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;location</td><td>Activity.location</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;reason</td><td>Activity.Activity</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;reason (reasonPubHealth)</td><td>Activity.Activity</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;activity</td><td>Activity.Activity</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;agent</td><td>Agent</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;type</td><td>Agent.Attribution</td> </tr>
@@ -255,6 +258,7 @@
  <tr><td>&nbsp;&nbsp;&nbsp;recorded</td><td>FiveWs.recorded</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;location</td><td>FiveWs.where[x]</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;reason</td><td>FiveWs.why[x]</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;reason (reasonPubHealth)</td><td>FiveWs.why[x]</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;activity</td><td>FiveWs.why[x]</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;agent</td><td>FiveWs.who</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;who</td><td>FiveWs.actor</td> </tr>
@@ -267,6 +271,7 @@
  <tr><td>&nbsp;&nbsp;&nbsp;policy</td><td>AuditEvent.agent.policy</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;location</td><td>AuditEvent.agent.location</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;reason</td><td>AuditEvent.purposeOfEvent</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;reason (reasonPubHealth)</td><td>AuditEvent.purposeOfEvent</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;agent</td><td>AuditEvent.agent</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;type</td><td>AuditEvent.agent.type</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;role</td><td>AuditEvent.agent.role</td> </tr>
@@ -328,7 +333,7 @@
     <div class="container">  <!-- container -->
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2020+ <a style="color: #81BEF7" href="http://www.ohie.org">OpenHIE</a>.  Package who.cr.covid19#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sun, Jan 31, 2021 04:54+0000">2021-01-31</span>
+          IG &#169; 2020+ <a style="color: #81BEF7" href="http://www.ohie.org">OpenHIE</a>.  Package who.cr.covid19#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Feb 2, 2021 04:35+0000">2021-02-02</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |

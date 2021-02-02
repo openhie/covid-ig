@@ -45,8 +45,17 @@ dateTime {[]} {[]}","When the activity occurred","The period during which the ac
 "Provenance.location","","","",0,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Location]]}
 ","Where the activity occurred, if relevant","Where the activity occurred, if relevant.","","","","","","","","","",,,,,"",,,,"Provenance.location",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Event.location","unique(./participation[isNormalParticipation() and typeCode=LOC]/role[isNormalRole() and subsumes(SDLOC, classCode)]/player[isNormalEntity and classCode=""LOC"" and determinerCode=""INST""]","Activity.location","FiveWs.where[x]","AuditEvent.agent.location"
-"Provenance.reason","","","",0,*,"","","","CodeableConcept {[]} {[]}
-","Reason the activity is occurring","The reason that the activity was taking place.","","","","","","","","","",,"extensible","The reason the activity took place.","http://terminology.hl7.org/ValueSet/v3-PurposeOfUse","",,,,"Provenance.reason",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+"Provenance.reason","","","",1,*,"","","","CodeableConcept {[]} {[]}
+","Reason the activity is occurring","The reason that the activity was taking place.","","","","","","","","","",,"extensible","The reason the activity took place.","http://terminology.hl7.org/ValueSet/v3-PurposeOfUse","","pattern:role}
+","",,"open","Provenance.reason",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Event.reasonCode","unique(./reasonCode)","Activity.Activity","FiveWs.why[x]","AuditEvent.purposeOfEvent"
+"Provenance.reason","reasonPubHealth","","",1,*,"","","","CodeableConcept {[]} {[]}
+","Reason the activity is occurring","The reason that the activity was taking place.","","","","","","<valueCodeableConcept xmlns=""http://hl7.org/fhir"">
+  <coding>
+    <system value=""http://terminology.hl7.org/ValueSet/v3-PurposeOfUse""/>
+    <code value=""PUBHLTH""/>
+  </coding>
+</valueCodeableConcept>","","","",,"extensible","The reason the activity took place.","http://terminology.hl7.org/ValueSet/v3-PurposeOfUse","",,,,"Provenance.reason",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Event.reasonCode","unique(./reasonCode)","Activity.Activity","FiveWs.why[x]","AuditEvent.purposeOfEvent"
 "Provenance.activity","","","",0,1,"","","","CodeableConcept {[]} {[]}
 ","Activity that occurred","An activity is something that occurs over a period of time and acts upon or with entities; it may include consuming, processing, transforming, modifying, relocating, using, or generating entities.","","","","","","","","","",,"extensible","The activity that took place.","http://hl7.org/fhir/ValueSet/provenance-activity-type","",,,,"Provenance.activity",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
