@@ -6,7 +6,8 @@ Title:      "WHO Case Reporting Composition"
 * insert PublisherContextDefinitional
 * type = $LNC#95412-3
 * category = $LNC#55751-2
-// * subject only Reference(WhoCrPatient)
+
+* subject only Reference(WhoCrPatient)
 // * encounter
 // * author
 // * title

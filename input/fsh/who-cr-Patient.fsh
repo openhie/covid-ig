@@ -4,6 +4,7 @@ Description: "WHO Case Reporting Patient"
 Title:      "WHO Case Reporting Patient"
 
 * insert PublisherContextDefinitional
+
 // * extension contains $ext-us-birthsex named birthSex 1..1
 // * address ^slicing.discriminator.type = #value
 // * address ^slicing.discriminator.path = "use"
