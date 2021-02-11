@@ -3,14 +3,14 @@
   "id": "WhoCrConceptMapComorbidityToLoinc",
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>WhoCrConceptMapComorbidityToLoinc (http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapComorbidityToLoinc)</h2><p>Mapping from <a href=\"CodeSystem-WhoCrCodeSystemComorbidity.html\">http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemComorbidity</a> to <a href=\"http://terminology.hl7.org/2.0.0/CodeSystem-v3-loinc.html\">http://loinc.org</a></p><p>DRAFT (not intended for production usage). Published on Feb 2, 2021, 4:35:51 AM by OpenHIE (OpenHIE: <a href=\"http://www.ohie.org\">http://www.ohie.org</a>). 2021</p><br/><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Destination Code</b></td></tr><tr><td>IMMUNODEFICIENCY</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#relatedto\">is related to</a></td><td>96381-9</td></tr></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>WhoCrConceptMapComorbidityToLoinc (http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapComorbidityToLoinc)</h2><p>Mapping from <a href=\"CodeSystem-WhoCrCodeSystemComorbidity.html\">http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemComorbidity</a> to <a href=\"http://terminology.hl7.org/2.0.0/CodeSystem-v3-loinc.html\">http://loinc.org</a></p><p>DRAFT (not intended for production usage). Published on Feb 11, 2021, 5:12:53 PM by OpenHIE (OpenHIE: <a href=\"http://www.ohie.org\">http://www.ohie.org</a>). 2021</p><br/><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Destination Code</b></td></tr><tr><td>IMMUNODEFICIENCY</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#relatedto\">is related to</a></td><td>96381-9</td></tr></table></div>"
   },
   "url": "http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapComorbidityToLoinc",
   "version": "0.1.0",
   "name": "WhoCrConceptMapComorbidityToLoinc",
   "status": "draft",
   "experimental": true,
-  "date": "2021-02-02T04:35:51+00:00",
+  "date": "2021-02-11T17:12:53+00:00",
   "publisher": "OpenHIE",
   "contact": [
     {
