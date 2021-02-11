@@ -1,69 +1,64 @@
 
 Instance: WhoCrValueSetQuestionnaireCountry
-InstanceOf: ValueSet
+InstanceOf: $prof-sdc-valueset
 Description: "TODO"
 Title: "TODO"
 Usage: #inline
 * insert PublisherContextInstance
 * name = "WhoCrValueSetQuestionnaireCountry"
 
-* meta.profile[0] = Canonical(http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-valueset)
 * immutable = false
 
 * compose.include[0].valueSet = Canonical($vs-iso3166-1-2)
 * compose.include[1].system = Canonical(WhoCrCodeSystemQuestionnaireChoice)
 
 Instance: WhoCrValueSetQuestionnaireReasonForTesting
-InstanceOf: ValueSet
+InstanceOf: $prof-sdc-valueset
 Description: "TODO"
 Title: "TODO"
 Usage: #inline
 * insert PublisherContextInstance
 * name = "WhoCrValueSetQuestionnaireReasonForTesting"
 
-* meta.profile[0] = Canonical(http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-valueset)
 * immutable = false
 
 * compose.include[0].system = Canonical(WhoCrCodeSystemReasonForTesting)
 * compose.include[1].system = Canonical(WhoCrCodeSystemQuestionnaireChoice)
 
 Instance: WhoCrValueSetQuestionnaireComorbidity
-InstanceOf: ValueSet
+InstanceOf: $prof-sdc-valueset
 Description: "TODO"
 Title: "TODO"
 Usage: #inline
 * insert PublisherContextInstance
 * name = "WhoCrValueSetQuestionnaireComorbidity"
 
-* meta.profile[0] = Canonical(http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-valueset)
 * immutable = false
 
 * compose.include[0].system = Canonical(WhoCrCodeSystemComorbidity)
 * compose.include[1].system = Canonical(WhoCrCodeSystemQuestionnaireChoice)
 
 Instance: WhoCrValueSetQuestionnairePatientOutcome
-InstanceOf: ValueSet
+InstanceOf: $prof-sdc-valueset
 Description: "TODO"
 Title: "TODO"
 Usage: #inline
 * insert PublisherContextInstance
 * name = "WhoCrValueSetQuestionnairePatientOutcome"
 
-* meta.profile[0] = Canonical(http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-valueset)
 * immutable = false
 
 * compose.include[0].valueSet = Canonical(WhoCrValueSetPatientOutcome)
 * compose.include[1].system = Canonical(WhoCrCodeSystemQuestionnaireChoice)
 
 Instance: WhoCrValueSetQuestionnaireAdmin1
-InstanceOf: ValueSet
+InstanceOf: $prof-sdc-valueset
 Description: "TODO"
 Title: "TODO"
 Usage: #inline
 * insert PublisherContextInstance
 * name = "WhoCrValueSetQuestionnaireAdmin1"
 
-* meta.profile[0] = Canonical(http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-valueset)
 * immutable = false
 
 * compose.include[0].valueSet = Canonical($vs-iso3166-2)
@@ -71,7 +66,7 @@ Usage: #inline
 
 
 Instance: WhoCrQuestionnaireCovid19Surveillance
-InstanceOf: Questionnaire
+InstanceOf: $prof-sdc-questionnaire-base
 Description: "TODO"
 Title: "Revised case report form for Confirmed Novel Coronavirus COVID-19"
 Usage: #definition
@@ -82,6 +77,8 @@ Usage: #definition
 * subjectType = #Patient
 * url = "http://openhie.github.io/covid-19/Questionnaire/WhoCrQuestionnaireCovid19Surveillance"
 
+// extension[$ext-sdc-questionnaire-itemExtractionContext].valueExpression.
+
 // TODO: review SDC supplemental profiles (http://build.fhir.org/ig/HL7/sdc/intro.html)
 * contained[+] = WhoCrValueSetQuestionnaireCountry
 * contained[+] = WhoCrValueSetQuestionnaireReasonForTesting
@@ -89,8 +86,10 @@ Usage: #definition
 * contained[+] = WhoCrValueSetQuestionnairePatientOutcome
 * contained[+] = WhoCrValueSetQuestionnaireAdmin1
 
-* meta.profile[+] = Canonical(http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire)
-* meta.profile[+] = Canonical(http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-extr-defn)
+* meta.profile[+] = $prof-sdc-questionnaire-base
+* meta.profile[+] = $prof-sdc-questionnaire-adv-render
+* meta.profile[+] = $prof-sdc-questionnaire-adv-behave
+* meta.profile[+] = $prof-sdc-questionnaire-extract-definition
 
 * item[+].linkId    = "instruction"
 * item[=].text    = "Report to WHO within 48 hours of case identification"
@@ -107,7 +106,7 @@ Usage: #definition
 * item[2].code    = $LNC#77983-5
 // * item[2].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.report.country"
 * item[2].type    = #choice
-* item[2].answerValueSet    = "#WhoCrValueSetQuestionnaireCountry"
+* item[2].answerValueSet    = Canonical(WhoCrValueSetQuestionnaireCountry)
 
 * item[2].item[0].linkId = "report_country_other"
 * item[2].item[0].text = "If Other, please specify:"
@@ -124,7 +123,7 @@ Usage: #definition
 // * item[3].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.report.testReason"
 * item[3].repeats = true
 * item[3].type    = #choice
-* item[3].answerValueSet = "#WhoCrValueSetQuestionnaireReasonForTesting"
+* item[3].answerValueSet = Canonical(WhoCrValueSetQuestionnaireReasonForTesting)
 
 * item[3].item[0].linkId = "report_test_reason_other"
 * item[3].item[0].text = "If Other, please specify:"
@@ -173,7 +172,7 @@ Usage: #definition
 * item[4].item[3].item[0].code    = $LNC#96546-7
 // * item[4].item[3].item[0].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.patientInfo.identified.country"
 * item[4].item[3].item[0].type    = #choice
-* item[4].item[3].item[0].answerValueSet    = "#WhoCrValueSetQuestionnaireCountry"
+* item[4].item[3].item[0].answerValueSet    = Canonical(WhoCrValueSetQuestionnaireCountry)
 
 * item[4].item[3].item[0].item[0].linkId = "patinfo_idadmin0_other"
 * item[4].item[3].item[0].item[0].text = "If Other, please specify:"
@@ -189,7 +188,7 @@ Usage: #definition
 * item[4].item[3].item[0].item[1].code    = $LNC#96547-5
 // * item[4].item[3].item[0].item[1].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.patientInfo.identified.subnational"
 * item[4].item[3].item[0].item[1].type    = #choice
-* item[4].item[3].item[0].item[1].answerValueSet    = "#WhoCrValueSetQuestionnaireAdmin1"
+* item[4].item[3].item[0].item[1].answerValueSet    = Canonical(WhoCrValueSetQuestionnaireAdmin1)
 * item[4].item[3].item[0].item[1].enableWhen[0].question = "patinfo_idadmin0"
 * item[4].item[3].item[0].item[1].enableWhen[0].operator = #exists
 * item[4].item[3].item[0].item[1].enableWhen[0].answerBoolean = true
@@ -212,7 +211,7 @@ Usage: #definition
 * item[4].item[4].item[0].code    = $LNC#77983-5
 // * item[4].item[4].item[0].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.patientInfo.residence.country"
 * item[4].item[4].item[0].type    = #choice
-* item[4].item[4].item[0].answerValueSet    = "#WhoCrValueSetQuestionnaireCountry"
+* item[4].item[4].item[0].answerValueSet    = Canonical(WhoCrValueSetQuestionnaireCountry)
 
 * item[4].item[4].item[0].item[0].linkId = "patinfo_resadmin0_other"
 * item[4].item[4].item[0].item[0].text = "If Other, please specify:"
@@ -277,7 +276,7 @@ Usage: #definition
 // * item[5].item[2].item[1].item[0].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.clinicalStatus.comorbidities.present"
 * item[5].item[2].item[1].item[0].repeats = true
 * item[5].item[2].item[1].item[0].type    = #choice
-* item[5].item[2].item[1].item[0].answerValueSet = "#WhoCrValueSetQuestionnaireComorbidity"
+* item[5].item[2].item[1].item[0].answerValueSet = Canonical(WhoCrValueSetQuestionnaireComorbidity)
 
 * item[5].item[2].item[1].item[0].item[0].linkId  = "comorbidity_other"  
 * item[5].item[2].item[1].item[0].item[0].text    = "If Other, please specify:"
@@ -394,7 +393,7 @@ Usage: #definition
 * item[6].item[0].item[0].item[0].item[0].code    = $LNC#80437-7
 // * item[6].item[0].item[0].item[0].item[0].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.exposure.patientInfo.hcw.workFacility.country"
 * item[6].item[0].item[0].item[0].item[0].type    = #choice
-* item[6].item[0].item[0].item[0].item[0].answerValueSet    = "#WhoCrValueSetQuestionnaireCountry"
+* item[6].item[0].item[0].item[0].item[0].answerValueSet    = Canonical(WhoCrValueSetQuestionnaireCountry)
 
 * item[6].item[0].item[0].item[0].item[0].item[0].linkId = "patinfo_occuhcw_country_other"
 * item[6].item[0].item[0].item[0].item[0].item[0].text = "If Other, please specify:"
@@ -437,7 +436,7 @@ Usage: #definition
 * item[6].item[1].item[0].item[0].code    = $LNC#94651-7
 // * item[6].item[1].item[0].item[0].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.exposure.travel.location.country"
 * item[6].item[1].item[0].item[0].type    = #choice
-* item[6].item[1].item[0].item[0].answerValueSet    = "#WhoCrValueSetQuestionnaireCountry"
+* item[6].item[1].item[0].item[0].answerValueSet    = Canonical(WhoCrValueSetQuestionnaireCountry)
 
 * item[6].item[1].item[0].item[0].item[0].linkId = "expo_travel_country_other"
 * item[6].item[1].item[0].item[0].item[0].text = "If Other, please specify:"
@@ -516,7 +515,7 @@ Usage: #definition
 * item[6].item[4].code    = $LNC#77984-3
 // * item[6].item[4].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.exposure.contact.country"
 * item[6].item[4].type    = #choice
-* item[6].item[4].answerValueSet    = "#WhoCrValueSetQuestionnaireCountry"
+* item[6].item[4].answerValueSet    = Canonical(WhoCrValueSetQuestionnaireCountry)
 
 * item[6].item[4].item[0].linkId = "expo_case_location_other"
 * item[6].item[4].item[0].text = "If Other, please specify:"
@@ -615,7 +614,7 @@ Usage: #definition
 * item[7].item[5].code    = $LNC#91541-3
 // * item[7].item[5].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.outcome.patientCourse.status"
 * item[7].item[5].type    = #choice
-* item[7].item[5].answerValueSet = "#WhoCrValueSetQuestionnairePatientOutcome"
+* item[7].item[5].answerValueSet = Canonical(WhoCrValueSetQuestionnairePatientOutcome)
 
 * item[7].item[5].item[0].linkId  = "outcome_patcourse_status_other"
 * item[7].item[5].item[0].text    = "If other, please explain:"
@@ -666,3 +665,6 @@ Usage: #definition
 * item[7].item[9].code    = $LNC#96551-7
 // * item[7].item[9].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.outcome.contacts.countUnknown"
 * item[7].item[9].type    = #boolean 
+
+
+
