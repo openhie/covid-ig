@@ -24,3 +24,29 @@ Usage:          #example
 // * extension[birthSex].valueCode = #F
 * address[0].use = #home
 * address[0].country = $cs-iso3166-1#URY
+
+Profile: Covid19Patient
+Parent: Patient
+Id: covid19-Patient
+Title: "COVID-19 Lab Result Patient"
+Description: "Defines a patient profile for the COVID-19 Lab Result"
+* identifier 1..1 MS
+* name 1..1 MS
+* name.family 1..1 MS
+* name.given 1..* MS
+* gender 1..1 MS
+* birthDate 1..1 MS
+* address 1..1 MS
+* address.district 1..1 MS
+
+Instance: Covid19PatientExample
+InstanceOf: Patient
+Usage: #example
+Title: "COVID-19 Lab Result Patient"
+Description: "COVID-19 Patient example"
+* identifier.value = "12345"
+* name.family = "Doe"
+* name.given = "John"
+* gender = #male
+* birthDate = "1981-05-21"
+* address.district = "KZN"
