@@ -34,10 +34,9 @@ Usage: #definition
 * item[2].item[1].type = #string
 
 * item[2].item[2].linkId = "patinfo_idadmin1"
-* item[2].item[2].text = "Patient Country "
-* item[2].item[2].type = #choice
-* item[2].item[2].code = $LNC#96546-7
-* item[2].item[2].answerValueSet = "#WhoCrValueSetQuestionnaireCountry"
+* item[2].item[2].text = "Patient County "
+* item[2].item[2].type = #string
+* item[2].item[2].code = $LNC#52830-7
 
 * item[2].item[3].linkId = "patinfo_dob"
 * item[2].item[3].text = "Date of Birth"
