@@ -49,4 +49,4 @@ Description: "COVID-19 Patient example"
 * name.given = "John"
 * gender = #male
 * birthDate = "1981-05-21"
-* address.district = "KZN"
+* address.district = "City of Cape Town"
