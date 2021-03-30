@@ -56,4 +56,3 @@ Description: "Questionnaire response example for Covid19 lab result"
 * item[+].linkId = "specimen_type"
 * item[=].text = "Sample Type"
 * item[=].answer[+].valueString = "Respiratory Swab"
-
