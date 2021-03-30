@@ -29,6 +29,10 @@ Description: "Questionnaire response example for Covid19 lab result"
 * item[=].item[=].text = "Patient Name"
 * item[=].item[=].answer[+].valueString = "Rob Stark"
 
+* item[=].item[+].linkId = "patinfo_idadmin1"
+* item[=].item[=].text = "Patient County "
+* item[=].item[=].answer[+].valueString = "City of Cape Town"
+
 * item[=].item[+].linkId = "patinfo_dob"
 * item[=].item[=].text = "Date of Birth"
 * item[=].item[=].answer[+].valueDate = "2021-01-20"
