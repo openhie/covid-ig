@@ -9,6 +9,7 @@ Description: "Defines a diagnostic report profile for the COVID-19 Lab Result"
 * specimen 1..1 MS
 * performer 1..1 MS
 * subject 1..1 MS
+* encounter 1..1 MS
 
 Instance: Covid19LabDiagnosticReportExample
 InstanceOf: Covid19LabResult
@@ -30,3 +31,4 @@ Description: "COVID-19 Patient example"
 * specimen = Reference(Covid19Specimen/example)
 * performer = Reference(WhoCrPractitionerExample)
 * subject = Reference(Covid19PatientExample)
+* encounter = Reference(Covid19OrderingClinicPatientEncounterExample)
