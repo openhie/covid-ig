@@ -40,7 +40,7 @@ Description: "Defines a patient profile for the COVID-19 Lab Result"
 * address.district 1..1 MS
 
 Instance: Covid19PatientExample
-InstanceOf: Patient
+InstanceOf: Covid19Patient
 Usage: #example
 Title: "COVID-19 Lab Result Patient"
 Description: "COVID-19 Patient example"

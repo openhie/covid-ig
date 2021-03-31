@@ -1,6 +1,6 @@
 Profile: Covid19LabResult
 Parent: DiagnosticReport
-Id: covid19-lab-report
+Id: covid19-lab-result-report
 Title: "COVID-19 Lab Result"
 Description: "Defines a diagnostic report profile for the COVID-19 Lab Result"
 * identifier 1..1 MS
@@ -11,7 +11,7 @@ Description: "Defines a diagnostic report profile for the COVID-19 Lab Result"
 * subject 1..1 MS
 
 Instance: Covid19LabDiagnosticReportExample
-InstanceOf: DiagnosticReport
+InstanceOf: Covid19LabResult
 Usage: #example
 Title: "COVID-19 Lab Result example"
 Description: "COVID-19 Patient example"
