@@ -113,7 +113,7 @@ Usage: #definition
 * differential.element[3].mapping[0].identity = "WhoCrDataDictionarySpreadsheet"
 * differential.element[3].mapping[0].map = "report_country"
 * differential.element[3].mapping[1].identity = "LOINC"
-* differential.element[3].mapping[1].map = $LNC#77983-5
+* differential.element[3].mapping[1].map = $LNC#96546-7
 * differential.element[3].mapping[1].comment = "TODO: The definition appears almost the same as patientInfo.residence.admin0. Confirm with WHO."
 * differential.element[3].mapping[2].identity = "CIEL"
 * differential.element[3].mapping[2].map = $CIEL#165847
@@ -285,7 +285,7 @@ Usage: #definition
 * differential.element[10].mapping[0].identity = "WhoCrDataDictionarySpreadsheet"
 * differential.element[10].mapping[0].map = "patinfo_idadmin0"
 * differential.element[10].mapping[1].identity = "LOINC"
-* differential.element[10].mapping[1].map = $LNC#96546-7
+* differential.element[10].mapping[1].map = $LNC#77983-5
 * differential.element[10].mapping[2].identity = "CIEL"
 * differential.element[10].mapping[2].map = "TODO"
 * differential.element[10].mapping[3].identity = "ICD10"
