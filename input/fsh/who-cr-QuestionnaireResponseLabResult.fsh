@@ -11,52 +11,52 @@ Description: "Questionnaire response example for Covid19 lab result"
 * author = Reference(WhoCrPractitionerExample)
 
 * item[+].linkId = "labreport_ID"
-* item[=].text = "Unique lab result identifier"
+* item[=].text = "Unique lab result identifier:"
 * item[=].answer[+].valueString = "123456789"
 
 * item[+].linkId = "testLab_id"
-* item[=].text = "Lab that conducted the test"
+* item[=].text = "Lab that conducted the test:"
 * item[=].answer[+].valueString = "123456789"
 
 * item[+].linkId = "section_patient_info"
 * item[=].text = "Patient information"
 
 * item[=].item[+].linkId = "patinfo_ID"
-* item[=].item[=].text = "Patient unique ID"
+* item[=].item[=].text = "Patient unique ID:"
 * item[=].item[=].answer[+].valueString = "123456789"
 
 * item[=].item[+].linkId = "patinfo_name"
-* item[=].item[=].text = "Patient Name"
+* item[=].item[=].text = "Patient Name:"
 * item[=].item[=].answer[+].valueString = "Rob Stark"
 
 * item[=].item[+].linkId = "patinfo_idadmin1"
-* item[=].item[=].text = "Patient County "
+* item[=].item[=].text = "Patient County:"
 * item[=].item[=].answer[+].valueString = "City of Cape Town"
 
 * item[=].item[+].linkId = "patinfo_dob"
-* item[=].item[=].text = "Date of Birth"
+* item[=].item[=].text = "Date of Birth:"
 * item[=].item[=].answer[+].valueDate = "2021-01-20"
 
 * item[=].item[+].linkId = "patinfo_sex"
-* item[=].item[=].text = "Sex at birth"
+* item[=].item[=].text = "Sex at birth:"
 * item[=].item[=].answer[+].valueCoding = $cs-gender#male
 
 * item[+].linkId = "Lab_date1"
-* item[=].text = "Lab Confirmation Test Date"
+* item[=].text = "Lab Confirmation Test Date:"
 * item[=].answer[+].valueDate = "2021-01-20"
 
 * item[+].linkId = "test_result"
-* item[=].text = "Overall Result"
+* item[=].text = "Overall Result:"
 * item[=].answer[+].valueString = "Positive"
 
 * item[+].linkId = "ordering_clinic"
-* item[=].text = "Clinic that requested the test"
+* item[=].text = "Clinic that requested the test:"
 * item[=].answer[+].valueString = "KEMRI Clinic"
 
 * item[+].linkId = "test_type"
-* item[=].text = "Type of Test"
+* item[=].text = "Type of Test:"
 * item[=].answer[+].valueString = "COVID-19 PCR TEST"
 
 * item[+].linkId = "specimen_type"
-* item[=].text = "Sample Type"
+* item[=].text = "Sample Type:"
 * item[=].answer[+].valueString = "Respiratory Swab"

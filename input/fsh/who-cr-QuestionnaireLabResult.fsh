@@ -10,13 +10,13 @@ Usage: #definition
 * status = #active
 
 * item[0].linkId = "labreport_ID"
-* item[0].text = "Unique lab result identifier"
+* item[0].text = "Unique lab result identifier:"
 * item[0].code = $LNC#94659-0
 * item[0].type = #string
 * item[0].required = true
 
 * item[1].linkId = "testLab_id"
-* item[1].text = "Lab that conducted the test"
+* item[1].text = "Lab that conducted the test:"
 * item[1].code = $LNC#94659-0
 * item[1].type = #string
 * item[1].required = true
@@ -28,24 +28,24 @@ Usage: #definition
 * item[2].required = true
 
 * item[2].item[0].linkId = "patinfo_ID"
-* item[2].item[0].text = "Patient unique ID"
+* item[2].item[0].text = "Patient unique ID:"
 * item[2].item[0].type = #string
 * item[2].item[0].code = $LNC#94659-0
 * item[2].item[0].required = true
 
 * item[2].item[1].linkId = "patinfo_name"
-* item[2].item[1].text = "Patient name"
+* item[2].item[1].text = "Patient name:"
 * item[2].item[1].type = #string
 * item[2].item[1].required = true
 
 * item[2].item[2].linkId = "patinfo_idadmin1"
-* item[2].item[2].text = "Patient County "
+* item[2].item[2].text = "Patient County:"
 * item[2].item[2].type = #string
 * item[2].item[2].code = $LNC#52830-7
 * item[2].item[2].required = true
 
 * item[2].item[3].linkId = "patinfo_dob"
-* item[2].item[3].text = "Date of Birth"
+* item[2].item[3].text = "Date of Birth:"
 * item[2].item[3].type = #date
 * item[2].item[3].code = $LNC#21112-8
 * item[2].item[3].required = true
@@ -58,29 +58,29 @@ Usage: #definition
 * item[2].item[4].required = true
 
 * item[3].linkId = "Lab_date1"
-* item[3].text = "Lab Confirmation Test Date"
+* item[3].text = "Lab Confirmation Test Date:"
 * item[3].type = #date
 * item[3].required = true
 
 * item[4].linkId = "test_result"
-* item[4].text = "Overall Result"
+* item[4].text = "Overall Result:"
 * item[4].type = #string
 * item[4].code = $LNC#94500-6
 * item[4].required = true
 
 * item[5].linkId = "ordering_clinic"
-* item[5].text = "Clinic that requested the test"
+* item[5].text = "Clinic that requested the test:"
 * item[5].type = #string
 * item[5].code = $LNC#76696-4
 * item[5].required = true
 
 * item[6].linkId = "test_type"
-* item[6].text = "Type of Test"
+* item[6].text = "Type of Test:"
 * item[6].type = #string
 * item[6].code = $LNC#76696-4
 * item[6].required = true
 
 * item[7].linkId = "specimen_type"
-* item[7].text = "Sample type"
+* item[7].text = "Sample type:"
 * item[7].type = #string
 * item[7].required = true
