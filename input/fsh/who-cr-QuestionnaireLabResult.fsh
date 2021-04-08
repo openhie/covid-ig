@@ -56,30 +56,35 @@ Usage: #definition
 * item[2].item[4].answerValueSet = Canonical(WhoCrValueSetSexAtBirth)
 * item[2].item[4].required = true
 
-* item[3].linkId = "Lab_date1"
-* item[3].text = "Lab Confirmation Test Date:"
-* item[3].type = #date
-* item[3].required = true
+* item[3].linkId = "section_lab_test_info"
+* item[3].prefix = "Section 2"
+* item[3].text = "Lab test information"
+* item[3].type = #group
 
-* item[4].linkId = "test_result"
-* item[4].text = "Overall Result:"
-* item[4].type = #string
-* item[4].code = $LNC#94500-6
-* item[4].required = true
+* item[3].item[0].linkId = "Lab_date1"
+* item[3].item[0].text = "Lab Confirmation Test Date:"
+* item[3].item[0].type = #date
+* item[3].item[0].required = true
 
-* item[5].linkId = "ordering_clinic"
-* item[5].text = "Clinic that requested the test:"
-* item[5].type = #string
-* item[5].code = $LNC#76696-4
-* item[5].required = true
+* item[3].item[1].linkId = "test_result"
+* item[3].item[1].text = "Overall Result:"
+* item[3].item[1].type = #string
+* item[3].item[1].code = $LNC#94500-6
+* item[3].item[1].required = true
 
-* item[6].linkId = "test_type"
-* item[6].text = "Type of Test:"
-* item[6].type = #string
-* item[6].code = $LNC#76696-4
-* item[6].required = true
+* item[3].item[2].linkId = "ordering_clinic"
+* item[3].item[2].text = "Clinic that requested the test:"
+* item[3].item[2].type = #string
+* item[3].item[2].code = $LNC#76696-4
+* item[3].item[2].required = true
 
-* item[7].linkId = "specimen_type"
-* item[7].text = "Sample type:"
-* item[7].type = #string
-* item[7].required = true
+* item[3].item[3].linkId = "test_type"
+* item[3].item[3].text = "Type of Test:"
+* item[3].item[3].type = #string
+* item[3].item[3].code = $LNC#76696-4
+* item[3].item[3].required = true
+
+* item[8].linkId = "specimen_type"
+* item[8].text = "Sample type:"
+* item[8].type = #string
+* item[8].required = true
