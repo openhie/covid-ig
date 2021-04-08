@@ -81,11 +81,11 @@ Usage: #definition
 * item[3].item[3].linkId = "test_type"
 * item[3].item[3].text = "Type of Test:"
 * item[3].item[3].type = #string
-* item[3].item[3].code = $LNC#76696-4
+* item[3].item[3].code = $LNC#85069-3
 * item[3].item[3].required = true
 
-* item[8].linkId = "specimen_type"
-* item[8].text = "Sample type:"
-* item[8].type = #string
-* item[8].code = $LNC#66746-9
-* item[8].required = true
+* item[3].item[4].linkId = "specimen_type"
+* item[3].item[4].text = "Sample type:"
+* item[3].item[4].type = #string
+* item[3].item[4].code = $LNC#66746-9
+* item[3].item[4].required = true
