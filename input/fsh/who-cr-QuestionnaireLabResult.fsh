@@ -25,7 +25,6 @@ Usage: #definition
 * item[2].prefix = "Section 1"
 * item[2].text = "Patient information"
 * item[2].type = #group
-* item[2].required = true
 
 * item[2].item[0].linkId = "patinfo_ID"
 * item[2].item[0].text = "Patient unique ID:"
