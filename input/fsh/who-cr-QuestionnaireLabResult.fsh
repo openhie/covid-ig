@@ -87,4 +87,5 @@ Usage: #definition
 * item[8].linkId = "specimen_type"
 * item[8].text = "Sample type:"
 * item[8].type = #string
+* item[8].code = $LNC#66746-9
 * item[8].required = true
