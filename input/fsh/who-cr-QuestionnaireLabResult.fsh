@@ -40,7 +40,7 @@ Usage: #definition
 * item[2].item[2].linkId = "patinfo_idadmin1"
 * item[2].item[2].text = "Patient County:"
 * item[2].item[2].type = #string
-* item[2].item[2].code = $LNC#52830-7
+* item[2].item[2].code = $LNC#96547-5
 * item[2].item[2].required = true
 
 * item[2].item[3].linkId = "patinfo_dob"
