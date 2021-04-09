@@ -11,7 +11,7 @@ Usage: #definition
 
 * item[0].linkId = "labreport_ID"
 * item[0].text = "Unique lab result identifier:"
-* item[0].code = $LNC#94659-0
+* item[0].code = $LNC#30896-5
 * item[0].type = #string
 * item[0].required = true
 
