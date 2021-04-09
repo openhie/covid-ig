@@ -69,7 +69,7 @@ Usage: #definition
 * item[3].item[1].linkId = "test_result"
 * item[3].item[1].text = "Overall Result:"
 * item[3].item[1].type = #string
-* item[3].item[1].code = $LNC#94500-6
+* item[3].item[1].code = $LNC#19146-0
 * item[3].item[1].required = true
 
 * item[3].item[2].linkId = "ordering_clinic"
