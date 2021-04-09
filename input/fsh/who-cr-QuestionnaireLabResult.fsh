@@ -17,7 +17,7 @@ Usage: #definition
 
 * item[1].linkId = "testLab_id"
 * item[1].text = "Lab that conducted the test:"
-* item[1].code = $LNC#94659-0
+* item[1].code = $LNC#91562-9
 * item[1].type = #string
 * item[1].required = true
 
