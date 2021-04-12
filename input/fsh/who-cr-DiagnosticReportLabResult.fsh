@@ -18,15 +18,11 @@ Title: "COVID-19 Lab Result example"
 Description: "COVID-19 Patient example"
 * identifier.system = "http://example.org/"
 * identifier.value = "12345"
-* conclusionCode.coding[0].system = "http://example.org/"
-* conclusionCode.coding[0].code = $LNC#94500-6
+* conclusionCode.coding[0] = $LNC#94500-6 "Negative"
 * status = #final
-* code = $LNC#10207-9
-* conclusionCode.coding[0].display = "Negative"
+* code = $LNC#11502-2 "Laboratory report"
 * conclusionCode.text = "Negative result for Covid19"
-* category.coding[0].system = "http://example.org/"
-* category.coding[0].code = $LNC#94500-6
-* category.coding[0].display = "Laboratory"
+* category.coding[0] = $LNC#94500-6 "Laboratory"
 * category.text = "Covid19 Laboratory"
 * specimen = Reference(Covid19Specimen/example)
 * performer = Reference(WhoCrPractitionerExample)
