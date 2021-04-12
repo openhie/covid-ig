@@ -32,11 +32,9 @@ Id: covid19-Patient
 Title: "COVID-19 Lab Result Patient"
 Description: "Defines a patient profile for the COVID-19 Lab Result"
 * identifier 1..1 MS
-* name 1..1 MS
-* name.family 1..1 MS
-* name.given 1..* MS
 * identifier.value 1..1 MS
 * identifier.system 1..1 MS
+* name 0..1 MS
 * gender 1..1 MS
 * birthDate 1..1 MS
 * address 1..1 MS
@@ -48,9 +46,8 @@ Usage: #example
 Title: "COVID-19 Lab Result Patient"
 Description: "COVID-19 Patient example"
 * identifier.value = "12345"
-* name.family = "Doe"
-* name.given = "John"
 * identifier.system = "http://example.org/"
+* name.text = "John Doe"
 * gender = #male
 * birthDate = "1981-05-21"
 * address.district = "City of Cape Town"
