@@ -4,6 +4,7 @@ Id: covid19-lab-result-report
 Title: "COVID-19 Lab Result"
 Description: "Defines a diagnostic report profile for the COVID-19 Lab Result"
 * identifier 1..1 MS
+* effectiveDateTime 1..1 MS
 * conclusionCode 1..1 MS
 * category 1..1 MS
 * specimen 1..1 MS
@@ -18,6 +19,7 @@ Title: "COVID-19 Lab Result example"
 Description: "COVID-19 Patient example"
 * identifier.system = "http://example.org/"
 * identifier.value = "12345"
+* effectiveDateTime = "2021-03-03"
 * conclusionCode.coding[0] = $LNC#94500-6 "Negative"
 * status = #final
 * code = $LNC#11502-2 "Laboratory report"
