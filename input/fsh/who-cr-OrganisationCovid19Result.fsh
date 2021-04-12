@@ -4,6 +4,8 @@ Id: covid19-organization-testlab
 Title: "COVID-19 Lab Test Organization"
 Description: "Defines an organization profile for the COVID-19 Test"
 * identifier 1..1 MS
+* identifier.system 1..1 MS
+* identifier.value 1..1 MS
 
 Profile: Covid19OrganizationOrderingClinic
 Parent: Organization

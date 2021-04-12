@@ -35,6 +35,8 @@ Description: "Defines a patient profile for the COVID-19 Lab Result"
 * name 1..1 MS
 * name.family 1..1 MS
 * name.given 1..* MS
+* identifier.value 1..1 MS
+* identifier.system 1..1 MS
 * gender 1..1 MS
 * birthDate 1..1 MS
 * address 1..1 MS
@@ -48,6 +50,7 @@ Description: "COVID-19 Patient example"
 * identifier.value = "12345"
 * name.family = "Doe"
 * name.given = "John"
+* identifier.system = "http://example.org/"
 * gender = #male
 * birthDate = "1981-05-21"
 * address.district = "City of Cape Town"
