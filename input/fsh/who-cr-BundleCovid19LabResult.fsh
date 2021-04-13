@@ -5,7 +5,7 @@ Title: "Who Cr Bundle Example"
 Description: "Example of a clinical bundle representing a lab result"
 * type = #transaction
 * entry[+].fullUrl = "http://test.org/fhir/Patient/Covid19PatientExample"
-* entry[=].resource = Covid19PatientExample
+* entry[=].resource = WhoLrPatientExample
 * entry[=].request.method = #POST
 * entry[=].request.url = "Patient"
 * entry[+].fullUrl = "http://test.org/fhir/Organization/Covid19TestLabOrganizationExample"

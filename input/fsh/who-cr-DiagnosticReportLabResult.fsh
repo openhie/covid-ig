@@ -1,4 +1,4 @@
-Profile: Covid19LabResult
+Profile: WhoCrDiagnosticReport
 Parent: DiagnosticReport
 Id: covid19-lab-result-report
 Title: "COVID-19 Lab Result"
@@ -16,7 +16,7 @@ Description: "Defines a diagnostic report profile for the COVID-19 Lab Result"
 * encounter 1..1 MS
 
 Instance: Covid19LabDiagnosticReportExample
-InstanceOf: Covid19LabResult
+InstanceOf: WhoCrDiagnosticReport
 Usage: #example
 Title: "COVID-19 Lab Result example"
 Description: "COVID-19 Patient example"
@@ -31,5 +31,5 @@ Description: "COVID-19 Patient example"
 * category.text = "Covid19 Laboratory"
 * specimen = Reference(Covid19Specimen/example)
 * performer = Reference(WhoCrPractitionerExample)
-* subject = Reference(Covid19PatientExample)
-* encounter = Reference(Covid19OrderingClinicPatientEncounterExample)
+* subject = Reference(WhoLrPatientExample)
+* encounter = Reference(WhoCrSampleEncounter)

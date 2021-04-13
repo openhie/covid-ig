@@ -26,7 +26,7 @@ Usage:          #example
 * address[0].use = #home
 * address[0].country = $cs-iso3166-1#URY
 
-Profile: Covid19Patient
+Profile: WhoLrPatient
 Parent: Patient
 Id: covid19-Patient
 Title: "COVID-19 Lab Result Patient"
@@ -40,8 +40,8 @@ Description: "Defines a patient profile for the COVID-19 Lab Result"
 * address 1..1 MS
 * address.district 1..1 MS
 
-Instance: Covid19PatientExample
-InstanceOf: Covid19Patient
+Instance: WhoLrPatientExample
+InstanceOf: WhoLrPatient
 Usage: #example
 Title: "COVID-19 Lab Result Patient"
 Description: "COVID-19 Patient example"
