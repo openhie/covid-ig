@@ -30,5 +30,5 @@ Description: "WHO Lab result Sample Diagnostic Report"
 * category.text = "COVID-19 PCR TEST"
 * specimen = Reference(WhoLrSampleSpecimen)
 * performer = Reference(WhoCrPractitionerExample)
-* subject = Reference(WhoLrPatientExample)
-* encounter = Reference(WhoCrSampleEncounter)
+* subject = Reference(WhoLrSamplePatient)
+* encounter = Reference(WhoLrSampleEncounter)

@@ -10,7 +10,7 @@ InstanceOf: WhoLrEncounter
 Usage: #example
 Title: "WHO Lab Report Encounter Example"
 Description: "Health facility ordering a Covid 19 lab test"
-* serviceProvider = Reference(Covid19OrderingClinicOrganizationExample)
+* serviceProvider = Reference(WhoLrSampleOrganizationOrderingClinic)
 * status = #finished
-* subject = Reference(Covid19PatientExample)
+* subject = Reference(WhoLrSamplePatient)
 * class = http://terminology.hl7.org/CodeSystem/v3-ActCode#ACUTE
