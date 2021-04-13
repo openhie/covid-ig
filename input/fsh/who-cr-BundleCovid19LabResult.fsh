@@ -24,7 +24,11 @@ Description: "Example of a clinical bundle representing a lab result"
 * entry[=].resource = Covid19LabDiagnosticReportExample
 * entry[=].request.method = #POST
 * entry[=].request.url = "DiagnosticReport"
-* entry[+].fullUrl = "http://test.org/fhir/Encounter/Covid19OrderingClinicPatientEncounterExample"
-* entry[=].resource = Covid19OrderingClinicPatientEncounterExample
+* entry[+].fullUrl = "http://test.org/fhir/Encounter/WhoLrSampleEncounter"
+* entry[=].resource = WhoLrSampleEncounter
 * entry[=].request.method = #POST
 * entry[=].request.url = "Encounter"
+* entry[+].fullUrl = "http://test.org/fhir/Encounter/WhoLrSampleSpecimen"
+* entry[=].resource = WhoLrSampleSpecimen
+* entry[=].request.method = #POST
+* entry[=].request.url = "Specimen"

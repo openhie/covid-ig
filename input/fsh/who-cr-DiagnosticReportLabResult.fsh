@@ -29,7 +29,7 @@ Description: "COVID-19 Patient example"
 * conclusionCode.text = "Negative result for Covid19"
 * category.coding[0] = $LNC#94500-6 "Laboratory"
 * category.text = "Covid19 Laboratory"
-* specimen = Reference(Covid19Specimen/example)
+* specimen = Reference(WhoLrSampleSpecimen)
 * performer = Reference(WhoCrPractitionerExample)
 * subject = Reference(WhoLrPatientExample)
 * encounter = Reference(WhoCrSampleEncounter)
