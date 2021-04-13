@@ -8,7 +8,7 @@ Description: "Defines an Encounter profile for the Lab Report"
 Instance: WhoLrSampleEncounter
 InstanceOf: WhoLrEncounter
 Usage: #example
-Title: "Lab Report Encounter Example"
+Title: "WHO Lab Report Encounter Example"
 Description: "Health facility ordering a Covid 19 lab test"
 * serviceProvider = Reference(Covid19OrderingClinicOrganizationExample)
 * status = #finished

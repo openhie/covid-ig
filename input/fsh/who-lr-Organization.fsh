@@ -1,30 +1,28 @@
-Profile: Covid19OrganizationTestLab
+Profile: WhoLrOrganizationLab
 Parent: Organization
-Id: covid19-organization-testlab
-Title: "COVID-19 Lab Test Organization"
+Title: "WHO LR Lab Test Organization"
 Description: "Defines an organization profile for the COVID-19 Test"
 * identifier 1..1 MS
 * identifier.system 1..1 MS
 * identifier.value 1..1 MS
 
-Profile: Covid19OrganizationOrderingClinic
+Profile: WhoLrOrganizationOrderingClinic
 Parent: Organization
-Id: covid19-ordering-clinic-organization
-Title: "COVID-19 Ordering clinic Organization"
+Title: "WHO LR Ordering clinic Organization"
 Description: "Defines an organization profile for the COVID-19 Lab Result ordering clinic"
 * name 1..1 MS
 
-Instance: Covid19TestLabOrganizationExample
-InstanceOf: Covid19OrganizationTestLab
+Instance: WhoLrSampleOrganizationLab
+InstanceOf: WhoLrOrganizationLab
 Usage: #example
-Title: "COVID-19 Test Lab Organization Example"
-Description: "COVID-19 Test Lab organization example"
+Title: "WHO Lab Result Organization Lab Sample"
+Description: "WHO Lab Result Organization Lab Sample"
 * identifier.system = "http://example.org"
 * identifier.value = "12345"
 
-Instance: Covid19OrderingClinicOrganizationExample
-InstanceOf: Covid19OrganizationOrderingClinic
+Instance: WhoLrSampleOrganizationOrderingClinic
+InstanceOf: WhoLrOrganizationOrderingClinic
 Usage: #example
-Title: "COVID-19 Ordering Clinic Organization Example"
-Description: "COVID-19 Ordering Clinic organization example"
+Title: "WHO Lab Result Organization Ordering Clinic Sample"
+Description: "WHO Lab Result Organization Ordering Clinic Sample"
 * name = "KEMRI Clinic"

@@ -1,12 +1,12 @@
-Instance: WhoCrQuestionnaireCovid19Result
+Instance: WhoLrQuestionnaire
 InstanceOf: Questionnaire
-Description: "COVID-19 Laboratory Result"
+Description: "WHO Questionnaire for COVID-19 Laboratory Result"
 Title: "COVID-19 Laboratory Result"
 Usage: #definition
 
-* name = "WhoCrQuestionnaireCovid19Result"
+* name = "WhoLrQuestionnaire"
 * subjectType = #Patient
-* url = "http://openhie.github.io/covid-19/Questionnaire/WhoCrQuestionnaireCovid19Result"
+* url = "http://openhie.github.io/covid-19/Questionnaire/WhoLrQuestionnaire"
 * status = #active
 
 * item[0].linkId = "labreport_ID"

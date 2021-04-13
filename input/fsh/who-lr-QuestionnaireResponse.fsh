@@ -1,11 +1,11 @@
-Instance: WhoCrQuestionnaireResponseLabResult
+Instance: WhoLrQuestionnaireResponse
 InstanceOf: QuestionnaireResponse
 Usage: #example
-Title: "Who Cr Questionnaire Response fr lab result"
-Description: "Questionnaire response example for Covid19 lab result"
+Title: "Who LR Questionnaire Response"
+Description: "Questionnaire Response example"
 * identifier.system = "http://test.org/response-id"
 * identifier.value = "1111"
-* questionnaire = Canonical(WhoCrQuestionnaireCovid19Result)
+* questionnaire = Canonical(WhoLrQuestionnaire)
 * status = #completed
 * authored = "2021-01-20T11:29:52+02:00"
 * author = Reference(WhoCrPractitionerExample)

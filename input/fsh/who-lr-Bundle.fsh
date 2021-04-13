@@ -1,27 +1,23 @@
-Instance: WhoCrLabResultBundleExample
+Instance: WhoLrSampleBundle
 InstanceOf: Bundle
 Usage: #example
-Title: "Who Cr Bundle Example"
-Description: "Example of a clinical bundle representing a lab result"
+Title: "WHO Lab Result Sample Bundle"
+Description: "Sample of a clinical bundle representing a lab result"
 * type = #transaction
-* entry[+].fullUrl = "http://test.org/fhir/Patient/Covid19PatientExample"
-* entry[=].resource = WhoLrPatientExample
+* entry[+].fullUrl = "http://test.org/fhir/Patient/WhoLrSamplePatient"
+* entry[=].resource = WhoLrSamplePatient
 * entry[=].request.method = #POST
 * entry[=].request.url = "Patient"
-* entry[+].fullUrl = "http://test.org/fhir/Organization/Covid19TestLabOrganizationExample"
-* entry[=].resource = Covid19TestLabOrganizationExample
+* entry[+].fullUrl = "http://test.org/fhir/Organization/WhoLrSampleOrganizationLab"
+* entry[=].resource = WhoLrSampleOrganizationLab
 * entry[=].request.method = #POST
 * entry[=].request.url = "Organization"
-* entry[+].fullUrl = "http://test.org/fhir/Organization/Covid19OrderingClinicOrganizationExample"
-* entry[=].resource = Covid19OrderingClinicOrganizationExample
+* entry[+].fullUrl = "http://test.org/fhir/Organization/WhoLrSampleOrganizationOrderingClinic"
+* entry[=].resource = WhoLrSampleOrganizationOrderingClinic
 * entry[=].request.method = #POST
 * entry[=].request.url = "Organization"
-* entry[+].fullUrl = "http://test.org/fhir/Practitioner/WhoCrPractitionerExample"
-* entry[=].resource = WhoCrPractitionerExample
-* entry[=].request.method = #POST
-* entry[=].request.url = "Practitioner"
-* entry[+].fullUrl = "http://test.org/fhir/DiagnosticReport/Covid19LabDiagnosticReportExample"
-* entry[=].resource = Covid19LabDiagnosticReportExample
+* entry[+].fullUrl = "http://test.org/fhir/DiagnosticReport/WhoLrSampleDiagnosticReport"
+* entry[=].resource = WhoLrSampleDiagnosticReport
 * entry[=].request.method = #POST
 * entry[=].request.url = "DiagnosticReport"
 * entry[+].fullUrl = "http://test.org/fhir/Encounter/WhoLrSampleEncounter"

@@ -1,7 +1,6 @@
-Profile: WhoCrDiagnosticReport
+Profile: WhoLrDiagnosticReport
 Parent: DiagnosticReport
-Id: covid19-lab-result-report
-Title: "COVID-19 Lab Result"
+Title: "WHO Lab Result Diagnostic Report"
 Description: "Defines a diagnostic report profile for the COVID-19 Lab Result"
 * identifier 1..1 MS
 * identifier.system 1..1 MS
@@ -15,11 +14,11 @@ Description: "Defines a diagnostic report profile for the COVID-19 Lab Result"
 * subject.reference 1..1 MS
 * encounter 1..1 MS
 
-Instance: Covid19LabDiagnosticReportExample
-InstanceOf: WhoCrDiagnosticReport
+Instance: WhoLrSampleDiagnosticReport
+InstanceOf: WhoLrDiagnosticReport
 Usage: #example
-Title: "COVID-19 Lab Result example"
-Description: "COVID-19 Patient example"
+Title: "WHO Lab result Sample Diagnostic Report"
+Description: "WHO Lab result Sample Diagnostic Report"
 * identifier.system = "http://example.org/"
 * identifier.value = "12345"
 * effectiveDateTime = "2021-03-03"
