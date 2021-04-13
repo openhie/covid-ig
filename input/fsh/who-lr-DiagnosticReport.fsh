@@ -26,8 +26,8 @@ Description: "WHO Lab result Sample Diagnostic Report"
 * status = #final
 * code = $LNC#11502-2 "Laboratory report"
 * conclusionCode.text = "Negative result for Covid19"
-* category.coding[0] = $LNC#94500-6 "Laboratory"
-* category.text = "Covid19 Laboratory"
+* category.coding[0] =  $valueset-diagnostic-service#VR "Virology"
+* category.text = "COVID-19 PCR TEST"
 * specimen = Reference(WhoLrSampleSpecimen)
 * performer = Reference(WhoCrPractitionerExample)
 * subject = Reference(WhoLrPatientExample)
