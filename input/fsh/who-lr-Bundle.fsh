@@ -6,7 +6,7 @@ Description: "Sample of a clinical bundle representing a lab result"
 * type = #transaction
 * entry[+].fullUrl = "http://test.org/fhir/Patient/WhoLrSamplePatient"
 * entry[=].resource = WhoLrSamplePatient
-* entry[=].request.method = #POST
+* entry[=].request.method = #PUT
 * entry[=].request.url = "Patient"
 * entry[+].fullUrl = "http://test.org/fhir/DiagnosticReport/WhoLrSampleDiagnosticReport"
 * entry[=].resource = WhoLrSampleDiagnosticReport
