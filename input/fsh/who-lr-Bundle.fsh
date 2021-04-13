@@ -8,14 +8,6 @@ Description: "Sample of a clinical bundle representing a lab result"
 * entry[=].resource = WhoLrSamplePatient
 * entry[=].request.method = #POST
 * entry[=].request.url = "Patient"
-* entry[+].fullUrl = "http://test.org/fhir/Organization/WhoLrSampleOrganizationLab"
-* entry[=].resource = WhoLrSampleOrganizationLab
-* entry[=].request.method = #POST
-* entry[=].request.url = "Organization"
-* entry[+].fullUrl = "http://test.org/fhir/Organization/WhoLrSampleOrganizationOrderingClinic"
-* entry[=].resource = WhoLrSampleOrganizationOrderingClinic
-* entry[=].request.method = #POST
-* entry[=].request.url = "Organization"
 * entry[+].fullUrl = "http://test.org/fhir/DiagnosticReport/WhoLrSampleDiagnosticReport"
 * entry[=].resource = WhoLrSampleDiagnosticReport
 * entry[=].request.method = #POST
