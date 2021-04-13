@@ -22,7 +22,7 @@ Description: "WHO Lab result Sample Diagnostic Report"
 * identifier.system = "http://example.org/"
 * identifier.value = "12345"
 * effectiveDateTime = "2021-03-03"
-* conclusionCode.coding[0] = $LNC#94500-6 "Negative"
+* conclusionCode.coding[0] = $cs-v3-ObsInterpretation#NEG "Negative"
 * status = #final
 * code = $LNC#11502-2 "Laboratory report"
 * conclusionCode.text = "Negative result for Covid19"
