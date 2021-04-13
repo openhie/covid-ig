@@ -25,29 +25,3 @@ Usage:          #example
 // * extension[birthSex].valueCode = #F
 * address[0].use = #home
 * address[0].country = $cs-iso3166-1#URY
-
-Profile: WhoLrPatient
-Parent: Patient
-Id: covid19-Patient
-Title: "COVID-19 Lab Result Patient"
-Description: "Defines a patient profile for the COVID-19 Lab Result"
-* identifier 1..1 MS
-* identifier.value 1..1 MS
-* identifier.system 1..1 MS
-* name 0..1 MS
-* gender 1..1 MS
-* birthDate 1..1 MS
-* address 1..1 MS
-* address.district 1..1 MS
-
-Instance: WhoLrPatientExample
-InstanceOf: WhoLrPatient
-Usage: #example
-Title: "COVID-19 Lab Result Patient"
-Description: "COVID-19 Patient example"
-* identifier.value = "12345"
-* identifier.system = "http://example.org/"
-* name.text = "John Doe"
-* gender = #male
-* birthDate = "1981-05-21"
-* address.district = "Western Cape"
