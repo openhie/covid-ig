@@ -131,10 +131,6 @@ Description: "Example of a clinical bundle representing a case report"
 * entry[=].resource = WhoCrCompositionBasicExample
 * entry[+].fullUrl = "http://test.org/fhir/Encounter/WhoCrEncounterExample"
 * entry[=].resource = WhoCrEncounterExample
-* entry[+].fullUrl = "http://test.org/fhir/Location/WhoCrLocationExample"
-* entry[=].resource = WhoCrLocationExample
-* entry[+].fullUrl = "http://test.org/fhir/Practitioner/WhoCrPractitionerExample"
-* entry[=].resource = WhoCrPractitionerExample
 * entry[+].fullUrl = "http://test.org/fhir/Observation/WhoCrObservationAgeExample"
 * entry[=].resource = WhoCrObservationAgeExample
 * entry[+].fullUrl = "http://test.org/fhir/Observation/WhoCrObservationBirthSexExample"
