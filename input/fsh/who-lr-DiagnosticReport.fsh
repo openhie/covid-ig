@@ -9,7 +9,7 @@ Description: "Defines a diagnostic report profile for the COVID-19 Lab Result"
 * conclusionCode 1..1 MS
 * category 1..1 MS
 * specimen 1..1 MS
-* performer 1..1 MS
+* performer 2..2 MS
 * subject 1..1 MS
 * subject.reference 1..1 MS
 * encounter 1..1 MS
@@ -29,6 +29,7 @@ Description: "WHO Lab result Sample Diagnostic Report"
 * category.coding[0] =  $valueset-diagnostic-service#VR "Virology"
 * category.text = "COVID-19 PCR TEST"
 * specimen = Reference(WhoLrSampleSpecimen)
-* performer = Reference(WhoCrPractitionerExample)
+* performer[0] = Reference(WhoCrPractitionerExample)
+* performer[1] = Reference(WhoLrOrganizationLab)
 * subject = Reference(WhoLrSamplePatient)
 * encounter = Reference(WhoLrSampleEncounter)
