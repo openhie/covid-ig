@@ -126,25 +126,43 @@ InstanceOf: Bundle
 Usage: #example
 Title: "Who Cr Bundle Example"
 Description: "Example of a clinical bundle representing a case report"
-* type = #document
+* type = #transaction
 * entry[+].fullUrl = "http://test.org/fhir/Composition/WhoCrCompositionBasicExample"
 * entry[=].resource = WhoCrCompositionBasicExample
+* entry[=].request.method = #POST
+* entry[=].request.url = "Composition"
 * entry[+].fullUrl = "http://test.org/fhir/Encounter/WhoCrEncounterExample"
 * entry[=].resource = WhoCrEncounterExample
+* entry[=].request.method = #POST
+* entry[=].request.url = "Encounter"
 * entry[+].fullUrl = "http://test.org/fhir/Observation/WhoCrObservationAgeExample"
 * entry[=].resource = WhoCrObservationAgeExample
+* entry[=].request.method = #POST
+* entry[=].request.url = "Observation"
 * entry[+].fullUrl = "http://test.org/fhir/Observation/WhoCrObservationBirthSexExample"
 * entry[=].resource = WhoCrObservationBirthSexExample
+* entry[=].request.method = #POST
+* entry[=].request.url = "Observation"
 * entry[+].fullUrl = "http://test.org/fhir/Observation/WhoCrObservationLabTestDateExample"
 * entry[=].resource = WhoCrObservationLabTestDateExample
+* entry[=].request.method = #POST
+* entry[=].request.url = "Observation"
 * entry[+].fullUrl = "http://test.org/fhir/Observation/WhoCrObservationSymptomsExample"
 * entry[=].resource = WhoCrObservationSymptomsExample
+* entry[=].request.method = #POST
+* entry[=].request.url = "Observation"
 * entry[+].fullUrl = "http://test.org/fhir/Observation/WhoCRObservationOnsetDateExample"
 * entry[=].resource = WhoCRObservationOnsetDateExample
+* entry[=].request.method = #POST
+* entry[=].request.url = "Observation"
 * entry[+].fullUrl = "http://test.org/fhir/Observation/WhoCrObservationComorbiditiesExample"
 * entry[=].resource = WhoCrObservationComorbiditiesExample
+* entry[=].request.method = #POST
+* entry[=].request.url = "Observation"
 * entry[+].fullUrl = "http://test.org/fhir/Observation/WhoCrObservationHasTravelledExample"
 * entry[=].resource = WhoCrObservationHasTravelledExample
+* entry[=].request.method = #POST
+* entry[=].request.url = "Observation"
 
 Instance: WhoCrCompositionBasicExample
 InstanceOf: WhoCrCompositionBasic
