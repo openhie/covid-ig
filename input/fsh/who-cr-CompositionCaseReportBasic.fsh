@@ -39,6 +39,24 @@ Description: "WHO Encounter for a case report"
 * location 1..1
 * reasonCode 1..*
 * reasonCode from WhoCrValueSetReasonForCovid19Testing
+* period 1..1
+* period.start 1..1
+
+Profile: WhoCrEncounterHospitalAdmission
+Parent: Encounter
+Id: who-cr-encounter-hospital-admission
+Title: "WHO CR Encounter Hospital Admission"
+Description: "WHO Encounter for hospital admission"
+* code = $LNC#8656-1
+* period 1..1
+* period.start 1..1
+
+Profile: WhoCrConditionComorbidity
+Parent: Condition
+* code = $LNC#75618-9
+* value[x] only CodeableConcept
+* code 1..1
+* code from WhoCrValueSetComorbidity
 
 Profile: WhoCrLocation
 Parent: Location
@@ -116,6 +134,197 @@ Description: "WHO Observation if the patient has travelled in the past 14 days p
 * value[x] only CodeableConcept
 * valueCodeableConcept 1..1
 * valueCodeableConcept from WhoCrValueSetYesNo
+
+Profile: WhoCrObservationTestReason
+Parent: Observation
+Id: who-cr-observation-test-reason
+Title: "WHO CR Observation Test Reason"
+Description: "WHO Observation the reason for testing"
+* code = $LNC#67098-4
+* value[x] only CodeableConcept
+* valueCodeableConcept 1..1
+* valueCodeableConcept from WhoCrCodeSystemReasonForTesting
+
+Profile: WhoCrObservationReportCountry
+Parent: Observation
+Id: who-cr-observation-reporting-country
+Title: "WHO CR Observation Reporting Country"
+Description: "WHO Observation the reporting country"
+* code = $LNC#77967-8
+* value[x] only CodeableConcept
+* valueCodeableConcept 1..1
+* valueCodeableConcept from WhoCrValueSetQuestionnaireCountry
+
+Profile: WhoCrObservationHospitalAdmission
+Parent: Observation
+Id: who-cr-observation-hospital-admission
+Title: "WHO CR Observation Hospital Admission"
+Description: "WHO Observation if the patient was admitted to the hospital"
+* code = $LNC#77974-4
+* value[x] only CodeableConcept
+* valueCodeableConcept 1..1
+* valueCodeableConcept from WhoCrValueSetYesNoUnk
+
+Profile: WhoCrObservationIntensiveCareReceived
+Parent: Observation
+Id: who-cr-observation-intensive-care-received
+Title: "WHO CR Observation Intensive Care Received"
+Description: "WHO Observation if the patient received intensive care in the hospital"
+* code = $LNC#95420-6
+* value[x] only CodeableConcept
+* valueCodeableConcept 1..1
+* valueCodeableConcept from WhoCrValueSetYesNoUnk
+
+Profile: WhoCrObservationVentilationReceived
+Parent: Observation
+Id: who-cr-observation-ventilation-received
+Title: "WHO CR Observation Ventilation Received"
+Description: "WHO Observation if the patient received ventilation in the hospital"
+* code = $LNC#96539-2
+* value[x] only CodeableConcept
+* valueCodeableConcept 1..1
+* valueCodeableConcept from WhoCrValueSetYesNoUnk
+
+Profile: WhoCrObservationECMO
+Parent: Observation
+Id: who-cr-observation-extracorporeal-membrane-oxygenation
+Title: "WHO CR Observation Extracorporeal Membrane Oxygenation Received"
+Description: "WHO Observation if the patient received extracorporeal membrane oxygenation in the hospital"
+* code = $LNC#96540-0
+* value[x] only CodeableConcept
+* valueCodeableConcept 1..1
+* valueCodeableConcept from WhoCrValueSetYesNoUnk
+
+Profile: WhoCrObservationCaseIsolated
+Parent: Observation
+Id: who-cr-observation-case-isolated
+Title: "WHO CR Observation Case Isolated"
+Description: "WHO Observation if the patient is in isolation"
+* code = $LNC#96548-3
+* value[x] only CodeableConcept
+* valueCodeableConcept 1..1
+* valueCodeableConcept from WhoCrValueSetYesNoUnk
+
+Profile: WhoCrObservationCaseIsolationDate
+Parent: Observation
+Id: who-cr-observation-case-isolation-date
+Title: "WHO CR Observation Case Isolation Date"
+Description: "WHO Observation for the date the patient isolated"
+* code = $LNC#96549-1
+* value[x] only dateTime
+* valueDateTime 1..1
+
+Profile: WhoCrObservationHealthCareWorker
+Parent: Observation
+Id: who-cr-observation-health-care-worker
+Title: "WHO CR Observation Health Care Worker"
+Description: "WHO Observation if the patient is a health care worker"
+* code = $LNC#95418-0
+* value[x] only CodeableConcept
+* valueCodeableConcept 1..1
+* valueCodeableConcept from WhoCrValueSetYesNoUnk
+
+Profile: WhoCrObservationTravelCountry
+Parent: Observation
+Id: who-cr-observation-travel-country
+Title: "WHO CR Observation Travel Country"
+Description: "WHO Observation country traveled to by patient"
+* code = $LNC#94651-7
+* value[x] only CodeableConcept
+* component 1..1
+* component.valueCodeableConcept 1..1
+* component.valueCodeableConcept from WhoCrValueSetQuestionnaireCountry
+
+Profile: WhoCrObservationTravelCity
+Parent: Observation
+Id: who-cr-observation-travel-city
+Title: "WHO CR Observation Travel City"
+Description: "WHO Observation city traveled to by patient"
+* code = $LNC#94653-3
+* value[x] only string
+* component 1..1
+* component.valueString 1..1
+* component.valueString from WhoCrValueSetQuestionnaireAdmin1
+
+Profile: WhoCrObservationTravelDate
+Parent: Observation
+Id: who-cr-observation-travel-date
+Title: "WHO CR Observation Travel Date"
+Description: "WHO Observation date on which the patient departed from the country"
+* code = $LNC#91560-3
+* value[x] only dateTime
+* component 1..1
+* component.valueDateTime 1..1
+
+Profile: WhoCrObservationVisitedHealthCare
+Parent: Observation
+Id: who-cr-observation-visited-health-care
+Title: "WHO CR Observation Visited Health Care"
+Description: "WHO Observation if the patient has visited health care in the past 14 days prior to symptom onset for case report"
+* code = $LNC#96543-4
+* value[x] only CodeableConcept
+* valueCodeableConcept 1..1
+* valueCodeableConcept from WhoCrValueSetYesNo
+
+Profile: WhoCrObservationContactCase
+Parent: Observation
+Id: who-cr-observation-contact-case
+Title: "WHO CR Observation Contact Case"
+Description: "WHO Observation if the patient has had contact with confirmed case in the past 14 days prior to symptom onset for case report"
+* code = $LNC#96544-2
+* value[x] only CodeableConcept
+* valueCodeableConcept 1..1
+* valueCodeableConcept from WhoCrValueSetYesNo
+
+Profile: WhoCrObservationContactCaseSetting
+Parent: Observation
+Id: who-cr-observation-contact-case-setting
+Title: "WHO CR Observation Contact Case Setting"
+Description: "WHO Observation setting for contact with confirmed case in the past 14 days prior to symptom onset for case report"
+* code = $LNC#81267-7
+* value[x] only string
+* valueString 1..1
+
+Profile: WhoCrObservationContactCaseID
+Parent: Observation
+Id: who-cr-observation-contact-case-id
+Title: "WHO CR Observation Contact Case Id"
+Description: "WHO Observation id of the confirmed case contacted"
+* code = $LNC#94650-9
+* value[x] only string
+* component 1..1
+* component.valueString 1..1
+
+Profile: WhoCrObservationContactCaseFirstDate
+Parent: Observation
+Id: who-cr-observation-contact-case-first-date
+Title: "WHO CR Observation Contact Case First Date"
+Description: "WHO Observation first date patient came into contact with confirmed case"
+* code = $LNC#96545-9
+* value[x] only dateTime
+* component 1..1
+* component.valueDateTime 1..1
+
+Profile: WhoCrObservationContactCaseLastDate
+Parent: Observation
+Id: who-cr-observation-contact-case-last-date
+Title: "WHO CR Observation Contact Case Last Date"
+Description: "WHO Observation last date patient came into contact with confirmed case"
+* code = $LNC#95386-9
+* value[x] only dateTime
+* component 1..1
+* component.valueDateTime 1..1
+
+Profile: WhoCrObservationContactCaseLocation
+Parent: Observation
+Id: who-cr-observation-contact-case-location
+Title: "WHO CR Observation Contact Case Location"
+Description: "WHO Observation likely country for exposure to case"
+* code = $LNC#77984-3
+* value[x] only string
+* component 1..1
+* component.valueString 1..1
+* component.valueString from WhoCrValueSetQuestionnaireCountry
 
 /**
  * Examples
