@@ -372,6 +372,90 @@ Description: "Example of a clinical bundle representing a case report"
 * entry[=].resource = WhoCrObservationHasTravelledExample
 * entry[=].request.method = #POST
 * entry[=].request.url = "Observation"
+* entry[+].fullUrl = "http://test.org/fhir/Observation/WhoCrObservationTestReasonExample"
+* entry[=].resource = WhoCrObservationTestReasonExample
+* entry[=].request.method = #POST
+* entry[=].request.url = "Observation"
+* entry[+].fullUrl = "http://test.org/fhir/Observation/WhoCrObservationReportCountryExample"
+* entry[=].resource = WhoCrObservationReportCountryExample
+* entry[=].request.method = #POST
+* entry[=].request.url = "Observation"
+* entry[+].fullUrl = "http://test.org/fhir/Observation/WhoCrObservationHospitalAdmissionExample"
+* entry[=].resource = WhoCrObservationHospitalAdmissionExample
+* entry[=].request.method = #POST
+* entry[=].request.url = "Observation"
+* entry[+].fullUrl = "http://test.org/fhir/Observation/WhoCrObservationIntensiveCareReceivedExample"
+* entry[=].resource = WhoCrObservationIntensiveCareReceivedExample
+* entry[=].request.method = #POST
+* entry[=].request.url = "Observation"
+* entry[+].fullUrl = "http://test.org/fhir/Observation/WhoCrObservationVentilationReceivedExample"
+* entry[=].resource = WhoCrObservationVentilationReceivedExample
+* entry[=].request.method = #POST
+* entry[=].request.url = "Observation"
+* entry[+].fullUrl = "http://test.org/fhir/Observation/WhoCrObservationECMOExample"
+* entry[=].resource = WhoCrObservationECMOExample
+* entry[=].request.method = #POST
+* entry[=].request.url = "Observation"
+* entry[+].fullUrl = "http://test.org/fhir/Observation/WhoCrObservationCaseIsolatedExample"
+* entry[=].resource = WhoCrObservationCaseIsolatedExample
+* entry[=].request.method = #POST
+* entry[=].request.url = "Observation"
+* entry[+].fullUrl = "http://test.org/fhir/Observation/WhoCrObservationIsolationDateExample"
+* entry[=].resource = WhoCrObservationIsolationDateExample
+* entry[=].request.method = #POST
+* entry[=].request.url = "Observation"
+* entry[+].fullUrl = "http://test.org/fhir/Observation/WhoCrObservationHealthCareWorkerExample"
+* entry[=].resource = WhoCrObservationHealthCareWorkerExample
+* entry[=].request.method = #POST
+* entry[=].request.url = "Observation"
+* entry[+].fullUrl = "http://test.org/fhir/Observation/WhoCrObservationTravelCountryExample"
+* entry[=].resource = WhoCrObservationTravelCountryExample
+* entry[=].request.method = #POST
+* entry[=].request.url = "Observation"
+* entry[+].fullUrl = "http://test.org/fhir/Observation/WhoCrObservationTravelCityExample"
+* entry[=].resource = WhoCrObservationTravelCityExample
+* entry[=].request.method = #POST
+* entry[=].request.url = "Observation"
+* entry[+].fullUrl = "http://test.org/fhir/Observation/WhoCrObservationTravelDateExample"
+* entry[=].resource = WhoCrObservationTravelDateExample
+* entry[=].request.method = #POST
+* entry[=].request.url = "Observation"
+* entry[+].fullUrl = "http://test.org/fhir/Observation/WhoCrObservationVisitedHealthCareExample"
+* entry[=].resource = WhoCrObservationVisitedHealthCareExample
+* entry[=].request.method = #POST
+* entry[=].request.url = "Observation"
+* entry[+].fullUrl = "http://test.org/fhir/Observation/WhoCrObservationContactCaseExample"
+* entry[=].resource = WhoCrObservationContactCaseExample
+* entry[=].request.method = #POST
+* entry[=].request.url = "Observation"
+* entry[+].fullUrl = "http://test.org/fhir/Observation/WhoCrObservationContactCaseSettingExample"
+* entry[=].resource = WhoCrObservationContactCaseSettingExample
+* entry[=].request.method = #POST
+* entry[=].request.url = "Observation"
+* entry[+].fullUrl = "http://test.org/fhir/Observation/WhoCrObservationContactCaseIDExample"
+* entry[=].resource = WhoCrObservationContactCaseIDExample
+* entry[=].request.method = #POST
+* entry[=].request.url = "Observation"
+* entry[+].fullUrl = "http://test.org/fhir/Observation/WhoCrObservationContactCaseLastDateExample"
+* entry[=].resource = WhoCrObservationContactCaseLastDateExample
+* entry[=].request.method = #POST
+* entry[=].request.url = "Observation"
+* entry[+].fullUrl = "http://test.org/fhir/Observation/WhoCrObservationContactCaseFirstDateExample"
+* entry[=].resource = WhoCrObservationContactCaseFirstDateExample
+* entry[=].request.method = #POST
+* entry[=].request.url = "Observation"
+* entry[+].fullUrl = "http://test.org/fhir/Observation/WhoCrObservationContactCaseLocationExample"
+* entry[=].resource = WhoCrObservationContactCaseLocationExample
+* entry[=].request.method = #POST
+* entry[=].request.url = "Observation"
+* entry[+].fullUrl = "http://test.org/fhir/Encounter/WhoCrEncounterHospitalAdmissionExample"
+* entry[=].resource = WhoCrEncounterHospitalAdmissionExample
+* entry[=].request.method = #POST
+* entry[=].request.url = "Encounter"
+* entry[+].fullUrl = "http://test.org/fhir/Condition/WhoCrConditionComorbidityExample"
+* entry[=].resource = WhoCrConditionComorbidityExample
+* entry[=].request.method = #POST
+* entry[=].request.url = "Condition"
 
 Instance: WhoCrCompositionBasicExample
 InstanceOf: WhoCrCompositionBasic
@@ -385,6 +469,7 @@ Description: "Basic Composition example"
 * date = "2021-01-18"
 * author = Reference(WhoCrPractitionerExample)
 * title = "WHO COVID-19 Case Report"
+* report_country = Reference(WhoCrObservationReportCountryExample)
 
 * section[+].title = "patient information"
 * section[=].code = http://test.org/sectionCode#patientinformation
@@ -397,10 +482,30 @@ Description: "Basic Composition example"
 * section[=].entry[+] = Reference(WhoCrObservationSymptomsExample)
 * section[=].entry[+] = Reference(WhoCRObservationOnsetDateExample)
 * section[=].entry[+] = Reference(WhoCrObservationComorbiditiesExample)
+* section[=].entry[+] = Reference(WhoCrObservationTestReasonExample)
+* section[=].entry[+] = Reference(WhoCrObservationHospitalAdmissionExample)
+* section[=].entry[+] = Reference(WhoCrObservationIntensiveCareReceivedExample)
+* section[=].entry[+] = Reference(WhoCrObservationVentilationReceivedExample)
+* section[=].entry[+] = Reference(WhoCrObservationECMOExample)
+* section[=].entry[+] = Reference(WhoCrObservationCaseIsolatedExample)
+* section[=].entry[+] = Reference(WhoCrObservationIsolationDateExample)
+* section[=].entry[+] = Reference(WhoCrObservationHealthCareWorkerExample)
+* section[=].entry[+] = Reference(WhoCrEncounterHospitalAdmissionExample)
+* section[=].entry[+] = Reference(WhoCrConditionComorbidityExample)
 
 * section[+].title = "exposure risk"
 * section[=].code = http://test.org/sectionCode#exposureRisk
 * section[=].entry[+] = Reference(WhoCrObservationHasTravelledExample)
+* section[=].entry[+] = Reference(WhoCrObservationTravelCountryExample)
+* section[=].entry[+] = Reference(WhoCrObservationTravelCityExample)
+* section[=].entry[+] = Reference(WhoCrObservationTravelDateExample)
+* section[=].entry[+] = Reference(WhoCrObservationVisitedHealthCareExample)
+* section[=].entry[+] = Reference(WhoCrObservationContactCaseExample)
+* section[=].entry[+] = Reference(WhoCrObservationContactCaseSettingExample)
+* section[=].entry[+] = Reference(WhoCrObservationContactCaseIDExample)
+* section[=].entry[+] = Reference(WhoCrObservationContactCaseLastDateExample)
+* section[=].entry[+] = Reference(WhoCrObservationContactCaseFirstDateExample)
+* section[=].entry[+] = Reference(WhoCrObservationContactCaseLocationExample)
 
 Instance: WhoCrEncounterExample
 InstanceOf: Encounter
