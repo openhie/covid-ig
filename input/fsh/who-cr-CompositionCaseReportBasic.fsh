@@ -410,6 +410,7 @@ Description: "Encounter example"
 * location.location = Reference(WhoCrLocationExample)
 * status = #finished
 * class = http://terminology.hl7.org/CodeSystem/v3-ActCode#ACUTE
+* period.start = "2021-01-15"
 
 Instance: WhoCrLocationExample
 InstanceOf: Location
@@ -482,3 +483,170 @@ Title: "Who Cr Observation Has Travelled Example"
 Description: "Observation Has Travelled Example"
 * status = #final
 * valueCodeableConcept = $cs-v2-0136#N
+
+Instance: WhoCrObservationTestReasonExample
+InstanceOf: WhoCrObservationTestReason
+Usage: #example
+Title: "Who Cr Observation Test Reason Example"
+Description: "Observation Test Reason Example"
+* status = #final
+* valueCodeableConcept = WhoCrCodeSystemReasonForTesting#CASE_CONTACT
+
+Instance: WhoCrObservationReportCountryExample
+InstanceOf: WhoCrObservationReportCountry
+Usage: #example
+Title: "Who Cr Observation Report Country Example"
+Description: "Observation Report Country Example"
+* status = #final
+* valueCodeableConcept = $vs-iso3166-1-2#ZA
+
+Instance: WhoCrObservationHospitalAdmissionExample
+InstanceOf: WhoCrObservationHospitalAdmission
+Usage: #example
+Title: "Who Cr Observation Hospital Admission Example"
+Description: "Observation Hospital Admission Example"
+* status = #final
+* valueCodeableConcept = $cs-v2-0136#Y
+
+Instance: WhoCrObservationIntensiveCareReceivedExample
+InstanceOf: WhoCrObservationIntensiveCareReceived
+Usage: #example
+Title: "Who Cr Observation Intensive Care Received Example"
+Description: "Observation Intensive Received Example"
+* status = #final
+* valueCodeableConcept = $cs-v2-0136#Y
+
+Instance: WhoCrObservationVentilationReceivedExample
+InstanceOf: WhoCrObservationVentilationReceived
+Usage: #example
+Title: "Who Cr Observation Ventilation Received Example"
+Description: "Observation Ventilation Received Example"
+* status = #final
+* valueCodeableConcept = $cs-v2-0136#Y
+
+Instance: WhoCrObservationECMOExample
+InstanceOf: WhoCrObservationECMO
+Usage: #example
+Title: "Who Cr Observation ECMO Example"
+Description: "Observation ECMO Example"
+* status = #final
+* valueCodeableConcept = $cs-v2-0136#Y
+
+Instance: WhoCrObservationCaseIsolatedExample
+InstanceOf: WhoCrObservationCaseIsolated
+Usage: #example
+Title: "Who Cr Observation CaseIsolated Example"
+Description: "Observation CaseIsolated Example"
+* status = #final
+* valueCodeableConcept = $cs-v2-0136#Y
+
+Instance: WhoCrObservationIsolationDateExample
+InstanceOf: WhoCrObservationIsolationDate
+Usage: #example
+Title: "Who Cr Observation Isolation Date Example"
+Description: "Isolation Date Example"
+* status = #final
+* valueDateTime = "2021-01-19"
+
+Instance: WhoCrObservationHealthCareWorkerExample
+InstanceOf: WhoCrObservationHealthCareWorker
+Usage: #example
+Title: "Who Cr Observation HealthCareWorker Example"
+Description: "Observation HealthCareWorker Example"
+* status = #final
+* valueCodeableConcept = $cs-v2-0136#Y
+
+Instance: WhoCrObservationTravelCountryExample
+InstanceOf: WhoCrObservationTravelCountry
+Usage: #example
+Title: "Who Cr Observation Travel Country Example"
+Description: "Observation Travel Country Example"
+* status = #final
+* component.valueCodeableConcept = $vs-iso3166-1-2#ZW
+
+Instance: WhoCrObservationTravelCityExample
+InstanceOf: WhoCrObservationTravelCity
+Usage: #example
+Title: "Who Cr Observation Travel City Example"
+Description: "Observation Travel City Example"
+* status = #final
+* component.valueString = "Harare"
+
+Instance: WhoCrObservationTravelDateExample
+InstanceOf: WhoCrObservationTravelDate
+Usage: #example
+Title: "Who Cr Observation Travel Date Example"
+Description: "Travel Date Example"
+* status = #final
+* component.valueDateTime = "2021-01-19"
+
+Instance: WhoCrObservationVisitedHealthCareExample
+InstanceOf: WhoCrObservationVisitedHealthCare
+Usage: #example
+Title: "Who Cr Observation VisitedHealthCare Example"
+Description: "Observation VisitedHealthCare Example"
+* status = #final
+* valueCodeableConcept = $cs-v2-0136#Y
+
+Instance: WhoCrObservationContactCaseExample
+InstanceOf: WhoCrObservationContactCase
+Usage: #example
+Title: "Who Cr Observation ContactCase Example"
+Description: "Observation ContactCase Example"
+* status = #final
+* valueCodeableConcept = $cs-v2-0136#Y
+
+Instance: WhoCrObservationContactCaseSettingExample
+InstanceOf: WhoCrObservationContactCaseSetting
+Usage: #example
+Title: "Who Cr Observation Contact Case Setting Example"
+Description: "Observation Contact Case Setting Example"
+* status = #final
+* valueString = "Home"
+
+Instance: WhoCrObservationContactCaseIDExample
+InstanceOf: WhoCrObservationContactCaseID
+Usage: #example
+Title: "Who Cr Observation Contact Case ID Example"
+Description: "Observation Contact Case ID Example"
+* status = #final
+* component.valueString = "12345678"
+
+Instance: WhoCrObservationContactCaseLastDateExample
+InstanceOf: WhoCrObservationContactCaseLastDate
+Usage: #example
+Title: "Who Cr Observation Contact Case Last Date Example"
+Description: "Contact Case Last Date Example"
+* status = #final
+* component.valueDateTime = "2021-01-19"
+
+Instance: WhoCrObservationContactCaseFirstDateExample
+InstanceOf: WhoCrObservationContactCaseFirstDate
+Usage: #example
+Title: "Who Cr Observation Contact Case First Date Example"
+Description: "Contact Case First Date Example"
+* status = #final
+* component.valueDateTime = "2021-01-20"
+
+Instance: WhoCrObservationContactCaseLocationExample
+InstanceOf: WhoCrObservationContactCaseLocation
+Usage: #example
+Title: "Who Cr Observation Contact Case Location Example"
+Description: "Observation Contact Case Location Example"
+* status = #final
+* component.valueString = "ZW"
+
+Instance: WhoCrEncounterHospitalAdmissionExample
+InstanceOf: WhoCrEncounterHospitalAdmission
+Usage: #example
+Title: "Who Cr Encounter Hospital Admission Example"
+Description: "Hospital Admission Encounter Example"
+* status = #finished
+* period.start = "2021-01-19"
+
+Instance: WhoCrConditionComorbidityExample
+InstanceOf: WhoCrConditionComorbidity
+Usage: #example
+Title: "Who Cr Condition Comorbidity Example"
+Description: "Condition Comorbidity Example"
+* code = WhoCrValueSetComorbidity#PREGNANCY
