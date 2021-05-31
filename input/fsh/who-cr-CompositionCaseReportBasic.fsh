@@ -247,8 +247,8 @@ Id: who-cr-observation-travel-date
 Title: "WHO CR Observation Travel Date"
 Description: "WHO Observation date on which the patient departed from the country"
 * code = $LNC#91560-3
-* value[x] only dateTime
-* valueDateTime 1..1
+* effective[x] only dateTime
+* effectiveDateTime 1..1
 
 Profile: WhoCrObservationVisitedHealthCare
 Parent: Observation
@@ -676,7 +676,7 @@ Usage: #example
 Title: "Who Cr Observation Travel Date Example"
 Description: "Travel Date Example"
 * status = #final
-* valueDateTime = "2021-01-19"
+* effectiveDateTime = "2021-01-19"
 
 Instance: WhoCrObservationVisitedHealthCareExample
 InstanceOf: WhoCrObservationVisitedHealthCare
