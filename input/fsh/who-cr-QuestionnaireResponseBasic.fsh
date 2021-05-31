@@ -22,8 +22,8 @@ Description: "Questionnaire response example"
 
 * item[+].linkId  = "report_date"
 * item[=].text    = "Date of Reporting:"
-* item[=].item[=].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.report.reportDate"
-* item[=].item[=].answer[+].valueDate = "2021-01-20"
+* item[=].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.report.reportDate"
+* item[=].answer[+].valueDate = "2021-01-20"
 
 * item[+].linkId  = "section_patient_info"
 * item[=].text    = "Patient information"
@@ -138,13 +138,13 @@ Description: "Questionnaire response example"
 
 * item[=].item[+].linkId  = "expo_travel_country"
 * item[=].item[=].text  = "Country:"
-* item[=].item[=].item[=].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.exposure.travel.location.country"
-* item[=].item[=].item[=].answer[+].valueCoding = $vs-iso3166-1-2#ZW
+* item[=].item[=].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.exposure.travel.location.country"
+* item[=].item[=].answer[+].valueCoding = $vs-iso3166-1-2#ZW
 
 * item[=].item[+].linkId  = "expo_travel_city"
 * item[=].item[=].text  = "City:"
-* item[=].item[=].item[=].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.exposure.travel.location.city"
-* item[=].item[=].item[=].answer[+].valueString = "Harare"
+* item[=].item[=].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.exposure.travel.location.city"
+* item[=].item[=].answer[+].valueString = "Harare"
 
 * item[=].item[+].linkId  = "expo_travel_date"
 * item[=].item[=].text    = "Date of Departure from the place:"
@@ -163,13 +163,13 @@ Description: "Questionnaire response example"
 
 * item[=].item[+].linkId  = "expo_case_setting_detail"
 * item[=].item[=].text  = "Contact Setting:"
-* item[=].item[=].item[=].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.exposure.contact.contact.exposure.setting"
-* item[=].item[=].item[=].answer[+].valueString = "Home"
+* item[=].item[=].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.exposure.contact.contact.exposure.setting"
+* item[=].item[=].answer[+].valueString = "Home"
 
 * item[=].item[+].linkId  = "expo_ID1"
 * item[=].item[=].text  = "Contact ID:"
-* item[=].item[=].item[=].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.exposure.contact.contact.identifier"
-* item[=].item[=].item[=].answer[+].valueString = "+2777888888"
+* item[=].item[=].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.exposure.contact.contact.identifier"
+* item[=].item[=].answer[+].valueString = "+2777888888"
 
 * item[=].item[+].linkId  = "expo_case_date_first"
 * item[=].item[=].text    = "First Date of Contact:"
@@ -183,5 +183,5 @@ Description: "Questionnaire response example"
 
 * item[=].item[+].linkId  = "expo_case_location"
 * item[=].item[=].text  = "Most likely country of exposure:"
-* item[=].item[=].item[=].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary..exposure.contact.country"
-* item[=].item[=].item[=].answer[+].valueCoding = $vs-iso3166-1-2#ZW
+* item[=].item[=].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary..exposure.contact.country"
+* item[=].item[=].answer[+].valueCoding = $vs-iso3166-1-2#ZW
