@@ -47,14 +47,11 @@ Parent: Encounter
 Id: who-cr-encounter-hospital-admission
 Title: "WHO CR Encounter Hospital Admission"
 Description: "WHO Encounter for hospital admission"
-* code = $LNC#8656-1
 * period 1..1
 * period.start 1..1
 
 Profile: WhoCrConditionComorbidity
 Parent: Condition
-* code = $LNC#75618-9
-* value[x] only CodeableConcept
 * code 1..1
 * code from WhoCrValueSetComorbidity
 
@@ -143,7 +140,7 @@ Description: "WHO Observation the reason for testing"
 * code = $LNC#67098-4
 * value[x] only CodeableConcept
 * valueCodeableConcept 1..1
-* valueCodeableConcept from WhoCrCodeSystemReasonForTesting
+* valueCodeableConcept from WhoCrValueSetReasonForCovid19Testing
 
 Profile: WhoCrObservationReportCountry
 Parent: Observation
@@ -153,7 +150,7 @@ Description: "WHO Observation the reporting country"
 * code = $LNC#77967-8
 * value[x] only CodeableConcept
 * valueCodeableConcept 1..1
-* valueCodeableConcept from WhoCrValueSetQuestionnaireCountry
+* valueCodeableConcept from $vs-iso3166-1-2
 
 Profile: WhoCrObservationHospitalAdmission
 Parent: Observation
@@ -231,9 +228,8 @@ Title: "WHO CR Observation Travel Country"
 Description: "WHO Observation country traveled to by patient"
 * code = $LNC#94651-7
 * value[x] only CodeableConcept
-* component 1..1
-* component.valueCodeableConcept 1..1
-* component.valueCodeableConcept from WhoCrValueSetQuestionnaireCountry
+* valueCodeableConcept 1..1
+* valueCodeableConcept from $vs-iso3166-1-2
 
 Profile: WhoCrObservationTravelCity
 Parent: Observation
@@ -242,9 +238,8 @@ Title: "WHO CR Observation Travel City"
 Description: "WHO Observation city traveled to by patient"
 * code = $LNC#94653-3
 * value[x] only string
-* component 1..1
-* component.valueString 1..1
-* component.valueString from WhoCrValueSetQuestionnaireAdmin1
+* valueString 1..1
+* valueString from WhoCrValueSetAdmin1
 
 Profile: WhoCrObservationTravelDate
 Parent: Observation
@@ -253,8 +248,7 @@ Title: "WHO CR Observation Travel Date"
 Description: "WHO Observation date on which the patient departed from the country"
 * code = $LNC#91560-3
 * value[x] only dateTime
-* component 1..1
-* component.valueDateTime 1..1
+* valueDateTime 1..1
 
 Profile: WhoCrObservationVisitedHealthCare
 Parent: Observation
@@ -292,8 +286,7 @@ Title: "WHO CR Observation Contact Case Id"
 Description: "WHO Observation id of the confirmed case contacted"
 * code = $LNC#94650-9
 * value[x] only string
-* component 1..1
-* component.valueString 1..1
+* valueString 1..1
 
 Profile: WhoCrObservationContactCaseFirstDate
 Parent: Observation
@@ -302,8 +295,7 @@ Title: "WHO CR Observation Contact Case First Date"
 Description: "WHO Observation first date patient came into contact with confirmed case"
 * code = $LNC#96545-9
 * value[x] only dateTime
-* component 1..1
-* component.valueDateTime 1..1
+* valueDateTime 1..1
 
 Profile: WhoCrObservationContactCaseLastDate
 Parent: Observation
@@ -312,8 +304,7 @@ Title: "WHO CR Observation Contact Case Last Date"
 Description: "WHO Observation last date patient came into contact with confirmed case"
 * code = $LNC#95386-9
 * value[x] only dateTime
-* component 1..1
-* component.valueDateTime 1..1
+* valueDateTime 1..1
 
 Profile: WhoCrObservationContactCaseLocation
 Parent: Observation
@@ -322,9 +313,8 @@ Title: "WHO CR Observation Contact Case Location"
 Description: "WHO Observation likely country for exposure to case"
 * code = $LNC#77984-3
 * value[x] only string
-* component 1..1
-* component.valueString 1..1
-* component.valueString from WhoCrValueSetQuestionnaireCountry
+* valueString 1..1
+* valueString from $vs-iso3166-1-2
 
 /**
  * Examples
@@ -469,7 +459,10 @@ Description: "Basic Composition example"
 * date = "2021-01-18"
 * author = Reference(WhoCrPractitionerExample)
 * title = "WHO COVID-19 Case Report"
-* report_country = Reference(WhoCrObservationReportCountryExample)
+
+* section[+].title = "reporting country"
+* section[=].code = http://test.org/sectionCode#reportingcountry
+* section[=].entry[+] = Reference(WhoCrObservationReportCountryExample)
 
 * section[+].title = "patient information"
 * section[=].code = http://test.org/sectionCode#patientinformation
@@ -646,7 +639,7 @@ Description: "Observation CaseIsolated Example"
 * valueCodeableConcept = $cs-v2-0136#Y
 
 Instance: WhoCrObservationIsolationDateExample
-InstanceOf: WhoCrObservationIsolationDate
+InstanceOf: WhoCrObservationCaseIsolationDate
 Usage: #example
 Title: "Who Cr Observation Isolation Date Example"
 Description: "Isolation Date Example"
@@ -667,7 +660,7 @@ Usage: #example
 Title: "Who Cr Observation Travel Country Example"
 Description: "Observation Travel Country Example"
 * status = #final
-* component.valueCodeableConcept = $vs-iso3166-1-2#ZW
+* valueCodeableConcept = $vs-iso3166-1-2#ZA
 
 Instance: WhoCrObservationTravelCityExample
 InstanceOf: WhoCrObservationTravelCity
@@ -675,7 +668,7 @@ Usage: #example
 Title: "Who Cr Observation Travel City Example"
 Description: "Observation Travel City Example"
 * status = #final
-* component.valueString = "Harare"
+* valueString = "Harare"
 
 Instance: WhoCrObservationTravelDateExample
 InstanceOf: WhoCrObservationTravelDate
@@ -683,7 +676,7 @@ Usage: #example
 Title: "Who Cr Observation Travel Date Example"
 Description: "Travel Date Example"
 * status = #final
-* component.valueDateTime = "2021-01-19"
+* valueDateTime = "2021-01-19"
 
 Instance: WhoCrObservationVisitedHealthCareExample
 InstanceOf: WhoCrObservationVisitedHealthCare
@@ -715,7 +708,7 @@ Usage: #example
 Title: "Who Cr Observation Contact Case ID Example"
 Description: "Observation Contact Case ID Example"
 * status = #final
-* component.valueString = "12345678"
+* valueString = "12345678"
 
 Instance: WhoCrObservationContactCaseLastDateExample
 InstanceOf: WhoCrObservationContactCaseLastDate
@@ -723,7 +716,7 @@ Usage: #example
 Title: "Who Cr Observation Contact Case Last Date Example"
 Description: "Contact Case Last Date Example"
 * status = #final
-* component.valueDateTime = "2021-01-19"
+* valueDateTime = "2021-01-19"
 
 Instance: WhoCrObservationContactCaseFirstDateExample
 InstanceOf: WhoCrObservationContactCaseFirstDate
@@ -731,7 +724,7 @@ Usage: #example
 Title: "Who Cr Observation Contact Case First Date Example"
 Description: "Contact Case First Date Example"
 * status = #final
-* component.valueDateTime = "2021-01-20"
+* valueDateTime = "2021-01-20"
 
 Instance: WhoCrObservationContactCaseLocationExample
 InstanceOf: WhoCrObservationContactCaseLocation
@@ -739,7 +732,7 @@ Usage: #example
 Title: "Who Cr Observation Contact Case Location Example"
 Description: "Observation Contact Case Location Example"
 * status = #final
-* component.valueString = "ZW"
+* valueString = "ZW"
 
 Instance: WhoCrEncounterHospitalAdmissionExample
 InstanceOf: WhoCrEncounterHospitalAdmission
@@ -747,6 +740,7 @@ Usage: #example
 Title: "Who Cr Encounter Hospital Admission Example"
 Description: "Hospital Admission Encounter Example"
 * status = #finished
+* class = http://terminology.hl7.org/CodeSystem/v3-ActCode#ACUTE
 * period.start = "2021-01-19"
 
 Instance: WhoCrConditionComorbidityExample
@@ -754,4 +748,5 @@ InstanceOf: WhoCrConditionComorbidity
 Usage: #example
 Title: "Who Cr Condition Comorbidity Example"
 Description: "Condition Comorbidity Example"
-* code = WhoCrValueSetComorbidity#PREGNANCY
+* code = WhoCrCodeSystemComorbidity#PREGNANCY
+* subject = Reference("Patient/12333")
