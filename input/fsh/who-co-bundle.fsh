@@ -5,6 +5,11 @@ Title: "Who Co Bundle Example"
 Description: "Example of a clinical bundle representing a case outcome"
 * type = #transaction
 
+* entry[+].fullUrl = "http://test.org/fhir/Composition/WhoCoCompositionExample"
+* entry[=].resource = WhoCoCompositionExample
+* entry[=].request.method = #POST
+* entry[=].request.url = "Composition"
+
 * entry[+].fullUrl = "http://test.org/fhir/Observation/WhoCoObservationOutcomeAsympExample"
 * entry[=].resource = WhoCoObservationOutcomeAsympExample
 * entry[=].request.method = #POST
