@@ -35,7 +35,7 @@ Description: "WH Co Valueset Health Outcome"
 * codes from system WhoCoHealthOutcome
 
 Profile: WhoCoHospitalizationEncounter
-Parent: Encounter
+Parent: WhoCrEncounterHospitalAdmission
 Id: who-co-hospitalization-encounter
 Title: "WHO CO Hospitalization Encounter"
 Description: ""
@@ -272,4 +272,5 @@ InstanceOf: WhoCoHospitalizationEncounter
 Usage: #example
 * status = #finished
 * class = http://terminology.hl7.org/CodeSystem/v3-ActCode#ACUTE
+* period.start = "2021-05-12"
 * period.end = "2021-05-13"
