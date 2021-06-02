@@ -64,3 +64,13 @@ Description: "Example of a clinical bundle representing a case outcome"
 * entry[=].resource = WhoCoObservationOutcomeContactsFollowedUnknownExample
 * entry[=].request.method = #POST
 * entry[=].request.url = "Observation"
+
+* entry[+].fullUrl = "http://test.org/fhir/Encounter/WhoCoHospitalizationEncounterExample"
+* entry[=].resource = WhoCoHospitalizationEncounterExample
+* entry[=].request.method = #PUT
+* entry[=].request.url = "Encounter"
+
+* entry[+].fullUrl = "http://test.org/fhir/Encounter/WhoCoEncounterExample"
+* entry[=].resource = WhoCoEncounterExample
+* entry[=].request.method = #PUT
+* entry[=].request.url = "Encounter"
