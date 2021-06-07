@@ -194,21 +194,3 @@ Description: "Total number of contacts followed for this case example when value
 * status = #final
 * valueInteger = -1
 * note.text = "unknown number of contacts follwed"
-
-Instance: WhoCoHospitalizationEncounterExample
-InstanceOf: WhoCoHospitalizationEncounter
-Usage: #example
-* status = #finished
-* class = http://terminology.hl7.org/CodeSystem/v3-ActCode#ACUTE
-* period.start = "2021-05-12"
-* period.end = "2021-05-13"
-
-Instance: WhoCoEncounterExample
-InstanceOf: WhoCoEncounter
-Usage: #example
-* location.location = Reference(WhoCrLocationExample)
-* status = #finished
-* class = http://terminology.hl7.org/CodeSystem/v3-ActCode#ACUTE
-* reasonCode = WhoCrCodeSystemReasonForTesting#CASE_CONTACT
-* period.start = "2021-05-12"
-* period.end = "2021-05-13"
