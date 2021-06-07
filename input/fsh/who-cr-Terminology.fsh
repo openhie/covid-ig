@@ -109,6 +109,29 @@ Description: "TODO"
     "Other" 
     "Not a listed value"
 
+CodeSystem: WhoCoPositiveNegativeUnknown
+Title: "Positive/Negative/Unknown"
+Description: "Positive/Negative/Unknown"
+* #positive
+  "Positive"
+* #negative
+  "Negative"
+* #unknown
+  "Unknown"
+
+CodeSystem: WhoCoHealthOutcome
+Title: "Health Outcome"
+Description: "Health Outcome"
+* #recovered_healthy
+  "Recovered/Healthy"
+* #not_recovered
+  "Not Recovered"
+* #death
+  "Death"
+* #unknown
+  "Unknown"
+* #other
+  "Other"
 
 ValueSet: WhoCrValueSetReasonForCovid19Testing
 Title: "Reason for Covid-19 Testing"
@@ -226,3 +249,15 @@ Description: "List of Administrative Level 1 Names (Province/State/Canton)"
 * ^immutable = false
 
 * codes from system $cs-iso3166-2
+
+ValueSet: WhoCoValueSetPositiveNegativeUnknown
+Id: who-co-positive-negative-unknown
+Title: "Positive/Negative/Unknown"
+Description: "Positive/Negative/Unknown"
+* codes from system WhoCoPositiveNegativeUnknown
+
+ValueSet: WhoCoValueSetHealthOutcome
+Id: who-co-health-outcome
+Title: "Health Outcome"
+Description: "WH Co Valueset Health Outcome"
+* codes from system WhoCoHealthOutcome

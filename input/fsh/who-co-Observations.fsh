@@ -1,39 +1,3 @@
-CodeSystem: WhoCoPositiveNegativeUnknown
-Title: "Positive/Negative/Unknown"
-Description: "Positive/Negative/Unknown"
-* #positive
-  "Positive"
-* #negative
-  "Negative"
-* #unknown
-  "Unknown"
-
-ValueSet: WhoCoValueSetPositiveNegativeUnknown
-Id: who-co-positive-negative-unknown
-Title: "Positive/Negative/Unknown"
-Description: "Positive/Negative/Unknown"
-* codes from system WhoCoPositiveNegativeUnknown
-
-CodeSystem: WhoCoHealthOutcome
-Title: "Health Outcome"
-Description: "Health Outcome"
-* #recovered_healthy
-  "Recovered/Healthy"
-* #not_recovered
-  "Not Recovered"
-* #death
-  "Death"
-* #unknown
-  "Unknown"
-* #other
-  "Other"
-
-ValueSet: WhoCoValueSetHealthOutcome
-Id: who-co-health-outcome
-Title: "Health Outcome"
-Description: "WH Co Valueset Health Outcome"
-* codes from system WhoCoHealthOutcome
-
 Profile: WhoCoHospitalizationEncounter
 Parent: WhoCrEncounterHospitalAdmission
 Id: who-co-hospitalization-encounter
