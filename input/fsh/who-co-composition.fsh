@@ -41,7 +41,6 @@ Description: "Composition example"
 * section[+].title = "clinical status"
 * section[=].code = http://test.org/sectionCode#clinicalStatus
 * section[=].entry[+] = Reference(WhoCoObservationOutcomeAsympExample)
-* section[=].entry[+] = Reference(WhoCoObservationOutcomeAsympDateExample)
 * section[=].entry[+] = Reference(WhoCoObservationPatcourseAdmitExample)
 * section[=].entry[+] = Reference(WhoCoObservationPatcourseAdmitDateExample)
 * section[=].entry[+] = Reference(WhoCoObservationOutcomePatcourseIcuExample)

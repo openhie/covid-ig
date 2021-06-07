@@ -7,15 +7,8 @@ Description: "WHO Case Outcome Outcome Asymp Observation"
 * value[x] only CodeableConcept
 * valueCodeableConcept 1..1
 * valueCodeableConcept from WhoCrValueSetYesNoUnk
-
-Profile: WhoCoObservationOutcomeAsympDate
-Parent: Observation
-Id: who-co-observation-outcome-asymp-date
-Title: "WHO Case Outcome Outcome Asymp Date"
-Description: "WHO Case Outcome Outcome Asymp Date Observation"
-* code = $LNC#65222-2
-* value[x] only dateTime
-* valueDateTime 0..1
+* effective[x] only dateTime
+* effectiveDateTime 0..1
 
 Profile: WhoCoObservationPatcourseAdmit
 Parent: Observation
@@ -135,14 +128,7 @@ Title: "WHO CO Outcome Asymp Example"
 Description: "Developed symptoms after time of specimen collection"
 * status = #final
 * valueCodeableConcept = $cs-v2-0136#Y
-
-Instance: WhoCoObservationOutcomeAsympDateExample
-InstanceOf: WhoCoObservationOutcomeAsympDate
-Usage: #example
-Title: "WHO Case Outcome Outcome Asymp Date Example"
-Description: "If yes, date of onset of symptoms/signs of illness"
-* status = #final
-* valueDateTime = "2021-05-13"
+* effectiveDateTime = "2021-05-13"
 
 Instance: WhoCoObservationPatcourseAdmitExample
 InstanceOf: WhoCoObservationPatcourseAdmit
