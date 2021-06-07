@@ -23,7 +23,7 @@ Title:      "WHO Case Outcome Composition"
 
 * section[exposureRisk].title = "exposure risk"
 * section[exposureRisk].code = http://test.org/sectionCode#exposureRisk
-* section[exposureRisk].entry only Reference(WhoCoObservationOutcomeContactsFollowed or WhoCoObservationOutcomeContactsFollowedUnknown)
+* section[exposureRisk].entry only Reference(WhoCoObservationOutcomeContactsFollowed)
 
 Instance: WhoCoCompositionExample
 InstanceOf: WhoCoComposition

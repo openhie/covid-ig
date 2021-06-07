@@ -107,16 +107,6 @@ Description: "WHO CO Outcome Contacts Followed Observation"
 * note 0..*
 * note.text 1..1
 
-Profile: WhoCoObservationOutcomeContactsFollowedUnknown
-Parent: Observation
-Id: who-co-observation-outcome-contacts-followed-unknown
-Title: "WHO CO Outcome Contacts Followed Unknown"
-Description: "WHO CO Outcome Contacts Followed Unknown Observation"
-* code = $LNC#96552-5
-* value[x] only CodeableConcept
-* valueCodeableConcept 0..1
-* valueCodeableConcept from WhoCrValueSetYesNoUnk
-
 /*
  * Examples 
  */
@@ -129,6 +119,14 @@ Description: "Developed symptoms after time of specimen collection"
 * status = #final
 * valueCodeableConcept = $cs-v2-0136#Y
 * effectiveDateTime = "2021-05-13"
+
+Instance: WhoCoObservationOutcomeAsympNoEffectiveDateExample
+InstanceOf: WhoCoObservationOutcomeAsymp
+Usage: #example
+Title: "WHO CO Outcome Asymp Example"
+Description: "Developed symptoms after time of specimen collection example without effective date"
+* status = #final
+* valueCodeableConcept = $cs-v2-0136#Y
 
 Instance: WhoCoObservationPatcourseAdmitExample
 InstanceOf: WhoCoObservationPatcourseAdmit
@@ -210,14 +208,6 @@ Description: "Total number of contacts followed for this case example when value
 * status = #final
 * valueInteger = -1
 * note.text = "unknown number of contacts follwed"
-
-Instance: WhoCoObservationOutcomeContactsFollowedUnknownExample
-InstanceOf: WhoCoObservationOutcomeContactsFollowedUnknown
-Usage: #example
-Title: "WHO CO Outcome Contacts Followed Unknown Example"
-Description: "Number of contacts followed unknown"
-* status = #final
-* valueCodeableConcept = $cs-v2-0136#UNK
 
 Instance: WhoCoHospitalizationEncounterExample
 InstanceOf: WhoCoHospitalizationEncounter
