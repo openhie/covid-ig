@@ -1,26 +1,29 @@
-Profile: WhoCoHospitalizationEncounter
+Profile: WhoCoHospitalEncounter
 Parent: WhoCrEncounterHospitalAdmission
 Id: who-co-hospitalization-encounter
-Title: "WHO CO Hospitalization Encounter"
-Description: "WHO CO Hospitalization Encounter"
+Title: "WHO CO Hospital Encounter"
+Description: "WHO CO Hospital Encounter"
 * status = #finished
 * period 1..1
 * period.end 1..1
+* class.code = http://terminology.hl7.org/CodeSystem/v3-ActCode#ACUTE
 
 Profile: WhoCoEncounter
 Parent: WhoCrEncounter
 Id: who-co-encounter
 Title: "WHO CO Encounter"
 Description: "WHO CO Encounter"
+* status = #finished
 * period 1..1
 * period.end 1..1
+* class.code = http://terminology.hl7.org/CodeSystem/v3-ActCode#ACUTE
 
 /**
  * Examples
  */
 
-Instance: WhoCoHospitalizationEncounterExample
-InstanceOf: WhoCoHospitalizationEncounter
+Instance: WhoCoHospitalEncounterExample
+InstanceOf: WhoCoHospitalEncounter
 Usage: #example
 * status = #finished
 * class = http://terminology.hl7.org/CodeSystem/v3-ActCode#ACUTE
