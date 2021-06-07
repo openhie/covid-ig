@@ -77,15 +77,6 @@ Description: "WHO CO Outcome Patcourse Status Other Observation"
 * value[x] only string
 * valueString 0..1
 
-Profile: WhoCoObservationOutcomeLabDate
-Parent: Observation
-Id: who-co-observation-outcome-lab-date
-Title: "WHO CO Outcome Lab Date"
-Description: "WHO CO Outcome Lab Date Observation"
-* code = $LNC#96550-9
-* value[x] only dateTime
-* valueDateTime 0..1
-
 Profile: WhoCoObservationOutcomeLabResult
 Parent: Observation
 Id: who-co-observation-outcome-lab-result
@@ -95,6 +86,8 @@ Description: "WHO CO Outcome Lab Result Observation"
 * value[x] only CodeableConcept
 * valueCodeableConcept 0..1
 * valueCodeableConcept from WhoCoValueSetPositiveNegativeUnknown
+* effective[x] only dateTime
+* effectiveDateTime 1..1
 
 Profile: WhoCoObservationOutcomeContactsFollowed
 Parent: Observation
@@ -176,21 +169,14 @@ Description: "Health Outcome"
 * status = #final
 * valueCodeableConcept = WhoCoHealthOutcome#death
 
-Instance: WhoCoObservationOutcomeLabDateExample
-InstanceOf: WhoCoObservationOutcomeLabDate
-Usage: #example
-Title: "WHO CO Outcome Lab Date Example"
-Description: "If released from hospital /isolation, date of last laboratory test"
-* status = #final
-* valueDateTime = "2021-05-13"
-
 Instance: WhoCoObservationOutcomeLabResultExample
 InstanceOf: WhoCoObservationOutcomeLabResult
 Usage: #example
 Title: "WHO CO Outcome Lab Result Example"
-Description: "Results of last test"
+Description: "Results of last test example"
 * status = #final
 * valueCodeableConcept = WhoCoPositiveNegativeUnknown#positive
+* effectiveDateTime = "2021-05-13"
 
 Instance: WhoCoObservationOutcomeContactsFollowedExample
 InstanceOf: WhoCoObservationOutcomeContactsFollowed

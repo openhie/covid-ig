@@ -45,11 +45,6 @@ Description: "Example of a clinical bundle representing a case outcome"
 * entry[=].request.method = #POST
 * entry[=].request.url = "Observation"
 
-* entry[+].fullUrl = "http://test.org/fhir/Observation/WhoCoObservationOutcomeLabDateExample"
-* entry[=].resource = WhoCoObservationOutcomeLabDateExample
-* entry[=].request.method = #POST
-* entry[=].request.url = "Observation"
-
 * entry[+].fullUrl = "http://test.org/fhir/Observation/WhoCoObservationOutcomeLabResultExample"
 * entry[=].resource = WhoCoObservationOutcomeLabResultExample
 * entry[=].request.method = #POST
