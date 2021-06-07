@@ -111,6 +111,8 @@ Description: "WHO CO Outcome Contacts Followed Observation"
 * code = $LNC#96551-7
 * value[x] only integer
 * valueInteger 1..1
+* note 0..*
+* note.text 1..1
 
 Profile: WhoCoObservationOutcomeContactsFollowedUnknown
 Parent: Observation
@@ -213,6 +215,15 @@ Title: "WHO CO Outcome Contacts Followed Example"
 Description: "Total number of contacts followed for this case"
 * status = #final
 * valueInteger = 5
+
+Instance: WhoCoObservationOutcomeContactsFollowedWithNoteExample
+InstanceOf: WhoCoObservationOutcomeContactsFollowed
+Usage: #example
+Title: "WHO CO Outcome Contacts Followed Example"
+Description: "Total number of contacts followed for this case example when value is unknown"
+* status = #final
+* valueInteger = -1
+* note.text = "unknown number of contacts follwed"
 
 Instance: WhoCoObservationOutcomeContactsFollowedUnknownExample
 InstanceOf: WhoCoObservationOutcomeContactsFollowedUnknown
