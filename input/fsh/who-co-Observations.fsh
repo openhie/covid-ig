@@ -87,7 +87,7 @@ Description: "WHO CO Outcome Lab Result Observation"
 * valueCodeableConcept 0..1
 * valueCodeableConcept from WhoCoValueSetPositiveNegativeUnknown
 * effective[x] only dateTime
-* effectiveDateTime 1..1
+* effectiveDateTime 0..1
 
 Profile: WhoCoObservationOutcomeContactsFollowed
 Parent: Observation
