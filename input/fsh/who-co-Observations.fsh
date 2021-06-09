@@ -117,9 +117,9 @@ Instance: WhoCoObservationOutcomeAsympNoEffectiveDateExample
 InstanceOf: WhoCoObservationOutcomeAsymp
 Usage: #example
 Title: "WHO CO Outcome Asymp Example"
-Description: "Developed symptoms after time of specimen collection example without effective date"
+Description: "Did not develop symptoms after time of specimen collection example (no effective date)"
 * status = #final
-* valueCodeableConcept = $cs-v2-0136#Y
+* valueCodeableConcept = $cs-v2-0136#N
 
 Instance: WhoCoObservationPatcourseAdmitExample
 InstanceOf: WhoCoObservationPatcourseAdmit
