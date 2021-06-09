@@ -42,7 +42,6 @@ Description: "Composition example"
 * section[=].code = http://test.org/sectionCode#clinicalStatus
 * section[=].entry[+] = Reference(WhoCoObservationOutcomeAsympExample)
 * section[=].entry[+] = Reference(WhoCoObservationPatcourseAdmitExample)
-* section[=].entry[+] = Reference(WhoCoObservationPatcourseAdmitDateExample)
 * section[=].entry[+] = Reference(WhoCoObservationOutcomePatcourseIcuExample)
 * section[=].entry[+] = Reference(WhoCoObservationOutcomePatcourseVentExample)
 * section[=].entry[+] = Reference(WhoCoObservationOutcomePatcourseEcmoExample)

@@ -19,15 +19,8 @@ Description: "WHO Case Outcome Patcourse Admit Observation"
 * value[x] only CodeableConcept
 * valueCodeableConcept 1..1
 * valueCodeableConcept from WhoCrValueSetYesNoUnk
-
-Profile: WhoCoObservationPatcourseAdmitDate
-Parent: Observation
-Id: who-co-observation-patcourse-admit-date
-Title: "WHO Case Outcome Patcourse Admit Date"
-Description: "First date of admission to hospital"
-* code = $LNC#8656-1
-* value[x] only dateTime
-* valueDateTime 0..1
+* effective[x] only dateTime
+* effectiveDateTime 0..1
 
 Profile: WhoCoObservationOutcomePatcourseIcu
 Parent: Observation
@@ -128,14 +121,7 @@ Title: "WHO Case Outcome Patcourse Admit Example"
 Description: "Admission to hospital (may have been previously reported)"
 * status = #final
 * valueCodeableConcept = $cs-v2-0136#Y
-
-Instance: WhoCoObservationPatcourseAdmitDateExample
-InstanceOf: WhoCoObservationPatcourseAdmitDate
-Usage: #example
-Title: "WHO Case Outcome Patcourse Admit Date Example"
-Description: "First date of admission to hospital"
-* status = #final
-* valueDateTime = "2021-05-13"
+* effectiveDateTime = "2021-05-13"
 
 Instance: WhoCoObservationOutcomePatcourseIcuExample
 InstanceOf: WhoCoObservationOutcomePatcourseIcu
