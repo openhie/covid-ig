@@ -47,7 +47,7 @@ Description: "Composition example"
 * section[=].entry[+] = Reference(WhoCoObservationOutcomePatcourseEcmoExample)
 * section[=].entry[+] = Reference(WhoCoObservationOutcomePatcourseStatusExample)
 * section[=].entry[+] = Reference(WhoCoObservationOutcomeLabResultExample)
-* section[=].entry[+] = Reference(WhoCoHospitalizationEncounterExample)
+* section[=].entry[+] = Reference(WhoCoHospitalEncounterExample)
 
 * section[+].title = "exposure risk"
 * section[=].code = http://test.org/sectionCode#exposureRisk
