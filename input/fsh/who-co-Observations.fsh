@@ -90,8 +90,6 @@ Description: "WHO CO Outcome Contacts Followed Observation"
 * code = $LNC#96551-7
 * value[x] only integer
 * valueInteger 1..1
-* note 0..*
-* note.text 1..1
 
 /*
  * Examples 
