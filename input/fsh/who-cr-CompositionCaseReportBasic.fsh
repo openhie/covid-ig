@@ -227,26 +227,6 @@ Description: "WHO Observation country traveled to by patient"
 * component 0..1
 * component.code = $LNC#91560-3
 * component.valueString 0..1
-* component.valueString from WhoCrValueSetAdmin1
-
-Profile: WhoCrObservationTravelCity
-Parent: Observation
-Id: who-cr-observation-travel-city
-Title: "WHO CR Observation Travel City"
-Description: "WHO Observation city traveled to by patient"
-* code = $LNC#94653-3
-* value[x] only string
-* valueString 1..1
-* valueString from WhoCrValueSetAdmin1
-
-Profile: WhoCrObservationTravelDate
-Parent: Observation
-Id: who-cr-observation-travel-date
-Title: "WHO CR Observation Travel Date"
-Description: "WHO Observation date on which the patient departed from the country"
-* code = $LNC#91560-3
-* effective[x] only dateTime
-* effectiveDateTime 1..1
 
 Profile: WhoCrObservationVisitedHealthCare
 Parent: Observation
