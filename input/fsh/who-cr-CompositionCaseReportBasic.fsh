@@ -47,13 +47,14 @@ Parent: Encounter
 Id: who-cr-encounter-hospital-admission
 Title: "WHO CR Encounter Hospital Admission"
 Description: "WHO Encounter for hospital admission"
-* period 1..1
+* period 0..1
 * period.start 1..1
 
 Profile: WhoCrConditionComorbidity
 Parent: Condition
 * code 1..1
 * code from WhoCrValueSetComorbidity
+* subject 0..1
 
 Profile: WhoCrLocation
 Parent: Location
@@ -169,7 +170,7 @@ Title: "WHO CR Observation Intensive Care Received"
 Description: "WHO Observation if the patient received intensive care in the hospital"
 * code = $LNC#95420-6
 * value[x] only CodeableConcept
-* valueCodeableConcept 1..1
+* valueCodeableConcept 0..1
 * valueCodeableConcept from WhoCrValueSetYesNoUnk
 
 Profile: WhoCrObservationVentilationReceived
@@ -179,7 +180,7 @@ Title: "WHO CR Observation Ventilation Received"
 Description: "WHO Observation if the patient received ventilation in the hospital"
 * code = $LNC#96539-2
 * value[x] only CodeableConcept
-* valueCodeableConcept 1..1
+* valueCodeableConcept 0..1
 * valueCodeableConcept from WhoCrValueSetYesNoUnk
 
 Profile: WhoCrObservationECMO
@@ -189,27 +190,19 @@ Title: "WHO CR Observation Extracorporeal Membrane Oxygenation Received"
 Description: "WHO Observation if the patient received extracorporeal membrane oxygenation in the hospital"
 * code = $LNC#96540-0
 * value[x] only CodeableConcept
-* valueCodeableConcept 1..1
+* valueCodeableConcept 0..1
 * valueCodeableConcept from WhoCrValueSetYesNoUnk
 
-Profile: WhoCrObservationCaseIsolated
+Profile: WhoCrObservationCaseIsolation
 Parent: Observation
 Id: who-cr-observation-case-isolated
 Title: "WHO CR Observation Case Isolated"
 Description: "WHO Observation if the patient is in isolation"
 * code = $LNC#96548-3
 * value[x] only CodeableConcept
-* valueCodeableConcept 1..1
+* valueCodeableConcept 0..1
 * valueCodeableConcept from WhoCrValueSetYesNoUnk
-
-Profile: WhoCrObservationCaseIsolationDate
-Parent: Observation
-Id: who-cr-observation-case-isolation-date
-Title: "WHO CR Observation Case Isolation Date"
-Description: "WHO Observation for the date the patient isolated"
-* code = $LNC#96549-1
-* value[x] only dateTime
-* valueDateTime 1..1
+* valueDateTime 0..1
 
 Profile: WhoCrObservationHealthCareWorker
 Parent: Observation
@@ -386,12 +379,8 @@ Description: "Example of a clinical bundle representing a case report"
 * entry[=].resource = WhoCrObservationECMOExample
 * entry[=].request.method = #POST
 * entry[=].request.url = "Observation"
-* entry[+].fullUrl = "http://test.org/fhir/Observation/WhoCrObservationCaseIsolatedExample"
-* entry[=].resource = WhoCrObservationCaseIsolatedExample
-* entry[=].request.method = #POST
-* entry[=].request.url = "Observation"
-* entry[+].fullUrl = "http://test.org/fhir/Observation/WhoCrObservationIsolationDateExample"
-* entry[=].resource = WhoCrObservationIsolationDateExample
+* entry[+].fullUrl = "http://test.org/fhir/Observation/WhoCrObservationCaseIsolationExample"
+* entry[=].resource = WhoCrObservationCaseIsolationExample
 * entry[=].request.method = #POST
 * entry[=].request.url = "Observation"
 * entry[+].fullUrl = "http://test.org/fhir/Observation/WhoCrObservationHealthCareWorkerExample"
@@ -480,8 +469,7 @@ Description: "Basic Composition example"
 * section[=].entry[+] = Reference(WhoCrObservationIntensiveCareReceivedExample)
 * section[=].entry[+] = Reference(WhoCrObservationVentilationReceivedExample)
 * section[=].entry[+] = Reference(WhoCrObservationECMOExample)
-* section[=].entry[+] = Reference(WhoCrObservationCaseIsolatedExample)
-* section[=].entry[+] = Reference(WhoCrObservationIsolationDateExample)
+* section[=].entry[+] = Reference(WhoCrObservationCaseIsolationExample)
 * section[=].entry[+] = Reference(WhoCrObservationHealthCareWorkerExample)
 * section[=].entry[+] = Reference(WhoCrEncounterHospitalAdmissionExample)
 * section[=].entry[+] = Reference(WhoCrConditionComorbidityExample)
@@ -630,21 +618,14 @@ Description: "Observation ECMO Example"
 * status = #final
 * valueCodeableConcept = $cs-v2-0136#Y
 
-Instance: WhoCrObservationCaseIsolatedExample
-InstanceOf: WhoCrObservationCaseIsolated
+Instance: WhoCrObservationCaseIsolationExample
+InstanceOf: WhoCrObservationCaseIsolation
 Usage: #example
 Title: "Who Cr Observation CaseIsolated Example"
 Description: "Observation CaseIsolated Example"
 * status = #final
 * valueCodeableConcept = $cs-v2-0136#Y
-
-Instance: WhoCrObservationIsolationDateExample
-InstanceOf: WhoCrObservationCaseIsolationDate
-Usage: #example
-Title: "Who Cr Observation Isolation Date Example"
-Description: "Isolation Date Example"
-* status = #final
-* valueDateTime = "2021-01-19"
+* valueDateTime = "2021-01-29"
 
 Instance: WhoCrObservationHealthCareWorkerExample
 InstanceOf: WhoCrObservationHealthCareWorker
