@@ -221,8 +221,13 @@ Title: "WHO CR Observation Travel Country"
 Description: "WHO Observation country traveled to by patient"
 * code = $LNC#94651-7
 * value[x] only CodeableConcept
-* valueCodeableConcept 1..1
+* valueCodeableConcept 0..1
 * valueCodeableConcept from $vs-iso3166-1-2
+* effectiveDateTime 0..1
+* component 0..1
+* component.code = $LNC#91560-3
+* component.valueString 0..1
+* component.valueString from WhoCrValueSetAdmin1
 
 Profile: WhoCrObservationTravelCity
 Parent: Observation
@@ -391,14 +396,6 @@ Description: "Example of a clinical bundle representing a case report"
 * entry[=].resource = WhoCrObservationTravelCountryExample
 * entry[=].request.method = #POST
 * entry[=].request.url = "Observation"
-* entry[+].fullUrl = "http://test.org/fhir/Observation/WhoCrObservationTravelCityExample"
-* entry[=].resource = WhoCrObservationTravelCityExample
-* entry[=].request.method = #POST
-* entry[=].request.url = "Observation"
-* entry[+].fullUrl = "http://test.org/fhir/Observation/WhoCrObservationTravelDateExample"
-* entry[=].resource = WhoCrObservationTravelDateExample
-* entry[=].request.method = #POST
-* entry[=].request.url = "Observation"
 * entry[+].fullUrl = "http://test.org/fhir/Observation/WhoCrObservationVisitedHealthCareExample"
 * entry[=].resource = WhoCrObservationVisitedHealthCareExample
 * entry[=].request.method = #POST
@@ -478,8 +475,6 @@ Description: "Basic Composition example"
 * section[=].code = http://test.org/sectionCode#exposureRisk
 * section[=].entry[+] = Reference(WhoCrObservationHasTravelledExample)
 * section[=].entry[+] = Reference(WhoCrObservationTravelCountryExample)
-* section[=].entry[+] = Reference(WhoCrObservationTravelCityExample)
-* section[=].entry[+] = Reference(WhoCrObservationTravelDateExample)
 * section[=].entry[+] = Reference(WhoCrObservationVisitedHealthCareExample)
 * section[=].entry[+] = Reference(WhoCrObservationContactCaseExample)
 * section[=].entry[+] = Reference(WhoCrObservationContactCaseSettingExample)
@@ -642,22 +637,8 @@ Title: "Who Cr Observation Travel Country Example"
 Description: "Observation Travel Country Example"
 * status = #final
 * valueCodeableConcept = $vs-iso3166-1-2#ZA
-
-Instance: WhoCrObservationTravelCityExample
-InstanceOf: WhoCrObservationTravelCity
-Usage: #example
-Title: "Who Cr Observation Travel City Example"
-Description: "Observation Travel City Example"
-* status = #final
-* valueString = "Harare"
-
-Instance: WhoCrObservationTravelDateExample
-InstanceOf: WhoCrObservationTravelDate
-Usage: #example
-Title: "Who Cr Observation Travel Date Example"
-Description: "Travel Date Example"
-* status = #final
 * effectiveDateTime = "2021-01-19"
+* component.valueString = "Harare"
 
 Instance: WhoCrObservationVisitedHealthCareExample
 InstanceOf: WhoCrObservationVisitedHealthCare
