@@ -247,52 +247,31 @@ Description: "WHO Observation if the patient has had contact with confirmed case
 * value[x] only CodeableConcept
 * valueCodeableConcept 1..1
 * valueCodeableConcept from WhoCrValueSetYesNo
+* component 0..1
 
-Profile: WhoCrObservationContactCaseSetting
-Parent: Observation
-Id: who-cr-observation-contact-case-setting
-Title: "WHO CR Observation Contact Case Setting"
-Description: "WHO Observation setting for contact with confirmed case in the past 14 days prior to symptom onset for case report"
-* code = $LNC#81267-7
-* value[x] only string
-* valueString 1..1
+* component ^slicing.discriminator.type = #pattern
+* component ^slicing.discriminator.path = "code"
+* component ^slicing.rules = #open
+* component ^slicing.description = "Slice of component based on code"
 
-Profile: WhoCrObservationContactCaseID
-Parent: Observation
-Id: who-cr-observation-contact-case-id
-Title: "WHO CR Observation Contact Case Id"
-Description: "WHO Observation id of the confirmed case contacted"
-* code = $LNC#94650-9
-* value[x] only string
-* valueString 1..1
+* component contains
+    contactCaseSetting 0..1 and
+    caseID 0..1 and
+    contactFirstDate 0..1 and
+    contactLastDate 0..1 and
+    contactLocation 0..1
 
-Profile: WhoCrObservationContactCaseFirstDate
-Parent: Observation
-Id: who-cr-observation-contact-case-first-date
-Title: "WHO CR Observation Contact Case First Date"
-Description: "WHO Observation first date patient came into contact with confirmed case"
-* code = $LNC#96545-9
-* value[x] only dateTime
-* valueDateTime 1..1
-
-Profile: WhoCrObservationContactCaseLastDate
-Parent: Observation
-Id: who-cr-observation-contact-case-last-date
-Title: "WHO CR Observation Contact Case Last Date"
-Description: "WHO Observation last date patient came into contact with confirmed case"
-* code = $LNC#95386-9
-* value[x] only dateTime
-* valueDateTime 1..1
-
-Profile: WhoCrObservationContactCaseLocation
-Parent: Observation
-Id: who-cr-observation-contact-case-location
-Title: "WHO CR Observation Contact Case Location"
-Description: "WHO Observation likely country for exposure to case"
-* code = $LNC#77984-3
-* value[x] only string
-* valueString 1..1
-* valueString from $vs-iso3166-1-2
+* component[contactCaseSetting].code = $LNC#81267-7
+* component[contactCaseSetting].valueCodeableConcept 0..1
+* component[caseID].code = $LNC#94650-9
+* component[caseID].valueString 0..1
+* component[contactFirstDate].code = $LNC#96545-9
+* component[contactFirstDate].valueDateTime 0..1
+* component[contactLastDate].code = $LNC#95386-9
+* component[contactLastDate].valueDateTime 0..1
+* component[contactLocation].code = $LNC#77984-3
+* component[contactLocation].valueString 0..1
+* component[contactLocation].valueString from $vs-iso3166-1-2
 
 /**
  * Examples
@@ -384,26 +363,6 @@ Description: "Example of a clinical bundle representing a case report"
 * entry[=].resource = WhoCrObservationContactCaseExample
 * entry[=].request.method = #POST
 * entry[=].request.url = "Observation"
-* entry[+].fullUrl = "http://test.org/fhir/Observation/WhoCrObservationContactCaseSettingExample"
-* entry[=].resource = WhoCrObservationContactCaseSettingExample
-* entry[=].request.method = #POST
-* entry[=].request.url = "Observation"
-* entry[+].fullUrl = "http://test.org/fhir/Observation/WhoCrObservationContactCaseIDExample"
-* entry[=].resource = WhoCrObservationContactCaseIDExample
-* entry[=].request.method = #POST
-* entry[=].request.url = "Observation"
-* entry[+].fullUrl = "http://test.org/fhir/Observation/WhoCrObservationContactCaseLastDateExample"
-* entry[=].resource = WhoCrObservationContactCaseLastDateExample
-* entry[=].request.method = #POST
-* entry[=].request.url = "Observation"
-* entry[+].fullUrl = "http://test.org/fhir/Observation/WhoCrObservationContactCaseFirstDateExample"
-* entry[=].resource = WhoCrObservationContactCaseFirstDateExample
-* entry[=].request.method = #POST
-* entry[=].request.url = "Observation"
-* entry[+].fullUrl = "http://test.org/fhir/Observation/WhoCrObservationContactCaseLocationExample"
-* entry[=].resource = WhoCrObservationContactCaseLocationExample
-* entry[=].request.method = #POST
-* entry[=].request.url = "Observation"
 * entry[+].fullUrl = "http://test.org/fhir/Encounter/WhoCrEncounterHospitalAdmissionExample"
 * entry[=].resource = WhoCrEncounterHospitalAdmissionExample
 * entry[=].request.method = #POST
@@ -457,11 +416,6 @@ Description: "Basic Composition example"
 * section[=].entry[+] = Reference(WhoCrObservationTravelCountryExample)
 * section[=].entry[+] = Reference(WhoCrObservationVisitedHealthCareExample)
 * section[=].entry[+] = Reference(WhoCrObservationContactCaseExample)
-* section[=].entry[+] = Reference(WhoCrObservationContactCaseSettingExample)
-* section[=].entry[+] = Reference(WhoCrObservationContactCaseIDExample)
-* section[=].entry[+] = Reference(WhoCrObservationContactCaseLastDateExample)
-* section[=].entry[+] = Reference(WhoCrObservationContactCaseFirstDateExample)
-* section[=].entry[+] = Reference(WhoCrObservationContactCaseLocationExample)
 
 Instance: WhoCrEncounterExample
 InstanceOf: Encounter
@@ -600,7 +554,7 @@ Title: "Who Cr Observation CaseIsolated Example"
 Description: "Observation CaseIsolated Example"
 * status = #final
 * valueCodeableConcept = $cs-v2-0136#Y
-* valueDateTime = "2021-01-29"
+* effectiveDateTime = "2021-01-29"
 
 Instance: WhoCrObservationHealthCareWorkerExample
 InstanceOf: WhoCrObservationHealthCareWorker
@@ -635,46 +589,11 @@ Title: "Who Cr Observation ContactCase Example"
 Description: "Observation ContactCase Example"
 * status = #final
 * valueCodeableConcept = $cs-v2-0136#Y
-
-Instance: WhoCrObservationContactCaseSettingExample
-InstanceOf: WhoCrObservationContactCaseSetting
-Usage: #example
-Title: "Who Cr Observation Contact Case Setting Example"
-Description: "Observation Contact Case Setting Example"
-* status = #final
-* valueString = "Home"
-
-Instance: WhoCrObservationContactCaseIDExample
-InstanceOf: WhoCrObservationContactCaseID
-Usage: #example
-Title: "Who Cr Observation Contact Case ID Example"
-Description: "Observation Contact Case ID Example"
-* status = #final
-* valueString = "12345678"
-
-Instance: WhoCrObservationContactCaseLastDateExample
-InstanceOf: WhoCrObservationContactCaseLastDate
-Usage: #example
-Title: "Who Cr Observation Contact Case Last Date Example"
-Description: "Contact Case Last Date Example"
-* status = #final
-* valueDateTime = "2021-01-19"
-
-Instance: WhoCrObservationContactCaseFirstDateExample
-InstanceOf: WhoCrObservationContactCaseFirstDate
-Usage: #example
-Title: "Who Cr Observation Contact Case First Date Example"
-Description: "Contact Case First Date Example"
-* status = #final
-* valueDateTime = "2021-01-20"
-
-Instance: WhoCrObservationContactCaseLocationExample
-InstanceOf: WhoCrObservationContactCaseLocation
-Usage: #example
-Title: "Who Cr Observation Contact Case Location Example"
-Description: "Observation Contact Case Location Example"
-* status = #final
-* valueString = "ZW"
+* component[contactCaseSetting].valueString = "Home"
+* component[caseID].valueString = "12345678"
+* component[contactFirstDate].valueDateTime = "2021-01-19"
+* component[contactLastDate].valueDateTime = "2021-01-20"
+* component[contactLocation].valueString = "ZW"
 
 Instance: WhoCrEncounterHospitalAdmissionExample
 InstanceOf: WhoCrEncounterHospitalAdmission
