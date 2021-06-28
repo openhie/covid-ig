@@ -50,12 +50,6 @@ Description: "WHO Encounter for hospital admission"
 * period 0..1
 * period.start 1..1
 
-Profile: WhoCrConditionComorbidity
-Parent: Condition
-* code 1..1
-* code from WhoCrValueSetComorbidity
-* subject 0..1
-
 Profile: WhoCrLocation
 Parent: Location
 Id: who-cr-location
@@ -122,6 +116,9 @@ Description: "WHO Observation if the patient has any co-morbidities for case rep
 * value[x] only CodeableConcept
 * valueCodeableConcept 1..1
 * valueCodeableConcept from WhoCrValueSetYesNo
+* component 0..1
+* component.code = $LNC#75618-9
+* component.valueCodeableConcept 0..1
 
 Profile: WhoCrObservationHasTravelled
 Parent: Observation
@@ -202,7 +199,7 @@ Description: "WHO Observation if the patient is in isolation"
 * value[x] only CodeableConcept
 * valueCodeableConcept 0..1
 * valueCodeableConcept from WhoCrValueSetYesNoUnk
-* valueDateTime 0..1
+* effectiveDateTime 0..1
 
 Profile: WhoCrObservationHealthCareWorker
 Parent: Observation
@@ -367,10 +364,6 @@ Description: "Example of a clinical bundle representing a case report"
 * entry[=].resource = WhoCrEncounterHospitalAdmissionExample
 * entry[=].request.method = #POST
 * entry[=].request.url = "Encounter"
-* entry[+].fullUrl = "http://test.org/fhir/Condition/WhoCrConditionComorbidityExample"
-* entry[=].resource = WhoCrConditionComorbidityExample
-* entry[=].request.method = #POST
-* entry[=].request.url = "Condition"
 
 Instance: WhoCrCompositionBasicExample
 InstanceOf: WhoCrCompositionBasic
@@ -408,7 +401,6 @@ Description: "Basic Composition example"
 * section[=].entry[+] = Reference(WhoCrObservationCaseIsolationExample)
 * section[=].entry[+] = Reference(WhoCrObservationHealthCareWorkerExample)
 * section[=].entry[+] = Reference(WhoCrEncounterHospitalAdmissionExample)
-* section[=].entry[+] = Reference(WhoCrConditionComorbidityExample)
 
 * section[+].title = "exposure risk"
 * section[=].code = http://test.org/sectionCode#exposureRisk
@@ -490,6 +482,7 @@ Title: "Who Cr Observation ComorbiditiesExample"
 Description: "Observation ComorbiditiesExample"
 * status = #final
 * valueCodeableConcept = $cs-v2-0136#Y
+* component[0].valueCodeableConcept = WhoCrCodeSystemComorbidity#PREGNANCY
 
 Instance: WhoCrObservationHasTravelledExample
 InstanceOf: WhoCrObservationHasTravelled
@@ -603,11 +596,3 @@ Description: "Hospital Admission Encounter Example"
 * status = #finished
 * class = http://terminology.hl7.org/CodeSystem/v3-ActCode#ACUTE
 * period.start = "2021-01-19"
-
-Instance: WhoCrConditionComorbidityExample
-InstanceOf: WhoCrConditionComorbidity
-Usage: #example
-Title: "Who Cr Condition Comorbidity Example"
-Description: "Condition Comorbidity Example"
-* code = WhoCrCodeSystemComorbidity#PREGNANCY
-* subject = Reference("Patient/12333")
