@@ -103,16 +103,17 @@ Usage: #definition
 
 * item[2].linkId  = "report_country"
 * item[2].text    = "Reporting country:"
-* item[2].code    = $LNC#77983-5
+* item[2].code    = $LNC#96546-7
 // * item[2].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.report.country"
 * item[2].type    = #choice
 * item[2].answerValueSet    = Canonical(WhoCrValueSetQuestionnaireCountry)
 
 * item[2].item[0].linkId = "report_country_other"
 * item[2].item[0].text = "If Other, please specify:"
-* item[2].item[0].code    = $LNC#77983-5
 // * item[2].item[0].definition = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.report.country"
 * item[2].item[0].type = #string
+* item[2].item[0].code    = $LNC#96546-7
+
 * item[2].item[0].enableWhen[0].question = "report_country"
 * item[2].item[0].enableWhen[0].operator = #=
 * item[2].item[0].enableWhen[0].answerCoding = WhoCrCodeSystemQuestionnaireChoice#other
@@ -169,16 +170,16 @@ Usage: #definition
 
 * item[4].item[3].item[0].linkId  = "patinfo_idadmin0"
 * item[4].item[3].item[0].text    = "Country:"
-* item[4].item[3].item[0].code    = $LNC#96546-7
-// * item[4].item[3].item[0].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.patientInfo.identified.country"
 * item[4].item[3].item[0].type    = #choice
+* item[4].item[3].item[0].code    = $LNC#77983-5
 * item[4].item[3].item[0].answerValueSet    = Canonical(WhoCrValueSetQuestionnaireCountry)
+// * item[4].item[3].item[0].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.patientInfo.identified.country"
 
 * item[4].item[3].item[0].item[0].linkId = "patinfo_idadmin0_other"
 * item[4].item[3].item[0].item[0].text = "If Other, please specify:"
-* item[4].item[3].item[0].item[0].code    = $LNC#96546-7
 // * item[4].item[3].item[0].item[0].definition = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.patientInfo.identified.country"
 * item[4].item[3].item[0].item[0].type = #string
+* item[4].item[3].item[0].item[0].code    = $LNC#77983-5
 * item[4].item[3].item[0].item[0].enableWhen[0].question = "patinfo_idadmin0"
 * item[4].item[3].item[0].item[0].enableWhen[0].operator = #=
 * item[4].item[3].item[0].item[0].enableWhen[0].answerCoding = WhoCrCodeSystemQuestionnaireChoice#other

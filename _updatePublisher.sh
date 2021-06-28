@@ -32,7 +32,7 @@ done
 
 echo "Checking internet connection"
 case "$OSTYPE" in
-	linux-gnu* ) wget -q --spider http://tx.fhir.org/snomed/doco ;; 
+	linux-gnu* ) wget -q --spider http://tx.fhir.org/snomed/doco ;;
   darwin* )	ping tx.fhir.org -c 1 >/dev/null ;;
 	*) echo "unknown: $OSTYPE"; exit 1 ;;
 esac

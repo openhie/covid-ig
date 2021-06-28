@@ -39,6 +39,8 @@ Alias: $prof-sdc-questionnaire-adv-behave = http://hl7.org/fhir/uv/sdc/Structure
 Alias: $prof-sdc-questionnaireResponse = http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaireresponse
 Alias: $prof-sdc-valueset = http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-valueset
 
+Alias: $valueset-diagnostic-service = https://www.hl7.org/fhir/valueset-diagnostic-service-sections.html
+
 RuleSet: PublisherContextInstance
 * status = #draft
 * experimental = true
