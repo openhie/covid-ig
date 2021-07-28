@@ -1,0 +1,83 @@
+{
+  "resourceType": "ConceptMap",
+  "id": "WhoCrConceptMapPatientOutcomeToCiel",
+  "text": {
+    "status": "extensions",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>WhoCrConceptMapPatientOutcomeToCiel (http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapPatientOutcomeToCiel)</h2><p>Mapping from <a href=\"CodeSystem-WhoCrCodeSystemPatientOutcome.html\">http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemPatientOutcome</a> to https://openconceptlab.org/orgs/CIEL/sources/CIEL</p><p>DRAFT (not intended for production usage). Published on Jul 28, 2021, 6:06:14 PM by OpenHIE (OpenHIE: <a href=\"http://www.ohie.org\">http://www.ohie.org</a>). 2021</p><br/><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Destination Code</b></td></tr><tr><td>RECOVERED (Recovered/Healthy)</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equal\">is equal to</a></td><td>165870</td></tr><tr><td>NOTRECOVERED</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equal\">is equal to</a></td><td>165871</td></tr><tr><td>DEATH</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equal\">is equal to</a></td><td>160432</td></tr><tr><td>UNKNOWN</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equal\">is equal to</a></td><td>1067</td></tr></table></div>"
+  },
+  "url": "http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapPatientOutcomeToCiel",
+  "version": "0.1.0",
+  "name": "WhoCrConceptMapPatientOutcomeToCiel",
+  "status": "draft",
+  "experimental": true,
+  "date": "2021-07-28T18:06:14+00:00",
+  "publisher": "OpenHIE",
+  "contact": [
+    {
+      "name": "OpenHIE",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://www.ohie.org"
+        }
+      ]
+    }
+  ],
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code": "001"
+        }
+      ]
+    }
+  ],
+  "copyright": "2021",
+  "sourceCanonical": "http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemPatientOutcome",
+  "targetUri": "https://openconceptlab.org/orgs/CIEL/sources/CIEL",
+  "group": [
+    {
+      "source": "http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemPatientOutcome",
+      "target": "https://openconceptlab.org/orgs/CIEL/sources/CIEL",
+      "element": [
+        {
+          "code": "RECOVERED",
+          "target": [
+            {
+              "code": "165870",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "NOTRECOVERED",
+          "target": [
+            {
+              "code": "165871",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "DEATH",
+          "target": [
+            {
+              "code": "160432",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "UNKNOWN",
+          "target": [
+            {
+              "code": "1067",
+              "equivalence": "equal"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

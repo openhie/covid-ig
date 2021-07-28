@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="WhoCrValueSetComorbidity"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-valueset"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-WhoCrCodeSystemComorbidity.html"><code>http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemComorbidity</code></a></li></ul></div>
+  </text>
+  <url value="http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetComorbidity"/>
+  <version value="0.1.0"/>
+  <name value="WhoCrValueSetComorbidity"/>
+  <title value="Comorbidity"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2021-07-28T18:06:14+00:00"/>
+  <publisher value="OpenHIE"/>
+  <contact>
+    <name value="OpenHIE"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.ohie.org"/>
+    </telecom>
+  </contact>
+  <description value="Comorbidity"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+    </coding>
+  </jurisdiction>
+  <immutable value="false"/>
+  <copyright value="2021"/>
+  <compose>
+    <include>
+      <system value="http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemComorbidity"/>
+    </include>
+  </compose>
+</ValueSet>

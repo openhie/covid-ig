@@ -1,0 +1,261 @@
+[
+  {
+    "id": "WhoCrCodeSystemComorbidity",
+    "type": "CodeSystem",
+    "url": "http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemComorbidity",
+    "version": "0.1.0",
+    "name": "WhoCrCodeSystemComorbidity"
+  },
+  {
+    "id": "WhoCrCodeSystemPatientOutcome",
+    "type": "CodeSystem",
+    "url": "http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemPatientOutcome",
+    "version": "0.1.0",
+    "name": "WhoCrCodeSystemPatientOutcome"
+  },
+  {
+    "id": "WhoCrCodeSystemPregnancyTrimester",
+    "type": "CodeSystem",
+    "url": "http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemPregnancyTrimester",
+    "version": "0.1.0",
+    "name": "WhoCrCodeSystemPregnancyTrimester"
+  },
+  {
+    "id": "WhoCrCodeSystemQuestionnaireChoice",
+    "type": "CodeSystem",
+    "url": "http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemQuestionnaireChoice",
+    "version": "0.1.0",
+    "name": "WhoCrCodeSystemQuestionnaireChoice"
+  },
+  {
+    "id": "WhoCrCodeSystemReasonForTesting",
+    "type": "CodeSystem",
+    "url": "http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemReasonForTesting",
+    "version": "0.1.0",
+    "name": "WhoCrCodeSystemReasonForTesting"
+  },
+  {
+    "id": "WhoCrCodeSystemSubmissionCompletion",
+    "type": "CodeSystem",
+    "url": "http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemSubmissionCompletion",
+    "version": "0.1.0",
+    "name": "WhoCrCodeSystemSubmissionCompletion"
+  },
+  {
+    "id": "WhoCrConceptMapComorbidityToCiel",
+    "type": "ConceptMap",
+    "url": "http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapComorbidityToCiel",
+    "version": "0.1.0",
+    "name": "WhoCrConceptMapComorbidityToCIEL"
+  },
+  {
+    "id": "WhoCrConceptMapComorbidityToLoinc",
+    "type": "ConceptMap",
+    "url": "http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapComorbidityToLoinc",
+    "version": "0.1.0",
+    "name": "WhoCrConceptMapComorbidityToLoinc"
+  },
+  {
+    "id": "WhoCrConceptMapPatientAgeUnitsToCiel",
+    "type": "ConceptMap",
+    "url": "http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapPatientAgeUnitsToCiel",
+    "version": "0.1.0",
+    "name": "WhoCrConceptMapPatientAgeUnitsToCiel"
+  },
+  {
+    "id": "WhoCrConceptMapPatientOutcomeToCiel",
+    "type": "ConceptMap",
+    "url": "http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapPatientOutcomeToCiel",
+    "version": "0.1.0",
+    "name": "WhoCrConceptMapPatientOutcomeToCiel"
+  },
+  {
+    "id": "WhoCrConceptMapPatientSexAtBirthToCiel",
+    "type": "ConceptMap",
+    "url": "http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapPatientSexAtBirthToCiel",
+    "version": "0.1.0",
+    "name": "WhoCrConceptMapPatientSexAtBirthToCiel"
+  },
+  {
+    "id": "WhoCrConceptMapPregnancyTrimesterToCiel",
+    "type": "ConceptMap",
+    "url": "http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapPregnancyTrimesterToCiel",
+    "version": "0.1.0",
+    "name": "WhoCrConceptMapPregnancyTrimesterToCiel"
+  },
+  {
+    "id": "WhoCrConceptMapReasonForTestingToCiel",
+    "type": "ConceptMap",
+    "url": "http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapReasonForTestingToCiel",
+    "version": "0.1.0",
+    "name": "WhoCrConceptMapReasonForTestingToCiel"
+  },
+  {
+    "id": "WhoCrConceptMapSubmittedToCiel",
+    "type": "ConceptMap",
+    "url": "http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapSubmittedToCiel",
+    "version": "0.1.0",
+    "name": "WhoCrConceptMapSubmittedToCiel"
+  },
+  {
+    "id": "WhoCrConceptMapTestResultToCiel",
+    "type": "ConceptMap",
+    "url": "http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapTestResultToCiel",
+    "version": "0.1.0",
+    "name": "WhoCrConceptMapTestResultToCiel"
+  },
+  {
+    "id": "WhoCrConceptMapYesNoToCiel",
+    "type": "ConceptMap",
+    "url": "http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapYesNoToCiel",
+    "version": "0.1.0",
+    "name": "WhoCrConceptMapYesNoToCiel"
+  },
+  {
+    "id": "WhoCrConceptMapYesNoUnknownToCiel",
+    "type": "ConceptMap",
+    "url": "http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapYesNoUnknownToCiel",
+    "version": "0.1.0",
+    "name": "WhoCrConceptMapYesNoUnknownToCiel"
+  },
+  {
+    "id": "who.cr.covid19",
+    "type": "ImplementationGuide",
+    "url": "http://openhie.github.io/covid-19/ImplementationGuide/who.cr.covid19",
+    "version": "0.1.0",
+    "name": "WhoCrCovid19"
+  },
+  {
+    "id": "WhoCrQuestionnaireCovid19Surveillance",
+    "type": "Questionnaire",
+    "url": "http://openhie.github.io/covid-19/Questionnaire/WhoCrQuestionnaireCovid19Surveillance",
+    "version": "0.1.0",
+    "name": "WhoCrQuestionnaireCovid19Surveillance"
+  },
+  {
+    "id": "WhoCompositionProvenance",
+    "type": "StructureDefinition",
+    "url": "http://openhie.github.io/covid-19/StructureDefinition/WhoCompositionProvenance",
+    "version": "0.1.0",
+    "name": "WhoCompositionProvenance"
+  },
+  {
+    "id": "WhoCrComposition",
+    "type": "StructureDefinition",
+    "url": "http://openhie.github.io/covid-19/StructureDefinition/WhoCrComposition",
+    "version": "0.1.0",
+    "name": "WhoCrComposition"
+  },
+  {
+    "id": "WhoCrHcwFacility",
+    "type": "StructureDefinition",
+    "url": "http://openhie.github.io/covid-19/StructureDefinition/WhoCrHcwFacility",
+    "version": "0.1.0",
+    "name": "WhoCrHcwFacility"
+  },
+  {
+    "id": "WhoCrPatient",
+    "type": "StructureDefinition",
+    "url": "http://openhie.github.io/covid-19/StructureDefinition/WhoCrPatient",
+    "version": "0.1.0",
+    "name": "WhoCrPatient"
+  },
+  {
+    "id": "WhoCrQuestionnaireResponseCovid19Surveillance",
+    "type": "StructureDefinition",
+    "url": "http://openhie.github.io/covid-19/StructureDefinition/WhoCrQuestionnaireResponseCovid19Surveillance",
+    "version": "0.1.0",
+    "name": "WhoCrQuestionnaireResponseCovid19Surveillance"
+  },
+  {
+    "id": "WhoCrSurveillanceDataDictionary",
+    "type": "StructureDefinition",
+    "url": "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary",
+    "version": "0.1.0",
+    "name": "WhoCrSurveillanceDataDictionary"
+  },
+  {
+    "id": "WhoCrValueSetAdmin1",
+    "type": "ValueSet",
+    "url": "http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetAdmin1",
+    "version": "0.1.0",
+    "name": "WhoCrValueSetAdmin1"
+  },
+  {
+    "id": "WhoCrValueSetAgeUnits",
+    "type": "ValueSet",
+    "url": "http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetAgeUnits",
+    "version": "0.1.0",
+    "name": "WhoCrValueSetAgeUnits"
+  },
+  {
+    "id": "WhoCrValueSetComorbidity",
+    "type": "ValueSet",
+    "url": "http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetComorbidity",
+    "version": "0.1.0",
+    "name": "WhoCrValueSetComorbidity"
+  },
+  {
+    "id": "WhoCrValueSetPatientOutcome",
+    "type": "ValueSet",
+    "url": "http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetPatientOutcome",
+    "version": "0.1.0",
+    "name": "WhoCrValueSetPatientOutcome"
+  },
+  {
+    "id": "WhoCrValueSetPregnancyTrimester",
+    "type": "ValueSet",
+    "url": "http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetPregnancyTrimester",
+    "version": "0.1.0",
+    "name": "WhoCrValueSetPregnancyTrimester"
+  },
+  {
+    "id": "WhoCrValueSetQuestionnaireResponseAcceptedStatus",
+    "type": "ValueSet",
+    "url": "http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetQuestionnaireResponseAcceptedStatus",
+    "version": "0.1.0",
+    "name": "WhoCrValueSetQuestionnaireResponseAcceptedStatus"
+  },
+  {
+    "id": "WhoCrValueSetReasonForCovid19Testing",
+    "type": "ValueSet",
+    "url": "http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetReasonForCovid19Testing",
+    "version": "0.1.0",
+    "name": "WhoCrValueSetReasonForCovid19Testing"
+  },
+  {
+    "id": "WhoCrValueSetSexAtBirth",
+    "type": "ValueSet",
+    "url": "http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetSexAtBirth",
+    "version": "0.1.0",
+    "name": "WhoCrValueSetSexAtBirth"
+  },
+  {
+    "id": "WhoCrValueSetSubmitted",
+    "type": "ValueSet",
+    "url": "http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetSubmitted",
+    "version": "0.1.0",
+    "name": "WhoCrValueSetSubmitted"
+  },
+  {
+    "id": "WhoCrValueSetTestResult",
+    "type": "ValueSet",
+    "url": "http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetTestResult",
+    "version": "0.1.0",
+    "name": "WhoCrValueSetTestResult"
+  },
+  {
+    "id": "WhoCrValueSetYesNo",
+    "type": "ValueSet",
+    "url": "http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetYesNo",
+    "version": "0.1.0",
+    "name": "WhoCrValueSetYesNo"
+  },
+  {
+    "id": "WhoCrValueSetYesNoUnk",
+    "type": "ValueSet",
+    "url": "http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetYesNoUnk",
+    "version": "0.1.0",
+    "name": "WhoCrValueSetYesNoUnk"
+  }
+]

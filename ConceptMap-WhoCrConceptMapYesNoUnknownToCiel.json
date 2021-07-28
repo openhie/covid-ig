@@ -1,0 +1,74 @@
+{
+  "resourceType": "ConceptMap",
+  "id": "WhoCrConceptMapYesNoUnknownToCiel",
+  "text": {
+    "status": "extensions",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>WhoCrConceptMapYesNoUnknownToCiel (http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapYesNoUnknownToCiel)</h2><p>Mapping from <a href=\"ValueSet-WhoCrValueSetYesNoUnk.html\">http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetYesNoUnk</a> to https://openconceptlab.org/orgs/CIEL/sources/CIEL</p><p>DRAFT (not intended for production usage). Published on Jul 28, 2021, 6:06:14 PM by OpenHIE (OpenHIE: <a href=\"http://www.ohie.org\">http://www.ohie.org</a>). 2021</p><br/><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Destination Code</b></td></tr><tr><td>Y</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equal\">is equal to</a></td><td>1065</td></tr><tr><td>N</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equal\">is equal to</a></td><td>1066</td></tr><tr><td>UNK</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equal\">is equal to</a></td><td>1067</td></tr></table></div>"
+  },
+  "url": "http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapYesNoUnknownToCiel",
+  "version": "0.1.0",
+  "name": "WhoCrConceptMapYesNoUnknownToCiel",
+  "status": "draft",
+  "experimental": true,
+  "date": "2021-07-28T18:06:14+00:00",
+  "publisher": "OpenHIE",
+  "contact": [
+    {
+      "name": "OpenHIE",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://www.ohie.org"
+        }
+      ]
+    }
+  ],
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code": "001"
+        }
+      ]
+    }
+  ],
+  "copyright": "2021",
+  "sourceCanonical": "http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetYesNoUnk",
+  "targetUri": "https://openconceptlab.org/orgs/CIEL/sources/CIEL",
+  "group": [
+    {
+      "source": "http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetYesNoUnk",
+      "target": "https://openconceptlab.org/orgs/CIEL/sources/CIEL",
+      "element": [
+        {
+          "code": "Y",
+          "target": [
+            {
+              "code": "1065",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "N",
+          "target": [
+            {
+              "code": "1066",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "UNK",
+          "target": [
+            {
+              "code": "1067",
+              "equivalence": "equal"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
