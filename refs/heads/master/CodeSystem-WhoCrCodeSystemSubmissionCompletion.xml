@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="WhoCrCodeSystemSubmissionCompletion"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemSubmissionCompletion defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">partial<a name="WhoCrCodeSystemSubmissionCompletion-partial"> </a></td><td>Partial</td><td>Partially complete</td></tr></table></div>
+  </text>
+  <url value="http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemSubmissionCompletion"/>
+  <version value="0.1.0"/>
+  <name value="WhoCrCodeSystemSubmissionCompletion"/>
+  <title value="Submission Completion Status"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2021-07-28T18:06:14+00:00"/>
+  <publisher value="OpenHIE"/>
+  <contact>
+    <name value="OpenHIE"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.ohie.org"/>
+    </telecom>
+  </contact>
+  <description value="Submission Completion Status"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="2021"/>
+  <content value="complete"/>
+  <count value="1"/>
+  <concept>
+    <code value="partial"/>
+    <display value="Partial"/>
+    <definition value="Partially complete"/>
+  </concept>
+</CodeSystem>

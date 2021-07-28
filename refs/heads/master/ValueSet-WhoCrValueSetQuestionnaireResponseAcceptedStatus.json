@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "id": "WhoCrValueSetQuestionnaireResponseAcceptedStatus",
+  "text": {
+    "status": "extensions",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"http://hl7.org/fhir/R4/codesystem-questionnaire-answers-status.html\"><code>http://hl7.org/fhir/questionnaire-answers-status</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://hl7.org/fhir/R4/codesystem-questionnaire-answers-status.html#questionnaire-answers-status-completed\">completed</a></td><td>Completed</td><td>This QuestionnaireResponse has been filled out with answers and the current content is regarded as definitive.</td></tr><tr><td><a href=\"http://hl7.org/fhir/R4/codesystem-questionnaire-answers-status.html#questionnaire-answers-status-amended\">amended</a></td><td>Amended</td><td>This QuestionnaireResponse has been filled out with answers, then marked as complete, yet changes or additions have been made to it afterwards.</td></tr><tr><td><a href=\"http://hl7.org/fhir/R4/codesystem-questionnaire-answers-status.html#questionnaire-answers-status-stopped\">stopped</a></td><td>Stopped</td><td>This QuestionnaireResponse has been partially filled out with answers but has been abandoned. It is unknown whether changes or additions are expected to be made to it.</td></tr></table></li></ul></div>"
+  },
+  "url": "http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetQuestionnaireResponseAcceptedStatus",
+  "version": "0.1.0",
+  "name": "WhoCrValueSetQuestionnaireResponseAcceptedStatus",
+  "title": "Who Case Reporting Acceptable QuestionnaireResponse Statuses",
+  "status": "draft",
+  "experimental": true,
+  "date": "2021-07-28T18:06:14+00:00",
+  "publisher": "OpenHIE",
+  "contact": [
+    {
+      "name": "OpenHIE",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://www.ohie.org"
+        }
+      ]
+    }
+  ],
+  "description": "TODO",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code": "001"
+        }
+      ]
+    }
+  ],
+  "copyright": "2021",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/questionnaire-answers-status",
+        "concept": [
+          {
+            "code": "completed"
+          },
+          {
+            "code": "amended"
+          },
+          {
+            "code": "stopped"
+          }
+        ]
+      }
+    ]
+  }
+}

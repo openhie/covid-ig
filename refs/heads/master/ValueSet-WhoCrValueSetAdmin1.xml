@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="WhoCrValueSetAdmin1"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-valueset"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="http://terminology.hl7.org/2.1.0/CodeSystem-v3-iso3166-2.html"><code>urn:iso:std:iso:3166:-2</code></a></li></ul></div>
+  </text>
+  <url value="http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetAdmin1"/>
+  <version value="0.1.0"/>
+  <name value="WhoCrValueSetAdmin1"/>
+  <title value="List of Administrative Level 1 Names (Province/State/Canton)"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2021-07-28T18:06:14+00:00"/>
+  <publisher value="OpenHIE"/>
+  <contact>
+    <name value="OpenHIE"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.ohie.org"/>
+    </telecom>
+  </contact>
+  <description value="List of Administrative Level 1 Names (Province/State/Canton)"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+    </coding>
+  </jurisdiction>
+  <immutable value="false"/>
+  <copyright value="2021"/>
+  <compose>
+    <include>
+      <system value="urn:iso:std:iso:3166:-2"/>
+    </include>
+  </compose>
+</ValueSet>

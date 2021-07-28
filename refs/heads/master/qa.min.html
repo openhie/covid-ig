@@ -1,0 +1,269 @@
+﻿<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!-- broken links = 30, errors = 4, warn = 5, info = 2 -->
+<head>
+  <title>WhoCrCovid19 : Validation Results</title>
+  <link href="fhir.css" rel="stylesheet"/>
+  <style>
+    span.flip  { background-color: #4CAF50; color: white; border: solid 1px #a6d8a8; padding: 2px }
+  </style>
+  <script>
+    function flip(id) {
+      var span = document.getElementById('s'+id);
+      var div = document.getElementById(id);
+      if (document.getElementById('s'+id).innerHTML == 'Show Reasoning') {
+        div.style.display = 'block';
+        span.innerHTML = 'Hide Reasoning';
+      } else {
+        div.style.display = 'none';
+        span.innerHTML = 'Show Reasoning';
+      }
+    }
+  </script>
+</head>
+<body style="margin: 20px; background-color: #ffffff">
+ <h1>Validation Results for WhoCrCovid19</h1>
+ <p>Generated Wed Jul 28 18:06:45 UTC 2021, FHIR version 4.0.1 for who.cr.covid19#0.1.0 (canonical = <a href="http://openhie.github.io/covid-19">http://openhie.github.io/covid-19</a> (<a href="http://openhie.github.io/covid-19/history.html">history</a>)). See <a href="/github/workspace/output/qa.html">Full QA Report</a></p>
+<table class="grid"> <tr><td colspan=2><b>Quality Checks</b></td></tr>
+ <tr><td>Publisher Version:</td><td><span>IG Publisher Version: v1.1.77</span></td></tr>
+ <tr><td>Publication Code:</td><td>n/a<span style="color: maroon; font-weight: bold"> </span>. PackageId = who.cr.covid19, Canonical = http://openhie.github.io/covid-19</td></tr>
+ <tr><td>Realm Check for n/a:</td><td><span style="color: maroon; font-weight: bold"></span><ul><li>n/a</li></ul></td></tr>
+ <tr><td>Version Check:</td><td>0.1.0: <span stlye="color: marron; font-weight: bold">no package-list.json - the guide is not ready for publishing</span></td></tr>
+ <tr><td>Supressed Messages:</td><td>No Suppressed Issues
+</td></tr>
+ <tr><td>Dependency Checks:</td><td><div><table border="0" cellpadding="0" cellspacing="0" style="border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;"><tr style="border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top"><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="The NPM Package Id">Package</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="The version of the package">Version</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="The version of FHIR that the package is based on">FHIR Release</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="Canonical URL">Canonical</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="Web Reference Base">Web Base</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="Comments about this entry">Comment</span></th></tr><tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(/github/workspace/outputdata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAACCAYAAACg/LjIAAAALUlEQVR4Xu3IoREAIAwEwfT6/ddA0GBAxO3NrLlKUj9263wAAAAvrgEAADClAVWFQIBRHMicAAAAAElFTkSuQmCC)" class="hierarchy"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAWCAYAAAABxvaqAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzIs1vtcMQAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAE0lEQVQI12P4//8/AxMDAwNdCABMPwMo2ctnoQAAAABJRU5ErkJggg==" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QYZCik0qECmbAAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAABtUlEQVQoz2P8//8/Ayb4///v8xfM4iIMzKxoMkwMOMC3DVv/vXmEKY5Dw///Pw8c+Xn2CLEa/r55+/P07t/nrxKl4f/PX6+8g1mlP/44c4eAhn8fP33bsOV1dBoT51V2+z/MohIfeyYy/P2LXcPfFy8/NLb9efTs//utgjUfft35xRUY8Hnm/N/Xb2LT8P//h5ZOnvjoj+11giXcTH//MTLp/v/x9c/z279uXsOi4e/LRwzsbz6vmMyTLM6m9fnXE3Y2l+yv+yez2nL9eX0Wi4afF5eyW4r/+3qYP1Xjz/N3P17ZsRsKMrJd4rL9wcTxDIsGZqEvLEKv2VT/Mgl+/XGbXSB72s/zxXyBYmwqLCxSLFg0sKkHsAg+YJX7xfBTmt204s/NXE4dQTZtT2beH6yqFv9ebkDXwMhnxixrySb68f9fcWYRTSbGA6ya2QwMsixCvxk/djByiWIJVkbBBGaNOoafO5nYWVlkPRjYtP5/388s+JdJkI+R1xquDMl9zOqMQioM7BIMjJ8Z2IUYWOQZeT0Y/u5mEF+G7AdGLMn7712GnycY/v1g+HOZga+WgUkYWRIAe6ip9OnE1GoAAAAASUVORK5CYII=" alt="." style="background-color: white; background-color: inherit" title="NPM Package" class="hierarchy"/> who.cr.covid19</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0.1.0</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">4.0.1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://openhie.github.io/covid-19</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(/github/workspace/outputdata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAACCAYAAACg/LjIAAAAJUlEQVR4Xu3IIQEAAAgDsHd9/w4EQIOamFnaBgAA4MMKAACAKwNp30CqZFfFmwAAAABJRU5ErkJggg==)" class="hierarchy"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAWCAYAAAABxvaqAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzIs1vtcMQAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAE0lEQVQI12P4//8/AxMDAwNdCABMPwMo2ctnoQAAAABJRU5ErkJggg==" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAWCAYAAADJqhx8AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzME+lXFigAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAANklEQVQ4y+3OsRUAIAjEUOL+O8cJABttJM11/x1qZAGqRBEVcNIqdWj1efDqQbb3HwwwwEfABmQUHSPM9dtDAAAAAElFTkSuQmCC" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QYZCik0qECmbAAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAABtUlEQVQoz2P8//8/Ayb4///v8xfM4iIMzKxoMkwMOMC3DVv/vXmEKY5Dw///Pw8c+Xn2CLEa/r55+/P07t/nrxKl4f/PX6+8g1mlP/44c4eAhn8fP33bsOV1dBoT51V2+z/MohIfeyYy/P2LXcPfFy8/NLb9efTs//utgjUfft35xRUY8Hnm/N/Xb2LT8P//h5ZOnvjoj+11giXcTH//MTLp/v/x9c/z279uXsOi4e/LRwzsbz6vmMyTLM6m9fnXE3Y2l+yv+yez2nL9eX0Wi4afF5eyW4r/+3qYP1Xjz/N3P17ZsRsKMrJd4rL9wcTxDIsGZqEvLEKv2VT/Mgl+/XGbXSB72s/zxXyBYmwqLCxSLFg0sKkHsAg+YJX7xfBTmt204s/NXE4dQTZtT2beH6yqFv9ebkDXwMhnxixrySb68f9fcWYRTSbGA6ya2QwMsixCvxk/djByiWIJVkbBBGaNOoafO5nYWVlkPRjYtP5/388s+JdJkI+R1xquDMl9zOqMQioM7BIMjJ8Z2IUYWOQZeT0Y/u5mEF+G7AdGLMn7712GnycY/v1g+HOZga+WgUkYWRIAe6ip9OnE1GoAAAAASUVORK5CYII=" alt="." style="background-color: #F7F7F7; background-color: inherit" title="NPM Package" class="hierarchy"/> hl7.fhir.uv.sdc</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">2.8.0</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">4.0.1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://hl7.org/fhir/uv/sdc</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">https://build.fhir.org/ig/HL7/sdc/</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Matched to latest patch release</td></tr>
+</table><para>Templates: who.fhir.template#0.0.2 -&gt; cqf.fhir.template#0.0.2 -&gt; fhir.base.template#0.2.1</para></div></td></tr>
+ <tr><td>Publication Rules:</td><td>Code = n/a. n/a - not an HL7.org or FHIR.org implementation guide
+ <br/><br/>The copyrightYear parameter ('2020+') in the IG resource is good</td></tr>
+ <tr><td>HTA Analysis:</td><td><i>Non-HL7 Igs are exempt from terminology dependency analysis</i></td></tr>
+ <tr><td>Previous Version Comparison:</td><td> Unable to compare with previous version: Unable to find version history at http://openhie.github.io/covid-19 (Problem #1 with package-list.json at http://openhie.github.io/covid-19: http://openhie.github.io/covid-19/package-list.json)</td></tr>
+ <tr><td>Summary:</td><td> broken links = 30, errors = 4, warn = 5, info = 2</td></tr>
+</table>
+ <table class="grid">
+   <tr>
+     <td><b>Filename</b></td><td><b>Errors</b></td><td><b>Warnings</b></td><td><b>Hints</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#internal"><b>Build Errors</b></a></td><td><b>30</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_github_workspace_fsh-generated_resources_Questionnaire-WhoCrQuestionnaireCovid19Surveillance"><b>/github/workspace/fsh-generated/resources/Questionnaire-WhoCrQuestionnaireCovid19Surveillance</b></a></td><td><b>0</b></td><td><b>2</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_github_workspace_fsh-generated_resources_StructureDefinition-WhoCompositionProvenance"><b>/github/workspace/fsh-generated/resources/StructureDefinition-WhoCompositionProvenance</b></a></td><td><b>4</b></td><td><b>1</b></td><td><b>2</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_github_workspace_fsh-generated_resources_StructureDefinition-WhoCrHcwFacility"><b>/github/workspace/fsh-generated/resources/StructureDefinition-WhoCrHcwFacility</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_github_workspace_fsh-generated_resources_StructureDefinition-WhoCrQuestionnaireResponseCovid19Surveillance"><b>/github/workspace/fsh-generated/resources/StructureDefinition-WhoCrQuestionnaireResponseCovid19Surveillance</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="internal"> </a>
+<h2><a href="">n/a</a></h2>
+ <table class="grid">
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireAdmin1.change.history.html#09983e7d-6e62-4a42-8d32-dce5a0f76718">ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireAdmin1.change.history.html#/html/body/div/div/div/div/div/ul/li/a at Line 136, column 8</a></b></td><td><b>error</b></td><td><b>The link 'ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireAdmin1.xml.html' for &quot;XML&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireAdmin1.change.history.html#0f02cedc-fb51-419e-a2e2-1615b750157d">ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireAdmin1.change.history.html#/html/body/div/div/div/div/div/ul/li/a at Line 143, column 8</a></b></td><td><b>error</b></td><td><b>The link 'ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireAdmin1.json.html' for &quot;JSON&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireAdmin1.change.history.html#e11004d2-8665-4fae-a639-8fe08bbf0101">ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireAdmin1.change.history.html#/html/body/div/div/div/div/div/ul/li/a at Line 150, column 8</a></b></td><td><b>error</b></td><td><b>The link 'ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireAdmin1.ttl.html' for &quot;TTL&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireAdmin1.html#73813663-c9f4-4716-bedc-6def9c57ec20">ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireAdmin1.html#/html/body/div/div/div/div/div/ul/li/a at Line 131, column 8</a></b></td><td><b>error</b></td><td><b>The link 'ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireAdmin1.xml.html' for &quot;XML&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireAdmin1.html#36e73bff-9324-4a1b-b6c4-9f05bdd19ad3">ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireAdmin1.html#/html/body/div/div/div/div/div/ul/li/a at Line 138, column 8</a></b></td><td><b>error</b></td><td><b>The link 'ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireAdmin1.json.html' for &quot;JSON&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireAdmin1.html#b810c354-fc78-4143-a8d4-dcde6cddc6a5">ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireAdmin1.html#/html/body/div/div/div/div/div/ul/li/a at Line 145, column 8</a></b></td><td><b>error</b></td><td><b>The link 'ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireAdmin1.ttl.html' for &quot;TTL&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireComorbidity.change.history.html#a30dd54f-3ac5-40e9-8b6d-dc9ee11eea3e">ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireComorbidity.change.history.html#/html/body/div/div/div/div/div/ul/li/a at Line 136, column 8</a></b></td><td><b>error</b></td><td><b>The link 'ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireComorbidity.xml.html' for &quot;XML&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireComorbidity.change.history.html#08c3f6a4-bf17-4899-b54a-0e3eb007987d">ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireComorbidity.change.history.html#/html/body/div/div/div/div/div/ul/li/a at Line 143, column 8</a></b></td><td><b>error</b></td><td><b>The link 'ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireComorbidity.json.html' for &quot;JSON&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireComorbidity.change.history.html#d1c30b32-3608-4d1d-88ad-efcf5c44d07d">ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireComorbidity.change.history.html#/html/body/div/div/div/div/div/ul/li/a at Line 150, column 8</a></b></td><td><b>error</b></td><td><b>The link 'ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireComorbidity.ttl.html' for &quot;TTL&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireComorbidity.html#a892d18b-1363-49b0-ac65-76260563661c">ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireComorbidity.html#/html/body/div/div/div/div/div/ul/li/a at Line 131, column 8</a></b></td><td><b>error</b></td><td><b>The link 'ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireComorbidity.xml.html' for &quot;XML&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireComorbidity.html#dd398e7b-92a3-47cf-bade-e1874605acd2">ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireComorbidity.html#/html/body/div/div/div/div/div/ul/li/a at Line 138, column 8</a></b></td><td><b>error</b></td><td><b>The link 'ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireComorbidity.json.html' for &quot;JSON&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireComorbidity.html#274a66d9-7df9-4465-9bad-27e34e39f682">ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireComorbidity.html#/html/body/div/div/div/div/div/ul/li/a at Line 145, column 8</a></b></td><td><b>error</b></td><td><b>The link 'ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireComorbidity.ttl.html' for &quot;TTL&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireCountry.change.history.html#0630355b-7e02-4e0e-ad8f-d81979a3a709">ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireCountry.change.history.html#/html/body/div/div/div/div/div/ul/li/a at Line 136, column 8</a></b></td><td><b>error</b></td><td><b>The link 'ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireCountry.xml.html' for &quot;XML&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireCountry.change.history.html#e4f06007-c1eb-4ba4-9dfe-090caef7f143">ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireCountry.change.history.html#/html/body/div/div/div/div/div/ul/li/a at Line 143, column 8</a></b></td><td><b>error</b></td><td><b>The link 'ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireCountry.json.html' for &quot;JSON&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireCountry.change.history.html#47273c52-0462-41e1-b873-ae33e41acba9">ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireCountry.change.history.html#/html/body/div/div/div/div/div/ul/li/a at Line 150, column 8</a></b></td><td><b>error</b></td><td><b>The link 'ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireCountry.ttl.html' for &quot;TTL&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireCountry.html#4f141231-f55a-43c2-a21c-40189277ce7e">ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireCountry.html#/html/body/div/div/div/div/div/ul/li/a at Line 131, column 8</a></b></td><td><b>error</b></td><td><b>The link 'ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireCountry.xml.html' for &quot;XML&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireCountry.html#f2d3c14f-6682-4063-9676-0ef43e5f41e9">ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireCountry.html#/html/body/div/div/div/div/div/ul/li/a at Line 138, column 8</a></b></td><td><b>error</b></td><td><b>The link 'ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireCountry.json.html' for &quot;JSON&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireCountry.html#748b2f0c-6f5c-4f5d-886b-07084d550f27">ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireCountry.html#/html/body/div/div/div/div/div/ul/li/a at Line 145, column 8</a></b></td><td><b>error</b></td><td><b>The link 'ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireCountry.ttl.html' for &quot;TTL&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnairePatientOutcome.change.history.html#75f105b5-ca0a-416b-8006-e0f39f9f8940">ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnairePatientOutcome.change.history.html#/html/body/div/div/div/div/div/ul/li/a at Line 136, column 8</a></b></td><td><b>error</b></td><td><b>The link 'ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnairePatientOutcome.xml.html' for &quot;XML&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnairePatientOutcome.change.history.html#1b0dabe3-cf3b-4e88-9cb0-be888fe79b4c">ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnairePatientOutcome.change.history.html#/html/body/div/div/div/div/div/ul/li/a at Line 143, column 8</a></b></td><td><b>error</b></td><td><b>The link 'ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnairePatientOutcome.json.html' for &quot;JSON&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnairePatientOutcome.change.history.html#64ea6e6b-cbe7-45a2-8c1e-0e18a20ac428">ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnairePatientOutcome.change.history.html#/html/body/div/div/div/div/div/ul/li/a at Line 150, column 8</a></b></td><td><b>error</b></td><td><b>The link 'ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnairePatientOutcome.ttl.html' for &quot;TTL&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnairePatientOutcome.html#dd568fee-c6a6-44b0-b010-1ca25671cddb">ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnairePatientOutcome.html#/html/body/div/div/div/div/div/ul/li/a at Line 131, column 8</a></b></td><td><b>error</b></td><td><b>The link 'ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnairePatientOutcome.xml.html' for &quot;XML&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnairePatientOutcome.html#b6ba3271-a50d-4c4d-b5cb-0e5d3b2c4f21">ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnairePatientOutcome.html#/html/body/div/div/div/div/div/ul/li/a at Line 138, column 8</a></b></td><td><b>error</b></td><td><b>The link 'ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnairePatientOutcome.json.html' for &quot;JSON&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnairePatientOutcome.html#fab9a8db-3387-4882-bb56-fa3463aec48c">ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnairePatientOutcome.html#/html/body/div/div/div/div/div/ul/li/a at Line 145, column 8</a></b></td><td><b>error</b></td><td><b>The link 'ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnairePatientOutcome.ttl.html' for &quot;TTL&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireReasonForTesting.change.history.html#1da1305a-ea30-499d-a4b7-36d7dcd37a42">ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireReasonForTesting.change.history.html#/html/body/div/div/div/div/div/ul/li/a at Line 136, column 8</a></b></td><td><b>error</b></td><td><b>The link 'ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireReasonForTesting.xml.html' for &quot;XML&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireReasonForTesting.change.history.html#b4c47c14-b111-49ba-bf68-a617d748938f">ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireReasonForTesting.change.history.html#/html/body/div/div/div/div/div/ul/li/a at Line 143, column 8</a></b></td><td><b>error</b></td><td><b>The link 'ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireReasonForTesting.json.html' for &quot;JSON&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireReasonForTesting.change.history.html#013e354a-7c9e-48b4-aa2d-6b3b729a7d6b">ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireReasonForTesting.change.history.html#/html/body/div/div/div/div/div/ul/li/a at Line 150, column 8</a></b></td><td><b>error</b></td><td><b>The link 'ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireReasonForTesting.ttl.html' for &quot;TTL&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireReasonForTesting.html#58022ecd-53ff-40db-9761-1896cefde5bd">ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireReasonForTesting.html#/html/body/div/div/div/div/div/ul/li/a at Line 131, column 8</a></b></td><td><b>error</b></td><td><b>The link 'ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireReasonForTesting.xml.html' for &quot;XML&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireReasonForTesting.html#905fb486-212f-4408-aee8-948a5e859ae6">ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireReasonForTesting.html#/html/body/div/div/div/div/div/ul/li/a at Line 138, column 8</a></b></td><td><b>error</b></td><td><b>The link 'ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireReasonForTesting.json.html' for &quot;JSON&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireReasonForTesting.html#83fda25f-e1f2-4eac-90d7-7738de1d33d7">ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireReasonForTesting.html#/html/body/div/div/div/div/div/ul/li/a at Line 145, column 8</a></b></td><td><b>error</b></td><td><b>The link 'ValueSet-WhoCrQuestionnaireCovid19Surveillance_WhoCrValueSetQuestionnaireReasonForTesting.ttl.html' for &quot;TTL&quot; cannot be resolved</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_github_workspace_fsh-generated_resources_Questionnaire-WhoCrQuestionnaireCovid19Surveillance"> </a>
+<h2><a href="Questionnaire-WhoCrQuestionnaireCovid19Surveillance.html">/github/workspace/fsh-generated/resources/Questionnaire-WhoCrQuestionnaireCovid19Surveillance.json</a></h2>
+ <ul style="font-size: 7px"><li>Questionnaire: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/questionnaire.html">Questionnaire</a>, hl7.fhir.uv.sdc.<a href="https://build.fhir.org/ig/HL7/sdc//StructureDefinition-sdc-questionnaire.html">SDCBaseQuestionnaire</a> (per meta), hl7.fhir.uv.sdc.<a href="https://build.fhir.org/ig/HL7/sdc//StructureDefinition-sdc-questionnaire-render.html">Advanced Rendering Questionnaire</a> (per meta), hl7.fhir.uv.sdc.<a href="https://build.fhir.org/ig/HL7/sdc//StructureDefinition-sdc-questionnaire-behave.html">Advanced Behavior Questionnaire</a> (per meta) and hl7.fhir.uv.sdc.<a href="https://build.fhir.org/ig/HL7/sdc//StructureDefinition-sdc-questionnaire-extr-defn.html">Extractable Questionnaire - Definition</a> (per meta)</li><li>Questionnaire.contained[0]: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a> and hl7.fhir.uv.sdc.<a href="https://build.fhir.org/ig/HL7/sdc//StructureDefinition-sdc-valueset.html">SDCValueSet</a> (per meta)</li><li>Questionnaire.contained[1]: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a> and hl7.fhir.uv.sdc.<a href="https://build.fhir.org/ig/HL7/sdc//StructureDefinition-sdc-valueset.html">SDCValueSet</a> (per meta)</li><li>Questionnaire.contained[2]: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a> and hl7.fhir.uv.sdc.<a href="https://build.fhir.org/ig/HL7/sdc//StructureDefinition-sdc-valueset.html">SDCValueSet</a> (per meta)</li><li>Questionnaire.contained[3]: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a> and hl7.fhir.uv.sdc.<a href="https://build.fhir.org/ig/HL7/sdc//StructureDefinition-sdc-valueset.html">SDCValueSet</a> (per meta)</li><li>Questionnaire.contained[4]: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a> and hl7.fhir.uv.sdc.<a href="https://build.fhir.org/ig/HL7/sdc//StructureDefinition-sdc-valueset.html">SDCValueSet</a> (per meta)</li></ul>
+
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Questionnaire.item[2]</b></td><td><b>warning</b></td><td title="sdc-1: 'An item cannot have an answerExpression if answerOption or answerValueSet is already present.' Rule 'An item cannot have an answerExpression if answerOption or answerValueSet is already present.' Failed"><b>sdc-1: 'An item cannot have an answerExpression if answerOption or answerValueSet is already present.' Rule 'An item cannot have an answerExpression if answerOption or answerValueSet is already present.' Failed</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Questionnaire.item[3]</b></td><td><b>warning</b></td><td title="sdc-1: 'An item cannot have an answerExpression if answerOption or answerValueSet is already present.' Rule 'An item cannot have an answerExpression if answerOption or answerValueSet is already present.' Failed"><b>sdc-1: 'An item cannot have an answerExpression if answerOption or answerValueSet is already present.' Rule 'An item cannot have an answerExpression if answerOption or answerValueSet is already present.' Failed</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_github_workspace_fsh-generated_resources_StructureDefinition-WhoCompositionProvenance"> </a>
+<h2><a href="StructureDefinition-WhoCompositionProvenance.html">/github/workspace/fsh-generated/resources/StructureDefinition-WhoCompositionProvenance.json</a></h2>
+ <ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition.snapshot.element[15].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td title="Terminology_TX_System_ValueSet2"><b>The Coding references a value set, not a code system ('http://terminology.hl7.org/ValueSet/v3-PurposeOfUse')</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition.snapshot.element[15].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td title="Terminology_TX_System_ValueSet"><b>Invalid System URI: http://terminology.hl7.org/ValueSet/v3-PurposeOfUse - cannot use a value set URI as a system</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>StructureDefinition.snapshot.element[15].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://terminology.hl7.org/ValueSet/v3-PurposeOfUse' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition.differential.element[2].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td title="Terminology_TX_System_ValueSet2"><b>The Coding references a value set, not a code system ('http://terminology.hl7.org/ValueSet/v3-PurposeOfUse')</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition.differential.element[2].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td title="Terminology_TX_System_ValueSet"><b>Invalid System URI: http://terminology.hl7.org/ValueSet/v3-PurposeOfUse - cannot use a value set URI as a system</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>StructureDefinition.differential.element[2].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://terminology.hl7.org/ValueSet/v3-PurposeOfUse' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'http://openhie.github.io/covid-19/StructureDefinition/WhoCompositionProvenance')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this profile</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_github_workspace_fsh-generated_resources_StructureDefinition-WhoCrHcwFacility"> </a>
+<h2><a href="StructureDefinition-WhoCrHcwFacility.html">/github/workspace/fsh-generated/resources/StructureDefinition-WhoCrHcwFacility.json</a></h2>
+ <ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'http://openhie.github.io/covid-19/StructureDefinition/WhoCrHcwFacility')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this profile</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_github_workspace_fsh-generated_resources_StructureDefinition-WhoCrQuestionnaireResponseCovid19Surveillance"> </a>
+<h2><a href="StructureDefinition-WhoCrQuestionnaireResponseCovid19Surveillance.html">/github/workspace/fsh-generated/resources/StructureDefinition-WhoCrQuestionnaireResponseCovid19Surveillance.json</a></h2>
+ <ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'http://openhie.github.io/covid-19/StructureDefinition/WhoCrQuestionnaireResponseCovid19Surveillance')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this profile</b></td>
+   </tr>
+</table>
+<a name="suppressed"> </a>
+<p><b>Suppressed Messages (Warnings, hints, broken links)</b></p>
+<p>No suppressed messsages</p><a name="sorted"> </a>
+<p><b>Errors sorted by type</b></p>
+<hr/>
+<a name="Terminology_TX_System_NotKnown"> </a>
+<h2>Terminology_TX_System_NotKnown</h2>
+ <table class="grid">
+   <tr style="background-color: #fffff2">
+     <td><a href="StructureDefinition-WhoCompositionProvenance.html">/github/workspace/fsh-generated/resources/StructureDefinition-WhoCompositionProvenance.json</a></td><td><b>Code System URI 'http://terminology.hl7.org/ValueSet/v3-PurposeOfUse' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="StructureDefinition-WhoCompositionProvenance.html">/github/workspace/fsh-generated/resources/StructureDefinition-WhoCompositionProvenance.json</a></td><td><b>Code System URI 'http://terminology.hl7.org/ValueSet/v3-PurposeOfUse' is unknown so the code cannot be validated</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="Terminology_TX_System_ValueSet"> </a>
+<h2>Terminology_TX_System_ValueSet</h2>
+ <table class="grid">
+   <tr style="background-color: #ffeeee">
+     <td><a href="StructureDefinition-WhoCompositionProvenance.html">/github/workspace/fsh-generated/resources/StructureDefinition-WhoCompositionProvenance.json</a></td><td><b>Invalid System URI: http://terminology.hl7.org/ValueSet/v3-PurposeOfUse - cannot use a value set URI as a system</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="StructureDefinition-WhoCompositionProvenance.html">/github/workspace/fsh-generated/resources/StructureDefinition-WhoCompositionProvenance.json</a></td><td><b>Invalid System URI: http://terminology.hl7.org/ValueSet/v3-PurposeOfUse - cannot use a value set URI as a system</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="Terminology_TX_System_ValueSet2"> </a>
+<h2>Terminology_TX_System_ValueSet2</h2>
+ <table class="grid">
+   <tr style="background-color: #ffeeee">
+     <td><a href="StructureDefinition-WhoCompositionProvenance.html">/github/workspace/fsh-generated/resources/StructureDefinition-WhoCompositionProvenance.json</a></td><td><b>The Coding references a value set, not a code system ('http://terminology.hl7.org/ValueSet/v3-PurposeOfUse')</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="StructureDefinition-WhoCompositionProvenance.html">/github/workspace/fsh-generated/resources/StructureDefinition-WhoCompositionProvenance.json</a></td><td><b>The Coding references a value set, not a code system ('http://terminology.hl7.org/ValueSet/v3-PurposeOfUse')</b></td>
+   </tr>
+</table>
+</body>
+</html>

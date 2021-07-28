@@ -1,0 +1,34 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://openhie.github.io/covid-19/Patient/WhoCrSamplePatient> a fhir:Patient;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "WhoCrSamplePatient"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://openhie.github.io/covid-19/StructureDefinition/WhoCrPatient";
+       fhir:index 0;
+       fhir:link <http://openhie.github.io/covid-19/StructureDefinition/WhoCrPatient>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>address</b>: URY (HOME)</p></div>"
+  ];
+  fhir:Patient.address [
+     fhir:index 0;
+     fhir:Address.use [ fhir:value "home" ];
+     fhir:Address.country [ fhir:value "URY" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://openhie.github.io/covid-19/Patient/WhoCrSamplePatient.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

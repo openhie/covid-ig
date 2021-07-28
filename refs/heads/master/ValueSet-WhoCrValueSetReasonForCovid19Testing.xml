@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="WhoCrValueSetReasonForCovid19Testing"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-valueset"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-WhoCrCodeSystemReasonForTesting.html"><code>http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemReasonForTesting</code></a></li></ul></div>
+  </text>
+  <url value="http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetReasonForCovid19Testing"/>
+  <version value="0.1.0"/>
+  <name value="WhoCrValueSetReasonForCovid19Testing"/>
+  <title value="Reason for Covid-19 Testing"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2021-07-28T18:06:14+00:00"/>
+  <publisher value="OpenHIE"/>
+  <contact>
+    <name value="OpenHIE"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.ohie.org"/>
+    </telecom>
+  </contact>
+  <description value="TODO"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+    </coding>
+  </jurisdiction>
+  <immutable value="false"/>
+  <copyright value="2021"/>
+  <compose>
+    <include>
+      <system value="http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemReasonForTesting"/>
+    </include>
+  </compose>
+</ValueSet>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ConceptMap xmlns="http://hl7.org/fhir">
+  <id value="WhoCrConceptMapPatientSexAtBirthToCiel"/>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>WhoCrConceptMapPatientSexAtBirthToCiel (http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapPatientSexAtBirthToCiel)</h2><p>Mapping from <a href="ValueSet-WhoCrValueSetSexAtBirth.html">http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetSexAtBirth</a> to https://openconceptlab.org/orgs/CIEL/sources/CIEL</p><p>DRAFT (not intended for production usage). Published on Jul 28, 2021, 6:06:14 PM by OpenHIE (OpenHIE: <a href="http://www.ohie.org">http://www.ohie.org</a>). 2021</p><br/><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Destination Code</b></td><td><b>Comment</b></td></tr><tr><td>male</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equal">is equal to</a></td><td>1534</td><td/></tr><tr><td>female</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equal">is equal to</a></td><td>1535</td><td/></tr><tr><td/><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#relatedto">is related to</a></td><td>1067</td><td>WHO data dictionary does not support</td></tr></table></div>
+  </text>
+  <url value="http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapPatientSexAtBirthToCiel"/>
+  <version value="0.1.0"/>
+  <name value="WhoCrConceptMapPatientSexAtBirthToCiel"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2021-07-28T18:06:14+00:00"/>
+  <publisher value="OpenHIE"/>
+  <contact>
+    <name value="OpenHIE"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.ohie.org"/>
+    </telecom>
+  </contact>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="2021"/>
+  <sourceCanonical value="http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetSexAtBirth"/>
+  <targetUri value="https://openconceptlab.org/orgs/CIEL/sources/CIEL"/>
+  <group>
+    <source value="http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetSexAtBirth"/>
+    <target value="https://openconceptlab.org/orgs/CIEL/sources/CIEL"/>
+    <element>
+      <code value="male"/>
+      <target>
+        <code value="1534"/>
+        <equivalence value="equal"/>
+      </target>
+    </element>
+    <element>
+      <code value="female"/>
+      <target>
+        <code value="1535"/>
+        <equivalence value="equal"/>
+      </target>
+    </element>
+    <element>
+      <target>
+        <code value="1067"/>
+        <equivalence value="relatedto"/>
+        <comment value="WHO data dictionary does not support"/>
+      </target>
+    </element>
+  </group>
+</ConceptMap>

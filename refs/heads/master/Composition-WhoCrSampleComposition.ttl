@@ -1,0 +1,63 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix loinc: <http://loinc.org/rdf#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://openhie.github.io/covid-19/Composition/WhoCrSampleComposition> a fhir:Composition;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "WhoCrSampleComposition"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://openhie.github.io/covid-19/StructureDefinition/WhoCrComposition";
+       fhir:index 0;
+       fhir:link <http://openhie.github.io/covid-19/StructureDefinition/WhoCrComposition>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>status</b>: final</p><p><b>type</b>: <span title=\"Codes: {http://loinc.org 95412-3}\">COVID-19 case report</span></p><p><b>category</b>: <span title=\"Codes: {http://loinc.org 55751-2}\">Public health Case report</span></p><p><b>date</b>: 2020-08-21</p><p><b>author</b>: <a href=\"Patient-WhoCrSamplePatient.html\">Generated Summary: </a></p><p><b>title</b>: Revised case report form for Confirmed Novel Coronavirus COVID-19</p></div>"
+  ];
+  fhir:Composition.status [ fhir:value "final"];
+  fhir:Composition.type [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       a loinc:95412-3;
+       fhir:Coding.system [ fhir:value "http://loinc.org" ];
+       fhir:Coding.code [ fhir:value "95412-3" ]
+     ]
+  ];
+  fhir:Composition.category [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       a loinc:55751-2;
+       fhir:Coding.system [ fhir:value "http://loinc.org" ];
+       fhir:Coding.code [ fhir:value "55751-2" ]
+     ]
+  ];
+  fhir:Composition.date [ fhir:value "2020-08-21"^^xsd:date];
+  fhir:Composition.author [
+     fhir:index 0;
+     fhir:link <http://openhie.github.io/covid-19/Patient/WhoCrSamplePatient>;
+     fhir:Reference.reference [ fhir:value "Patient/WhoCrSamplePatient" ]
+  ];
+  fhir:Composition.title [ fhir:value "Revised case report form for Confirmed Novel Coronavirus COVID-19"];
+  fhir:Composition.section [
+     fhir:index 0;
+     fhir:Composition.section.title [ fhir:value "Patient Information" ];
+     fhir:Composition.section.text [
+       fhir:Narrative.status [ fhir:value "additional" ];
+       fhir:Narrative.div "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\"><div xmlns=\"http://www.w3.org/1999/xhtml\">Here is where we put content</div>"
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://openhie.github.io/covid-19/Composition/WhoCrSampleComposition.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

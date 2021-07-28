@@ -1,0 +1,90 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapPatientOutcomeToCiel> a fhir:ConceptMap;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "WhoCrConceptMapPatientOutcomeToCiel"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "extensions" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>WhoCrConceptMapPatientOutcomeToCiel (http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapPatientOutcomeToCiel)</h2><p>Mapping from <a href=\"CodeSystem-WhoCrCodeSystemPatientOutcome.html\">http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemPatientOutcome</a> to https://openconceptlab.org/orgs/CIEL/sources/CIEL</p><p>DRAFT (not intended for production usage). Published on Jul 28, 2021, 6:06:14 PM by OpenHIE (OpenHIE: <a href=\"http://www.ohie.org\">http://www.ohie.org</a>). 2021</p><br/><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Destination Code</b></td></tr><tr><td>RECOVERED (Recovered/Healthy)</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equal\">is equal to</a></td><td>165870</td></tr><tr><td>NOTRECOVERED</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equal\">is equal to</a></td><td>165871</td></tr><tr><td>DEATH</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equal\">is equal to</a></td><td>160432</td></tr><tr><td>UNKNOWN</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equal\">is equal to</a></td><td>1067</td></tr></table></div>"
+  ];
+  fhir:ConceptMap.url [ fhir:value "http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapPatientOutcomeToCiel"];
+  fhir:ConceptMap.version [ fhir:value "0.1.0"];
+  fhir:ConceptMap.name [ fhir:value "WhoCrConceptMapPatientOutcomeToCiel"];
+  fhir:ConceptMap.status [ fhir:value "draft"];
+  fhir:ConceptMap.experimental [ fhir:value "true"^^xsd:boolean];
+  fhir:ConceptMap.date [ fhir:value "2021-07-28T18:06:14+00:00"^^xsd:dateTime];
+  fhir:ConceptMap.publisher [ fhir:value "OpenHIE"];
+  fhir:ConceptMap.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "OpenHIE" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "http://www.ohie.org" ]
+     ]
+  ];
+  fhir:ConceptMap.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://unstats.un.org/unsd/methods/m49/m49.htm" ];
+       fhir:Coding.code [ fhir:value "001" ]
+     ]
+  ];
+  fhir:ConceptMap.copyright [ fhir:value "2021"];
+  fhir:ConceptMap.sourceCanonical [
+     fhir:value "http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemPatientOutcome";
+     fhir:link <http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemPatientOutcome>
+  ];
+  fhir:ConceptMap.targetUri [ fhir:value "https://openconceptlab.org/orgs/CIEL/sources/CIEL"];
+  fhir:ConceptMap.group [
+     fhir:index 0;
+     fhir:ConceptMap.group.source [ fhir:value "http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemPatientOutcome" ];
+     fhir:ConceptMap.group.target [ fhir:value "https://openconceptlab.org/orgs/CIEL/sources/CIEL" ];
+     fhir:ConceptMap.group.element [
+       fhir:index 0;
+       fhir:ConceptMap.group.element.code [ fhir:value "RECOVERED" ];
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "165870" ];
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "equal" ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:ConceptMap.group.element.code [ fhir:value "NOTRECOVERED" ];
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "165871" ];
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "equal" ]
+       ]
+     ], [
+       fhir:index 2;
+       fhir:ConceptMap.group.element.code [ fhir:value "DEATH" ];
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "160432" ];
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "equal" ]
+       ]
+     ], [
+       fhir:index 3;
+       fhir:ConceptMap.group.element.code [ fhir:value "UNKNOWN" ];
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "1067" ];
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "equal" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://openhie.github.io/covid-19/ConceptMap/WhoCrConceptMapPatientOutcomeToCiel.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,52 @@
+{
+  "resourceType": "ValueSet",
+  "id": "WhoCrValueSetReasonForCovid19Testing",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-valueset"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-WhoCrCodeSystemReasonForTesting.html\"><code>http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemReasonForTesting</code></a></li></ul></div>"
+  },
+  "url": "http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetReasonForCovid19Testing",
+  "version": "0.1.0",
+  "name": "WhoCrValueSetReasonForCovid19Testing",
+  "title": "Reason for Covid-19 Testing",
+  "status": "draft",
+  "experimental": true,
+  "date": "2021-07-28T18:06:14+00:00",
+  "publisher": "OpenHIE",
+  "contact": [
+    {
+      "name": "OpenHIE",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://www.ohie.org"
+        }
+      ]
+    }
+  ],
+  "description": "TODO",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code": "001"
+        }
+      ]
+    }
+  ],
+  "immutable": false,
+  "copyright": "2021",
+  "compose": {
+    "include": [
+      {
+        "system": "http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemReasonForTesting"
+      }
+    ]
+  }
+}

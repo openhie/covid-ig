@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="WhoCrCodeSystemComorbidity"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemComorbidity defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">PREGNANCY<a name="WhoCrCodeSystemComorbidity-PREGNANCY"> </a></td><td>Pregnant</td><td>Patient is pregnant</td></tr><tr><td style="white-space:nowrap">POSTPARTUM<a name="WhoCrCodeSystemComorbidity-POSTPARTUM"> </a></td><td>Post-partum</td><td>Patient is in the post-partum period defined as less than 6 weeks after delivery date</td></tr><tr><td style="white-space:nowrap">IMMUNODEFICIENCY<a name="WhoCrCodeSystemComorbidity-IMMUNODEFICIENCY"> </a></td><td>Immunodeficiency</td><td>Patient has an acquired immunodeficiency (HIV) or is treated with drugs that decrease immune response (corticoides, anti-cancer chemotherapy)</td></tr><tr><td style="white-space:nowrap">CARDIOVASCULAR<a name="WhoCrCodeSystemComorbidity-CARDIOVASCULAR"> </a></td><td>Cardiovascular disease</td><td>Patient has any cardiovascular disease, including hypertension</td></tr><tr><td style="white-space:nowrap">DIABETES<a name="WhoCrCodeSystemComorbidity-DIABETES"> </a></td><td>Diabetes</td><td>Patient is diabetic</td></tr><tr><td style="white-space:nowrap">HEPATOPATHY<a name="WhoCrCodeSystemComorbidity-HEPATOPATHY"> </a></td><td>Liver Disease</td><td>Patient has any liver diseases</td></tr><tr><td style="white-space:nowrap">RENOPATHY<a name="WhoCrCodeSystemComorbidity-RENOPATHY"> </a></td><td>Kidney Disease</td><td>Patient has any renal disease</td></tr><tr><td style="white-space:nowrap">CHRONICNEUROPATHY<a name="WhoCrCodeSystemComorbidity-CHRONICNEUROPATHY"> </a></td><td>Chronic neurological or neuromuscular disease</td><td>Patient has chronic neurological or neuromuscular disease</td></tr><tr><td style="white-space:nowrap">MALIGNANCY<a name="WhoCrCodeSystemComorbidity-MALIGNANCY"> </a></td><td>Malignancy</td><td>Patient has any malignancy</td></tr><tr><td style="white-space:nowrap">CHRONICLUNG<a name="WhoCrCodeSystemComorbidity-CHRONICLUNG"> </a></td><td>Chronic Lung Disease</td><td>Patient has a chronic lung disease</td></tr></table></div>
+  </text>
+  <url value="http://openhie.github.io/covid-19/CodeSystem/WhoCrCodeSystemComorbidity"/>
+  <version value="0.1.0"/>
+  <name value="WhoCrCodeSystemComorbidity"/>
+  <title value="Patient Comorbidity"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2021-07-28T18:06:14+00:00"/>
+  <publisher value="OpenHIE"/>
+  <contact>
+    <name value="OpenHIE"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.ohie.org"/>
+    </telecom>
+  </contact>
+  <description value="Patient Comorbidity"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="2021"/>
+  <content value="complete"/>
+  <count value="10"/>
+  <concept>
+    <code value="PREGNANCY"/>
+    <display value="Pregnant"/>
+    <definition value="Patient is pregnant"/>
+  </concept>
+  <concept>
+    <code value="POSTPARTUM"/>
+    <display value="Post-partum"/>
+    <definition value="Patient is in the post-partum period defined as less than 6 weeks after delivery date"/>
+  </concept>
+  <concept>
+    <code value="IMMUNODEFICIENCY"/>
+    <display value="Immunodeficiency"/>
+    <definition value="Patient has an acquired immunodeficiency (HIV) or is treated with drugs that decrease immune response (corticoides, anti-cancer chemotherapy)"/>
+  </concept>
+  <concept>
+    <code value="CARDIOVASCULAR"/>
+    <display value="Cardiovascular disease"/>
+    <definition value="Patient has any cardiovascular disease, including hypertension"/>
+  </concept>
+  <concept>
+    <code value="DIABETES"/>
+    <display value="Diabetes"/>
+    <definition value="Patient is diabetic"/>
+  </concept>
+  <concept>
+    <code value="HEPATOPATHY"/>
+    <display value="Liver Disease"/>
+    <definition value="Patient has any liver diseases"/>
+  </concept>
+  <concept>
+    <code value="RENOPATHY"/>
+    <display value="Kidney Disease"/>
+    <definition value="Patient has any renal disease"/>
+  </concept>
+  <concept>
+    <code value="CHRONICNEUROPATHY"/>
+    <display value="Chronic neurological or neuromuscular disease"/>
+    <definition value="Patient has chronic neurological or neuromuscular disease"/>
+  </concept>
+  <concept>
+    <code value="MALIGNANCY"/>
+    <display value="Malignancy"/>
+    <definition value="Patient has any malignancy"/>
+  </concept>
+  <concept>
+    <code value="CHRONICLUNG"/>
+    <display value="Chronic Lung Disease"/>
+    <definition value="Patient has a chronic lung disease"/>
+  </concept>
+</CodeSystem>

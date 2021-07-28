@@ -1,0 +1,48 @@
+{
+  "resourceType": "Composition",
+  "id": "WhoCrSampleComposition",
+  "meta": {
+    "profile": [
+      "http://openhie.github.io/covid-19/StructureDefinition/WhoCrComposition"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>status</b>: final</p><p><b>type</b>: <span title=\"Codes: {http://loinc.org 95412-3}\">COVID-19 case report</span></p><p><b>category</b>: <span title=\"Codes: {http://loinc.org 55751-2}\">Public health Case report</span></p><p><b>date</b>: 2020-08-21</p><p><b>author</b>: <a href=\"Patient-WhoCrSamplePatient.html\">Generated Summary: </a></p><p><b>title</b>: Revised case report form for Confirmed Novel Coronavirus COVID-19</p></div>"
+  },
+  "status": "final",
+  "type": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "95412-3"
+      }
+    ]
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "55751-2"
+        }
+      ]
+    }
+  ],
+  "date": "2020-08-21",
+  "author": [
+    {
+      "reference": "Patient/WhoCrSamplePatient"
+    }
+  ],
+  "title": "Revised case report form for Confirmed Novel Coronavirus COVID-19",
+  "section": [
+    {
+      "title": "Patient Information",
+      "text": {
+        "status": "additional",
+        "div": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\"><div xmlns=\"http://www.w3.org/1999/xhtml\">Here is where we put content</div>"
+      }
+    }
+  ]
+}

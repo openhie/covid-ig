@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="WhoCrValueSetQuestionnaireResponseAcceptedStatus"/>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include these codes as defined in <a href="http://hl7.org/fhir/R4/codesystem-questionnaire-answers-status.html"><code>http://hl7.org/fhir/questionnaire-answers-status</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-questionnaire-answers-status.html#questionnaire-answers-status-completed">completed</a></td><td>Completed</td><td>This QuestionnaireResponse has been filled out with answers and the current content is regarded as definitive.</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-questionnaire-answers-status.html#questionnaire-answers-status-amended">amended</a></td><td>Amended</td><td>This QuestionnaireResponse has been filled out with answers, then marked as complete, yet changes or additions have been made to it afterwards.</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-questionnaire-answers-status.html#questionnaire-answers-status-stopped">stopped</a></td><td>Stopped</td><td>This QuestionnaireResponse has been partially filled out with answers but has been abandoned. It is unknown whether changes or additions are expected to be made to it.</td></tr></table></li></ul></div>
+  </text>
+  <url value="http://openhie.github.io/covid-19/ValueSet/WhoCrValueSetQuestionnaireResponseAcceptedStatus"/>
+  <version value="0.1.0"/>
+  <name value="WhoCrValueSetQuestionnaireResponseAcceptedStatus"/>
+  <title value="Who Case Reporting Acceptable QuestionnaireResponse Statuses"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2021-07-28T18:06:14+00:00"/>
+  <publisher value="OpenHIE"/>
+  <contact>
+    <name value="OpenHIE"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.ohie.org"/>
+    </telecom>
+  </contact>
+  <description value="TODO"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="2021"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/questionnaire-answers-status"/>
+      <concept>
+        <code value="completed"/>
+      </concept>
+      <concept>
+        <code value="amended"/>
+      </concept>
+      <concept>
+        <code value="stopped"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>
