@@ -6,9 +6,9 @@ name: CI
 # events but only for the master branch
 on:
   push:
-    branches: [ master ]
+    branches: [ master , clinical-bundle ]
   pull_request:
-    branches: [ master ]
+    branches: [ master , clinical-bundle ]
   workflow_dispatch:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
@@ -19,24 +19,36 @@ jobs:
     runs-on: ubuntu-latest
      
     # Steps represent a sequence of tasks that will be executed as part of the job
+        # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
+      - name: Update the image to the latest publisher
+        uses: docker://hl7fhir/ig-publisher-base:latest
+        with:
+          # Get the latest publisher - don't run the batch script but run the line directly
+          args: curl -L https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher.jar -o ./input-cache/publisher.jar --create-dirs
 
-      - name: Build Implementation Guide
-        run: |
-          docker run \
-            -v $(pwd):/home/publisher/ig \
-            hl7fhir/ig-publisher-base \
-            sh -c "./_updatePublisher.sh -y && ./_genonce.sh"
+      - name: Run the IG publisher
+        uses: docker://hl7fhir/ig-publisher-base:latest
+        with:
+          # Run the publisher - don't run the batch script but run the line directly
+          args: java -jar ./input-cache/publisher.jar publisher -ig .
 
-      - name: Move to output to docs subdirectory
-        run: |
-          mkdir ./public
-          mv ./output ./public/docs
-          
+      # deploy with output directory indicated by the tag or branch that triggered this workflow
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./output
+          destination_dir: ${{ github.ref }}
+          keep_files: true
 
+      # if it is the main branch, deploy to main directory
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        if: ${{ github.ref == 'refs/heads/main' || github.ref =='refs/heads/master' }} 
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./output
+          keep_files: true
