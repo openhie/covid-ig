@@ -543,6 +543,7 @@ Usage: #definition
 
 * item[7].item[2].linkId    = "outcome_asymp"
 * item[7].item[2].text      = "If case was asymptomatic at time of specimen collection resulting in first laboratory confirmation, did the case develop any symptoms or signs at any time prior to discharge or death?"
+* item[7].item[2].code      = $LNC#66421-9
 * item[7].item[2].answerValueSet = Canonical(WhoCrValueSetYesNoUnk)
 // * item[7].item[2].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.outcome.symptomatic"
 * item[7].item[2].type      = #choice
@@ -626,6 +627,7 @@ Usage: #definition
 
 * item[7].item[6].linkId  = "outcome_date_of_outcome"
 * item[7].item[6].text    = "Date of Release from isolation/hospital or Date of Death:"
+* item[7].item[6].code    = $LNC#46582-3 
 // * item[7].item[6].definition    = "http://openhie.github.io/covid-19/StructureDefinition/WhoCrSurveillanceDataDictionary#WhoCrSurveillanceDataDictionary.outcome.patientCourse.statusDate"
 * item[7].item[6].type    = #date
 

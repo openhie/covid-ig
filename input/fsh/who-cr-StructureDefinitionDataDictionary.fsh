@@ -1413,7 +1413,7 @@ Usage: #definition
 * differential.element[57].mapping[0].identity = "WhoCrDataDictionarySpreadsheet"
 * differential.element[57].mapping[0].map = "outcome_asymp"
 * differential.element[57].mapping[1].identity = "LOINC"
-* differential.element[57].mapping[1].map = "TODO"
+* differential.element[57].mapping[1].map = $LNC#66421-9
 * differential.element[57].mapping[2].identity = "CIEL"
 * differential.element[57].mapping[2].map = "TODO"
 * differential.element[57].mapping[3].identity = "ICD10"
@@ -1630,7 +1630,7 @@ Usage: #definition
 * differential.element[66].mapping[0].identity = "WhoCrDataDictionarySpreadsheet"
 * differential.element[66].mapping[0].map = "outcome_date_of_outcome"
 * differential.element[66].mapping[1].identity = "LOINC"
-* differential.element[66].mapping[1].map = "TODO"
+* differential.element[66].mapping[1].map = $LNC#46582-3
 * differential.element[66].mapping[2].identity = "CIEL"
 * differential.element[66].mapping[2].map = "TODO"
 * differential.element[66].mapping[3].identity = "ICD10"

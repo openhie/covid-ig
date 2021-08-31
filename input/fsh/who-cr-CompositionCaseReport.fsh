@@ -1,3 +1,6 @@
+
+
+
 Profile:    WhoCrComposition
 Parent:     Composition
 Description:    "WHO Case Reporting Composition"
@@ -6,10 +9,10 @@ Title:      "WHO Case Reporting Composition"
 * insert PublisherContextDefinitional
 * type = $LNC#95412-3
 * category = $LNC#55751-2
-
 * subject only Reference(WhoCrPatient)
 // * encounter
-// * author
+// * author 
+ 
 // * title
 // * attester
 // * custodian
@@ -42,6 +45,8 @@ Usage:      #example
 // * subject = Reference(WhoCrSamplePatient)
 * date = 2020-08-21
 * author = Reference(WhoCrSamplePatient) // TODO: create actual author
+
+
 * title = "Revised case report form for Confirmed Novel Coronavirus COVID-19"
 // * encounter
 // * author
