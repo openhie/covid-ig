@@ -11,7 +11,7 @@ Title:      "WHO Case Reporting Composition"
 * category = $LNC#55751-2
 * subject only Reference(WhoCrPatient)
 // * encounter
- * author 1..1 MS
+// * author 
  
 // * title
 // * attester
